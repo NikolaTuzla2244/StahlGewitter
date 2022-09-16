@@ -1,0 +1,227 @@
+ideologies = {
+	
+	national_socialism = {
+		types = {
+			national_socialism_subtype = {}
+
+			german_national_socialism_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 71 44 23 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 20.0
+				army_intel_to_others = 20.0
+				navy_intel_to_others = 2.0
+				airforce_intel_to_others = 20.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	national_populism = {
+		types = {
+			national_populism_subtype = {}
+
+			fascism_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 127 84 19 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 20.0
+				army_intel_to_others = 20.0
+				navy_intel_to_others = 2.0
+				airforce_intel_to_others = 20.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	despotism = {
+		types = {
+			despotism_subtype = {}
+		}
+		dynamic_faction_names = {}
+		color = { 20 20 20 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 20.0
+				army_intel_to_others = 20.0
+				navy_intel_to_others = 2.0
+				airforce_intel_to_others = 20.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	authoritarianism = {
+		types = {
+			authoritarianism_subtype = {}
+
+			royalist_democracy_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 80 80 80 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 20.0
+				army_intel_to_others = 20.0
+				navy_intel_to_others = 2.0
+				airforce_intel_to_others = 20.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	conservative_democracy = {
+		types = {
+			conservative_democracy_subtype = {}
+		}
+		dynamic_faction_names = {}
+		color = { 42 50 130 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 20.0
+				army_intel_to_others = 20.0
+				navy_intel_to_others = 2.0
+				airforce_intel_to_others = 20.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	liberal_democracy = {
+		types = {
+			liberal_democracy_subtype = {}
+		}
+		dynamic_faction_names = {}
+		color = { 22 77 119 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 20.0
+				army_intel_to_others = 20.0
+				navy_intel_to_others = 2.0
+				airforce_intel_to_others = 20.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	social_liberalism = {
+		types = {
+			social_liberalism_subtype = {}
+		}
+		dynamic_faction_names = {}
+		color = { 180 35 35 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 20.0
+				army_intel_to_others = 20.0
+				navy_intel_to_others = 2.0
+				airforce_intel_to_others = 20.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	authoritarian_socialism = {
+		types = {
+			authoritarian_socialism_subtype = {}
+
+			national_communism_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 124 17 19 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 20.0
+				army_intel_to_others = 20.0
+				navy_intel_to_others = 2.0
+				airforce_intel_to_others = 20.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	ultraradicalism = {
+		types = {
+			ultraradicalism_subtype = {}
+		}
+		dynamic_faction_names = {}
+		color = { 255 255 255 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 20.0
+				army_intel_to_others = 20.0
+				navy_intel_to_others = 2.0
+				airforce_intel_to_others = 20.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+}

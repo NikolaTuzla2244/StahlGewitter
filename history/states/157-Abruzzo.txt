@@ -1,0 +1,34 @@
+
+state={
+	id=157
+	name="STATE_157"
+	manpower = 2979335
+	
+	state_category = city
+
+	history={
+		owner = PNF
+		victory_points = {
+			925 1 
+		}
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 1
+			925 = {
+				naval_base = 4
+			}
+			6831 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = PNF
+	}
+
+	provinces={
+		925 967 9838 11790 
+		#6926 11861
+		#3923 3966 963 6831 3910
+	}
+
+	local_supplies=0.0 
+}

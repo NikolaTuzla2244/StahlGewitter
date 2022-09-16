@@ -1,0 +1,33 @@
+
+state={
+	id=835
+	name="STATE_835"
+	manpower = 812000
+	resources={
+		steel=40 # was: 59
+		aluminium=12 # was: 14
+	}
+	
+	state_category = metropolis
+
+	history={
+		owner = SBK
+		victory_points = { 11531 5 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = SBK
+	
+		set_demilitarized_zone = yes
+	}
+
+	provinces={
+		9575 11531
+	}
+	
+	
+
+	local_supplies=0.0 
+}

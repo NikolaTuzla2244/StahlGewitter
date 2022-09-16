@@ -1,0 +1,13 @@
+characters={
+	FRA_Jacques_Duclos = {
+		name = FRA_Jacques_Duclos
+		portraits={
+			civilian={
+				large = "gfx/characters/large/FRA/Portrait_FRA_Jacques_Duclos.png"
+			}
+		}
+		country_leader = {
+			ideology = national_communism_subtype
+		}
+	}
+}

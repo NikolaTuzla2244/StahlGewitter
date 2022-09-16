@@ -1,0 +1,9 @@
+
+UKR_SOV = {
+	color = rgb { 135 23 34 }
+	color_ui = rgb { 135 23 34 }
+}
+BLR_SOV = {
+	color = rgb { 115 3 14 }
+	color_ui = rgb { 115 3 14 }
+}

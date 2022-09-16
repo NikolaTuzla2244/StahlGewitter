@@ -1,0 +1,27 @@
+state={
+	id=844
+	name="STATE_844"
+	manpower = 2979335
+	
+	state_category = city
+
+	history={
+		owner = PCI
+		victory_points = {
+			6788 10 
+		}
+		buildings = {
+			infrastructure = 3 #was: 6
+			6788 = {
+				naval_base = 8
+			}
+		}
+		add_core_of = PCI
+	}
+
+	provinces={
+		11891 3772 6788
+	}
+
+	local_supplies=0.0 
+}

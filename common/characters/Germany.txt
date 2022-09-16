@@ -1,0 +1,13 @@
+characters={
+	GER_Adolf_Hitler = {
+		name = GER_Adolf_Hitler
+		portraits={
+			civilian={
+				large = "gfx/characters/large/GER/Portrait_GER_Adolf_Hitler.png"
+			}
+		}
+		country_leader = {
+			ideology = german_national_socialism_subtype
+		}
+	}
+}

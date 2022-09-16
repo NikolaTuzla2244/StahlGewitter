@@ -1,0 +1,21 @@
+state={
+	id=843
+	name="STATE_843"
+	manpower = 2979335
+	
+	state_category = city
+
+	history={
+		owner = FIU
+		buildings = {
+			infrastructure = 3 #was: 6
+		}
+		add_core_of = FIU
+	}
+
+	provinces={
+		628 9613
+	}
+
+	local_supplies=0.0 
+}

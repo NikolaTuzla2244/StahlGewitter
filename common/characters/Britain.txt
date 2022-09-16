@@ -1,0 +1,13 @@
+characters={
+	ENG_Winston_Churchill = {
+		name = ENG_Winston_Churchill
+		portraits={
+			civilian={
+				large = "gfx/characters/large/ENG/Portrait_ENG_Winston_Churchill.png"
+			}
+		}
+		country_leader = {
+			ideology = royalist_democracy_subtype
+		}
+	}
+}

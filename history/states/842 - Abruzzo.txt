@@ -1,0 +1,21 @@
+state={
+	id=842
+	name="STATE_842"
+	manpower = 2979335
+	
+	state_category = city
+
+	history={
+		owner = PNF
+		buildings = {
+			infrastructure = 3 #was: 6
+		}
+		add_core_of = PNF
+	}
+
+	provinces={
+		3923 3966 963 6831 3910
+	}
+
+	local_supplies=0.0 
+}

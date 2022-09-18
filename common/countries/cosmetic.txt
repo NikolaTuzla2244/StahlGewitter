@@ -7,3 +7,7 @@ BLR_SOV = {
 	color = rgb { 115 3 14 }
 	color_ui = rgb { 115 3 14 }
 }
+BAL_SOV = {
+	color = rgb { 115 3 14 }
+	color_ui = rgb { 115 3 14 }
+}

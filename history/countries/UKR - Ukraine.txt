@@ -75,7 +75,7 @@ set_politics = {
 }
 set_popularities = {
 	authoritarian_socialism = 70
-	social_liberalism_subtype = 30
+	social_liberalism = 30
 }
 
 add_ideas = {

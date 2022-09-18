@@ -1,4 +1,6 @@
-capital = 117
+capital = 10
+
+set_cosmetic_tag = BAL_SOV
 
 # Starting tech
 set_technology = {
@@ -60,21 +62,20 @@ set_technology = {
 	armored_car1 = 1
 }
 
-set_research_slots = 3
+set_research_slots = 2
 set_convoys = 200
 set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = authoritarian_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 70
-	liberal_democracy = 15
-	conservative_democracy = 15
+	authoritarian_socialism = 80
+	social_liberalism = 20
 }
 
 add_ideas = {
@@ -83,4 +84,4 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-# recruit_character = ITA_Pietro_Badoglio
+# recruit_character = ITA_Italo_Baobo

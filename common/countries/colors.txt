@@ -56,6 +56,10 @@ AUS = {
 	color = rgb { 194 198 215 }
 	color_ui = rgb { 255 255 255 }
 }
+BAL = {
+	color = rgb { 125 125 125 }
+	color_ui = rgb { 125 125 125 }
+}
 LIT = {
 	color = rgb { 219 219 119 }
 	color_ui = rgb { 255 255 155 }
@@ -69,8 +73,8 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 242 205 94 }
-	color_ui = rgb { 255 255 122 }
+	color = rgb { 196 152 90 }
+	color_ui = rgb { 196 152 90 }
 }
 ITA = {
 	color = rgb { 67 127 63 }

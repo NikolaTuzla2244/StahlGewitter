@@ -1,4 +1,4 @@
-capital = 117
+capital = 41
 
 # Starting tech
 set_technology = {
@@ -62,7 +62,7 @@ set_technology = {
 
 set_research_slots = 3
 set_convoys = 200
-set_stability = 0.45
+set_stability = 0.25
 set_war_support = 0.3
 
 set_politics = {
@@ -72,9 +72,14 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 70
-	liberal_democracy = 15
-	conservative_democracy = 15
+	#右派 - 40
+	despotism = 30
+	national_populism = 10
+	#左派 - 60
+	social_liberalism = 20
+	authoritarian_socialism = 15
+	reformism = 20
+	ultraradicalism = 5
 }
 
 add_ideas = {
@@ -83,4 +88,4 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-# recruit_character = ITA_Pietro_Badoglio
+# recruit_character = SPR_Antonio_Goicoechea

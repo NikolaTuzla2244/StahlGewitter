@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = EST
+		owner = BAL
 		victory_points = {
 			3174 1 #Voru
 		}
@@ -19,7 +19,7 @@ state={
 
 		}
 		add_core_of = EST
-
+		add_core_of = BAL
 	}
 
 	provinces={

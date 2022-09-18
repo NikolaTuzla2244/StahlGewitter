@@ -1,0 +1,13 @@
+characters = {
+	ITA_Italo_Baobo = {
+		name = ITA_Italo_Baobo
+		portraits={
+			civilian={
+				large = "gfx/characters/large/ITA/Portrait_ITA_Italo_Baobo.png"
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+		}
+	}
+}

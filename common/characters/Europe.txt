@@ -1,0 +1,24 @@
+characters = {
+	SWE_Per_Albin_Hansson = {
+		name = SWE_Per_Albin_Hansson
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SWE/Portrait_SWE_Per_Albin_Hansson.png"
+			}
+		}
+		country_leader = {
+			ideology = reformism_subtype
+		}
+	}
+	HUN_Gombos_Gyula = {
+		name = HUN_Gombos_Gyula
+		portraits={
+			civilian={
+				large = "gfx/characters/large/HUN/Portrait_HUN_Gombos_Gyula.png"
+			}
+		}
+		country_leader = {
+			ideology = national_populism_subtype
+		}
+	}
+}

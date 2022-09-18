@@ -28,11 +28,13 @@ LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
-BEL = { color 	 = rgb { 193 171 8  }
-		color_ui = rgb { 251 222 10 }
-	  }
-HOL = {	color = rgb { 203 138 74 }
-		color_ui = rgb { 255 179 96 }
+BEL = {
+	color 	 = rgb { 193 171 8  }
+	color_ui = rgb { 251 222 10 }
+	}
+HOL = {
+	color = rgb { 203 138 74 }
+	color_ui = rgb { 255 179 96 }
 }
 CZE = {	
 	color = rgb { 77 124 110 }
@@ -286,6 +288,26 @@ MON = {
 	#color = HSV { 0.1 0.15 0.4 }
 	color = rgb { 108 140 42 }
 	color_ui = rgb { 209 247 133 }
+}
+KAZ = {
+	color = rgb { 14 41 96 }
+	color_ui = rgb { 14 41 96 }
+}
+UZB = {
+	color = rgb { 14 94 75 }
+	color_ui = rgb { 14 94 75 }
+}
+TMS = {
+	color = rgb { 64 99 52 }
+	color_ui = rgb { 64 99 52 }
+}
+KYR = {
+	color = rgb { 94 58 50 }
+	color_ui = rgb { 94 58 50 }
+}
+TAJ = {
+	color = rgb { 80 81 43 }
+	color_ui = rgb { 80 81 43 }
 }
 MEN = {
 	color = rgb { 185  255  152 }

@@ -24,6 +24,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/liberal_democracy_group.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_reformism_group"
+		texturefile = "gfx/interface/ideologies/reformism_group.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_social_liberalism_group"
 		texturefile = "gfx/interface/ideologies/social_liberalism_group.dds"
 	}

@@ -1,0 +1,43 @@
+﻿l_english:
+
+#テンプレート
+_national_socialism_party:0 ""
+_national_socialism_party_long:0 ""
+_national_populism_party:0 ""
+_national_populism_party_long:0 ""
+_despotism_party:0 ""
+_despotism_party_long:0 ""
+_authoritarianism_party:0 ""
+_authoritarianism_party_long:0 ""
+_conservative_democracy_party:0 ""
+_conservative_democracy_party_long:0 ""
+_liberal_democracy_party:0 ""
+_liberal_democracy_party_long:0 ""
+_social_liberalism_party:0 ""
+_social_liberalism_party_long:0 ""
+_authoritarian_socialism_party:0 ""
+_authoritarian_socialism_party_long:0 ""
+_ultraradicalism_party:0 ""
+_ultraradicalism_party_long:0 ""
+
+#ドイツ
+GER_national_socialism_party:0 "NSDAP - 右派"
+GER_national_socialism_party_long:0 "国家社会主義ドイツ労働者党 - ヒトラー派"
+GER_national_populism_party:0 "NSDAP - 左派"
+GER_national_populism_party_long:0 "国家社会主義ドイツ労働者党 - シュトラッサー派"
+GER_despotism_party:0 "NSDAP - SA"
+GER_despotism_party_long:0 "国家社会主義ドイツ労働者党 - 突撃隊"
+
+#ハンガリー
+HUN_national_socialism_party:0 "矢十字党"
+HUN_national_socialism_party_long:0 "矢十字党"
+HUN_national_populism_party:0 "統一党"
+HUN_national_populism_party_long:0 "統一党"
+
+#ポーランド
+POL_national_socialism_party:0 "国家急進キャンプ"
+POL_national_socialism_party_long:0 "国家急進キャンプ"
+POL_despotism_party:0 "国家統一キャンプ"
+POL_despotism_party_long:0 "国家統一キャンプ"
+POL_authoritarian_socialism_party:0 ""
+POL_authoritarian_socialism_party_long:0 ""

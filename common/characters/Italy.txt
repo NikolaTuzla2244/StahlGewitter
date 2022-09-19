@@ -1,4 +1,15 @@
 characters = {
+	ITA_Antonio_Gramsci = {
+		name = ITA_Antonio_Gramsci
+		portraits={
+			civilian={
+				large = "gfx/characters/large/ITA/Portrait_ITA_Antonio_Gramsci.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_subtype
+		}
+	}
 	ITA_Italo_Baobo = {
 		name = ITA_Italo_Baobo
 		portraits={
@@ -8,6 +19,17 @@ characters = {
 		}
 		country_leader = {
 			ideology = fascism_subtype
+		}
+	}
+	ITA_Pietro_Badoglio = {
+		name = ITA_Pietro_Badoglio
+		portraits={
+			civilian={
+				large = "gfx/characters/large/ITA/Portrait_ITA_Pietro_Badoglio.png"
+			}
+		}
+		country_leader = {
+			ideology = despotism_subtype
 		}
 	}
 }

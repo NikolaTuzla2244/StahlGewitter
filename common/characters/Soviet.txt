@@ -1,0 +1,13 @@
+characters = {
+	SOV_Sergei_Kirov = {
+		name = SOV_Sergei_Kirov
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SOV/Portrait_SOV_Sergei_Kirov.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_subtype
+		}
+	}
+}

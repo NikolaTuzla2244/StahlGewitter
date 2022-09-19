@@ -7,17 +7,17 @@ bookmarks = {
 		default_country = GER
 		default = yes
 		
-		FRA = {
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = authoritarian_socialism
+		GER = {
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = national_socialism
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		GER = {
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = national_socialism
+		FRA = {
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = authoritarian_socialism
 			ideas = {
 			}
 			focuses = {
@@ -31,6 +31,47 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		SOV = {
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = authoritarian_socialism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		PCI = {
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = authoritarian_socialism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		PNF = {
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = national_populism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		ITA = {
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = despotism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		HUN = {
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = national_populism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
 
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"

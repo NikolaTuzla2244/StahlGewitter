@@ -83,4 +83,4 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-# recruit_character = ITA_Pietro_Badoglio
+recruit_character = ITA_Pietro_Badoglio

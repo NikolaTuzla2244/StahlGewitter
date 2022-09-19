@@ -81,4 +81,5 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 }
-# recruit_character = GER_Adolf_Hitler
+
+recruit_character = SOV_Sergei_Kirov

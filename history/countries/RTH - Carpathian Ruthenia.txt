@@ -1,4 +1,4 @@
-capital = 4
+capital = 73
 
 # Starting tech
 set_technology = {
@@ -60,31 +60,21 @@ set_technology = {
 	armored_car1 = 1
 }
 
-set_research_slots = 4
+set_research_slots = 3
 set_convoys = 200
 set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = reformism
+	ruling_party = conservative_democracy
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	national_populism = 15
-	despotism = 25
-	reformism = 60
+	conservative_democracy = 70
+	national_populism = 30
 }
-
-create_faction = DANUBE_LEAGUE
-add_to_faction = AUS
-add_to_faction = CZE
-add_to_faction = RTH
-add_to_faction = HUN
-add_to_faction = TRA
-add_to_faction = SCS
-
 
 add_ideas = {
 	limited_exports
@@ -92,4 +82,4 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-# recruit_character = FRA_Jacques_Duclos
+# recruit_character = SWE_Per_Albin_Hansson

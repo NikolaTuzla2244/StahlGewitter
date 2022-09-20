@@ -20,3 +20,6 @@ reformism_noun:0 "修正主義"
 social_liberalism_noun:0 "社会自由主義"
 authoritarian_socialism_noun:0 "権威社会主義"
 ultraradicalism_noun:0 "超急進主義"
+#サブイデオロギー
+fascism_subtype:0 "ファシズム"
+military_junta_subtype:0 "軍事政権"

@@ -29,7 +29,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism_subtype
+			ideology = military_junta_subtype
 		}
 	}
 }

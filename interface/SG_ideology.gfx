@@ -35,4 +35,13 @@ spriteTypes = {
 		name = "GFX_ideology_authoritarian_socialism_group"
 		texturefile = "gfx/interface/ideologies/authoritarian_socialism_group.dds"
 	}
+	#Sub-ideology
+	spriteType = {
+		name = "GFX_ideology_fascism_subtype"
+		texturefile = "gfx/interface/ideologies/fascism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_military_junta_subtype"
+		texturefile = "gfx/interface/ideologies/military_junta_subtype.dds"
+	}
 }

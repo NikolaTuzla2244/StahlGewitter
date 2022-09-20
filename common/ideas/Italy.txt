@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+		ITA_Vittorio_Emanuele_III = {
+			allowed = {
+				tag = ITA
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+	}
+}

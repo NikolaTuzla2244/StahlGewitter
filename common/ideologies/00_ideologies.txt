@@ -55,6 +55,8 @@ ideologies = {
 	despotism = {
 		types = {
 			despotism_subtype = {}
+
+			military_junta_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 20 20 20 }

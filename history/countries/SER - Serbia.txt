@@ -1,4 +1,4 @@
-capital = 117
+capital = 107
 
 # Starting tech
 set_technology = {
@@ -72,17 +72,13 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 70
-	liberal_democracy = 15
-	conservative_democracy = 15
+	despotism = 100
 }
 
 add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-
-	ITA_Vittorio_Emanuele_III
 }
 
-recruit_character = ITA_Pietro_Badoglio
+# recruit_character = SER_Aleksandar_I

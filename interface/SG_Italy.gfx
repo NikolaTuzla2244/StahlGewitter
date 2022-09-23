@@ -1,0 +1,7 @@
+spriteTypes = {
+	#国民精神
+	spriteType = {
+		name = "GFX_idea_ITA_Vittorio_Emanuele_III"
+		texturefile = "gfx/interface/ideas/ITA/idea_ITA_Vittorio_Emanuele_III.png"
+	}
+}

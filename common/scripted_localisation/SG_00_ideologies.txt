@@ -1,0 +1,148 @@
+defined_text = {
+	name = GetSubIdeologyName
+	text = {
+		trigger = {
+			has_government = national_socialism
+		}
+		localization_key = "[GetSubIdeologyName_NatSoc]"
+	}
+	text = {
+		trigger = {
+			has_government = national_populism
+		}
+		localization_key = "[GetSubIdeologyName_NatPop]"
+	}
+	text = {
+		trigger = {
+			has_government = despotism
+		}
+		localization_key = "[GetSubIdeologyName_Des]"
+	}
+	text = {
+		trigger = {
+			has_government = authoritarianism
+		}
+		localization_key = "[GetSubIdeologyName_Aut]"
+	}
+	text = {
+		trigger = {
+			has_government = conservative_democracy
+		}
+		localization_key = "[GetSubIdeologyName_ConDem]"
+	}
+	text = {
+		trigger = {
+			has_government = liberal_democracy
+		}
+		localization_key = "[GetSubIdeologyName_LibDem]"
+	}
+	text = {
+		trigger = {
+			has_government = reformism
+		}
+		localization_key = "[GetSubIdeologyName_SocDem]"
+	}
+	text = {
+		trigger = {
+			has_government = social_liberalism
+		}
+		localization_key = "[GetSubIdeologyName_SocLib]"
+	}
+	text = {
+		trigger = {
+			has_government = authoritarian_socialism
+		}
+		localization_key = "[GetSubIdeologyName_AutSoc]"
+	}
+	text = {
+		trigger = {
+			has_government = ultraradicalism
+		}
+		localization_key = "[GetSubIdeologyName_UltRad]"
+	}
+}
+
+defined_text = { #国家社会主義
+	name = GetSubIdeologyName_NatSoc
+	text = {
+		trigger = { has_country_leader_ideology = german_national_socialism_subtype }
+		localization_key = german_national_socialism_subtype
+	}
+	text = {
+		localization_key = national_socialism
+	}
+}
+defined_text = { #愛国的ポピュリズム
+	name = GetSubIdeologyName_NatPop
+	text = {
+		trigger = { has_country_leader_ideology = fascism_subtype }
+		localization_key = fascism_subtype
+	}
+	text = {
+		localization_key = national_populism
+	}
+}
+defined_text = { #専制主義
+	name = GetSubIdeologyName_Des
+	text = {
+		trigger = { has_country_leader_ideology = military_junta_subtype }
+		localization_key = military_junta_subtype
+	}
+	text = {
+		localization_key = despotism
+	}
+}
+defined_text = { #権威主義
+	name = GetSubIdeologyName_Aut
+	text = {
+		trigger = { has_country_leader_ideology = limited_democracy_subtype }
+		localization_key = limited_democracy_subtype
+	}
+	text = {
+		localization_key = authoritarianism
+	}
+}
+defined_text = { #保守民主主義
+	name = GetSubIdeologyName_ConDem
+	text = {
+		localization_key = conservative_democracy
+	}
+}
+defined_text = { #自由民主主義
+	name = GetSubIdeologyName_LibDem
+	text = {
+		localization_key = liberal_democracy
+	}
+}
+defined_text = { #修正主義
+	name = GetSubIdeologyName_SocDem
+	text = {
+		trigger = { has_country_leader_ideology = social_democracy_subtype }
+		localization_key = social_democracy_subtype
+	}
+	text = {
+		localization_key = reformism
+	}
+}
+defined_text = { #社会自由主義
+	name = GetSubIdeologyName_SocLib
+	text = {
+		localization_key = social_liberalism
+	}
+}
+defined_text = { #権威社会主義
+	name = GetSubIdeologyName_AutSoc
+	text = {
+		trigger = { has_country_leader_ideology = national_communism_subtype }
+		localization_key = national_communism_subtype
+	}
+	text = {
+		localization_key = authoritarian_socialism
+	}
+}
+defined_text = { #超急進主義
+	name = GetSubIdeologyName_UltRad
+	text = {
+		localization_key = ultraradicalism
+	}
+}

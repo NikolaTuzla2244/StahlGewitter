@@ -88,3 +88,7 @@ add_ideas = {
 }
 
 recruit_character = FRA_Jacques_Duclos
+#recruit_character = FRA_Sébastien_Faure
+#recruit_character = FRA_Simon_Sabiani
+#recruit_character = FRA_Benjamin_Péret
+#recruit_character = FRA_Paul_Éluard

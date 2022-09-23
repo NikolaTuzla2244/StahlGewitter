@@ -80,6 +80,8 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+
+	HUN_Karl_I
 }
 
 recruit_character = HUN_Gombos_Gyula

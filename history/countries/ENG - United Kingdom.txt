@@ -88,6 +88,8 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+
+	ENG_Edward_VIII
 }
 
 recruit_character = ENG_Winston_Churchill

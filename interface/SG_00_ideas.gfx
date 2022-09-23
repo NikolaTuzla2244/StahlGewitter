@@ -1,0 +1,7 @@
+spriteTypes = {
+	#国民精神
+	spriteType = {
+		name = "GFX_idea_HUN_Karl_I"
+		texturefile = "gfx/interface/ideas/HUN/idea_HUN_Karl_I.png"
+	}
+}

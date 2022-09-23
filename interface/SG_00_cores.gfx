@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_pol_piechart_frame"
+		texturefile = "gfx/interface/pol_piechart_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_pol_piechart_overlay_SG"
+		texturefile = "gfx/interface/SG_pol_piechart_overlay.dds"
+	}
+}

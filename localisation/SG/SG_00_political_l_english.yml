@@ -21,5 +21,14 @@ social_liberalism_noun:0 "社会自由主義"
 authoritarian_socialism_noun:0 "権威社会主義"
 ultraradicalism_noun:0 "超急進主義"
 #サブイデオロギー
+german_national_socialism_subtype:0 "ナチズム"
+
 fascism_subtype:0 "ファシズム"
+
 military_junta_subtype:0 "軍事政権"
+
+limited_democracy_subtype:0 "限定的民主主義"
+
+social_democracy_subtype:0 "社会民主主義"
+
+national_communism_subtype:0 "愛国共産主義"

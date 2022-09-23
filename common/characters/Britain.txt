@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = royalist_democracy_subtype
+			ideology = limited_democracy_subtype
 		}
 	}
 }

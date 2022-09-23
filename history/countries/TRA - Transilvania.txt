@@ -1,4 +1,4 @@
-capital = 117
+capital = 76
 
 # Starting tech
 set_technology = {
@@ -66,23 +66,20 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = national_populism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 70
-	liberal_democracy = 15
-	conservative_democracy = 15
+	national_populism = 65
+	national_socialism = 35
 }
 
 add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-
-	ITA_Vittorio_Emanuele_III
 }
 
-recruit_character = ITA_Pietro_Badoglio
+# recruit_character = HUN_Gombos_Gyula

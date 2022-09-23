@@ -1,4 +1,4 @@
-capital = 117
+capital = 109
 
 # Starting tech
 set_technology = {
@@ -66,23 +66,23 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = conservative_democracy
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 70
-	liberal_democracy = 15
-	conservative_democracy = 15
+	conservative_democracy = 50
+	authoritarian_socialism = 40
+	national_socialism = 10
 }
 
 add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-
-	ITA_Vittorio_Emanuele_III
 }
 
-recruit_character = ITA_Pietro_Badoglio
+# recruit_character = SCS_Stjepan_Radic
+# recruit_character = SCS_Josip_Broz_Tito
+# recruit_character = SCS_Ante_Pavelic

@@ -1,9 +1,9 @@
 ideas = {
 	country = {
-		ITA_Vittorio_Emanuele_III = {
-			picture = ITA_Vittorio_Emanuele_III
+		ENG_Edward_VIII = {
+			picture = ENG_Edward_VIII
 			allowed = {
-				tag = ITA
+				tag = ENG
 			}
 			removal_cost = -1
 			modifier = {

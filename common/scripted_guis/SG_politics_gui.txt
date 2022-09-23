@@ -1,0 +1,11 @@
+scripted_gui = {
+	SG_countrypoliticsview = {
+		window_name = "SG_countrypoliticsview"
+		context_type = player_context
+		parent_window_token = politics_tab
+			
+		visible = {
+			always = yes
+		}
+	}
+}

@@ -1,0 +1,36 @@
+defined_text = {
+	name = sub_leader_portrait
+	text = {
+		trigger = {
+			has_idea = ENG_Edward_VIII_HoG
+		}
+		localization_key = "GFX_Portrait_ENG_Edward_VIII"
+	}
+	text = {
+		trigger = {
+			has_idea = ENG_Edward_VIII_HoG
+		}
+		localization_key = "GFX_Portrait_ENG_Edward_VIII"
+	}
+	text = {
+		trigger = {
+			has_idea = ENG_Edward_VIII_HoG
+		}
+		localization_key = "GFX_Portrait_ENG_Edward_VIII"
+	}
+	text = {
+		localization_key = "GFX_leader_unknown"
+	}
+}
+defined_text = {
+	name = sub_leader_name
+	text = {
+		trigger = {
+			has_idea = ENG_Edward_VIII_HoG
+		}
+		localization_key = ENG_Edward_VIII
+	}
+	text = {
+		localization_key = "unknown"
+	}
+}

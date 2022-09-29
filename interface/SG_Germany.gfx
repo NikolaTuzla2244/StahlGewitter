@@ -1,0 +1,11 @@
+spriteTypes = {
+	#国民精神
+	spriteType = {
+		name = "GFX_idea_GER_bitter_defeat"
+		texturefile = "gfx/interface/ideas/GER/idea_GER_bitter_defeat.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_Saarland"
+		texturefile = "gfx/interface/ideas/GER/idea_GER_Saarland.png"
+	}
+}

@@ -1,4 +1,4 @@
-capital = 76
+﻿capital = 835
 
 # Starting tech
 set_technology = {
@@ -63,23 +63,26 @@ set_technology = {
 set_research_slots = 3
 set_convoys = 200
 set_stability = 0.45
-set_war_support = 0.3
+set_war_support = 0.1
 
 set_politics = {
-	ruling_party = national_populism
+	ruling_party = authoritarianism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	national_socialism = 35
-	authoritarianism = 65
+	authoritarianism = 50
+	authoritarian_socialism = 30
+	national_socialism = 20
 }
 
 add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+
+	GER_Saarland
 }
 
-# recruit_character = HUN_Gombos_Gyula
+# recruit_character = SOV_Sergei_Kirov

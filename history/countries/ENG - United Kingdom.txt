@@ -89,7 +89,12 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 
-	ENG_Edward_VIII
 }
 
+create_faction = BRITISH_EMPIRE
+add_to_faction = ENG
+
 recruit_character = ENG_Winston_Churchill
+recruit_character = ENG_Edward_VIII
+
+activate_advisor = ENG_Edward_VIII_HoG

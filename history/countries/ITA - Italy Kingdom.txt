@@ -81,8 +81,9 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-
-	ITA_Vittorio_Emanuele_III
 }
 
 recruit_character = ITA_Pietro_Badoglio
+recruit_character = ITA_Vittorio_Emanuele_III
+
+activate_advisor = ITA_Vittorio_Emanuele_III_HoG

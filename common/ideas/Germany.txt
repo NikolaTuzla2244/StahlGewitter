@@ -1,0 +1,33 @@
+ideas = {
+	country = {
+		GER_bitter_defeat = {
+			picture = GER_bitter_defeat
+			allowed = {
+				tag = GER
+			}
+			removal_cost = -1
+			modifier = {
+				forced_surrender_limit = 0.15
+				stability_factor = 0.1
+
+				conservative_democracy_acceptance = -20
+				reformism_acceptance = -20
+				social_liberalism_acceptance = -20
+				authoritarian_socialism_acceptance = -20
+			}
+		}
+		GER_Saarland = {
+			picture = GER_Saarland
+			allowed = {
+				tag = SBK
+			}
+			removal_cost = -1
+			targeted_modifier = {
+				tag = FRA
+
+				cic_to_target_factor = 1.0
+				mic_to_target_factor = 1.0
+			}
+		}
+	}
+}

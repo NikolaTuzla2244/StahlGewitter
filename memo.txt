@@ -4,3 +4,7 @@
 #GUI
 #枠 - H;0,S:0,V:20 BevelはDepth:1,Strength:0.75 影はwide:2,Blur:2
 #枠の太さは 8 or 5 or 3
+
+#ボタン
+#枠 ベベルDepth:1,Strength:0.75
+#影はwide:1,Blur:4

@@ -85,6 +85,8 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+
+	GER_bitter_defeat
 }
 recruit_character = GER_Adolf_Hitler
 

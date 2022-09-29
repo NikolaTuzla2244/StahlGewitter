@@ -1,0 +1,7 @@
+spriteTypes = {
+	#ポートレート
+	spriteType = {
+		name = "GFX_Portrait_HUN_Karl_I"
+		texturefile = "gfx/characters/large/HUN/Portrait_HUN_Karl_I.png"
+	}
+}

@@ -7,4 +7,8 @@ spriteTypes = {
 		name = "GFX_pol_piechart_overlay_SG"
 		texturefile = "gfx/interface/SG_pol_piechart_overlay.dds"
 	}
+	spriteType = {
+		name = "GFX_SG_monach_button"
+		texturefile = "gfx/interface/SG_monach_button.png"
+	}
 }

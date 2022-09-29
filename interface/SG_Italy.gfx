@@ -1,4 +1,9 @@
 spriteTypes = {
+	#ポートレート
+	spriteType = {
+		name = "GFX_Portrait_ITA_Vittorio_Emanuele_III"
+		texturefile = "gfx/characters/large/ITA/Portrait_ITA_Vittorio_Emanuele_III.png"
+	}
 	#国民精神
 	spriteType = {
 		name = "GFX_idea_ITA_Vittorio_Emanuele_III"

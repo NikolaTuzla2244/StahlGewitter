@@ -31,6 +31,7 @@ ideologies = {
 			national_populism_subtype = {}
 
 			fascism_subtype = { can_be_randomly_selected = no }
+			revolutionary_national_socialism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 127 69 19 }

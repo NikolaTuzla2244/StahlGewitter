@@ -120,7 +120,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "exile_info_container"
-			position = { x = -145 y = 241 }
+			position = { x = 245 y = 241 }
 			size = { width = 150 height = 75 }
 			clipping = no
 			Orientation = UPPER_RIGHT
@@ -546,7 +546,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "leader_name"
-			position = { x = 18 y = 262 }
+			position = { x = 18 y = 270 }
 			font = "hoi_18mbs"
 			text = "leader_name"
 			maxWidth = 155

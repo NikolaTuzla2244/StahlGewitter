@@ -1,2 +1,20 @@
 ﻿l_japanese:
+SG_trait_national_socialism:0 "国家社会主義者"
+SG_trait_national_populism:0 "愛国的ポピュリスト"
+SG_trait_despotism:0 "専制主義者"
+SG_trait_authoritarianism:0 "権威主義者"
+SG_trait_conservative_democracy:0 "保守民主主義者"
+SG_trait_liberal_democracy:0 "自由民主主義者"
+SG_trait_reformism:0 "修正主義者"
+SG_trait_social_liberalism:0 "社会自由主義者"
+SG_trait_authoritarian_socialism:0 "権威社会主義者"
+
+SG_trait_Head_of_Government:0 "" #政府首班
+SG_trait_Cabinet_Minister:0 "" #内閣
+
 SG_trait_Monach:0 "君主"
+
+SG_trait_Security_Minister:0 "内務大臣"
+SG_trait_Foreign_Minister:0 "外務大臣"
+SG_trait_Finance_Minister:0 "財務大臣"
+SG_trait_Defense_Minister:0 "国防大臣"

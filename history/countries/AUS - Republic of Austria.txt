@@ -72,9 +72,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	national_populism = 15
-	despotism = 25
-	reformism = 60
+	national_socialism = 20
+	reformism = 40
+	social_liberalism = 30
+	authoritarian_socialism = 10
 }
 
 create_faction = DANUBE_LEAGUE

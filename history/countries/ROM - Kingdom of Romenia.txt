@@ -66,23 +66,20 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = conservative_democracy
+	ruling_party = national_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	conservative_democracy = 40
 	despotism = 40
-	national_socialism = 20
+	national_socialism = 60
 }
 
 add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-
-	HUN_Karl_I
 }
 
 # recruit_character = HUN_Gombos_Gyula

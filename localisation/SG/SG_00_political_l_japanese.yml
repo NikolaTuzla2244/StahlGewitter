@@ -14,6 +14,7 @@ Air_Chief:0 "空軍長官"
 Head_of_Intelligence:0 "情報長官"
 High_Command:0 "司令官"
 
+minister_available_tt:0 "§Y閣僚§Rを手動で変更することはできない§!"
 #GUI
 sub_leader_tt:0 "§Y[THIS.sub_leader_name]§!"
 

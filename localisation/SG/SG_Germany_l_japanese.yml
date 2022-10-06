@@ -1,5 +1,18 @@
 ﻿l_japanese:
 GER_Adolf_Hitler:0 "アドルフ・ヒトラー"
+GER_Ernst_Rohm:0 "エルンスト・レーム"
+GER_Gregor_Strasser:0 "グレゴール・シュトラッサー"
+GER_Rudolf_Hess:0 "ルドルフ・ヘス"
+GER_Hermann_Goring:0 "ヘルマン・ゲーリング"
+GER_Martin_Bormann:0 "マルティン・ボルマン"
+GER_Julius_Streicher:0 "ユリウス・シュトライヒャー"
+GER_Alfred_Rosenberg:0 "アルフレート・ローゼンベルク"
+
+SG_trait_GER_right:0 "ナチス右派"
+SG_trait_GER_left:0 "ナチス左派"
+SG_trait_GER_SA:0 "ナチス突撃隊"
+SG_trait_GER_SS:0 "ナチス親衛隊"
+SG_trait_dictator_hitler:0 "独裁者"
 
 ###国民精神
 GER_bitter_defeat:0 "苦い敗北"

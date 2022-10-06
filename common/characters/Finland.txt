@@ -1,0 +1,14 @@
+characters = {
+	#ネタ
+	FWG_Tsukiyuki_Miyako = {
+		name = FWG_Tsukiyuki_Miyako
+		portraits={
+			civilian={
+				large = "gfx/characters/large/FIN/Portrait_FWG_Tsukiyuki_Miyako.png"
+			}
+		}
+		country_leader = {
+			ideology = military_junta_subtype
+		}
+	}
+}

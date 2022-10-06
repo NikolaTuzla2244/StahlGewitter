@@ -79,6 +79,10 @@ defined_text = { #愛国的ポピュリズム
 		localization_key = fascism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = revolutionary_national_socialism_subtype }
+		localization_key = revolutionary_national_socialism_subtype
+	}
+	text = {
 		localization_key = national_populism
 	}
 }

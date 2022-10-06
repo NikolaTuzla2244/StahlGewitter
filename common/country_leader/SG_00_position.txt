@@ -1,6 +1,24 @@
 leader_traits = {
+	#ideology
+	SG_trait_national_socialism = { random = no }
+	SG_trait_national_populism = { random = no }
+	SG_trait_despotism = { random = no }
+	SG_trait_authoritarianism = { random = no }
+	SG_trait_conservative_democracy = { random = no }
+	SG_trait_liberal_democracy = { random = no }
+	SG_trait_reformism = { random = no }
+	SG_trait_social_liberalism = { random = no }
+	SG_trait_authoritarian_socialism = { random = no }
+
+	#position
 	SG_trait_Head_of_Government = { random = no }
 	SG_trait_Cabinet_Minister = { random = no }
 
 	SG_trait_Monach = { random = no }
+	
+	#minister
+	SG_trait_Security_Minister = { random = no }
+	SG_trait_Foreign_Minister = { random = no }
+	SG_trait_Finance_Minister = { random = no }
+	SG_trait_Defense_Minister = { random = no }
 }

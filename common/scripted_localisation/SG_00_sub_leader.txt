@@ -8,15 +8,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_idea = ENG_Edward_VIII_HoG
+			has_idea = ITA_Vittorio_Emanuele_III_HoG
 		}
-		localization_key = "GFX_Portrait_ENG_Edward_VIII"
+		localization_key = "GFX_Portrait_ITA_Vittorio_Emanuele_III"
 	}
 	text = {
 		trigger = {
-			has_idea = ENG_Edward_VIII_HoG
+			has_idea = HUN_Karl_I_HoG
 		}
-		localization_key = "GFX_Portrait_ENG_Edward_VIII"
+		localization_key = "GFX_Portrait_HUN_Karl_I"
 	}
 	text = {
 		localization_key = "GFX_leader_unknown"
@@ -29,6 +29,18 @@ defined_text = {
 			has_idea = ENG_Edward_VIII_HoG
 		}
 		localization_key = ENG_Edward_VIII
+	}
+	text = {
+		trigger = {
+			has_idea = ITA_Vittorio_Emanuele_III_HoG
+		}
+		localization_key = ITA_Vittorio_Emanuele_III
+	}
+	text = {
+		trigger = {
+			has_idea = HUN_Karl_I_HoG
+		}
+		localization_key = HUN_Karl_I
 	}
 	text = {
 		localization_key = "unknown"

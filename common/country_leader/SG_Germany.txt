@@ -1,0 +1,14 @@
+leader_traits = {
+	#ideology
+	SG_trait_GER_right = { random = no }
+	SG_trait_GER_left = { random = no }
+	SG_trait_GER_SA = { random = no }
+	SG_trait_GER_SS = { random = no }
+
+	SG_trait_dictator_hitler = {
+		random = no
+		
+		political_power_factor = 0.15
+		drift_defence_factor = 0.25
+	}
+}

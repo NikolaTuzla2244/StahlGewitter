@@ -6,9 +6,9 @@ guiTypes = {
 		instantTextboxType = {
 			name = "sub_ideology"
 			position = { x = 258 y = 160 }
-			font = "hoi_24header"
+			font = "hoi_20bs"
 			text = [GetSubIdeologyName]
-			maxWidth = 155
+			maxWidth = 300
 			maxHeight = 20
 		}
 		instantTextboxType = {
@@ -16,7 +16,7 @@ guiTypes = {
 			position = { x = 259 y = 210 }
 			font = "hoi_18mbs"
 			text = [THIS.GetRulingParty]
-			maxWidth = 155
+			maxWidth = 300
 			maxHeight = 20
 		}
 		containerWindowType = {
@@ -64,7 +64,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "sub_leader_name"
-			position = { x = 18 y = 262 }
+			position = { x = 18 y = 270 }
 			font = "hoi_18mbs"
 			text = "[THIS.sub_leader_name]"
 			maxWidth = 155

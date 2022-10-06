@@ -43,8 +43,8 @@ idea_categories = {
 		
 		ledger = civilian
 		
-		cost = 50
-		removal_cost = 250
+		cost = 0
+		removal_cost = -1
 	}
 	
 	production_company = {
@@ -57,8 +57,8 @@ idea_categories = {
 
 		ledger = civilian
 		
-		cost = 50
-		removal_cost = 250
+		cost = 150
+		removal_cost = 0
 	}
 	
 	military_staff = {
@@ -71,8 +71,8 @@ idea_categories = {
 		
 		ledger = invalid # must be overridden
 		
-		cost = 50
-		removal_cost = 150
+		cost = 150
+		removal_cost = 0
 	}
 
 	academy_spirit = {

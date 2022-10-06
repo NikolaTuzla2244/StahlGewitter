@@ -8,6 +8,353 @@ characters={
 		}
 		country_leader = {
 			ideology = german_national_socialism_subtype
+			traits = {
+				SG_trait_dictator_hitler
+			}
+		}
+	}
+	GER_Ernst_Rohm = {
+		name = GER_Ernst_Rohm
+		portraits={
+			civilian={
+				large = "gfx/characters/large/GER/Portrait_GER_Ernst_Rohm.png"
+				small = "gfx/characters/small/GER/idea_GER_Ernst_Rohm.png"
+			}
+		}
+		country_leader = {
+			ideology = military_junta_subtype
+		}
+		advisor = {
+			slot = Cabinet_Minister
+			idea_token = GER_Ernst_Rohm
+			cost = 0
+			allowed = {
+				tag = GER
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available_tt
+				}
+			}
+			removal_cost = -1
+			traits = {
+				SG_trait_GER_SA
+				
+				SG_trait_Cabinet_Minister
+			}
+		}
+	}
+	GER_Gregor_Strasser = {
+		name = GER_Gregor_Strasser
+		portraits={
+			civilian={
+				large = "gfx/characters/large/GER/Portrait_GER_Gregor_Strasser.png"
+				small = "gfx/characters/small/GER/idea_GER_Gregor_Strasser.png"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_national_socialism_subtype
+		}
+		advisor = {
+			slot = Head_of_Government
+			idea_token = GER_Gregor_Strasser_HoG
+			cost = 0
+			allowed = {
+				tag = GER
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available_tt
+				}
+			}
+			removal_cost = -1
+			traits = {
+				SG_trait_GER_left
+
+				SG_trait_Cabinet_Minister
+			}
+		}
+	}
+
+	GER_Rudolf_Hess = {
+		name = GER_Rudolf_Hess
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/GER/Portrait_GER_Ernst_Rohm.png"
+				small = "gfx/characters/small/GER/idea_GER_Rudolf_Hess.png"
+			}
+		}
+		advisor = {
+			slot = Cabinet_Minister
+			idea_token = GER_Rudolf_Hess
+			cost = 0
+			allowed = {
+				tag = GER
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available_tt
+				}
+			}
+			removal_cost = -1
+			traits = {
+				SG_trait_GER_right
+
+				SG_trait_Cabinet_Minister
+			}
+		}
+	}
+	GER_Hermann_Goring = {
+		name = GER_Hermann_Goring
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/GER/Portrait_GER_Ernst_Rohm.png"
+				small = "gfx/characters/small/GER/idea_GER_Hermann_Goring.png"
+			}
+		}
+		advisor = {
+			slot = Cabinet_Minister
+			idea_token = GER_Hermann_Goring
+			cost = 0
+			allowed = {
+				tag = GER
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available_tt
+				}
+			}
+			removal_cost = -1
+			traits = {
+				SG_trait_GER_right
+				
+				SG_trait_Cabinet_Minister
+			}
+		}
+	}
+	GER_Martin_Bormann = {
+		name = GER_Martin_Bormann
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/GER/Portrait_GER_Ernst_Rohm.png"
+				small = "gfx/characters/small/GER/idea_GER_Martin_Bormann.png"
+			}
+		}
+		advisor = {
+			slot = Cabinet_Minister
+			idea_token = GER_Martin_Bormann
+			cost = 0
+			allowed = {
+				tag = GER
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available_tt
+				}
+			}
+			removal_cost = -1
+			traits = {
+				SG_trait_GER_right
+				
+				SG_trait_Cabinet_Minister
+			}
+		}
+	}
+	GER_Julius_Streicher = {
+		name = GER_Julius_Streicher
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/GER/Portrait_GER_Ernst_Rohm.png"
+				small = "gfx/characters/small/GER/idea_GER_Julius_Streicher.png"
+			}
+		}
+		advisor = {
+			slot = Cabinet_Minister
+			idea_token = GER_Julius_Streicher
+			cost = 0
+			allowed = {
+				tag = GER
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available_tt
+				}
+			}
+			removal_cost = -1
+			traits = {
+				SG_trait_GER_right
+				
+				SG_trait_Cabinet_Minister
+			}
+		}
+	}
+	GER_Alfred_Rosenberg = {
+		name = GER_Alfred_Rosenberg
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/GER/Portrait_GER_Ernst_Rohm.png"
+				small = "gfx/characters/small/GER/idea_GER_Alfred_Rosenberg.png"
+			}
+		}
+		advisor = {
+			slot = Cabinet_Minister
+			idea_token = GER_Alfred_Rosenberg
+			cost = 0
+			allowed = {
+				tag = GER
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available_tt
+				}
+			}
+			removal_cost = -1
+			traits = {
+				SG_trait_national_socialism
+				
+				SG_trait_Cabinet_Minister
+			}
+		}
+	}
+
+	GER_Joseph_Goebbels = {
+		name = GER_Joseph_Goebbels
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/GER/Portrait_GER_Ernst_Rohm.png"
+				small = "gfx/characters/small/GER/idea_GER_Joseph_Goebbels.png"
+			}
+		}
+		advisor = {
+			slot = Cabinet_Minister
+			idea_token = GER_Joseph_Goebbels
+			cost = 0
+			allowed = {
+				tag = GER
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available_tt
+				}
+			}
+			removal_cost = -1
+			traits = {
+				SG_trait_GER_left
+				
+				SG_trait_Cabinet_Minister
+			}
+		}
+	}
+	GER_Heinrich_Himmler = {
+		name = GER_Heinrich_Himmler
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/GER/Portrait_GER_Ernst_Rohm.png"
+				small = "gfx/characters/small/GER/idea_GER_Heinrich_Himmler.png"
+			}
+		}
+		advisor = {
+			slot = Cabinet_Minister
+			idea_token = GER_Heinrich_Himmler
+			cost = 0
+			allowed = {
+				tag = GER
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available_tt
+				}
+			}
+			removal_cost = -1
+			traits = {
+				SG_trait_GER_SS
+				
+				SG_trait_Cabinet_Minister
+			}
+		}
+	}
+	GER_Konstantin_von_Neurath = {
+		name = GER_Konstantin_von_Neurath
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/GER/Portrait_GER_Ernst_Rohm.png"
+				small = "gfx/characters/small/GER/idea_GER_Konstantin_von_Neurath.png"
+			}
+		}
+		advisor = {
+			slot = Cabinet_Minister
+			idea_token = GER_Konstantin_von_Neurath
+			cost = 0
+			allowed = {
+				tag = GER
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available_tt
+				}
+			}
+			removal_cost = -1
+			traits = {
+				SG_trait_national_socialism
+				
+				SG_trait_Cabinet_Minister
+			}
+		}
+	}
+	GER_Hjalmar_Schacht = {
+		name = GER_Hjalmar_Schacht
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/GER/Portrait_GER_Ernst_Rohm.png"
+				small = "gfx/characters/small/GER/idea_GER_Hjalmar_Schacht.png"
+			}
+		}
+		advisor = {
+			slot = Cabinet_Minister
+			idea_token = GER_Hjalmar_Schacht
+			cost = 0
+			allowed = {
+				tag = GER
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available_tt
+				}
+			}
+			removal_cost = -1
+			traits = {
+				SG_trait_national_socialism
+				
+				SG_trait_Cabinet_Minister
+			}
+		}
+	}
+	GER_Albert_Speer = {
+		name = GER_Albert_Speer
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/GER/Portrait_GER_Ernst_Rohm.png"
+				small = "gfx/characters/small/GER/idea_GER_Albert_Speer.png"
+			}
+		}
+		advisor = {
+			slot = Cabinet_Minister
+			idea_token = GER_Albert_Speer
+			cost = 0
+			allowed = {
+				tag = GER
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available_tt
+				}
+			}
+			removal_cost = -1
+			traits = {
+				SG_trait_national_socialism
+				
+				SG_trait_Cabinet_Minister
+			}
 		}
 	}
 }

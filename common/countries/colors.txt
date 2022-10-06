@@ -133,6 +133,10 @@ POR = {
 	color_ui = rgb { 51 151 91 }
 }
 FIN = {
+	color = rgb { 168 64 20 }
+	color_ui = rgb { 168 64 20 }
+}
+FWG = {
 	color = rgb { 205 212 228 }
 	color_ui = rgb { 255 255 255 }
 }

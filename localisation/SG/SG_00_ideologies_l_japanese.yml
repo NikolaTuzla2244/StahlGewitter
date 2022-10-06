@@ -1,14 +1,14 @@
 ﻿l_japanese:
-national_socialism:0 "国家社会主義"
-national_populism:0 "愛国的ポピュリズム"
-despotism:0 "専制主義"
-authoritarianism:0 "権威主義"
-conservative_democracy:0 "保守民主主義"
-liberal_democracy:0 "自由民主主義"
-reformism:0 "修正主義"
-social_liberalism:0 "社会自由主義"
-authoritarian_socialism:0 "権威社会主義"
-ultraradicalism:0 "超急進主義"
+national_socialism:0 "§0国家社会主義§!"
+national_populism:0 "§1愛国的ポピュリズム§!"
+despotism:0 "§2専制主義§!"
+authoritarianism:0 "§3権威主義§!"
+conservative_democracy:0 "§4保守民主主義§!"
+liberal_democracy:0 "§5自由民主主義§!"
+reformism:0 "§6修正主義§!"
+social_liberalism:0 "§7社会自由主義§!"
+authoritarian_socialism:0 "§8権威社会主義§!"
+ultraradicalism:0 "§9超急進主義§!"
 
 national_socialism_noun:0 "国家社会主義"
 national_populism_noun:0 "愛国的ポピュリズム"
@@ -24,6 +24,7 @@ ultraradicalism_noun:0 "超急進主義"
 german_national_socialism_subtype:0 "ナチズム"
 
 fascism_subtype:0 "ファシズム"
+revolutionary_national_socialism_subtype:0 "革命的ナチズム"
 
 military_junta_subtype:0 "軍事政権"
 

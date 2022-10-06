@@ -31,6 +31,7 @@ DEN = "countries/western_european.txt"
 BUL = "countries/eastern_european.txt"
 POR = "countries/western_european.txt"
 FIN = "countries/eastern_european.txt"
+FWG = "countries/eastern_european.txt" #フィンランド白衛軍
 IRE = "countries/western_european.txt"
 HUN = "countries/eastern_european.txt"
 RTH = "countries/eastern_european.txt" #カルパティア・ルテニア

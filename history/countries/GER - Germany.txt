@@ -89,6 +89,25 @@ add_ideas = {
 	GER_bitter_defeat
 }
 recruit_character = GER_Adolf_Hitler
+recruit_character = GER_Ernst_Rohm
+recruit_character = GER_Gregor_Strasser
+recruit_character = GER_Rudolf_Hess
+recruit_character = GER_Hermann_Goring
+recruit_character = GER_Martin_Bormann
+recruit_character = GER_Julius_Streicher
+recruit_character = GER_Alfred_Rosenberg
+recruit_character = GER_Joseph_Goebbels
+recruit_character = GER_Heinrich_Himmler
+recruit_character = GER_Konstantin_von_Neurath
+recruit_character = GER_Hjalmar_Schacht
+recruit_character = GER_Albert_Speer
+
+activate_advisor = GER_Gregor_Strasser_HoG
+
+activate_advisor = GER_Rudolf_Hess
+activate_advisor = GER_Konstantin_von_Neurath
+activate_advisor = GER_Hjalmar_Schacht
+activate_advisor = GER_Ernst_Rohm
 
 # recruit_character = GER_wilhelm_pieck
 # recruit_character = GER_konrad_adenauer

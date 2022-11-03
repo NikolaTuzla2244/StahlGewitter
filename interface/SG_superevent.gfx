@@ -1,0 +1,15 @@
+spriteTypes = {
+	#国民精神
+	spriteType = {
+		name = "GFX_SG_superevent_button"
+		texturefile = "gfx/interface/superevent/SG_superevent_button.png"
+	}
+	spriteType = {
+		name = "GFX_SG_superevent_frame"
+		texturefile = "gfx/interface/superevent/SG_superevent_frame.png"
+	}
+	spriteType = {
+		name = "GFX_SG_superevent_title"
+		texturefile = "gfx/interface/superevent/SG_superevent_title.png"
+	}
+}

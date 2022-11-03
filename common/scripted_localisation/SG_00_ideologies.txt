@@ -60,6 +60,12 @@ defined_text = {
 		}
 		localization_key = "[GetSubIdeologyName_UltRad]"
 	}
+	text = {
+		trigger = {
+			has_government = ultrareactionism
+		}
+		localization_key = "[GetSubIdeologyName_UltRea]"
+	}
 }
 
 defined_text = { #国家社会主義
@@ -83,6 +89,18 @@ defined_text = { #愛国的ポピュリズム
 		localization_key = revolutionary_national_socialism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = revolutionary_nationalism_subtype }
+		localization_key = revolutionary_nationalism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = stratocracy_nationalism_subtype }
+		localization_key = stratocracy_nationalism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = San_Min_fascism_subtype }
+		localization_key = San_Min_fascism_subtype
+	}
+	text = {
 		localization_key = national_populism
 	}
 }
@@ -93,6 +111,10 @@ defined_text = { #専制主義
 		localization_key = military_junta_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = warlordism_subtype }
+		localization_key = warlordism_subtype
+	}
+	text = {
 		localization_key = despotism
 	}
 }
@@ -101,6 +123,14 @@ defined_text = { #権威主義
 	text = {
 		trigger = { has_country_leader_ideology = limited_democracy_subtype }
 		localization_key = limited_democracy_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = provisional_government_subtype }
+		localization_key = provisional_government_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = stratocracy_subtype }
+		localization_key = stratocracy_subtype
 	}
 	text = {
 		localization_key = authoritarianism
@@ -125,11 +155,19 @@ defined_text = { #修正主義
 		localization_key = social_democracy_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = reformed_buddhism_subtype }
+		localization_key = reformed_buddhism_subtype
+	}
+	text = {
 		localization_key = reformism
 	}
 }
 defined_text = { #社会自由主義
 	name = GetSubIdeologyName_SocLib
+	text = {
+		trigger = { has_country_leader_ideology = maoism_subtype }
+		localization_key = maoism_subtype
+	}
 	text = {
 		localization_key = social_liberalism
 	}
@@ -141,6 +179,10 @@ defined_text = { #権威社会主義
 		localization_key = national_communism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = chinise_socialsm_subtype }
+		localization_key = chinise_socialsm_subtype
+	}
+	text = {
 		localization_key = authoritarian_socialism
 	}
 }
@@ -148,5 +190,15 @@ defined_text = { #超急進主義
 	name = GetSubIdeologyName_UltRad
 	text = {
 		localization_key = ultraradicalism
+	}
+}
+defined_text = { #超反動主義
+	name = GetSubIdeologyName_UltRea
+	text = {
+		trigger = { has_country_leader_ideology = fundamentalism_subtype }
+		localization_key = fundamentalism_subtype
+	}
+	text = {
+		localization_key = ultrareactionism
 	}
 }

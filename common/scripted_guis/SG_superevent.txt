@@ -1,0 +1,20 @@
+scripted_gui = {
+	SG_superevent_Window = {
+		window_name = "SG_superevent_Window"
+		context_type = player_context
+
+		visible = {
+			is_ai = no
+			has_variable = SG_super_event
+		}
+
+		properties = {
+			SG_superevent_image = { image = "[SGGetSuperEventImage]" }
+		}
+		effects = {
+			SG_superevent_button_click = {
+				clear_variable = SG_super_event
+			}
+		}
+	}
+}

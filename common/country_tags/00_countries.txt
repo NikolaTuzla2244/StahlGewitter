@@ -1,41 +1,84 @@
-GER	= "countries/western_european.txt"
-SBK	= "countries/western_european.txt"
-ENG = "countries/commonwealth.txt"
-SOV = "countries/eastern_european.txt"
-SWE	= "countries/western_european.txt"
-FRA	= "countries/western_european.txt"
-LUX	= "countries/western_european.txt"
-BEL	= "countries/western_european.txt"
-HOL	= "countries/western_european.txt"
-CZE	= "countries/eastern_european.txt"
-POL	= "countries/eastern_european.txt"
-AUS	= "countries/western_european.txt"
-BAL	= "countries/eastern_european.txt"
-LIT	= "countries/eastern_european.txt"
-EST	= "countries/eastern_european.txt"
-LAT	= "countries/eastern_european.txt"
-SPR = "countries/western_european.txt"
-ITA = "countries/western_european.txt"
+
+###ヨーロッパ###
+ENG = "countries/commonwealth.txt" #イギリス
+FRA	= "countries/western_european.txt" #フランス・コミューン
+POR = "countries/western_european.txt" #ポルトガル
+IRE = "countries/western_european.txt" #アイルランド
+SPR = "countries/western_european.txt" #スペイン王国
+
+LUX	= "countries/western_european.txt" #ルクセンブルク
+BEL	= "countries/western_european.txt" #ベルギー
+HOL	= "countries/western_european.txt" #オランダ
+
+GER	= "countries/western_european.txt" #ドイツ国
+SBK	= "countries/western_european.txt" #ザールブリュッケン
+ITA = "countries/western_european.txt" #イタリア王国
 PCI = "countries/western_european.txt" #イタリア共産党
 PNF = "countries/western_european.txt" #国家ファシスト党
 FIU = "countries/western_european.txt" #カルナーロ＝イタリア執政府
-ROM = "countries/eastern_european.txt"
-YUG = "countries/eastern_european.txt"
-SER = "countries/eastern_european.txt"
-SWI = "countries/western_european.txt"
-TUR = "countries/western_european.txt"
-GRE = "countries/eastern_european.txt"
-ALB = "countries/eastern_european.txt"
-NOR = "countries/western_european.txt"
-DEN = "countries/western_european.txt"
-BUL = "countries/eastern_european.txt"
-POR = "countries/western_european.txt"
-FIN = "countries/eastern_european.txt"
-FWG = "countries/eastern_european.txt" #フィンランド白衛軍
-IRE = "countries/western_european.txt"
-HUN = "countries/eastern_european.txt"
+SWI = "countries/western_european.txt" #スイス
+
+AUS	= "countries/western_european.txt"
+HUN = "countries/eastern_european.txt" #ハンガリー
+CZE	= "countries/eastern_european.txt"
 RTH = "countries/eastern_european.txt" #カルパティア・ルテニア
 SCS = "countries/eastern_european.txt" #スロベニア人・クロアチア人・セルビア人国
+
+ROM = "countries/eastern_european.txt" #ルーマニア
+YUG = "countries/eastern_european.txt"
+SER = "countries/eastern_european.txt" #セルビア
+ALB = "countries/eastern_european.txt" #アルバニア
+BUL = "countries/eastern_european.txt"
+GRE = "countries/eastern_european.txt"
+TUR = "countries/western_european.txt"
+
+SWE	= "countries/western_european.txt" #スウェーデン
+FIN = "countries/eastern_european.txt" #フィンランド社会主義共和国
+FWG = "countries/eastern_european.txt" #フィンランド白衛軍
+NOR = "countries/western_european.txt" #ノルウェー
+DEN = "countries/western_european.txt" #デンマーク
+
+POL	= "countries/eastern_european.txt" #ポーランド
+BAL	= "countries/eastern_european.txt" #バルト・ソビエト軍管区
+LIT	= "countries/eastern_european.txt" #リトアニア
+EST	= "countries/eastern_european.txt" #エストニア
+LAT	= "countries/eastern_european.txt" #ラトビア
+#ソビエト連邦
+SOV = "countries/eastern_european.txt" #ソビエト連邦
+SOI = "countries/eastern_european.txt" #シベリア臨時政府
+
+TCC = "countries/eastern_european.txt" #コーカサス・ソビエト
+
+###アジア###
+JAP = "countries/asian.txt" #大日本帝国
+KOR = "countries/asian.txt" #韓国
+
+###中国
+#北洋政府
+MAN = "countries/asian.txt" #奉天軍閥 / 張作霖[軍事政権], 溥儀[絶対君主制]
+BEJ = "countries/asian.txt" #北京政府 / 張作霖 → 王寵恵[臨時政府]→[保守民主主義]
+SHD = "countries/asian.txt" #山東軍閥 / 張宗昌[軍閥主義]→[革命的国粋主義]
+GMJ = "countries/asian.txt" #国民軍残党 / 馮玉祥[軍政]
+MPR = "countries/asian.txt" #内蒙人民共和国 / ホルローギーン・チョイバルサン[権威共産主義]
+QZD = "countries/asian.txt" #清真団 / 馬天英[宗教原理主義]
+#南京政府
+KMT = "countries/asian.txt" #国民党 / 汪兆銘[限定的民主主義], <支那方面軍>
+CJP = "countries/asian.txt" #支那方面軍 / 石原莞爾[軍政民族主義]
+GGC = "countries/asian.txt" #新広西派 / 白崇禧[軍事政権], 蒋介石[限定的民主主義]
+BIS = "countries/asian.txt" #軍統 / 戴笠[右派ポピュリズム]
+FGS = "countries/asian.txt" #仏光山 / 太虚[仏典教条主義]
+MAO = "countries/asian.txt" #紅衛兵 / 毛沢東[毛沢東思想]
+CCP = "countries/asian.txt" #人民中央委員会 / 劉少奇[中華型社会主義]
+
+SHX = "countries/asian.txt" #山西軍閥 / 
+YUN = "countries/asian.txt" #雲南軍閥 / 竜雲
+ZHI = "countries/asian.txt" #直隷軍閥 / 呉佩孚
+UMA = "countries/asian.txt" #馬家軍 / 馬歩芳
+
+MON = "countries/asian.txt" #モンゴル
+TIB = "countries/asian.txt" #チベット
+SIK = "countries/asian.txt" #ウイグル
+
 AFG = "countries/Afghanistan.txt"
 ARG = "countries/Argentina.txt"
 AST = "countries/Australia.txt"
@@ -43,7 +86,7 @@ BHU = "countries/Bhutan.txt"
 BOL = "countries/Bolivia.txt"
 BRA = "countries/Brazil.txt"
 CAN = "countries/Canada.txt"
-CHI = "countries/China.txt"
+
 CHL = "countries/Chile.txt"
 COL = "countries/Colombia.txt"
 COS = "countries/Costa Rica.txt"
@@ -53,8 +96,7 @@ ETH = "countries/Ethiopia.txt"
 GUA = "countries/Guatemla.txt"
 HON = "countries/Honduras.txt"
 IRQ = "countries/Iraq.txt"
-JAP = "countries/Japan.txt"
-KOR = "countries/Korea.txt"
+
 LIB = "countries/Liberia.txt"
 MEX = "countries/Mexico.txt"
 MEN = "countries/Mengkukuo.txt"
@@ -68,13 +110,9 @@ PRU = "countries/Peru.txt"
 SAF = "countries/South Africa.txt"
 SAU = "countries/Saudi Arabia.txt"
 SIA = "countries/Siam.txt"
-SIK = "countries/Sinkiang.txt"
-TIB = "countries/Tibet.txt"
 URG = "countries/Uruguay.txt"
 VEN = "countries/Venezula.txt"
-YUN = "countries/Yunnan.txt"
 USA = "countries/USA.txt"
-MON = "countries/Mongolia.txt"
 TAN = "countries/Tannu Tuva.txt"
 PAR = "countries/Paraguay.txt"
 CUB = "countries/Cuba.txt"
@@ -86,8 +124,6 @@ SLO = "countries/Slovakia.txt"
 RAJ = "countries/British Raj.txt"
 CRO = "countries/Croatia.txt"
 GXC = "countries/Guangxi.txt"
-PRC = "countries/ComChina.txt"
-SHX = "countries/Shanxi.txt"
 XSM = "countries/Xibei San Ma.txt"
 ICE = "countries/Iceland.txt"
 LEB = "countries/Lebanon.txt"
@@ -118,7 +154,6 @@ COG = "countries/Congo.txt"
 KEN = "countries/Kenya.txt"
 PAK = "countries/Pakistan.txt"
 BOT = "countries/Botswana.txt"
-MAN = "countries/Manchukou.txt"
 BAH = "countries/Bahamas.txt"
 BAN = "countries/Bangladesh.txt"
 BLZ = "countries/Belize.txt"

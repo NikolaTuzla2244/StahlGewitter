@@ -1,0 +1,178 @@
+characters={
+	MAN_Zhang_Zuolin = {
+		name = MAN_Zhang_Zuolin
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/CHI/Portrait_MAN_Zhang_Zuolin.png"
+			}
+		}
+		country_leader = {
+			ideology = warlordism_subtype
+		}
+	}
+	BEJ_Wang_Chung_hui = {
+		name = BEJ_Wang_Chung_hui
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/CHI/Portrait_BEJ_Wang_Chung_hui.png"
+			}
+		}
+		country_leader = {
+			ideology = provisional_government_subtype
+		}
+	}
+	SHD_Zhang_Zongchang = {
+		name = SHD_Zhang_Zongchang
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/CHI/Portrait_SHD_Zhang_Zongchang.png"
+			}
+		}
+		country_leader = {
+			ideology = warlordism_subtype
+		}
+	}
+	GMJ_Feng_Yuxiang = {
+		name = GMJ_Feng_Yuxiang
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/CHI/Portrait_GMJ_Feng_Yuxiang.png"
+			}
+		}
+		country_leader = {
+			ideology = stratocracy_subtype
+		}
+	}
+	MPR_Khorloogiin_Choibalsan = {
+		name = MPR_Khorloogiin_Choibalsan
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/CHI/Portrait_MPR_Khorloogiin_Choibalsan.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_subtype
+		}
+	}
+	QZD_Ma_Tian_ying = {
+		name = QZD_Ma_Tian_ying
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/CHI/Portrait_QZD_Ma_Tian_ying.png"
+			}
+		}
+		country_leader = {
+			ideology = fundamentalism_subtype
+		}
+	}
+	KMT_Wang_Jingwei = {
+		name = KMT_Wang_Jingwei
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/CHI/Portrait_KMT_Wang_Jingwei.png"
+			}
+		}
+		country_leader = {
+			ideology = limited_democracy_subtype
+		}
+	}
+	CJP_Ishiwara_kanji = {
+		name = CJP_Ishiwara_kanji
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/CHI/Portrait_CJP_Ishiwara_kanji.png"
+			}
+		}
+		country_leader = {
+			ideology = stratocracy_nationalism_subtype
+		}
+	}
+	GGC_Bai_Chongxi = {
+		name = GGC_Bai_Chongxi
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/CHI/Portrait_GGC_Bai_Chongxi.png"
+			}
+		}
+		country_leader = {
+			ideology = military_junta_subtype
+		}
+	}
+	BIS_Dai_Li = {
+		name = BIS_Dai_Li
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/CHI/Portrait_BIS_Dai_Li.png"
+			}
+		}
+		country_leader = {
+			ideology = San_Min_fascism_subtype
+		}
+	}
+	FGS_Taixu = {
+		name = FGS_Taixu
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/CHI/Portrait_FGS_Taixu.png"
+			}
+		}
+		country_leader = {
+			ideology = reformed_buddhism_subtype
+		}
+	}
+	MAO_Mao_Zedong = {
+		name = MAO_Mao_Zedong
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/CHI/Portrait_MAO_Mao_Zedong.png"
+			}
+		}
+		country_leader = {
+			ideology = maoism_subtype
+		}
+	}
+	CCP_Liu_Shaoqi = {
+		name = CCP_Liu_Shaoqi
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/CHI/Portrait_CCP_Liu_Shaoqi.png"
+			}
+		}
+		country_leader = {
+			ideology = chinise_socialsm_subtype
+		}
+	}
+	YUN_Long_Yun = {
+		name = YUN_Long_Yun
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/CHI/Portrait_YUN_Long_Yun.png"
+			}
+		}
+		country_leader = {
+			ideology = warlordism_subtype
+		}
+	}
+	ZHI_Wu_Peifu = {
+		name = ZHI_Wu_Peifu
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/CHI/Portrait_ZHI_Wu_Peifu.png"
+			}
+		}
+		country_leader = {
+			ideology = warlordism_subtype
+		}
+	}
+	UMA_Ma_Bufang = {
+		name = UMA_Ma_Bufang
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/CHI/Portrait_UMA_Ma_Bufang.png"
+			}
+		}
+		country_leader = {
+			ideology = warlordism_subtype
+		}
+	}
+}

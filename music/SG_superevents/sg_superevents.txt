@@ -1,0 +1,8 @@
+music_station = "sg_superevents"
+
+music = {
+	song = "sg_se_chinese_collapse"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}

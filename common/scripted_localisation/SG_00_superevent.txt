@@ -1,0 +1,23 @@
+defined_text = {
+	name = SGGetSuperEventImage
+	text = {
+		trigger = { check_variable = { SG_super_event = 2 } }
+		localization_key = "GFX_SG_chinese_collapse"
+	}
+}
+
+defined_text = {
+	name = SGGetSuperEventTitle
+	text = {
+		trigger = { check_variable = { SG_super_event = 2 } }
+		localization_key = SG_chinese_collapse_title
+	}
+}
+
+defined_text = {
+	name = SGGetSuperEventOption
+	text = {
+		trigger = { check_variable = { SG_super_event = 2 } }
+		localization_key = SG_chinese_collapse_option
+	}
+}

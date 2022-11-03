@@ -1,0 +1,5 @@
+music = {
+	name = "sg_se_chinese_collapse"
+	file = "sg_se_chinese_collapse.ogg"
+	volume = 1
+}

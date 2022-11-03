@@ -82,6 +82,7 @@ add_to_faction = BAL
 add_to_faction = BLR
 add_to_faction = UKR
 add_to_faction = FIN
+add_to_faction = TCC
 
 add_ideas = {
 	limited_exports

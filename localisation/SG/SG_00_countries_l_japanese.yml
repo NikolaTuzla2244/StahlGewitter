@@ -91,9 +91,9 @@ POL:0 "ポーランド共和国"
 POL_DEF:0 "ポーランド共和国"
 POL_ADJ:0 "ポーランド"
 
-POL:0 "ポルトガル共和国"
-POL_DEF:0 "ポルトガル共和国"
-POL_ADJ:0 "ポルトガル"
+POR:0 "ポルトガル共和国"
+POR_DEF:0 "ポルトガル共和国"
+POR_ADJ:0 "ポルトガル"
 
 ROM:0 "ルーマニア王国"
 ROM_DEF:0 "ルーマニア王国"
@@ -119,6 +119,10 @@ SOV:0 "ソビエト社会主義共和国連邦"
 SOV_DEF:0 "ソビエト社会主義共和国連邦"
 SOV_ADJ:0 "ソビエト連邦"
 
+SOI:0 "シベリア臨時政府"
+SOI_DEF:0 "ソビエト連邦・シベリア臨時政府"
+SOI_ADJ:0 "ソビエト連邦"
+
 SPR:0 "スペイン王国"
 SPR_DEF:0 "スペイン王国"
 SPR_ADJ:0 "スペイン"
@@ -131,12 +135,98 @@ SWI:0 "スイス連邦"
 SWI_DEF:0 "スイス連邦"
 SWI_ADJ:0 "スイス"
 
+TCC:0 "南カフカース"
+TCC_DEF:0 "南カフカース"
+TCC_SOV:0 "南カフカース・ソビエト"
+TCC_SOV_DEF:0 "南カフカース・ソビエト社会主義共和国"
+TCC_ADJ:0 "南カフカース"
+
+TRA:0 "トランシルヴァニア"
+TRA_DEF:0 "トランシルヴァニア国"
+TRA_ADJ:0 "トランシルヴァニア"
+
 UKR:0 "ウクライナ"
 UKR_DEF:0 "ウクライナ"
 UKR_SOV:0 "ウクライナ・ソビエト"
 UKR_SOV_DEF:0 "ウクライナ・ソビエト社会主義共和国"
 UKR_ADJ:0 "ウクライナ"
 
-TRA:0 "トランシルヴァニア"
-TRA_DEF:0 "トランシルヴァニア国"
-TRA_ADJ:0 "トランシルヴァニア"
+MAN:0 "奉天軍閥"
+MAN_DEF:0 "奉天軍閥"
+MAN_ADJ:0 "奉天"
+
+BEJ:0 "北京政府"
+BEJ_DEF:0 "北京政府"
+BEJ_ADJ:0 "北京"
+
+SHD:0 "山東軍閥"
+SHD_DEF:0 "山東軍閥"
+SHD_ADJ:0 "山東"
+
+GMJ:0 "国民軍残党"
+GMJ_DEF:0 "国民軍残党"
+GMJ_ADJ:0 "国民軍"
+
+CJP:0 "支那方面軍"
+CJP_DEF:0 "支那方面軍"
+CJP_ADJ:0 "日本"
+
+MPR:0 "内蒙人民共和国"
+MPR_DEF:0 "内蒙人民共和国"
+MPR_ADJ:0 "内蒙"
+
+QZD:0 "清真団"
+QZD_DEF:0 "清真団"
+QZD_ADJ:0 "清真団"
+
+KMT:0 "国民党"
+KMT_DEF:0 "国民党"
+KMT_ADJ:0 "国民党"
+
+GGC:0 "広西派"
+GGC_DEF:0 "広西派"
+GGC_ADJ:0 "広西"
+
+BIS:0 "軍統"
+BIS_DEF:0 "軍統"
+BIS_ADJ:0 "軍統"
+
+FGS:0 "仏光山"
+FGS_DEF:0 "仏光山"
+FGS_ADJ:0 "仏光山"
+
+MAO:0 "紅衛兵"
+MAO_DEF:0 "紅衛兵"
+MAO_ADJ:0 "紅衛兵"
+
+CCP:0 "人民中央委員会"
+CCP_DEF:0 "人民中央委員会"
+CCP_ADJ:0 "人民中央委員会"
+
+SHX:0 "山西軍閥"
+SHX_DEF:0 "山西軍閥"
+SHX_ADJ:0 "山西"
+
+YUN:0 "雲南軍閥"
+YUN_DEF:0 "雲南軍閥"
+YUN_ADJ:0 "雲南"
+
+ZHI:0 "直隷軍閥"
+ZHI_DEF:0 "直隷軍閥"
+ZHI_ADJ:0 "直隷"
+
+UMA:0 "馬家軍"
+UMA_DEF:0 "馬家軍"
+UMA_ADJ:0 "馬"
+
+MON:0 "モンゴル"
+MON_DEF:0 "モンゴル"
+MON_ADJ:0 "モンゴル"
+
+TIB:0 "チベット"
+TIB_DEF:0 "チベット"
+TIB_ADJ:0 "チベット"
+
+SIK:0 "ウイグル"
+SIK_DEF:0 "ウイグル"
+SIK_ADJ:0 "ウイグル"

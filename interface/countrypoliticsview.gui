@@ -100,7 +100,7 @@ guiTypes = {
 				name = "chart"
 				spriteType = "GFX_political_chart"
 				position = { x = 28 y = 5 }
-				size = { width = 250 height = 250 }
+				# size = { width = 250 height = 250 }
 			}
 			
 			# iconType ={

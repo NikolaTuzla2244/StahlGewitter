@@ -32,6 +32,9 @@ ideologies = {
 
 			fascism_subtype = { can_be_randomly_selected = no }
 			revolutionary_national_socialism_subtype = { can_be_randomly_selected = no }
+			revolutionary_nationalism_subtype = { can_be_randomly_selected = no }
+			stratocracy_nationalism_subtype = { can_be_randomly_selected = no }
+			San_Min_fascism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 127 69 19 }
@@ -58,6 +61,7 @@ ideologies = {
 			despotism_subtype = {}
 
 			military_junta_subtype = { can_be_randomly_selected = no }
+			warlordism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 20 20 20 }
@@ -84,6 +88,8 @@ ideologies = {
 			authoritarianism_subtype = {}
 
 			limited_democracy_subtype = { can_be_randomly_selected = no }
+			provisional_government_subtype = { can_be_randomly_selected = no }
+			stratocracy_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 80 80 80 }
@@ -158,6 +164,7 @@ ideologies = {
 			reformism_subtype = {}
 
 			social_democracy_subtype = {}
+			reformed_buddhism_subtype = {}
 		}
 		dynamic_faction_names = {}
 		color = { 175 58 105 }
@@ -182,6 +189,8 @@ ideologies = {
 	social_liberalism = {
 		types = {
 			social_liberalism_subtype = {}
+
+			maoism_subtype = {}
 		}
 		dynamic_faction_names = {}
 		color = { 180 35 35 }
@@ -208,6 +217,7 @@ ideologies = {
 			authoritarian_socialism_subtype = {}
 
 			national_communism_subtype = { can_be_randomly_selected = no }
+			chinise_socialsm_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 124 17 19 }
@@ -235,6 +245,32 @@ ideologies = {
 		}
 		dynamic_faction_names = {}
 		color = { 255 255 255 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 20.0
+				army_intel_to_others = 20.0
+				navy_intel_to_others = 2.0
+				airforce_intel_to_others = 20.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	ultrareactionism = {
+		types = {
+			ultrareactionism_subtype = {}
+
+			fundamentalism_subtype = {}
+		}
+		dynamic_faction_names = {}
+		color = { 35 31 48 }
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no

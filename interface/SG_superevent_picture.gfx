@@ -1,0 +1,7 @@
+spriteTypes = {
+	#国民精神
+	spriteType = {
+		name = "GFX_SG_chinese_collapse"
+		texturefile = "gfx/superevent_pictures/chinese_collapse.png"
+	}
+}

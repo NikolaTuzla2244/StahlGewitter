@@ -1,0 +1,76 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "SG_superevent_Window"
+		position = { x= 0 y= -120 }
+		Orientation = center
+		Origo = center
+		clipping = no
+		moveable = yes
+		size = { width = 700 height = 678 }
+
+		show_position = { x = 0 y = 0 }
+		hide_position = { x = 0 y = -50 }
+		animation_time = 1000
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+
+		fade_type = linear
+		fade_time = 3000
+
+		background = {
+			name = "Background"
+			spriteType ="GFX_tiled_window_transparent"
+		}
+
+		iconType = {
+			name ="SG_superevent_image"
+			position = { x = 65 y = 220 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name ="SG_superevent_frame"
+			spriteType = "GFX_SG_superevent_frame"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+
+		containerWindowType = {
+			name = "SG_superevent_title"
+			iconType = {
+				name ="SG_superevent_title_frame"
+				spriteType = "GFX_SG_superevent_title"
+				position = { x = 150 y = 0 }
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "SG_superevent_title_text"
+				position = { x = 190 y = 150 }
+				font = "hoi_30header"
+				text = [SGGetSuperEventTitle]
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+		}
+		
+		containerWindowType = {
+			name = "SG_superevent_button"
+			buttonType = {
+				name ="SG_superevent_button"
+				spriteType = "GFX_SG_superevent_button"
+				position = { x = 178 y = 570 }
+			}
+			instantTextboxType = {
+				name = "SG_superevent_button_text"
+				position = { x = 190 y = 595 }
+				font = "hoi_20bs"
+				text = [SGGetSuperEventOption]
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+		}
+	}
+}

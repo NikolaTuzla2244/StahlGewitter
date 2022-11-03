@@ -1,0 +1,10 @@
+SG_fire_super_event = {
+	hidden_effect = {
+		log = "SG_fire_super_event"
+		set_variable = { SG_super_event = SG_temp_super_event }
+		if = {
+			limit = { check_variable = { SG_temp_super_event = 2 } }
+			scoped_play_song = "sg_se_chinese_collapse"
+		}
+	}
+}

@@ -1,0 +1,4 @@
+economy_setup = {
+	#consumer
+	set_variable = { THIS.consumer_goods = 0.1 }
+}

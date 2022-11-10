@@ -1,3 +1,12 @@
 ﻿l_japanese:
 SG_chinese_collapse_title:0 "中華内戦"
+SG_china_unification_nationalist_army_title:0 "中国統一"
+SG_china_unification_chiang_kai_shek_title:0 "中国統一"
+
+SG_chinese_collapse_quote:0 "自ら反みて縮くんば、千万人と雖も、吾往かん。\n\n- 孟子"
+SG_china_unification_nationalist_army_quote:0 "戦争とは、装備や火砲、規律や航空機のみに留まらず、\n精神、つまり士気の問題が大きい。\n\n- 蔣介石"
+SG_china_unification_chiang_kai_shek_quote:0 "国家が自由に行動できるようになったときこそ、中国は強いと言えるかもしれない。\n国家を自由にするためには、一人一人が自分の自由を犠牲にしなければならない。\n- 孫文"
+
 SG_chinese_collapse_option:0 "龍は引き裂かれる"
+SG_china_unification_nationalist_army_option:0 "国民革命軍の進軍"
+SG_china_unification_chiang_kai_shek_option:0 "総統の進軍"

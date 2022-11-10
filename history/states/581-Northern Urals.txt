@@ -19,6 +19,7 @@ state = {
 		}
 		add_core_of = SOV
 		add_core_of = KOM
+		add_core_of = LGR
 	}
 
 	provinces = {

@@ -6,3 +6,15 @@ music = {
 		modifier = { factor = 0 }
 	}
 }
+music = {
+	song = "sg_se_china_unification_nationalist_army"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}
+music = {
+	song = "sg_se_china_unification_chiang_kai_shek"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}

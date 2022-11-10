@@ -6,5 +6,13 @@ SG_fire_super_event = {
 			limit = { check_variable = { SG_temp_super_event = 2 } }
 			scoped_play_song = "sg_se_chinese_collapse"
 		}
+		if = {
+			limit = { check_variable = { SG_temp_super_event = 3 } }
+			scoped_play_song = "sg_se_china_unification_nationalist_army"
+		}
+		if = {
+			limit = { check_variable = { SG_temp_super_event = 4 } }
+			scoped_play_song = "sg_se_china_unification_chiang_kai_shek"
+		}
 	}
 }

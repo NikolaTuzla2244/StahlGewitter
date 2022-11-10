@@ -21,6 +21,7 @@ state = {
 		}
 		add_core_of = SOV
 		add_core_of = BSK
+		add_core_of = VOR
 	}
 
 	provinces = {

@@ -4,4 +4,12 @@ spriteTypes = {
 		name = "GFX_SG_chinese_collapse"
 		texturefile = "gfx/superevent_pictures/chinese_collapse.png"
 	}
+	spriteType = {
+		name = "GFX_SG_china_unification_nationalist_army"
+		texturefile = "gfx/superevent_pictures/china_unification_nationalist_army.png"
+	}
+	spriteType = {
+		name = "GFX_SG_china_unification_chiang_kai_shek"
+		texturefile = "gfx/superevent_pictures/china_unification_chiang_kai_shek.png"
+	}
 }

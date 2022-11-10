@@ -17,6 +17,7 @@ state={
 			413 5
 		}
 		add_core_of = SOV
+		add_core_of = TSK
 	}
 
 	provinces={

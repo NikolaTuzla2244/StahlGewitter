@@ -40,6 +40,26 @@ spriteTypes = {
 		name = "GFX_ideology_fascism_subtype"
 		texturefile = "gfx/interface/ideologies/fascism_subtype.dds"
 	}
+	# spriteType = {
+	# 	name = "GFX_ideology_revolutionary_national_socialism_subtype"
+	# 	texturefile = "gfx/interface/ideologies/revolutionary_national_socialism_subtype.dds"
+	# }
+	spriteType = {
+		name = "GFX_ideology_revolutionary_nationalism_subtype"
+		texturefile = "gfx/interface/ideologies/revolutionary_nationalism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_stratocracy_nationalism_subtype"
+		texturefile = "gfx/interface/ideologies/stratocracy_nationalism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_San_Min_fascism_subtype"
+		texturefile = "gfx/interface/ideologies/San_Min_fascism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_warlordism_subtype"
+		texturefile = "gfx/interface/ideologies/warlordism_subtype.dds"
+	}
 	spriteType = {
 		name = "GFX_ideology_military_junta_subtype"
 		texturefile = "gfx/interface/ideologies/military_junta_subtype.dds"

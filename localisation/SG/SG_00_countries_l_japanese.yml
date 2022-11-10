@@ -152,11 +152,11 @@ UKR_SOV_DEF:0 "ウクライナ・ソビエト社会主義共和国"
 UKR_ADJ:0 "ウクライナ"
 
 MAN:0 "奉天軍閥"
-MAN_DEF:0 "奉天軍閥"
+MAN_DEF:0 "中華民国北洋政府"
 MAN_ADJ:0 "奉天"
 
 BEJ:0 "北京政府"
-BEJ_DEF:0 "北京政府"
+BEJ_DEF:0 "中華民国臨時政府"
 BEJ_ADJ:0 "北京"
 
 SHD:0 "山東軍閥"
@@ -164,11 +164,11 @@ SHD_DEF:0 "山東軍閥"
 SHD_ADJ:0 "山東"
 
 GMJ:0 "国民軍残党"
-GMJ_DEF:0 "国民軍残党"
+GMJ_DEF:0 "国民軍"
 GMJ_ADJ:0 "国民軍"
 
 CJP:0 "支那方面軍"
-CJP_DEF:0 "支那方面軍"
+CJP_DEF:0 "帝国支那方面軍"
 CJP_ADJ:0 "日本"
 
 MPR:0 "内蒙人民共和国"
@@ -176,19 +176,19 @@ MPR_DEF:0 "内蒙人民共和国"
 MPR_ADJ:0 "内蒙"
 
 QZD:0 "清真団"
-QZD_DEF:0 "清真団"
+QZD_DEF:0 "忠実なる清真団"
 QZD_ADJ:0 "清真団"
 
 KMT:0 "国民党"
-KMT_DEF:0 "国民党"
+KMT_DEF:0 "国民党南京政府"
 KMT_ADJ:0 "国民党"
 
 GGC:0 "広西派"
-GGC_DEF:0 "広西派"
+GGC_DEF:0 "国民党新広西派"
 GGC_ADJ:0 "広西"
 
 BIS:0 "軍統"
-BIS_DEF:0 "軍統"
+BIS_DEF:0 "軍事委員会調査統計局"
 BIS_ADJ:0 "軍統"
 
 FGS:0 "仏光山"
@@ -230,3 +230,31 @@ TIB_ADJ:0 "チベット"
 SIK:0 "ウイグル"
 SIK_DEF:0 "ウイグル"
 SIK_ADJ:0 "ウイグル"
+
+LGR:0 "ソビエト連邦緊急政府"
+LGR_DEF:0 "ソビエト連邦緊急政府"
+LGR_ADJ:0 "ソビエト連邦緊急政府"
+
+RBS:0 "右派ボリシェヴィキ"
+RBS_DEF:0 "右派ボリシェヴィキ"
+RBS_ADJ:0 "右派ボリシェヴィキ"
+
+TSK:0 "中央委員会書記局"
+TSK_DEF:0 "中央委員会書記局"
+TSK_ADJ:0 "中央委員会書記局"
+
+KPD:0 "亡命ドイツ共産党"
+KPD_DEF:0 "亡命ドイツ共産党"
+KPD_ADJ:0 "亡命ドイツ共産党"
+
+GPU:0 "国家政治保安部"
+GPU_DEF:0 "国家政治保安部"
+GPU_ADJ:0 "国家政治保安部"
+
+VOR:0 "ソビエト赤軍"
+VOR_DEF:0 "ソビエト赤軍"
+VOR_ADJ:0 "ソビエト赤軍"
+
+MAY:0 "左派構成社会"
+MAY_DEF:0 "左派構成社会"
+MAY_ADJ:0 "左派構成社会"

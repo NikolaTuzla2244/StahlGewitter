@@ -3,7 +3,7 @@ characters={
 		name = MAN_Zhang_Zuolin
 		portraits={
 			civilian={
-				# large = "gfx/characters/large/CHI/Portrait_MAN_Zhang_Zuolin.png"
+				large = "gfx/characters/large/CHI/Portrait_MAN_Zhang_Zuolin.png"
 			}
 		}
 		country_leader = {
@@ -14,7 +14,7 @@ characters={
 		name = BEJ_Wang_Chung_hui
 		portraits={
 			civilian={
-				# large = "gfx/characters/large/CHI/Portrait_BEJ_Wang_Chung_hui.png"
+				large = "gfx/characters/large/CHI/Portrait_BEJ_Wang_Chung_hui.png"
 			}
 		}
 		country_leader = {
@@ -69,7 +69,7 @@ characters={
 		name = KMT_Wang_Jingwei
 		portraits={
 			civilian={
-				# large = "gfx/characters/large/CHI/Portrait_KMT_Wang_Jingwei.png"
+				large = "gfx/characters/large/CHI/Portrait_KMT_Wang_Jingwei.png"
 			}
 		}
 		country_leader = {
@@ -92,6 +92,17 @@ characters={
 		portraits={
 			civilian={
 				# large = "gfx/characters/large/CHI/Portrait_GGC_Bai_Chongxi.png"
+			}
+		}
+		country_leader = {
+			ideology = military_junta_subtype
+		}
+	}
+	GGC_Chiang_Kai_Shek = {
+		name = GGC_Chiang_Kai_Shek
+		portraits={
+			civilian={
+				large = "gfx/characters/large/CHI/Portrait_GGC_Chiang_Kai_Shek.png"
 			}
 		}
 		country_leader = {
@@ -124,7 +135,7 @@ characters={
 		name = MAO_Mao_Zedong
 		portraits={
 			civilian={
-				# large = "gfx/characters/large/CHI/Portrait_MAO_Mao_Zedong.png"
+				large = "gfx/characters/large/CHI/Portrait_MAO_Mao_Zedong.png"
 			}
 		}
 		country_leader = {

@@ -4,6 +4,14 @@ defined_text = {
 		trigger = { check_variable = { SG_super_event = 2 } }
 		localization_key = "GFX_SG_chinese_collapse"
 	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 3 } }
+		localization_key = "GFX_SG_china_unification_nationalist_army"
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 4 } }
+		localization_key = "GFX_SG_china_unification_chiang_kai_shek"
+	}
 }
 
 defined_text = {
@@ -12,6 +20,30 @@ defined_text = {
 		trigger = { check_variable = { SG_super_event = 2 } }
 		localization_key = SG_chinese_collapse_title
 	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 3 } }
+		localization_key = SG_china_unification_nationalist_army_title
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 4 } }
+		localization_key = SG_china_unification_chiang_kai_shek_title
+	}
+}
+
+defined_text = {
+	name = SGGetSuperEventQuote
+	text = {
+		trigger = { check_variable = { SG_super_event = 2 } }
+		localization_key = SG_chinese_collapse_quote
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 3 } }
+		localization_key = SG_china_unification_nationalist_army_quote
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 4 } }
+		localization_key = SG_china_unification_chiang_kai_shek_quote
+	}
 }
 
 defined_text = {
@@ -19,5 +51,13 @@ defined_text = {
 	text = {
 		trigger = { check_variable = { SG_super_event = 2 } }
 		localization_key = SG_chinese_collapse_option
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 3 } }
+		localization_key = SG_china_unification_nationalist_army_option
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 4 } }
+		localization_key = SG_china_unification_chiang_kai_shek_option
 	}
 }

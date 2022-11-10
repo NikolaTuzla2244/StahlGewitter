@@ -15,6 +15,7 @@ state = {
 		}
 		add_core_of = SOV
 		add_core_of = UDM
+		add_core_of = VOR
 		
 		victory_points = {
 			6278 1 

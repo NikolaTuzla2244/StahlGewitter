@@ -3,3 +3,13 @@ music = {
 	file = "sg_se_chinese_collapse.ogg"
 	volume = 1
 }
+music = {
+	name = "sg_se_china_unification_nationalist_army"
+	file = "sg_se_china_unification_nationalist_army.ogg"
+	volume = 1
+}
+music = {
+	name = "sg_se_china_unification_chiang_kai_shek"
+	file = "sg_se_china_unification_chiang_kai_shek.ogg"
+	volume = 1
+}

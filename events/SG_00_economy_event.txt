@@ -1,0 +1,15 @@
+add_namespace = sg_economy
+
+country_event = { #
+	id = sg_economy.1
+	title = sg_economy.1.t
+	desc = sg_economy.1.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_economy.1.a
+		economy_setup = yes
+	}
+}

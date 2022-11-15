@@ -1,0 +1,13 @@
+characters = {
+	USA_Huey_Long = {
+		name = USA_Huey_Long
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/FIN/Portrait_FWG_Tsukiyuki_Miyako.png"
+			}
+		}
+		country_leader = {
+			ideology = liberal_democracy_subtype
+		}
+	}
+}

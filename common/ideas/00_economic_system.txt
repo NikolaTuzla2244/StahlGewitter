@@ -1,0 +1,186 @@
+ideas = {
+	mobilization_law = {
+		law = yes
+		use_list_view = yes
+		
+		civilian_economy = {
+			picture = civilian_economy
+			allowed = { }
+			available = {
+				NOT = {
+					has_country_flag = SG_mobilization_change_off
+				}
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				SG_consumer_goods_modifier = 0.1
+				production_speed_industrial_complex_factor = 0.15
+			}
+			cost = 50
+		}
+		partial_economic_mobilisation = {
+			picture = partial_economic_mobilisation
+			allowed = { }
+			available = {
+				NOT = {
+					has_country_flag = SG_mobilization_change_off
+				}
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				SG_consumer_goods_modifier = 0.05
+				production_speed_industrial_complex_factor = 0.1
+			}
+			cost = 50
+		}
+		low_economic_mobilisation = {
+			picture = low_economic_mobilisation
+			allowed = { }
+			available = {
+				NOT = {
+					has_country_flag = SG_mobilization_change_off
+				}
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+			}
+			cost = 50
+		}
+		war_economy = {
+			picture = war_economy
+			allowed = { }
+			available = {
+				NOT = {
+					has_country_flag = SG_mobilization_change_off
+				}
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				SG_consumer_goods_modifier = -0.05
+				production_speed_arms_factory_factor = 0.1
+			}
+			cost = 50
+		}
+		tot_economic_mobilisation = {
+			picture = tot_economic_mobilisation
+			allowed = { }
+			available = {
+				NOT = {
+					has_country_flag = SG_mobilization_change_off
+				}
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				SG_consumer_goods_modifier = -0.1
+				production_speed_arms_factory_factor = 0.15
+			}
+			cost = 50
+		}
+	}
+	economy_system = {
+		law = yes
+		use_list_view = yes
+
+		economy_market_fundamentalism = {
+			picture = economy_market_fundamentalism
+			allowed = { }
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				SG_consumer_goods_modifier = 0.3
+			}
+		}
+		economy_social_welfare = {
+			picture = economy_social_welfare
+			allowed = { }
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				SG_consumer_goods_modifier = 0.3
+			}
+		}
+		economy_corporatism = {
+			picture = economy_corporatism
+			allowed = { }
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				SG_consumer_goods_modifier = 0.3
+			}
+		}
+		economy_mixed_economy = {
+			picture = economy_mixed_economy
+			allowed = { }
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				SG_consumer_goods_modifier = 0.3
+			}
+		}
+		economy_planned_socialism = {
+			picture = economy_planned_socialism
+			allowed = { }
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				SG_consumer_goods_modifier = 0.3
+			}
+		}
+		economy_nep_socialism = {
+			picture = economy_nep_socialism
+			allowed = { }
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				SG_consumer_goods_modifier = 0.3
+			}
+		}
+		economy_nazi_corporatism = {
+			picture = economy_nazi_corporatism
+			allowed = { }
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				SG_consumer_goods_modifier = 0.3
+			}
+		}
+		economy_plutocracy = {
+			picture = economy_plutocracy
+			allowed = { }
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				SG_consumer_goods_modifier = 0.3
+			}
+		}
+	}
+}

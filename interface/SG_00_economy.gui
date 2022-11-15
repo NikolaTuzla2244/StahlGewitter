@@ -1,0 +1,101 @@
+guiTypes = {
+	containerWindowType = {
+		name = "SG_treasury_topbar"
+		position = { x = 800 y = 0 }
+		size = { width = 0 height = 0 }
+		iconType ={
+			name ="treasury_value_bg"
+			spriteType = "GFX_generic_box_96"
+			position = { x = 319 y = 5 }
+			Orientation = "UPPER_LEFT"
+
+			pdx_tooltip = "SG_treasury_topbar_tooltip"
+			pdx_tooltip_delayed = "SG_treasury_topbar_tooltip_delayed"
+		}
+		
+		iconType ={
+			name ="treasury_icon"
+			spriteType = "GFX_treasury_icon"
+			position = { x= 321 y = 5 }
+			Orientation = "UPPER_LEFT"
+
+			pdx_tooltip = "SG_treasury_topbar_tooltip"
+			pdx_tooltip_delayed = "SG_treasury_topbar_tooltip_delayed"
+		}
+
+		instantTextBoxType = {
+			name ="treasury"
+			position = { x= 352 y = 8 }
+			font = "hoi_18mbs"
+			text = "SG_treasury_value"
+			format = right
+			maxWidth = 57
+			maxHeight = 24
+			fixedsize = yes
+
+			pdx_tooltip = "SG_treasury_topbar_tooltip"
+			pdx_tooltip_delayed = "SG_treasury_topbar_tooltip_delayed"
+		}
+	}
+
+	containerWindowType = {
+		name = "SG_economy_button"
+		position = { x = 320 y = 490 }
+		size = { width = 0 height = 0 }
+		buttonType = {
+			name = "economy_button"
+			position = { x = 120 y = 20 }
+			spriteType = GFX_economy_button
+			clicksound = click_default
+
+			pdx_tooltip = "economy_button_tt"
+		}
+	}
+
+	containerWindowType = {
+		name = "SG_economy_GUI"
+		position = { x = 500 y = 100 }
+		size = { width = 400 height = 300 }
+		show_animation_type = decelerated
+		hide_animation_type = decelerated
+		fade_type = linear
+		fade_time = 3000
+
+		clipping = yes
+		moveable = yes
+
+		show_sound = open_sub_window
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_1b_border"
+			}
+
+		iconType ={
+			name ="economy_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 3 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "economy_title"
+			position = { x = 45 y = 8 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "economy_economy"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "economy_debug_info"
+			position = { x = 259 y = 210 }
+			font = "hoi_18mbs"
+			text = "economy_debug_info"
+			maxWidth = 300
+			maxHeight = 20
+		}
+	}
+}

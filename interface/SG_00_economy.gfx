@@ -1,0 +1,44 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_economy_button"
+		texturefile = "gfx/interface/economy/economy_button.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_treasury_icon"
+		texturefile = "gfx/interface/treasury_icon.png"
+	}
+	#国民精神
+	spriteType = {
+		name = "GFX_idea_economy_market_fundamentalism"
+		texturefile = "gfx/interface/economy/market_fundamentalism.png"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_social_welfare"
+		texturefile = "gfx/interface/economy/social_welfare.png"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_corporatism"
+		texturefile = "gfx/interface/economy/corporatism.png"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_mixed_economy"
+		texturefile = "gfx/interface/economy/mixed_economy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_planned_socialism"
+		texturefile = "gfx/interface/economy/planned_socialism.png"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_nep_socialism"
+		texturefile = "gfx/interface/economy/nep_socialism.png"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_nazi_corporatism"
+		texturefile = "gfx/interface/economy/nazi_corporatism.png"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_plutocracy"
+		texturefile = "gfx/interface/economy/plutocracy.png"
+	}
+}

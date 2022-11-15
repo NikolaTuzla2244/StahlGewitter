@@ -1,4 +1,27 @@
 economy_setup = {
-	#consumer
-	set_variable = { THIS.consumer_goods = 0.1 }
+	###値設定
+	#消費財工場数
+	set_variable = { THIS.ic_amount = THIS.num_of_civilian_factories }
+	add_to_variable = { THIS.ic_amount = THIS.num_of_military_factories }
+
+	log = "temp:[?THIS.consumer_goods_ic_temp] = [?THIS.num_of_factories]"
+	set_variable = { THIS.consumer_goods_ic_temp = THIS.ic_amount }
+	log = "temp:[?THIS.consumer_goods_ic_temp] * [?modifier@SG_consumer_goods_modifier]"
+	multiply_variable = { THIS.consumer_goods_ic_temp = modifier@SG_consumer_goods_modifier }
+	log = "temp:[?THIS.consumer_goods_ic_temp],consumer:[?THIS.consumer_goods_ic]"
+	set_variable = { THIS.consumer_goods_ic = THIS.consumer_goods_ic_temp }
+	
+	###消費財
+	set_variable = { THIS.consumer_goods_ratio = modifier@SG_consumer_goods_modifier }
+
+	###収入
+	#消費財工場 * 100
+	set_variable = { THIS.income_temp = THIS.consumer_goods_ic }
+	multiply_variable = { THIS.income_temp = 100 }
+
+	#貧困率%
+	multiply_variable = { THIS.income_temp = THIS.poverty_rate }
+
+	set_variable = { THIS.income = THIS.income_temp }
+	log = "temp:[?THIS.income_temp],income:[?THIS.income]"
 }

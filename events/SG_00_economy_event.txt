@@ -1,15 +1,46 @@
 add_namespace = sg_economy
 
-country_event = { #
+country_event = { #月毎
 	id = sg_economy.1
 	title = sg_economy.1.t
 	desc = sg_economy.1.d
 	# picture = GFX_report_event_physics_lab_02
+	hidden = yes
 
 	is_triggered_only = yes
 	
 	option = {
 		name = sg_economy.1.a
+
+		economy_setup = yes
+		
+		add_to_variable = { THIS.treasury = THIS.income }
+	}
+}
+
+country_event = { #開始時
+	id = sg_economy.2
+	title = sg_economy.2.t
+	desc = sg_economy.2.d
+	# picture = GFX_report_event_physics_lab_02
+	hidden = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_economy.2.a
+		
+		add_dynamic_modifier = {
+			modifier = SG_economy_dynamic_modifier
+		}
+		if = {
+			limit = { 
+				NOT = {
+					has_variable = THIS.poverty_rate
+				}
+			}
+			set_variable = { THIS.poverty_rate = 0.5 }
+		}
 		economy_setup = yes
 	}
 }

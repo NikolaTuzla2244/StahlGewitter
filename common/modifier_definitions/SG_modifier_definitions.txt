@@ -1,0 +1,6 @@
+SG_consumer_goods_modifier = {
+	color_type = neutral
+	value_type = percentage
+	precision = 0
+	category = country
+}

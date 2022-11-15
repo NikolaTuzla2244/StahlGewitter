@@ -1,0 +1,49 @@
+scripted_gui = {
+	SG_treasury_topbar = {
+		window_name = "SG_treasury_topbar"
+		context_type = player_context
+		parent_window_token = top_bar
+			
+		visible = {
+		}
+
+		effects = {
+		}
+	}
+	SG_economy_button = {
+		window_name = "SG_economy_button"
+		context_type = player_context
+		parent_window_token = politics_tab
+			
+		visible = {
+			is_ai = no
+		}
+
+		effects = {
+			economy_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = economy_GUI_open
+						}
+					}
+					set_country_flag = economy_GUI_open
+				}
+				else = {
+					clr_country_flag = economy_GUI_open
+				}
+			}
+		}
+	}
+	SG_economy_GUI = {
+		window_name = "SG_economy_GUI"
+		context_type = player_context
+			
+		visible = {
+			has_country_flag = economy_GUI_open
+		}
+
+		effects = {
+		}
+	}
+}

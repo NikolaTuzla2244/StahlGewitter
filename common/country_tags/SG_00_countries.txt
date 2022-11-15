@@ -93,6 +93,8 @@ SIK = "countries/asian.txt" #ウイグル
 
 AFG = "countries/asian.txt"
 
+USA = "countries/eastern_european.txt"
+
 ARG = "countries/Argentina.txt"
 AST = "countries/Australia.txt"
 BHU = "countries/Bhutan.txt"
@@ -125,7 +127,6 @@ SAU = "countries/Saudi Arabia.txt"
 SIA = "countries/Siam.txt"
 URG = "countries/Uruguay.txt"
 VEN = "countries/Venezula.txt"
-USA = "countries/USA.txt"
 TAN = "countries/Tannu Tuva.txt"
 PAR = "countries/Paraguay.txt"
 CUB = "countries/Cuba.txt"

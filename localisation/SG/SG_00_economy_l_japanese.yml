@@ -1,0 +1,18 @@
+﻿l_japanese:
+economy_market_fundamentalism:0 "市場至上主義"
+economy_social_welfare:0 "福祉型自由経済"
+economy_corporatism:0 "コーポラティズム"
+economy_mixed_economy:0 "混合経済"
+economy_planned_socialism:0 "社会主義計画経済"
+economy_nep_socialism:0 "社会主義改革経済"
+economy_nazi_corporatism:0 "ナチズム型コーポラティズム"
+economy_plutocracy:0 "寡頭制経済"
+
+SG_treasury_value:0 "[?THIS.treasury|*2]"
+
+economy_economy:0 "経済"
+
+SG_treasury_topbar_tooltip:0 "国庫:[?THIS.treasury|*2Y]\n\n収入:[?THIS.income_temp|+=*2] / 月毎\n"§g収入内訳 - "§!\n消費財:[?THIS.consumer_goods_ic|Y0] (10倍の補正)\n貧困率:[?THIS.poverty_rate|Y%1]"
+SG_treasury_topbar_tooltip_delayed:0 "§Y国庫§!は国家における中枢機関が独自に保有・使用できる全ての富を一括化し数値換算した概念である。国庫には国内の§Y消費財工場§!の数と§O貧困率§!から換算された§G収入§!分の数値が週ごとに蓄積されていき、保有する§Y軍の規模§!による分が§R支出§!として差し引かれる。また、国家方針やディシジョンなどのアクション時に用いることもある。"
+
+economy_debug_info:0 "国庫:[?THIS.treasury|+=]\n収入:[?THIS.income_temp|+=]\n消費財:[?THIS.consumer_goods_ic|Y]\n貧困率:[?THIS.poverty_rate|Y]"

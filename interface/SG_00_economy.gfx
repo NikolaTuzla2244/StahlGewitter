@@ -8,6 +8,24 @@ spriteTypes = {
 		name = "GFX_treasury_icon"
 		texturefile = "gfx/interface/treasury_icon.png"
 	}
+
+	spriteType = {
+		name = "GFX_revenue_limit_bar_frame"
+		texturefile = "gfx/interface/economy/revenue_limit_bar_frame.png"
+	}
+	progressbartype = {
+		name = "GFX_revenue_limit_bar_green"
+		texturefile1 = "gfx/interface/economy/revenue_limit_bar_green.png"
+		texturefile2 = "gfx/interface/economy/revenue_limit_bar_empty.png"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 450
+			y = 40
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
 	#国民精神
 	spriteType = {
 		name = "GFX_idea_economy_market_fundamentalism"

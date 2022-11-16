@@ -1,5 +1,6 @@
 economy_setup = {
 	###値設定
+	
 	#消費財工場数
 	set_variable = { THIS.ic_amount = THIS.num_of_civilian_factories }
 	add_to_variable = { THIS.ic_amount = THIS.num_of_military_factories }
@@ -10,18 +11,118 @@ economy_setup = {
 	multiply_variable = { THIS.consumer_goods_ic_temp = modifier@SG_consumer_goods_modifier }
 	log = "temp:[?THIS.consumer_goods_ic_temp],consumer:[?THIS.consumer_goods_ic]"
 	set_variable = { THIS.consumer_goods_ic = THIS.consumer_goods_ic_temp }
+
+	#所得人口
+	set_variable = { THIS.income_pop_temp = THIS.max_manpower_k }
+
+	set_variable = { THIS.poverty_pop_temp = THIS.max_manpower_k } #貧困層
+	multiply_variable = { THIS.poverty_pop_temp = THIS.poverty_rate }
+
+	subtract_from_variable = { THIS.income_pop_temp = THIS.poverty_pop_temp }
+	set_variable = { THIS.income_pop = THIS.income_pop_temp }
 	
-	###消費財
+	#消費財
 	set_variable = { THIS.consumer_goods_ratio = modifier@SG_consumer_goods_modifier }
 
+	#歳入補正
+	set_variable = { THIS.other_income = modifier@SG_other_income_modifier }
+
+	#社会支出
+	set_variable = { THIS.social_spending_ratio = modifier@SG_social_spending_modifier }
+
+	#主力艦船数
+	set_variable = { THIS.large_ship_amount = num_ships_with_type@carrier }
+	add_to_temp_variable = { THIS.large_ship_amount = num_ships_with_type@battleship }
+	add_to_temp_variable = { THIS.large_ship_amount = num_ships_with_type@battle_cruiser }
+	add_to_temp_variable = { THIS.large_ship_amount = num_ships_with_type@heavy_cruiser }
+	#護衛艦船数
+	set_variable = { THIS.small_ship_amount = num_ships_with_type@light_cruiser }
+	add_to_temp_variable = { THIS.small_ship_amount = num_ships_with_type@destroyer }
+	add_to_temp_variable = { THIS.small_ship_amount = num_ships_with_type@submarine }
+
 	###収入
-	#消費財工場 * 100
-	set_variable = { THIS.income_temp = THIS.consumer_goods_ic }
-	multiply_variable = { THIS.income_temp = 100 }
+	#消費財工場 * 500
+	set_variable = { THIS.consumer_goods_ic_calc = THIS.consumer_goods_ic }
+	multiply_variable = { THIS.consumer_goods_ic_calc = 200 }
+	set_variable = { THIS.income_temp = THIS.consumer_goods_ic_calc }
 
-	#貧困率%
-	multiply_variable = { THIS.income_temp = THIS.poverty_rate }
+	#所得人口 * 0.1
+	set_variable = { THIS.income_pop_calc = THIS.income_pop }
+	multiply_variable = { THIS.income_pop_calc = 0.1 }
 
+	add_to_variable = { THIS.income_temp = THIS.income_pop_calc }
+
+	#その他補正
+	add_to_variable = { THIS.income_temp = THIS.other_income }
+
+	#総計
 	set_variable = { THIS.income = THIS.income_temp }
-	log = "temp:[?THIS.income_temp],income:[?THIS.income]"
+	log = "income:[?THIS.income]"
+
+	###支出
+	##社会支出 * 0.2
+	set_variable = { THIS.social_spending_temp = THIS.max_manpower_k }
+	multiply_variable = { THIS.social_spending_temp = THIS.social_spending_ratio }
+	multiply_variable = { THIS.social_spending_temp = 0.2 }
+
+	#総計
+	set_variable = { THIS.spending = THIS.social_spending_temp }
+
+	##陸軍
+	#人件費 * 0.2
+	set_variable = { THIS.army_manpower_spending_temp = max_available_manpower_k }
+	multiply_variable = { THIS.army_manpower_spending_temp = 0.2 }
+	set_variable = { THIS.army_spending_temp = THIS.army_manpower_spending_temp }
+
+	#軍需工場 * 50
+	set_variable = { THIS.army_factory_spending_temp = THIS.num_of_military_factories }
+	multiply_variable = { THIS.army_factory_spending_temp = 50 }
+	add_to_variable = { THIS.army_spending_temp = THIS.army_factory_spending_temp }
+
+	#総計
+	add_to_variable = { THIS.spending = THIS.army_spending_temp }
+
+	##海軍
+	#艦船　大型艦 * 50, 小型艦 * 10
+	set_variable = { THIS.navy_large_ship_temp = THIS.large_ship_amount }
+	multiply_variable = { THIS.navy_large_ship_temp = 50 }
+
+	set_variable = { THIS.navy_small_ship_temp = THIS.small_ship_amount }
+	multiply_variable = { THIS.navy_small_ship_temp = 10 }
+	
+	set_variable = { THIS.navy_spending_temp = THIS.navy_large_ship_temp }
+	add_to_variable = { THIS.navy_spending_temp = THIS.navy_small_ship_temp }
+
+	#海軍造船所 * 30
+	set_variable = { THIS.navy_factory_spending_temp = THIS.num_of_naval_factories }
+	multiply_variable = { THIS.navy_factory_spending_temp = 30 }
+	add_to_variable = { THIS.navy_spending_temp = THIS.navy_factory_spending_temp }
+
+	#総計
+	add_to_variable = { THIS.spending = THIS.navy_spending_temp }
+
+	log = "spending:[?THIS.spending]"
+
+	###国庫変動###
+	set_variable = { THIS.fluctuation_temp = THIS.income }
+	subtract_from_variable = { THIS.fluctuation_temp = THIS.spending }
+	set_variable = { THIS.fluctuation = THIS.fluctuation_temp }
+	log = "fluctuation:[?THIS.fluctuation]"
+
+	###金準備上限
+	set_variable = { THIS.revenue_limit_temp = THIS.ic_amount }
+	multiply_variable = { THIS.revenue_limit_temp = 7500 }
+	set_variable = { THIS.revenue_limit = THIS.revenue_limit_temp }
+	#比率換算
+	set_variable = { THIS.revenue_ratio_temp = THIS.treasury }
+	divide_variable = { THIS.revenue_ratio_temp = THIS.revenue_limit }
+	multiply_variable = { THIS.revenue_ratio_temp = 100 }
+	set_variable = { THIS.revenue_ratio = THIS.revenue_ratio_temp }
+	log = "revenue_ratio:[?FRA.revenue_ratio]"
+
+	###債務上限
+	#IC * 10000
+	set_variable = { THIS.debt_ceiling_temp = THIS.ic_amount }
+	multiply_variable = { THIS.debt_ceiling_temp = 10000 }
+	set_variable = { THIS.debt_ceiling = THIS.debt_ceiling_temp }
 }

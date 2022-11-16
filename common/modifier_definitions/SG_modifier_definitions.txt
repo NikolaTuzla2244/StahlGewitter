@@ -1,5 +1,17 @@
-SG_consumer_goods_modifier = {
+SG_consumer_goods_modifier = { #消費財
 	color_type = neutral
+	value_type = percentage
+	precision = 0
+	category = country
+}
+SG_other_income_modifier = { #歳入補正
+	color_type = good
+	value_type = number
+	precision = 0
+	category = country
+}
+SG_social_spending_modifier = { #社会支出
+	color_type = good
 	value_type = percentage
 	precision = 0
 	category = country

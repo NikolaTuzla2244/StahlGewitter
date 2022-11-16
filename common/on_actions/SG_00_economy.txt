@@ -6,6 +6,10 @@ on_actions = {
 
 				country_event = sg_economy.2
 			}
+			###国庫設定
+
+			FRA = { set_variable = { THIS.treasury = 60000 } }
+
 		}
 	}
 	on_weekly = {

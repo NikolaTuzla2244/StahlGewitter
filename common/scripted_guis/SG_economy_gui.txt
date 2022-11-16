@@ -44,6 +44,12 @@ scripted_gui = {
 		}
 
 		effects = {
+			economy_close_button_click = {
+				clr_country_flag = economy_GUI_open
+			}
+		}
+		properties = {
+			economy_revenue_limit_ProgressBar = { frame = revenue_ratio }
 		}
 	}
 }

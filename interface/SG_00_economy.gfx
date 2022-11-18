@@ -8,6 +8,23 @@ spriteTypes = {
 		name = "GFX_treasury_icon"
 		texturefile = "gfx/interface/treasury_icon.png"
 	}
+	spriteType = {
+		name = "GFX_treasury_surplus_icon"
+		texturefile = "gfx/interface/treasury_surplus_icon.png"
+	}
+	spriteType = {
+		name = "GFX_treasury_deficit_icon"
+		texturefile = "gfx/interface/treasury_deficit_icon.png"
+	}
+
+	spriteType = {
+		name = "GFX_treasury_tab"
+		texturefile = "gfx/interface/economy/treasury_tab.png"
+	}
+	spriteType = {
+		name = "GFX_items_frame"
+		texturefile = "gfx/interface/economy/items_frame.png"
+	}
 
 	spriteType = {
 		name = "GFX_revenue_limit_bar_frame"
@@ -26,37 +43,121 @@ spriteTypes = {
 		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
 	}
+
+	progressbartype = {
+		name = "GFX_army_spending_piechart"
+		textureFile1 = "gfx/interface/economy/piechart/army_spending.png"
+		textureFile2 = "gfx/interface/economy/piechart/empty_pie.png"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 220
+			y = 220
+		}
+		effectFile = "gfx/FX/progress_radial.shader"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_consumer_goods_income_piechart"
+		textureFile1 = "gfx/interface/economy/piechart/consumer_goods_income.png"
+		textureFile2 = "gfx/interface/economy/piechart/empty_pie.png"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 220
+			y = 220
+		}
+		effectFile = "gfx/FX/progress_radial.shader"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_navy_spending_piechart"
+		textureFile1 = "gfx/interface/economy/piechart/navy_spending.png"
+		textureFile2 = "gfx/interface/economy/piechart/empty_pie.png"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 220
+			y = 220
+		}
+		effectFile = "gfx/FX/progress_radial.shader"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_other_income_piechart"
+		textureFile1 = "gfx/interface/economy/piechart/other_income.png"
+		textureFile2 = "gfx/interface/economy/piechart/empty_pie.png"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 220
+			y = 220
+		}
+		effectFile = "gfx/FX/progress_radial.shader"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_pop_tax_income_piechart"
+		textureFile1 = "gfx/interface/economy/piechart/pop_tax_income.png"
+		textureFile2 = "gfx/interface/economy/piechart/empty_pie.png"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 220
+			y = 220
+		}
+		effectFile = "gfx/FX/progress_radial.shader"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_social_spending_piechart"
+		textureFile1 = "gfx/interface/economy/piechart/social_spending.png"
+		textureFile2 = "gfx/interface/economy/piechart/empty_pie.png"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 220
+			y = 220
+		}
+		effectFile = "gfx/FX/progress_radial.shader"
+		horizontal = yes
+	}
+
+	spriteType = {
+		name = "GFX_economy_pie_frame"
+		texturefile = "gfx/interface/economy/piechart/pie_frame.png"
+	}
 	#国民精神
 	spriteType = {
 		name = "GFX_idea_economy_market_fundamentalism"
-		texturefile = "gfx/interface/economy/market_fundamentalism.png"
+		texturefile = "gfx/interface/economy/economy_ideologies/market_fundamentalism.png"
 	}
 	spriteType = {
 		name = "GFX_idea_economy_social_welfare"
-		texturefile = "gfx/interface/economy/social_welfare.png"
+		texturefile = "gfx/interface/economy/economy_ideologies/social_welfare.png"
 	}
 	spriteType = {
 		name = "GFX_idea_economy_corporatism"
-		texturefile = "gfx/interface/economy/corporatism.png"
+		texturefile = "gfx/interface/economy/economy_ideologies/corporatism.png"
 	}
 	spriteType = {
 		name = "GFX_idea_economy_mixed_economy"
-		texturefile = "gfx/interface/economy/mixed_economy.png"
+		texturefile = "gfx/interface/economy/economy_ideologies/mixed_economy.png"
 	}
 	spriteType = {
 		name = "GFX_idea_economy_planned_socialism"
-		texturefile = "gfx/interface/economy/planned_socialism.png"
+		texturefile = "gfx/interface/economy/economy_ideologies/planned_socialism.png"
 	}
 	spriteType = {
 		name = "GFX_idea_economy_nep_socialism"
-		texturefile = "gfx/interface/economy/nep_socialism.png"
+		texturefile = "gfx/interface/economy/economy_ideologies/nep_socialism.png"
 	}
 	spriteType = {
 		name = "GFX_idea_economy_nazi_corporatism"
-		texturefile = "gfx/interface/economy/nazi_corporatism.png"
+		texturefile = "gfx/interface/economy/economy_ideologies/nazi_corporatism.png"
 	}
 	spriteType = {
 		name = "GFX_idea_economy_plutocracy"
-		texturefile = "gfx/interface/economy/plutocracy.png"
+		texturefile = "gfx/interface/economy/economy_ideologies/plutocracy.png"
 	}
 }

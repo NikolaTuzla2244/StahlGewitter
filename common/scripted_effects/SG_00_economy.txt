@@ -46,9 +46,9 @@ economy_setup = {
 	multiply_variable = { THIS.consumer_goods_ic_calc = 200 }
 	set_variable = { THIS.income_temp = THIS.consumer_goods_ic_calc }
 
-	#所得人口 * 0.1
+	#所得人口 * 0.15
 	set_variable = { THIS.income_pop_calc = THIS.income_pop }
-	multiply_variable = { THIS.income_pop_calc = 0.1 }
+	multiply_variable = { THIS.income_pop_calc = 0.15 }
 
 	add_to_variable = { THIS.income_temp = THIS.income_pop_calc }
 
@@ -69,9 +69,9 @@ economy_setup = {
 	set_variable = { THIS.spending = THIS.social_spending_temp }
 
 	##陸軍
-	#人件費 * 0.2
-	set_variable = { THIS.army_manpower_spending_temp = max_available_manpower_k }
-	multiply_variable = { THIS.army_manpower_spending_temp = 0.2 }
+	#人件費 / 大隊数 * 8
+	set_variable = { THIS.army_manpower_spending_temp = num_battalions }
+	multiply_variable = { THIS.army_manpower_spending_temp = 8 }
 	set_variable = { THIS.army_spending_temp = THIS.army_manpower_spending_temp }
 
 	#軍需工場 * 50
@@ -111,7 +111,7 @@ economy_setup = {
 
 	###金準備上限
 	set_variable = { THIS.revenue_limit_temp = THIS.ic_amount }
-	multiply_variable = { THIS.revenue_limit_temp = 7500 }
+	multiply_variable = { THIS.revenue_limit_temp = 5000 }
 	set_variable = { THIS.revenue_limit = THIS.revenue_limit_temp }
 	#比率換算
 	set_variable = { THIS.revenue_ratio_temp = THIS.treasury }
@@ -123,6 +123,39 @@ economy_setup = {
 	###債務上限
 	#IC * 10000
 	set_variable = { THIS.debt_ceiling_temp = THIS.ic_amount }
-	multiply_variable = { THIS.debt_ceiling_temp = 10000 }
+	multiply_variable = { THIS.debt_ceiling_temp = 7500 }
 	set_variable = { THIS.debt_ceiling = THIS.debt_ceiling_temp }
+
+	###円グラフ
+	#消費財
+	set_variable = { THIS.consumer_goods_ic_pie = THIS.consumer_goods_ic_calc }
+	divide_variable = { THIS.consumer_goods_ic_pie = THIS.income }
+	multiply_variable = { THIS.consumer_goods_ic_pie = 100 }
+	#所得人口
+	set_variable = { THIS.income_pop_pie = THIS.income_pop_calc }
+	divide_variable = { THIS.income_pop_pie = THIS.income }
+	multiply_variable = { THIS.income_pop_pie = 100 }
+
+	add_to_variable = { THIS.income_pop_pie = THIS.consumer_goods_ic_pie }
+	#その他歳入
+	# set_variable = { THIS.other_income_pie = THIS.other_income }
+	# divide_variable = { THIS.other_income_pie = THIS.income }
+	# multiply_variable = { THIS.other_income_pie = 100 }
+	set_variable = { THIS.other_income_pie = 100 }
+
+	#社会支出
+	set_variable = { THIS.social_spending_pie = THIS.social_spending_temp }
+	divide_variable = { THIS.social_spending_pie = THIS.spending }
+	multiply_variable = { THIS.social_spending_pie = 100 }
+	#陸
+	set_variable = { THIS.army_spending_pie = THIS.army_spending_temp }
+	divide_variable = { THIS.army_spending_pie = THIS.spending }
+	multiply_variable = { THIS.army_spending_pie = 100 }
+
+	add_to_variable = { THIS.army_spending_pie = THIS.social_spending_pie }
+	#海
+	set_variable = { THIS.navy_spending_pie = 100 }
+	# set_variable = { THIS.navy_spending_pie = THIS.navy_spending_temp }
+	# divide_variable = { THIS.navy_spending_pie = THIS.spending }
+	# multiply_variable = { THIS.navy_spending_pie = 100 }
 }

@@ -91,15 +91,14 @@ guiTypes = {
 		# }
 		containerWindowType = {
 			name = "political_pie_chart"
-			position = { x = 394.5 y = 148 }
+			position = { x = 394 y = 148 }
 			size = { width = 250 height = 250 }
 			clipping = no
-			scale = 2.5
 
 			iconType = {
 				name = "chart"
-				spriteType = "GFX_political_chart"
-				position = { x = 28 y = 5 }
+				spriteType = "GFX_political_chart_big"
+				position = { x = 70 y = 5 }
 				# size = { width = 250 height = 250 }
 			}
 			

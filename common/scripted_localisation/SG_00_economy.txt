@@ -1,0 +1,124 @@
+defined_text = {
+	name = TreasuryIcon
+	text = {
+		trigger = {
+			has_surplus_economy = yes
+		}
+		localization_key = "GFX_treasury_surplus_icon"
+	}
+	text = {
+		trigger = {
+			has_deficit_economy = yes
+		}
+		localization_key = "GFX_treasury_deficit_icon"
+	}
+	text = {
+		localization_key = "GFX_treasury_icon"
+	}
+}
+defined_text = {
+	name = GetEconomyIdeologyName
+	text = {
+		trigger = {
+			has_idea = economy_market_fundamentalism
+		}
+		localization_key = economy_market_fundamentalism
+	}
+	text = {
+		trigger = {
+			has_idea = economy_social_welfare
+		}
+		localization_key = economy_social_welfare
+	}
+	text = {
+		trigger = {
+			has_idea = economy_corporatism
+		}
+		localization_key = economy_corporatism
+	}
+	text = {
+		trigger = {
+			has_idea = economy_mixed_economy
+		}
+		localization_key = economy_mixed_economy
+	}
+	text = {
+		trigger = {
+			has_idea = economy_planned_socialism
+		}
+		localization_key = economy_planned_socialism
+	}
+	text = {
+		trigger = {
+			has_idea = economy_nep_socialism
+		}
+		localization_key = economy_nep_socialism
+	}
+	text = {
+		trigger = {
+			has_idea = economy_nazi_corporatism
+		}
+		localization_key = economy_nazi_corporatism
+	}
+	text = {
+		trigger = {
+			has_idea = economy_plutocracy
+		}
+		localization_key = economy_plutocracy
+	}
+	text = {
+		localization_key = "aaaaaaaaaaaaaaaaaaaaaaa"
+	}
+}
+
+defined_text = {
+	name = GetEconomyIdeologyIcon
+	text = {
+		trigger = {
+			has_idea = economy_market_fundamentalism
+		}
+		localization_key = "GFX_idea_economy_market_fundamentalism"
+	}
+	text = {
+		trigger = {
+			has_idea = economy_social_welfare
+		}
+		localization_key = "GFX_idea_economy_social_welfare"
+	}
+	text = {
+		trigger = {
+			has_idea = economy_corporatism
+		}
+		localization_key = "GFX_idea_economy_corporatism"
+	}
+	text = {
+		trigger = {
+			has_idea = economy_mixed_economy
+		}
+		localization_key = "GFX_idea_economy_mixed_economy"
+	}
+	text = {
+		trigger = {
+			has_idea = economy_planned_socialism
+		}
+		localization_key = "GFX_idea_economy_planned_socialism"
+	}
+	text = {
+		trigger = {
+			has_idea = economy_nep_socialism
+		}
+		localization_key = "GFX_idea_economy_nep_socialism"
+	}
+	text = {
+		trigger = {
+			has_idea = economy_nazi_corporatism
+		}
+		localization_key = "GFX_idea_economy_nazi_corporatism"
+	}
+	text = {
+		trigger = {
+			has_idea = economy_plutocracy
+		}
+		localization_key = "GFX_idea_economy_plutocracy"
+	}
+}

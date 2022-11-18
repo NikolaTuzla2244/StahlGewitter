@@ -9,6 +9,11 @@ scripted_gui = {
 
 		effects = {
 		}
+		properties = {
+			treasury_icon = {
+				image = "[TreasuryIcon]"
+			}
+		}
 	}
 	SG_economy_button = {
 		window_name = "SG_economy_button"
@@ -49,7 +54,20 @@ scripted_gui = {
 			}
 		}
 		properties = {
+			economy_ideology_icon = {
+				image = "[GetEconomyIdeologyIcon]"
+			}
+			
 			economy_revenue_limit_ProgressBar = { frame = revenue_ratio }
+
+			#piechart
+			other_income_piechart = { frame = THIS.other_income_pie }
+			pop_tax_income_piechart = { frame = THIS.income_pop_pie }
+			consumer_goods_income_piechart = { frame = THIS.consumer_goods_ic_pie }
+
+			navy_spending_piechart = { frame = THIS.navy_spending_pie }
+			army_spending_piechart = { frame = THIS.army_spending_pie }
+			social_spending_piechart = { frame = THIS.social_spending_pie }
 		}
 	}
 }

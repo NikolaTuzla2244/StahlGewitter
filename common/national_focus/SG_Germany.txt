@@ -21,6 +21,9 @@ focus_tree = {
 		
 		available_if_capitulated = yes
 
+		available = {
+			has_idea = economy_nazi_corporatism
+		}
 		completion_reward = {
 		}
 	}

@@ -8,7 +8,7 @@ guiTypes = {
 			position = { x = 258 y = 160 }
 			font = "hoi_20bs"
 			text = [GetSubIdeologyName]
-			maxWidth = 300
+			maxWidth = 150
 			maxHeight = 20
 		}
 		instantTextboxType = {
@@ -16,7 +16,7 @@ guiTypes = {
 			position = { x = 259 y = 210 }
 			font = "hoi_18mbs"
 			text = [THIS.GetRulingParty]
-			maxWidth = 300
+			maxWidth = 150
 			maxHeight = 20
 		}
 		containerWindowType = {

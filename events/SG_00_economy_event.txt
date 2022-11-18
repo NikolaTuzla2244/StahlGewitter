@@ -39,15 +39,7 @@ country_event = { #開始時
 					has_variable = THIS.poverty_rate
 				}
 			}
-			set_variable = { THIS.poverty_rate = 0.5 }
-		}
-		if = {
-			limit = { 
-				NOT = {
-					has_variable = THIS.poverty_rate
-				}
-			}
-			set_variable = { THIS.poverty_rate = 0.5 }
+			set_variable = { THIS.poverty_rate = 0.3 }
 		}
 		economy_setup = yes
 	}

@@ -1,6 +1,6 @@
 SG_economy_dynamic_modifier = {
 	enable = { always = yes }
-	icon = GFX_idea_generic_production_bonus
+	# icon = GFX_idea_generic_production_bonus
 
 	consumer_goods_factor = THIS.consumer_goods_ratio
 }

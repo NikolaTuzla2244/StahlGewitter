@@ -3,11 +3,242 @@ characters = {
 		name = USA_Huey_Long
 		portraits={
 			civilian={
-				# large = "gfx/characters/large/FIN/Portrait_FWG_Tsukiyuki_Miyako.png"
+				large = "gfx/characters/large/USA/Portrait_USA_Huey_Long.png"
+			}
+		}
+		country_leader = {
+			ideology = limited_democracy_subtype
+		}
+	}
+	LOU_Alvin_Olin_King = {
+		name = LOU_Alvin_Olin_King
+		portraits={
+			civilian={
+				large = "gfx/characters/large/USA/Portrait_LOU_Alvin_Olin_King"
+			}
+		}
+		country_leader = {
+			ideology = limited_democracy_subtype
+		}
+	}
+	CNC_Gerald_L_K_Smith = {
+		name = CNC_Gerald_L_K_Smith
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_CNC_Gerald_L_K_Smith.png"
+			}
+		}
+		country_leader = {
+			ideology = clerical_fascism_subtype
+		}
+	}
+	KKK_James_A_Colescott = {
+		name = KKK_James_A_Colescott
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_KKK_James_A_Colescott.png"
+			}
+		}
+		country_leader = {
+			ideology = ethnic_supremacy_subtype
+		}
+	}
+	DIX_Richard_Russell_Jr = {
+		name = DIX_Richard_Russell_Jr
+		portraits={
+			civilian={
+				large = "gfx/characters/large/USA/Portrait_DIX_Richard_Russell_Jr.png"
+			}
+		}
+		country_leader = {
+			ideology = national_populism_subtype
+		}
+	}
+	GCM_W_E_B_Du_Bois = {
+		name = GCM_W_E_B_Du_Bois
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_GCM_W_E_B_Du_Bois.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_subtype
+		}
+	}
+	USR_Wendell_Lewis_Willkie = {
+		name = USR_Wendell_Lewis_Willkie
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_USR_Wendell_Lewis_Willkie.png"
 			}
 		}
 		country_leader = {
 			ideology = liberal_democracy_subtype
+		}
+	}
+	USR_John_Nance_Garner = {
+		name = USR_John_Nance_Garner
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_USR_John_Nance_Garner.png"
+			}
+		}
+		country_leader = {
+			ideology = conservative_democracy_subtype
+		}
+	}
+	ASF_Emmanuel_Rudnitsky = {
+		name = ASF_Emmanuel_Rudnitsky
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_ASF_Emmanuel_Rudnitsky.png"
+			}
+		}
+		country_leader = {
+			ideology = ultraradicalism_subtype
+		}
+	}
+	SCI_L_Ron_Hubbard = {
+		name = SCI_L_Ron_Hubbard
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_SCI_L_Ron_Hubbard.png"
+			}
+		}
+		country_leader = {
+			ideology = civilian_dictatorship_subtype
+		}
+	}
+	AAM_George_Marshall = {
+		name = AAM_George_Marshall
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_AAM_George_Marshall.png"
+			}
+		}
+		country_leader = {
+			ideology = military_junta_subtype
+		}
+	}
+	ANV_Chester_Nimitz = {
+		name = ANV_Chester_Nimitz
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_ANV_Chester_Nimitz.png"
+			}
+		}
+		country_leader = {
+			ideology = stratocracy_subtype
+		}
+	}
+	NYS_Salvatore_Maranzano = {
+		name = NYS_Salvatore_Maranzano
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_NYS_Salvatore_Maranzano.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_subtype
+		}
+	}
+	JDL_Ze_ev_Jabotinsky = {
+		name = JDL_Ze_ev_Jabotinsky
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_JDL_Ze_ev_Jabotinsky.png"
+			}
+		}
+		country_leader = {
+			ideology = revisionist_zionism_subtype
+		}
+	}
+	CPU_William_Z_Foster = {
+		name = CPU_William_Z_Foster
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_CPU_William_Z_Foster.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_subtype
+		}
+	}
+	CPU_Earl_Browder = {
+		name = CPU_Earl_Browder
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_CPU_Earl_Browder.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_subtype
+		}
+	}
+	IWW_Jay_Fox = {
+		name = IWW_Jay_Fox
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_IWW_Jay_Fox.png"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_syndicalism_subtype
+		}
+	}
+	TEC_Howard_Scott = {
+		name = TEC_Howard_Scott
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_TEC_Howard_Scott.png"
+			}
+		}
+		country_leader = {
+			ideology = technocracy_subtype
+		}
+	}
+	SAI_Sherman_Coolidge = {
+		name = SAI_Sherman_Coolidge
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_SAI_Sherman_Coolidge.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_subtype
+		}
+	}
+	ACT_Alexander_Berkman = {
+		name = ACT_Alexander_Berkman
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_ACT_Alexander_Berkman.png"
+			}
+		}
+		country_leader = {
+			ideology = anarchism_movement_subtype
+		}
+	}
+	ACT_Luigi_Galleani = {
+		name = ACT_Luigi_Galleani
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_ACT_Luigi_Galleani.png"
+			}
+		}
+		country_leader = {
+			ideology = anarchism_movement_subtype
+		}
+	}
+	SSL_William_Dudley_Pelley = {
+		name = SSL_William_Dudley_Pelley
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_SSL_William_Dudley_Pelley.png"
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
 		}
 	}
 }

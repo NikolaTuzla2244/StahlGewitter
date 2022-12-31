@@ -1,13 +1,33 @@
 
 UKR_SOV = {
-	color = rgb { 135 23 34 }
-	color_ui = rgb { 135 23 34 }
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
 }
 BLR_SOV = {
-	color = rgb { 115 3 14 }
-	color_ui = rgb { 115 3 14 }
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
 }
 BAL_SOV = {
-	color = rgb { 115 3 14 }
-	color_ui = rgb { 115 3 14 }
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+KAZ_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+UZB_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+KYR_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+TAJ_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+TMS_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
 }

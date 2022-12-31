@@ -11,7 +11,32 @@ SG_other_income_modifier = { #歳入補正
 	category = country
 }
 SG_social_spending_modifier = { #社会支出
+	color_type = neutral
+	value_type = percentage
+	precision = 0
+	category = country
+}
+
+SG_consumer_goods_income_modifier = { #消費財収入 補正
 	color_type = good
+	value_type = percentage
+	precision = 0
+	category = country
+}
+SG_income_pop_income_modifier = { #所得人口収入 補正
+	color_type = good
+	value_type = percentage
+	precision = 0
+	category = country
+}
+SG_army_spending_modifier = { #陸軍支出 補正
+	color_type = bad
+	value_type = percentage
+	precision = 0
+	category = country
+}
+SG_navy_spending_modifier = { #海軍支出 補正
+	color_type = bad
 	value_type = percentage
 	precision = 0
 	category = country

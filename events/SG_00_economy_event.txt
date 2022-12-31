@@ -39,7 +39,7 @@ country_event = { #開始時
 					has_variable = THIS.poverty_rate
 				}
 			}
-			set_variable = { THIS.poverty_rate = 0.3 }
+			set_variable = { THIS.poverty_rate = 0.1 }
 		}
 		economy_setup = yes
 	}

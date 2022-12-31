@@ -23,6 +23,7 @@ state={
 		add_core_of = SCS
 		add_core_of = BOS
 		add_core_of = HRZ
+		add_claim_by = SER
 	}
 
 	provinces={

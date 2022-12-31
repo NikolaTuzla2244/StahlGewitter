@@ -1,0 +1,25 @@
+
+state={
+	id=848
+	name="STATE_848"
+	manpower = 263395
+	
+	state_category = large_town
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 6
+		}
+		add_core_of = USA
+		victory_points = {
+			1690 1 
+		}
+	}
+
+	provinces={
+		10198 10327 4747 10690 10693 1690 12673 10687 
+	}
+
+	local_supplies=0.0 
+}

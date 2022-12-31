@@ -1,0 +1,14 @@
+ideas = {
+	hidden_ideas = {
+		base_idea = {
+			allowed = { }
+			available = {
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				min_export = 0.5
+			}
+		}
+	}
+}

@@ -23,6 +23,19 @@ idea_categories = {
 		ledger = hidden
 	}
 	
+	
+	development = {
+		slot = academic_level
+		slot = industry_level
+		slot = administration_level
+		slot = infrastructure_level
+		slot = network_level
+		slot = military_level
+
+		cost = -1
+		removal_cost = -1
+	}
+
 	laws = {
 		slot = economy_system
 		slot = mobilization_law
@@ -45,7 +58,7 @@ idea_categories = {
 		
 		ledger = civilian
 		
-		cost = 0
+		cost = -1
 		removal_cost = -1
 	}
 	

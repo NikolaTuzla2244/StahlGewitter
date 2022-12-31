@@ -33,6 +33,7 @@ state={
 		#add_claim_by = ITA #added by focus
 		add_core_of = SCS
 		add_core_of = CRO
+		add_claim_by = SER
 	}
 
 	provinces={

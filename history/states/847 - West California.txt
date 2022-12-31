@@ -1,0 +1,46 @@
+
+state={
+	id=847
+	name="STATE_847"
+	manpower = 4000000
+	
+	state_category = metropolis
+	
+	resources={
+		oil=180 # was: 350
+		aluminium=8 # was: 14
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 10
+			9671 = {
+				naval_base = 4
+			}
+			9814 = {
+				naval_base = 5
+			}
+			610 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = USA
+		victory_points = {
+			9814 30
+		}
+		victory_points = {
+			9671 25
+		}
+	}
+
+	provinces={
+		3678 9671 3677 9637 6861 3840 986 3784 11876 6881 11859 9814 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,422 @@
+SG_china_core = {
+	unify_gangnam = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = yes
+		available = {
+			NOT = {
+				any_other_country = {
+					is_gangnam = yes
+				}
+			}
+		}
+		visible = {
+			is_gangnam = yes
+		}
+		cost = 0
+		complete_effect = {
+			if = { limit = { tag = KMT } set_cosmetic_tag = KMT_UNI }
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	core_KMT = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		available = {
+			NOT = {
+				country_exists = KMT
+			}
+		}
+		visible = {
+			has_KMT = yes
+			any_owned_state = {
+				is_core_of = KMT
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		days_remove = 100
+		cost = 50
+		remove_effect = {
+			add_state_core = 598
+			add_state_core = 613
+			add_state_core = 743
+			add_state_core = 596
+			add_state_core = 600
+			add_state_core = 595
+			add_state_core = 593
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	core_GGC = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		available = {
+			NOT = {
+				country_exists = GGC
+			}
+		}
+		visible = {
+			has_GGC = yes
+			any_owned_state = {
+				is_core_of = GGC
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		days_remove = 90
+		cost = 50
+		remove_effect = {
+			add_state_core = 599
+			add_state_core = 594
+			add_state_core = 592
+			add_state_core = 591
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	core_CCP = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		available = {
+			NOT = {
+				country_exists = CCP
+			}
+		}
+		visible = {
+			has_CCP = yes
+			any_owned_state = {
+				is_core_of = CCP
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		days_remove = 90
+		cost = 50
+		remove_effect = {
+			add_state_core = 607
+			add_state_core = 606
+			add_state_core = 620
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	core_MAO = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		available = {
+			NOT = {
+				country_exists = MAO
+			}
+		}
+		visible = {
+			has_MAO = yes
+			any_owned_state = {
+				is_core_of = MAO
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		days_remove = 60
+		cost = 50
+		remove_effect = {
+			add_state_core = 744
+			add_state_core = 605
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	core_FGS = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		available = {
+			NOT = {
+				country_exists = FGS
+			}
+		}
+		visible = {
+			has_FGS = yes
+			any_owned_state = {
+				is_core_of = FGS
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		days_remove = 60
+		cost = 50
+		remove_effect = {
+			add_state_core = 750
+			add_state_core = 602
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	core_YUN = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		available = {
+			NOT = {
+				country_exists = YUN
+			}
+		}
+		visible = {
+			has_YUN = yes
+			any_owned_state = {
+				is_core_of = YUN
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		days_remove = 50
+		cost = 50
+		remove_effect = {
+			add_state_core = 748
+			add_state_core = 603
+			add_state_core = 325
+			add_state_core = 747
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	core_ZHI = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		available = {
+			NOT = {
+				country_exists = ZHI
+			}
+		}
+		visible = {
+			has_ZHI = yes
+			any_owned_state = {
+				is_core_of = ZHI
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		days_remove = 30
+		cost = 50
+		remove_effect = {
+			add_state_core = 601
+			add_state_core = 742
+			add_state_core = 751
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	core_BEJ = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		available = {
+			NOT = {
+				country_exists = BEJ
+			}
+		}
+		visible = {
+			has_BEJ = yes
+			any_owned_state = {
+				is_core_of = BEJ
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		days_remove = 90
+		cost = 50
+		remove_effect = {
+			add_state_core = 608
+			add_state_core = 609
+			add_state_core = 611
+			add_state_core = 610
+			add_state_core = 715
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	core_MAN = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		available = {
+			NOT = {
+				country_exists = MAN
+			}
+		}
+		visible = {
+			has_MAN = yes
+			any_owned_state = {
+				is_core_of = MAN
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		days_remove = 90
+		cost = 50
+		remove_effect = {
+			add_state_core = 761
+			add_state_core = 714
+			add_state_core = 717
+			add_state_core = 328
+			add_state_core = 716
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	core_SHD = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		available = {
+			NOT = {
+				country_exists = SHD
+			}
+		}
+		visible = {
+			has_SHD = yes
+			any_owned_state = {
+				is_core_of = SHD
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		days_remove = 50
+		cost = 50
+		remove_effect = {
+			add_state_core = 597
+			add_state_core = 614
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	core_MON = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		available = {
+			NOT = {
+				country_exists = MON
+			}
+		}
+		visible = {
+			has_MON = yes
+			any_owned_state = {
+				is_core_of = MON
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		days_remove = 30
+		cost = 50
+		remove_effect = {
+			add_state_core = 612
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	core_SHX = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		available = {
+			NOT = {
+				country_exists = SHX
+			}
+		}
+		visible = {
+			has_SHX = yes
+			any_owned_state = {
+				is_core_of = SHX
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		days_remove = 30
+		cost = 50
+		remove_effect = {
+			add_state_core = 615
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	core_GMJ = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		available = {
+			NOT = {
+				country_exists = GMJ
+			}
+		}
+		visible = {
+			has_GMJ = yes
+			any_owned_state = {
+				is_core_of = GMJ
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		days_remove = 60
+		cost = 50
+		remove_effect = {
+			add_state_core = 621
+			add_state_core = 746
+			add_state_core = 622
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	core_UMA = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		available = {
+			NOT = {
+				country_exists = UMA
+			}
+		}
+		visible = {
+			has_UMA = yes
+			any_owned_state = {
+				is_core_of = UMA
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		days_remove = 60
+		cost = 50
+		remove_effect = {
+			add_state_core = 756
+			add_state_core = 616
+			add_state_core = 754
+			add_state_core = 283
+			add_state_core = 753
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

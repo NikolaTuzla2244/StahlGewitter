@@ -168,7 +168,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_schachts_connections
+		id = GER_Fritz_Thyssen_support
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
@@ -300,7 +300,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 2
-		relative_position_id = GER_schachts_connections
+		relative_position_id = GER_Fritz_Thyssen_support
 		cost = 2
 		# search_filters = {}
 		
@@ -327,7 +327,7 @@ focus_tree = {
 	# }
 
 	focus = {
-		id = GER_Gleichschaltung
+		id = GER_die_Fahne_hoch
 		icon = GFX_goal_unknown
 		x = 13
 		y = 0
@@ -339,10 +339,144 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	#政治
 	focus = {
-		id = GER_Gleichschaltung
+		id = GER_nuremberg_laws
 		icon = GFX_goal_unknown
-		x = 13
+		x = -1
+		y = 1
+		relative_position_id = GER_die_Fahne_hoch
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_die_Fahne_hoch }
+		completion_reward = {
+		}
+	}
+	#経済
+	focus = {
+		id = GER_four_years_plan
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = GER_die_Fahne_hoch
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_die_Fahne_hoch }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_mefo_bills
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = GER_four_years_plan
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_four_years_plan }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_germanize_economy
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = GER_four_years_plan
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_nuremberg_laws }
+		prerequisite = { focus = GER_four_years_plan }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_race_redefinition
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = GER_nuremberg_laws
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_nuremberg_laws }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_Kristallnacht
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = GER_nuremberg_laws
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_germanize_economy }
+		prerequisite = { focus = GER_race_redefinition }
+		available = {
+			has_country_flag = GER_Kristallnacht
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_establish_autarkie
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		relative_position_id = GER_four_years_plan
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_four_years_plan }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_reichswerke_hermann_goring
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = GER_establish_autarkie
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_establish_autarkie }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_expand_chemical_product
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = GER_establish_autarkie
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_establish_autarkie }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_all_for_heer
+		icon = GFX_goal_unknown
+		x = 18
 		y = 0
 		cost = 2
 		# search_filters = {}

@@ -6,8 +6,8 @@ state={
 	state_category = town
 
 	history={
-		owner = BIS
-		add_core_of = BIS
+		owner = KMT
+		add_core_of = KMT
 		buildings = {
 			infrastructure = 2
 

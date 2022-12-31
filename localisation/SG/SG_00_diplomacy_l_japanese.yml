@@ -1,4 +1,10 @@
 ﻿l_japanese:
+SG_diplomacy_disabled:0 "§RSGではAIの不安定な挙動を防ぐため外交コマンドを禁止しています§!"
+
 BRITISH_EMPIRE:0 "イギリス帝国"
+ENTENTE:0 "協商国"
 THIRD_INTERNATIONAL:0 "第三インターナショナル"
+STAHLPACT:0 "鋼鉄協約"
 DANUBE_LEAGUE:0 "ドナウ連盟"
+RESTORE_ALLIANCE:0 "復位同盟"
+BUCHAREST_TREATY_ORGANIZATION:0 "ブカレスト条約機構"

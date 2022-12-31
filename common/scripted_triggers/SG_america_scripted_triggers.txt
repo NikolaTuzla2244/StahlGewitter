@@ -1,0 +1,27 @@
+is_america_warlords = {
+	custom_trigger_tooltip = {
+		tooltip = SG_is_america_warlords
+
+		OR = {
+			tag = LOU
+			tag = CNC
+			tag = KKK
+			tag = DIX
+			tag = GCM
+			tag = USR
+			tag = ASF
+			tag = SCI
+			tag = AAM
+			tag = ANV
+			tag = NYS
+			tag = IRO
+			tag = JDL
+			tag = CPU
+			tag = IWW
+			tag = TEC
+			tag = SAI
+			tag = ACT
+			tag = SSL
+		}
+	}
+}

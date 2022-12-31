@@ -22,6 +22,20 @@
 # _ultraradicalism_party:0 ""
 # _ultraradicalism_party_long:0 ""
 
+#イギリス
+ENG_authoritarianism_party:0 "保守党(主)"
+ENG_authoritarianism_party_long:0 "保守党 - 主流派"
+ENG_despotism_party:0 "鉄騎隊"
+ENG_despotism_party_long:0 "英国鉄騎隊"
+ENG_national_populism_party:0 "モズレー新党"
+ENG_national_populism_party_long:0 "新党・ファシスト同盟"
+ENG_conservative_democracy_party:0 "保守党(革)"
+ENG_conservative_democracy_party_long:0 "保守党 - 改革派"
+ENG_reformism_party:0 "労働党"
+ENG_reformism_party_long:0 "労働党"
+ENG_social_liberalism_party:0 "労組運動"
+ENG_social_liberalism_party_long:0 "労働組合による運動"
+
 #ドイツ
 GER_national_socialism_party:0 "NSDAP - 右派"
 GER_national_socialism_party_long:0 "国家社会主義ドイツ労働者党 - ヒトラー派"

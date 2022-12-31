@@ -1,5 +1,5 @@
 characters={
-	ENG_Winston_Churchill = {
+	ENG_Winston_Churchill = { #王国の最も忠実な番犬♡
 		name = ENG_Winston_Churchill
 		portraits={
 			civilian={
@@ -8,6 +8,28 @@ characters={
 		}
 		country_leader = {
 			ideology = limited_democracy_subtype
+		}
+	}
+	ENG_Freeman_Thomas = { #20世紀の英国護国卿♡
+		name = ENG_Freeman_Thomas
+		portraits={
+			civilian={
+				large = "gfx/characters/large/ENG/Portrait_ENG_Freeman_Thomas.png"
+			}
+		}
+		country_leader = {
+			ideology = despotism_subtype
+		}
+	}
+	ENG_Oswald_Mosley = { #黒衣の華麗なる改革者♡
+		name = ENG_Oswald_Mosley
+		portraits={
+			civilian={
+				large = "gfx/characters/large/ENG/Portrait_ENG_Oswald_Mosley.png"
+			}
+		}
+		country_leader = {
+			ideology = national_populism_subtype
 		}
 	}
 	ENG_Edward_VIII = {
@@ -25,6 +47,10 @@ characters={
 			allowed = {
 				tag = ENG
 			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cost = 0
 			removal_cost = -1
 			traits = {
 				SG_trait_Monach

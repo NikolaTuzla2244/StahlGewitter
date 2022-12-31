@@ -83,6 +83,11 @@ add_to_faction = BLR
 add_to_faction = UKR
 add_to_faction = FIN
 add_to_faction = TCC
+add_to_faction = KAZ
+add_to_faction = UZB
+add_to_faction = KYR
+add_to_faction = TAJ
+add_to_faction = TMS
 
 add_ideas = {
 	limited_exports

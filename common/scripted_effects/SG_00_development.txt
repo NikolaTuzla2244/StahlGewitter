@@ -1,0 +1,237 @@
+academic_upgrade = {
+	if = {
+		limit = { has_idea = SG_academic_1 }
+		swap_ideas = { remove_idea = SG_academic_1 add_idea = SG_academic_2 }
+	}
+	else_if = {
+		limit = { has_idea = SG_academic_2 }
+		swap_ideas = { remove_idea = SG_academic_2 add_idea = SG_academic_3 }
+	}
+	else_if = {
+		limit = { has_idea = SG_academic_3 }
+		swap_ideas = { remove_idea = SG_academic_3 add_idea = SG_academic_4 }
+	}
+	else_if = {
+		limit = { has_idea = SG_academic_4 }
+		swap_ideas = { remove_idea = SG_academic_4 add_idea = SG_academic_5 }
+	}
+	else = {
+		custom_effect_tooltip = development_cant_upgrade_tt
+	}
+}
+industry_upgrade = {
+	if = {
+		limit = { has_idea = SG_industry_1 }
+		swap_ideas = { remove_idea = SG_industry_1 add_idea = SG_industry_2 }
+	}
+	else_if = {
+		limit = { has_idea = SG_industry_2 }
+		swap_ideas = { remove_idea = SG_industry_2 add_idea = SG_industry_3 }
+	}
+	else_if = {
+		limit = { has_idea = SG_industry_3 }
+		swap_ideas = { remove_idea = SG_industry_3 add_idea = SG_industry_4 }
+	}
+	else_if = {
+		limit = { has_idea = SG_industry_4 }
+		swap_ideas = { remove_idea = SG_industry_4 add_idea = SG_industry_5 }
+	}
+	else = {
+		custom_effect_tooltip = development_cant_upgrade_tt
+	}
+}
+administration_upgrade = {
+	if = {
+		limit = { has_idea = SG_administration_1 }
+		swap_ideas = { remove_idea = SG_administration_1 add_idea = SG_administration_2 }
+	}
+	else_if = {
+		limit = { has_idea = SG_administration_2 }
+		swap_ideas = { remove_idea = SG_administration_2 add_idea = SG_administration_3 }
+	}
+	else_if = {
+		limit = { has_idea = SG_administration_3 }
+		swap_ideas = { remove_idea = SG_administration_3 add_idea = SG_administration_4 }
+	}
+	else_if = {
+		limit = { has_idea = SG_administration_4 }
+		swap_ideas = { remove_idea = SG_administration_4 add_idea = SG_administration_5 }
+	}
+	else = {
+		custom_effect_tooltip = development_cant_upgrade_tt
+	}
+}
+infrastructure_upgrade = {
+	if = {
+		limit = { has_idea = SG_infrastructure_1 }
+		swap_ideas = { remove_idea = SG_infrastructure_1 add_idea = SG_infrastructure_2 }
+	}
+	else_if = {
+		limit = { has_idea = SG_infrastructure_2 }
+		swap_ideas = { remove_idea = SG_infrastructure_2 add_idea = SG_infrastructure_3 }
+	}
+	else_if = {
+		limit = { has_idea = SG_infrastructure_3 }
+		swap_ideas = { remove_idea = SG_infrastructure_3 add_idea = SG_infrastructure_4 }
+	}
+	else_if = {
+		limit = { has_idea = SG_infrastructure_4 }
+		swap_ideas = { remove_idea = SG_infrastructure_4 add_idea = SG_infrastructure_5 }
+	}
+	else = {
+		custom_effect_tooltip = development_cant_upgrade_tt
+	}
+}
+network_upgrade = {
+	if = {
+		limit = { has_idea = SG_network_1 }
+		swap_ideas = { remove_idea = SG_network_1 add_idea = SG_network_2 }
+	}
+	else_if = {
+		limit = { has_idea = SG_network_2 }
+		swap_ideas = { remove_idea = SG_network_2 add_idea = SG_network_3 }
+	}
+	else = {
+		custom_effect_tooltip = development_cant_upgrade_tt
+	}
+}
+military_upgrade = {
+	if = {
+		limit = { has_idea = SG_military_1 }
+		swap_ideas = { remove_idea = SG_military_1 add_idea = SG_military_2 }
+	}
+	else_if = {
+		limit = { has_idea = SG_military_2 }
+		swap_ideas = { remove_idea = SG_military_2 add_idea = SG_military_3 }
+	}
+	else_if = {
+		limit = { has_idea = SG_military_3 }
+		swap_ideas = { remove_idea = SG_military_3 add_idea = SG_military_4 }
+	}
+	else_if = {
+		limit = { has_idea = SG_military_4 }
+		swap_ideas = { remove_idea = SG_military_4 add_idea = SG_military_5 }
+	}
+	else = {
+		custom_effect_tooltip = development_cant_upgrade_tt
+	}
+}
+
+academic_downgrade = {
+	if = {
+		limit = { has_idea = SG_academic_5 }
+		swap_ideas = { remove_idea = SG_academic_5 add_idea = SG_academic_4 }
+	}
+	else_if = {
+		limit = { has_idea = SG_academic_4 }
+		swap_ideas = { remove_idea = SG_academic_4 add_idea = SG_academic_3 }
+	}
+	else_if = {
+		limit = { has_idea = SG_academic_3 }
+		swap_ideas = { remove_idea = SG_academic_3 add_idea = SG_academic_2 }
+	}
+	else_if = {
+		limit = { has_idea = SG_academic_2 }
+		swap_ideas = { remove_idea = SG_academic_2 add_idea = SG_academic_1 }
+	}
+	else = {
+		custom_effect_tooltip = development_cant_downgrade_tt
+	}
+}
+industry_downgrade = {
+	if = {
+		limit = { has_idea = SG_industry_5 }
+		swap_ideas = { remove_idea = SG_industry_5 add_idea = SG_industry_4 }
+	}
+	else_if = {
+		limit = { has_idea = SG_industry_4 }
+		swap_ideas = { remove_idea = SG_industry_4 add_idea = SG_industry_3 }
+	}
+	else_if = {
+		limit = { has_idea = SG_industry_3 }
+		swap_ideas = { remove_idea = SG_industry_3 add_idea = SG_industry_2 }
+	}
+	else_if = {
+		limit = { has_idea = SG_industry_2 }
+		swap_ideas = { remove_idea = SG_industry_2 add_idea = SG_industry_1 }
+	}
+	else = {
+		custom_effect_tooltip = development_cant_downgrade_tt
+	}
+}
+administration_downgrade = {
+	if = {
+		limit = { has_idea = SG_administration_5 }
+		swap_ideas = { remove_idea = SG_administration_5 add_idea = SG_administration_4 }
+	}
+	else_if = {
+		limit = { has_idea = SG_administration_4 }
+		swap_ideas = { remove_idea = SG_administration_4 add_idea = SG_administration_3 }
+	}
+	else_if = {
+		limit = { has_idea = SG_administration_3 }
+		swap_ideas = { remove_idea = SG_administration_3 add_idea = SG_administration_2 }
+	}
+	else_if = {
+		limit = { has_idea = SG_administration_2 }
+		swap_ideas = { remove_idea = SG_administration_2 add_idea = SG_administration_1 }
+	}
+	else = {
+		custom_effect_tooltip = development_cant_downgrade_tt
+	}
+}
+infrastructure_downgrade = {
+	if = {
+		limit = { has_idea = SG_infrastructure_5 }
+		swap_ideas = { remove_idea = SG_infrastructure_5 add_idea = SG_infrastructure_4 }
+	}
+	else_if = {
+		limit = { has_idea = SG_infrastructure_4 }
+		swap_ideas = { remove_idea = SG_infrastructure_4 add_idea = SG_infrastructure_3 }
+	}
+	else_if = {
+		limit = { has_idea = SG_infrastructure_3 }
+		swap_ideas = { remove_idea = SG_infrastructure_3 add_idea = SG_infrastructure_2 }
+	}
+	else_if = {
+		limit = { has_idea = SG_infrastructure_2 }
+		swap_ideas = { remove_idea = SG_infrastructure_2 add_idea = SG_infrastructure_1 }
+	}
+	else = {
+		custom_effect_tooltip = development_cant_downgrade_tt
+	}
+}
+network_downgrade = {
+	if = {
+		limit = { has_idea = SG_network_3 }
+		swap_ideas = { remove_idea = SG_network_3 add_idea = SG_network_2 }
+	}
+	else_if = {
+		limit = { has_idea = SG_network_2 }
+		swap_ideas = { remove_idea = SG_network_2 add_idea = SG_network_1 }
+	}
+	else = {
+		custom_effect_tooltip = development_cant_downgrade_tt
+	}
+}
+military_downgrade = {
+	if = {
+		limit = { has_idea = SG_military_5 }
+		swap_ideas = { remove_idea = SG_military_5 add_idea = SG_military_4 }
+	}
+	else_if = {
+		limit = { has_idea = SG_military_4 }
+		swap_ideas = { remove_idea = SG_military_4 add_idea = SG_military_3 }
+	}
+	else_if = {
+		limit = { has_idea = SG_military_3 }
+		swap_ideas = { remove_idea = SG_military_3 add_idea = SG_military_2 }
+	}
+	else_if = {
+		limit = { has_idea = SG_military_2 }
+		swap_ideas = { remove_idea = SG_military_2 add_idea = SG_military_1 }
+	}
+	else = {
+		custom_effect_tooltip = development_cant_downgrade_tt
+	}
+}

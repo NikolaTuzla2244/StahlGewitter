@@ -72,11 +72,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	national_populism = 5
-	despotism = 10
 	authoritarianism = 35
-	conservative_democracy = 30
-	liberal_democracy = 10
+	despotism = 20
+	national_populism = 15
+	conservative_democracy = 15
+	reformism = 5
 	social_liberalism = 10
 }
 
@@ -95,6 +95,9 @@ create_faction = BRITISH_EMPIRE
 add_to_faction = ENG
 
 recruit_character = ENG_Winston_Churchill
+recruit_character = ENG_Freeman_Thomas
+recruit_character = ENG_Oswald_Mosley
 recruit_character = ENG_Edward_VIII
 
 activate_advisor = ENG_Edward_VIII_HoG
+set_country_flag = has_sub_leader

@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+		USA_last_days = {
+			picture = GER_Saarland
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				surrender_limit = 0.5
+			}
+		}
+	}
+}

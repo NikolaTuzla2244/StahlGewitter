@@ -1,0 +1,99 @@
+focus_tree = {
+	id = SG_britain_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	default = no
+
+	focus = {
+		id = ENG_in_the_stormy_sea
+		icon = GFX_goal_unknown
+		x = 5
+		y = 0
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+			country_event = sg_britain.1
+		}
+	}
+	focus = {
+		id = ENG_keep_course_by_churchill
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = ENG_in_the_stormy_sea
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_in_the_stormy_sea }
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+			always = no
+		}
+		completion_reward = {
+			custom_effect_tooltip = SG_only_in_event
+		}
+	}
+	focus = {
+		id = ENG_black_shirts_march
+		icon = GFX_goal_unknown
+		x = -4
+		y = 1
+		relative_position_id = ENG_in_the_stormy_sea
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_in_the_stormy_sea }
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+			always = no
+		}
+		completion_reward = {
+			custom_effect_tooltip = SG_only_in_event
+		}
+	}
+	focus = {
+		id = ENG_willingdon_takes_control
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		relative_position_id = ENG_in_the_stormy_sea
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_in_the_stormy_sea }
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+			always = no
+		}
+		completion_reward = {
+			custom_effect_tooltip = SG_only_in_event
+		}
+	}
+}

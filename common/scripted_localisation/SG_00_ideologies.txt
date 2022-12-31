@@ -75,6 +75,14 @@ defined_text = { #国家社会主義
 		localization_key = german_national_socialism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = clerical_fascism_subtype }
+		localization_key = clerical_fascism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = ethnic_supremacy_subtype }
+		localization_key = ethnic_supremacy_subtype
+	}
+	text = {
 		localization_key = national_socialism
 	}
 }
@@ -97,6 +105,10 @@ defined_text = { #愛国的ポピュリズム
 		localization_key = stratocracy_nationalism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = national_syndicalism_subtype }
+		localization_key = national_syndicalism_subtype
+	}
+	text = {
 		trigger = { has_country_leader_ideology = San_Min_fascism_subtype }
 		localization_key = San_Min_fascism_subtype
 	}
@@ -111,8 +123,20 @@ defined_text = { #専制主義
 		localization_key = military_junta_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = civilian_dictatorship_subtype }
+		localization_key = civilian_dictatorship_subtype
+	}
+	text = {
 		trigger = { has_country_leader_ideology = warlordism_subtype }
 		localization_key = warlordism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = technocracy_subtype }
+		localization_key = technocracy_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = theocracy_subtype }
+		localization_key = theocracy_subtype
 	}
 	text = {
 		localization_key = despotism
@@ -138,6 +162,10 @@ defined_text = { #権威主義
 }
 defined_text = { #保守民主主義
 	name = GetSubIdeologyName_ConDem
+	text = {
+		trigger = { has_country_leader_ideology = san_min_democracy_subtype }
+		localization_key = san_min_democracy_subtype
+	}
 	text = {
 		localization_key = conservative_democracy
 	}
@@ -169,6 +197,14 @@ defined_text = { #社会自由主義
 		localization_key = maoism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = anarchism_movement_subtype }
+		localization_key = anarchism_movement_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = anarcho_communism_subtype }
+		localization_key = anarcho_communism_subtype
+	}
+	text = {
 		localization_key = social_liberalism
 	}
 }
@@ -181,6 +217,10 @@ defined_text = { #権威社会主義
 	text = {
 		trigger = { has_country_leader_ideology = chinise_socialsm_subtype }
 		localization_key = chinise_socialsm_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = revolutionary_syndicalism_subtype }
+		localization_key = revolutionary_syndicalism_subtype
 	}
 	text = {
 		localization_key = authoritarian_socialism
@@ -197,6 +237,10 @@ defined_text = { #超反動主義
 	text = {
 		trigger = { has_country_leader_ideology = fundamentalism_subtype }
 		localization_key = fundamentalism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = revisionist_zionism_subtype }
+		localization_key = revisionist_zionism_subtype
 	}
 	text = {
 		localization_key = ultrareactionism

@@ -1,0 +1,67 @@
+guiTypes = {
+	containerWindowType = {
+		name = "SG_peace_popup"
+		position = { x= 0 y= 0 }
+		moveable = yes
+		size = { width = 527 height = 315 }
+		Orientation = center
+		Origo = center
+		show_sound = peace_summary_message
+
+		fade_type = linear
+		fade_time = 500
+
+		background = {
+			name = "Background"
+			spriteType ="GFX_tiled_window_transparent"
+		}
+		iconType ={
+			name ="window_bg"
+			spriteType = "GFX_SG_peace_popup_window"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "peace_popup_header_text"
+			position = { x = 110 y = 30 }
+			font = "hoi_30header"
+			text = "peace_popup_header"
+			format = center
+			maxWidth = 300
+			maxHeight = 36
+		}
+
+		instantTextboxType = {
+			name = "peace_popup_title_text"
+			position = { x = 65 y = 100 }
+			font = "hoi_20b"
+			text = "[peace_popup_title]"
+			format = center
+			maxWidth = 400
+			maxHeight = 36
+		}
+		instantTextboxType = {
+			name = "peace_popup_flavor_text"
+			position = { x = 65 y = 200 }
+			font = "hoi_18"
+			text = "[peace_popup_flavor]"
+			format = center
+			maxWidth = 400
+			maxHeight = 36
+		}
+
+		buttonType = {
+			name = "peace_popup_close_button"
+			position = { x = -80 y = 100 }
+			font = "hoi_18"
+			spriteType = "GFX_SG_button_148x34"
+			shortcut = "ESCAPE"
+			buttonText = "PEACE_POPUP_CLOSE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+			Orientation = center
+		}
+	}
+}

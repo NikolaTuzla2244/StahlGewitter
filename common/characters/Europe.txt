@@ -10,4 +10,26 @@ characters = {
 			ideology = reformism_subtype
 		}
 	}
+	BEL_Camille_Huysmans = {
+		name = BEL_Camille_Huysmans
+		portraits={
+			civilian={
+				large = "gfx/characters/large/BEL/Portrait_BEL_Camille_Huysmans.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_subtype
+		}
+	}
+	BEL_Julien_Lahautn = {
+		name = BEL_Julien_Lahaut
+		portraits={
+			civilian={
+				large = "gfx/characters/large/BEL/Portrait_BEL_Julien_Lahaut.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_subtype
+		}
+	}
 }

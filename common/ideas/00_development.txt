@@ -1,0 +1,729 @@
+ideas = {
+	academic_level = { 
+		law = yes
+		use_list_view = yes
+
+		SG_academic_5 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_academic_5
+                  
+			modifier = {
+				research_speed_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_academic_4 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_academic_4
+                  
+			modifier = {
+				research_speed_factor = 0.03
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_academic_3 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_academic_3
+                  
+			modifier = {
+				research_speed_factor = 0.01
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_academic_2 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_academic_2
+                  
+			modifier = {
+				research_speed_factor = -0.02
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_academic_1 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_academic_1
+                  
+			modifier = {
+				research_speed_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	industry_level = { 
+		law = yes
+		use_list_view = yes
+
+		SG_industry_5 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_industry_5
+                  
+			modifier = {
+				SG_consumer_goods_modifier = 0.03
+				industrial_capacity_factory = 0.05
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_start_efficiency_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_industry_4 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_industry_4
+                  
+			modifier = {
+				SG_consumer_goods_modifier = 0.01
+				industrial_capacity_factory = 0.02
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_industry_3 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_industry_3
+                  
+			modifier = {
+				# industrial_capacity_factory = 0.0
+				production_factory_efficiency_gain_factor = 0.02
+				production_factory_start_efficiency_factor = 0.02
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_industry_2 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_industry_2
+                  
+			modifier = {
+				SG_consumer_goods_modifier = -0.02
+				industrial_capacity_factory = -0.02
+				production_factory_efficiency_gain_factor = -0.05
+				production_factory_start_efficiency_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_industry_1 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_industry_1
+                  
+			modifier = {
+				SG_consumer_goods_modifier = -0.03
+				industrial_capacity_factory = -0.05
+				production_factory_efficiency_gain_factor = -0.1
+				production_factory_start_efficiency_factor = -0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	administration_level = { 
+		law = yes
+		use_list_view = yes
+
+		SG_administration_5 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_administration_5
+                  
+			modifier = {
+				political_power_factor = 0.15
+				monthly_population = 0.1
+				conscription_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_administration_4 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_administration_4
+                  
+			modifier = {
+				political_power_factor = 0.1
+				monthly_population = 0.05
+				conscription_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_administration_3 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_administration_3
+                  
+			modifier = {
+				political_power_factor = 0.05
+				monthly_population = 0.02
+				conscription_factor = 0.02
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_administration_2 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_administration_2
+                  
+			modifier = {
+				political_power_factor = -0.05
+				monthly_population = -0.05
+				conscription_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_administration_1 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_administration_1
+                  
+			modifier = {
+				political_power_factor = -0.1
+				monthly_population = -0.1
+				conscription_factor = -0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	infrastructure_level = { 
+		law = yes
+		use_list_view = yes
+
+		SG_infrastructure_5 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_infrastructure_5
+                  
+			modifier = {
+				supply_factor = 0.25
+				local_resources_factor = 0.1
+				global_building_slots_factor = 0.1
+				production_speed_buildings_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_infrastructure_4 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_infrastructure_4
+                  
+			modifier = {
+				supply_factor = 0.15
+				local_resources_factor = 0.05
+				global_building_slots_factor = 0.05
+				production_speed_buildings_factor = 0.02
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_infrastructure_3 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_infrastructure_3
+                  
+			modifier = {
+				supply_factor = 0.1
+				# local_resources_factor = 0.02
+				global_building_slots_factor = 0.02
+				# production_speed_buildings_factor = 0.02
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_infrastructure_2 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_infrastructure_2
+                  
+			modifier = {
+				supply_factor = 0.05
+				local_resources_factor = -0.05
+				global_building_slots_factor = -0.02
+				production_speed_buildings_factor = -0.02
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_infrastructure_1 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_infrastructure_1
+                  
+			modifier = {
+				supply_factor = -0.05
+				local_resources_factor = -0.1
+				global_building_slots_factor = -0.05
+				production_speed_buildings_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	network_level = { 
+		law = yes
+		use_list_view = yes
+
+		SG_network_3 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_network_3
+                  
+			modifier = {
+				land_reinforce_rate = 0.05
+				drift_defence_factor = 0.25
+				stability_factor = 0.1
+				intel_network_gain_factor = 0.15
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_network_2 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_network_2
+                  
+			modifier = {
+				drift_defence_factor = 0.1
+				stability_factor = 0.05
+				intel_network_gain_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_network_1 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_network_1
+                  
+			modifier = {
+				drift_defence_factor = -0.05
+				stability_factor = -0.05
+				intel_network_gain_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	military_level = { 
+		law = yes
+		use_list_view = yes
+
+		SG_military_5 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_military_5
+                  
+			modifier = {
+				experience_gain_army_factor = 0.15
+				experience_gain_navy_factor = 0.15
+				experience_gain_air_factor = 0.15
+
+				army_morale_factor = 0.1
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_speed_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_military_4 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_military_4
+                  
+			modifier = {
+				experience_gain_army_factor = 0.1
+				experience_gain_navy_factor = 0.1
+				experience_gain_air_factor = 0.1
+
+				army_morale_factor = 0.05
+				army_attack_factor = 0.02
+				army_defence_factor = 0.02
+				army_speed_factor = 0.02
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_military_3 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_military_3
+                  
+			modifier = {
+				experience_gain_army_factor = 0.05
+				experience_gain_navy_factor = 0.05
+				experience_gain_air_factor = 0.05
+
+				army_morale_factor = 0.02
+				# army_attack_factor = 0.02
+				# army_defence_factor = 0.02
+				# army_speed_factor = 0.02
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_military_2 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_military_2
+                  
+			modifier = {
+				experience_gain_army_factor = -0.05
+				experience_gain_navy_factor = -0.05
+				experience_gain_air_factor = -0.05
+
+				army_morale_factor = -0.05
+				army_attack_factor = -0.02
+				army_defence_factor = -0.02
+				army_speed_factor = -0.02
+			}
+			
+			cancel_if_invalid = no
+		}
+		SG_military_1 = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = SG_military_1
+                  
+			modifier = {
+				experience_gain_army_factor = -0.1
+				experience_gain_navy_factor = -0.1
+				experience_gain_air_factor = -0.1
+
+				army_morale_factor = -0.1
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+				army_speed_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}

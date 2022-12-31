@@ -14,7 +14,7 @@ scripted_gui = {
 		parent_window_token = politics_tab
 			
 		visible = {
-			always = yes
+			has_country_flag = has_sub_leader
 		}
 		effects = {
 			sub_leader_button_click = {
@@ -45,6 +45,20 @@ scripted_gui = {
 		properties = {
 			sub_leader = {
 				image = "[THIS.sub_leader_portrait]"
+			}
+		}
+	}
+	SG_pol_faction_GUI = {
+		window_name = "SG_pol_faction_GUI"
+		context_type = player_context
+		parent_window_token = politics_tab
+			
+		visible = {
+			is_in_faction = yes
+		}
+		properties = {
+			faction_icon = {
+				image = "[THIS.SGGetFactionIcon]"
 			}
 		}
 	}

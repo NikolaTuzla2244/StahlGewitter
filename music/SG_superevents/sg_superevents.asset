@@ -13,3 +13,18 @@ music = {
 	file = "sg_se_china_unification_chiang_kai_shek.ogg"
 	volume = 1
 }
+music = {
+	name = "sg_se_american_collapse"
+	file = "sg_se_american_collapse.ogg"
+	volume = 1
+}
+music = {
+	name = "sg_se_third_balkan_war_small"
+	file = "sg_se_third_balkan_war_small.ogg"
+	volume = 1
+}
+music = {
+	name = "sg_se_third_balkan_war_large"
+	file = "sg_se_third_balkan_war_large.ogg"
+	volume = 1
+}

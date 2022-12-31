@@ -19,6 +19,7 @@ SWI = "countries/western_european.txt" #スイス
 
 AUS	= "countries/western_european.txt"
 HUN = "countries/eastern_european.txt" #ハンガリー
+TRA = "countries/western_european.txt" #トランシルヴァニア
 CZE	= "countries/eastern_european.txt"
 RTH = "countries/eastern_european.txt" #カルパティア・ルテニア
 SCS = "countries/eastern_european.txt" #スロベニア人・クロアチア人・セルビア人国
@@ -27,9 +28,10 @@ ROM = "countries/eastern_european.txt" #ルーマニア
 YUG = "countries/eastern_european.txt"
 SER = "countries/eastern_european.txt" #セルビア
 ALB = "countries/eastern_european.txt" #アルバニア
-BUL = "countries/eastern_european.txt"
-GRE = "countries/eastern_european.txt"
-TUR = "countries/western_european.txt"
+BUL = "countries/eastern_european.txt" #ブルガリア
+GRE = "countries/eastern_european.txt" #ギリシャ
+TUR = "countries/western_european.txt" #オスマン帝国
+IHB = "countries/western_european.txt" #ボスポラス海峡委員会
 
 SWE	= "countries/western_european.txt" #スウェーデン
 FIN = "countries/eastern_european.txt" #フィンランド社会主義共和国
@@ -38,25 +40,41 @@ NOR = "countries/western_european.txt" #ノルウェー
 DEN = "countries/western_european.txt" #デンマーク
 
 POL	= "countries/eastern_european.txt" #ポーランド
-BAL	= "countries/eastern_european.txt" #バルト・ソビエト軍管区
+
 LIT	= "countries/eastern_european.txt" #リトアニア
 EST	= "countries/eastern_european.txt" #エストニア
 LAT	= "countries/eastern_european.txt" #ラトビア
-#ソビエト連邦
+
+###中東・アフリカ
+FRR = "countries/western_european.txt" #フランス共和国
+IRQ = "common/countries/middle_eastern.txt" #メソポタミア/イラク
+BEK = "countries/western_european.txt" #亡命ベルギー王国
+
+###ソビエト連邦
 SOV = "countries/eastern_european.txt" #ソビエト連邦
 SOI = "countries/eastern_european.txt" #シベリア臨時政府
-# #ソ連内戦
+
+BAL	= "countries/eastern_european.txt" #バルト・ソビエト軍管区
+BLR = "countries/eastern_european.txt" #白ロシア・ソビエト
+UKR = "countries/eastern_european.txt" #ウクライナ・ソビエト
+
+TCC = "countries/eastern_european.txt" #コーカサス・ソビエト
+
+KAZ = "countries/asian.txt" #カザフ・ソビエト
+UZB = "countries/asian.txt" #ウズベク・ソビエト
+KYR = "countries/asian.txt" #キルギス・ソビエト
+TAJ = "countries/asian.txt" #タジク・ソビエト
+TMS = "countries/asian.txt" #トルクメン・ソビエト
+#ソ連内戦
 LGR = "countries/eastern_european.txt" #ソビエト連邦緊急政府(ジノヴィエフ)
 RBS = "countries/eastern_european.txt" #右派ボリシェヴィキ(コンドラチエフ)
 TSK = "countries/eastern_european.txt" #中央委員会書記局(モロトフ)
 KPD = "countries/eastern_european.txt" #亡命ドイツ共産党(ラデック)
 GPU = "countries/eastern_european.txt" #国家政治保安部(エジョフ)
-# SOA = "countries/eastern_european.txt" #ソビエト赤軍(ヴォロシーロフ)
-# LEF = "countries/eastern_european.txt" #左派構成社会(マヤコフスキー)
+SOA = "countries/eastern_european.txt" #ソビエト赤軍(ヴォロシーロフ)
+LEF = "countries/eastern_european.txt" #左派構成社会(マヤコフスキー)
 
 KAR = "countries/eastern_european.txt" #カレリア人民共和国
-
-TCC = "countries/eastern_european.txt" #コーカサス・ソビエト
 
 ###アジア###
 JAP = "countries/asian.txt" #大日本帝国
@@ -71,29 +89,53 @@ MAN = "countries/asian.txt" #奉天軍閥
 BEJ = "countries/asian.txt" #北京政府
 SHD = "countries/asian.txt" #山東軍閥
 GMJ = "countries/asian.txt" #国民軍残党
-MPR = "countries/asian.txt" #内蒙人民共和国
+MON = "countries/asian.txt" #内蒙国
 QZD = "countries/asian.txt" #清真団
 #南京政府
 KMT = "countries/asian.txt" #国民党
 CJP = "countries/asian.txt" #支那方面軍
 GGC = "countries/asian.txt" #新広西派
-BIS = "countries/asian.txt" #軍統
+# BIS = "countries/asian.txt" #軍統
 FGS = "countries/asian.txt" #仏光山
 MAO = "countries/asian.txt" #紅衛兵
 CCP = "countries/asian.txt" #人民中央委員会
 
 SHX = "countries/asian.txt" #山西軍閥
-YUN = "countries/asian.txt" #雲南軍閥 
+YUN = "countries/asian.txt" #雲南軍閥
 ZHI = "countries/asian.txt" #直隷軍閥
 UMA = "countries/asian.txt" #馬家軍
 
-MON = "countries/asian.txt" #モンゴル
+MPR = "countries/asian.txt" #モンゴル人民共和国
 TIB = "countries/asian.txt" #チベット
 SIK = "countries/asian.txt" #ウイグル
 
 AFG = "countries/asian.txt"
 
-USA = "countries/eastern_european.txt"
+###アメリカ
+USA = "countries/eastern_european.txt" #アメリカ合衆国
+#崩壊
+LOU = "countries/eastern_european.txt" #ルイジアナ政府 / アルヴィン・オーリン・キング Alvin Olin King[権威主義]
+CNC = "countries/eastern_european.txt" #キリスト教愛国十字軍 / ジェラルド・L・K・スミス[国家社会主義]
+KKK = "countries/eastern_european.txt" #クー・クラックス・クラン / ジェームズ・A・コールスコット
+DIX = "countries/eastern_european.txt" #南部連合 / リチャード・ラッセル・ジュニア[右派ポピュリズム]
+GCM = "countries/eastern_european.txt" #ジョージア黒人運動 / W・E・B・デュボイス[社会自由主義]
+
+USR = "countries/eastern_european.txt" #アメリカ共和国 / ウェンデル・L・ウィルキー[自由民主主義], ジョン・N・ガーナー[保守民主主義]
+ASF = "countries/eastern_european.txt" #シュルレアリスム戦線 / エマニュエル・ラドニツキー[超急進主義], パーシー・グレインジャー[自由民主主義]
+SCI = "countries/eastern_european.txt" #サイエントロジー教会 / L・ロン・ハバード[専制主義]
+
+AAM = "countries/eastern_european.txt" #米国陸軍政府 / ジョージ・マーシャル[専制主義]
+ANV = "countries/eastern_european.txt" #海軍警備隊 / チェスター・ニミッツ[権威主義]
+NYS = "countries/eastern_european.txt" #ニューヨーク・シンジケート / サルヴァトーレ・マランツァーノ[権威主義], ラッキー・ルチアーノ[社会自由主義]
+IRO = "countries/eastern_european.txt" #イロコイ連邦 / 
+JDL = "countries/eastern_european.txt" #ユダヤ防衛同盟 / ゼエヴ・ジャボチンスキー[右派ポピュリズム]
+
+CPU = "countries/eastern_european.txt" #赤色統一戦線 → アメリカ共産党 / ウィリアム・Z・フォスター[権威社会主義]
+IWW = "countries/eastern_european.txt" #世界産業労働組合 / ジェイ・フォックス[社会自由主義]
+TEC = "countries/eastern_european.txt" #テクニカル・アライアンス / ハワード・スコット[専制主義]
+SAI = "countries/eastern_european.txt" #アメリカ・インディアン協会 / シャーマン・クーリッジ[社会自由主義]
+ACT = "countries/eastern_european.txt" #「アクション」(アナーキスト) / アレクサンダー・バークマン[社会自由主義], ルイジ・ガレアーニ[社会自由主義]
+SSL = "countries/eastern_european.txt" #銀シャツ団 / ウィリアム・ダドリー・ペリー[国家社会主義]
 
 ARG = "countries/Argentina.txt"
 AST = "countries/Australia.txt"
@@ -110,7 +152,6 @@ ELS = "countries/El Salvador.txt"
 ETH = "countries/Ethiopia.txt"
 GUA = "countries/Guatemla.txt"
 HON = "countries/Honduras.txt"
-IRQ = "countries/Iraq.txt"
 
 LIB = "countries/Liberia.txt"
 MEX = "countries/Mexico.txt"
@@ -155,12 +196,9 @@ MAL = "countries/Malaysia.txt"
 INS = "countries/Indonesia.txt"
 LAO = "countries/Laos.txt"
 MNT = "countries/Montenegro.txt"
-UKR = "countries/Ukraine.txt"
 GEO = "countries/Georgia.txt"
-KAZ = "countries/Kazakhstan.txt" 
 AZR = "countries/Azerbaijan.txt"
 ARM = "countries/Armenia.txt"
-BLR = "countries/Belarus.txt"
 ANG = "countries/Angola.txt"
 MZB = "countries/Mozambique.txt"
 ZIM = "countries/Zimbabwe.txt"
@@ -176,7 +214,6 @@ CRC = "countries/Curacao.txt"
 GDL = "countries/Guadeloupe.txt"
 GYA = "countries/Guyana.txt"
 JAM = "countries/Jamaica.txt"
-KYR = "countries/Kyrgyzstan.txt"
 MAD = "countries/Madagascar.txt"
 MOL = "countries/Moldova.txt"
 PNG = "countries/Papua New Guinea.txt"
@@ -185,11 +222,8 @@ QAT = "countries/Qatar.txt"
 SCO = "countries/Scotland.txt"
 SRL = "countries/Sri Lanka.txt"
 SUR = "countries/Suriname.txt"
-TAJ = "countries/Tajikistan.txt"
 TRI = "countries/Trinidad and Tobago.txt"
-TMS = "countries/Turkmenistan.txt"
 UAE = "countries/United Arab Emirates.txt"
-UZB = "countries/Uzbekistan.txt"
 KUW = "countries/Kuwait.txt"
 CYP = "countries/Cyprus.txt"
 MLT = "countries/Malta.txt"
@@ -261,7 +295,6 @@ BRI = "countries/Brittany.txt"
 OCC = "countries/Occitania.txt"
 COR = "countries/Corsica.txt"
 KUR = "countries/Kurdistan.txt"
-TRA = "countries/Transylvania.txt"
 DNZ = "countries/Danzig.txt"
 SIL = "countries/Silesia.txt"
 KSH = "countries/Kashubia.txt"

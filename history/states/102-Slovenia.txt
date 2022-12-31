@@ -18,6 +18,7 @@ state=
 		# add_core_of = YUG
 		add_core_of = SCS
 		add_core_of = SLV
+		add_claim_by = SER
 	}
 	provinces={
 		596 665 3631 3654 6650 6672 9596 9627 }

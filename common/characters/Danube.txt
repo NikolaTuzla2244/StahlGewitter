@@ -1,9 +1,9 @@
 characters = {
-	HUN_Gombos_Gyula = {
-		name = HUN_Gombos_Gyula
+	HUN_Lehar_Antal = {
+		name = HUN_Lehar_Antal
 		portraits={
 			civilian={
-				large = "gfx/characters/large/HUN/Portrait_HUN_Gombos_Gyula.png"
+				large = "gfx/characters/large/HUN/Portrait_HUN_Lehar_Antal.png"
 			}
 		}
 		country_leader = {

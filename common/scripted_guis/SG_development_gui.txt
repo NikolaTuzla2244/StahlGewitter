@@ -1,0 +1,56 @@
+scripted_gui = {
+	SG_development_open_button = {
+		window_name = "SG_development_open_button"
+		context_type = player_context
+		parent_window_token = politics_tab
+			
+		effects = {
+		}
+
+		triggers = {
+	    	
+	    }
+
+		visible = {
+			is_ai = no
+		}
+
+		effects = {
+			development_open_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = development_GUI_open
+						}
+					}
+					set_country_flag = development_GUI_open
+				}
+				else = {
+					clr_country_flag = development_GUI_open
+				}
+				clr_country_flag = economy_GUI_open
+			}
+		}
+	}
+	SG_development_GUI = {
+		window_name = "SG_development_GUI"
+		context_type = player_context
+			
+		effects = {
+		}
+
+		triggers = {
+	    	
+	    }
+
+		visible = {
+			has_country_flag = development_GUI_open
+		}
+
+		effects = {
+			development_close_button_click = {
+				clr_country_flag = development_GUI_open
+			}
+		}
+	}
+}

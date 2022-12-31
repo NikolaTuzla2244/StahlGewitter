@@ -2,17 +2,31 @@ SG_fire_super_event = {
 	hidden_effect = {
 		log = "SG_fire_super_event"
 		set_variable = { SG_super_event = SG_temp_super_event }
-		if = {
+		###1~20 - 中国
+		if = { #中国内戦
 			limit = { check_variable = { SG_temp_super_event = 2 } }
 			scoped_play_song = "sg_se_chinese_collapse"
 		}
-		if = {
+		if = { #統一 - 国民革命軍
 			limit = { check_variable = { SG_temp_super_event = 3 } }
 			scoped_play_song = "sg_se_china_unification_nationalist_army"
 		}
-		if = {
+		if = { #統一 - 蔣介石
 			limit = { check_variable = { SG_temp_super_event = 4 } }
 			scoped_play_song = "sg_se_china_unification_chiang_kai_shek"
+		}
+		###20~ - 一般
+		if = { #アメリカ崩壊
+			limit = { check_variable = { SG_temp_super_event = 20 } }
+			scoped_play_song = "sg_se_american_collapse"
+		}
+		if = { #第三次バルカン戦争(小規模)
+			limit = { check_variable = { SG_temp_super_event = 21 } }
+			scoped_play_song = "sg_se_third_balkan_war_small"
+		}
+		if = { #第三次バルカン戦争(大規模)
+			limit = { check_variable = { SG_temp_super_event = 22 } }
+			scoped_play_song = "sg_se_third_balkan_war_large"
 		}
 	}
 }

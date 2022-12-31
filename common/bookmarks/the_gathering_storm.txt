@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 1936.1.1.12
+		date = 1935.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = GER
 		default = yes
@@ -31,25 +31,17 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		USA = {
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = authoritarianism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		SOV = {
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = authoritarian_socialism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		PCI = {
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = authoritarian_socialism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		PNF = {
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = national_populism
 			ideas = {
 			}
 			focuses = {
@@ -63,16 +55,15 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		HUN = {
+		PCI = {
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = national_populism
+			ideology = authoritarian_socialism
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-
-
+		
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}

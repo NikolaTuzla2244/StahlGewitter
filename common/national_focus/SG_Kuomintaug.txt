@@ -1,0 +1,271 @@
+focus_tree = {
+	id = SG_kuomintaug_demo_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = KMT
+		}
+	}
+	default = no
+
+	focus = {
+		id = KMT_democracy
+		icon = GFX_goal_unknown
+		x = 0
+		y = 0
+		cost = 1
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		mutually_exclusive = { focus = KMT_blue_shirt }
+		completion_reward = {
+			set_politics = {
+				ruling_party = conservative_democracy
+			}
+			add_country_leader_role = {
+				character = KMT_Wang_Jingwei
+				promote_leader = yes
+				country_leader = {
+					ideology = san_min_democracy_subtype
+				}
+			}
+
+			add_popularity = {
+				ideology = conservative_democracy
+				popularity = 0.2
+			}
+		}
+	}
+	focus = {
+		id = KMT_blue_shirt
+		icon = GFX_goal_unknown
+		x = 2
+		y = 0
+		cost = 1
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		mutually_exclusive = { focus = KMT_democracy }
+		completion_reward = {
+			set_politics = {
+				ruling_party = national_populism
+			}
+			add_country_leader_role = {
+				character = KMT_Dai_Li
+				promote_leader = yes
+				country_leader = {
+					ideology = San_Min_fascism_subtype
+				}
+			}
+
+			add_popularity = {
+				ideology = national_populism
+				popularity = 0.2
+			}
+		}
+	}
+	focus = {
+		id = KMT_popup_unit
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 1
+		relative_position_id = KMT_blue_shirt
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		prerequisite = {
+			focus = KMT_democracy
+			focus = KMT_blue_shirt
+		}
+		completion_reward = {
+			division_template = {
+				name = "National Revolutionary Army"
+				priority = 0
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+				}
+				support = {
+				}
+			}
+			capital_scope = {
+				create_unit = {
+					division = "name = \"National Revolutionary Army\" division_template = \"National Revolutionary Army\" start_experience_factor = 0.5"
+					owner = ROOT
+					count = 10
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = KMT_attack_communist
+		icon = GFX_goal_unknown
+		x = 5
+		y = 0
+		cost = 2
+		# search_filters = {}
+
+		ai_will_do = {
+			factor = 5
+		}
+		available = {
+			num_divisions > 0
+		}
+		will_lead_to_war_with = CCP
+		will_lead_to_war_with = MAO
+		completion_reward = {
+			declare_war_on = {
+				target = CCP
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MAO
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = KMT_attack_buddhist
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 2
+		relative_position_id = KMT_attack_communist
+		# search_filters = {}
+
+		ai_will_do = {
+			factor = 5
+		}
+		available = {
+			has_war = no
+
+			NOT = {
+				country_exists = CCP
+				country_exists = MAO
+			}
+		}
+		prerequisite = { focus = KMT_attack_communist }
+		will_lead_to_war_with = FGS
+		completion_reward = {
+			declare_war_on = {
+				target = FGS
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = KMT_attack_yunnan
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 2
+		relative_position_id = KMT_attack_communist
+		# search_filters = {}
+
+		ai_will_do = {
+			factor = 5
+		}
+		available = {
+			has_war = no
+
+			NOT = {
+				country_exists = CCP
+				country_exists = MAO
+			}
+		}
+		prerequisite = { focus = KMT_attack_communist }
+		will_lead_to_war_with = YUN
+		completion_reward = {
+			declare_war_on = {
+				target = YUN
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = KMT_attack_zhili
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 2
+		relative_position_id = KMT_attack_communist
+		# search_filters = {}
+
+		ai_will_do = {
+			factor = 5
+		}
+		available = {
+			has_war = no
+
+			NOT = {
+				country_exists = CCP
+				country_exists = MAO
+			}
+		}
+		prerequisite = { focus = KMT_attack_communist }
+		will_lead_to_war_with = ZHI
+		completion_reward = {
+			declare_war_on = {
+				target = ZHI
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = KMT_integrate_guanxi
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 2
+		relative_position_id = KMT_attack_communist
+		# search_filters = {}
+
+		ai_will_do = {
+			factor = 5
+		}
+		available = {
+			has_war = no
+
+			NOT = {
+				country_exists = FGS
+				country_exists = YUN
+				country_exists = ZHI
+			}
+		}
+		prerequisite = { focus = KMT_attack_buddhist }
+		prerequisite = { focus = KMT_attack_zhili }
+		prerequisite = { focus = KMT_attack_yunnan }
+		completion_reward = {
+			annex_country = {
+				target = GGC
+			}
+		}
+	}
+}

@@ -1,0 +1,191 @@
+is_china = {
+	custom_trigger_tooltip = {
+		tooltip = SG_is_china
+
+		OR = {
+			tag = MAN
+			tag = BEJ
+			tag = SHD
+			tag = GMJ
+			tag = CJP
+			tag = QZD
+			tag = KMT
+			tag = GGC
+			tag = FGS
+			tag = MAO
+			tag = CCP
+			tag = SHX
+			tag = YUN
+			tag = ZHI
+			tag = UMA
+			tag = MON
+		}
+	}
+}
+is_north_china = {
+	custom_trigger_tooltip = {
+		tooltip = SG_is_north_china
+
+		OR = {
+			tag = MAN
+			tag = BEJ
+			tag = SHD
+			tag = GMJ
+			tag = CJP
+			tag = SHX
+			tag = QZD
+			tag = UMA
+			tag = MON
+		}
+	}
+}
+is_gangnam = {
+	custom_trigger_tooltip = {
+		tooltip = SG_is_gangnam
+
+		OR = {
+			tag = KMT
+			tag = GGC
+			tag = FGS
+			tag = MAO
+			tag = CCP
+			tag = YUN
+			tag = ZHI
+		}
+	}
+}
+
+has_KMT = { #国民党
+	custom_trigger_tooltip = {
+		tooltip = SG_has_KMT
+
+		owns_state = 598
+		owns_state = 613
+		owns_state = 749
+		owns_state = 596
+		owns_state = 600
+		owns_state = 595
+		owns_state = 593
+	}
+}
+has_GGC = { #新広州軍閥
+	custom_trigger_tooltip = {
+		tooltip = SG_has_GGC
+
+		owns_state = 599
+		owns_state = 594
+		owns_state = 592
+		owns_state = 591
+	}
+}
+has_CCP = { #人民中央委員会
+	custom_trigger_tooltip = {
+		tooltip = SG_has_CCP
+
+		owns_state = 607
+		owns_state = 606
+		owns_state = 620
+	}
+}
+has_MAO = { #紅衛軍
+	custom_trigger_tooltip = {
+		tooltip = SG_has_MAO
+
+		owns_state = 744
+		owns_state = 605
+	}
+}
+has_FGS = { #仏光山
+	custom_trigger_tooltip = {
+		tooltip = SG_has_FGS
+
+		owns_state = 750
+		owns_state = 602
+	}
+}
+
+has_YUN = { #雲南軍閥
+	custom_trigger_tooltip = {
+		tooltip = SG_has_YUN
+
+		owns_state = 748
+		owns_state = 603
+		owns_state = 325
+		owns_state = 747
+	}
+}
+has_ZHI = { #直隷軍閥
+	custom_trigger_tooltip = {
+		tooltip = SG_has_ZHI
+
+		owns_state = 601
+		owns_state = 742
+		owns_state = 751
+	}
+}
+###華北
+has_BEJ = { #北京政府
+	custom_trigger_tooltip = {
+		tooltip = SG_has_BEJ
+
+		owns_state = 608
+		owns_state = 609
+		owns_state = 611
+		owns_state = 610
+		owns_state = 715
+	}
+}
+has_MAN = { #奉天軍閥
+	custom_trigger_tooltip = {
+		tooltip = SG_has_MAN
+
+		owns_state = 761
+		owns_state = 714
+		owns_state = 717
+		owns_state = 328
+		owns_state = 716
+	}
+}
+has_SHD = { #山東軍閥
+	custom_trigger_tooltip = {
+		tooltip = SG_has_SHD
+
+		owns_state = 597
+		owns_state = 614
+	}
+}
+has_MON = { #内蒙
+	custom_trigger_tooltip = {
+		tooltip = SG_has_MON
+
+		owns_state = 612
+	}
+}
+has_SHX = { #山西軍閥
+	custom_trigger_tooltip = {
+		tooltip = SG_has_SHX
+
+		owns_state = 615
+	}
+}
+has_GMJ = { #国民軍残党
+	custom_trigger_tooltip = {
+		tooltip = SG_has_GMJ
+
+		owns_state = 621
+		owns_state = 746
+		owns_state = 622
+	}
+}
+
+has_UMA = { #馬
+	custom_trigger_tooltip = {
+		tooltip = SG_has_UMA
+
+		owns_state = 756
+		owns_state = 616
+		owns_state = 754
+		owns_state = 283
+		owns_state = 753
+	}
+}

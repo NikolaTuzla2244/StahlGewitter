@@ -40,15 +40,31 @@ economy_setup = {
 	add_to_temp_variable = { THIS.small_ship_amount = num_ships_with_type@destroyer }
 	add_to_temp_variable = { THIS.small_ship_amount = num_ships_with_type@submarine }
 
+	#modifier補正
+	set_variable = { THIS.consumer_goods_income_modifier = modifier@SG_consumer_goods_income_modifier }
+	set_variable = { THIS.income_pop_income_modifier = modifier@SG_income_pop_income_modifier }
+	set_variable = { THIS.army_spending_modifier = modifier@SG_army_spending_modifier }
+	set_variable = { THIS.navy_spending_modifier = modifier@SG_navy_spending_modifier }
+
+	add_to_variable = { THIS.consumer_goods_income_modifier = 1.0 }
+	add_to_variable = { THIS.income_pop_income_modifier = 1.0 }
+	add_to_variable = { THIS.army_spending_modifier = 1.0 }
+	add_to_variable = { THIS.navy_spending_modifier = 1.0 }
+
 	###収入
 	#消費財工場 * 500
 	set_variable = { THIS.consumer_goods_ic_calc = THIS.consumer_goods_ic }
 	multiply_variable = { THIS.consumer_goods_ic_calc = 200 }
+	#補正
+	multiply_variable = { THIS.consumer_goods_ic_calc = THIS.consumer_goods_income_modifier }
+
 	set_variable = { THIS.income_temp = THIS.consumer_goods_ic_calc }
 
 	#所得人口 * 0.15
 	set_variable = { THIS.income_pop_calc = THIS.income_pop }
 	multiply_variable = { THIS.income_pop_calc = 0.15 }
+	#補正
+	multiply_variable = { THIS.income_pop_calc = THIS.income_pop_income_modifier }
 
 	add_to_variable = { THIS.income_temp = THIS.income_pop_calc }
 
@@ -60,10 +76,10 @@ economy_setup = {
 	log = "income:[?THIS.income]"
 
 	###支出
-	##社会支出 * 0.2
+	##社会支出 * 0.1
 	set_variable = { THIS.social_spending_temp = THIS.max_manpower_k }
 	multiply_variable = { THIS.social_spending_temp = THIS.social_spending_ratio }
-	multiply_variable = { THIS.social_spending_temp = 0.2 }
+	multiply_variable = { THIS.social_spending_temp = 0.1 }
 
 	#総計
 	set_variable = { THIS.spending = THIS.social_spending_temp }
@@ -78,6 +94,8 @@ economy_setup = {
 	set_variable = { THIS.army_factory_spending_temp = THIS.num_of_military_factories }
 	multiply_variable = { THIS.army_factory_spending_temp = 50 }
 	add_to_variable = { THIS.army_spending_temp = THIS.army_factory_spending_temp }
+	#補正
+	multiply_variable = { THIS.army_spending_temp = THIS.army_spending_modifier }
 
 	#総計
 	add_to_variable = { THIS.spending = THIS.army_spending_temp }
@@ -97,6 +115,8 @@ economy_setup = {
 	set_variable = { THIS.navy_factory_spending_temp = THIS.num_of_naval_factories }
 	multiply_variable = { THIS.navy_factory_spending_temp = 30 }
 	add_to_variable = { THIS.navy_spending_temp = THIS.navy_factory_spending_temp }
+	#補正
+	multiply_variable = { THIS.navy_spending_temp = THIS.navy_spending_modifier }
 
 	#総計
 	add_to_variable = { THIS.spending = THIS.navy_spending_temp }

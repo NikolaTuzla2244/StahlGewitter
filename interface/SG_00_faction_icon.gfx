@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_facton_icon_british_empire"
+		texturefile = "gfx/interface/faction_icon/icon_british_empire.png"
+	}
+	spriteType = {
+		name = "GFX_facton_icon_entente"
+		texturefile = "gfx/interface/faction_icon/icon_entente.png"
+	}
+}

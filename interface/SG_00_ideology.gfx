@@ -1,75 +1,131 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_national_socialism_group"
-		texturefile = "gfx/interface/ideologies/national_socialism_group.dds"
+		texturefile = "gfx/interface/ideologies/national_socialism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_national_populism_group"
-		texturefile = "gfx/interface/ideologies/national_populism_group.dds"
+		texturefile = "gfx/interface/ideologies/national_populism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_despotism_group"
-		texturefile = "gfx/interface/ideologies/despotism_group.dds"
+		texturefile = "gfx/interface/ideologies/despotism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_authoritarianism_group"
-		texturefile = "gfx/interface/ideologies/authoritarianism_group.dds"
+		texturefile = "gfx/interface/ideologies/authoritarianism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_conservative_democracy_group"
-		texturefile = "gfx/interface/ideologies/conservative_democracy_group.dds"
+		texturefile = "gfx/interface/ideologies/conservative_democracy_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_liberal_democracy_group"
-		texturefile = "gfx/interface/ideologies/liberal_democracy_group.dds"
+		texturefile = "gfx/interface/ideologies/liberal_democracy_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_reformism_group"
-		texturefile = "gfx/interface/ideologies/reformism_group.dds"
+		texturefile = "gfx/interface/ideologies/reformism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_social_liberalism_group"
-		texturefile = "gfx/interface/ideologies/social_liberalism_group.dds"
+		texturefile = "gfx/interface/ideologies/social_liberalism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_authoritarian_socialism_group"
-		texturefile = "gfx/interface/ideologies/authoritarian_socialism_group.dds"
+		texturefile = "gfx/interface/ideologies/authoritarian_socialism_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_ultrareactionism_group"
+		texturefile = "gfx/interface/ideologies/ultrareactionism_group.png"
 	}
 	#Sub-ideology
 	spriteType = {
+		name = "GFX_ideology_german_national_socialism_subtype"
+		texturefile = "gfx/interface/ideologies/german_national_socialism_subtype.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_clerical_fascism_subtype"
+		texturefile = "gfx/interface/ideologies/clerical_fascism_subtype.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_ethnic_supremacy_subtype"
+		texturefile = "gfx/interface/ideologies/ethnic_supremacy_subtype.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_fascism_subtype"
-		texturefile = "gfx/interface/ideologies/fascism_subtype.dds"
+		texturefile = "gfx/interface/ideologies/fascism_subtype.png"
 	}
 	# spriteType = {
 	# 	name = "GFX_ideology_revolutionary_national_socialism_subtype"
-	# 	texturefile = "gfx/interface/ideologies/revolutionary_national_socialism_subtype.dds"
+	# 	texturefile = "gfx/interface/ideologies/revolutionary_national_socialism_subtype.png"
 	# }
 	spriteType = {
 		name = "GFX_ideology_revolutionary_nationalism_subtype"
-		texturefile = "gfx/interface/ideologies/revolutionary_nationalism_subtype.dds"
+		texturefile = "gfx/interface/ideologies/revolutionary_nationalism_subtype.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_stratocracy_nationalism_subtype"
-		texturefile = "gfx/interface/ideologies/stratocracy_nationalism_subtype.dds"
+		texturefile = "gfx/interface/ideologies/stratocracy_nationalism_subtype.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_San_Min_fascism_subtype"
-		texturefile = "gfx/interface/ideologies/San_Min_fascism_subtype.dds"
+		texturefile = "gfx/interface/ideologies/San_Min_fascism_subtype.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_warlordism_subtype"
-		texturefile = "gfx/interface/ideologies/warlordism_subtype.dds"
+		texturefile = "gfx/interface/ideologies/warlordism_subtype.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_military_junta_subtype"
-		texturefile = "gfx/interface/ideologies/military_junta_subtype.dds"
+		texturefile = "gfx/interface/ideologies/military_junta_subtype.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_civilian_dictatorship_subtype"
+		texturefile = "gfx/interface/ideologies/civilian_dictatorship_subtype.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_technocracy_subtype"
+		texturefile = "gfx/interface/ideologies/technocracy_subtype.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_theocracy_subtype"
+		texturefile = "gfx/interface/ideologies/theocracy_subtype.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_limited_democracy_subtype"
+		texturefile = "gfx/interface/ideologies/limited_democracy_subtype.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_stratocracy_subtype"
+		texturefile = "gfx/interface/ideologies/stratocracy_subtype.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_maoism_subtype"
-		texturefile = "gfx/interface/ideologies/maoism_subtype.dds"
+		texturefile = "gfx/interface/ideologies/maoism_subtype.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_anarchism_movement_subtype"
+		texturefile = "gfx/interface/ideologies/anarchism_movement_subtype.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_anarcho_communism_subtype"
+		texturefile = "gfx/interface/ideologies/anarcho_communism_subtype.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_chinise_socialsm_subtype"
-		texturefile = "gfx/interface/ideologies/chinise_socialsm_subtype.dds"
+		texturefile = "gfx/interface/ideologies/chinise_socialsm_subtype.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_revolutionary_syndicalism_subtype"
+		texturefile = "gfx/interface/ideologies/revolutionary_syndicalism_subtype.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_fundamentalism_subtype"
+		texturefile = "gfx/interface/ideologies/fundamentalism_subtype.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_revisionist_zionism_subtype"
+		texturefile = "gfx/interface/ideologies/revisionist_zionism_subtype.png"
 	}
 }

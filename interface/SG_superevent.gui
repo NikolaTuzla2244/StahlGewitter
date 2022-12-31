@@ -10,10 +10,9 @@ guiTypes = {
 		size = { width = 700 height = 678 }
 
 		show_position = { x = 0 y = -50 }
-		hide_position = { x = 0 y = -50 }
 		animation_time = 1000
 		show_animation_type = decelerated
-		hide_animation_type = accelerated
+		hide_animation_type = decelerated
 
 		fade_type = linear
 		fade_time = 3000
@@ -46,8 +45,8 @@ guiTypes = {
 			}
 			instantTextboxType = {
 				name = "SG_superevent_title_text"
-				position = { x = 190 y = 150 }
-				font = "hoi_30header"
+				position = { x = 190 y = 148 }
+				font = "fraktur_36"
 				text = [SGGetSuperEventTitle]
 				maxWidth = 300
 				maxHeight = 20

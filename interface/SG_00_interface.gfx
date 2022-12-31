@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SG_pol_faction_frame"
+		texturefile = "gfx/interface/pol_faction_frame.png"
+	}
+}

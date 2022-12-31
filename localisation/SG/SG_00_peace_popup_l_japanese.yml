@@ -1,0 +1,9 @@
+﻿l_japanese:
+peace_popup_header:0 "外交アラート"
+PEACE_POPUP_CLOSE:0 "閉じる"
+
+SG_PEACE_TITLE_GENERAL:0 "一連の武力衝突を経て、[winning_country.GetFlag]§Y[winning_country.GetNameDef]§!は[losing_country.GetFlag]§Y[losing_country.GetNameDef]§!を打ち破り、これを屈服させた。"
+SG_PEACE_TITLE_CHINESE_CIVIL_WAR:0 "§Y中国大陸の命運を賭けた抗争§!の渦中にて、[winning_country.GetFlag]§Y[winning_country.GetNameDef]§!は[losing_country.GetFlag]§Y[losing_country.GetNameDef]§!を攻略し、天下への駒を進めた。"
+
+SG_PEACE_FLAVOR_GENERAL:0 "この地球は、勝者に贈られる持ち回りの優勝カップに他ならない。"
+SG_PEACE_FLAVOR_LOSING_MAO:0 "軽率に戦ってはならない。戦うからには、かならず勝たなければならない。絶対に反動派のいたけだかな勢いにのまれてはならない。"

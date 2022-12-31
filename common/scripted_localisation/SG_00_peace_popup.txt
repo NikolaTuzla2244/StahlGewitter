@@ -1,0 +1,34 @@
+defined_text = {
+	name = peace_popup_title
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				is_china = yes
+			}
+			event_target:winning_country = {
+				is_china = yes
+			}
+		}
+		localization_key = SG_PEACE_TITLE_CHINESE_CIVIL_WAR
+	}
+	text = {
+		localization_key = SG_PEACE_TITLE_GENERAL
+	}
+}
+defined_text = {
+	name = peace_popup_flavor
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = MAO
+			}
+			# event_target:winning_country = {
+			# 	original_tag = SLO
+			# }
+		}
+		localization_key = SG_PEACE_FLAVOR_LOSING_MAO
+	}
+	text = {
+		localization_key = SG_PEACE_FLAVOR_GENERAL
+	}
+}

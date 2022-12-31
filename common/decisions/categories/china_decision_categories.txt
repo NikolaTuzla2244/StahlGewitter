@@ -1,0 +1,6 @@
+SG_china_core = {
+	icon = generic_research
+	visible = {
+		is_china = yes
+	}
+}

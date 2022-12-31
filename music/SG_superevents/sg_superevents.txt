@@ -18,3 +18,21 @@ music = {
 		modifier = { factor = 0 }
 	}
 }
+music = {
+	song = "sg_se_american_collapse"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}
+music = {
+	song = "sg_se_third_balkan_war_small"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}
+music = {
+	song = "sg_se_third_balkan_war_large"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}

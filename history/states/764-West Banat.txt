@@ -17,6 +17,7 @@ state={
 		}
 		add_core_of = SER
 		add_core_of = TRA
+		add_claim_by = SCS
 	}
 
 	provinces={

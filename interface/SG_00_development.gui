@@ -1,0 +1,63 @@
+guiTypes = {
+	containerWindowType = {
+		name = "SG_development_open_button"
+		position = { x = 500 y = 500 }
+		size = { width = 0 height = 0 }
+		buttonType = {
+			name = "development_open_button"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_dismantle_faction_button"
+			clicksound = click_default
+
+			pdx_tooltip = "development_open_button_tt"
+		}
+	}
+	containerWindowType = {
+		name = "SG_development_GUI"
+		position = { x = -500 y = 82 }
+		size = { width = 550 height = 520 }
+
+		show_position = { x = 535 y = 82 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+
+		clipping = yes
+		# moveable = yes
+
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+
+		instantTextboxType = {
+			name = "development_title"
+			position = { x = 45 y = 5 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "development_development"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		buttonType = {
+			name = "development_close_button"
+			position = { x = 507 y = 5 }
+			spriteType = GFX_closebutton
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		iconType ={
+			name ="development_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 3 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+	}
+
+}

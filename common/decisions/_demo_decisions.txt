@@ -1,0 +1,93 @@
+demo_decisions = {
+	# finland_civilwar_demo = {
+
+	# 	icon = generic_research
+
+	# 	activation = {
+	# 		original_tag = FIN
+	# 	}
+
+	# 	visible = {
+	# 		always = yes
+	# 	}
+
+	# 	cancel_trigger = {
+	# 		always = no
+	# 	}
+
+	# 	fire_only_once = yes
+	# 	cost = 0
+
+	# 	days_mission_timeout = 180
+
+	# 	timeout_effect = {
+	# 		country_event = finland.1
+	# 	}
+
+	# 	ai_will_do = {
+	# 		base = 0
+	# 	}
+	# }
+	germany_Anschluss_demo = {
+
+		icon = generic_research
+
+		available = {
+			AUS = {
+				has_war_with = HUN
+			}
+		}
+		visible = {
+			tag = GER
+		}
+
+		fire_only_once = yes
+		cost = 0
+
+		complete_effect = {
+			declare_war_on = {
+				target = AUS
+				type = annex_everything
+			}
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+}
+debug_decisions = {
+	pop_debug_unit = {
+		icon = GFX_decision_eng_trade_unions_support
+		fire_only_once = no
+		available = {
+		}
+		visible = {
+		}
+		cost = 0
+		complete_effect = {
+			division_template = {
+				name = "Debug Unit"
+				priority = 0
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+				}
+				support = {
+				}
+			}
+			capital_scope = {
+				create_unit = {
+					division = "name = \"Debug Unit\" division_template = \"Debug Unit\" start_experience_factor = 0.5"
+					owner = ROOT
+					count = 5
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

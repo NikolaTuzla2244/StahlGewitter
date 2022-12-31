@@ -1,0 +1,14 @@
+USA_declare_warlords = {
+	every_other_country = {
+		limit = {
+			is_america_warlords = yes
+			# exists = yes
+		}
+		ROOT = {
+			declare_war_on = {
+				target = PREV
+				type = annex_everything
+			}
+		}
+	}
+}

@@ -66,13 +66,14 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = national_populism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 100
+	despotism = 40
+	national_populism = 60
 }
 
 add_ideas = {
@@ -81,4 +82,5 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
+# recruit_character = SER_Punisa_Racic
 # recruit_character = SER_Aleksandar_I

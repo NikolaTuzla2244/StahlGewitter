@@ -82,6 +82,12 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 
+	economy_mixed_economy
 }
 
 recruit_character = USA_Huey_Long
+
+promote_character = {
+	character = USA_Huey_Long
+	ideology = limited_democracy_subtype
+}

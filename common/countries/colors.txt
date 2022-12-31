@@ -32,6 +32,10 @@ FRA = {
 	color = rgb { 0 70 127 }
 	color_ui = rgb { 0 70 127 }
 }
+FRR = {
+	color = rgb { 16 44 127 }
+	color_ui = rgb { 16 44 127 }
+}
 LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
@@ -39,7 +43,11 @@ LUX = {
 BEL = {
 	color 	 = rgb { 193 171 8  }
 	color_ui = rgb { 251 222 10 }
-	}
+}
+BEK = {
+	color 	 = rgb { 170 119 37 }
+	color_ui = rgb { 170 119 37 }
+}
 HOL = {
 	color = rgb { 203 138 74 }
 	color_ui = rgb { 255 179 96 }
@@ -121,8 +129,12 @@ SWI = {
 	color_ui = rgb { 164 51 51 }
 }
 TUR = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 142 52 29 }
+	color_ui = rgb { 142 52 29 }
+}
+IHB = {
+	color = rgb { 46 106 155 }
+	color_ui = rgb { 46 106 155 }
 }
 GRE = {
 	color = rgb { 53 138 178 }
@@ -149,8 +161,8 @@ POR = {
 	color_ui = rgb { 51 151 91 }
 }
 FIN = {
-	color = rgb { 168 64 20 }
-	color_ui = rgb { 168 64 20 }
+	color = rgb { 115 3 14 }
+	color_ui = rgb { 115 3 14 }
 }
 FWG = {
 	color = rgb { 205 212 228 }
@@ -191,13 +203,14 @@ CJP = {
 	color_ui = rgb { 76 19 19 }
 }
 MPR = {
-	color = rgb { 130 96 28 }
-	color_ui = rgb { 130 96 28 }
+	color = rgb { 160 85 73 }
+	color_ui = rgb { 160 85 73 }
 }
 QZD = {
 	color = rgb { 55 25 61 }
 	color_ui = rgb { 55 25 61 }
 }
+
 #南京政府
 KMT = {
 	color = rgb { 31 43 96 }
@@ -207,10 +220,7 @@ GGC = {
 	color = rgb { 19 46 58 }
 	color_ui = rgb { 19 46 58 }
 }
-BIS = {
-	color = rgb { 17 26 68 }
-	color_ui = rgb { 17 26 68 }
-}
+
 FGS = {
 	color = rgb { 165 123 54 }
 	color_ui = rgb { 165 123 54 }
@@ -238,8 +248,8 @@ UMA = {
 }
 
 MON = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 130 96 28 }
+	color_ui = rgb { 130 96 28 }
 }
 TIB = {
 	color = rgb { 80 115 45}
@@ -248,6 +258,91 @@ TIB = {
 SIK = {
 	color = rgb { 71 190 152 }
 	color_ui = rgb { 222 247 198 }
+}
+#アメリカ
+USA = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+
+LOU = {
+	color = rgb { 68 77 91 }
+	color_ui = rgb { 68 77 91 }
+}
+CNC = {
+	color = rgb { 145 136 84 }
+	color_ui = rgb { 145 136 84 }
+}
+KKK = {
+	color = rgb { 210 210 210 }
+	color_ui = rgb { 210 210 210 }
+}
+DIX = {
+	color = rgb { 63 84 73 }
+	color_ui = rgb { 63 84 73 }
+}
+GCM = {
+	color = rgb { 107 63 43 }
+	color_ui = rgb { 107 63 43 }
+}
+JDL = {
+	color = rgb { 41 33 91 }
+	color_ui = rgb { 41 33 91 }
+}
+
+USR = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+ASF = {
+	color = rgb { 77 45 91 }
+	color_ui = rgb { 77 45 91 }
+}
+SCI = {
+	color = rgb { 86 158 122 }
+	color_ui = rgb { 86 158 122 }
+}
+
+AAM = {
+	color = rgb { 63 76 51 }
+	color_ui = rgb { 63 76 51 }
+}
+ANV = {
+	color = rgb { 143 155 183 }
+	color_ui = rgb { 143 155 183 }
+}
+NYS = {
+	color = rgb { 104 62 52 }
+	color_ui = rgb { 104 62 52 }
+}
+IRO = {
+	color = rgb { 132 72 117 }
+	color_ui = rgb { 132 72 117 }
+}
+
+CPU = {
+	color = rgb { 122 54 45 }
+	color_ui = rgb { 122 54 45 }
+}
+IWW = {
+	color = rgb { 86 32 32 }
+	color_ui = rgb { 86 32 32 }
+}
+TEC = {
+	color = rgb { 34 36 102 }
+	color_ui = rgb { 34 36 102 }
+}
+SAI = {
+	color = rgb { 102 130 80 }
+	color_ui = rgb { 102 130 80 }
+}
+ACT = {
+	color = rgb { 45 11 11 }
+	color_ui = rgb { 45 11 11 }
+}
+SSL = {
+	color = rgb { 155 151 141 }
+	color_ui = rgb { 155 151 141 }
 }
 
 AFG = {
@@ -373,10 +468,6 @@ URG = {
 VEN = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }
-}
-USA = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
 }
 KAZ = {
 	color = rgb { 14 41 96 }

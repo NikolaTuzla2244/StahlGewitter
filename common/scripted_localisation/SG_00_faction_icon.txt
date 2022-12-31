@@ -1,0 +1,20 @@
+defined_text = {
+	name = SGGetFactionIcon
+	text = {
+		trigger = {
+			is_in_faction_with = ENG
+			NOT = { has_global_flag = british_empire_lost }
+		}
+		localization_key = "GFX_facton_icon_british_empire"
+	}
+	text = {
+		trigger = {
+			is_in_faction_with = FRR
+			NOT = { has_global_flag = entente_lost }
+		}
+		localization_key = "GFX_facton_icon_entente"
+	}
+	text = {
+		localization_key = "GFX_leader_unknown"
+	}
+}

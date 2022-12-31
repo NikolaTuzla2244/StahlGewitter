@@ -27,7 +27,7 @@ characters={
 		advisor = {
 			slot = Cabinet_Minister
 			idea_token = GER_Ernst_Rohm
-			cost = 0
+			
 			allowed = {
 				tag = GER
 			}
@@ -58,7 +58,7 @@ characters={
 		advisor = {
 			slot = Head_of_Government
 			idea_token = GER_Gregor_Strasser_HoG
-			cost = 0
+			
 			allowed = {
 				tag = GER
 			}
@@ -87,7 +87,7 @@ characters={
 		advisor = {
 			slot = Cabinet_Minister
 			idea_token = GER_Rudolf_Hess
-			cost = 0
+			
 			allowed = {
 				tag = GER
 			}
@@ -115,7 +115,7 @@ characters={
 		advisor = {
 			slot = Cabinet_Minister
 			idea_token = GER_Hermann_Goring
-			cost = 0
+			
 			allowed = {
 				tag = GER
 			}
@@ -143,7 +143,7 @@ characters={
 		advisor = {
 			slot = Cabinet_Minister
 			idea_token = GER_Martin_Bormann
-			cost = 0
+			
 			allowed = {
 				tag = GER
 			}
@@ -171,7 +171,7 @@ characters={
 		advisor = {
 			slot = Cabinet_Minister
 			idea_token = GER_Julius_Streicher
-			cost = 0
+			
 			allowed = {
 				tag = GER
 			}
@@ -199,7 +199,7 @@ characters={
 		advisor = {
 			slot = Cabinet_Minister
 			idea_token = GER_Alfred_Rosenberg
-			cost = 0
+			
 			allowed = {
 				tag = GER
 			}
@@ -228,7 +228,7 @@ characters={
 		advisor = {
 			slot = Cabinet_Minister
 			idea_token = GER_Joseph_Goebbels
-			cost = 0
+			
 			allowed = {
 				tag = GER
 			}
@@ -256,7 +256,7 @@ characters={
 		advisor = {
 			slot = Cabinet_Minister
 			idea_token = GER_Heinrich_Himmler
-			cost = 0
+			
 			allowed = {
 				tag = GER
 			}
@@ -284,7 +284,7 @@ characters={
 		advisor = {
 			slot = Cabinet_Minister
 			idea_token = GER_Konstantin_von_Neurath
-			cost = 0
+			
 			allowed = {
 				tag = GER
 			}
@@ -312,7 +312,7 @@ characters={
 		advisor = {
 			slot = Cabinet_Minister
 			idea_token = GER_Hjalmar_Schacht
-			cost = 0
+			
 			allowed = {
 				tag = GER
 			}
@@ -340,7 +340,7 @@ characters={
 		advisor = {
 			slot = Cabinet_Minister
 			idea_token = GER_Albert_Speer
-			cost = 0
+			
 			allowed = {
 				tag = GER
 			}

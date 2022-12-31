@@ -54,6 +54,17 @@ characters={
 			ideology = authoritarian_socialism_subtype
 		}
 	}
+	MON_Roman_von_Ungern = {
+		name = MON_Roman_von_Ungern
+		portraits={
+			civilian={
+				large = "gfx/characters/large/CHI/Portrait_MON_Roman_von_Ungern.png"
+			}
+		}
+		country_leader = {
+			ideology = warlordism_subtype
+		}
+	}
 	QZD_Ma_Tian_ying = {
 		name = QZD_Ma_Tian_ying
 		portraits={
@@ -73,7 +84,21 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = limited_democracy_subtype
+			ideology = provisional_government_subtype
+		}
+		country_leader = {
+			ideology = san_min_democracy_subtype
+		}
+	}
+	KMT_Dai_Li = {
+		name = KMT_Dai_Li
+		portraits={
+			civilian={
+				large = "gfx/characters/large/CHI/Portrait_KMT_Dai_Li.png"
+			}
+		}
+		country_leader = {
+			ideology = San_Min_fascism_subtype
 		}
 	}
 	CJP_Ishiwara_kanji = {
@@ -108,16 +133,8 @@ characters={
 		country_leader = {
 			ideology = military_junta_subtype
 		}
-	}
-	BIS_Dai_Li = {
-		name = BIS_Dai_Li
-		portraits={
-			civilian={
-				# large = "gfx/characters/large/CHI/Portrait_BIS_Dai_Li.png"
-			}
-		}
 		country_leader = {
-			ideology = San_Min_fascism_subtype
+			ideology = limited_democracy_subtype
 		}
 	}
 	FGS_Taixu = {

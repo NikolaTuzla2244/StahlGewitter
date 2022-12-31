@@ -37,6 +37,7 @@ scripted_gui = {
 				else = {
 					clr_country_flag = economy_GUI_open
 				}
+				clr_country_flag = development_GUI_open
 			}
 		}
 	}

@@ -12,4 +12,17 @@ spriteTypes = {
 		name = "GFX_SG_china_unification_chiang_kai_shek"
 		texturefile = "gfx/superevent_pictures/china_unification_chiang_kai_shek.png"
 	}
+
+	spriteType = {
+		name = "GFX_SG_american_collapse"
+		texturefile = "gfx/superevent_pictures/american_collapse.png"
+	}
+	spriteType = {
+		name = "GFX_SG_third_balkan_war_small"
+		texturefile = "gfx/superevent_pictures/third_balkan_war_small.png"
+	}
+	spriteType = {
+		name = "GFX_SG_third_balkan_war_large"
+		texturefile = "gfx/superevent_pictures/third_balkan_war_large.png"
+	}
 }

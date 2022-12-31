@@ -1,0 +1,114 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_SG_academic_5"
+		texturefile = "gfx/interface/ideas/developments/SG_academic_5.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_academic_4"
+		texturefile = "gfx/interface/ideas/developments/SG_academic_4.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_academic_3"
+		texturefile = "gfx/interface/ideas/developments/SG_academic_3.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_academic_2"
+		texturefile = "gfx/interface/ideas/developments/SG_academic_2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_academic_1"
+		texturefile = "gfx/interface/ideas/developments/SG_academic_1.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_administration_5"
+		texturefile = "gfx/interface/ideas/developments/SG_administration_5.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_administration_4"
+		texturefile = "gfx/interface/ideas/developments/SG_administration_4.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_administration_3"
+		texturefile = "gfx/interface/ideas/developments/SG_administration_3.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_administration_2"
+		texturefile = "gfx/interface/ideas/developments/SG_administration_2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_administration_1"
+		texturefile = "gfx/interface/ideas/developments/SG_administration_1.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_industry_5"
+		texturefile = "gfx/interface/ideas/developments/SG_industry_5.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_industry_4"
+		texturefile = "gfx/interface/ideas/developments/SG_industry_4.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_industry_3"
+		texturefile = "gfx/interface/ideas/developments/SG_industry_3.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_industry_2"
+		texturefile = "gfx/interface/ideas/developments/SG_industry_2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_industry_1"
+		texturefile = "gfx/interface/ideas/developments/SG_industry_1.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_infrastructure_5"
+		texturefile = "gfx/interface/ideas/developments/SG_infrastructure_5.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_infrastructure_4"
+		texturefile = "gfx/interface/ideas/developments/SG_infrastructure_4.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_infrastructure_3"
+		texturefile = "gfx/interface/ideas/developments/SG_infrastructure_3.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_infrastructure_2"
+		texturefile = "gfx/interface/ideas/developments/SG_infrastructure_2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_infrastructure_1"
+		texturefile = "gfx/interface/ideas/developments/SG_infrastructure_1.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_military_5"
+		texturefile = "gfx/interface/ideas/developments/SG_military_5.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_military_4"
+		texturefile = "gfx/interface/ideas/developments/SG_military_4.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_military_3"
+		texturefile = "gfx/interface/ideas/developments/SG_military_3.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_military_2"
+		texturefile = "gfx/interface/ideas/developments/SG_military_2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_military_1"
+		texturefile = "gfx/interface/ideas/developments/SG_military_1.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_network_3"
+		texturefile = "gfx/interface/ideas/developments/SG_network_3.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_network_2"
+		texturefile = "gfx/interface/ideas/developments/SG_network_2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SG_network_1"
+		texturefile = "gfx/interface/ideas/developments/SG_network_1.png"
+	}
+}

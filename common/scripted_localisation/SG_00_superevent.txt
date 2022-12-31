@@ -12,6 +12,23 @@ defined_text = {
 		trigger = { check_variable = { SG_super_event = 4 } }
 		localization_key = "GFX_SG_china_unification_chiang_kai_shek"
 	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 5 } }
+		localization_key = "GFX_SG_china_unification_blue_shirts"
+	}
+
+	text = {
+		trigger = { check_variable = { SG_super_event = 20 } }
+		localization_key = "GFX_SG_american_collapse"
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 21 } }
+		localization_key = "GFX_SG_third_balkan_war_small"
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 22 } }
+		localization_key = "GFX_SG_third_balkan_war_large"
+	}
 }
 
 defined_text = {
@@ -22,11 +39,28 @@ defined_text = {
 	}
 	text = {
 		trigger = { check_variable = { SG_super_event = 3 } }
-		localization_key = SG_china_unification_nationalist_army_title
+		localization_key = SG_china_unification_title
 	}
 	text = {
 		trigger = { check_variable = { SG_super_event = 4 } }
-		localization_key = SG_china_unification_chiang_kai_shek_title
+		localization_key = SG_china_unification_title
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 5 } }
+		localization_key = SG_china_unification_title
+	}
+
+	text = {
+		trigger = { check_variable = { SG_super_event = 20 } }
+		localization_key = SG_american_collapse_title
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 21 } }
+		localization_key = SG_third_balkan_war_title
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 22 } }
+		localization_key = SG_third_balkan_war_title
 	}
 }
 
@@ -44,6 +78,23 @@ defined_text = {
 		trigger = { check_variable = { SG_super_event = 4 } }
 		localization_key = SG_china_unification_chiang_kai_shek_quote
 	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 5 } }
+		localization_key = SG_china_unification_blue_shirts_quote
+	}
+
+	text = {
+		trigger = { check_variable = { SG_super_event = 20 } }
+		localization_key = SG_american_collapse_quote
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 21 } }
+		localization_key = SG_third_balkan_war_small_quote
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 22 } }
+		localization_key = SG_third_balkan_war_large_quote
+	}
 }
 
 defined_text = {
@@ -59,5 +110,22 @@ defined_text = {
 	text = {
 		trigger = { check_variable = { SG_super_event = 4 } }
 		localization_key = SG_china_unification_chiang_kai_shek_option
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 5 } }
+		localization_key = SG_china_unification_blue_shirts_option
+	}
+
+	text = {
+		trigger = { check_variable = { SG_super_event = 20 } }
+		localization_key = SG_american_collapse_option
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 21 } }
+		localization_key = SG_third_balkan_war_small_option
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 22 } }
+		localization_key = SG_third_balkan_war_large_option
 	}
 }

@@ -1,0 +1,12 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			for_each_scope_loop = {
+				array = countries
+
+				#イデオロギーリスト設定
+				ideology_array_setup = yes
+			}
+		}
+	}
+}

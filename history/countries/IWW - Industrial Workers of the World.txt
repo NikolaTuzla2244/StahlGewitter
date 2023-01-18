@@ -66,13 +66,13 @@ set_stability = 0.8
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = authoritarian_socialism
+	ruling_party = social_liberalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarian_socialism = 100
+	social_liberalism = 100
 }
 
 add_ideas = {

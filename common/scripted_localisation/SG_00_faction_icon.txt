@@ -10,11 +10,99 @@ defined_text = {
 	text = {
 		trigger = {
 			is_in_faction_with = FRR
+			FRR = { is_faction_leader = yes }
 			NOT = { has_global_flag = entente_lost }
 		}
 		localization_key = "GFX_facton_icon_entente"
 	}
 	text = {
-		localization_key = "GFX_leader_unknown"
+		trigger = {
+			OR = {
+				is_in_faction_with = AUS
+				is_in_faction_with = CZE
+				is_in_faction_with = SCS
+			}
+			NOT = { has_global_flag = danube_league_lost }
+		}
+		localization_key = "GFX_facton_icon_danube_league"
+	}
+	text = {
+		trigger = {
+			is_in_faction_with = HUN
+			HUN = { is_faction_leader = yes }
+			NOT = { has_global_flag = restore_alliance_lost }
+		}
+		localization_key = "GFX_facton_icon_restore_alliance"
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_in_soviet_union
+			NOT = { has_global_flag = soviet_union_lost }
+		}
+		localization_key = "GFX_facton_soviet_union"
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_in_third_international
+			NOT = { has_global_flag = third_international_lost }
+		}
+		localization_key = "GFX_facton_third_international"
+	}
+	text = {
+		localization_key = "GFX_facton_icon_other_faction"
+	}
+}
+defined_text = {
+	name = SGGetFactionInfo
+	text = {
+		trigger = {
+			is_in_faction_with = ENG
+			NOT = { has_global_flag = british_empire_lost }
+		}
+		localization_key = british_empire_desc
+	}
+	text = {
+		trigger = {
+			is_in_faction_with = FRR
+			FRR = { is_faction_leader = yes }
+			NOT = { has_global_flag = entente_lost }
+		}
+		localization_key = entente_desc
+	}
+	text = {
+		trigger = {
+			OR = {
+				is_in_faction_with = AUS
+				is_in_faction_with = CZE
+				is_in_faction_with = SCS
+			}
+			NOT = { has_global_flag = danube_league_lost }
+		}
+		localization_key = danube_league_desc
+	}
+	text = {
+		trigger = {
+			is_in_faction_with = HUN
+			HUN = { is_faction_leader = yes }
+			NOT = { has_global_flag = restore_alliance_lost }
+		}
+		localization_key = restore_alliance_desc
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_in_soviet_union
+			NOT = { has_global_flag = soviet_union_lost }
+		}
+		localization_key = soviet_union_desc
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_in_third_international
+			NOT = { has_global_flag = third_international_lost }
+		}
+		localization_key = third_international_desc
+	}
+	text = {
+		localization_key = other_faction_desc
 	}
 }

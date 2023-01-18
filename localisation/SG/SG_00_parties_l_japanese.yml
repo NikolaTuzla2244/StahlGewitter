@@ -36,6 +36,27 @@ ENG_reformism_party_long:0 "労働党"
 ENG_social_liberalism_party:0 "労組運動"
 ENG_social_liberalism_party_long:0 "労働組合による運動"
 
+#フランス・コミューン
+FRA_reformism_party:0 "ローズルージュ"
+FRA_reformism_party_long:0 "ローズルージュ派"
+FRA_social_liberalism_party:0 "サンディカ・テルミドール"
+FRA_social_liberalism_party_long:0 "サンディカ派・テルミドール派"
+FRA_authoritarian_socialism_party:0 "国民戦線"
+FRA_authoritarian_socialism_party_long:0 "国民戦線 / パトリオット派・モンタニャール派統一戦線"
+FRA_ultraradicalism_party:0 "シュルレアリスム運動"
+FRA_ultraradicalism_party_long:0 "シュルレアリスム運動"
+
+FRA_syndicat_party:0 "サンディカ派"
+FRA_syndicat_party_long:0 "サンディカ派"
+FRA_thermidor_party:0 "テルドミール派"
+FRA_thermidor_party_long:0 "テルドミール派"
+FRA_patriote_party:0 "パトリオット派"
+FRA_patriote_party_long:0 "パトリオット派"
+FRA_montagnard_party:0 "モンタニャール派"
+FRA_montagnard_party_long:0 "モンタニャール派"
+FRA_Acephale_party:0 "アセファル派"
+FRA_Acephale_party_long:0 "アセファル派"
+
 #ドイツ
 GER_national_socialism_party:0 "NSDAP - 右派"
 GER_national_socialism_party_long:0 "国家社会主義ドイツ労働者党 - ヒトラー派"

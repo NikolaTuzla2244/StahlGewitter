@@ -10,12 +10,5 @@ country_event = {
 	
 	option = {
 		name = sg_debug.1.a
-		release = LGR
-		release = RBS
-		release = TSK
-		release = KPD
-		release = GPU
-		release = VOR
-		release = MAY
 	}
 }

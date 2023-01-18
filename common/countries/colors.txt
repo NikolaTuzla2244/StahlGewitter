@@ -12,18 +12,6 @@ ENG = {
 	color = rgb { 104 0 47 }
 	color_ui = rgb { 104 0 47 }
 }
-SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
-}
-TCC = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
-}
-SOI = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
-}
 SWE = {
 	color = rgb { 36 132 247 }
 	color_ui = rgb { 47 172 255 }
@@ -71,10 +59,6 @@ POL = {
 AUS = {
 	color = rgb { 194 198 215 }
 	color_ui = rgb { 255 255 255 }
-}
-BAL = {
-	color = rgb { 125 125 125 }
-	color_ui = rgb { 125 125 125 }
 }
 LIT = {
 	color = rgb { 219 219 119 }
@@ -176,6 +160,98 @@ HUN = {
 	color = rgb { 127 111 99 }
 	color_ui = rgb { 127 111 99 }
 }
+###ソ連
+SOV = {
+	color = rgb { 10 10 10 }
+	color_ui = rgb { 10 10 10 }
+}
+
+PES = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+
+ROS = {
+	color = rgb { 122 39 37 }
+	color_ui = rgb { 122 39 37 }
+}
+
+ARS = {
+	color = rgb { 137 57 65 }
+	color_ui = rgb { 117 37 45 }
+}
+KZS = {
+	color = rgb { 117 28 30 }
+	color_ui = rgb { 117 18 20 }
+}
+MSS = {
+	color = rgb { 117 37 45 }
+	color_ui = rgb { 117 37 45 }
+}
+SMS = {
+	color = rgb { 102 34 14 }
+	color_ui = rgb { 102 34 14 }
+}
+CRS = {
+	color = rgb { 112 15 31 }
+	color_ui = rgb { 112 15 31 }
+}
+KIS = {
+	color = rgb { 108 48 27 }
+	color_ui = rgb { 108 48 27 }
+}
+WMD = {
+	color = rgb { 79 11 12 }
+	color_ui = rgb { 79 11 12 }
+}
+SIS = {
+	color = rgb { 147 67 75 }
+	color_ui = rgb { 147 67 75 }
+}
+FES = {
+	color = rgb { 187 107 115 }
+	color_ui = rgb { 187 107 115 }
+}
+
+BAL = {
+	color = rgb { 79 43 43 }
+	color_ui = rgb { 79 43 43 }
+}
+BLR = {
+	color = rgb { 180 220 190 }
+	color_ui = rgb { 180 220 190 }
+}
+UKR = {
+	color = rgb { 155 89 73 }
+	color_ui = rgb { 155 89 73 }	
+}
+
+TCC = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+
+KAZ = {
+	color = rgb { 165 46 57 }
+	color_ui = rgb { 165 46 57 }
+}
+UZB = {
+	color = rgb { 160 91 85 }
+	color_ui = rgb { 160 91 85 }
+}
+KYR = {
+	color = rgb { 137 82 83 }
+	color_ui = rgb { 137 82 83 }
+}
+TAJ = {
+	color = rgb { 122 88 73 }
+	color_ui = rgb { 122 88 73 }
+}
+TMS = {
+	color = rgb { 160 101 95 }
+	color_ui = rgb { 160 101 95 }
+}
+
 ###中国
 #北洋政府
 MAN = {
@@ -469,26 +545,6 @@ VEN = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }
 }
-KAZ = {
-	color = rgb { 14 41 96 }
-	color_ui = rgb { 14 41 96 }
-}
-UZB = {
-	color = rgb { 14 94 75 }
-	color_ui = rgb { 14 94 75 }
-}
-TMS = {
-	color = rgb { 64 99 52 }
-	color_ui = rgb { 64 99 52 }
-}
-KYR = {
-	color = rgb { 94 58 50 }
-	color_ui = rgb { 94 58 50 }
-}
-TAJ = {
-	color = rgb { 80 81 43 }
-	color_ui = rgb { 80 81 43 }
-}
 MEN = {
 	color = rgb { 185  255  152 }
 	color_ui = rgb { 165  230  132 }
@@ -577,11 +633,6 @@ ICE = {
 	color_ui = rgb { 100  125  175 }
 }
 
-UKR = {
-	color = rgb { 0  80  230 }
-	color_ui = rgb { 0  80  230 }	
-}
-
 AZR = {
 	color = rgb { 69  151  49 }
 	color_ui = rgb { 69  151  49 }
@@ -627,10 +678,6 @@ MNT = {
 	color_ui = rgb { 77  90  105 }
 }
 
-BLR = {
-	color = rgb { 180 220 190 }
-	color_ui = rgb { 180 220 190 }
-}
 ANG = {
 	color = rgb { 37 140 61 }
 	color_ui = rgb { 37 140 61 }

@@ -1,5 +1,13 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_SG_pol_party_frame"
+		texturefile = "gfx/interface/pol_party_frame.png"
+	}
+	spriteType = {
+		name = "GFX_SG_pol_party_button"
+		texturefile = "gfx/interface/pol_party_button.png"
+	}
+	spriteType = {
 		name = "GFX_SG_button_148x34"
 		texturefile = "gfx/interface/button_148x34.dds"
 	}
@@ -19,6 +27,18 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SG_peace_popup_window"
 		texturefile = "gfx/interface/SG_peace_popup_window.png"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_flag_filter"
+		texturefile = "gfx/interface/SG_flag_filter.png"
+		noOfFrames = 10
+		legacy_lazy_load = yes
+		transparencecheck = yes
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
 	}
 	# bitmapfonts = {
 

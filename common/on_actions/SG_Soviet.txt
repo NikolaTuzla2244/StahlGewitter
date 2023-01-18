@@ -1,0 +1,16 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			for_each_scope_loop = {
+				array = countries
+
+				if = {
+					limit = {
+						SG_is_soviet = yes
+					}
+					set_country_flag = is_in_soviet_union
+				}
+			}
+		}
+	}
+}

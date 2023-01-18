@@ -10,9 +10,5 @@ country_event = { #フィンランド内戦
 	
 	option = {
 		name = sg_soviet.1.a
-		SOI = {
-			inherit_technology = SOV
-			SOV_purge_siberia = yes
-		}
 	}
 }

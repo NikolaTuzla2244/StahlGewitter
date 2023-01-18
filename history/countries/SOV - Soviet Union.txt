@@ -76,23 +76,23 @@ set_popularities = {
 	despotism = 5
 }
 
-create_faction = THIRD_INTERNATIONAL
-add_to_faction = SOV
-add_to_faction = BAL
-add_to_faction = BLR
-add_to_faction = UKR
-add_to_faction = FIN
-add_to_faction = TCC
-add_to_faction = KAZ
-add_to_faction = UZB
-add_to_faction = KYR
-add_to_faction = TAJ
-add_to_faction = TMS
+set_country_flag = NULL_national_socialism
+set_country_flag = NULL_national_populism
+set_country_flag = NULL_despotism
+set_country_flag = NULL_authoritarianism
+set_country_flag = NULL_conservative_democracy
+set_country_flag = NULL_liberal_democracy
+set_country_flag = NULL_reformism
+set_country_flag = NULL_social_liberalism
+set_country_flag = NULL_ultraradicalism
+set_country_flag = NULL_ultrareactionism
 
 add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+
+	economy_planned_socialism
 }
 
 recruit_character = SOV_Sergei_Kirov

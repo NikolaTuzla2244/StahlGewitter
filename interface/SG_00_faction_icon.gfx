@@ -7,4 +7,25 @@ spriteTypes = {
 		name = "GFX_facton_icon_entente"
 		texturefile = "gfx/interface/faction_icon/icon_entente.png"
 	}
+	spriteType = {
+		name = "GFX_facton_icon_danube_league"
+		texturefile = "gfx/interface/faction_icon/icon_danube_league.png"
+	}
+	spriteType = {
+		name = "GFX_facton_icon_restore_alliance"
+		texturefile = "gfx/interface/faction_icon/icon_restore_alliance.png"
+	}
+	spriteType = {
+		name = "GFX_facton_soviet_union"
+		texturefile = "gfx/interface/faction_icon/icon_soviet_union.png"
+	}
+	spriteType = {
+		name = "GFX_facton_third_international"
+		texturefile = "gfx/interface/faction_icon/icon_third_international.png"
+	}
+	
+	spriteType = {
+		name = "GFX_facton_icon_other_faction"
+		texturefile = "gfx/interface/faction_icon/icon_other_faction.png"
+	}
 }

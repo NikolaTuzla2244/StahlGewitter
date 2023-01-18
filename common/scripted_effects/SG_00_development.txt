@@ -235,3 +235,176 @@ military_downgrade = {
 		custom_effect_tooltip = development_cant_downgrade_tt
 	}
 }
+
+calc_development_progress = {
+	set_variable = { SG_academic_ratio = SG_academic_value }
+	set_variable = { SG_industry_ratio = SG_industry_value }
+	set_variable = { SG_administration_ratio = SG_administration_value }
+	set_variable = { SG_infrastructure_ratio = SG_infrastructure_value }
+	set_variable = { SG_network_ratio = SG_network_value }
+	set_variable = { SG_military_ratio = SG_military_value }
+
+	multiply_variable = { SG_academic_ratio = 0.5 }
+	multiply_variable = { SG_industry_ratio = 0.5 }
+	multiply_variable = { SG_administration_ratio = 0.5 }
+	multiply_variable = { SG_infrastructure_ratio = 0.5 }
+	multiply_variable = { SG_network_ratio = 0.5 }
+	multiply_variable = { SG_military_ratio = 0.5 }
+}
+
+##### ##### ##### ##### ##### #####
+#	  #     #	  #	    #		#
+##### ##### ##### ##### #		#
+#	  #     #	  #	    #		#
+##### #     #	  ##### #####	#
+
+#academic
+academic_improve = {
+	custom_effect_tooltip = academic_improve_tt
+	hidden_effect = {
+		add_to_variable = { SG_academic_gain = 2 }
+	}
+}
+academic_further_improve = {
+	custom_effect_tooltip = academic_further_improve_tt
+	hidden_effect = {
+		add_to_variable = { SG_academic_gain = 4 }
+	}
+}
+academic_decrease = {
+	custom_effect_tooltip = academic_decrease_tt
+	hidden_effect = {
+		add_to_variable = { SG_academic_gain = -2 }
+	}
+}
+academic_further_decrease = {
+	custom_effect_tooltip = academic_further_decrease_tt
+	hidden_effect = {
+		add_to_variable = { SG_academic_gain = -4 }
+	}
+}
+#industry
+industry_improve = {
+	custom_effect_tooltip = industry_improve_tt
+	hidden_effect = {
+		add_to_variable = { SG_industry_gain = 2 }
+	}
+}
+industry_further_improve = {
+	custom_effect_tooltip = industry_further_improve_tt
+	hidden_effect = {
+		add_to_variable = { SG_industry_gain = 4 }
+	}
+}
+industry_decrease = {
+	custom_effect_tooltip = industry_decrease_tt
+	hidden_effect = {
+		add_to_variable = { SG_industry_gain = -2 }
+	}
+}
+industry_further_decrease = {
+	custom_effect_tooltip = industry_further_decrease_tt
+	hidden_effect = {
+		add_to_variable = { SG_industry_gain = -4 }
+	}
+}
+#administration
+administration_improve = {
+	custom_effect_tooltip = administration_improve_tt
+	hidden_effect = {
+		add_to_variable = { SG_administration_gain = 2 }
+	}
+}
+administration_further_improve = {
+	custom_effect_tooltip = administration_further_improve_tt
+	hidden_effect = {
+		add_to_variable = { SG_administration_gain = 4 }
+	}
+}
+administration_decrease = {
+	custom_effect_tooltip = administration_decrease_tt
+	hidden_effect = {
+		add_to_variable = { SG_administration_gain = -2 }
+	}
+}
+administration_further_decrease = {
+	custom_effect_tooltip = administration_further_decrease_tt
+	hidden_effect = {
+		add_to_variable = { SG_administration_gain = -4 }
+	}
+}
+#infrastructure
+infrastructure_improve = {
+	custom_effect_tooltip = infrastructure_improve_tt
+	hidden_effect = {
+		add_to_variable = { SG_infrastructure_gain = 2 }
+	}
+}
+infrastructure_further_improve = {
+	custom_effect_tooltip = infrastructure_further_improve_tt
+	hidden_effect = {
+		add_to_variable = { SG_infrastructure_gain = 4 }
+	}
+}
+infrastructure_decrease = {
+	custom_effect_tooltip = infrastructure_decrease_tt
+	hidden_effect = {
+		add_to_variable = { SG_infrastructure_gain = -2 }
+	}
+}
+infrastructure_further_decrease = {
+	custom_effect_tooltip = infrastructure_further_decrease_tt
+	hidden_effect = {
+		add_to_variable = { SG_infrastructure_gain = -4 }
+	}
+}
+#network
+network_improve = {
+	custom_effect_tooltip = network_improve_tt
+	hidden_effect = {
+		add_to_variable = { SG_network_gain = 2 }
+	}
+}
+network_further_improve = {
+	custom_effect_tooltip = network_further_improve_tt
+	hidden_effect = {
+		add_to_variable = { SG_network_gain = 4 }
+	}
+}
+network_decrease = {
+	custom_effect_tooltip = network_decrease_tt
+	hidden_effect = {
+		add_to_variable = { SG_network_gain = -2 }
+	}
+}
+network_further_decrease = {
+	custom_effect_tooltip = network_further_decrease_tt
+	hidden_effect = {
+		add_to_variable = { SG_network_gain = -4 }
+	}
+}
+#military
+military_improve = {
+	custom_effect_tooltip = military_improve_tt
+	hidden_effect = {
+		add_to_variable = { SG_military_gain = 2 }
+	}
+}
+military_further_improve = {
+	custom_effect_tooltip = military_further_improve_tt
+	hidden_effect = {
+		add_to_variable = { SG_military_gain = 4 }
+	}
+}
+military_decrease = {
+	custom_effect_tooltip = military_decrease_tt
+	hidden_effect = {
+		add_to_variable = { SG_military_gain = -2 }
+	}
+}
+military_further_decrease = {
+	custom_effect_tooltip = military_further_decrease_tt
+	hidden_effect = {
+		add_to_variable = { SG_military_gain = -4 }
+	}
+}

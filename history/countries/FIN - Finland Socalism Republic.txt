@@ -82,3 +82,5 @@ add_ideas = {
 }
 
 # recruit_character = FIN_Otto_Kuusinen
+
+country_event = { id = sg_finland.1 days = 120 }

@@ -59,3 +59,10 @@ minister_available_tt:0 "§Y閣僚§Rを手動で変更することはできな�
 sub_leader_tt:0 "§Y[THIS.sub_leader_name]§!"
 has_sub_leader:0 "副指導者が存在する"
 sub_leader_button_tt:0 "§Gクリック§!で§Y指導者§!の表示を切り替え"
+
+pol_faction_icon_tt:0 "[SGGetFactionInfo]"
+pol_faction_icon_delayed_tt:0 "[!faction_icon_click]"
+pol_faction_icon_delayed_tt_alone:0 "§Y[FROM.GetFactionName]§!の構成国は現在§Y[FROM.GetNameWithFlag]§!のみである。§!"
+pol_faction_icon_delayed_tt_filled:0 "§Y[FROM.GetFactionName]§!の構成国は以下の通り:§!"
+pol_faction_icon_leader_tt_entry: "  - §R[?FROM.faction_members^temp_faction_index.GetNameWithFlag]§!"
+pol_faction_icon_delayed_tt_entry: "  - §Y[?FROM.faction_members^temp_faction_index.GetNameWithFlag]§!"

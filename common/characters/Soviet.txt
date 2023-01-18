@@ -1,13 +1,57 @@
 characters = {
-	SOV_Sergei_Kirov = {
-		name = SOV_Sergei_Kirov
+	PES_Gavril_Myasnikov = {
+		name = PES_Gavril_Myasnikov
 		portraits={
 			civilian={
-				large = "gfx/characters/large/SOV/Portrait_SOV_Sergei_Kirov.png"
+				large = "gfx/characters/large/SOV/Portrait_PES_Gavril_Myasnikov.png"
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_socialism_subtype
+			ideology = council_communism_subtype
 		}
 	}
+	MSS_Grigorii_Zinoviev = {
+		name = MSS_Grigorii_Zinoviev
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SOV/Portrait_MSS_Grigorii_Zinoviev.png"
+			}
+		}
+		country_leader = {
+			ideology = leninism_subtype
+		}
+	}
+	KIS_Nikolai_Vatutin = {
+		name = KIS_Nikolai_Vatutin
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SOV/Portrait_KIS_Nikolai_Vatutin.png"
+			}
+		}
+		country_leader = {
+			ideology = socialist_junta_subtype
+		}
+	}
+	WMD_Konstantin_Rokossovsky = {
+		name = WMD_Konstantin_Rokossovsky
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SOV/Portrait_WMD_Konstantin_Rokossovsky.png"
+			}
+		}
+		country_leader = {
+			ideology = socialist_junta_subtype
+		}
+	}
+	# SOV_Sergei_Kirov = {
+	# 	name = SOV_Sergei_Kirov
+	# 	portraits={
+	# 		civilian={
+	# 			large = "gfx/characters/large/SOV/Portrait_SOV_Sergei_Kirov.png"
+	# 		}
+	# 	}
+	# 	country_leader = {
+	# 		ideology = authoritarian_socialism_subtype
+	# 	}
+	# }
 }

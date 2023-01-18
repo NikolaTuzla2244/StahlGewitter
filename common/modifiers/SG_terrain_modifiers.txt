@@ -1,0 +1,3 @@
+
+terrain_berlin = { }
+terrain_paris = { }

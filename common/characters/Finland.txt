@@ -10,5 +10,13 @@ characters = {
 		country_leader = {
 			ideology = military_junta_subtype
 		}
+		field_marshal = {
+			traits = { trickster guerilla_fighter brilliant_strategist trait_cautious }
+			skill = 5
+			attack_skill = 10
+			defense_skill = 10
+			planning_skill = 10
+			logistics_skill = 10
+		}
 	}
 }

@@ -52,5 +52,20 @@ scripted_gui = {
 				clr_country_flag = development_GUI_open
 			}
 		}
+
+		properties = {
+			academic_icon = { image = "[GetAcademicIcon]" }
+			academic_bar = { frame = SG_academic_ratio }
+			industry_icon = { image = "[GetIndustryIcon]" }
+			industry_bar = { frame = SG_industry_ratio }
+			administration_icon = { image = "[GetAdministrationIcon]" }
+			administration_bar = { frame = SG_administration_ratio }
+			infrastructure_icon = { image = "[GetInfrastructureIcon]" }
+			infrastructure_bar = { frame = SG_infrastructure_ratio }
+			network_icon = { image = "[GetNetworkIcon]" }
+			network_bar = { frame = SG_network_ratio }
+			military_icon = { image = "[GetMilitaryIcon]" }
+			military_bar = { frame = SG_military_ratio }
+		}
 	}
 }

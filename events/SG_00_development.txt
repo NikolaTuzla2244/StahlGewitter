@@ -1,0 +1,170 @@
+add_namespace = sg_development
+
+country_event = { #academic - upgrade
+	id = sg_development.1
+	title = sg_development.1.t
+	desc = sg_development.1.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_development.1.a
+		academic_upgrade = yes
+		custom_effect_tooltip = sg_development_reset_tt
+	}
+}
+country_event = { #academic - downgrade
+	id = sg_development.2
+	title = sg_development.2.t
+	desc = sg_development.2.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_development.2.a
+		academic_downgrade = yes
+		custom_effect_tooltip = sg_development_reset_tt
+	}
+}
+country_event = { #industry - upgrade
+	id = sg_development.3
+	title = sg_development.3.t
+	desc = sg_development.3.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_development.1.a
+		industry_upgrade = yes
+		custom_effect_tooltip = sg_development_reset_tt
+	}
+}
+country_event = { #industry - downgrade
+	id = sg_development.4
+	title = sg_development.4.t
+	desc = sg_development.4.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_development.2.a
+		industry_downgrade = yes
+		custom_effect_tooltip = sg_development_reset_tt
+	}
+}
+country_event = { #administration - upgrade
+	id = sg_development.5
+	title = sg_development.5.t
+	desc = sg_development.5.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_development.5.a
+		administration_upgrade = yes
+		custom_effect_tooltip = sg_development_reset_tt
+	}
+}
+country_event = { #administration - downgrade
+	id = sg_development.6
+	title = sg_development.6.t
+	desc = sg_development.6.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_development.6.a
+		administration_downgrade = yes
+		custom_effect_tooltip = sg_development_reset_tt
+	}
+}
+country_event = { #infrastructure - upgrade
+	id = sg_development.7
+	title = sg_development.7.t
+	desc = sg_development.7.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_development.7.a
+		infrastructure_upgrade = yes
+		custom_effect_tooltip = sg_development_reset_tt
+	}
+}
+country_event = { #infrastructure - downgrade
+	id = sg_development.8
+	title = sg_development.8.t
+	desc = sg_development.8.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_development.8.a
+		infrastructure_downgrade = yes
+		custom_effect_tooltip = sg_development_reset_tt
+	}
+}
+country_event = { #network - upgrade
+	id = sg_development.9
+	title = sg_development.9.t
+	desc = sg_development.9.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_development.9.a
+		network_upgrade = yes
+		custom_effect_tooltip = sg_development_reset_tt
+	}
+}
+country_event = { #network - downgrade
+	id = sg_development.10
+	title = sg_development.10.t
+	desc = sg_development.10.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_development.10.a
+		network_downgrade = yes
+		custom_effect_tooltip = sg_development_reset_tt
+	}
+}
+country_event = { #military - upgrade
+	id = sg_development.11
+	title = sg_development.11.t
+	desc = sg_development.11.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_development.11.a
+		military_upgrade = yes
+		custom_effect_tooltip = sg_development_reset_tt
+	}
+}
+country_event = { #military - downgrade
+	id = sg_development.12
+	title = sg_development.12.t
+	desc = sg_development.12.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_development.12.a
+		military_downgrade = yes
+		custom_effect_tooltip = sg_development_reset_tt
+	}
+}

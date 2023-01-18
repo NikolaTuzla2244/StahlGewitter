@@ -1,0 +1,161 @@
+ideology_array_setup = {
+	#initialize
+	clear_array = THIS.country_ideology_groups
+	clear_array = THIS.country_ideology_pops
+
+	#add to arrays
+	if = { #National Socialism - 0
+		limit = {
+			NOT = { has_country_flag = NULL_national_socialism }
+		}
+		add_to_array = { #groups
+			array = country_ideology_groups
+			value = 0
+		}
+		add_to_array = { #pops
+			array = country_ideology_pops
+			value = party_popularity@national_socialism
+		}
+	}
+	if = { #National Populism - 1
+		limit = {
+			NOT = { has_country_flag = NULL_national_populism }
+		}
+		add_to_array = { #groups
+			array = country_ideology_groups
+			value = 1
+		}
+		add_to_array = { #pops
+			array = country_ideology_pops
+			value = party_popularity@national_populism
+		}
+	}
+	if = { #Despotism - 2
+		limit = {
+			NOT = { has_country_flag = NULL_despotism }
+		}
+		add_to_array = { #groups
+			array = country_ideology_groups
+			value = 2
+		}
+		add_to_array = { #pops
+			array = country_ideology_pops
+			value = party_popularity@despotism
+		}
+	}
+	if = { #Authoritarianism - 3
+		limit = {
+			NOT = { has_country_flag = NULL_authoritarianism }
+		}
+		add_to_array = { #groups
+			array = country_ideology_groups
+			value = 3
+		}
+		add_to_array = { #pops
+			array = country_ideology_pops
+			value = party_popularity@authoritarianism
+		}
+	}
+	if = { #Conservative Democracy - 4
+		limit = {
+			NOT = { has_country_flag = NULL_conservative_democracy }
+		}
+		add_to_array = { #groups
+			array = country_ideology_groups
+			value = 4
+		}
+		add_to_array = { #pops
+			array = country_ideology_pops
+			value = party_popularity@conservative_democracy
+		}
+	}
+	if = { #Liberal Democracy - 5
+		limit = {
+			NOT = { has_country_flag = NULL_liberal_democracy }
+		}
+		add_to_array = { #groups
+			array = country_ideology_groups
+			value = 5
+		}
+		add_to_array = { #pops
+			array = country_ideology_pops
+			value = party_popularity@liberal_democracy
+		}
+	}
+	if = { #Reformism - 6
+		limit = {
+			NOT = { has_country_flag = NULL_reformism }
+		}
+		add_to_array = { #groups
+			array = country_ideology_groups
+			value = 6
+		}
+		add_to_array = { #pops
+			array = country_ideology_pops
+			value = party_popularity@reformism
+		}
+	}
+	if = { #Social Liberalism - 7
+		limit = {
+			NOT = { has_country_flag = NULL_social_liberalism }
+		}
+		add_to_array = { #groups
+			array = country_ideology_groups
+			value = 7
+		}
+		add_to_array = { #pops
+			array = country_ideology_pops
+			value = party_popularity@social_liberalism
+		}
+	}
+	if = { #Authoritarian Socialism - 8
+		limit = {
+			NOT = { has_country_flag = NULL_authoritarian_socialism }
+		}
+		add_to_array = { #groups
+			array = country_ideology_groups
+			value = 8
+		}
+		add_to_array = { #pops
+			array = country_ideology_pops
+			value = party_popularity@authoritarian_socialism
+		}
+	}
+	if = { #Ultra Radicalism - 9
+		limit = {
+			NOT = { has_country_flag = NULL_ultraradicalism }
+		}
+		add_to_array = { #groups
+			array = country_ideology_groups
+			value = 9
+		}
+		add_to_array = { #pops
+			array = country_ideology_pops
+			value = party_popularity@ultraradicalism
+		}
+	}
+	if = { #Ultra Reactionism - 10
+		limit = {
+			NOT = { has_country_flag = NULL_ultrareactionism }
+		}
+		add_to_array = { #groups
+			array = country_ideology_groups
+			value = 10
+		}
+		add_to_array = { #pops
+			array = country_ideology_pops
+			value = party_popularity@ultrareactionism
+		}
+	}
+}
+
+pol_faction_icon_get_members = {
+	if = {
+		limit = {
+			check_variable = { temp_faction_index < num_faction_members }
+		}
+		custom_effect_tooltip = pol_faction_icon_delayed_tt_entry
+		add_to_temp_variable = { temp_faction_index = 1 }
+		pol_faction_icon_get_members = yes
+	}
+}

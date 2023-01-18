@@ -1,0 +1,262 @@
+#Icon
+defined_text = {
+	name = GetAcademicIcon
+	text = {
+		trigger = { has_idea = SG_academic_5 }
+		localization_key = "GFX_idea_SG_academic_5"
+	}
+	text = {
+		trigger = { has_idea = SG_academic_4 }
+		localization_key = "GFX_idea_SG_academic_4"
+	}
+	text = {
+		trigger = { has_idea = SG_academic_3 }
+		localization_key = "GFX_idea_SG_academic_3"
+	}
+	text = {
+		trigger = { has_idea = SG_academic_2 }
+		localization_key = "GFX_idea_SG_academic_2"
+	}
+	text = {
+		trigger = { has_idea = SG_academic_1 }
+		localization_key = "GFX_idea_SG_academic_1"
+	}
+}
+defined_text = {
+	name = GetIndustryIcon
+	text = {
+		trigger = { has_idea = SG_industry_5 }
+		localization_key = "GFX_idea_SG_industry_5"
+	}
+	text = {
+		trigger = { has_idea = SG_industry_4 }
+		localization_key = "GFX_idea_SG_industry_4"
+	}
+	text = {
+		trigger = { has_idea = SG_industry_3 }
+		localization_key = "GFX_idea_SG_industry_3"
+	}
+	text = {
+		trigger = { has_idea = SG_industry_2 }
+		localization_key = "GFX_idea_SG_industry_2"
+	}
+	text = {
+		trigger = { has_idea = SG_industry_1 }
+		localization_key = "GFX_idea_SG_industry_1"
+	}
+}
+defined_text = {
+	name = GetAdministrationIcon
+	text = {
+		trigger = { has_idea = SG_administration_5 }
+		localization_key = "GFX_idea_SG_administration_5"
+	}
+	text = {
+		trigger = { has_idea = SG_administration_4 }
+		localization_key = "GFX_idea_SG_administration_4"
+	}
+	text = {
+		trigger = { has_idea = SG_administration_3 }
+		localization_key = "GFX_idea_SG_administration_3"
+	}
+	text = {
+		trigger = { has_idea = SG_administration_2 }
+		localization_key = "GFX_idea_SG_administration_2"
+	}
+	text = {
+		trigger = { has_idea = SG_administration_1 }
+		localization_key = "GFX_idea_SG_administration_1"
+	}
+}
+defined_text = {
+	name = GetInfrastructureIcon
+	text = {
+		trigger = { has_idea = SG_infrastructure_5 }
+		localization_key = "GFX_idea_SG_infrastructure_5"
+	}
+	text = {
+		trigger = { has_idea = SG_infrastructure_4 }
+		localization_key = "GFX_idea_SG_infrastructure_4"
+	}
+	text = {
+		trigger = { has_idea = SG_infrastructure_3 }
+		localization_key = "GFX_idea_SG_infrastructure_3"
+	}
+	text = {
+		trigger = { has_idea = SG_infrastructure_2 }
+		localization_key = "GFX_idea_SG_infrastructure_2"
+	}
+	text = {
+		trigger = { has_idea = SG_infrastructure_1 }
+		localization_key = "GFX_idea_SG_infrastructure_1"
+	}
+}
+defined_text = {
+	name = GetNetworkIcon
+	text = {
+		trigger = { has_idea = SG_network_3 }
+		localization_key = "GFX_idea_SG_network_3"
+	}
+	text = {
+		trigger = { has_idea = SG_network_2 }
+		localization_key = "GFX_idea_SG_network_2"
+	}
+	text = {
+		trigger = { has_idea = SG_network_1 }
+		localization_key = "GFX_idea_SG_network_1"
+	}
+}
+defined_text = {
+	name = GetMilitaryIcon
+	text = {
+		trigger = { has_idea = SG_military_5 }
+		localization_key = "GFX_idea_SG_military_5"
+	}
+	text = {
+		trigger = { has_idea = SG_military_4 }
+		localization_key = "GFX_idea_SG_military_4"
+	}
+	text = {
+		trigger = { has_idea = SG_military_3 }
+		localization_key = "GFX_idea_SG_military_3"
+	}
+	text = {
+		trigger = { has_idea = SG_military_2 }
+		localization_key = "GFX_idea_SG_military_2"
+	}
+	text = {
+		trigger = { has_idea = SG_military_1 }
+		localization_key = "GFX_idea_SG_military_1"
+	}
+}
+#Name
+defined_text = {
+	name = GetAcademicName
+	text = {
+		trigger = { has_idea = SG_academic_5 }
+		localization_key = "SG_academic_5"
+	}
+	text = {
+		trigger = { has_idea = SG_academic_4 }
+		localization_key = "SG_academic_4"
+	}
+	text = {
+		trigger = { has_idea = SG_academic_3 }
+		localization_key = "SG_academic_3"
+	}
+	text = {
+		trigger = { has_idea = SG_academic_2 }
+		localization_key = "SG_academic_2"
+	}
+	text = {
+		trigger = { has_idea = SG_academic_1 }
+		localization_key = "SG_academic_1"
+	}
+}
+defined_text = {
+	name = GetIndustryName
+	text = {
+		trigger = { has_idea = SG_industry_5 }
+		localization_key = "SG_industry_5"
+	}
+	text = {
+		trigger = { has_idea = SG_industry_4 }
+		localization_key = "SG_industry_4"
+	}
+	text = {
+		trigger = { has_idea = SG_industry_3 }
+		localization_key = "SG_industry_3"
+	}
+	text = {
+		trigger = { has_idea = SG_industry_2 }
+		localization_key = "SG_industry_2"
+	}
+	text = {
+		trigger = { has_idea = SG_industry_1 }
+		localization_key = "SG_industry_1"
+	}
+}
+defined_text = {
+	name = GetAdministrationName
+	text = {
+		trigger = { has_idea = SG_administration_5 }
+		localization_key = "SG_administration_5"
+	}
+	text = {
+		trigger = { has_idea = SG_administration_4 }
+		localization_key = "SG_administration_4"
+	}
+	text = {
+		trigger = { has_idea = SG_administration_3 }
+		localization_key = "SG_administration_3"
+	}
+	text = {
+		trigger = { has_idea = SG_administration_2 }
+		localization_key = "SG_administration_2"
+	}
+	text = {
+		trigger = { has_idea = SG_administration_1 }
+		localization_key = "SG_administration_1"
+	}
+}
+defined_text = {
+	name = GetInfrastructureName
+	text = {
+		trigger = { has_idea = SG_infrastructure_5 }
+		localization_key = "SG_infrastructure_5"
+	}
+	text = {
+		trigger = { has_idea = SG_infrastructure_4 }
+		localization_key = "SG_infrastructure_4"
+	}
+	text = {
+		trigger = { has_idea = SG_infrastructure_3 }
+		localization_key = "SG_infrastructure_3"
+	}
+	text = {
+		trigger = { has_idea = SG_infrastructure_2 }
+		localization_key = "SG_infrastructure_2"
+	}
+	text = {
+		trigger = { has_idea = SG_infrastructure_1 }
+		localization_key = "SG_infrastructure_1"
+	}
+}
+defined_text = {
+	name = GetNetworkName
+	text = {
+		trigger = { has_idea = SG_network_3 }
+		localization_key = "SG_network_3"
+	}
+	text = {
+		trigger = { has_idea = SG_network_2 }
+		localization_key = "SG_network_2"
+	}
+	text = {
+		trigger = { has_idea = SG_network_1 }
+		localization_key = "SG_network_1"
+	}
+}
+defined_text = {
+	name = GetMilitaryName
+	text = {
+		trigger = { has_idea = SG_military_5 }
+		localization_key = "SG_military_5"
+	}
+	text = {
+		trigger = { has_idea = SG_military_4 }
+		localization_key = "SG_military_4"
+	}
+	text = {
+		trigger = { has_idea = SG_military_3 }
+		localization_key = "SG_military_3"
+	}
+	text = {
+		trigger = { has_idea = SG_military_2 }
+		localization_key = "SG_military_2"
+	}
+	text = {
+		trigger = { has_idea = SG_military_1 }
+		localization_key = "SG_military_1"
+	}
+}

@@ -190,7 +190,7 @@ defined_text = { #修正主義
 		localization_key = reformism
 	}
 }
-defined_text = { #社会自由主義
+defined_text = { #革新社会主義
 	name = GetSubIdeologyName_SocLib
 	text = {
 		trigger = { has_country_leader_ideology = maoism_subtype }
@@ -203,6 +203,10 @@ defined_text = { #社会自由主義
 	text = {
 		trigger = { has_country_leader_ideology = anarcho_communism_subtype }
 		localization_key = anarcho_communism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = council_communism_subtype }
+		localization_key = council_communism_subtype
 	}
 	text = {
 		localization_key = social_liberalism
@@ -221,6 +225,18 @@ defined_text = { #権威社会主義
 	text = {
 		trigger = { has_country_leader_ideology = revolutionary_syndicalism_subtype }
 		localization_key = revolutionary_syndicalism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = socialist_junta_subtype }
+		localization_key = socialist_junta_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = leninism_subtype }
+		localization_key = leninism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = collectivist_socialism_subtype }
+		localization_key = collectivist_socialism_subtype
 	}
 	text = {
 		localization_key = authoritarian_socialism

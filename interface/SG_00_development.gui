@@ -1,7 +1,7 @@
 guiTypes = {
 	containerWindowType = {
 		name = "SG_development_open_button"
-		position = { x = 500 y = 500 }
+		position = { x = 500 y = 550 }
 		size = { width = 0 height = 0 }
 		buttonType = {
 			name = "development_open_button"
@@ -15,7 +15,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "SG_development_GUI"
 		position = { x = -500 y = 82 }
-		size = { width = 550 height = 520 }
+		size = { width = 325 height = 610 }
 
 		show_position = { x = 535 y = 82 }
 		show_animation_type = decelerated
@@ -32,6 +32,21 @@ guiTypes = {
 			quadTextureSprite = "GFX_tiled_window2_1b_border"
 		}
 
+		iconType ={
+			name ="development_header_bg"
+			spriteType = "GFX_generic_header"
+			position = { x= -2 y = 0 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = no
+		}
+		buttonType = {
+			name = "development_close_button"
+			position = { x = 275 y = 10 }
+			spriteType = "GFX_closebutton"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
 		instantTextboxType = {
 			name = "development_title"
 			position = { x = 45 y = 5 }
@@ -43,21 +58,246 @@ guiTypes = {
 			maxHeight = 20
 			fixedsize = yes
 		}
-		buttonType = {
-			name = "development_close_button"
-			position = { x = 507 y = 5 }
-			spriteType = GFX_closebutton
-			shortcut = "ESCAPE"
-			clicksound = click_close
-			pdx_tooltip = "CLOSE"
+
+		containerWindowType = {
+			name = academic_box
+			position = { x = 10 y = 40 }
+			size = { width = 247 height = 112 }
+			iconType ={
+				name ="academic_bar"
+				spriteType = "GFX_development_progressbar"
+				position = { x = 85 y = 50 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType ={
+				name ="academic_frame"
+				spriteType = "GFX_pol_development_frame"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="academic_icon"
+				# spriteType = "GFX_pol_development_frame"
+				position = { x = 6 y = 29 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = academic_title
+				position = { x = 40 y = 10 }
+				font = "hoi_20bs"
+				text = "academic_level"
+				maxWidth = 100
+				maxHeight = 15
+			}
+			instantTextBoxType = {
+				name = academic_idea_name
+				position = { x = 72 y = 68 }
+				font = "hoi_20bs"
+				text = "[GetAcademicName]"
+				maxWidth = 170
+				maxHeight = 15
+			}
 		}
-		iconType ={
-			name ="development_header_bg"
-			spriteType = "GFX_header_bg"
-			position = { x= 5 y = 3 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
+		containerWindowType = {
+			name = industry_box
+			position = { x = 20 y = 130 }
+			size = { width = 247 height = 112 }
+			iconType ={
+				name ="industry_bar"
+				spriteType = "GFX_development_progressbar"
+				position = { x = 85 y = 50 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType ={
+				name ="industry_frame"
+				spriteType = "GFX_pol_development_frame"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="industry_icon"
+				# spriteType = "GFX_pol_development_frame"
+				position = { x = 6 y = 29 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = industry_title
+				position = { x = 40 y = 10 }
+				font = "hoi_20bs"
+				text = "industry_level"
+				maxWidth = 100
+				maxHeight = 15
+			}
+			instantTextBoxType = {
+				name = industry_idea_name
+				position = { x = 72 y = 68 }
+				font = "hoi_20bs"
+				text = "[GetIndustryName]"
+				maxWidth = 170
+				maxHeight = 15
+			}
+		}
+		containerWindowType = {
+			name = administration_box
+			position = { x = 30 y = 220 }
+			size = { width = 247 height = 112 }
+			iconType ={
+				name ="administration_bar"
+				spriteType = "GFX_development_progressbar"
+				position = { x = 85 y = 50 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType ={
+				name ="administration_frame"
+				spriteType = "GFX_pol_development_frame"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="administration_icon"
+				# spriteType = "GFX_pol_development_frame"
+				position = { x = 6 y = 29 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = administration_title
+				position = { x = 40 y = 10 }
+				font = "hoi_20bs"
+				text = "administration_level"
+				maxWidth = 100
+				maxHeight = 15
+			}
+			instantTextBoxType = {
+				name = administration_idea_name
+				position = { x = 72 y = 68 }
+				font = "hoi_20bs"
+				text = "[GetAdministrationName]"
+				maxWidth = 170
+				maxHeight = 15
+			}
+		}
+		containerWindowType = {
+			name = infrastructure_box
+			position = { x = 40 y = 310 }
+			size = { width = 247 height = 112 }
+			iconType ={
+				name ="infrastructure_bar"
+				spriteType = "GFX_development_progressbar"
+				position = { x = 85 y = 50 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType ={
+				name ="infrastructure_frame"
+				spriteType = "GFX_pol_development_frame"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="infrastructure_icon"
+				# spriteType = "GFX_pol_development_frame"
+				position = { x = 6 y = 29 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = infrastructure_title
+				position = { x = 40 y = 10 }
+				font = "hoi_20bs"
+				text = "infrastructure_level"
+				maxWidth = 100
+				maxHeight = 15
+			}
+			instantTextBoxType = {
+				name = infrastructure_idea_name
+				position = { x = 72 y = 68 }
+				font = "hoi_20bs"
+				text = "[GetInfrastructureName]"
+				maxWidth = 170
+				maxHeight = 15
+			}
+		}
+		containerWindowType = {
+			name = network_box
+			position = { x = 50 y = 400 }
+			size = { width = 247 height = 112 }
+			iconType ={
+				name ="network_bar"
+				spriteType = "GFX_development_progressbar"
+				position = { x = 85 y = 50 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType ={
+				name ="network_frame"
+				spriteType = "GFX_pol_development_frame"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="network_icon"
+				# spriteType = "GFX_pol_development_frame"
+				position = { x = 6 y = 29 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = network_title
+				position = { x = 40 y = 10 }
+				font = "hoi_20bs"
+				text = "network_level"
+				maxWidth = 100
+				maxHeight = 15
+			}
+			instantTextBoxType = {
+				name = network_idea_name
+				position = { x = 72 y = 68 }
+				font = "hoi_20bs"
+				text = "[GetNetworkName]"
+				maxWidth = 170
+				maxHeight = 15
+			}
+		}
+		containerWindowType = {
+			name = military_box
+			position = { x = 60 y = 490 }
+			size = { width = 247 height = 112 }
+			iconType ={
+				name ="military_bar"
+				spriteType = "GFX_development_progressbar"
+				position = { x = 85 y = 50 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType ={
+				name ="military_frame"
+				spriteType = "GFX_pol_development_frame"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="military_icon"
+				# spriteType = "GFX_pol_development_frame"
+				position = { x = 6 y = 29 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = military_title
+				position = { x = 40 y = 10 }
+				font = "hoi_20bs"
+				text = "military_level"
+				maxWidth = 100
+				maxHeight = 15
+			}
+			instantTextBoxType = {
+				name = military_idea_name
+				position = { x = 72 y = 68 }
+				font = "hoi_20bs"
+				text = "[GetMilitaryName]"
+				maxWidth = 170
+				maxHeight = 15
+			}
 		}
 	}
-
 }

@@ -12,13 +12,13 @@ state={
 		victory_points = {
 			422 3
 		}
-		owner = POL
+		owner = WMD
 		buildings = {
 			infrastructure = 3
 
 		}
 		add_core_of = UKR
-		add_core_of = POL
+		add_core_of = WMD
 	}
 
 	provinces={

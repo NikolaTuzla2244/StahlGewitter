@@ -1,0 +1,175 @@
+guiTypes = {
+	containerWindowType = {
+		name = "SG_countrypoliticsview"
+		position = { x = 0 y = 0 }
+		size = { width = 0 height = 0 }
+		instantTextboxType = {
+			name = "sub_ideology"
+			position = { x = 405 y = 252 }
+			font = "hoi_20bs"
+			text = [GetSubIdeologyName]
+			maxWidth = 150
+			maxHeight = 20
+		}
+		instantTextboxType = {
+			name = "ruling_party"
+			position = { x = 405 y = 293 }
+			font = "hoi_18mbs"
+			text = [THIS.GetRulingParty]
+			maxWidth = 150
+			maxHeight = 20
+		}
+		# containerWindowType = {
+		# 	name = "political_pie_chart"
+		# 	position = { x = 394.5 y = 148 }
+		# 	size = { width=100 height=100 }
+		# 	clipping = no
+			
+			
+		# 	iconType ={
+		# 		name ="pol_view_bg"
+		# 		spriteType = "GFX_pol_piechart_overlay_SG"
+		# 		position = { x = -3 y = 5 }
+		# 		alwaystransparent = yes
+		# 	}
+			
+			
+		# }
+		
+		# iconType = {
+		# 	name = "piechart_frame"
+		# 	spriteType = "GFX_pol_piechart_frame"
+		# 	position = { x = 380 y = 142 }
+		# 	alwaystransparent = yes
+		# }
+	}
+	containerWindowType = {
+		name = "SG_sub_leader_GUI"
+		position = { x = 0 y = 0 }
+		size = { width = 0 height = 0 }
+		iconType = {
+			name = "sub_leader"
+			position = { x = 18 y = 58 }
+			# spriteType = "GFX_leader_unknown"
+
+			pdx_tooltip = "sub_leader_tt"
+		}
+		iconType = {
+			name = "sub_leader_frame"
+			spriteType = "GFX_pol_leader_frame"
+			position = { x = 10 y = 44 }		
+			alwaystransparent = yes
+
+			pdx_tooltip = "sub_leader_tt"
+		}
+		instantTextboxType = {
+			name = "sub_leader_name"
+			position = { x = 18 y = 270 }
+			font = "hoi_18mbs"
+			text = "[THIS.sub_leader_name]"
+			maxWidth = 155
+			maxHeight = 36
+			format = center
+			vertical_alignment = center
+
+			pdx_tooltip = "sub_leader_tt"
+		}
+		
+		buttonType = {
+			name = "sub_leader_button"
+			position = { x = 120 y = 20 }
+			spriteType = GFX_SG_monach_button
+			clicksound = click_default
+
+			pdx_tooltip = "sub_leader_button_tt"
+		}
+	}
+
+	containerWindowType = {
+		name = "SG_pol_faction_GUI"
+		position = { x = 118 y = 272 }
+		size = { width = 0 height = 0 }
+		# iconType = {
+		# 	name = "faction_icon"
+		# 	position = { x = 120 y = 20 }
+
+		# 	pdx_tooltip = "faction_icon_tt"
+		# }
+		buttonType = {
+			name = "faction_icon"
+			position = { x = 120 y = 20 }
+			spriteType = GFX_facton_icon_other_faction
+			clicksound = click_default
+
+			pdx_tooltip = pol_faction_icon_tt
+			pdx_tooltip_delayed = pol_faction_icon_delayed_tt
+		}
+	}
+
+	containerWindowType = {
+		name = "SG_ideologies_list_open_button"
+		position = { x = 450 y = 480 }
+		size = { width = 0 height = 0 }
+		buttonType = {
+			name = "ideologies_list_open_button"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_SG_pol_party_button"
+			clicksound = click_default
+
+			pdx_tooltip = "ideologies_list_open_button_tt"
+		}
+	}
+	containerWindowType = {
+		name = "SG_pol_ideologies_list_GUI"
+		position = { x = 95 y = 247 }
+		size = { width = 0 height = 0 }
+
+		fade_time = 300
+		fade_type = linear
+
+		gridBoxType = {
+			name = "pol_ideologies_list_grid"
+			position = { x = 0 y = 0 }
+			size = { width = 100 height = 100%% }
+			slotsize = { width = 49 height = 30 }
+			max_slots_vertical = 11
+			add_horizontal = no
+		}
+	}
+
+	containerWindowType = {
+		name = "SG_pol_ideologies_list_entry"
+		size = { width = 100 height = 50 }
+		position = { x = 50 y = 0 }
+
+		iconType = {
+			name = "ideology_list_frame"
+			position = { x = 0 y = -8 }
+			spriteType = "GFX_SG_pol_party_frame"
+		}
+		iconType = {
+			name = "ideology_icon"
+			position = { x = 0 y = -2 }
+
+			pdx_tooltip = "ideology_icon_tt"
+		}
+		instantTextboxType = {
+			name = "party_ideology_name"
+			position = { x = 25 y = 2 }
+			borderSize = {x = 0 y = 0}
+			format = left
+			maxWidth = 150
+			font = "hoi_16mbs"
+			text = [GetPartyIdeology]
+		}
+		instantTextboxType = {
+			name = "party_pops"
+			position = { x = 8 y = 0 }
+			borderSize = {x = 0 y = 0}
+			format = right
+			maxWidth = 150
+			font = "hoi_20bs"
+			text = "[?country_ideology_pops^i|%0]"
+		}
+	}
+}

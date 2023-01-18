@@ -1,0 +1,52 @@
+SG_is_russia = {
+	custom_trigger_tooltip = {
+		tooltip = SG_is_russia
+
+		OR = {
+			tag = PES
+			tag = ROS
+			tag = ARS
+			tag = KZS
+			tag = MSS
+			tag = SMS
+			tag = CRS
+			tag = KIS
+			tag = WMD
+			tag = SIS
+			tag = FES
+		}
+	}
+}
+SG_is_soviet = {
+	custom_trigger_tooltip = {
+		tooltip = SG_is_soviet
+
+		OR = {
+			tag = PES
+			tag = ROS
+			tag = ARS
+			tag = KZS
+			tag = MSS
+			tag = SMS
+			tag = CRS
+			tag = KIS
+			tag = WMD
+			tag = SIS
+			tag = FES
+
+			tag = BAL
+			tag = BLR
+			tag = UKR
+
+			tag = TCC
+
+			tag = KAZ
+			tag = UZB
+			tag = KYR
+			tag = TAJ
+			tag = TMS
+
+			tag = FIN
+		}
+	}
+}

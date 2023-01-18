@@ -5,9 +5,157 @@ characters={
 			civilian={
 				large = "gfx/characters/large/FRA/Portrait_FRA_Jacques_Duclos.png"
 			}
+			army = {
+				large = "gfx/characters/large/FRA/Portrait_FRA_Jacques_Duclos.png"
+				# small = "GFX_idea_FRA_Jacques_Duclos"
+			}
+		}
+		country_leader = {
+			ideology = collectivist_socialism_subtype
+		}
+		field_marshal = {
+			traits = { politically_connected offensive_doctrine }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	FRA_Jacques_Doriot = {
+		name = FRA_Jacques_Doriot
+		portraits={
+			civilian={
+				large = "gfx/characters/large/FRA/Portrait_FRA_Jacques_Doriot.png"
+			}
+			army = {
+				large = "gfx/characters/large/FRA/Portrait_FRA_Jacques_Doriot.png"
+				# small = "GFX_idea_FRA_Jacques_Doriot"
+			}
 		}
 		country_leader = {
 			ideology = national_communism_subtype
+		}
+		field_marshal = {
+			traits = { politically_connected inspirational_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	FRA_Francois_Le_Leve = {
+		name = FRA_Francois_Le_Leve
+		portraits={
+			civilian={
+				large = "gfx/characters/large/FRA/Portrait_FRA_Francois_Le_Leve.png"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_syndicalism_subtype
+		}
+	}
+	FRA_Marceau_Pivert = {
+		name = FRA_Marceau_Pivert
+		portraits={
+			civilian={
+				large = "gfx/characters/large/FRA/Portrait_FRA_Marceau_Pivert.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_subtype
+		}
+	}
+	FRA_Leon_Blum = {
+		name = FRA_Leon_Blum
+		portraits={
+			civilian={
+				large = "gfx/characters/large/FRA/Portrait_FRA_Leon_Blum.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_subtype
+		}
+	}
+	FRA_Georges_Bataille = {
+		name = FRA_Georges_Bataille
+		portraits={
+			civilian={
+				large = "gfx/characters/large/FRA/Portrait_FRA_Georges_Bataille.png"
+			}
+		}
+		country_leader = {
+			ideology = ultraradicalism_subtype
+		}
+	}
+
+	FRA_Maurice_Gamelin = {
+		name = FRA_Maurice_Gamelin
+		portraits = {
+			army = {
+				# large = "gfx/characters/large/FRA/Portrait_FRA_Maurice_Gamelin.png"
+				# small = "GFX_idea_FRA_Maurice_Gamelin"
+			}
+		}
+		field_marshal = {
+			traits = { inflexible_strategist defensive_doctrine war_hero }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	FRA_Henri_Rol_Tanguy = {
+		name = FRA_Henri_Rol_Tanguy
+		portraits={
+			army = {
+				# large = "gfx/characters/large/FRA/Portrait_FRA_Henri_Rol_Tanguy.png"
+				# small = "GFX_idea_FRA_Henri_Rol_Tanguy"
+			}
+		}
+		corps_commander = {
+			traits = { organizer brilliant_strategist infantry_leader }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	FRA_Andre_Dewavrin = {
+		name = FRA_Andre_Dewavrin
+		portraits={
+			army = {
+				# large = "gfx/characters/large/FRA/Portrait_FRA_Andre_Dewavrin.png"
+				# small = "GFX_idea_FRA_Andre_Dewavrin"
+			}
+		}
+		corps_commander = {
+			traits = { commando trickster }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	FRA_Albert_Ouzoulias = {
+		name = FRA_Albert_Ouzoulias
+		portraits={
+			army = {
+				# large = "gfx/characters/large/FRA/Portrait_FRA_Albert_Ouzoulias.png"
+				# small = "GFX_idea_FRA_Albert_Ouzoulias"
+			}
+		}
+		corps_commander = {
+			traits = { trickster }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 }

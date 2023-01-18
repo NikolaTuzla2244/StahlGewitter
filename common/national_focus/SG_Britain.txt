@@ -25,6 +25,7 @@ focus_tree = {
 			factor = 30
 		}
 		available = {
+			date > 1935.4.1
 		}
 		completion_reward = {
 			country_event = sg_britain.1

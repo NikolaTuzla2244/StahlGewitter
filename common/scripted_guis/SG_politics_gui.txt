@@ -56,10 +56,83 @@ scripted_gui = {
 		visible = {
 			is_in_faction = yes
 		}
+		effects = {
+			faction_icon_click = {
+				if = {
+					limit = { num_faction_members = 1 }
+					custom_effect_tooltip = pol_faction_icon_delayed_tt_alone
+				}
+				else = {
+					custom_effect_tooltip = pol_faction_icon_delayed_tt_filled
+
+					set_temp_variable = { temp_faction_index = 0 }
+					pol_faction_icon_get_members = yes
+				}
+			}
+		}
 		properties = {
 			faction_icon = {
 				image = "[THIS.SGGetFactionIcon]"
 			}
 		}
+	}
+	SG_ideologies_list_open_button = {
+		window_name = "SG_ideologies_list_open_button"
+		context_type = player_context
+		parent_window_token = politics_tab
+
+		triggers = {
+	    	
+	    }
+
+		visible = {
+			is_ai = no
+		}
+
+		effects = {
+			ideologies_list_open_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = ideologies_list_open
+						}
+					}
+					set_country_flag = ideologies_list_open
+				}
+				else = {
+					clr_country_flag = ideologies_list_open
+				}
+			}
+		}
+	}
+	SG_pol_ideologies_list_GUI = {
+		window_name = "SG_pol_ideologies_list_GUI"
+		context_type = player_context
+		parent_window_token = politics_tab
+			
+		visible = {
+			has_country_flag = ideologies_list_open
+		}
+		dynamic_lists = {
+			pol_ideologies_list_grid = {
+				array = country_ideology_groups
+				entry_container = "SG_pol_ideologies_list_entry"
+			}
+		}
+		properties = {
+			ideology_icon = {
+				image = "[ROOT.GetPartyIcon]"
+			}
+		}
+	}
+	SG_pol_ideologies_list_entry = {
+		window_name = "SG_pol_ideologies_list_entry"
+		context_type = player_context
+		parent_window_token = politics_tab
+			
+		visible = {
+			always = no
+		}
+		
 	}
 }

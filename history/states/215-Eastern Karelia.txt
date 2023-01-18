@@ -6,14 +6,12 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = PES
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = SOV
-		add_core_of = KAR
-		add_core_of = KPD
+		 add_core_of = PES
 	}
 
 	provinces={

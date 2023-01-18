@@ -1,0 +1,94 @@
+defined_text = {
+	name = GetPartyIcon
+	text = {
+		trigger = { check_variable = { v = 0 } }
+		localization_key = "GFX_ideology_national_socialism_group_small"
+	}
+	text = {
+		trigger = { check_variable = { v = 1 } }
+		localization_key = "GFX_ideology_national_populism_group_small"
+	}
+	text = {
+		trigger = { check_variable = { v = 2 } }
+		localization_key = "GFX_ideology_despotism_group_small"
+	}
+	text = {
+		trigger = { check_variable = { v = 3 } }
+		localization_key = "GFX_ideology_authoritarianism_group_small"
+	}
+	text = {
+		trigger = { check_variable = { v = 4 } }
+		localization_key = "GFX_ideology_conservative_democracy_group_small"
+	}
+	text = {
+		trigger = { check_variable = { v = 5 } }
+		localization_key = "GFX_ideology_liberal_democracy_group_small"
+	}
+	text = {
+		trigger = { check_variable = { v = 6 } }
+		localization_key = "GFX_ideology_reformism_group_small"
+	}
+	text = {
+		trigger = { check_variable = { v = 7 } }
+		localization_key = "GFX_ideology_social_liberalism_group_small"
+	}
+	text = {
+		trigger = { check_variable = { v = 8 } }
+		localization_key = "GFX_ideology_authoritarian_socialism_group_small"
+	}
+	text = {
+		trigger = { check_variable = { v = 9 } }
+		localization_key = "GFX_ideology_ultraradicalism_group_small"
+	}
+	text = {
+		trigger = { check_variable = { v = 10 } }
+		localization_key = "GFX_ideology_ultrareactionism_group_small"
+	}
+}
+defined_text = {
+	name = GetPartyIdeology
+	text = {
+		trigger = { check_variable = { v = 0 } }
+		localization_key = national_socialism
+	}
+	text = {
+		trigger = { check_variable = { v = 1 } }
+		localization_key = national_populism
+	}
+	text = {
+		trigger = { check_variable = { v = 2 } }
+		localization_key = despotism
+	}
+	text = {
+		trigger = { check_variable = { v = 3 } }
+		localization_key = authoritarianism
+	}
+	text = {
+		trigger = { check_variable = { v = 4 } }
+		localization_key = conservative_democracy
+	}
+	text = {
+		trigger = { check_variable = { v = 5 } }
+		localization_key = liberal_democracy
+	}
+	text = {
+		trigger = { check_variable = { v = 6 } }
+		localization_key = reformism
+	}
+	text = {
+		trigger = { check_variable = { v = 7 } }
+		localization_key = social_liberalism
+	}
+	text = {
+		trigger = { check_variable = { v = 8 } }
+		localization_key = authoritarian_socialism
+	}
+	text = {
+		trigger = { check_variable = { v = 9 } }
+		localization_key = ultraradicalism
+	}
+	text = {
+		trigger = { check_variable = { v = 10 } }
+		localization_key = ultrareactionism
+	}
+}

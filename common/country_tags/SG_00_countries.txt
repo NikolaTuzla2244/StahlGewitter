@@ -52,13 +52,25 @@ BEK = "countries/western_european.txt" #亡命ベルギー王国
 
 ###ソビエト連邦
 SOV = "countries/eastern_european.txt" #ソビエト連邦
-SOI = "countries/eastern_european.txt" #シベリア臨時政府
+
+PES = "countries/eastern_european.txt" #ペトログラード・ソビエト / ガヴリル・ミアスニコフ(評議会共産主義)
+ROS = "countries/eastern_european.txt" #ロストフ・ソビエト
+ARS = "countries/eastern_european.txt" #アルハンゲリスク・ソビエト
+KZS = "countries/eastern_european.txt" #カザン・ソビエト / アレクサンダー・シュリアプニコフ(革命的サンディカリスム), ニジニ・ノヴゴロド・ソビエト / ヴャチェスラフ・モロトフ
+MSS = "countries/eastern_european.txt" #モスクワ・ソビエト / グリゴリー・ジノヴィエフ(レーニン主義)
+SMS = "countries/eastern_european.txt" #スモレンスク・ソビエト
+CRS = "countries/eastern_european.txt" #クリミア・ソビエト
+KIS = "countries/eastern_european.txt" #キエフ・ソビエト / ニコライ・ヴァトゥーチン
+WMD = "countries/eastern_european.txt" #ソビエト西方軍管区 / コンスタンチン・ロコソフスキー
+
+SIS = "countries/eastern_european.txt" #シベリア・ソビエト
+FES = "countries/eastern_european.txt" #極東シベリア・ソビエト
 
 BAL	= "countries/eastern_european.txt" #バルト・ソビエト軍管区
 BLR = "countries/eastern_european.txt" #白ロシア・ソビエト
-UKR = "countries/eastern_european.txt" #ウクライナ・ソビエト
+UKR = "countries/eastern_european.txt" #ウクライナ・ソビエト / グリゴリー・ペトロフスキー
 
-TCC = "countries/eastern_european.txt" #コーカサス・ソビエト
+TCC = "countries/eastern_european.txt" #コーカサス・ソビエト / イラクリー・ツェレテリ
 
 KAZ = "countries/asian.txt" #カザフ・ソビエト
 UZB = "countries/asian.txt" #ウズベク・ソビエト
@@ -66,13 +78,6 @@ KYR = "countries/asian.txt" #キルギス・ソビエト
 TAJ = "countries/asian.txt" #タジク・ソビエト
 TMS = "countries/asian.txt" #トルクメン・ソビエト
 #ソ連内戦
-LGR = "countries/eastern_european.txt" #ソビエト連邦緊急政府(ジノヴィエフ)
-RBS = "countries/eastern_european.txt" #右派ボリシェヴィキ(コンドラチエフ)
-TSK = "countries/eastern_european.txt" #中央委員会書記局(モロトフ)
-KPD = "countries/eastern_european.txt" #亡命ドイツ共産党(ラデック)
-GPU = "countries/eastern_european.txt" #国家政治保安部(エジョフ)
-SOA = "countries/eastern_european.txt" #ソビエト赤軍(ヴォロシーロフ)
-LEF = "countries/eastern_european.txt" #左派構成社会(マヤコフスキー)
 
 KAR = "countries/eastern_european.txt" #カレリア人民共和国
 
@@ -95,7 +100,6 @@ QZD = "countries/asian.txt" #清真団
 KMT = "countries/asian.txt" #国民党
 CJP = "countries/asian.txt" #支那方面軍
 GGC = "countries/asian.txt" #新広西派
-# BIS = "countries/asian.txt" #軍統
 FGS = "countries/asian.txt" #仏光山
 MAO = "countries/asian.txt" #紅衛兵
 CCP = "countries/asian.txt" #人民中央委員会
@@ -237,7 +241,7 @@ SOM = "countries/Somalia.txt"
 UGA = "countries/Uganda.txt"
 RWA = "countries/Rwanda.txt"
 BRD = "countries/Burundi.txt"
-TZN = "countries/Tanzania.txt"
+# TZN = "countries/Tanzania.txt"
 ZAM = "countries/Zambia.txt"
 MLW = "countries/Malawi.txt"
 GAB = "countries/Gabon.txt"
@@ -320,11 +324,11 @@ OVO = "countries/Ostyak Vogulia.txt"
 NEN = "countries/Nenetsia.txt"
 KOM = "countries/Komi.txt"
 ABK = "countries/Abkhazia.txt"
-KBK = "countries/Kabardino Balkaria.txt"
-NOA = "countries/North Ossetia.txt"
-VGE = "countries/Volga Germany.txt"
-BSK = "countries/Bashkortostan.txt"
-KHI = "countries/Khiva.txt"
-UDM = "countries/Udmurtia.txt"
-CHU = "countries/Chuvashia.txt"
-MEL = "countries/Mariel.txt"
+# KBK = "countries/Kabardino Balkaria.txt"
+# NOA = "countries/North Ossetia.txt"
+# VGE = "countries/Volga Germany.txt"
+# BSK = "countries/Bashkortostan.txt"
+# KHI = "countries/Khiva.txt"
+# UDM = "countries/Udmurtia.txt"
+# CHU = "countries/Chuvashia.txt"
+# MEL = "countries/Mariel.txt"

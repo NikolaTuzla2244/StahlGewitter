@@ -201,6 +201,8 @@ ideologies = {
 			maoism_subtype = { can_be_randomly_selected = no }
 			anarchism_movement_subtype = { can_be_randomly_selected = no }
 			anarcho_communism_subtype = { can_be_randomly_selected = no }
+			council_communism_subtype = { can_be_randomly_selected = no }
+			revolutionary_syndicalism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 180 35 35 }
@@ -228,7 +230,9 @@ ideologies = {
 
 			national_communism_subtype = { can_be_randomly_selected = no }
 			chinise_socialsm_subtype = { can_be_randomly_selected = no }
-			revolutionary_syndicalism_subtype = { can_be_randomly_selected = no }
+			socialist_junta_subtype = { can_be_randomly_selected = no }
+			leninism_subtype = { can_be_randomly_selected = no }
+			collectivist_socialism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 124 17 19 }

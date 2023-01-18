@@ -74,10 +74,18 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarian_socialism = 60
-	social_liberalism = 30
+	reformism = 10
+	authoritarian_socialism = 35
+	social_liberalism = 45
 	ultraradicalism = 10
 }
+set_country_flag = NULL_national_socialism
+set_country_flag = NULL_national_populism
+set_country_flag = NULL_despotism
+set_country_flag = NULL_authoritarianism
+set_country_flag = NULL_conservative_democracy
+set_country_flag = NULL_liberal_democracy
+set_country_flag = NULL_ultrareactionism
 
 # create_faction = Axis
 # add_to_faction = GER
@@ -92,7 +100,13 @@ add_ideas = {
 }
 
 recruit_character = FRA_Jacques_Duclos
-#recruit_character = FRA_Sébastien_Faure
-#recruit_character = FRA_Simon_Sabiani
-#recruit_character = FRA_Benjamin_Péret
-#recruit_character = FRA_Paul_Éluard
+recruit_character = FRA_Jacques_Doriot
+recruit_character = FRA_Francois_Le_Leve
+recruit_character = FRA_Marceau_Pivert
+recruit_character = FRA_Leon_Blum
+recruit_character = FRA_Georges_Bataille
+
+recruit_character = FRA_Maurice_Gamelin
+recruit_character = FRA_Henri_Rol_Tanguy
+recruit_character = FRA_Andre_Dewavrin
+recruit_character = FRA_Albert_Ouzoulias

@@ -39,14 +39,6 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		SOV = {
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = authoritarian_socialism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
 		ITA = {
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = despotism

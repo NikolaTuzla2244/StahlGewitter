@@ -1,33 +1,33 @@
 
-UKR_SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+UKR_independent = {
+	color = rgb { 0  80  230 }
+	color_ui = rgb { 0  80  230 }	
 }
-BLR_SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+BLR_independent = {
+	color = rgb { 180 220 190 }
+	color_ui = rgb { 180 220 190 }
 }
-BAL_SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+BAL_independent = {
+	color = rgb { 125 125 125 }
+	color_ui = rgb { 125 125 125 }
 }
-KAZ_SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+KAZ_independent = {
+	color = rgb { 14 41 96 }
+	color_ui = rgb { 14 41 96 }
 }
-UZB_SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+UZB_independent = {
+	color = rgb { 14 94 75 }
+	color_ui = rgb { 14 94 75 }
 }
-KYR_SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+KYR_independent = {
+	color = rgb { 94 58 50 }
+	color_ui = rgb { 94 58 50 }
 }
-TAJ_SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+TAJ_independent = {
+	color = rgb { 80 81 43 }
+	color_ui = rgb { 80 81 43 }
 }
-TMS_SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+TMS_independent = {
+	color = rgb { 64 99 52 }
+	color_ui = rgb { 64 99 52 }
 }

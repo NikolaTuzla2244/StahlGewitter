@@ -18,7 +18,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = despotism_subtype
+			ideology = civilian_dictatorship_subtype
 		}
 	}
 	ENG_Oswald_Mosley = { #黒衣の華麗なる改革者♡
@@ -29,7 +29,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = national_populism_subtype
+			ideology = national_syndicalism_subtype
 		}
 	}
 	ENG_Edward_VIII = {

@@ -27,107 +27,100 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_revenue_limit_bar_frame"
-		texturefile = "gfx/interface/economy/revenue_limit_bar_frame.png"
+		name = "GFX_economy_progress_cursor"
+		texturefile = "gfx/interface/economy/economy_progress_cursor.png"
 	}
+	spriteType = {
+		name = "GFX_economy_progress_bg"
+		texturefile = "gfx/interface/economy/economy_progress_bg.png"
+	}
+
 	progressbartype = {
-		name = "GFX_revenue_limit_bar_green"
-		texturefile1 = "gfx/interface/economy/revenue_limit_bar_green.png"
-		texturefile2 = "gfx/interface/economy/revenue_limit_bar_empty.png"
+		name = "GFX_economy_deficit_bar"
+		texturefile1 = "gfx/interface/economy/economy_deficit_bar.png"
+		texturefile2 = "gfx/interface/economy/economy_deficit_bar_empty.png"
 		color = { 0.0 0.0 0.0 }
 		colortwo = { 0.0 0.0 0.0 }
 		size = { 
-			x = 450
-			y = 40
+			x = 320
+			y = 5
 		}
 		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
 	}
 
-	progressbartype = {
-		name = "GFX_army_spending_piechart"
-		textureFile1 = "gfx/interface/economy/piechart/army_spending.png"
-		textureFile2 = "gfx/interface/economy/piechart/empty_pie.png"
-		color = { 0.0 0.0 0.0 }
-		colortwo = { 0.0 0.0 0.0 }
-		size = {
-			x = 220
-			y = 220
-		}
-		effectFile = "gfx/FX/progress_radial.shader"
-		horizontal = yes
-	}
-	progressbartype = {
-		name = "GFX_consumer_goods_income_piechart"
-		textureFile1 = "gfx/interface/economy/piechart/consumer_goods_income.png"
-		textureFile2 = "gfx/interface/economy/piechart/empty_pie.png"
-		color = { 0.0 0.0 0.0 }
-		colortwo = { 0.0 0.0 0.0 }
-		size = {
-			x = 220
-			y = 220
-		}
-		effectFile = "gfx/FX/progress_radial.shader"
-		horizontal = yes
-	}
-	progressbartype = {
-		name = "GFX_navy_spending_piechart"
-		textureFile1 = "gfx/interface/economy/piechart/navy_spending.png"
-		textureFile2 = "gfx/interface/economy/piechart/empty_pie.png"
-		color = { 0.0 0.0 0.0 }
-		colortwo = { 0.0 0.0 0.0 }
-		size = {
-			x = 220
-			y = 220
-		}
-		effectFile = "gfx/FX/progress_radial.shader"
-		horizontal = yes
-	}
-	progressbartype = {
-		name = "GFX_other_income_piechart"
-		textureFile1 = "gfx/interface/economy/piechart/other_income.png"
-		textureFile2 = "gfx/interface/economy/piechart/empty_pie.png"
-		color = { 0.0 0.0 0.0 }
-		colortwo = { 0.0 0.0 0.0 }
-		size = {
-			x = 220
-			y = 220
-		}
-		effectFile = "gfx/FX/progress_radial.shader"
-		horizontal = yes
-	}
-	progressbartype = {
-		name = "GFX_pop_tax_income_piechart"
-		textureFile1 = "gfx/interface/economy/piechart/pop_tax_income.png"
-		textureFile2 = "gfx/interface/economy/piechart/empty_pie.png"
-		color = { 0.0 0.0 0.0 }
-		colortwo = { 0.0 0.0 0.0 }
-		size = {
-			x = 220
-			y = 220
-		}
-		effectFile = "gfx/FX/progress_radial.shader"
-		horizontal = yes
-	}
-	progressbartype = {
-		name = "GFX_social_spending_piechart"
-		textureFile1 = "gfx/interface/economy/piechart/social_spending.png"
-		textureFile2 = "gfx/interface/economy/piechart/empty_pie.png"
-		color = { 0.0 0.0 0.0 }
-		colortwo = { 0.0 0.0 0.0 }
-		size = {
-			x = 220
-			y = 220
-		}
-		effectFile = "gfx/FX/progress_radial.shader"
-		horizontal = yes
+	spriteType = {
+		name = "GFX_economy_head"
+		texturefile = "gfx/interface/economy/economy_head.png"
 	}
 
 	spriteType = {
-		name = "GFX_economy_pie_frame"
-		texturefile = "gfx/interface/economy/piechart/pie_frame.png"
+		name = "GFX_economy_progress_frame"
+		texturefile = "gfx/interface/economy/economy_progress_frame.png"
 	}
-	#国民精神
+	spriteType = {
+		name = "GFX_economy_militaryspend_frame"
+		texturefile = "gfx/interface/economy/economy_militaryspend_frame.png"
+	}
+	spriteType = {
+		name = "GFX_economy_index_frame"
+		texturefile = "gfx/interface/economy/economy_index_frame.png"
+	}
+	spriteType = {
+		name = "GFX_economy_info_frame"
+		texturefile = "gfx/interface/economy/economy_info_frame.png"
+	}
+	spriteType = {
+		name = "GFX_economy_deficit_bar_frame"
+		texturefile = "gfx/interface/economy/economy_deficit_bar_frame.png"
+	}
+	spriteType = {
+		name = "GFX_economy_idea_box"
+		texturefile = "gfx/interface/economy/economy_idea_box.png"
+	}
+	spriteType = {
+		name = "GFX_economy_militaryspend_button"
+		texturefile = "gfx/interface/economy/economy_militaryspend_button.png"
+	}
+
+	spriteType = {
+		name = "GFX_economy_header_frame"
+		texturefile = "gfx/interface/economy/economy_header_frame.png"
+	}
+	spriteType = {
+		name = "GFX_economy_law_button"
+		texturefile = "gfx/interface/economy/economy_law_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_economy_law_frame"
+		texturefile = "gfx/interface/economy/economy_law_frame.png"
+	}
+	#Ideas
+	spriteType = {
+		name = "GFX_economy_idea_unknown"
+		texturefile = "gfx/interface/economy/economy_ideas/economy_idea_unknown.png"
+	}
+	spriteType = {
+		name = "GFX_economy_idea_military_austerity"
+		texturefile = "gfx/interface/economy/economy_ideas/economy_idea_military_austerity.png"
+	}
+	spriteType = {
+		name = "GFX_economy_idea_bloated_army"
+		texturefile = "gfx/interface/economy/economy_ideas/economy_idea_bloated_army.png"
+	}
+	spriteType = {
+		name = "GFX_economy_idea_war_mobilization"
+		texturefile = "gfx/interface/economy/economy_ideas/economy_idea_war_mobilization.png"
+	}
+	spriteType = {
+		name = "GFX_economy_idea_industrial_arms_pressure"
+		texturefile = "gfx/interface/economy/economy_ideas/economy_idea_industrial_arms_pressure.png"
+	}
+	
+	
+
+	#Ideologies
 	spriteType = {
 		name = "GFX_idea_economy_market_fundamentalism"
 		texturefile = "gfx/interface/economy/economy_ideologies/market_fundamentalism.png"
@@ -159,5 +152,65 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_economy_plutocracy"
 		texturefile = "gfx/interface/economy/economy_ideologies/plutocracy.png"
+	}
+
+	#ideas
+	spriteType = {
+		name = "GFX_idea_personal_consignment"
+		texturefile = "gfx/interface/ideas/economy/idea_personal_consignment.png"
+	}
+	spriteType = {
+		name = "GFX_idea_private_economy"
+		texturefile = "gfx/interface/ideas/economy/idea_private_economy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_reduced_welfare"
+		texturefile = "gfx/interface/ideas/economy/idea_reduced_welfare.png"
+	}
+	spriteType = {
+		name = "GFX_idea_early_mobilization"
+		texturefile = "gfx/interface/ideas/economy/idea_early_mobilization.png"
+	}
+	spriteType = {
+		name = "GFX_idea_military_state"
+		texturefile = "gfx/interface/ideas/economy/idea_military_state.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_open_trade"
+		texturefile = "gfx/interface/ideas/economy/idea_open_trade.png"
+	}
+	spriteType = {
+		name = "GFX_idea_active_trade"
+		texturefile = "gfx/interface/ideas/economy/idea_active_trade.png"
+	}
+	spriteType = {
+		name = "GFX_idea_border_control"
+		texturefile = "gfx/interface/ideas/economy/idea_border_control.png"
+	}
+	spriteType = {
+		name = "GFX_idea_self_sufficient_nation"
+		texturefile = "gfx/interface/ideas/economy/idea_self_sufficient_nation.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_sg_disarmed_nation"
+		texturefile = "gfx/interface/ideas/economy/idea_disarmed_nation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_sg_volunteer_only"
+		texturefile = "gfx/interface/ideas/economy/idea_volunteer_only.png"
+	}
+	spriteType = {
+		name = "GFX_idea_sg_limited_conscription"
+		texturefile = "gfx/interface/ideas/economy/idea_limited_conscription.png"
+	}
+	spriteType = {
+		name = "GFX_idea_sg_extensive_conscription"
+		texturefile = "gfx/interface/ideas/economy/idea_extensive_conscription.png"
+	}
+	spriteType = {
+		name = "GFX_idea_sg_service_by_requirement"
+		texturefile = "gfx/interface/ideas/economy/idea_service_by_requirement.png"
 	}
 }

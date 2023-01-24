@@ -1,0 +1,218 @@
+economy_progress_reset = {
+	custom_effect_tooltip = economy_progress_reset_tt
+	hidden_effect = {
+		set_variable = { economy_progress = global.economy_progress_ini }
+	}
+}
+
+#				  #
+# LEVEL UP / DOWN #
+#				  #
+
+economy_level_up = {
+	custom_effect_tooltip = economy_level_up_tt
+
+	add_to_variable = { economy_level = 1 }
+
+	economy_progress_reset = yes
+	economy_mod_calc = yes
+
+}
+economy_level_down = {
+	custom_effect_tooltip = economy_level_down_tt
+
+	add_to_variable = { economy_level = -1 }
+
+	economy_progress_reset = yes
+	economy_mod_calc = yes
+
+}
+
+#				  #
+# IDEA UP / DOWN  #
+#				  #
+
+economic_investment_up = {
+	if = {
+		limit = { has_idea = personal_consignment }
+		swap_ideas = {
+			remove_idea = personal_consignment
+			add_idea = private_economy
+		}
+	}
+	else_if = {
+		limit = { has_idea = private_economy }
+		swap_ideas = {
+			remove_idea = private_economy
+			add_idea = reduced_welfare
+		}
+	}
+	else_if = {
+		limit = { has_idea = reduced_welfare }
+		swap_ideas = {
+			remove_idea = reduced_welfare
+			add_idea = early_mobilization
+		}
+	}
+	else_if = {
+		limit = { has_idea = early_mobilization }
+		swap_ideas = {
+			remove_idea = early_mobilization
+			add_idea = military_state
+		}
+	}
+	else = {
+		custom_effect_tooltip = economic_law_limit_tt
+	}
+}
+economic_trade_law_up = {
+	if = {
+		limit = { has_idea = open_trade }
+		swap_ideas = {
+			remove_idea = open_trade
+			add_idea = active_trade
+		}
+	}
+	else_if = {
+		limit = { has_idea = active_trade }
+		swap_ideas = {
+			remove_idea = active_trade
+			add_idea = border_control
+		}
+	}
+	else_if = {
+		limit = { has_idea = border_control }
+		swap_ideas = {
+			remove_idea = border_control
+			add_idea = self_sufficient_nation
+		}
+	}
+	else = {
+		custom_effect_tooltip = economic_law_limit_tt
+	}
+}
+economic_conscription_law_up = {
+	if = {
+		limit = { has_idea = sg_disarmed_nation }
+		swap_ideas = {
+			remove_idea = sg_disarmed_nation
+			add_idea = sg_volunteer_only
+		}
+	}
+	else_if = {
+		limit = { has_idea = sg_volunteer_only }
+		swap_ideas = {
+			remove_idea = sg_volunteer_only
+			add_idea = sg_limited_conscription
+		}
+	}
+	else_if = {
+		limit = { has_idea = sg_limited_conscription }
+		swap_ideas = {
+			remove_idea = sg_limited_conscription
+			add_idea = sg_extensive_conscription
+		}
+	}
+	else_if = {
+		limit = { has_idea = sg_extensive_conscription }
+		swap_ideas = {
+			remove_idea = sg_extensive_conscription
+			add_idea = sg_service_by_requirement
+		}
+	}
+	else = {
+		custom_effect_tooltip = economic_law_limit_tt
+	}
+}
+economic_investment_down = {
+	if = {
+		limit = { has_idea = military_state }
+		swap_ideas = {
+			remove_idea = military_state
+			add_idea = early_mobilization
+		}
+	}
+	else_if = {
+		limit = { has_idea = early_mobilization }
+		swap_ideas = {
+			remove_idea = early_mobilization
+			add_idea = reduced_welfare
+		}
+	}
+	else_if = {
+		limit = { has_idea = reduced_welfare }
+		swap_ideas = {
+			remove_idea = reduced_welfare
+			add_idea = private_economy
+		}
+	}
+	else_if = {
+		limit = { has_idea = private_economy }
+		swap_ideas = {
+			remove_idea = private_economy
+			add_idea = personal_consignment
+		}
+	}
+	else = {
+		custom_effect_tooltip = economic_law_limit_tt
+	}
+}
+economic_trade_law_down = {
+	if = {
+		limit = { has_idea = self_sufficient_nation }
+		swap_ideas = {
+			remove_idea = self_sufficient_nation
+			add_idea = border_control
+		}
+	}
+	else_if = {
+		limit = { has_idea = border_control }
+		swap_ideas = {
+			remove_idea = border_control
+			add_idea = active_trade
+		}
+	}
+	else_if = {
+		limit = { has_idea = active_trade }
+		swap_ideas = {
+			remove_idea = active_trade
+			add_idea = open_trade
+		}
+	}
+	else = {
+		custom_effect_tooltip = economic_law_limit_tt
+	}
+}
+economic_conscription_law_down = {
+	if = {
+		limit = { has_idea = sg_service_by_requirement }
+		swap_ideas = {
+			remove_idea = sg_service_by_requirement
+			add_idea = sg_extensive_conscription
+		}
+	}
+	else_if = {
+		limit = { has_idea = sg_extensive_conscription }
+		swap_ideas = {
+			remove_idea = sg_extensive_conscription
+			add_idea = sg_limited_conscription
+		}
+	}
+	else_if = {
+		limit = { has_idea = sg_limited_conscription }
+		swap_ideas = {
+			remove_idea = sg_limited_conscription
+			add_idea = sg_volunteer_only
+		}
+	}
+	else_if = {
+		limit = { has_idea = sg_volunteer_only }
+		swap_ideas = {
+			remove_idea = sg_volunteer_only
+			add_idea = sg_disarmed_nation
+		}
+	}
+	else = {
+		custom_effect_tooltip = economic_law_limit_tt
+	}
+}

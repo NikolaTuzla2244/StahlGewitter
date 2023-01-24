@@ -66,8 +66,8 @@ on_actions = {
 			add_to_variable = { SG_academic_value = SG_academic_gain }
 			clamp_variable = {
 				var = SG_academic_value
-				min = 200
-				max = 0
+				max = 200
+				min = 0
 			}
 			if = { #improve
 				limit = { NOT = { has_idea = SG_academic_5 } }
@@ -88,8 +88,8 @@ on_actions = {
 			add_to_variable = { SG_industry_value = SG_industry_gain }
 			clamp_variable = {
 				var = SG_industry_value
-				min = 200
-				max = 0
+				max = 200
+				min = 0
 			}
 			if = { #improve
 				limit = { NOT = { has_idea = SG_industry_5 } }
@@ -110,8 +110,8 @@ on_actions = {
 			add_to_variable = { SG_administration_value = SG_administration_gain }
 			clamp_variable = {
 				var = SG_administration_value
-				min = 200
-				max = 0
+				max = 200
+				min = 0
 			}
 			if = { #improve
 				limit = { NOT = { has_idea = SG_administration_5 } }
@@ -132,8 +132,8 @@ on_actions = {
 			add_to_variable = { SG_infrastructure_value = SG_infrastructure_gain }
 			clamp_variable = {
 				var = SG_infrastructure_value
-				min = 200
-				max = 0
+				max = 200
+				min = 0
 			}
 			if = { #improve
 				limit = { NOT = { has_idea = SG_infrastructure_5 } }
@@ -154,8 +154,8 @@ on_actions = {
 			add_to_variable = { SG_network_value = SG_network_gain }
 			clamp_variable = {
 				var = SG_network_value
-				min = 200
-				max = 0
+				max = 200
+				min = 0
 			}
 			if = { #improve
 				limit = { NOT = { has_idea = SG_network_3 } }
@@ -176,8 +176,8 @@ on_actions = {
 			add_to_variable = { SG_military_value = SG_military_gain }
 			clamp_variable = {
 				var = SG_military_value
-				min = 200
-				max = 0
+				max = 200
+				min = 0
 			}
 			if = { #improve
 				limit = { NOT = { has_idea = SG_military_5 } }

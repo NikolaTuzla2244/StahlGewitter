@@ -21,6 +21,8 @@ ideas = {
                   
 			modifier = {
 				research_speed_factor = 0.05
+
+				SG_good_economic_index_modifier = 1
 			}
 			
 			cancel_if_invalid = no
@@ -43,6 +45,8 @@ ideas = {
                   
 			modifier = {
 				research_speed_factor = 0.03
+
+				SG_good_economic_index_modifier = 1
 			}
 			
 			cancel_if_invalid = no
@@ -139,6 +143,8 @@ ideas = {
 				industrial_capacity_factory = 0.05
 				production_factory_efficiency_gain_factor = 0.1
 				production_factory_start_efficiency_factor = 0.1
+
+				SG_good_economic_index_modifier = 1
 			}
 			
 			cancel_if_invalid = no
@@ -164,6 +170,8 @@ ideas = {
 				industrial_capacity_factory = 0.02
 				production_factory_efficiency_gain_factor = 0.05
 				production_factory_start_efficiency_factor = 0.05
+
+				SG_good_economic_index_modifier = 1
 			}
 			
 			cancel_if_invalid = no
@@ -393,6 +401,8 @@ ideas = {
 				local_resources_factor = 0.1
 				global_building_slots_factor = 0.1
 				production_speed_buildings_factor = 0.05
+
+				SG_good_economic_index_modifier = 1
 			}
 			
 			cancel_if_invalid = no
@@ -418,6 +428,8 @@ ideas = {
 				local_resources_factor = 0.05
 				global_building_slots_factor = 0.05
 				production_speed_buildings_factor = 0.02
+
+				SG_good_economic_index_modifier = 1
 			}
 			
 			cancel_if_invalid = no
@@ -523,6 +535,8 @@ ideas = {
 				drift_defence_factor = 0.25
 				stability_factor = 0.1
 				intel_network_gain_factor = 0.15
+
+				SG_good_economic_index_modifier = 2
 			}
 			
 			cancel_if_invalid = no
@@ -547,6 +561,8 @@ ideas = {
 				drift_defence_factor = 0.1
 				stability_factor = 0.05
 				intel_network_gain_factor = 0.1
+
+				SG_good_economic_index_modifier = 1
 			}
 			
 			cancel_if_invalid = no

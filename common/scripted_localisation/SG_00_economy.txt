@@ -17,6 +17,195 @@ defined_text = {
 	}
 }
 defined_text = {
+	name = GetEconomyStates
+	text = {
+		trigger = {
+			has_surplus_economy = yes
+		}
+		localization_key = surplus_text
+	}
+	text = {
+		trigger = {
+			has_deficit_economy = yes
+		}
+		localization_key = deficit_text
+	}
+	text = {
+		localization_key = balance_text
+	}
+}
+
+defined_text = {
+	name = GetEconomyModifier
+	text = {
+		trigger = {
+			has_country_flag = economy_type_decentral
+		}
+		localization_key = economy_type_decentral_modifier
+	}
+	text = {
+		trigger = {
+			has_country_flag = economy_type_mixture
+		}
+		localization_key = economy_type_mixture_modifier
+	}
+	text = {
+		trigger = {
+			has_country_flag = economy_type_central
+		}
+		localization_key = economy_type_central_modifier
+	}
+}
+
+defined_text = {
+	name = GetEconomyType
+	text = {
+		trigger = {
+			has_country_flag = economy_type_decentral
+		}
+		localization_key = economy_type_decentral
+	}
+	text = {
+		trigger = {
+			has_country_flag = economy_type_mixture
+		}
+		localization_key = economy_type_mixture
+	}
+
+	text = {
+		trigger = {
+			has_country_flag = economy_type_central
+		}
+		localization_key = economy_type_central
+	}	text = {
+		localization_key = "Name"
+	}
+}
+
+defined_text = {
+	name = DivisionLimitLoc
+	text = {
+		trigger = {
+			check_variable = { max_divisions < num_armies }
+		}
+		localization_key = "[?num_armies|Y0] / [?max_divisions]"
+	}
+	text = {
+		localization_key = "[?num_armies|0] / [?max_divisions]"
+	}
+}
+
+defined_text = {
+	name = military_austerity_button_Loc
+	text = {
+		trigger = {
+			has_idea = economy_military_austerity
+		}
+		localization_key = economy_military_austerity_disabled
+	}
+	text = {
+		localization_key = economy_military_austerity
+	}
+}
+defined_text = {
+	name = war_mobilization_button_Loc
+	text = {
+		trigger = {
+			has_idea = economy_war_mobilization
+		}
+		localization_key = economy_war_mobilization_disabled
+	}
+	text = {
+		localization_key = economy_war_mobilization
+	}
+}
+###Economy Idea3
+defined_text = {
+	name = EconomyIdeaName
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = economy_military_austerity
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+		}
+		localization_key = economy_bloated_army
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = economy_war_mobilization
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = economy_industrial_arms_pressure
+	}
+}
+defined_text = {
+	name = EconomyIdeaMod
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = economy_military_austerity_mod
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+		}
+		localization_key = economy_bloated_army_mod
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = economy_war_mobilization_mod
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = economy_industrial_arms_pressure_mod
+	}
+}
+defined_text = {
+	name = EconomyIdeaIcon
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = "GFX_economy_idea_military_austerity"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+		}
+		localization_key = "GFX_economy_idea_bloated_army"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = "GFX_economy_idea_bloated_army"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = "GFX_economy_idea_war_mobilization"
+	}
+	text = {
+		localization_key = "GFX_economy_idea_industrial_arms_pressure"
+	}
+}
+
+defined_text = {
 	name = GetEconomyIdeologyName
 	text = {
 		trigger = {
@@ -67,7 +256,7 @@ defined_text = {
 		localization_key = economy_plutocracy
 	}
 	text = {
-		localization_key = "aaaaaaaaaaaaaaaaaaaaaaa"
+		localization_key = unknown
 	}
 }
 
@@ -120,5 +309,287 @@ defined_text = {
 			has_idea = economy_plutocracy
 		}
 		localization_key = "GFX_idea_economy_plutocracy"
+	}
+}
+
+defined_text = {
+	name = Get_law_entry_category
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = economic_investment
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+		}
+		localization_key = economic_trade_law
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = economic_conscription_law
+	}
+	text = {
+		localization_key = unknown
+	}
+}
+defined_text = {
+	name = Get_law_entry_name
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = "[GetInvestmentName]"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+		}
+		localization_key = "[GetTradeLawName]"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = "[GetConscriptionLawName]"
+	}
+	text = {
+		localization_key = unknown
+	}
+}
+defined_text = {
+	name = Get_law_entry_icon
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = "[GetInvestmentIcon]"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+		}
+		localization_key = "[GetTradeLawIcon]"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = "[GetConscriptionLawIcon]"
+	}
+	text = {
+		localization_key = "GFX_idea_economy_plutocracy"
+	}
+}
+
+defined_text = {
+	name = GetInvestmentIcon
+	text = {
+		trigger = {
+			has_idea = personal_consignment
+		}
+		localization_key = "GFX_idea_personal_consignment"
+	}
+	text = {
+		trigger = {
+			has_idea = private_economy
+		}
+		localization_key = "GFX_idea_private_economy"
+	}
+	text = {
+		trigger = {
+			has_idea = reduced_welfare
+		}
+		localization_key = "GFX_idea_reduced_welfare"
+	}
+	text = {
+		trigger = {
+			has_idea = early_mobilization
+		}
+		localization_key = "GFX_idea_early_mobilization"
+	}
+	text = {
+		trigger = {
+			has_idea = military_state
+		}
+		localization_key = "GFX_idea_military_state"
+	}
+	text = {
+		localization_key = "GFX_idea_civilian_economy"
+	}
+}
+defined_text = {
+	name = GetTradeLawIcon
+	text = {
+		trigger = {
+			has_idea = open_trade
+		}
+		localization_key = "GFX_idea_open_trade"
+	}
+	text = {
+		trigger = {
+			has_idea = active_trade
+		}
+		localization_key = "GFX_idea_active_trade"
+	}
+	text = {
+		trigger = {
+			has_idea = border_control
+		}
+		localization_key = "GFX_idea_border_control"
+	}
+	text = {
+		trigger = {
+			has_idea = self_sufficient_nation
+		}
+		localization_key = "GFX_idea_self_sufficient_nation"
+	}
+	text = {
+		localization_key = "GFX_idea_civilian_economy"
+	}
+}
+defined_text = {
+	name = GetConscriptionLawIcon
+	text = {
+		trigger = {
+			has_idea = sg_disarmed_nation
+		}
+		localization_key = "GFX_idea_sg_disarmed_nation"
+	}
+	text = {
+		trigger = {
+			has_idea = sg_volunteer_only
+		}
+		localization_key = "GFX_idea_sg_volunteer_only"
+	}
+	text = {
+		trigger = {
+			has_idea = sg_limited_conscription
+		}
+		localization_key = "GFX_idea_sg_limited_conscription"
+	}
+	text = {
+		trigger = {
+			has_idea = sg_extensive_conscription
+		}
+		localization_key = "GFX_idea_sg_extensive_conscription"
+	}
+	text = {
+		trigger = {
+			has_idea = sg_service_by_requirement
+		}
+		localization_key = "GFX_idea_sg_service_by_requirement"
+	}
+	text = {
+		localization_key = "GFX_idea_civilian_economy"
+	}
+}
+
+# Name
+#
+
+defined_text = {
+	name = GetInvestmentName
+	text = {
+		trigger = {
+			has_idea = personal_consignment
+		}
+		localization_key = personal_consignment
+	}
+	text = {
+		trigger = {
+			has_idea = private_economy
+		}
+		localization_key = private_economy
+	}
+	text = {
+		trigger = {
+			has_idea = reduced_welfare
+		}
+		localization_key = reduced_welfare
+	}
+	text = {
+		trigger = {
+			has_idea = early_mobilization
+		}
+		localization_key = early_mobilization
+	}
+	text = {
+		trigger = {
+			has_idea = military_state
+		}
+		localization_key = military_state
+	}
+	text = {
+		localization_key = unknown
+	}
+}
+defined_text = {
+	name = GetTradeLawName
+	text = {
+		trigger = {
+			has_idea = open_trade
+		}
+		localization_key = open_trade
+	}
+	text = {
+		trigger = {
+			has_idea = active_trade
+		}
+		localization_key = active_trade
+	}
+	text = {
+		trigger = {
+			has_idea = border_control
+		}
+		localization_key = border_control
+	}
+	text = {
+		trigger = {
+			has_idea = self_sufficient_nation
+		}
+		localization_key = self_sufficient_nation
+	}
+	text = {
+		localization_key = unknown
+	}
+}
+defined_text = {
+	name = GetConscriptionLawName
+	text = {
+		trigger = {
+			has_idea = disarmed_nation
+		}
+		localization_key = disarmed_nation
+	}
+	text = {
+		trigger = {
+			has_idea = volunteer_only
+		}
+		localization_key = volunteer_only
+	}
+	text = {
+		trigger = {
+			has_idea = limited_conscription
+		}
+		localization_key = limited_conscription
+	}
+	text = {
+		trigger = {
+			has_idea = extensive_conscription
+		}
+		localization_key = extensive_conscription
+	}
+	text = {
+		trigger = {
+			has_idea = service_by_requirement
+		}
+		localization_key = service_by_requirement
+	}
+	text = {
+		localization_key = unknown
 	}
 }

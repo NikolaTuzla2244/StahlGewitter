@@ -90,4 +90,52 @@ debug_decisions = {
 			factor = 0
 		}
 	}
+	good_economic_index_modifier = {
+		icon = GFX_decision_eng_trade_unions_support
+		fire_only_once = no
+		available = {
+		}
+		visible = {
+		}
+		cost = 0
+		days_remove = 14
+		modifier = {
+			SG_good_economic_index_modifier = 50
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	bad_economic_index_modifier = {
+		icon = GFX_decision_eng_trade_unions_support
+		fire_only_once = no
+		available = {
+		}
+		visible = {
+		}
+		cost = 0
+		days_remove = 14
+		modifier = {
+			SG_bad_economic_index_modifier = 50
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pop_debug_economy_gui = {
+		icon = GFX_decision_eng_trade_unions_support
+		fire_only_once = no
+		available = {
+		}
+		visible = {
+		}
+		cost = 0
+		complete_effect = {
+			set_variable = { economy_progress = 300 }
+			set_variable = { deficit_gui = 100 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 }

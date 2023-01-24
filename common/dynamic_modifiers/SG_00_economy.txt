@@ -1,6 +1,20 @@
-SG_economy_dynamic_modifier = {
-	enable = { always = yes }
-	# icon = GFX_idea_generic_production_bonus
+# SG_economy_dynamic_modifier = {
+# 	enable = { always = yes }
+# 	# icon = GFX_idea_generic_production_bonus
 
-	consumer_goods_factor = THIS.consumer_goods_ratio
+# 	consumer_goods_factor = consumer_goods_ratio
+# }
+
+SG_economy_level_effect_dynmod = {
+	enable = { always = yes }
+	icon = GFX_idea_generic_production_bonus
+
+	consumer_goods_factor = ecomod_consumer_goods
+
+	production_factory_max_efficiency_factor = ecomod_production_factory_max_efficiency
+	production_factory_start_efficiency_factor = ecomod_production_factory_start_efficiency
+	production_speed_buildings_factor = ecomod_production_speed_buildings
+	
+	local_building_slots_factor = ecomod_local_building_slots_factor
+	local_resources = ecomod_local_resources
 }

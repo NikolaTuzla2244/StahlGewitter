@@ -38,10 +38,12 @@ idea_categories = {
 
 	laws = {
 		slot = economy_system
-		slot = mobilization_law
+		slot = economic_investment
+		slot = economic_trade_law
+		slot = economic_conscription_law
 
-		cost = 0
-		removal_cost = 0
+		cost = -1
+		removal_cost = -1
 	}
 
 	minister = {

@@ -1732,10 +1732,15 @@ bitmapfonts = {
 		languages = { "l_japanese" }
 	}
 
-	###ADD
+	### ADDED FONT
 	bitmapfont = {
-		name = "fraktur_36"				####### GENERAL TOOLTIP FONT ########
+		name = "fraktur_36"
 		path = "gfx/fonts/Fraktur_36"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "bahnschrift_42"
+		path = "gfx/fonts/Bahnschrift_42"
 		color = 0xffffffff
 	}
 

@@ -8,8 +8,8 @@ guiTypes = {
 		hide_animation_type = accelerated
 		animation_time = 300
 		size = { width=550 height=100%% }
-		verticalScrollbar = "right_vertical_slider"
-		#horizontalScrollbar = "bottom_horizontal_slider"
+		# verticalScrollbar = "right_vertical_slider"
+		horizontalScrollbar = "bottom_horizontal_slider"
 
 		#hide_sound = menu_close_window
 		show_sound = menu_open_window
@@ -432,7 +432,8 @@ guiTypes = {
 					name = "national_spirit_container"
 					position = { x = -380 y = 5 }
 					size = { width = 375 height = 74 }
-					verticalScrollbar = "right_vertical_slider"
+					# verticalScrollbar = "right_vertical_slider"
+					horizontalScrollbar = "bottom_horizontal_slider"
 					orientation = upper_right
 
 					background = {

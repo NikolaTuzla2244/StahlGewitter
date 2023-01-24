@@ -1,43 +1,66 @@
-SG_consumer_goods_modifier = { #消費財
-	color_type = neutral
-	value_type = percentage
-	precision = 0
-	category = country
-}
-SG_other_income_modifier = { #歳入補正
+SG_good_economic_index_modifier = { #経済指数 - 良
 	color_type = good
 	value_type = number
 	precision = 0
 	category = country
 }
-SG_social_spending_modifier = { #社会支出
-	color_type = neutral
-	value_type = percentage
+
+SG_bad_economic_index_modifier = { #経済指数 - 悪
+	color_type = bad
+	value_type = number
 	precision = 0
 	category = country
 }
 
-SG_consumer_goods_income_modifier = { #消費財収入 補正
-	color_type = good
-	value_type = percentage
-	precision = 0
-	category = country
-}
-SG_income_pop_income_modifier = { #所得人口収入 補正
-	color_type = good
-	value_type = percentage
-	precision = 0
-	category = country
-}
-SG_army_spending_modifier = { #陸軍支出 補正
+SG_bad_army_spend_modifier = { # - 陸軍支出補正
 	color_type = bad
-	value_type = percentage
+	value_type = number
 	precision = 0
 	category = country
 }
-SG_navy_spending_modifier = { #海軍支出 補正
-	color_type = bad
-	value_type = percentage
-	precision = 0
-	category = country
-}
+
+###以下、経済リワークの被害者
+
+# SG_consumer_goods_modifier = { #消費財
+# 	color_type = neutral
+# 	value_type = percentage
+# 	precision = 0
+# 	category = country
+# }
+# SG_other_income_modifier = { #歳入補正
+# 	color_type = good
+# 	value_type = number
+# 	precision = 0
+# 	category = country
+# }
+# SG_social_spending_modifier = { #社会支出
+# 	color_type = neutral
+# 	value_type = percentage
+# 	precision = 0
+# 	category = country
+# }
+
+# SG_consumer_goods_income_modifier = { #消費財収入 補正
+# 	color_type = good
+# 	value_type = percentage
+# 	precision = 0
+# 	category = country
+# }
+# SG_income_pop_income_modifier = { #所得人口収入 補正
+# 	color_type = good
+# 	value_type = percentage
+# 	precision = 0
+# 	category = country
+# }
+# SG_army_spending_modifier = { #陸軍支出 補正
+# 	color_type = bad
+# 	value_type = percentage
+# 	precision = 0
+# 	category = country
+# }
+# SG_navy_spending_modifier = { #海軍支出 補正
+# 	color_type = bad
+# 	value_type = percentage
+# 	precision = 0
+# 	category = country
+# }

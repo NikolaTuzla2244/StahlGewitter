@@ -1,49 +1,12 @@
 has_surplus_economy = {
 	custom_trigger_tooltip = {
 		tooltip = SG_is_surplus
-		check_variable = { THIS.fluctuation > 0 }
+		check_variable = { economy_index > 0 }
 	}
 }
 has_deficit_economy = {
 	custom_trigger_tooltip = {
 		tooltip = SG_is_deficit
-		check_variable = { THIS.fluctuation < 0 }
-	}
-}
-
-has_market_economy = {
-	custom_trigger_tooltip = {
-		tooltip = SG_has_market_economy
-		OR = {
-			has_idea = economy_market_fundamentalism
-			has_idea = economy_social_welfare
-		}
-	}
-}
-has_corporatism_economy = {
-	custom_trigger_tooltip = {
-		tooltip = SG_has_corporatism_economy
-		OR = {
-			has_idea = economy_corporatism
-			has_idea = economy_nazi_corporatism
-		}
-	}
-}
-has_controlled_economy = {
-	custom_trigger_tooltip = {
-		tooltip = SG_has_controlled_economy
-		OR = {
-			has_idea = economy_mixed_economy
-			has_idea = economy_plutocracy
-		}
-	}
-}
-has_socialism_economy = {
-	custom_trigger_tooltip = {
-		tooltip = SG_has_socialism_economy
-		OR = {
-			has_idea = economy_planned_socialism
-			has_idea = economy_nep_socialism
-		}
+		check_variable = { economy_index < 0 }
 	}
 }

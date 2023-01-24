@@ -1,20 +1,92 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			###Setting
+			set_variable = { global.economy_progress_width = 300 } #経済進捗の幅
+
+			set_variable = { global.economy_progress_ini =  global.economy_progress_width } #経済進捗の初期値
+			divide_variable = { global.economy_progress_ini = 2 }
+			round_variable = global.economy_progress_ini
+
+			set_variable = { global.economy_progress_unit = 450 } #経済進捗GUIの単位
+			divide_variable = { global.economy_progress_unit = global.economy_progress_width }
+
+			set_variable = { global.economy_progress_offset = 22 } #経済進捗バーの座標調整 25
+
+			
+
+			###経済レベル
+			GER = { set_variable = { economy_level = 3 } }
+			FRA = { set_variable = { economy_level = 3 } }
+
+			###経済タイプ
+			GER = { economy_type_setup_central = yes }
+			FRA = { economy_type_setup_central = yes }
+
 			for_each_scope_loop = {
 				array = countries
 
-				country_event = sg_economy.2
+				divisions_limit_calc = yes
+
+				###イニシャライズ
+				clear_variable = economy_deficit
+				clear_array = economy_idea
+
+				###経済法GUIの配列設定
+				add_to_array = { array = economy_law_gui value = 1 }
+				add_to_array = { array = economy_law_gui value = 2 }
+				add_to_array = { array = economy_law_gui value = 3 }
+					
+				###経済レベル
+				if = {
+					limit = {
+						NOT = { has_variable = economy_level }
+					}
+					set_variable = { economy_level = 1 }
+				}
+				###経済進捗
+				if = {
+					limit = {
+						NOT = { has_variable = economy_progress }
+					}
+					set_variable = { economy_progress = global.economy_progress_ini }
+				}
+
+				###経済アイデア
+				add_dynamic_modifier = {
+					modifier = SG_economy_level_effect_dynmod
+				}
+
+				###経済タイプ
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = economy_type_decentral
+							has_country_flag = economy_type_mixture
+							has_country_flag = economy_type_central		
+						}
+					}
+					economy_type_setup_mixture = yes
+				}
+
+				#必ず最後に置く
+				economy_index_calc = yes
+				economy_deficit_width_calc = yes
+
+				economy_progress_gui_setup = yes #GUI調整
 			}
-			###国庫設定
-
-			FRA = { set_variable = { THIS.treasury = 80000 } }
-
 		}
 	}
 	on_weekly = {
 		effect = {
-			country_event = sg_economy.1
+			divisions_limit_calc = yes
+			
+			#必ず最後に置く
+			economy_index_calc = yes
+			economy_deficit_width_calc = yes
+			economy_progress_calc = yes
+
+			economy_progress_gui_setup = yes #GUI調整
 		}
 	}
 }

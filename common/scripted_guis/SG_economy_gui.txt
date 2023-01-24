@@ -18,7 +18,7 @@ scripted_gui = {
 	SG_economy_button = {
 		window_name = "SG_economy_button"
 		context_type = player_context
-		parent_window_token = politics_tab
+		parent_window_token = top_bar
 			
 		visible = {
 			is_ai = no
@@ -49,26 +49,145 @@ scripted_gui = {
 			has_country_flag = economy_GUI_open
 		}
 
+		triggers = {
+			military_austerity_button_click_enabled = {
+				NOT = {
+					has_idea = economy_military_austerity
+				}
+			}
+			war_mobilization_button_click_enabled = {
+				NOT = {
+					has_idea = economy_war_mobilization
+				}
+				has_war = yes
+			}
+
+			law_entry_up_button_click_enabled = {
+				if = {
+					limit = { check_variable = { v = 1 } }
+					NOT = { has_idea = personal_consignment }
+				}
+				if = {
+					limit = { check_variable = { v = 2 } }
+					NOT = { has_idea = open_trade }
+				}
+				if = {
+					limit = { check_variable = { v = 3 } }
+					NOT = { has_idea = sg_disarmed_nation }
+				}
+			}
+			law_entry_down_button_click_enabled = {
+				if = {
+					limit = { check_variable = { v = 1 } }
+					NOT = { has_idea = military_state }
+				}
+				if = {
+					limit = { check_variable = { v = 2 } }
+					NOT = { has_idea = self_sufficient_nation }
+				}
+				if = {
+					limit = { check_variable = { v = 3 } }
+					NOT = { has_idea = sg_service_by_requirement }
+				}
+			}
+		}
+
 		effects = {
 			economy_close_button_click = {
 				clr_country_flag = economy_GUI_open
 			}
+
+			military_austerity_button_click = {
+				add_timed_idea = {
+					idea = economy_military_austerity
+					days = 30
+				}
+				economy_military_spend_calc = yes
+			}
+			war_mobilization_button_click = {
+				add_timed_idea = {
+					idea = economy_war_mobilization
+					days = 30
+				}
+				economy_military_spend_calc = yes
+			}
+
+			law_entry_up_button_click = {
+				if = {
+					limit = { check_variable = { v = 1 } }
+					economic_investment_down = yes
+				}
+				if = {
+					limit = { check_variable = { v = 2 } }
+					economic_trade_law_down = yes
+				}
+				if = {
+					limit = { check_variable = { v = 3 } }
+					economic_conscription_law_down = yes
+				}
+			}
+			law_entry_down_button_click = {
+				if = {
+					limit = { check_variable = { v = 1 } }
+					economic_investment_up = yes
+				}
+				if = {
+					limit = { check_variable = { v = 2 } }
+					economic_trade_law_up = yes
+				}
+				if = {
+					limit = { check_variable = { v = 3 } }
+					economic_conscription_law_up = yes
+				}
+			}
 		}
+
+		dynamic_lists = {
+			economy_idea_grid = {
+				array = economy_idea
+				entry_container = "SG_economy_idea_entry"
+			}
+
+			economy_law_grid = {
+				array = economy_law_gui
+				entry_container = "SG_economy_law_entry"
+			}
+		}
+
 		properties = {
 			economy_ideology_icon = {
 				image = "[GetEconomyIdeologyIcon]"
 			}
+
+			progress_cursor = {
+				x = economy_progress_gui
+			}
+
+			deficit_bar = {
+				frame = deficit_gui
+			}
+
+			idea_entry_icon = {
+				image = "[EconomyIdeaIcon]"
+			}
+
+			law_entry_icon = {
+				image = "[Get_law_entry_icon]"
+			}
 			
-			economy_revenue_limit_ProgressBar = { frame = revenue_ratio }
+			law_entry_up_button = { frame = 1 }
+			law_entry_down_button = { frame = 2 }
 
-			#piechart
-			other_income_piechart = { frame = THIS.other_income_pie }
-			pop_tax_income_piechart = { frame = THIS.income_pop_pie }
-			consumer_goods_income_piechart = { frame = THIS.consumer_goods_ic_pie }
+			# economy_revenue_limit_ProgressBar = { frame = revenue_ratio }
 
-			navy_spending_piechart = { frame = THIS.navy_spending_pie }
-			army_spending_piechart = { frame = THIS.army_spending_pie }
-			social_spending_piechart = { frame = THIS.social_spending_pie }
+			# #piechart
+			# other_income_piechart = { frame = THIS.other_income_pie }
+			# pop_tax_income_piechart = { frame = THIS.income_pop_pie }
+			# consumer_goods_income_piechart = { frame = THIS.consumer_goods_ic_pie }
+
+			# navy_spending_piechart = { frame = THIS.navy_spending_pie }
+			# army_spending_piechart = { frame = THIS.army_spending_pie }
+			# social_spending_piechart = { frame = THIS.social_spending_pie }
 		}
 	}
 }

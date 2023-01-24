@@ -1,0 +1,52 @@
+ideas = {
+	hidden_ideas = {
+		economy_military_austerity = { #1 - 軍事緊縮
+			allowed = { }
+			available = { }
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				SG_bad_army_spend_modifier = -2
+			}
+
+			on_add = { add_to_array = { array = economy_idea value = 1 } }
+			on_remove = { remove_from_array = { array = economy_idea value = 1 } }
+		}
+		economy_bloated_army = { #2 - 陸軍の肥大化
+			allowed = { }
+			available = { }
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				SG_bad_army_spend_modifier = 2
+			}
+
+			on_add = { add_to_array = { array = economy_idea value = 2 } }
+			on_remove = { remove_from_array = { array = economy_idea value = 2 } }
+		}
+		economy_war_mobilization = { #3 - 戦時動員
+			allowed = { }
+			available = { }
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				SG_bad_army_spend_modifier = -3
+			}
+
+			on_add = { add_to_array = { array = economy_idea value = 3 } }
+			on_remove = { remove_from_array = { array = economy_idea value = 3 } }
+		}
+		economy_industrial_arms_pressure = { #4 - 軍需産業の圧迫
+			allowed = { }
+			available = { }
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				SG_bad_army_spend_modifier = 2
+			}
+
+			on_add = { add_to_array = { array = economy_idea value = 4 } }
+			on_remove = { remove_from_array = { array = economy_idea value = 4 } }
+		}
+	}
+}

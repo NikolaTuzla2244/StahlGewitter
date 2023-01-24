@@ -12,9 +12,9 @@ country_event = { #月毎
 	option = {
 		name = sg_economy.1.a
 
-		economy_setup = yes
+		# economy_setup = yes
 		
-		add_to_variable = { THIS.treasury = THIS.fluctuation }
+		# add_to_variable = { THIS.treasury = THIS.fluctuation }
 	}
 }
 
@@ -30,9 +30,6 @@ country_event = { #開始時
 	option = {
 		name = sg_economy.2.a
 		
-		add_dynamic_modifier = {
-			modifier = SG_economy_dynamic_modifier
-		}
 		if = {
 			limit = { 
 				NOT = {
@@ -41,6 +38,6 @@ country_event = { #開始時
 			}
 			set_variable = { THIS.poverty_rate = 0.1 }
 		}
-		economy_setup = yes
+		# economy_setup = yes
 	}
 }

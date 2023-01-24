@@ -90,9 +90,9 @@ set_country_flag = NULL_ultraradicalism
 
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
+	reduced_welfare
+	border_control
+	sg_disarmed_nation
 
 	economy_nazi_corporatism
 

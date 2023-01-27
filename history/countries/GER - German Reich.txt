@@ -78,12 +78,10 @@ set_popularities = {
 	ultrareactionism = 1
 }
 
-set_country_flag = NULL_conservative_democracy
-set_country_flag = NULL_liberal_democracy
-set_country_flag = NULL_reformism
-set_country_flag = NULL_social_liberalism
-set_country_flag = NULL_authoritarian_socialism
-set_country_flag = NULL_ultraradicalism
+set_country_flag = SET_national_socialism
+set_country_flag = SET_national_populism
+set_country_flag = SET_despotism
+set_country_flag = SET_ultrareactionism
 
 # create_faction = Axis
 # add_to_faction = GER

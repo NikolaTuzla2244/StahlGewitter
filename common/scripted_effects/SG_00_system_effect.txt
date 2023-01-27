@@ -6,7 +6,7 @@ ideology_array_setup = {
 	#add to arrays
 	if = { #National Socialism - 0
 		limit = {
-			NOT = { has_country_flag = NULL_national_socialism }
+			has_country_flag = SET_national_socialism
 		}
 		add_to_array = { #groups
 			array = country_ideology_groups
@@ -19,7 +19,7 @@ ideology_array_setup = {
 	}
 	if = { #National Populism - 1
 		limit = {
-			NOT = { has_country_flag = NULL_national_populism }
+			has_country_flag = SET_national_populism
 		}
 		add_to_array = { #groups
 			array = country_ideology_groups
@@ -32,7 +32,7 @@ ideology_array_setup = {
 	}
 	if = { #Despotism - 2
 		limit = {
-			NOT = { has_country_flag = NULL_despotism }
+			has_country_flag = SET_despotism
 		}
 		add_to_array = { #groups
 			array = country_ideology_groups
@@ -45,7 +45,7 @@ ideology_array_setup = {
 	}
 	if = { #Authoritarianism - 3
 		limit = {
-			NOT = { has_country_flag = NULL_authoritarianism }
+			has_country_flag = SET_authoritarianism
 		}
 		add_to_array = { #groups
 			array = country_ideology_groups
@@ -58,7 +58,7 @@ ideology_array_setup = {
 	}
 	if = { #Conservative Democracy - 4
 		limit = {
-			NOT = { has_country_flag = NULL_conservative_democracy }
+			has_country_flag = SET_conservative_democracy
 		}
 		add_to_array = { #groups
 			array = country_ideology_groups
@@ -71,7 +71,7 @@ ideology_array_setup = {
 	}
 	if = { #Liberal Democracy - 5
 		limit = {
-			NOT = { has_country_flag = NULL_liberal_democracy }
+			has_country_flag = SET_liberal_democracy
 		}
 		add_to_array = { #groups
 			array = country_ideology_groups
@@ -84,7 +84,7 @@ ideology_array_setup = {
 	}
 	if = { #Reformism - 6
 		limit = {
-			NOT = { has_country_flag = NULL_reformism }
+			has_country_flag = SET_reformism
 		}
 		add_to_array = { #groups
 			array = country_ideology_groups
@@ -97,7 +97,7 @@ ideology_array_setup = {
 	}
 	if = { #Social Liberalism - 7
 		limit = {
-			NOT = { has_country_flag = NULL_social_liberalism }
+			has_country_flag = SET_social_liberalism
 		}
 		add_to_array = { #groups
 			array = country_ideology_groups
@@ -110,7 +110,7 @@ ideology_array_setup = {
 	}
 	if = { #Authoritarian Socialism - 8
 		limit = {
-			NOT = { has_country_flag = NULL_authoritarian_socialism }
+			has_country_flag = SET_authoritarian_socialism
 		}
 		add_to_array = { #groups
 			array = country_ideology_groups
@@ -123,7 +123,7 @@ ideology_array_setup = {
 	}
 	if = { #Ultra Radicalism - 9
 		limit = {
-			NOT = { has_country_flag = NULL_ultraradicalism }
+			has_country_flag = SET_ultraradicalism
 		}
 		add_to_array = { #groups
 			array = country_ideology_groups
@@ -136,7 +136,7 @@ ideology_array_setup = {
 	}
 	if = { #Ultra Reactionism - 10
 		limit = {
-			NOT = { has_country_flag = NULL_ultrareactionism }
+			has_country_flag = SET_ultrareactionism
 		}
 		add_to_array = { #groups
 			array = country_ideology_groups

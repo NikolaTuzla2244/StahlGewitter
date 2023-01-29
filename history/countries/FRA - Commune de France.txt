@@ -90,9 +90,9 @@ set_country_flag = SET_ultraradicalism
 
 add_ideas = {
 	#laws
-	private_economy
-	active_trade
-	sg_volunteer_only
+	private_economy_1
+	active_trade_1
+	volunteer_only_1
 	economy_planned_socialism
 	#development
 	SG_academic_4

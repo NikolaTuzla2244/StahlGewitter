@@ -156,61 +156,61 @@ spriteTypes = {
 
 	#ideas
 	spriteType = {
-		name = "GFX_idea_personal_consignment"
+		name = "GFX_idea_personal_consignment_0"
 		texturefile = "gfx/interface/ideas/economy/idea_personal_consignment.png"
 	}
 	spriteType = {
-		name = "GFX_idea_private_economy"
+		name = "GFX_idea_private_economy_1"
 		texturefile = "gfx/interface/ideas/economy/idea_private_economy.png"
 	}
 	spriteType = {
-		name = "GFX_idea_reduced_welfare"
+		name = "GFX_idea_reduced_welfare_2"
 		texturefile = "gfx/interface/ideas/economy/idea_reduced_welfare.png"
 	}
 	spriteType = {
-		name = "GFX_idea_early_mobilization"
+		name = "GFX_idea_early_mobilization_3"
 		texturefile = "gfx/interface/ideas/economy/idea_early_mobilization.png"
 	}
 	spriteType = {
-		name = "GFX_idea_military_state"
+		name = "GFX_idea_military_state_4"
 		texturefile = "gfx/interface/ideas/economy/idea_military_state.png"
 	}
 
 	spriteType = {
-		name = "GFX_idea_open_trade"
+		name = "GFX_idea_open_trade_0"
 		texturefile = "gfx/interface/ideas/economy/idea_open_trade.png"
 	}
 	spriteType = {
-		name = "GFX_idea_active_trade"
+		name = "GFX_idea_active_trade_1"
 		texturefile = "gfx/interface/ideas/economy/idea_active_trade.png"
 	}
 	spriteType = {
-		name = "GFX_idea_border_control"
+		name = "GFX_idea_border_control_2"
 		texturefile = "gfx/interface/ideas/economy/idea_border_control.png"
 	}
 	spriteType = {
-		name = "GFX_idea_self_sufficient_nation"
+		name = "GFX_idea_self_sufficient_nation_3"
 		texturefile = "gfx/interface/ideas/economy/idea_self_sufficient_nation.png"
 	}
 
 	spriteType = {
-		name = "GFX_idea_sg_disarmed_nation"
+		name = "GFX_idea_disarmed_nation_0"
 		texturefile = "gfx/interface/ideas/economy/idea_disarmed_nation.png"
 	}
 	spriteType = {
-		name = "GFX_idea_sg_volunteer_only"
+		name = "GFX_idea_volunteer_only_1"
 		texturefile = "gfx/interface/ideas/economy/idea_volunteer_only.png"
 	}
 	spriteType = {
-		name = "GFX_idea_sg_limited_conscription"
+		name = "GFX_idea_limited_conscription_2"
 		texturefile = "gfx/interface/ideas/economy/idea_limited_conscription.png"
 	}
 	spriteType = {
-		name = "GFX_idea_sg_extensive_conscription"
+		name = "GFX_idea_extensive_conscription_3"
 		texturefile = "gfx/interface/ideas/economy/idea_extensive_conscription.png"
 	}
 	spriteType = {
-		name = "GFX_idea_sg_service_by_requirement"
+		name = "GFX_idea_service_by_requirement_4"
 		texturefile = "gfx/interface/ideas/economy/idea_service_by_requirement.png"
 	}
 }

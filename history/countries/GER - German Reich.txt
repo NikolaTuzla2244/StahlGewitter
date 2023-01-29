@@ -88,9 +88,9 @@ set_country_flag = SET_ultrareactionism
 
 
 add_ideas = {
-	reduced_welfare
-	border_control
-	sg_disarmed_nation
+	reduced_welfare_2
+	border_control_2
+	disarmed_nation_0
 
 	economy_nazi_corporatism
 

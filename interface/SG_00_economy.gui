@@ -41,7 +41,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "SG_economy_button"
-		position = { x = 670 y = 35 }
+		position = { x = 100 y = 5 }
 		size = { width = 0 height = 0 }
 		buttonType = {
 			name = "economy_button"
@@ -55,13 +55,13 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "SG_economy_GUI"
-		position = { x = -500 y = 82 }
+		position = { x = 0 y = 45 }
 		size = { width = 550 height = 1000 }
 
-		show_position = { x = -8 y = 82 }
-		show_animation_type = decelerated
-		hide_animation_type = accelerated
-		animation_time = 300
+		# show_position = { x = -8 y = 82 }
+		# show_animation_type = decelerated
+		# hide_animation_type = accelerated
+		# animation_time = 300
 
 		clipping = yes
 		# moveable = yes
@@ -73,39 +73,152 @@ guiTypes = {
 				quadTextureSprite = "GFX_tiled_window2_1b_border"
 			}
 
-		iconType ={
-			name ="economy_header_bg"
-			spriteType = "GFX_header_bg"
-			position = { x= 5 y = 3 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
-		instantTextboxType = {
-			name = "economy_title"
-			position = { x = 45 y = 5 }
-			textureFile = ""
-			font = "hoi_36header"
-			borderSize = {x = 0 y = 0}
-			text = "economy_economy"
-			maxWidth = 400
-			maxHeight = 20
-			fixedsize = yes
-		}
-		buttonType = {
-			name = "economy_close_button"
-			position = { x = 507 y = 5 }
-			spriteType = GFX_closebutton
-			shortcut = "ESCAPE"
-			clicksound = click_close
-			pdx_tooltip = "CLOSE"
-		}
+		# iconType ={
+		# 	name ="economy_header_bg"
+		# 	spriteType = "GFX_header_bg"
+		# 	position = { x= 5 y = 3 }
+		# 	Orientation = "UPPER_LEFT"
+		# 	alwaystransparent = yes
+		# }
+		# instantTextboxType = {
+		# 	name = "economy_title"
+		# 	position = { x = 45 y = 5 }
+		# 	textureFile = ""
+		# 	font = "hoi_36header"
+		# 	borderSize = {x = 0 y = 0}
+		# 	text = "economy_economy"
+		# 	maxWidth = 400
+		# 	maxHeight = 20
+		# 	fixedsize = yes
+		# }
+		# buttonType = {
+		# 	name = "economy_close_button"
+		# 	position = { x = 507 y = 5 }
+		# 	spriteType = GFX_closebutton
+		# 	shortcut = "ESCAPE"
+		# 	clicksound = click_close
+		# 	pdx_tooltip = "CLOSE"
+		# }
 
+		containerWindowType = {
+			name = "economy_index_window"
+			position = { x = 115 y = -42 }
 
+			iconType ={
+				name ="header_frame"
+				spriteType = "GFX_economy_header_frame"
+				position = { x = -103 y = 50 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="index_frame"
+				spriteType = "GFX_economy_index_frame"
+				position = { x = -88 y = 85 }
+				Orientation = "CENTER"
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "economy_state_text"
+				position = { x = -90 y = 58 }
+				font = "hoi_30header"
+				text = economy_state_text
+				maxWidth = 300
+				maxHeight = 20
+			}
+
+			instantTextboxType = {
+				name = "economy_good_index_text"
+				position = { x = 123 y = 89 }
+				font = "bahnschrift_42"
+				text = economy_good_index_text
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+			instantTextboxType = {
+				name = "economy_bad_index_text"
+				position = { x = -123 y = 89 }
+				font = "bahnschrift_42"
+				text = economy_bad_index_text
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+			instantTextboxType = {
+				name = "economy_index_text"
+				position = { x = 0 y = 85 }
+				font = "bahnschrift_42"
+				text = economy_index_text
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+		}
 		
+		containerWindowType = {
+			name = "economy_progress_window"
+			position = { x = -8 y = 105 }
+
+			instantTextboxType = {
+				name = "economy_progress_text"
+				position = { x = 325 y = 50 }
+				font = "hoi_20bs"
+				text = economy_progress_text
+				maxWidth = 300
+				maxHeight = 20
+				format = left
+			}
+			iconType ={
+				name ="progress_bg"
+				spriteType = "GFX_economy_progress_bg"
+				position = { x = 50 y = 0 }
+				Orientation = "UPPER_LEFT"
+				# alwaystransparent = yes
+			}
+			iconType ={
+				name ="progress_frame"
+				spriteType = "GFX_economy_progress_frame"
+				position = { x = 31 y = -8 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="progress_cursor"
+				spriteType = "GFX_economy_progress_cursor"
+				position = { x = 0 y = -15 }
+				Orientation = "UPPER_LEFT"
+				# alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "deficit_text"
+				position = { x = 50 y = 50 }
+				font = "hoi_20bs"
+				text = economy_deficit
+				maxWidth = 300
+				maxHeight = 20
+				format = left
+			}
+			iconType ={
+				name ="deficit_bar"
+				spriteType = "GFX_economy_deficit_bar"
+				position = { x = 50 y = 40 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType ={
+				name ="deficit_bar_frame"
+				spriteType = "GFX_economy_deficit_bar_frame"
+				position = { x = 47 y = 38 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes
+			}
+		}
 
 		containerWindowType = {
 			name = "economy_spend_window"
-			position = { x = 50 y = 252 }
+			position = { x = 50 y = 210 }
 			iconType ={
 				name ="header_bg"
 				spriteType = "GFX_economy_head"
@@ -204,127 +317,10 @@ guiTypes = {
 				}
 			}
 		}
-		
-
-		containerWindowType = {
-			name = "economy_index_window"
-			position = { x = 115 y = 5 }
-
-			iconType ={
-				name ="header_frame"
-				spriteType = "GFX_economy_header_frame"
-				position = { x = -103 y = 50 }
-				Orientation = "UPPER_LEFT"
-				alwaystransparent = yes
-			}
-			iconType ={
-				name ="index_frame"
-				spriteType = "GFX_economy_index_frame"
-				position = { x = -88 y = 85 }
-				Orientation = "CENTER"
-				alwaystransparent = yes
-			}
-
-			instantTextboxType = {
-				name = "economy_state_text"
-				position = { x = -90 y = 58 }
-				font = "hoi_30header"
-				text = economy_state_text
-				maxWidth = 300
-				maxHeight = 20
-			}
-
-			instantTextboxType = {
-				name = "economy_good_index_text"
-				position = { x = 123 y = 89 }
-				font = "bahnschrift_42"
-				text = economy_good_index_text
-				maxWidth = 300
-				maxHeight = 20
-				format = center
-			}
-			instantTextboxType = {
-				name = "economy_bad_index_text"
-				position = { x = -123 y = 89 }
-				font = "bahnschrift_42"
-				text = economy_bad_index_text
-				maxWidth = 300
-				maxHeight = 20
-				format = center
-			}
-			instantTextboxType = {
-				name = "economy_index_text"
-				position = { x = 0 y = 85 }
-				font = "bahnschrift_42"
-				text = economy_index_text
-				maxWidth = 300
-				maxHeight = 20
-				format = center
-			}
-		}
-
-		containerWindowType = {
-			name = "economy_progress_window"
-			position = { x = -8 y = 150 }
-
-			instantTextboxType = {
-				name = "economy_progress_text"
-				position = { x = 325 y = 50 }
-				font = "hoi_20bs"
-				text = economy_progress_text
-				maxWidth = 300
-				maxHeight = 20
-				format = left
-			}
-			iconType ={
-				name ="progress_bg"
-				spriteType = "GFX_economy_progress_bg"
-				position = { x = 50 y = 0 }
-				Orientation = "UPPER_LEFT"
-				# alwaystransparent = yes
-			}
-			iconType ={
-				name ="progress_frame"
-				spriteType = "GFX_economy_progress_frame"
-				position = { x = 31 y = -8 }
-				Orientation = "UPPER_LEFT"
-				alwaystransparent = yes
-			}
-			iconType ={
-				name ="progress_cursor"
-				spriteType = "GFX_economy_progress_cursor"
-				position = { x = 0 y = -15 }
-				Orientation = "UPPER_LEFT"
-				# alwaystransparent = yes
-			}
-
-			instantTextboxType = {
-				name = "deficit_text"
-				position = { x = 50 y = 50 }
-				font = "hoi_20bs"
-				text = economy_deficit
-				maxWidth = 300
-				maxHeight = 20
-				format = left
-			}
-			iconType ={
-				name ="deficit_bar"
-				spriteType = "GFX_economy_deficit_bar"
-				position = { x = 50 y = 40 }
-				Orientation = "UPPER_LEFT"
-			}
-			iconType ={
-				name ="deficit_bar_frame"
-				spriteType = "GFX_economy_deficit_bar_frame"
-				position = { x = 47 y = 38 }
-				Orientation = "UPPER_LEFT"
-				alwaystransparent = yes
-			}
-		}
 
 		containerWindowType = {
 			name = "economy_law_window"
-			position = { x = 0 y = 400 }
+			position = { x = 0 y = 358 }
 			iconType ={
 				name ="header_bg"
 				spriteType = "GFX_economy_head"
@@ -353,11 +349,30 @@ guiTypes = {
 				max_slots = { x = 5 y = 1 }	
 				add_horizontal = yes
 			}
+
+			gridBoxType = {
+				name = "range_grid"
+				position = { x = 158 y = 0 }
+				size = { width = 100 height = 100 }
+				# slotsize = { width = 105 height = 44 }
+				slotsize = { width = 170 height = 35 }
+				max_slots = { x = 3 y = 1 }
+				add_horizontal = yes
+			}
+			gridBoxType = {
+				name = "cursor_grid"
+				position = { x = 185 y = 0 }
+				size = { width = 100 height = 100 }
+				# slotsize = { width = 105 height = 44 }
+				slotsize = { width = 170 height = 35 }
+				max_slots = { x = 3 y = 1 }
+				add_horizontal = yes
+			}
 		}
 
 		containerWindowType = {
 			name = "economy_info_window"
-			position = { x = 35 y = 650 }
+			position = { x = 35 y = 608 }
 
 			iconType ={
 				name ="header_bg"
@@ -509,6 +524,82 @@ guiTypes = {
 			position = { x = 6 y = 180 }
 			spriteType = "GFX_economy_law_button"
 			clicksound = click_default
+		}
+	}
+
+	containerWindowType = {
+		name = "SG_economy_law_range_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 105 height = 44 }
+		iconType ={
+			name = "range_icon_0"
+			position = { x = 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name = "range_icon_1"
+			position = { x = 0 y = 35 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name = "range_icon_2"
+			position = { x = 0 y = 70 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name = "range_icon_3"
+			position = { x = 0 y = 105 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name = "range_icon_4"
+			position = { x = 0 y = 140 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextboxType = {
+			name = "range_level"
+			position = { x = 0 y = 185 }
+			font = "hoi_20bs"
+			text = "[GetRangeLevel]"
+			maxWidth = 100
+			maxHeight = 30
+			format = left
+		}
+	}
+	containerWindowType = {
+		name = "SG_economy_law_cursor_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 105 height = 44 }
+		iconType ={
+			name = "cursor_icon_0"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_SG_cursor"
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name = "cursor_icon_1"
+			position = { x = 0 y = 35 }
+			spriteType = "GFX_SG_cursor"
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name = "cursor_icon_2"
+			position = { x = 0 y = 70 }
+			spriteType = "GFX_SG_cursor"
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name = "cursor_icon_3"
+			position = { x = 0 y = 105 }
+			spriteType = "GFX_SG_cursor"
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name = "cursor_icon_4"
+			position = { x = 0 y = 140 }
+			spriteType = "GFX_SG_cursor"
+			Orientation = "UPPER_LEFT"
 		}
 	}
 }

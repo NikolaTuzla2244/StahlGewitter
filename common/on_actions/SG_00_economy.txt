@@ -13,15 +13,6 @@ on_actions = {
 
 			set_variable = { global.economy_progress_offset = 22 } #経済進捗バーの座標調整 25
 
-			
-
-			###経済レベル
-			GER = { set_variable = { economy_level = 3 } }
-			FRA = { set_variable = { economy_level = 3 } }
-
-			###経済タイプ
-			GER = { economy_type_setup_central = yes }
-			FRA = { economy_type_setup_central = yes }
 
 			for_each_scope_loop = {
 				array = countries

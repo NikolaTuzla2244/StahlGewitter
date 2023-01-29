@@ -34,31 +34,31 @@ economy_level_down = {
 
 economic_investment_up = {
 	if = {
-		limit = { has_idea = personal_consignment }
+		limit = { has_idea = personal_consignment_0 }
 		swap_ideas = {
-			remove_idea = personal_consignment
-			add_idea = private_economy
+			remove_idea = personal_consignment_0
+			add_idea = private_economy_1
 		}
 	}
 	else_if = {
-		limit = { has_idea = private_economy }
+		limit = { has_idea = private_economy_1 }
 		swap_ideas = {
-			remove_idea = private_economy
-			add_idea = reduced_welfare
+			remove_idea = private_economy_1
+			add_idea = reduced_welfare_2
 		}
 	}
 	else_if = {
-		limit = { has_idea = reduced_welfare }
+		limit = { has_idea = reduced_welfare_2 }
 		swap_ideas = {
-			remove_idea = reduced_welfare
-			add_idea = early_mobilization
+			remove_idea = reduced_welfare_2
+			add_idea = early_mobilization_3
 		}
 	}
 	else_if = {
-		limit = { has_idea = early_mobilization }
+		limit = { has_idea = early_mobilization_3 }
 		swap_ideas = {
-			remove_idea = early_mobilization
-			add_idea = military_state
+			remove_idea = early_mobilization_3
+			add_idea = military_state_4
 		}
 	}
 	else = {
@@ -67,24 +67,24 @@ economic_investment_up = {
 }
 economic_trade_law_up = {
 	if = {
-		limit = { has_idea = open_trade }
+		limit = { has_idea = open_trade_0 }
 		swap_ideas = {
-			remove_idea = open_trade
-			add_idea = active_trade
+			remove_idea = open_trade_0
+			add_idea = active_trade_1
 		}
 	}
 	else_if = {
-		limit = { has_idea = active_trade }
+		limit = { has_idea = active_trade_1 }
 		swap_ideas = {
-			remove_idea = active_trade
-			add_idea = border_control
+			remove_idea = active_trade_1
+			add_idea = border_control_2
 		}
 	}
 	else_if = {
-		limit = { has_idea = border_control }
+		limit = { has_idea = border_control_2 }
 		swap_ideas = {
-			remove_idea = border_control
-			add_idea = self_sufficient_nation
+			remove_idea = border_control_2
+			add_idea = self_sufficient_nation_3
 		}
 	}
 	else = {
@@ -93,31 +93,31 @@ economic_trade_law_up = {
 }
 economic_conscription_law_up = {
 	if = {
-		limit = { has_idea = sg_disarmed_nation }
+		limit = { has_idea = disarmed_nation_0 }
 		swap_ideas = {
-			remove_idea = sg_disarmed_nation
-			add_idea = sg_volunteer_only
+			remove_idea = disarmed_nation_0
+			add_idea = volunteer_only_1
 		}
 	}
 	else_if = {
-		limit = { has_idea = sg_volunteer_only }
+		limit = { has_idea = volunteer_only_1 }
 		swap_ideas = {
-			remove_idea = sg_volunteer_only
-			add_idea = sg_limited_conscription
+			remove_idea = volunteer_only_1
+			add_idea = limited_conscription_2
 		}
 	}
 	else_if = {
-		limit = { has_idea = sg_limited_conscription }
+		limit = { has_idea = limited_conscription_2 }
 		swap_ideas = {
-			remove_idea = sg_limited_conscription
-			add_idea = sg_extensive_conscription
+			remove_idea = limited_conscription_2
+			add_idea = extensive_conscription_3
 		}
 	}
 	else_if = {
-		limit = { has_idea = sg_extensive_conscription }
+		limit = { has_idea = extensive_conscription_3 }
 		swap_ideas = {
-			remove_idea = sg_extensive_conscription
-			add_idea = sg_service_by_requirement
+			remove_idea = extensive_conscription_3
+			add_idea = service_by_requirement_4
 		}
 	}
 	else = {
@@ -126,31 +126,31 @@ economic_conscription_law_up = {
 }
 economic_investment_down = {
 	if = {
-		limit = { has_idea = military_state }
+		limit = { has_idea = military_state_4 }
 		swap_ideas = {
-			remove_idea = military_state
-			add_idea = early_mobilization
+			remove_idea = military_state_4
+			add_idea = early_mobilization_3
 		}
 	}
 	else_if = {
-		limit = { has_idea = early_mobilization }
+		limit = { has_idea = early_mobilization_3 }
 		swap_ideas = {
-			remove_idea = early_mobilization
-			add_idea = reduced_welfare
+			remove_idea = early_mobilization_3
+			add_idea = reduced_welfare_2
 		}
 	}
 	else_if = {
-		limit = { has_idea = reduced_welfare }
+		limit = { has_idea = reduced_welfare_2 }
 		swap_ideas = {
-			remove_idea = reduced_welfare
-			add_idea = private_economy
+			remove_idea = reduced_welfare_2
+			add_idea = private_economy_1
 		}
 	}
 	else_if = {
-		limit = { has_idea = private_economy }
+		limit = { has_idea = private_economy_1 }
 		swap_ideas = {
-			remove_idea = private_economy
-			add_idea = personal_consignment
+			remove_idea = private_economy_1
+			add_idea = personal_consignment_0
 		}
 	}
 	else = {
@@ -159,24 +159,24 @@ economic_investment_down = {
 }
 economic_trade_law_down = {
 	if = {
-		limit = { has_idea = self_sufficient_nation }
+		limit = { has_idea = self_sufficient_nation_3 }
 		swap_ideas = {
-			remove_idea = self_sufficient_nation
-			add_idea = border_control
+			remove_idea = self_sufficient_nation_3
+			add_idea = border_control_2
 		}
 	}
 	else_if = {
-		limit = { has_idea = border_control }
+		limit = { has_idea = border_control_2 }
 		swap_ideas = {
-			remove_idea = border_control
-			add_idea = active_trade
+			remove_idea = border_control_2
+			add_idea = active_trade_1
 		}
 	}
 	else_if = {
-		limit = { has_idea = active_trade }
+		limit = { has_idea = active_trade_1 }
 		swap_ideas = {
-			remove_idea = active_trade
-			add_idea = open_trade
+			remove_idea = active_trade_1
+			add_idea = open_trade_0
 		}
 	}
 	else = {
@@ -185,31 +185,31 @@ economic_trade_law_down = {
 }
 economic_conscription_law_down = {
 	if = {
-		limit = { has_idea = sg_service_by_requirement }
+		limit = { has_idea = service_by_requirement_4 }
 		swap_ideas = {
-			remove_idea = sg_service_by_requirement
-			add_idea = sg_extensive_conscription
+			remove_idea = service_by_requirement_4
+			add_idea = extensive_conscription_3
 		}
 	}
 	else_if = {
-		limit = { has_idea = sg_extensive_conscription }
+		limit = { has_idea = extensive_conscription_3 }
 		swap_ideas = {
-			remove_idea = sg_extensive_conscription
-			add_idea = sg_limited_conscription
+			remove_idea = extensive_conscription_3
+			add_idea = limited_conscription_2
 		}
 	}
 	else_if = {
-		limit = { has_idea = sg_limited_conscription }
+		limit = { has_idea = limited_conscription_2 }
 		swap_ideas = {
-			remove_idea = sg_limited_conscription
-			add_idea = sg_volunteer_only
+			remove_idea = limited_conscription_2
+			add_idea = volunteer_only_1
 		}
 	}
 	else_if = {
-		limit = { has_idea = sg_volunteer_only }
+		limit = { has_idea = volunteer_only_1 }
 		swap_ideas = {
-			remove_idea = sg_volunteer_only
-			add_idea = sg_disarmed_nation
+			remove_idea = volunteer_only_1
+			add_idea = disarmed_nation_0
 		}
 	}
 	else = {

@@ -1,5 +1,25 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_SG_invisible"
+		texturefile = "gfx/interface/invisible.png"
+	}
+	spriteType = {
+		name = "GFX_SG_check"
+		texturefile = "gfx/interface/sg_check.png"
+	}
+	spriteType = {
+		name = "GFX_SG_cross"
+		texturefile = "gfx/interface/sg_cross.png"
+	}
+	spriteType = {
+		name = "GFX_SG_bar"
+		texturefile = "gfx/interface/sg_bar.png"
+	}
+	spriteType = {
+		name = "GFX_SG_cursor"
+		texturefile = "gfx/interface/sg_cursor.png"
+	}
+	spriteType = {
 		name = "GFX_SG_pol_party_frame"
 		texturefile = "gfx/interface/pol_party_frame.png"
 	}

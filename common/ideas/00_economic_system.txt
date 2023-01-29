@@ -3,8 +3,8 @@ ideas = {
 		law = yes
 		use_list_view = yes
 		
-		personal_consignment = {
-			picture = personal_consignment
+		personal_consignment_0 = {
+			picture = personal_consignment_0
 			allowed = { }
 			available = {
 				always = no
@@ -17,8 +17,8 @@ ideas = {
 				SG_good_economic_index_modifier = 1
 			}
 		}
-		private_economy = {
-			picture = private_economy
+		private_economy_1 = {
+			picture = private_economy_1
 			allowed = { }
 			available = {
 				always = no
@@ -29,8 +29,8 @@ ideas = {
 				consumer_goods_factor = 0.3
 			}
 		}
-		reduced_welfare = {
-			picture = reduced_welfare
+		reduced_welfare_2 = {
+			picture = reduced_welfare_2
 			allowed = { }
 			available = {
 				always = no
@@ -43,8 +43,8 @@ ideas = {
 				SG_bad_economic_index_modifier = 1
 			}
 		}
-		early_mobilization = {
-			picture = early_mobilization
+		early_mobilization_3 = {
+			picture = early_mobilization_3
 			allowed = { }
 			available = {
 				always = no
@@ -57,8 +57,8 @@ ideas = {
 				SG_bad_economic_index_modifier = 2
 			}
 		}
-		military_state = {
-			picture = military_state
+		military_state_4 = {
+			picture = military_state_4
 			allowed = { }
 			available = {
 				always = no
@@ -76,8 +76,8 @@ ideas = {
 		law = yes
 		use_list_view = yes
 
-		open_trade = {
-			picture = open_trade
+		open_trade_0 = {
+			picture = open_trade_0
 			allowed = { }
 			available = {
 				always = no
@@ -90,8 +90,8 @@ ideas = {
 				SG_good_economic_index_modifier = 2
 			}
 		}
-		active_trade = {
-			picture = active_trade
+		active_trade_1 = {
+			picture = active_trade_1
 			allowed = { }
 			available = {
 				always = no
@@ -104,8 +104,8 @@ ideas = {
 				SG_good_economic_index_modifier = 1
 			}
 		}
-		border_control = {
-			picture = border_control
+		border_control_2 = {
+			picture = border_control_2
 			allowed = { }
 			available = {
 				always = no
@@ -118,8 +118,8 @@ ideas = {
 				SG_bad_economic_index_modifier = 1
 			}
 		}
-		self_sufficient_nation = {
-			picture = self_sufficient_nation
+		self_sufficient_nation_3 = {
+			picture = self_sufficient_nation_3
 			allowed = { }
 			available = {
 				always = no
@@ -137,8 +137,8 @@ ideas = {
 		law = yes
 		use_list_view = yes
 
-		sg_disarmed_nation = {
-			picture = sg_disarmed_nation
+		disarmed_nation_0 = {
+			picture = disarmed_nation_0
 			allowed = { }
 			available = {
 				always = no
@@ -149,8 +149,8 @@ ideas = {
 				conscription = 0.01
 			}
 		}
-		sg_volunteer_only = {
-			picture = sg_volunteer_only
+		volunteer_only_1 = {
+			picture = volunteer_only_1
 			allowed = { }
 			available = {
 				always = no
@@ -161,8 +161,8 @@ ideas = {
 				conscription = 0.015
 			}
 		}
-		sg_limited_conscription = {
-			picture = sg_limited_conscription
+		limited_conscription_2 = {
+			picture = limited_conscription_2
 			allowed = { }
 			available = {
 				always = no
@@ -175,8 +175,8 @@ ideas = {
 				SG_bad_economic_index_modifier = 2
 			}
 		}
-		sg_extensive_conscription = {
-			picture = sg_extensive_conscription
+		extensive_conscription_3 = {
+			picture = extensive_conscription_3
 			allowed = { }
 			available = {
 				always = no
@@ -189,8 +189,8 @@ ideas = {
 				SG_bad_economic_index_modifier = 4
 			}
 		}
-		sg_service_by_requirement = {
-			picture = sg_service_by_requirement
+		service_by_requirement_4 = {
+			picture = service_by_requirement_4
 			allowed = { }
 			available = {
 				always = no

@@ -18,7 +18,7 @@ scripted_gui = {
 	SG_economy_button = {
 		window_name = "SG_economy_button"
 		context_type = player_context
-		parent_window_token = top_bar
+		parent_window_token = trade_tab
 			
 		visible = {
 			is_ai = no
@@ -44,6 +44,7 @@ scripted_gui = {
 	SG_economy_GUI = {
 		window_name = "SG_economy_GUI"
 		context_type = player_context
+		parent_window_token = trade_tab
 			
 		visible = {
 			has_country_flag = economy_GUI_open
@@ -65,30 +66,106 @@ scripted_gui = {
 			law_entry_up_button_click_enabled = {
 				if = {
 					limit = { check_variable = { v = 1 } }
-					NOT = { has_idea = personal_consignment }
+					NOT = { has_idea = personal_consignment_0 }
 				}
 				if = {
 					limit = { check_variable = { v = 2 } }
-					NOT = { has_idea = open_trade }
+					NOT = { has_idea = open_trade_0 }
 				}
 				if = {
 					limit = { check_variable = { v = 3 } }
-					NOT = { has_idea = sg_disarmed_nation }
+					NOT = { has_idea = disarmed_nation_0 }
 				}
 			}
 			law_entry_down_button_click_enabled = {
 				if = {
 					limit = { check_variable = { v = 1 } }
-					NOT = { has_idea = military_state }
+					available_investment_up = yes
 				}
 				if = {
 					limit = { check_variable = { v = 2 } }
-					NOT = { has_idea = self_sufficient_nation }
+					available_trade_law_up = yes
 				}
 				if = {
 					limit = { check_variable = { v = 3 } }
-					NOT = { has_idea = sg_service_by_requirement }
+					available_conscription_law_up = yes
 				}
+			}
+
+			#cursor spam
+			cursor_icon_0_visible = {
+				if = {
+					limit = { check_variable = { v = 1 } }
+					has_idea = personal_consignment_0
+				}
+				if = {
+					limit = { check_variable = { v = 2 } }
+					has_idea = open_trade_0
+				}
+				if = {
+					limit = { check_variable = { v = 3 } }
+					has_idea = disarmed_nation_0
+				}
+			}
+			cursor_icon_1_visible = {
+				if = {
+					limit = { check_variable = { v = 1 } }
+					has_idea = private_economy_1
+				}
+				if = {
+					limit = { check_variable = { v = 2 } }
+					has_idea = active_trade_1
+				}
+				if = {
+					limit = { check_variable = { v = 3 } }
+					has_idea = volunteer_only_1
+				}
+			}
+			cursor_icon_2_visible = {
+				if = {
+					limit = { check_variable = { v = 1 } }
+					has_idea = reduced_welfare_2
+				}
+				if = {
+					limit = { check_variable = { v = 2 } }
+					has_idea = border_control_2
+				}
+				if = {
+					limit = { check_variable = { v = 3 } }
+					has_idea = limited_conscription_2
+				}
+			}
+			cursor_icon_3_visible = {
+				if = {
+					limit = { check_variable = { v = 1 } }
+					has_idea = early_mobilization_3
+				}
+				if = {
+					limit = { check_variable = { v = 2 } }
+					has_idea = self_sufficient_nation_3
+				}
+				if = {
+					limit = { check_variable = { v = 3 } }
+					has_idea = extensive_conscription_3
+				}
+			}
+			cursor_icon_4_visible = {
+				if = {
+					limit = { check_variable = { v = 1 } }
+					has_idea = military_state_4
+				}
+				if = {
+					limit = { check_variable = { v = 2 } }
+					always = no
+				}
+				if = {
+					limit = { check_variable = { v = 3 } }
+					has_idea = service_by_requirement_4
+				}
+			}
+
+			range_icon_4_visible = {
+				NOT = { check_variable = { v = 2 } }
 			}
 		}
 
@@ -103,6 +180,7 @@ scripted_gui = {
 					days = 30
 				}
 				economy_military_spend_calc = yes
+				economy_index_calc = yes
 			}
 			war_mobilization_button_click = {
 				add_timed_idea = {
@@ -110,6 +188,7 @@ scripted_gui = {
 					days = 30
 				}
 				economy_military_spend_calc = yes
+				economy_index_calc = yes
 			}
 
 			law_entry_up_button_click = {
@@ -125,6 +204,8 @@ scripted_gui = {
 					limit = { check_variable = { v = 3 } }
 					economic_conscription_law_down = yes
 				}
+
+				economy_index_calc = yes
 			}
 			law_entry_down_button_click = {
 				if = {
@@ -139,6 +220,8 @@ scripted_gui = {
 					limit = { check_variable = { v = 3 } }
 					economic_conscription_law_up = yes
 				}
+
+				economy_index_calc = yes
 			}
 		}
 
@@ -151,6 +234,15 @@ scripted_gui = {
 			economy_law_grid = {
 				array = economy_law_gui
 				entry_container = "SG_economy_law_entry"
+			}
+
+			range_grid = {
+				array = economy_law_gui
+				entry_container = "SG_economy_law_range_entry"
+			}
+			cursor_grid = {
+				array = economy_law_gui
+				entry_container = "SG_economy_law_cursor_entry"
 			}
 		}
 
@@ -173,6 +265,22 @@ scripted_gui = {
 
 			law_entry_icon = {
 				image = "[Get_law_entry_icon]"
+			}
+
+			range_icon_0 = {
+				image = "GFX_SG_bar"
+			}
+			range_icon_1 = {
+				image = "[GetLawRangeIcon_1]"
+			}
+			range_icon_2 = {
+				image = "[GetLawRangeIcon_2]"
+			}
+			range_icon_3 = {
+				image = "[GetLawRangeIcon_3]"
+			}
+			range_icon_4 = {
+				image = "[GetLawRangeIcon_4]"
 			}
 			
 			law_entry_up_button = { frame = 1 }

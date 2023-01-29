@@ -198,7 +198,7 @@ economy_type_setup_mixture = { #混合型
 	set_variable = { ecomod_production_speed_buildings_weight = 0.01 }
 
 	set_variable = { ecomod_local_building_slots_factor_weight = 0.01 }
-	set_variable = { ecomod_local_resources_weight= 0.01 }
+	set_variable = { ecomod_local_resources_weight = 0.01 }
 
 	economy_mod_calc = yes
 }
@@ -390,10 +390,11 @@ check_economy_idea = {
 		limit = { has_idea = economy_bloated_army }
 		remove_ideas = economy_bloated_army
 	}
-
-
 }
 
+
+
+###経済方策
 # This effect is old economy_system
 
 # economy_setup = {

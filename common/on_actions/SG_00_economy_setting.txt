@@ -1,0 +1,33 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			
+			GER = {
+				set_variable = { economy_level = 5 } #経済レベル
+				economy_type_setup_central = yes #経済タイプ
+
+				set_variable = { investment_law_range = 2 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 1 }
+			}
+
+			FRA = {
+				set_variable = { economy_level = 5 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 2 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+
+			###経済タイプ
+			for_each_scope_loop = {
+				array = countries
+				if = {
+					limit = { check_variable = { investment_law_range = 0 } }
+					set_variable = { investment_law_range = 5 }
+				}
+			}
+		}
+	}
+}

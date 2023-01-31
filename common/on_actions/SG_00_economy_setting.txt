@@ -1,33 +1,400 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			for_each_scope_loop = { #初期設定
+				array = countries
+
+				if = {
+					limit = { check_variable = { investment_law_range = 0 } }
+					set_variable = { investment_law_range = 2 }
+				}
+				if = {
+					limit = { check_variable = { trade_law_range = 0 } }
+					set_variable = { trade_law_range = 2 }
+				}
+				if = {
+					limit = { check_variable = { conscription_law_range = 0 } }
+					set_variable = { conscription_law_range = 2 }
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_idea = personal_consignment_0
+							has_idea = private_economy_1
+							has_idea = reduced_welfare_2
+							has_idea = early_mobilization_3
+							has_idea = military_state_4
+						}
+					}
+					add_ideas = personal_consignment_0
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_idea = open_trade_0
+							has_idea = active_trade_1
+							has_idea = border_control_2
+							has_idea = self_sufficient_nation_3
+						}
+					}
+					add_ideas = open_trade_0
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_idea = disarmed_nation_0
+							has_idea = volunteer_only_1
+							has_idea = limited_conscription_2
+							has_idea = extensive_conscription_3
+							has_idea = service_by_requirement_4
+						}
+					}
+					add_ideas = disarmed_nation_0
+				}
+				set_variable = { economy_level = 3 }
+				economy_type_setup_mixture = yes
+			}
 			
-			GER = {
-				set_variable = { economy_level = 5 } #経済レベル
-				economy_type_setup_central = yes #経済タイプ
+			ENG = {
+				set_variable = { economy_level = 7 } #経済レベル
+				economy_type_setup_decentral = yes #経済タイプ
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 1 }
+				set_variable = { conscription_law_range = 1 }
+			}
+			FRA = {
+				set_variable = { economy_level = 6 }
+				economy_type_setup_central = yes
 
 				set_variable = { investment_law_range = 2 }
-				set_variable = { trade_law_range = 2 }
+				set_variable = { trade_law_range = 1 }
+				set_variable = { conscription_law_range = 1 }
+			}
+			SPR = {
+				set_variable = { economy_level = 5 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 1 }
 				set_variable = { conscription_law_range = 1 }
 			}
 
-			FRA = {
+			LUX = {
 				set_variable = { economy_level = 5 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 1 }
+				set_variable = { conscription_law_range = 1 }
+			}
+			BEL = {
+				set_variable = { economy_level = 5 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 1 }
+				set_variable = { conscription_law_range = 1 }
+			}
+			HOL = {
+				set_variable = { economy_level = 5 }
+				economy_type_setup_decentral = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 1 }
+				set_variable = { conscription_law_range = 1 }
+			}
+
+			GER = {
+				set_variable = { economy_level = 7 }
 				economy_type_setup_central = yes
 
 				set_variable = { investment_law_range = 2 }
 				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 0 }
+			}
+			SBK = {
+				set_variable = { economy_level = 7 }
+				economy_type_setup_decentral = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 0 }
+				set_variable = { conscription_law_range = 0 }
+			}
+			ITA = {
+				set_variable = { economy_level = 6 }
+				economy_type_setup_decentral = yes
+
+				set_variable = { investment_law_range = 3 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 3 }
+			}
+			PCI = {
+				set_variable = { economy_level = 6 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 3 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 3 }
+			}
+			PNF = {
+				set_variable = { economy_level = 6 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 3 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 3 }
+			}
+			FIU = {
+				set_variable = { economy_level = 3 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 3 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 3 }
+			}
+			SWI = {
+				set_variable = { economy_level = 5 }
+				economy_type_setup_decentral = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 1 }
+				set_variable = { conscription_law_range = 1 }
+			}
+
+			AUS = {
+				set_variable = { economy_level = 4 }
+				economy_type_setup_mixture = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 1 }
+				set_variable = { conscription_law_range = 1 }
+			}
+			HUN = {
+				set_variable = { economy_level = 4 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 1 }
+				set_variable = { conscription_law_range = 1 }
+			}
+			TRA = {
+				set_variable = { economy_level = 3 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 1 }
+				set_variable = { conscription_law_range = 1 }
+			}
+			CZE = {
+				set_variable = { economy_level = 5 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 1 }
+				set_variable = { conscription_law_range = 1 }
+			}
+			RTH = {
+				set_variable = { economy_level = 3 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 1 }
+				set_variable = { conscription_law_range = 1 }
+			}
+			SCS = {
+				set_variable = { economy_level = 4 }
+				economy_type_setup_decentral = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 1 }
+				set_variable = { conscription_law_range = 1 }
+			}
+
+			BUL = {
+				set_variable = { economy_level = 3 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 1 }
+				set_variable = { conscription_law_range = 1 }
+			}
+			GRE = {
+				set_variable = { economy_level = 3 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 1 }
+				set_variable = { conscription_law_range = 1 }
+			}
+
+			FRR = {
+				set_variable = { economy_level = 3 }
+				economy_type_setup_mixture = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 1 }
+				set_variable = { conscription_law_range = 1 }
+			}
+
+			PES = {
+				set_variable = { economy_level = 6 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+			ROS = {
+				set_variable = { economy_level = 5 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+			KZS = {
+				set_variable = { economy_level = 4 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+			MSS = {
+				set_variable = { economy_level = 6 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+			SMS = {
+				set_variable = { economy_level = 5 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+			CRS = {
+				set_variable = { economy_level = 3 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+			KIS = {
+				set_variable = { economy_level = 5 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+			WMD = {
+				set_variable = { economy_level = 5 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
 				set_variable = { conscription_law_range = 2 }
 			}
 
-			###経済タイプ
-			for_each_scope_loop = {
-				array = countries
-				if = {
-					limit = { check_variable = { investment_law_range = 0 } }
-					set_variable = { investment_law_range = 5 }
-				}
+			SIS = {
+				set_variable = { economy_level = 3 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
 			}
+			FES = {
+				set_variable = { economy_level = 2 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+
+			BAL = {
+				set_variable = { economy_level = 3 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+			UKR = {
+				set_variable = { economy_level = 4 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+			TCC = {
+				set_variable = { economy_level = 3 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+
+			KAZ = {
+				set_variable = { economy_level = 3 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+			UZB = {
+				set_variable = { economy_level = 2 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+			KYR = {
+				set_variable = { economy_level = 2 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+			TAJ = {
+				set_variable = { economy_level = 2 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+			TMS = {
+				set_variable = { economy_level = 2 }
+				economy_type_setup_central = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 2 }
+				set_variable = { conscription_law_range = 2 }
+			}
+
+			USA = {
+				set_variable = { economy_level = 10 }
+				economy_type_setup_mixture = yes
+
+				set_variable = { investment_law_range = 1 }
+				set_variable = { trade_law_range = 1 }
+				set_variable = { conscription_law_range = 1 }
+			}
+
+			GER = { set_economy_rank = yes }
 		}
 	}
 }

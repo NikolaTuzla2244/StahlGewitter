@@ -213,4 +213,11 @@ spriteTypes = {
 		name = "GFX_idea_service_by_requirement_4"
 		texturefile = "gfx/interface/ideas/economy/idea_service_by_requirement.png"
 	}
+
+	spriteType = {
+		name = "GFX_SG_economy_tab"
+		texturefile = "gfx/interface/economy/economy_tab.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2
+	}
 }

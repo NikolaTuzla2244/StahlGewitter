@@ -17,6 +17,19 @@ defined_text = {
 	}
 }
 defined_text = {
+	name = TradeOrEconomy
+	text = {
+		trigger = {
+			has_country_flag = economy_GUI_open
+		}
+		localization_key = ECONOMY_ECONOMY
+	}
+	text = {
+		localization_key = TRADE_TRADE
+	}
+}
+
+defined_text = {
 	name = GetEconomyStates
 	text = {
 		trigger = {
@@ -77,7 +90,8 @@ defined_text = {
 			has_country_flag = economy_type_central
 		}
 		localization_key = economy_type_central
-	}	text = {
+	}
+	text = {
 		localization_key = "Name"
 	}
 }

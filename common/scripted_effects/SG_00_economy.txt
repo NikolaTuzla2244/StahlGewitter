@@ -175,13 +175,16 @@ economy_progress_gui_setup = { #経済進捗GUI設定
 }
 
 economy_type_setup_decentral = { #分権型
+	clr_country_flag = economy_type_mixture
+	clr_country_flag = economy_type_central
+
 	set_country_flag = economy_type_decentral
 
-	set_variable = { ecomod_consumer_goods_weight = 0.005 }
+	set_variable = { ecomod_consumer_goods_weight = 0.001 }
 
 	set_variable = { ecomod_production_factory_max_efficiency_weight = 0.02 }
 	set_variable = { ecomod_production_factory_start_efficiency_weight = 0.02 }
-	set_variable = { ecomod_production_speed_buildings_weight = 0.02 }
+	set_variable = { ecomod_production_speed_buildings_weight = 0.005 }
 
 	set_variable = { ecomod_local_building_slots_factor_weight = 0.01 }
 	set_variable = { ecomod_local_resources_weight = 0.01 }
@@ -189,30 +192,36 @@ economy_type_setup_decentral = { #分権型
 	economy_mod_calc = yes
 }
 economy_type_setup_mixture = { #混合型
+	clr_country_flag = economy_type_decentral
+	clr_country_flag = economy_type_central
+
 	set_country_flag = economy_type_mixture
 
-	set_variable = { ecomod_consumer_goods_weight = 0.005 }
+	set_variable = { ecomod_consumer_goods_weight = -0.002 }
 
 	set_variable = { ecomod_production_factory_max_efficiency_weight = 0.01 }
-	set_variable = { ecomod_production_factory_start_efficiency_weight = 0 }
-	set_variable = { ecomod_production_speed_buildings_weight = 0.01 }
+	set_variable = { ecomod_production_factory_start_efficiency_weight = 0.01 }
+	set_variable = { ecomod_production_speed_buildings_weight = 0.008 }
 
 	set_variable = { ecomod_local_building_slots_factor_weight = 0.01 }
-	set_variable = { ecomod_local_resources_weight = 0.01 }
+	set_variable = { ecomod_local_resources_weight = 0.012 }
 
 	economy_mod_calc = yes
 }
 economy_type_setup_central = { #集権型
+	clr_country_flag = economy_type_mixture
+	clr_country_flag = economy_type_decentral
+
 	set_country_flag = economy_type_central
 
 	set_variable = { ecomod_consumer_goods_weight = -0.005 }
 
-	set_variable = { ecomod_production_factory_max_efficiency_weight = 0 }
-	set_variable = { ecomod_production_factory_start_efficiency_weight = 0 }
-	set_variable = { ecomod_production_speed_buildings_weight = 0.02 }
+	set_variable = { ecomod_production_factory_max_efficiency_weight = 0.005 }
+	set_variable = { ecomod_production_factory_start_efficiency_weight = 0.005 }
+	set_variable = { ecomod_production_speed_buildings_weight = 0.012 }
 
-	set_variable = { ecomod_local_building_slots_factor_weight = 0.01 }
-	set_variable = { ecomod_local_resources_weight = 0.05 }
+	set_variable = { ecomod_local_building_slots_factor_weight = 0.012 }
+	set_variable = { ecomod_local_resources_weight = 0.015 }
 
 	economy_mod_calc = yes
 }
@@ -391,7 +400,6 @@ check_economy_idea = {
 		remove_ideas = economy_bloated_army
 	}
 }
-
 
 
 ###経済方策

@@ -91,14 +91,43 @@ set_country_flag = SET_social_liberalism
 
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-
+	#laws
+	personal_consignment_0
+	active_trade_1
+	volunteer_only_1
+	economy_market_fundamentalism
+	#development
+	SG_academic_5
+	SG_industry_5
+	SG_administration_3
+	SG_infrastructure_5
+	SG_network_2
+	SG_military_3
 }
 
 create_faction = BRITISH_EMPIRE
 add_to_faction = ENG
+add_to_faction = CAN
+add_to_faction = AST
+add_to_faction = NZL
+add_to_faction = MAL
+
+set_autonomy = {
+	target = CAN
+	autonomy_state = autonomy_dominion
+}
+set_autonomy = {
+	target = AST
+	autonomy_state = autonomy_dominion
+}
+set_autonomy = {
+	target = NZL
+	autonomy_state = autonomy_dominion
+}
+set_autonomy = {
+	target = MAL
+	autonomy_state = autonomy_puppet
+}
 
 recruit_character = ENG_Winston_Churchill
 recruit_character = ENG_Freeman_Thomas

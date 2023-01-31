@@ -27,14 +27,9 @@ on_actions = {
 				add_to_array = { array = economy_law_gui value = 1 }
 				add_to_array = { array = economy_law_gui value = 2 }
 				add_to_array = { array = economy_law_gui value = 3 }
-					
-				###経済レベル
-				if = {
-					limit = {
-						NOT = { has_variable = economy_level }
-					}
-					set_variable = { economy_level = 1 }
-				}
+
+				set_variable = { trade_tab = 2 }
+				
 				###経済進捗
 				if = {
 					limit = {
@@ -46,18 +41,6 @@ on_actions = {
 				###経済アイデア
 				add_dynamic_modifier = {
 					modifier = SG_economy_level_effect_dynmod
-				}
-
-				###経済タイプ
-				if = {
-					limit = {
-						NOT = {
-							has_country_flag = economy_type_decentral
-							has_country_flag = economy_type_mixture
-							has_country_flag = economy_type_central		
-						}
-					}
-					economy_type_setup_mixture = yes
 				}
 
 				#必ず最後に置く

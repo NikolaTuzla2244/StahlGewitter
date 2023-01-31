@@ -1,4 +1,4 @@
-capital = 48
+capital = 613
 
 # Starting tech
 set_technology = {
@@ -66,25 +66,29 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = national_populism
+	ruling_party = authoritarianism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 20
-	reformism = 30
-	national_populism = 30
-	authoritarian_socialism = 10
-	national_socialism = 10
+	authoritarianism = 100
 }
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
+	#laws
+	private_economy_1
+	active_trade_1
+	volunteer_only_1
+	economy_market_fundamentalism
+	#development
+	SG_academic_2
+	SG_industry_3
+	SG_administration_3
+	SG_infrastructure_2
+	SG_network_1
+	SG_military_2
 }
 
-# recruit_character = BUL_Boris_III
-
-# recruit_character = BUL_Kimon_Georgiev
+# recruit_character = KMT_Wang_Jingwei
+# recruit_character = KMT_Dai_Li

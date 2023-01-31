@@ -16,7 +16,7 @@ economy_level_up = {
 
 	economy_progress_reset = yes
 	economy_mod_calc = yes
-
+	set_economy_rank = yes
 }
 economy_level_down = {
 	custom_effect_tooltip = economy_level_down_tt
@@ -25,7 +25,7 @@ economy_level_down = {
 
 	economy_progress_reset = yes
 	economy_mod_calc = yes
-
+	set_economy_rank = yes
 }
 
 #				  #

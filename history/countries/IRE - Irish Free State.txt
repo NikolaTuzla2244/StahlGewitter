@@ -1,4 +1,4 @@
-capital = 41
+capital = 112
 
 # Starting tech
 set_technology = {
@@ -60,33 +60,39 @@ set_technology = {
 	armored_car1 = 1
 }
 
-set_research_slots = 3
+set_research_slots = 2
 set_convoys = 200
-set_stability = 0.25
+set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = liberal_democracy
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	#王党派 - 10
-	authoritarianism = 10 #愛国同盟 - アルフォンソ派
-	#右派 - 30
-	despotism = 15 #愛国同盟 - プリモ・デ・リベラ派
-	national_populism = 15 #CEDA
-	##共和派 - 60
-	reformism = 45 #人民戦線 - 共和派
-	social_liberalism = 15 #人民戦線 - CNT-FAI
+	conservative_democracy = 45
+	liberal_democracy = 45
+	reformism = 10
 }
+set_country_flag = SET_conservative_democracy
+set_country_flag = SET_liberal_democracy
+set_country_flag = SET_reformism
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
+	#laws
+	personal_consignment_0
+	active_trade_1
+	volunteer_only_1
+	economy_market_fundamentalism
+	#development
+	SG_academic_3
+	SG_industry_3
+	SG_administration_2
+	SG_infrastructure_3
+	SG_network_2
+	SG_military_3
 }
 
-# recruit_character = SPR_Miguel_Primo_de_Rivera
-# recruit_character = SPR_Alfonso_XIII
+# recruit_character = ITA_Italo_Baobo

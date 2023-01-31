@@ -40,16 +40,49 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "SG_economy_button"
-		position = { x = 100 y = 5 }
+		name = "SG_trade_GUI_frame"
+		position = { x = 0 y = 42 }
+		size = { width = 550 height = 1000 }
+		clipping = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_framed_bg"
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "SG_economy_tab_button"
+		position = { x = 150 y = 10 }
 		size = { width = 0 height = 0 }
 		buttonType = {
-			name = "economy_button"
+			name = "economy_tab"
 			position = { x = 0 y = 0 }
-			spriteType = GFX_economy_button
+			quadTextureSprite = "GFX_SG_economy_tab"
+			buttonText = "ECONOMY_ECONOMY"
+			font = "hoi_18mbs"
 			clicksound = click_default
+		}
+		buttonType = {
+			name = "trade_tab"
+			position = { x = 170 y = 0 }
+			quadTextureSprite = "GFX_SG_economy_tab"
+			buttonText = "TRADE_TRADE"
+			font = "hoi_18mbs"
+			clicksound = click_default
+		}
 
-			pdx_tooltip = "economy_button_tt"
+		instantTextboxType = {
+			name = "title"
+			position = { x = -105 y = -2 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "trade_gui_title"
+			maxWidth = 240
+			maxHeight = 20
+			format = left
 		}
 	}
 

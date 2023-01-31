@@ -1,0 +1,33 @@
+scripted_map_modes = {
+	sg_economy_level_map_mode = {
+		top = { type = none }
+		bottom = {
+			type = country
+			color = {
+				FROM = {
+					set_temp_variable = { alpha_temp = 0.95 }
+					clear_variable = rg_temp
+					clear_variable = b_temp
+					clear_variable = calc_temp
+					
+					set_temp_variable = { calc_temp = 0.95 }
+					divide_temp_variable = { calc_temp = economy_level }
+					round_temp_variable = calc_temp
+					
+					set_temp_variable = { b_temp = calc_temp }
+
+					divide_temp_variable = { calc_temp = economy_level }
+					round_temp_variable = calc_temp
+					
+					set_temp_variable = { rg_temp = calc_temp }
+
+					set_temp_variable = { red = rg_temp }
+					set_temp_variable = { green = rg_temp }
+					set_temp_variable = { blue = b_temp }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+			}
+		}
+		update_daily = yes
+	}
+}

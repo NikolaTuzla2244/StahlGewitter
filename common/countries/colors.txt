@@ -12,6 +12,22 @@ ENG = {
 	color = rgb { 104 0 47 }
 	color_ui = rgb { 104 0 47 }
 }
+NZL = {
+	color = rgb { 46 91 70 }
+	color_ui = rgb { 46 91 70 }
+}
+CAN = {
+	color = rgb { 46 49 94 }
+	color_ui = rgb { 46 49 94 }
+}
+MAL = {
+	color = rgb { 102 18 33 }
+	color_ui = rgb { 102 18 33 }
+}
+AST = {
+	color = rgb { 54 91 46 }
+	color_ui = rgb { 54 91 46 }
+}
 SWE = {
 	color = rgb { 36 132 247 }
 	color_ui = rgb { 47 172 255 }
@@ -137,8 +153,8 @@ DEN = {
 	color_ui = rgb { 199 151 121 }
 }
 BUL = {
-	color = rgb { 50 112 54 }
-	color_ui = rgb { 50 112 54 }
+	color = rgb { 74 109 59 }
+	color_ui = rgb { 74 109 59 }
 }
 POR = {
 	color = rgb { 39 116 70 }
@@ -153,8 +169,8 @@ FWG = {
 	color_ui = rgb { 255 255 255 }
 }
 IRE = {
-	color = rgb { 80 159 90 }
-	color_ui = rgb { 104 207 117 }
+	color = rgb { 64 96 48 }
+	color_ui = rgb { 64 96 48 }
 }
 HUN = {
 	color = rgb { 127 111 99 }
@@ -252,6 +268,10 @@ TMS = {
 	color_ui = rgb { 160 101 95 }
 }
 
+RAJ = {
+	color = rgb { 42 42 84 }
+	color_ui = rgb { 42 42 84 }
+}
 ###中国
 #北洋政府
 MAN = {
@@ -429,10 +449,7 @@ ARG = {
 	color = rgb { 145 157 236 }
 	color_ui = rgb { 189 204 255 }
 }
-AST = {
-	color = rgb { 57 143 97 }
-	color_ui = rgb { 74 186 126 }
-}
+
 BHU = {
 	color = rgb { 172 122 88 }
 	color_ui = rgb { 172 122 88 }
@@ -444,10 +461,6 @@ BOL = {
 BRA = {
 	color = rgb { 76 145 63 }
 	color_ui = rgb { 99 189 82 }
-}
-CAN = {
-	color = rgb { 233 59 59 }
-	color_ui = rgb { 233 59 59 }
 }
 CHL = {
 	color = rgb { 155 101 107 }
@@ -504,10 +517,6 @@ NEP = {
 NIC = {
 	color = rgb { 146 179 191 }
 	color_ui = rgb { 146 179 191 }
-}
-NZL = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
 }
 PAN = {
 	color = rgb { 152 130 191 }
@@ -576,10 +585,6 @@ OMA = {
 SLO = {
 	color = rgb { 158  161  188 }
 	color_ui = rgb { 255 255 255 }
-}
-RAJ = {
-	color = rgb { 226  135  40 }
-	color_ui = rgb { 226  135  40 }
 }
 
 CRO = {
@@ -661,16 +666,6 @@ INS = {
 VIN = {
 	color = rgb { 230  223  50 }
 	color_ui = rgb { 230  223  50 }
-}
-
-CAM = {
-	color = rgb { 100  71  150 }
-	color_ui = rgb { 100  71  150 }
-}
-
-MAL = {
-	color = rgb { 197  96  100 }
-	color_ui = rgb { 213  169  121 }
 }
 
 MNT = {

@@ -2,7 +2,7 @@
 ENG = "countries/commonwealth.txt" #イギリス
 FRA	= "countries/western_european.txt" #フランス・コミューン
 POR = "countries/western_european.txt" #ポルトガル
-IRE = "countries/western_european.txt" #アイルランド
+IRE = "countries/western_european.txt" #アイルランド自由国
 SPR = "countries/western_european.txt" #スペイン王国
 
 LUX	= "countries/western_european.txt" #ルクセンブルク
@@ -17,19 +17,19 @@ PNF = "countries/western_european.txt" #国家ファシスト党
 FIU = "countries/western_european.txt" #カルナーロ＝イタリア執政府
 SWI = "countries/western_european.txt" #スイス
 
-AUS	= "countries/western_european.txt"
-HUN = "countries/eastern_european.txt" #ハンガリー
-TRA = "countries/western_european.txt" #トランシルヴァニア
-CZE	= "countries/eastern_european.txt"
+AUS	= "countries/western_european.txt" #オーストリア共和国
+HUN = "countries/eastern_european.txt" #ハンガリー王国
+TRA = "countries/western_european.txt" #トランシルヴァニア共和国
+CZE	= "countries/eastern_european.txt" #チェコスロヴァキア共和国
 RTH = "countries/eastern_european.txt" #カルパティア・ルテニア
 SCS = "countries/eastern_european.txt" #スロベニア人・クロアチア人・セルビア人国
 
 ROM = "countries/eastern_european.txt" #ルーマニア
 YUG = "countries/eastern_european.txt"
-SER = "countries/eastern_european.txt" #セルビア
+SER = "countries/eastern_european.txt" #セルビア王国
 ALB = "countries/eastern_european.txt" #アルバニア
-BUL = "countries/eastern_european.txt" #ブルガリア
-GRE = "countries/eastern_european.txt" #ギリシャ
+BUL = "countries/eastern_european.txt" #ブルガリア共和国
+GRE = "countries/eastern_european.txt" #ギリシャ王国
 TUR = "countries/western_european.txt" #オスマン帝国
 IHB = "countries/western_european.txt" #ボスポラス海峡委員会
 
@@ -69,7 +69,6 @@ FES = "countries/eastern_european.txt" #極東シベリア・ソビエト
 BAL	= "countries/eastern_european.txt" #バルト・ソビエト軍管区
 BLR = "countries/eastern_european.txt" #白ロシア・ソビエト
 UKR = "countries/eastern_european.txt" #ウクライナ・ソビエト / グリゴリー・ペトロフスキー
-
 TCC = "countries/eastern_european.txt" #コーカサス・ソビエト / イラクリー・ツェレテリ
 
 KAZ = "countries/asian.txt" #カザフ・ソビエト
@@ -81,13 +80,20 @@ TMS = "countries/asian.txt" #トルクメン・ソビエト
 
 KAR = "countries/eastern_european.txt" #カレリア人民共和国
 
+###オセアニア###
+AST = "common/countries/commonwealth.txt" #オーストラリア連邦
+NZL = "common/countries/commonwealth.txt" #ニュージーランド
+
 ###アジア###
 JAP = "countries/asian.txt" #大日本帝国
 KOR = "countries/asian.txt" #韓国
 
-CHI = "countries/asian.txt"
-PRC = "countries/asian.txt"
+RAJ = "countries/asian.txt" #インド連邦
 
+MAL = "countries/asian.txt" #マラヤ連合
+
+CHI = "countries/asian.txt" ###未使用
+PRC = "countries/asian.txt" ###未使用
 ###中国
 #北洋政府
 MAN = "countries/asian.txt" #奉天軍閥
@@ -141,12 +147,13 @@ SAI = "countries/eastern_european.txt" #アメリカ・インディアン協会 
 ACT = "countries/eastern_european.txt" #「アクション」(アナーキスト) / アレクサンダー・バークマン[社会自由主義], ルイジ・ガレアーニ[社会自由主義]
 SSL = "countries/eastern_european.txt" #銀シャツ団 / ウィリアム・ダドリー・ペリー[国家社会主義]
 
+#北米
+CAN = "common/countries/commonwealth.txt" #カナダ自治領
+
 ARG = "countries/Argentina.txt"
-AST = "countries/Australia.txt"
 BHU = "countries/Bhutan.txt"
 BOL = "countries/Bolivia.txt"
 BRA = "countries/Brazil.txt"
-CAN = "countries/Canada.txt"
 
 CHL = "countries/Chile.txt"
 COL = "countries/Colombia.txt"
@@ -162,7 +169,6 @@ MEX = "countries/Mexico.txt"
 MEN = "countries/Mengkukuo.txt"
 NEP = "countries/Nepal.txt"
 NIC = "countries/Nicaragua.txt"
-NZL = "countries/New Zealand.txt"
 PAN = "countries/Panama.txt"
 PER = "countries/Persia.txt"
 PHI = "countries/Philippines.txt"
@@ -180,7 +186,6 @@ HAI = "countries/Haiti.txt"
 YEM = "countries/Yeman.txt"
 OMA = "countries/Oman.txt"
 SLO = "countries/Slovakia.txt"
-RAJ = "countries/British Raj.txt"
 CRO = "countries/Croatia.txt"
 GXC = "countries/Guangxi.txt"
 XSM = "countries/Xibei San Ma.txt"
@@ -196,7 +201,6 @@ PAL = "countries/Palestine.txt"
 ISR = "countries/Israel.txt"
 VIN = "countries/Vietnam.txt"
 CAM = "countries/Cambodia.txt"
-MAL = "countries/Malaysia.txt"
 INS = "countries/Indonesia.txt"
 LAO = "countries/Laos.txt"
 MNT = "countries/Montenegro.txt"
@@ -291,8 +295,8 @@ SAX = "countries/Saxony.txt"
 HAN = "countries/Hanover.txt"
 WUR = "countries/Wurtemberg.txt"
 SHL = "countries/Schleswig-Holstein.txt"
-CAT = "countries/Catalonia.txt"
-NAV = "countries/Navarra.txt"
+# CAT = "countries/Catalonia.txt"
+# NAV = "countries/Navarra.txt"
 GLC = "countries/Galicia.txt"
 ADU = "countries/Andalusia.txt"
 BRI = "countries/Brittany.txt"
@@ -317,13 +321,13 @@ CKK = "countries/Chukotka.txt"
 FER = "countries/Fareastern Republic.txt"
 YAK = "countries/Yakutia.txt"
 VLA = "countries/Vladivostok.txt"
-KKP = "countries/Karakalpakstan.txt"
-YAM = "countries/Yamalia.txt"
-TAY = "countries/Taymyria.txt"
-OVO = "countries/Ostyak Vogulia.txt"
-NEN = "countries/Nenetsia.txt"
-KOM = "countries/Komi.txt"
-ABK = "countries/Abkhazia.txt"
+# KKP = "countries/Karakalpakstan.txt"
+# YAM = "countries/Yamalia.txt"
+# TAY = "countries/Taymyria.txt"
+# OVO = "countries/Ostyak Vogulia.txt"
+# NEN = "countries/Nenetsia.txt"
+# KOM = "countries/Komi.txt"
+# ABK = "countries/Abkhazia.txt"
 # KBK = "countries/Kabardino Balkaria.txt"
 # NOA = "countries/North Ossetia.txt"
 # VGE = "countries/Volga Germany.txt"

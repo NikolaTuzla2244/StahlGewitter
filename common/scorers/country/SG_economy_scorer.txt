@@ -1,0 +1,9 @@
+economy_level_scorer = {
+	targets = {
+		targets_dynamic = yes
+		score = {
+			base = 0
+			modifier = { add = economy_level }
+		}
+	}
+}

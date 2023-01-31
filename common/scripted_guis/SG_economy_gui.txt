@@ -15,30 +15,49 @@ scripted_gui = {
 			}
 		}
 	}
-	SG_economy_button = {
-		window_name = "SG_economy_button"
+	SG_economy_tab_button = {
+		window_name = "SG_economy_tab_button"
 		context_type = player_context
 		parent_window_token = trade_tab
 			
 		visible = {
 			is_ai = no
 		}
+		properties = {
+			economy_tab = {
+				frame = economy_tab
+			}
+			trade_tab = {
+				frame = trade_tab
+			}
+		}
 
 		effects = {
-			economy_button_click = {
-				if = {
-					limit = {
-						NOT = {
-							has_country_flag = economy_GUI_open
-						}
-					}
-					set_country_flag = economy_GUI_open
-				}
-				else = {
-					clr_country_flag = economy_GUI_open
-				}
-				clr_country_flag = development_GUI_open
+			economy_tab_click = {
+				set_country_flag = economy_GUI_open
+
+				set_variable = { economy_tab = 2 }
+				set_variable = { trade_tab = 1 }
 			}
+			trade_tab_click = {
+				clr_country_flag = economy_GUI_open
+
+				set_variable = { economy_tab = 1 }
+				set_variable = { trade_tab = 2 }
+			}
+		}
+	}
+	SG_trade_GUI_frame = {
+		window_name = "SG_trade_GUI_frame"
+		context_type = player_context
+		parent_window_token = trade_tab
+			
+		visible = {
+		}
+
+		effects = {
+		}
+		properties = {
 		}
 	}
 	SG_economy_GUI = {
@@ -253,10 +272,6 @@ scripted_gui = {
 
 			progress_cursor = {
 				x = economy_progress_gui
-			}
-
-			deficit_bar = {
-				frame = deficit_gui
 			}
 
 			idea_entry_icon = {

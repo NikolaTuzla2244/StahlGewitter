@@ -12,12 +12,16 @@ news_event = { #合衆国崩壊
 	
 	option = {
 		name = sg_worldnews.1.a
-		every_country = {
-			limit = {
-				is_ai = no
-			}
-			set_temp_variable = { SG_temp_super_event = 20 }
-			SG_fire_super_event = yes
+		trigger = {
+			is_ai = no
+		}
+		set_temp_variable = { SG_temp_super_event = 20 }
+		SG_fire_super_event = yes
+	}
+	option = {
+		name = sg_worldnews.1.a
+		trigger = {
+			is_ai = yes
 		}
 	}
 }
@@ -33,12 +37,16 @@ news_event = { #中華内戦
 	
 	option = {
 		name = sg_worldnews.2.a
-		every_country = {
-			limit = {
-				is_ai = no
-			}
-			set_temp_variable = { SG_temp_super_event = 2 }
-			SG_fire_super_event = yes
+		trigger = {
+			is_ai = no
+		}
+		set_temp_variable = { SG_temp_super_event = 2 }
+		SG_fire_super_event = yes
+	}
+	option = {
+		name = sg_worldnews.2.a
+		trigger = {
+			is_ai = yes
 		}
 	}
 }
@@ -54,12 +62,16 @@ news_event = { #第三次バルカン戦争(小規模)
 	
 	option = {
 		name = sg_worldnews.3.a
-		every_country = {
-			limit = {
-				is_ai = no
-			}
-			set_temp_variable = { SG_temp_super_event = 21 }
-			SG_fire_super_event = yes
+		trigger = {
+			is_ai = no
+		}
+		set_temp_variable = { SG_temp_super_event = 21 }
+		SG_fire_super_event = yes
+	}
+	option = {
+		name = sg_worldnews.3.a
+		trigger = {
+			is_ai = yes
 		}
 	}
 }
@@ -74,12 +86,16 @@ news_event = { #第三次バルカン戦争(大規模)
 	
 	option = {
 		name = sg_worldnews.4.a
-		every_country = {
-			limit = {
-				is_ai = no
-			}
-			set_temp_variable = { SG_temp_super_event = 22 }
-			SG_fire_super_event = yes
+		trigger = {
+			is_ai = no
+		}
+		set_temp_variable = { SG_temp_super_event = 22 }
+		SG_fire_super_event = yes
+	}
+	option = {
+		name = sg_worldnews.4.a
+		trigger = {
+			is_ai = yes
 		}
 	}
 }
@@ -123,6 +139,30 @@ news_event = { #イギリス - モズレーが首相に登壇
 		name = sg_worldnews.7.a
 	}
 }
+news_event = { #スペイン内戦が勃発
+	id = sg_worldnews.8
+	title = sg_worldnews.8.t
+	desc = sg_worldnews.8.d
+	picture = GFX_news_event_Spanish_Civil_War
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = sg_worldnews.8.a
+		trigger = {
+			is_ai = no
+		}
+		set_temp_variable = { SG_temp_super_event = 23 }
+		SG_fire_super_event = yes
+	}
+	option = {
+		name = sg_worldnews.8.a
+		trigger = {
+			is_ai = yes
+		}
+	}
+}
 
 
 news_event = { #中国統一 - 国民党広西軍
@@ -135,12 +175,16 @@ news_event = { #中国統一 - 国民党広西軍
 	
 	option = {
 		name = sg_worldnews_china_uni.1.a
-		every_country = {
-			limit = {
-				is_ai = no
-			}
-			set_temp_variable = { SG_temp_super_event = 3 }
-			SG_fire_super_event = yes
+		trigger = {
+			is_ai = no
+		}
+		set_temp_variable = { SG_temp_super_event = 3 }
+		SG_fire_super_event = yes
+	}
+	option = {
+		name = sg_worldnews_china_uni.1.a
+		trigger = {
+			is_ai = yes
 		}
 	}
 }
@@ -154,12 +198,16 @@ news_event = { #中国統一 - 国民党広西軍
 	
 	option = {
 		name = sg_worldnews_china_uni.2.a
-		every_country = {
-			limit = {
-				is_ai = no
-			}
-			set_temp_variable = { SG_temp_super_event = 4 }
-			SG_fire_super_event = yes
+		trigger = {
+			is_ai = no
+		}
+		set_temp_variable = { SG_temp_super_event = 4 }
+		SG_fire_super_event = yes
+	}
+	option = {
+		name = sg_worldnews_china_uni.2.a
+		trigger = {
+			is_ai = yes
 		}
 	}
 }

@@ -117,7 +117,10 @@ guiTypes = {
 				position = { x = 215 y = -1 }
 				size = { width = 300 height = 30 }
 				slotsize = { width = 300 height = 47 }
-				max_slots_horizontal = 1
+				max_slots = {
+					x = 1
+					y = 4
+				}
 				format = "UPPER_LEFT"
 			}
 		}
@@ -486,11 +489,10 @@ guiTypes = {
 			size = { width = 581 height =121 }
 			Orientation = UPPER_LEFT
 
-			iconType =
-			{
+			iconType = {
 				name ="event_picture"
 				spriteType = "GFX_news_event_001"
-				position = { x = 47 y = 137 }
+				position = { x = 64 y = 146 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
@@ -498,18 +500,18 @@ guiTypes = {
 			iconType = {
 				name ="event_picture_overlay"
 				spriteType = "GFX_event_news_pic_overlay"
-				position = { x = 47 y = 137 }
+				position = { x = 64 y = 146 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}			
 			
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 220 y = 140 }
+				position = { x = 50 y = 105 }
 				font = "hoi4_typewriter22"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"	
-				maxWidth = 270
+				maxWidth = 422
 				maxHeight = 32
 				format = centre
 			}
@@ -530,11 +532,11 @@ guiTypes = {
 		
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = 39 y = 170 }
+				position = { x = 51 y = 135 }
 				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
-				maxWidth = 270
+				maxWidth = 240
 				maxHeight = 230
 				format = left
 			}	
@@ -549,7 +551,7 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "options_grid"
-				position = { x = 80 y = -1 }
+				position = { x = 110 y = -1 }
 				size = { width = 300 height = 30 }
 				slotsize = { width = 300 height = 47 }
 				max_slots_horizontal = 1
@@ -570,9 +572,9 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = 5 y = 0 }
+			position = { x = 5 y = 7 }
 			font = "hoi_20bs"
-			maxWidth = 340
+			maxWidth = 250
 			maxHeight = 40
 			format = center
 			vertical_alignment = center

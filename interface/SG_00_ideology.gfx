@@ -151,6 +151,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/limited_democracy_subtype.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_provisional_government_subtype"
+		texturefile = "gfx/interface/ideologies/provisional_government_subtype.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_stratocracy_subtype"
 		texturefile = "gfx/interface/ideologies/stratocracy_subtype.png"
 	}
@@ -169,6 +173,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_council_communism_subtype"
 		texturefile = "gfx/interface/ideologies/council_communism_subtype.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_radical_liberalism_subtype"
+		texturefile = "gfx/interface/ideologies/radical_liberalism_subtype.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_chinise_socialsm_subtype"

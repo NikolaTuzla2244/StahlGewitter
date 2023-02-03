@@ -88,10 +88,23 @@ LAT = {
 	color = rgb { 75 77 186 }
 	color_ui = rgb { 124 125 184 }
 }
-SPR = {
-	color = rgb { 196 152 90 }
-	color_ui = rgb { 196 152 90 }
+SPA = {
+	color = rgb { 150 119 61 }
+	color_ui = rgb { 150 119 6 }
 }
+SPF = {
+	color = rgb { 163 89 66 }
+	color_ui = rgb { 163 89 66 }
+}
+USN = {
+	color = rgb { 61 37 28 }
+	color_ui = rgb { 61 37 28 }
+}
+NAV = {
+	color = rgb { 66 79 52 }
+	color_ui = rgb { 66 79 52 }
+}
+
 ITA = {
 	color = rgb { 67 127 63 }
 	color_ui = rgb { 87 165 82 }
@@ -157,8 +170,8 @@ BUL = {
 	color_ui = rgb { 74 109 59 }
 }
 POR = {
-	color = rgb { 39 116 70 }
-	color_ui = rgb { 51 151 91 }
+	color = rgb { 50 96 87 }
+	color_ui = rgb { 50 96 87 }
 }
 FIN = {
 	color = rgb { 115 3 14 }

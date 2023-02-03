@@ -1,0 +1,121 @@
+capital = 41
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	basic_train = 1
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+	fuel_refining = 1
+
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	improved_light_tank_chassis = 1
+	basic_heavy_tank_chassis = 1
+	engine_tech_1 = 1
+
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	early_ship_hull_cruiser = 1
+	basic_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	basic_ship_hull_heavy = 1
+	panzerschiffe = 1
+	pre_dreadnoughts = 1
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	mtg_transport = 1
+	basic_torpedo = 1
+	improved_ship_torpedo_launcher = 1
+	basic_battery = 1
+	basic_light_battery = 1
+	basic_medium_battery = 1
+	basic_heavy_battery = 1
+	basic_secondary_battery = 1
+	improved_secondary_battery = 1
+	basic_depth_charges = 1
+	sonar = 1
+	basic_cruiser_armor_scheme = 1
+
+	armored_car1 = 1
+}
+
+set_research_slots = 3
+set_convoys = 200
+set_stability = 0.25
+set_war_support = 0.3
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	#王党派 - 15
+	liberal_democracy = 10 #アルフォンソ王党派 - 自由主義
+	authoritarianism = 5 #アルフォンソ王党派 - 権威主義
+	#右派 - 35
+	despotism = 25 #MNE - 軍部・カルリスタ
+	national_populism = 10 #MNE - ファランヘ党
+	##共和派 - 50
+	reformism = 30 #人民戦線 - 共和党右派
+	social_liberalism = 15 #人民戦線 - 共和党左派・CNT-FAI
+	authoritarian_socialism = 5 #人民戦線 - スペイン共産党
+}
+set_country_flag = SET_liberal_democracy
+set_country_flag = SET_authoritarianism
+set_country_flag = SET_despotism
+set_country_flag = SET_national_populism
+set_country_flag = SET_reformism
+set_country_flag = SET_social_liberalism
+set_country_flag = SET_authoritarian_socialism
+
+add_ideas = {
+	#laws
+	reduced_welfare_2
+	active_trade_1
+	volunteer_only_1
+	economy_military_economy
+	#development
+	SG_academic_3
+	SG_industry_4
+	SG_administration_4
+	SG_infrastructure_4
+	SG_network_2
+	SG_military_3
+}
+
+recruit_character = SPA_Jose_Sanjurjo
+
+recruit_character = SPA_Alfonso_XIII
+recruit_character = SPA_Javier_I
+recruit_character = SPA_Ramon_Serrano_Suner
+
+recruit_character = SPA_Alejandro_Lerroux
+recruit_character = SPA_Buenaventura_Durruti
+recruit_character = SPA_Andreu_Nin
+recruit_character = SPA_Dolores_Ibarruri
+
+activate_advisor = SPA_Alfonso_XIII_HoG
+set_country_flag = has_sub_leader

@@ -19,6 +19,12 @@ defined_text = {
 		localization_key = "GFX_Portrait_HUN_Karl_I"
 	}
 	text = {
+		trigger = {
+			has_idea = SPA_Alfonso_XIII_HoG
+		}
+		localization_key = "GFX_Portrait_SPA_Alfonso_XIII"
+	}
+	text = {
 		localization_key = "GFX_leader_unknown"
 	}
 }
@@ -41,6 +47,12 @@ defined_text = {
 			has_idea = HUN_Karl_I_HoG
 		}
 		localization_key = HUN_Karl_I
+	}
+	text = {
+		trigger = {
+			has_idea = SPA_Alfonso_XIII_HoG
+		}
+		localization_key = SPA_Alfonso_XIII
 	}
 	text = {
 		localization_key = "unknown"

@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = SPR
+		owner = SPA
 		victory_points = {
 			9979 5
 		}
@@ -30,8 +30,9 @@ state={
 			}
 
 		}
-		add_core_of = SPR
-
+		add_core_of = SPA
+		add_core_of = SPF
+		add_core_of = USN
 	}
 
 	provinces={

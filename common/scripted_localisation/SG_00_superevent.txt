@@ -29,6 +29,10 @@ defined_text = {
 		trigger = { check_variable = { SG_super_event = 22 } }
 		localization_key = "GFX_SG_third_balkan_war_large"
 	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 23 } }
+		localization_key = "GFX_SG_spanish_civil_war"
+	}
 }
 
 defined_text = {
@@ -61,6 +65,10 @@ defined_text = {
 	text = {
 		trigger = { check_variable = { SG_super_event = 22 } }
 		localization_key = SG_third_balkan_war_title
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 23 } }
+		localization_key = SG_spanish_civil_war_title
 	}
 }
 
@@ -95,6 +103,10 @@ defined_text = {
 		trigger = { check_variable = { SG_super_event = 22 } }
 		localization_key = SG_third_balkan_war_large_quote
 	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 23 } }
+		localization_key = SG_spanish_civil_war_quote
+	}
 }
 
 defined_text = {
@@ -127,5 +139,9 @@ defined_text = {
 	text = {
 		trigger = { check_variable = { SG_super_event = 22 } }
 		localization_key = SG_third_balkan_war_large_option
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 23 } }
+		localization_key = SG_spanish_civil_war_option
 	}
 }

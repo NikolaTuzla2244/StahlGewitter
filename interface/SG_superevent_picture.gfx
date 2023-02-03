@@ -25,4 +25,8 @@ spriteTypes = {
 		name = "GFX_SG_third_balkan_war_large"
 		texturefile = "gfx/superevent_pictures/third_balkan_war_large.png"
 	}
+	spriteType = {
+		name = "GFX_SG_spanish_civil_war"
+		texturefile = "gfx/superevent_pictures/spanish_civil_war.png"
+	}
 }

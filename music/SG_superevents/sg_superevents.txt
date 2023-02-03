@@ -36,3 +36,9 @@ music = {
 		modifier = { factor = 0 }
 	}
 }
+music = {
+	song = "sg_se_spanish_civil_war"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}

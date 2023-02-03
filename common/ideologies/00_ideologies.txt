@@ -68,6 +68,7 @@ ideologies = {
 			warlordism_subtype = { can_be_randomly_selected = no }
 			technocracy_subtype = { can_be_randomly_selected = no }
 			theocracy_subtype = { can_be_randomly_selected = no }
+			absolute_monarchy_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 20 20 20 }
@@ -203,6 +204,7 @@ ideologies = {
 			anarcho_communism_subtype = { can_be_randomly_selected = no }
 			council_communism_subtype = { can_be_randomly_selected = no }
 			revolutionary_syndicalism_subtype = { can_be_randomly_selected = no }
+			radical_liberalism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 180 35 35 }

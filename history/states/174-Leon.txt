@@ -6,7 +6,7 @@ state={
 		tungsten=10.000
 	}
 	history={
-		owner = SPR
+		owner = SPA
 		victory_points = {
 			726 1
 		}
@@ -15,8 +15,9 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = SPR
-
+		add_core_of = SPA
+		add_core_of = SPF
+		add_core_of = USN
 	}
 
 	provinces={

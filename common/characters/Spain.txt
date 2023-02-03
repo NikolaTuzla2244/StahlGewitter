@@ -1,0 +1,117 @@
+characters = {
+	SPA_Jose_Sanjurjo = {
+		name = SPA_Jose_Sanjurjo
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SPA/Portrait_SPA_Jose_Sanjurjo.png"
+			}
+		}
+		country_leader = {
+			ideology = military_junta_subtype
+		}
+	}
+	SPA_Alfonso_XIII = {
+		name = SPA_Alfonso_XIII
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SPA/Portrait_SPA_Alfonso_XIII.png"
+				small = "gfx/interface/ideas/SPA/idea_SPA_Alfonso_XIII.png"
+			}
+		}
+		country_leader = {
+			ideology = provisional_government_subtype
+			desc = SPA_Alfonso_XIII_desc
+		}
+		country_leader = {
+			ideology = liberal_democracy_subtype
+			desc = SPA_Alfonso_XIII_desc
+		}
+		advisor = {
+			slot = Head_of_Government
+			idea_token = SPA_Alfonso_XIII_HoG
+			desc =  SPA_Alfonso_XIII_desc
+
+			allowed = {
+				tag = SPA
+			}
+			vailable = {
+				always = no
+			}
+			cancel_if_invalid = no
+			cost = 0
+			removal_cost = -1
+			traits = {
+				SG_trait_Monach
+				
+				SG_trait_Head_of_Government
+			}
+		}
+	}
+
+	SPA_Javier_I = {
+		name = SPA_Javier_I
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SPA/Portrait_SPA_Javier_I.png"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+		}
+	}
+	SPA_Ramon_Serrano_Suner = {
+		name = SPA_Ramon_Serrano_Suner
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SPA/Portrait_SPA_Ramon_Serrano_Suner.png"
+			}
+		}
+		country_leader = {
+			ideology = national_syndicalism_subtype
+		}
+	}
+	SPA_Alejandro_Lerroux = {
+		name = SPA_Alejandro_Lerroux
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SPA/Portrait_SPA_Alejandro_Lerroux.png"
+			}
+		}
+		country_leader = {
+			ideology = radical_liberalism_subtype
+		}
+	}
+	SPA_Buenaventura_Durruti = {
+		name = SPA_Buenaventura_Durruti
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SPA/Portrait_SPA_Buenaventura_Durruti.png"
+			}
+		}
+		country_leader = {
+			ideology = anarchism_movement_subtype
+		}
+	}
+	SPA_Andreu_Nin = {
+		name = SPA_Andreu_Nin
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SPA/Portrait_SPA_Andreu_Nin.png"
+			}
+		}
+		country_leader = {
+			ideology = leninism_subtype
+		}
+	}
+	SPA_Dolores_Ibarruri = {
+		name = SPA_Dolores_Ibarruri
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SPA/Portrait_SPA_Dolores_Ibarruri.png"
+			}
+		}
+		country_leader = {
+			ideology = collectivist_socialism_subtype
+		}
+	}
+}

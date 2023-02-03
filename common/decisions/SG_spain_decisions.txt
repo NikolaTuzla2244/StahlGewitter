@@ -1,0 +1,38 @@
+SG_spain_civilwar = {
+	SG_spain_civilwar_declare = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+			always = no
+		}
+		days_remove = 10
+		cost = 0
+		remove_effect = {
+			if = {
+				limit = { NOT = { tag = SPA } }
+				declare_war_on = {
+					target = SPA
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = { NOT = { tag = SPF } }
+				declare_war_on = {
+					target = SPF
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = { NOT = { tag = USN } }
+				declare_war_on = {
+					target = USN
+					type = annex_everything
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

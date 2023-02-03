@@ -71,7 +71,7 @@ on_actions = {
 				set_variable = { trade_law_range = 1 }
 				set_variable = { conscription_law_range = 1 }
 			}
-			SPR = {
+			SPA = {
 				set_variable = { economy_level = 5 }
 				economy_type_setup_central = yes
 

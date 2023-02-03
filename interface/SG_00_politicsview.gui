@@ -64,7 +64,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "sub_leader_name"
-			position = { x = 18 y = 270 }
+			position = { x = 18 y = 262 }
 			font = "hoi_18mbs"
 			text = "[THIS.sub_leader_name]"
 			maxWidth = 155

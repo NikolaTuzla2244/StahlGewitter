@@ -1,0 +1,35 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			#人民戦線 - 1
+			794 = { set_variable = { spanish_faction = 1 } }
+			167 = { set_variable = { spanish_faction = 1 } }
+			168 = { set_variable = { spanish_faction = 1 } }
+			166 = { set_variable = { spanish_faction = 1 } }
+
+			165 = { set_variable = { spanish_faction = 1 } } #カタルーニャ
+			171 = { set_variable = { spanish_faction = 1 } } #ガリシア
+			#救国連合 - 2
+			174 = { set_variable = { spanish_faction = 2 } }
+			791 = { set_variable = { spanish_faction = 2 } }
+			851 = { set_variable = { spanish_faction = 2 } }
+			176 = { set_variable = { spanish_faction = 2 } }
+			172 = { set_variable = { spanish_faction = 2 } }
+			793 = { set_variable = { spanish_faction = 2 } }
+			290 = { set_variable = { spanish_faction = 2 } }
+			41 = { set_variable = { spanish_faction = 2 } }
+			788 = { set_variable = { spanish_faction = 2 } }
+			#王国派 - 3
+			170 = { set_variable = { spanish_faction = 3 } }
+			175 = { set_variable = { spanish_faction = 3 } }
+			789 = { set_variable = { spanish_faction = 3 } }
+			
+			#共和派 - 4
+			169 = { set_variable = { spanish_faction = 4 } }
+			173 = { set_variable = { spanish_faction = 4 } }
+			790 = { set_variable = { spanish_faction = 4 } }
+			#分離派 - 5
+			NAV = { set_variable = { spanish_faction = 5 } } #バスク
+		}
+	}
+}

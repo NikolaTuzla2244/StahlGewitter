@@ -1,6 +1,6 @@
 ﻿l_japanese:
 economy_type_decentral:0 "分権型経済"
-economy_type_mixture:0 "混合型経済"
+economy_type_mixture:0 "介入型経済"
 economy_type_central:0 "集権型経済"
 
 ###国民精神
@@ -12,6 +12,7 @@ economy_mixed_economy:0 "混合経済"
 economy_planned_socialism:0 "社会主義計画経済"
 economy_nep_socialism:0 "社会主義改革経済"
 economy_nazi_corporatism:0 "国家社会主義経済"
+economy_plutocracy:0 "寡頭制経済"
 economy_plutocracy:0 "寡頭制経済"
 #経済法
 economic_investment:0 "経済投資"

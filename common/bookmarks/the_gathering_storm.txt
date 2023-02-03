@@ -47,7 +47,15 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		PCI = {
+		PES = {
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = authoritarian_socialism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		SPA = {
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = authoritarian_socialism
 			ideas = {

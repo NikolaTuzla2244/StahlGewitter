@@ -1,0 +1,12 @@
+spriteTypes = {
+	#ポートレート
+	spriteType = {
+		name = "GFX_Portrait_SPA_Alfonso_XIII"
+		texturefile = "gfx/characters/large/SPA/Portrait_SPA_Alfonso_XIII.png"
+	}
+	# #国民精神
+	# spriteType = {
+	# 	name = "GFX_idea_ITA_Vittorio_Emanuele_III"
+	# 	texturefile = "gfx/interface/ideas/ITA/idea_ITA_Vittorio_Emanuele_III.png"
+	# }
+}

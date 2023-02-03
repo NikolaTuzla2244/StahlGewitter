@@ -139,6 +139,10 @@ defined_text = { #専制主義
 		localization_key = theocracy_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = absolute_monarchy_subtype }
+		localization_key = absolute_monarchy_subtype
+	}
+	text = {
 		localization_key = despotism
 	}
 }
@@ -207,6 +211,10 @@ defined_text = { #革新社会主義
 	text = {
 		trigger = { has_country_leader_ideology = council_communism_subtype }
 		localization_key = council_communism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_liberalism_subtype }
+		localization_key = radical_liberalism_subtype
 	}
 	text = {
 		localization_key = social_liberalism

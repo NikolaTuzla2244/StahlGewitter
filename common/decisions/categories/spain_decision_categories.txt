@@ -1,0 +1,10 @@
+SG_spain_civilwar = {
+	icon = generic_research
+	visible = {
+		OR = {
+			tag = SPA
+			tag = SPF
+			tag = USN
+		}
+	}
+}

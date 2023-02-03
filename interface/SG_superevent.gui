@@ -2,18 +2,15 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "SG_superevent_Window"
-		position = { x= 0 y= -100 }
+		position = { x= 0 y= -50 }
 		Orientation = center
 		Origo = center
 		clipping = no
 		moveable = yes
 		size = { width = 700 height = 678 }
 
-		show_position = { x = 0 y = -50 }
-		animation_time = 1000
 		show_animation_type = decelerated
-		hide_animation_type = decelerated
-
+		hide_animation_type = accelerated
 		fade_type = linear
 		fade_time = 3000
 
@@ -26,6 +23,28 @@ guiTypes = {
 			name ="SG_superevent_image"
 			position = { x = 65 y = 220 }
 			alwaystransparent = yes
+		}
+
+		containerWindowType = {
+			name = "SG_superevent_quote"
+			position = { x = 30 y = 470 }
+			iconType = {
+				name ="SG_superevent_quote_bg"
+				spriteType = "GFX_SG_superevent_desc"
+				position = { x = 280 y = 0 }
+				alwaystransparent = yes
+				Orientation = center
+			}
+			instantTextboxType = {
+				name = "SG_superevent_quote_text"
+				position = { x = 0 y = 8 }
+				font = "hoi_18"
+				text = [SGGetSuperEventQuote]
+				maxWidth = 550
+				maxHeight = 20
+				format = right
+				Orientation = center
+			}
 		}
 
 		iconType = {
@@ -54,26 +73,7 @@ guiTypes = {
 			}
 		}
 
-		containerWindowType = {
-			name = "SG_superevent_quote"
-			# iconType = {
-			# 	name ="SG_superevent_quote_frame"
-			# 	spriteType = "GFX_SG_superevent_desc"
-			# 	position = { x = 30 y = 520 }
-			# 	alwaystransparent = yes
-			# 	Orientation = center
-			# }
-			instantTextboxType = {
-				name = "SG_superevent_quote_text"
-				position = { x = 75 y = 570 }
-				font = "hoi_24header"
-				text = [SGGetSuperEventQuote]
-				maxWidth = 550
-				maxHeight = 20
-				format = right
-				Orientation = center
-			}
-		}
+		
 		
 		containerWindowType = {
 			name = "SG_superevent_button"
@@ -84,12 +84,13 @@ guiTypes = {
 			}
 			instantTextboxType = {
 				name = "SG_superevent_button_text"
-				position = { x = 190 y = 665 }
+				position = { x = 190 y = 651 }
 				font = "hoi_20bs"
 				text = [SGGetSuperEventOption]
 				maxWidth = 300
 				maxHeight = 20
 				format = center
+				alwaystransparent = yes
 			}
 		}
 	}

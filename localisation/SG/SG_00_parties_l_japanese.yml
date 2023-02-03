@@ -66,19 +66,39 @@ FRA_reformism_party:0 "労働党"
 FRA_reformism_party_long:0 "労働党"
 
 #スペイン王国
-SPR_authoritarianism_party:0 "UP - アルフォンソ派"
-SPR_authoritarianism_party_long:0 "愛国同盟 - アルフォンソ王党派"
+SPA_liberal_democracy_party:0 "王党派 - 自由主義"
+SPA_liberal_democracy_party_long:0 "アルフォンソ王党派 - 自由主義"
+SPA_authoritarianism_party:0 "王党派 - 保守主義"
+SPA_authoritarianism_party_long:0 "アルフォンソ王党派 - 保守主義"
 
-SPR_despotism_party:0 "UP - リベラ派"
-SPR_despotism_party_long:0 "愛国同盟 - プリモ・デ・リベラ派
-SPR_national_populism_party:0 "CEPD"
-SPR_national_populism_party_long:0 "スペイン右派連合"
+SPA_despotism_party:0 "USN - 軍部・カルリスタ" #USN = Unión de Salvación Nacional
+SPA_despotism_party_long:0 "スペイン救国連合 - 軍部・カルリスタ十字団"
+SPA_national_populism_party:0 "USN - 急進派"
+SPA_national_populism_party_long:0 "スペイン救国連合 - 青師団"
 
-SPR_reformism_party:0 "人民戦線 - 共和派"
-SPR_reformism_party_long:0 "人民戦線 - 共和派"
-SPR_social_liberalism_party:0 "人民戦線 - CNT-FAI"
-SPR_social_liberalism_party_long:0 "人民戦線 - イベリア・アナーキスト連盟"
-
+SPA_reformism_party:0 "人民戦線 - 共和党右派"
+SPA_reformism_party_long:0 "人民戦線 - 共和党右派"
+SPA_social_liberalism_party:0 "人民戦線 - 共和党左派・CNT-FAI"
+SPA_social_liberalism_party_long:0 "人民戦線 - 共和党左派・イベリア・アナーキスト連盟"
+SPA_authoritarian_socialism_party:0 "人民戦線 - PCE"
+SPA_authoritarian_socialism_party_long:0 "人民戦線 - スペイン共産党"
+#スペイン王国(内戦時)
+SPA_CIV_authoritarianism_party:0 "合同臨時政府"
+SPA_CIV_authoritarianism_party_long:0 "王党派-共和派合同臨時政府"
+SPA_CIV_liberal_democracy_party:0 "王党派"
+SPA_CIV_liberal_democracy_party_long:0 "アルフォンソ王党派"
+SPA_CIV_reformism_party:0 "共和派"
+SPA_CIV_reformism_party_long:0 "共和派 - 共和党穏健派"
+#スペイン人民戦線
+SPF_social_liberalism_party:0 "人民戦線 - 共和党左派・CNT-FAI"
+SPF_social_liberalism_party_long:0 "人民戦線 - 共和党左派・イベリア・アナーキスト連盟"
+SPF_authoritarian_socialism_party:0 "人民戦線 - PCE"
+SPF_authoritarian_socialism_party_long:0 "人民戦線 - スペイン共産党"
+#スペイン救国連合
+USN_despotism_party:0 "USN - 軍部・カルリスタ"
+USN_despotism_party_long:0 "スペイン救国連合 - 軍部・カルリスタ十字団"
+USN_national_populism_party:0 "USN - 急進派"
+USN_national_populism_party_long:0 "スペイン救国連合 - 統一ファランガ党"
 #ドイツ
 GER_national_socialism_party:0 "NSDAP - 右派"
 GER_national_socialism_party_long:0 "国家社会主義ドイツ労働者党 - ヒトラー派"

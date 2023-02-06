@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		ENG_Edward_VIII = {
+		ENG_Edward_VIII = {		
 			picture = ENG_Edward_VIII
 			allowed = {
 				tag = ENG

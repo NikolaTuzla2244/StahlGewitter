@@ -1,77 +1,102 @@
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
+		name = "BOOKMARK_NAME"
+		desc = "BOOKMARK_DESC"
 		date = 1935.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = GER
+		default_country = "GER"
 		default = yes
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
 		
-		GER = {
-			history = "GER_GATHERING_STORM_DESC"
+		"USA" = {
+			history = "USA_BOOKMARK_DESC"
+			ideology = authoritarianism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"PES" = {
+			history = "PES_BOOKMARK_DESC"
+			ideology = social_liberalism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"FRA" = {
+			history = "FRA_BOOKMARK_DESC"
+			ideology = authoritarian_socialism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"FRA" = {
+			history = "FRA_BOOKMARK_DESC"
+			ideology = authoritarian_socialism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"GER" = {
+			history = "GER_BOOKMARK_DESC"
 			ideology = national_socialism
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		FRA = {
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = authoritarian_socialism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		ENG = {
-			history = "ENG_GATHERING_STORM_DESC"
+		"ENG" = {
+			history = "ENG_BOOKMARK_DESC"
 			ideology = authoritarianism
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		USA = {
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = authoritarianism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		ITA = {
-			history = "ENG_GATHERING_STORM_DESC"
+		"JAP" = {
+			history = "JAP_BOOKMARK_DESC"
 			ideology = despotism
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		PES = {
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = authoritarian_socialism
-			ideas = {
-			}
-			focuses = {
-			}
+		"GER" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
 		}
-		SPA = {
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = authoritarian_socialism
-			ideas = {
-			}
-			focuses = {
-			}
+		"HUN" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = national_populism
+			ideas = {}
+			focuses = {}
+		}
+
+		"GER" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+		"GER" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
 		}
 		
-		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
-		}
-
-
-		effect = {
-			randomize_weather = 22345 # <- Obligatory in every bookmark !
-			#123 = { rain_light = yes }
-		}
 	}
 }

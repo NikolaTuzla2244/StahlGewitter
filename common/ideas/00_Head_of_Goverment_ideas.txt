@@ -1,0 +1,24 @@
+ideas = {
+	Head_of_Government = {
+		law = yes
+
+		ENG_Edward_VIII_HoG = {		
+			picture = ENG_Edward_VIII
+			allowed = {
+				tag = ENG
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			traits = {
+				SG_trait_Monach
+				
+				SG_trait_Head_of_Government
+			}
+		}
+	}
+}

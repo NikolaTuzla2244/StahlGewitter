@@ -1,0 +1,6 @@
+defined_text = {
+	name = GetNewsHeader
+	text = {
+		localization_key = news_header_generic
+	}
+}

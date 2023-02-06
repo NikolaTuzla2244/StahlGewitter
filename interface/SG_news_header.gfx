@@ -1,0 +1,7 @@
+spritetypes = {
+	spritetype = {
+		name = "GFX_news_header_generic"
+		texturefile = "gfx/interface/news_header/news_header_generic.png"
+		legacy_lazy_load = no
+	}
+}

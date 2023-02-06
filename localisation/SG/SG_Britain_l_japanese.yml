@@ -6,9 +6,9 @@ ENG_Oswald_Mosley:0 "オズワルド・モズレー"
 ENG_Edward_VIII:0 "エドワード8世"
 
 #イベント
-sg_worldnews.5.t:0 "ウィンストン・チャーチルが権力を維持"
-sg_worldnews.6.t:0 "ウィリングトン卿がロンドンを掌握"
-sg_worldnews.7.t:0 "オズワルド・モズレーが首相に登壇"
+sg_worldnews.5.t:0 "[GetNewsHeader]ウィンストン・チャーチルが権力を維持"
+sg_worldnews.6.t:0 "[GetNewsHeader]ウィリングトン卿がロンドンを掌握"
+sg_worldnews.7.t:0 "[GetNewsHeader]オズワルド・モズレーが首相に登壇"
 
 ENG_in_the_stormy_sea:0 "荒波に揉まれ"
 ENG_keep_course_by_churchill:0 "チャーチルが進路を保つ"

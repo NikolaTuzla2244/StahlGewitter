@@ -8,6 +8,7 @@ guiTypes = {
 		clipping = no
 		moveable = yes
 		size = { width = 700 height = 678 }
+		show_position = { x = 0 y = 0 }
 
 		show_animation_type = decelerated
 		hide_animation_type = accelerated

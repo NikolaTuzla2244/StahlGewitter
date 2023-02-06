@@ -46,7 +46,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "btn_minimize"
-				position = {x=10 y=45}
+				position = {x = 10 y = 45}
 				spriteType = "GFX_event_button_minimize"
 				clicksound = click_default
 				pdx_tooltip = "MINIMIZE_EVENT"
@@ -114,9 +114,9 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "options_grid"
-				position = { x = 215 y = -1 }
+				position = { x = 225 y = -1 }
 				size = { width = 300 height = 30 }
-				slotsize = { width = 300 height = 47 }
+				slotsize = { width = 300 height = 53 }
 				max_slots = {
 					x = 1
 					y = 4
@@ -492,7 +492,7 @@ guiTypes = {
 			iconType = {
 				name ="event_picture"
 				spriteType = "GFX_news_event_001"
-				position = { x = 64 y = 146 }
+				position = { x = 21 y = 154 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
@@ -500,14 +500,14 @@ guiTypes = {
 			iconType = {
 				name ="event_picture_overlay"
 				spriteType = "GFX_event_news_pic_overlay"
-				position = { x = 64 y = 146 }
+				position = { x = 21 y = 154 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}			
 			
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 50 y = 105 }
+				position = { x = 50 y = 20 }
 				font = "hoi4_typewriter22"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"	
@@ -518,7 +518,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "btn_minimize"
-				position = {x=0 y=30}
+				position = {x=10 y=30}
 				spriteType = "GFX_event_button_minimize"
 				clicksound = click_default
 			}
@@ -532,12 +532,12 @@ guiTypes = {
 		
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = 51 y = 135 }
+				position = { x = 12 y = 145 }
 				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
-				maxWidth = 240
-				maxHeight = 230
+				maxWidth = 315
+				maxHeight = 800
 				format = left
 			}	
 		}			
@@ -545,13 +545,13 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "bottom_Window"
-			position = { x=100 y=221 }	
+			position = { x = 62 y = 221 }	
 			size = { width = 581 height = 405 }
 			Orientation = UPPER_LEFT
 
 			gridBoxType = {
 				name = "options_grid"
-				position = { x = 110 y = -1 }
+				position = { x = 110 y = 30 }
 				size = { width = 300 height = 30 }
 				slotsize = { width = 300 height = 47 }
 				max_slots_horizontal = 1
@@ -572,8 +572,8 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = 5 y = 7 }
-			font = "hoi_20bs"
+			position = { x = 16 y = 9 }
+			font = "hoi4_typewriter16"
 			maxWidth = 250
 			maxHeight = 40
 			format = center

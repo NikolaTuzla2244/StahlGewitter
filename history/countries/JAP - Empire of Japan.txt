@@ -66,7 +66,7 @@ set_stability = 0.8
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = despotism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -95,45 +95,21 @@ add_ideas = {
 	personal_consignment_0
 	active_trade_1
 	volunteer_only_1
-	economy_market_fundamentalism
+	economy_military_economy
 	#development
-	SG_academic_5
+	SG_academic_4
 	SG_industry_5
-	SG_administration_3
+	SG_administration_5
 	SG_infrastructure_5
 	SG_network_3
-	SG_military_3
+	SG_military_4
 
 	ENG_Edward_VIII_HoG
 }
 
-create_faction = BRITISH_EMPIRE
-add_to_faction = ENG
-add_to_faction = CAN
-add_to_faction = AST
-add_to_faction = NZL
-add_to_faction = MAL
-
-set_autonomy = {
-	target = CAN
-	autonomy_state = autonomy_dominion
-}
-set_autonomy = {
-	target = AST
-	autonomy_state = autonomy_dominion
-}
-set_autonomy = {
-	target = NZL
-	autonomy_state = autonomy_dominion
-}
-set_autonomy = {
-	target = MAL
-	autonomy_state = autonomy_puppet
-}
-
-recruit_character = ENG_Winston_Churchill
-recruit_character = ENG_Freeman_Thomas
-recruit_character = ENG_Oswald_Mosley
-recruit_character = ENG_Edward_VIII
+# recruit_character = ENG_Winston_Churchill
+# recruit_character = ENG_Freeman_Thomas
+# recruit_character = ENG_Oswald_Mosley
+# recruit_character = ENG_Edward_VIII
 
 set_country_flag = has_sub_leader

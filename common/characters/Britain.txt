@@ -40,23 +40,5 @@ characters={
 				small = "gfx/interface/ideas/ENG/idea_ENG_Edward_VIII.png"
 			}
 		}
-		advisor = {
-			slot = Head_of_Government
-			idea_token = ENG_Edward_VIII_HoG
-
-			allowed = {
-				tag = ENG
-			}
-			allowed_to_remove = { 
-				always = no 
-			}
-			cost = 0
-			removal_cost = -1
-			traits = {
-				SG_trait_Monach
-				
-				SG_trait_Head_of_Government
-			}
-		}
 	}
 }

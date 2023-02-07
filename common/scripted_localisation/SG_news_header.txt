@@ -1,6 +1,24 @@
 defined_text = {
 	name = GetNewsHeader
 	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = news_header_german
+	}
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = news_header_britain
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+		}
+		localization_key = news_header_france
+	}
+	text = {
 		localization_key = news_header_generic
 	}
 }

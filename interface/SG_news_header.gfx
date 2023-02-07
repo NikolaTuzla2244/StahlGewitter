@@ -4,4 +4,19 @@ spritetypes = {
 		texturefile = "gfx/interface/news_header/news_header_generic.png"
 		legacy_lazy_load = no
 	}
+	spritetype = {
+		name = "GFX_news_header_german"
+		texturefile = "gfx/interface/news_header/news_header_german.png"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_news_header_britain"
+		texturefile = "gfx/interface/news_header/news_header_britain.png"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_news_header_france"
+		texturefile = "gfx/interface/news_header/news_header_france.png"
+		legacy_lazy_load = no
+	}
 }

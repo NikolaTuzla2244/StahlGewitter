@@ -67,6 +67,8 @@ surplus_text:0 "§G黒字§!"
 deficit_text:0 "§R赤字§!"
 balance_text:0 "§Y均衡状態§!"
 
+diplo_economy_level:0 "レベル:§Y[?THIS.economy_level]§!"
+
 disable_deficit:0 "§Y負債システムが無効である§!"
 
 economic_law_limit_tt:0 "§R使用不可§!"
@@ -88,6 +90,11 @@ investment_range_level:0 "§L上限 §!+[?investment_law_range|0]"
 trade_range_level:0 "§L上限 §!+[?trade_law_range|0]"
 conscription_range_level:0 "§L上限 §!+[?conscription_law_range|0]"
 ##ツールチップ
+SG_good_economic_index_modifier:0 "£good_economic_index_texticon §G良好§!経済指数"
+SG_bad_economic_index_modifier:0 "£bad_economic_index_texticon §R悪化§!経済指数"
+
 economy_progress_reset_tt:0 "経済進捗はリセットされる"
 economy_level_up_tt:0 "経済レベルが§G増加§!する"
 economy_level_down_tt:0 "経済レベルが§R減少§!する"
+
+diplo_economy_tt:0 "現在の経済レベルによる効果\n\n[GetEconomyModifier]"

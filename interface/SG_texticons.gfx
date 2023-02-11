@@ -1,0 +1,12 @@
+spritetypes = {
+	spritetype = {
+		name = "GFX_good_economic_index_texticon"
+		texturefile = "gfx/texticons/good_economic_index_texticon.png"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_bad_economic_index_texticon"
+		texturefile = "gfx/texticons/bad_economic_index_texticon.png"
+		legacy_lazy_load = no
+	}
+}

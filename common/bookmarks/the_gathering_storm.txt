@@ -14,7 +14,7 @@ bookmarks = {
 		
 		"USA" = {
 			history = "USA_BOOKMARK_DESC"
-			ideology = authoritarianism
+			ideology = conservative_democracy
 			ideas = {
 			}
 			focuses = {

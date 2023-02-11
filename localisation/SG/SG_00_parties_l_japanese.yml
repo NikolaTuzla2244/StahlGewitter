@@ -136,3 +136,16 @@ POL_despotism_party:0 "国家統一キャンプ"
 POL_despotism_party_long:0 "国家統一キャンプ"
 POL_authoritarian_socialism_party:0 "ポーランド共産党"
 POL_authoritarian_socialism_party_long:0 "ポーランド共産党"
+
+#アメリカ
+USA_conservative_democracy_party:0 "レムケ支持者・共和党"
+USA_conservative_democracy_party_long:0 "UP - レムケ支持者・共和党"
+USA_national_populism_party:0 "UP - ロング派"
+USA_national_populism_party_long:0 "連合党 - 富の共有運動"
+USA_national_socialism_party:0 "UP - カフリン派"
+USA_national_socialism_party_long:0 "連合党 - 社会正義全国同盟"
+USA_authoritarianism_party:0 "南部民主党"
+USA_authoritarianism_party_long:0 "南部民主党"
+USA_liberal_democracy_party:0 "民主党"
+USA_liberal_democracy_party_long:0 "民主党"
+ #フーヴァー(共和党)→

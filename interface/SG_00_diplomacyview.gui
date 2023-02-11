@@ -20,5 +20,32 @@ guiTypes = {
 			pdx_tooltip = pol_faction_icon_tt
 			pdx_tooltip_delayed = pol_faction_icon_delayed_tt
 		}
+
+		containerWindowType = {
+			name = "diplo_economy_window"
+			position = { x = 25 y = 280 }
+
+			instantTextboxType = {
+				name = "diplo_economy_type"
+				position = { x = 0 y = 0 }
+				font = "hoi_20bs"
+				text = [GetEconomyType]
+				maxWidth = 150
+				maxHeight = 20
+
+				pdx_tooltip = diplo_economy_tt
+			}
+			instantTextboxType = {
+				name = "diplo_economy_level"
+				position = { x = 0 y = 22 }
+				font = "hoi_20bs"
+				text = diplo_economy_level
+				maxWidth = 150
+				maxHeight = 20
+
+				pdx_tooltip = diplo_economy_tt
+			}
+		}
+		
 	}
 }

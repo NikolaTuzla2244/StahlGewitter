@@ -62,32 +62,49 @@ set_technology = {
 
 set_research_slots = 4
 set_convoys = 200
-set_stability = 0.8
+set_stability = 0.3
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = conservative_democracy
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarianism = 30
-	liberal_democracy = 40
-	conservative_democracy = 30 
+	conservative_democracy = 10
+	national_populism = 25
+	national_socialism = 20
+	authoritarianism = 10
+	liberal_democracy = 35
 }
+set_country_flag = SET_conservative_democracy
+set_country_flag = SET_national_populism
+set_country_flag = SET_national_socialism
+set_country_flag = SET_authoritarianism
+set_country_flag = SET_liberal_democracy
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-
+	#laws
 	economy_mixed_economy
+	#development
+	SG_academic_4
+	SG_industry_5
+	SG_administration_4
+	SG_infrastructure_5
+	SG_network_3
+	SG_military_3
 }
 
+recruit_character = USA_William_Lemke
 recruit_character = USA_Huey_Long
+recruit_character = USA_Charles_Coughlin
+recruit_character = USA_Wendell_Lewis_Willkie
+
+recruit_character = USA_Francis_Townsend
+
 
 promote_character = {
-	character = USA_Huey_Long
-	ideology = limited_democracy_subtype
+	character = USA_William_Lemke
+	ideology = conservative_democracy_subtype
 }

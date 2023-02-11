@@ -38,6 +38,7 @@ ideologies = {
 			stratocracy_nationalism_subtype = { can_be_randomly_selected = no }
 			national_syndicalism_subtype = { can_be_randomly_selected = no }
 			San_Min_fascism_subtype = { can_be_randomly_selected = no }
+			longism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 127 69 19 }

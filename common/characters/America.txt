@@ -1,4 +1,15 @@
 characters = {
+	USA_William_Lemke = {
+		name = USA_William_Lemke
+		portraits={
+			civilian={
+				large = "gfx/characters/large/USA/Portrait_USA_William_Lemke.png"
+			}
+		}
+		country_leader = {
+			ideology = conservative_democracy_subtype
+		}
+	}
 	USA_Huey_Long = {
 		name = USA_Huey_Long
 		portraits={
@@ -7,9 +18,41 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = limited_democracy_subtype
+			ideology = longism_subtype
 		}
 	}
+	USA_Charles_Coughlin = {
+		name = USA_Charles_Coughlin
+		portraits={
+			civilian={
+				large = "gfx/characters/large/USA/Portrait_USA_Charles_Coughlin.png"
+			}
+		}
+		country_leader = {
+			ideology = clerical_fascism_subtype
+		}
+	}
+	USA_Francis_Townsend = {
+		name = USA_Francis_Townsend
+		portraits={
+			civilian={
+				# large = "gfx/characters/large/USA/Portrait_USA_Francis_Townsend.png"
+			}
+		}
+		advisor = {
+			slot = Cabinet_Minister
+			idea_token = USA_Francis_Townsend
+			allowed = {
+				tag = USA
+			}
+			cost = 50
+			removal_cost = -1
+			traits = {
+				SG_trait_Cabinet_Minister
+			}
+		}
+	}
+	
 	LOU_Alvin_Olin_King = {
 		name = LOU_Alvin_Olin_King
 		portraits={
@@ -65,11 +108,11 @@ characters = {
 			ideology = social_liberalism_subtype
 		}
 	}
-	USR_Wendell_Lewis_Willkie = {
-		name = USR_Wendell_Lewis_Willkie
+	USA_Wendell_Lewis_Willkie = {
+		name = USA_Wendell_Lewis_Willkie
 		portraits={
 			civilian={
-				# large = "gfx/characters/large/USA/Portrait_USR_Wendell_Lewis_Willkie.png"
+				# large = "gfx/characters/large/USA/Portrait_USA_Wendell_Lewis_Willkie.png"
 			}
 		}
 		country_leader = {

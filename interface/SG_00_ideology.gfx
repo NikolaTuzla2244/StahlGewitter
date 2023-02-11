@@ -127,6 +127,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/San_Min_fascism_subtype.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_longism_subtype"
+		texturefile = "gfx/interface/ideologies/longism_subtype.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_warlordism_subtype"
 		texturefile = "gfx/interface/ideologies/warlordism_subtype.png"
 	}

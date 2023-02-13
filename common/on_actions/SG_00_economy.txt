@@ -42,6 +42,13 @@ on_actions = {
 				add_dynamic_modifier = {
 					modifier = SG_economy_level_effect_dynmod
 				}
+				add_dynamic_modifier = {
+					modifier = SG_economy_unemployment_effect_dynmod
+				}
+				
+				add_ideas = personal_consignment_0
+				add_ideas = open_trade_0
+				add_ideas = disarmed_nation_0
 
 				#必ず最後に置く
 				economy_index_calc = yes

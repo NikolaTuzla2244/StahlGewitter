@@ -9,5 +9,58 @@ ideas = {
 				surrender_limit = 0.5
 			}
 		}
+
+		USA_union_newdeal = {
+			picture = USA_union_newdeal
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				custom_modifier_tooltip = USA_union_newdeal_tt
+			}
+		}
+		USA_triangular_union = {
+			picture = USA_triangular_union
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.4
+			}
+		}
+		USA_great_depression = {
+			picture = USA_great_depression
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_cost = 1
+				local_resources_factor = -0.1
+				recruitable_population_factor = -0.4
+				production_factory_max_efficiency_factor = -0.5
+				production_factory_efficiency_gain_factor = -0.5
+				production_speed_buildings_factor = -0.75
+				industrial_capacity_factory = -0.7
+				industrial_capacity_dockyard = -0.7
+				consumer_goods_factor = 0.4
+
+				SG_bad_economic_index_modifier = 4
+			}
+		}
+		USA_dust_bowl = {
+			picture = USA_union_newdeal
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.15
+				monthly_population = -0.3
+				recruitable_population_factor = -0.3
+				production_factory_max_efficiency_factor = -0.2
+				production_factory_efficiency_gain_factor = -0.2
+
+				SG_bad_economic_index_modifier = 2
+			}
+		}
 	}
 }

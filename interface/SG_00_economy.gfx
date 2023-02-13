@@ -215,9 +215,29 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_SG_info_tab"
+		texturefile = "gfx/interface/economy/info_tab.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2
+	}
+	spriteType = {
 		name = "GFX_SG_economy_tab"
 		texturefile = "gfx/interface/economy/economy_tab.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		noOfFrames = 2
+	}
+
+	#type_icon
+	spriteType = {
+		name = "GFX_decentral_icon"
+		texturefile = "gfx/interface/economy/economy_types/decentral_icon.png"
+	}
+	spriteType = {
+		name = "GFX_mixture_icon"
+		texturefile = "gfx/interface/economy/economy_types/mixture_icon.png"
+	}
+	spriteType = {
+		name = "GFX_central_icon"
+		texturefile = "gfx/interface/economy/economy_types/central_icon.png"
 	}
 }

@@ -95,6 +95,31 @@ defined_text = {
 		localization_key = "Name"
 	}
 }
+defined_text = {
+	name = GetEconomyTypeIcon
+	text = {
+		trigger = {
+			has_country_flag = economy_type_decentral
+		}
+		localization_key = "GFX_decentral_icon"
+	}
+	text = {
+		trigger = {
+			has_country_flag = economy_type_mixture
+		}
+		localization_key = "GFX_mixture_icon"
+	}
+
+	text = {
+		trigger = {
+			has_country_flag = economy_type_central
+		}
+		localization_key = "GFX_central_icon"
+	}
+	text = {
+		localization_key = "GFX_decentral_icon"
+	}
+}
 
 defined_text = {
 	name = DivisionLimitLoc
@@ -133,6 +158,23 @@ defined_text = {
 		localization_key = economy_war_mobilization
 	}
 }
+
+defined_text = {
+	name = economy_modifier_text
+	text = {
+		trigger = {
+			check_variable = { economy_info = 0 }
+		}
+		localization_key = economy_type_modifier_text
+	}
+	text = {
+		trigger = {
+			check_variable = { economy_info = 1 }
+		}
+		localization_key = unemployment_modifier_text
+	}
+}
+
 ###Economy Idea3
 defined_text = {
 	name = EconomyIdeaName

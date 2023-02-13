@@ -20,16 +20,25 @@ characters = {
 		country_leader = {
 			ideology = longism_subtype
 		}
+		#Head_of_Goverment
 	}
 	USA_Charles_Coughlin = {
 		name = USA_Charles_Coughlin
 		portraits={
 			civilian={
 				large = "gfx/characters/large/USA/Portrait_USA_Charles_Coughlin.png"
+				small = "gfx/characters/small/USA/idea_USA_Charles_Coughlin.png"
 			}
 		}
 		country_leader = {
 			ideology = clerical_fascism_subtype
+		}
+		advisor = {
+			slot = Cabinet_Minister
+			idea_token = USA_Charles_Coughlin
+			traits = { SG_trait_radio_priest }
+			cost = 0
+			removal_cost = 300
 		}
 	}
 	USA_Francis_Townsend = {
@@ -37,22 +46,37 @@ characters = {
 		portraits={
 			civilian={
 				# large = "gfx/characters/large/USA/Portrait_USA_Francis_Townsend.png"
+				small = "gfx/characters/small/USA/idea_USA_Francis_Townsend.png"
 			}
 		}
 		advisor = {
 			slot = Cabinet_Minister
 			idea_token = USA_Francis_Townsend
-			allowed = {
-				tag = USA
-			}
-			cost = 50
-			removal_cost = -1
-			traits = {
-				SG_trait_Cabinet_Minister
-			}
+			traits = { SG_trait_hard_headed_reformer }
+			cost = 0
+			removal_cost = 300
 		}
 	}
-	
+	USA_Richard_Russell_Jr = {
+		name = USA_Richard_Russell_Jr
+		portraits={
+			civilian={
+				large = "gfx/characters/large/USA/Portrait_USA_Richard_Russell_Jr.png"
+				small = "gfx/characters/small/USA/idea_USA_Richard_Russell_Jr.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarianism_subtype
+		}
+		advisor = {
+			slot = Cabinet_Minister
+			idea_token = USA_Richard_Russell_Jr
+			traits = { SG_trait_southern_fort }
+			cost = 0
+			removal_cost = 300
+		}
+	}
+
 	LOU_Alvin_Olin_King = {
 		name = LOU_Alvin_Olin_King
 		portraits={
@@ -84,17 +108,6 @@ characters = {
 		}
 		country_leader = {
 			ideology = ethnic_supremacy_subtype
-		}
-	}
-	DIX_Richard_Russell_Jr = {
-		name = DIX_Richard_Russell_Jr
-		portraits={
-			civilian={
-				large = "gfx/characters/large/USA/Portrait_DIX_Richard_Russell_Jr.png"
-			}
-		}
-		country_leader = {
-			ideology = national_populism_subtype
 		}
 	}
 	GCM_W_E_B_Du_Bois = {

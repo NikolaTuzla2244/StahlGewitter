@@ -31,6 +31,9 @@ scripted_gui = {
 			faction_icon = {
 				image = "[THIS.SGGetFactionIcon]"
 			}
+			diplo_economy_type_icon = {
+				image = "[GetEconomyTypeIcon]"
+			}
 		}
 	}
 }

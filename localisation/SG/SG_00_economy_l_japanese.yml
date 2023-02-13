@@ -55,10 +55,13 @@ economy_law:0 "経済法"
 
 economy_level_text:0 "LEVEL / [?economy_level|Y0]"
 economy_type_modifier_text:0 "現在の経済レベルによる効果 :\n[GetEconomyModifier]"
+unemployment_modifier_text:0 "現在の失業率による影響 :\n$unemployment_modifier$"
 
 economy_type_decentral_modifier:0 "$MODIFIER_CONSUMER_GOODS_FACTOR$: [?ecomod_consumer_goods|Y1%]\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?ecomod_production_factory_max_efficiency|+0%]\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?ecomod_production_factory_start_efficiency|+0%]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?ecomod_production_speed_buildings|+2%]\n$MODIFIER_LOCAL_BUILDING_SLOTS_FACTOR$: [?ecomod_local_building_slots_factor|+0%]\n$MODIFIER_LOCAL_RESOURCES_FACTOR$: [?ecomod_local_resources|+0%]"
 economy_type_mixture_modifier:0 "$MODIFIER_CONSUMER_GOODS_FACTOR$: [?ecomod_consumer_goods|Y1%]\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?ecomod_production_factory_max_efficiency|+0%]\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?ecomod_production_factory_start_efficiency|+0%]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?ecomod_production_speed_buildings|+2%]\n$MODIFIER_LOCAL_BUILDING_SLOTS_FACTOR$: [?ecomod_local_building_slots_factor|+0%]\n$MODIFIER_LOCAL_RESOURCES_FACTOR$: [?ecomod_local_resources|+0%]"
 economy_type_central_modifier:0 "$MODIFIER_CONSUMER_GOODS_FACTOR$: [?ecomod_consumer_goods|Y1%]\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?ecomod_production_factory_max_efficiency|+0%]\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?ecomod_production_factory_start_efficiency|+0%]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?ecomod_production_speed_buildings|+2%]\n$MODIFIER_LOCAL_BUILDING_SLOTS_FACTOR$: [?ecomod_local_building_slots_factor|+0%]\n$MODIFIER_LOCAL_RESOURCES_FACTOR$: [?ecomod_local_resources|+0%]"
+
+unemployment_modifier:0 "$MODIFIER_CONSUMER_GOODS_FACTOR$: [?empmod_consumer_goods|Y1%]\n$MODIFIER_STABILITY_FACTOR$: [?empmod_stability_factor|+0%]\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY$: [?empmod_production_factory_max_efficiency|+0%]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?empmod_production_speed_buildings|+0%]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?empmod_industrial_capacity_factory|+0%]\n$MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$: [?empmod_industrial_capacity_dockyard|+0%]\n$MODIFIER_LOCAL_RESOURCES_FACTOR$: [?empmod_local_resources|+0%]\n$MODIFIER_RECRUITABLE_POPULATION_FACTOR$: [?empmod_recruitable_population_factor|+0%]\n$SG_bad_economic_index_modifier$: §R+§![?empmod_bad_economic_index|R0]\n"
 
 SG_is_surplus:0 "財政状況が§G黒字§!である"
 SG_is_deficit:0 "財政状況が§R赤字§!である"
@@ -89,6 +92,8 @@ economy_war_mobilization_disabled:0 "§R$economy_war_mobilization$§!"
 investment_range_level:0 "§L上限 §!+[?investment_law_range|0]"
 trade_range_level:0 "§L上限 §!+[?trade_law_range|0]"
 conscription_range_level:0 "§L上限 §!+[?conscription_law_range|0]"
+
+economy_unemployment_text:0 "失業率: [?unemployment_rate|Y%2]"
 ##ツールチップ
 SG_good_economic_index_modifier:0 "£good_economic_index_texticon §G良好§!経済指数"
 SG_bad_economic_index_modifier:0 "£bad_economic_index_texticon §R悪化§!経済指数"

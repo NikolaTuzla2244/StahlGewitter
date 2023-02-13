@@ -1,0 +1,379 @@
+focus_tree = { #30
+	id = SG_america_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	default = no
+
+	focus = {
+		id = USA_US_of_Troika
+		icon = GFX_goal_unknown
+		x = 5
+		y = 0
+		cost = 3
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Union_Party_begin_unity
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 5
+		# search_filters = {}
+		relative_position_id = USA_US_of_Troika
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_US_of_Troika
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Diplomacy_to_Louisiana
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Union_Party_begin_unity
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Union_Party_begin_unity
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Dealings_with_Church
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Union_Party_begin_unity
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Union_Party_begin_unity
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_New_Deal_Coalition
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Diplomacy_to_Louisiana
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Diplomacy_to_Louisiana
+		}
+		prerequisite = {
+			focus = USA_Southern_Strategy
+		}
+		prerequisite = {
+			focus = USA_Dealings_with_Church
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Southern_Strategy
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Union_Party_begin_unity
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Union_Party_begin_unity
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Stand_on_Podium
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 5
+		# search_filters = {}
+		relative_position_id = USA_US_of_Troika
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_US_of_Troika
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Negative_Campaign_Against_RD
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Stand_on_Podium
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Stand_on_Podium
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Diplomatic_Agitation
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Stand_on_Podium
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Stand_on_Podium
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Checkmate
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Negative_Campaign_Against_RD
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Negative_Campaign_Against_RD
+		}
+		prerequisite = {
+			focus = USA_Diplomatic_Agitation
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Good_Things_Come_to_Those_Who_Wait
+		icon = GFX_goal_unknown
+		x = 0
+		y = 4
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_US_of_Troika
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Checkmate
+		}
+		prerequisite = {
+			focus = USA_New_Deal_Coalition
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+}
+focus_tree = {
+	id = SG_america_after_election_focus
+
+	country = {
+		factor = 0
+	}
+	default = no
+
+	focus = {
+		id = USA_Messianic_Regime
+		icon = GFX_goal_unknown
+		x = 10
+		y = 0
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_National_Rescue_Program
+		icon = GFX_goal_unknown
+		x = -5
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Messianic_Regime
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Messianic_Regime
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Full_Employment_Plan
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_National_Rescue_Program
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_National_Rescue_Program
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Establishment_TVA
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Full_Employment_Plan
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Full_Employment_Plan
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Reach_Out_Weak
+		icon = GFX_goal_unknown
+		x = -3
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_National_Rescue_Program
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_National_Rescue_Program
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+}

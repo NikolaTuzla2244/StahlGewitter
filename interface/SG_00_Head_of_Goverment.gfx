@@ -1,0 +1,7 @@
+spriteTypes = {
+	#国民精神
+	spriteType = {
+		name = "GFX_idea_USA_Huey_Long"
+		texturefile = "gfx/characters/small/USA/idea_USA_Huey_Long.png"
+	}
+}

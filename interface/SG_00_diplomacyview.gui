@@ -35,6 +35,13 @@ guiTypes = {
 
 				pdx_tooltip = diplo_economy_tt
 			}
+			iconType ={
+				name ="diplo_economy_type_icon"
+				position = { x = 77 y = -5 }
+				Orientation = "UPPER_LEFT"
+
+				pdx_tooltip = diplo_economy_tt
+			}
 			instantTextboxType = {
 				name = "diplo_economy_level"
 				position = { x = 0 y = 22 }

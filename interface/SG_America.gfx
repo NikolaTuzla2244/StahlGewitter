@@ -1,0 +1,19 @@
+spriteTypes = {
+	#国民精神
+	spriteType = {
+		name = "GFX_idea_USA_union_newdeal"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_union_newdeal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_triangular_union"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_triangular_union.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_great_depression"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_great_depression.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_dust_bowl"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_dust_bowl.png"
+	}
+}

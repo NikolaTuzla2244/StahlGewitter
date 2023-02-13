@@ -12,7 +12,6 @@ leader_traits = {
 
 	#position
 	SG_trait_Head_of_Government = { random = no }
-	SG_trait_Cabinet_Minister = { random = no }
 
 	SG_trait_Monach = { random = no }
 	

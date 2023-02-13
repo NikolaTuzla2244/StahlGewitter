@@ -16,12 +16,11 @@ on_actions = {
 					limit = { check_variable = { conscription_law_range = 0 } }
 					set_variable = { conscription_law_range = 2 }
 				}
-				add_ideas = personal_consignment_0
-				add_ideas = open_trade_0
-				add_ideas = disarmed_nation_0
 
 				set_variable = { economy_level = 3 }
 				economy_type_setup_mixture = yes
+
+				set_variable = { unemployment_rate = 0.0 }
 			}
 			
 			ENG = {
@@ -357,12 +356,21 @@ on_actions = {
 			USA = {
 				set_variable = { economy_level = 10 }
 				economy_type_setup_mixture = yes
+				set_variable = { unemployment_rate = 0.25 }
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
+				set_variable = { investment_law_range = 0 }
+				set_variable = { trade_law_range = 0 }
+				set_variable = { conscription_law_range = 0 }
 			}
 
+			
+			for_each_scope_loop = {
+				array = countries
+
+				#失業率アイデア計算
+				unemployment_mod_calc = yes
+			}
+			
 		}
 	}
 }

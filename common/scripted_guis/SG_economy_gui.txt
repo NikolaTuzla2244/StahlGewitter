@@ -111,6 +111,13 @@ scripted_gui = {
 				}
 			}
 
+			level_tab_button_click_enabled = {
+				NOT = { check_variable = { economy_info = 0 } }
+			}
+			unemployment_tab_button_click_enabled = {
+				NOT = { check_variable = { economy_info = 1 } }
+			}
+
 			#cursor spam
 			cursor_icon_0_visible = {
 				if = {
@@ -242,6 +249,13 @@ scripted_gui = {
 
 				economy_index_calc = yes
 			}
+
+			level_tab_button_click = {
+				set_variable = { economy_info = 0 }
+			}
+			unemployment_tab_button_click = {
+				set_variable = { economy_info = 1 }
+			}
 		}
 
 		dynamic_lists = {
@@ -268,6 +282,9 @@ scripted_gui = {
 		properties = {
 			economy_ideology_icon = {
 				image = "[GetEconomyIdeologyIcon]"
+			}
+			economy_type_icon = {
+				image = "[GetEconomyTypeIcon]"
 			}
 
 			progress_cursor = {
@@ -300,6 +317,9 @@ scripted_gui = {
 			
 			law_entry_up_button = { frame = 1 }
 			law_entry_down_button = { frame = 2 }
+
+			level_tab_button = { frame = 1 }
+			unemployment_tab_button = { frame = 2 }
 
 			# economy_revenue_limit_ProgressBar = { frame = revenue_ratio }
 

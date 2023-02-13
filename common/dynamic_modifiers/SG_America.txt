@@ -1,0 +1,20 @@
+USA_union_newdeal_dynmod = {
+	enable = { always = yes }
+	#fixed
+	consumer_goods_factor = 0.2
+	SG_bad_economic_index_modifier = 3
+
+	#variable
+	political_power_gain = newdeal_political_power_gain
+	stability_factor = newdeal_stability_factor
+	monthly_population = newdeal_monthly_population
+
+	production_speed_buildings_factor = newdeal_production_speed_buildings_factor
+	production_speed_infrastructure_factor = newdeal_production_speed_infrastructure_factor
+	industry_repair_factor = newdeal_industry_repair_factor
+
+	local_resources_factor = newdeal_local_resources_factor
+
+	#case
+	SG_good_economic_index_modifier = newdeal_economic_index
+}

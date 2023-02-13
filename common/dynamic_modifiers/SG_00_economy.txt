@@ -7,7 +7,7 @@
 
 SG_economy_level_effect_dynmod = {
 	enable = { always = yes }
-	icon = GFX_idea_generic_production_bonus
+	# icon = GFX_idea_generic_production_bonus
 
 	consumer_goods_factor = ecomod_consumer_goods
 
@@ -17,4 +17,20 @@ SG_economy_level_effect_dynmod = {
 	
 	local_building_slots_factor = ecomod_local_building_slots_factor
 	local_resources = ecomod_local_resources
+}
+SG_economy_unemployment_effect_dynmod = {
+	enable = { always = yes }
+	icon = GFX_idea_generic_production_bonus
+
+	consumer_goods_factor = empmod_consumer_goods
+	stability_factor = empmod_stability_factor
+
+	production_factory_max_efficiency_factor = empmod_production_factory_max_efficiency
+	production_speed_buildings_factor = empmod_production_speed_buildings
+	industrial_capacity_factory = empmod_industrial_capacity_factory
+	industrial_capacity_dockyard = empmod_industrial_capacity_dockyard
+
+	local_resources = empmod_local_resources
+	recruitable_population_factor = empmod_recruitable_population_factor
+	SG_bad_economic_index_modifier = empmod_bad_economic_index
 }

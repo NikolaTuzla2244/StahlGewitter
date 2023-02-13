@@ -40,7 +40,7 @@ characters={
 			traits = {
 				SG_trait_GER_SA
 				
-				SG_trait_Cabinet_Minister
+				
 			}
 		}
 	}
@@ -71,7 +71,7 @@ characters={
 			traits = {
 				SG_trait_GER_left
 
-				SG_trait_Cabinet_Minister
+				
 			}
 		}
 	}
@@ -100,7 +100,7 @@ characters={
 			traits = {
 				SG_trait_GER_right
 
-				SG_trait_Cabinet_Minister
+				
 			}
 		}
 	}
@@ -128,7 +128,7 @@ characters={
 			traits = {
 				SG_trait_GER_right
 				
-				SG_trait_Cabinet_Minister
+				
 			}
 		}
 	}
@@ -156,7 +156,7 @@ characters={
 			traits = {
 				SG_trait_GER_right
 				
-				SG_trait_Cabinet_Minister
+				
 			}
 		}
 	}
@@ -184,7 +184,7 @@ characters={
 			traits = {
 				SG_trait_GER_right
 				
-				SG_trait_Cabinet_Minister
+				
 			}
 		}
 	}
@@ -212,7 +212,7 @@ characters={
 			traits = {
 				SG_trait_national_socialism
 				
-				SG_trait_Cabinet_Minister
+				
 			}
 		}
 	}
@@ -241,7 +241,7 @@ characters={
 			traits = {
 				SG_trait_GER_left
 				
-				SG_trait_Cabinet_Minister
+				
 			}
 		}
 	}
@@ -269,7 +269,7 @@ characters={
 			traits = {
 				SG_trait_GER_SS
 				
-				SG_trait_Cabinet_Minister
+				
 			}
 		}
 	}
@@ -297,7 +297,7 @@ characters={
 			traits = {
 				SG_trait_national_socialism
 				
-				SG_trait_Cabinet_Minister
+				
 			}
 		}
 	}
@@ -325,7 +325,7 @@ characters={
 			traits = {
 				SG_trait_national_socialism
 				
-				SG_trait_Cabinet_Minister
+				
 			}
 		}
 	}
@@ -353,7 +353,7 @@ characters={
 			traits = {
 				SG_trait_national_socialism
 				
-				SG_trait_Cabinet_Minister
+				
 			}
 		}
 	}

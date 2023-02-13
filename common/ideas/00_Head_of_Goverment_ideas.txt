@@ -20,5 +20,23 @@ ideas = {
 				SG_trait_Head_of_Government
 			}
 		}
+		USA_Huey_Long_HoG = {		
+			picture = USA_Huey_Long
+			allowed = {
+				tag = USA
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			traits = {			
+				SG_trait_Head_of_Government
+
+				SG_trait_king_fish 
+			}
+		}
 	}
 }

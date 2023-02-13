@@ -1,0 +1,12 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			USA = {
+				set_variable = { newdeal_effect_factor = 0.4 }
+
+				USA_union_newdeal_calc = yes
+			}
+			
+		}
+	}
+}

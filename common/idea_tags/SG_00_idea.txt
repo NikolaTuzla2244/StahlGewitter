@@ -23,6 +23,23 @@ idea_categories = {
 		ledger = hidden
 	}
 	
+	minister = {
+		# character_slot = political_advisor
+		# character_slot = political_advisor
+		# character_slot = political_advisor
+		# character_slot = political_advisor
+		slot = Head_of_Government
+		character_slot = Cabinet_Minister
+		character_slot = Cabinet_Minister
+		character_slot = Cabinet_Minister
+		character_slot = Cabinet_Minister
+		character_slot = Cabinet_Minister
+		
+		ledger = civilian
+		
+		cost = 100
+		removal_cost = 0
+	}
 	
 	development = {
 		slot = academic_level
@@ -46,23 +63,7 @@ idea_categories = {
 		removal_cost = -1
 	}
 
-	minister = {
-		# character_slot = political_advisor
-		# character_slot = political_advisor
-		# character_slot = political_advisor
-		# character_slot = political_advisor
-		slot = Head_of_Government
-		character_slot = Cabinet_Minister
-		character_slot = Cabinet_Minister
-		character_slot = Cabinet_Minister
-		character_slot = Cabinet_Minister
-		character_slot = Cabinet_Minister
-		
-		ledger = civilian
-		
-		cost = -1
-		removal_cost = -1
-	}
+	
 	
 	production_company = {
 		slot = Manufacturer

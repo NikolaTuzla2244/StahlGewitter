@@ -88,21 +88,35 @@ add_ideas = {
 	#laws
 	economy_mixed_economy
 	#development
-	SG_academic_4
+	SG_academic_5
 	SG_industry_5
 	SG_administration_4
 	SG_infrastructure_5
 	SG_network_3
 	SG_military_3
+
+	USA_union_newdeal
+	USA_triangular_union
+	USA_great_depression
+	USA_dust_bowl
+
+	USA_Huey_Long_HoG
+}
+add_dynamic_modifier = {
+	modifier = USA_union_newdeal_dynmod
 }
 
 recruit_character = USA_William_Lemke
 recruit_character = USA_Huey_Long
 recruit_character = USA_Charles_Coughlin
 recruit_character = USA_Wendell_Lewis_Willkie
+recruit_character = USA_Richard_Russell_Jr
 
 recruit_character = USA_Francis_Townsend
 
+activate_advisor = USA_Charles_Coughlin
+activate_advisor = USA_Francis_Townsend
+activate_advisor = USA_Richard_Russell_Jr
 
 promote_character = {
 	character = USA_William_Lemke

@@ -401,6 +401,72 @@ check_economy_idea = {
 	}
 }
 
+unemployment_mod_calc = {
+	#weight
+	set_temp_variable = { empmod_consumer_goods_temp = 1.2 }
+	set_temp_variable = { empmod_stability_factor_temp = -0.75 }
+
+	set_temp_variable = { empmod_production_factory_max_efficiency_temp = -1.2 }
+	set_temp_variable = { empmod_production_speed_buildings_temp = -1.5 }
+	set_temp_variable = { empmod_industrial_capacity_factory_temp = -1.8 }
+	set_temp_variable = { empmod_industrial_capacity_dockyard_temp = -1.8 }
+
+	set_temp_variable = { empmod_local_resources_temp = -1.0 }
+	set_temp_variable = { empmod_recruitable_population_factor_temp = -1.2 }
+
+	#calc
+	multiply_temp_variable = { empmod_consumer_goods_temp = unemployment_rate }
+	multiply_temp_variable = { empmod_stability_factor_temp = unemployment_rate }
+
+	multiply_temp_variable = { empmod_production_factory_max_efficiency_temp = unemployment_rate }
+	multiply_temp_variable = { empmod_production_speed_buildings_temp = unemployment_rate }
+	multiply_temp_variable = { empmod_industrial_capacity_factory_temp = unemployment_rate }
+	multiply_temp_variable = { empmod_industrial_capacity_dockyard_temp = unemployment_rate }
+
+	multiply_temp_variable = { empmod_local_resources_temp = unemployment_rate }
+	multiply_temp_variable = { empmod_recruitable_population_factor_temp = unemployment_rate }
+
+	#dainyu~
+	set_variable = { empmod_consumer_goods = empmod_consumer_goods_temp }
+	set_variable = { empmod_stability_factor = empmod_stability_factor_temp }
+
+	set_variable = { empmod_production_factory_max_efficiency = empmod_production_factory_max_efficiency_temp }
+	set_variable = { empmod_production_speed_buildings = empmod_production_speed_buildings_temp }
+	set_variable = { empmod_industrial_capacity_factory = empmod_industrial_capacity_factory_temp }
+	set_variable = { empmod_industrial_capacity_dockyard = empmod_industrial_capacity_dockyard_temp }
+
+	set_variable = { empmod_local_resources = empmod_local_resources_temp }
+	set_variable = { empmod_recruitable_population_factor = empmod_recruitable_population_factor_temp }
+
+	###index case
+	if = {
+		limit = { check_variable = { unemployment_rate > 0.5 } }
+		set_variable = { empmod_bad_economic_index = 10 }
+	}
+	else_if = {
+		limit = { check_variable = { unemployment_rate > 0.25 } }
+		set_variable = { empmod_bad_economic_index = 5 }
+	}
+	else_if = {
+		limit = { check_variable = { unemployment_rate > 0.2 } }
+		set_variable = { empmod_bad_economic_index = 4 }
+	}
+	else_if = {
+		limit = { check_variable = { unemployment_rate > 0.15 } }
+		set_variable = { empmod_bad_economic_index = 3 }
+	}
+	else_if = {
+		limit = { check_variable = { unemployment_rate > 0.1 } }
+		set_variable = { empmod_bad_economic_index = 2 }
+	}
+	else_if = {
+		limit = { check_variable = { unemployment_rate > 0.05 } }
+		set_variable = { empmod_bad_economic_index = 1 }
+	}
+	else = {
+		set_variable = { empmod_bad_economic_index = 0 }
+	}
+}
 
 ###経済方策
 # This effect is old economy_system

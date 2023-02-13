@@ -12,3 +12,50 @@ USA_declare_warlords = {
 		}
 	}
 }
+USA_union_newdeal_calc = {
+	#clamp
+	clamp_variable = {
+		var = newdeal_effect_factor
+		min = 0
+		max = 1
+	}
+	
+	#max_weight
+	set_temp_variable = { newdeal_political_power_gain_temp = 0.2 }
+	set_temp_variable = { newdeal_stability_factor_temp = 0.2 }
+	set_temp_variable = { newdeal_monthly_population_temp = 0.35 }
+
+	set_temp_variable = { newdeal_production_speed_buildings_factor_temp = 0.2 }
+	set_temp_variable = { newdeal_production_speed_infrastructure_factor_temp = 0.25 }
+	set_temp_variable = { newdeal_industry_repair_factor_temp = 0.25 }
+
+	set_temp_variable = { newdeal_local_resources_factor_temp = 0.3 }
+
+	set_temp_variable = { newdeal_economic_index_temp = 4 }
+
+	#calc
+	multiply_temp_variable = { newdeal_political_power_gain_temp = newdeal_effect_factor }
+	multiply_temp_variable = { newdeal_stability_factor_temp = newdeal_effect_factor }
+	multiply_temp_variable = { newdeal_monthly_population_temp =  newdeal_effect_factor }
+
+	multiply_temp_variable = { newdeal_production_speed_buildings_factor_temp = newdeal_effect_factor }
+	multiply_temp_variable = { newdeal_production_speed_infrastructure_factor_temp =  newdeal_effect_factor }
+	multiply_temp_variable = { newdeal_industry_repair_factor_temp =  newdeal_effect_factor }
+
+	multiply_temp_variable = { newdeal_local_resources_factor_temp = newdeal_effect_factor }
+	
+	multiply_temp_variable = { newdeal_economic_index_temp = newdeal_effect_factor }
+	round_variable = newdeal_economic_index_temp
+	#set
+	set_variable = { newdeal_political_power_gain = newdeal_political_power_gain_temp }
+	set_variable = { newdeal_stability_factor = newdeal_stability_factor_temp }
+	set_variable = { newdeal_monthly_population = newdeal_monthly_population_temp }
+
+	set_variable = { newdeal_production_speed_buildings_factor = newdeal_production_speed_buildings_factor_temp }
+	set_variable = { newdeal_production_speed_infrastructure_factor = newdeal_production_speed_infrastructure_factor_temp }
+	set_variable = { newdeal_industry_repair_factor = newdeal_industry_repair_factor_temp }
+
+	set_variable = { newdeal_local_resources_factor = newdeal_local_resources_factor_temp }
+
+	set_variable = { newdeal_economic_index = newdeal_economic_index_temp }
+}

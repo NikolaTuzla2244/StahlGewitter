@@ -10,7 +10,7 @@ SG_trait_social_liberalism:0 "革新社会主義者"
 SG_trait_authoritarian_socialism:0 "権威社会主義者"
 
 SG_trait_Head_of_Government:0 "" #政府首班
-SG_trait_Cabinet_Minister:0 "" #内閣
+:0 "" #内閣
 
 SG_trait_Monach:0 "君主"
 

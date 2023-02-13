@@ -1,0 +1,30 @@
+leader_traits = {
+	SG_trait_king_fish = {
+		random = no
+		
+		political_power_factor = 0.15
+		consumer_goods_factor = 0.03
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_efficiency_gain_factor = -0.02
+	}
+	SG_trait_radio_priest = {
+		random = no
+		
+		political_power_factor = 0.15
+		drift_defence_factor = 0.1
+		authoritarian_socialism_acceptance = -50
+		social_liberalism_acceptance = -50
+	}
+	SG_trait_hard_headed_reformer = {
+		random = no
+		
+		political_power_factor = 0.10
+		consumer_goods_factor = 0.01
+	}
+	SG_trait_southern_fort = {
+		random = no
+		
+		political_power_cost = 0.01
+		stability_weekly_factor = 0.002
+	}
+}

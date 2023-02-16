@@ -11,8 +11,13 @@ focus_tree = { #30
 	}
 	default = no
 
+	continuous_focus_position = {
+		x = 200
+		y = 1500
+	}
+	
 	focus = {
-		id = USA_US_of_Troika
+		id = USA_Populist_Troika
 		icon = GFX_goal_unknown
 		x = 5
 		y = 0
@@ -30,35 +35,13 @@ focus_tree = { #30
 		}
 	}
 	focus = {
-		id = USA_Union_Party_begin_unity
-		icon = GFX_goal_unknown
-		x = 2
-		y = 1
-		cost = 5
-		# search_filters = {}
-		relative_position_id = USA_US_of_Troika
-		
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 0
-		}
-		prerequisite = {
-			focus = USA_US_of_Troika
-		}
-		available = {
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
 		id = USA_Diplomacy_to_Louisiana
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
 		cost = 7.2
 		# search_filters = {}
-		relative_position_id = USA_Union_Party_begin_unity
+		relative_position_id = USA_Populist_Troika
 		
 		available_if_capitulated = yes
 
@@ -66,7 +49,7 @@ focus_tree = { #30
 			factor = 0
 		}
 		prerequisite = {
-			focus = USA_Union_Party_begin_unity
+			focus = USA_Populist_Troika
 		}
 		available = {
 		}
@@ -80,7 +63,7 @@ focus_tree = { #30
 		y = 1
 		cost = 7.2
 		# search_filters = {}
-		relative_position_id = USA_Union_Party_begin_unity
+		relative_position_id = USA_Populist_Troika
 		
 		available_if_capitulated = yes
 
@@ -88,7 +71,29 @@ focus_tree = { #30
 			factor = 0
 		}
 		prerequisite = {
-			focus = USA_Union_Party_begin_unity
+			focus = USA_Populist_Troika
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Southern_Strategy
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Populist_Troika
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Populist_Troika
 		}
 		available = {
 		}
@@ -124,21 +129,21 @@ focus_tree = { #30
 		}
 	}
 	focus = {
-		id = USA_Southern_Strategy
+		id = USA_Union_Government
 		icon = GFX_goal_unknown
-		x = -2
+		x = 0
 		y = 1
-		cost = 7.2
+		cost = 3
 		# search_filters = {}
-		relative_position_id = USA_Union_Party_begin_unity
+		relative_position_id = USA_New_Deal_Coalition
 		
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 0
+			factor = 30
 		}
 		prerequisite = {
-			focus = USA_Union_Party_begin_unity
+			focus = USA_New_Deal_Coalition
 		}
 		available = {
 		}
@@ -146,13 +151,13 @@ focus_tree = { #30
 		}
 	}
 	focus = {
-		id = USA_Stand_on_Podium
+		id = USA_State_Policy
 		icon = GFX_goal_unknown
-		x = -2
+		x = -1
 		y = 1
-		cost = 5
+		cost = 3
 		# search_filters = {}
-		relative_position_id = USA_US_of_Troika
+		relative_position_id = USA_Union_Government
 		
 		available_if_capitulated = yes
 
@@ -160,7 +165,240 @@ focus_tree = { #30
 			factor = 0
 		}
 		prerequisite = {
-			focus = USA_US_of_Troika
+			focus = USA_Union_Government
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Claiming_Superiority_Jim_Crow
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_State_Policy
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_State_Policy
+		}
+		mutually_exclusive = {
+			focus = USA_Old_Age_Pension_Increase
+			focus = USA_Launching_Huge_Public_Works
+			focus = USA_Struggle_with_Conspiracies
+		}
+		available = {
+			USA_Richard_Russell_Jr = {
+				is_country_leader = yes
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Townsend_Plan_Movement
+		icon = GFX_goal_unknown
+		x = -3
+		y = 1
+		cost = 5
+		# search_filters = {}
+		relative_position_id = USA_Union_Government
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Union_Government
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Old_Age_Pension_Increase
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Townsend_Plan_Movement
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Townsend_Plan_Movement
+		}
+		mutually_exclusive = {
+			focus = USA_Claiming_Superiority_Jim_Crow
+			focus = USA_Launching_Huge_Public_Works
+			focus = USA_Struggle_with_Conspiracies
+		}
+		available = {
+			USA_Francis_Townsend = {
+				is_country_leader = yes
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Share_Our_Wealth
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 5
+		# search_filters = {}
+		relative_position_id = USA_Union_Government
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Union_Government
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Launching_Huge_Public_Works
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Share_Our_Wealth
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Share_Our_Wealth
+		}
+		mutually_exclusive = {
+			focus = USA_Old_Age_Pension_Increase
+			focus = USA_Claiming_Superiority_Jim_Crow
+			focus = USA_Struggle_with_Conspiracies
+		}
+		available = {
+			USA_Huey_Long = {
+				is_country_leader = yes
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Social_Justice
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 5
+		# search_filters = {}
+		relative_position_id = USA_Union_Government
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Union_Government
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Struggle_with_Conspiracies
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Social_Justice
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Social_Justice
+		}
+		mutually_exclusive = {
+			focus = USA_Old_Age_Pension_Increase
+			focus = USA_Claiming_Superiority_Jim_Crow
+			focus = USA_Launching_Huge_Public_Works
+		}
+		available = {
+			USA_charles_coughlin = {
+				is_country_leader = yes
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Stand_on_Podium
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		cost = 5
+		# search_filters = {}
+		relative_position_id = USA_Union_Government
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Social_Justice
+			focus = USA_Share_Our_Wealth
+			focus = USA_State_Policy
+			focus = USA_Townsend_Plan_Movement
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Balance_Politics
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Stand_on_Podium
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Stand_on_Podium
 		}
 		available = {
 		}
@@ -170,7 +408,29 @@ focus_tree = { #30
 	focus = {
 		id = USA_Negative_Campaign_Against_RD
 		icon = GFX_goal_unknown
-		x = 0
+		x = 3
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Stand_on_Podium
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Stand_on_Podium
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Re_Union
+		icon = GFX_goal_unknown
+		x = -1
 		y = 1
 		cost = 7.2
 		# search_filters = {}
@@ -192,7 +452,7 @@ focus_tree = { #30
 	focus = {
 		id = USA_Diplomatic_Agitation
 		icon = GFX_goal_unknown
-		x = -2
+		x = -3
 		y = 1
 		cost = 7.2
 		# search_filters = {}
@@ -215,10 +475,10 @@ focus_tree = { #30
 		id = USA_Checkmate
 		icon = GFX_goal_unknown
 		x = 0
-		y = 1
+		y = 2
 		cost = 7.2
 		# search_filters = {}
-		relative_position_id = USA_Negative_Campaign_Against_RD
+		relative_position_id = USA_Stand_on_Podium
 		
 		available_if_capitulated = yes
 
@@ -231,6 +491,12 @@ focus_tree = { #30
 		prerequisite = {
 			focus = USA_Diplomatic_Agitation
 		}
+		prerequisite = {
+			focus = USA_Re_Union
+		}
+		prerequisite = {
+			focus = USA_Balance_Politics
+		}
 		available = {
 		}
 		completion_reward = {
@@ -240,10 +506,10 @@ focus_tree = { #30
 		id = USA_Good_Things_Come_to_Those_Who_Wait
 		icon = GFX_goal_unknown
 		x = 0
-		y = 4
+		y = 1
 		cost = 7.2
 		# search_filters = {}
-		relative_position_id = USA_US_of_Troika
+		relative_position_id = USA_Checkmate
 		
 		available_if_capitulated = yes
 
@@ -253,12 +519,10 @@ focus_tree = { #30
 		prerequisite = {
 			focus = USA_Checkmate
 		}
-		prerequisite = {
-			focus = USA_New_Deal_Coalition
-		}
 		available = {
 		}
 		completion_reward = {
+			load_focus_tree = SG_america_after_election_focus
 		}
 	}
 }
@@ -273,7 +537,7 @@ focus_tree = {
 	focus = {
 		id = USA_Messianic_Regime
 		icon = GFX_goal_unknown
-		x = 10
+		x = 8
 		y = 0
 		cost = 7.2
 		# search_filters = {}
@@ -289,9 +553,9 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = USA_National_Rescue_Program
+		id = USA_Free_Silver
 		icon = GFX_goal_unknown
-		x = -5
+		x = 0
 		y = 1
 		cost = 7.2
 		# search_filters = {}
@@ -311,9 +575,31 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = USA_National_Rescue_Program
+		icon = GFX_goal_unknown
+		x = -4
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Free_Silver
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Free_Silver
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
 		id = USA_Full_Employment_Plan
 		icon = GFX_goal_unknown
-		x = 3
+		x = -3
 		y = 1
 		cost = 7.2
 		# search_filters = {}
@@ -333,9 +619,9 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = USA_Establishment_TVA
-		icon = GFX_goal_unknown
-		x = 0
+		id = USA_Interstate_Highway_Plan
+		icon = GFX_goal_unkown
+		x = 1
 		y = 1
 		cost = 7.2
 		# search_filters = {}
@@ -355,9 +641,120 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = USA_Pavement_Route_66
+		icon = GFX_goal_unkown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Interstate_Highway_Plan
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Interstate_Highway_Plan
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Establishment_TVA
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Full_Employment_Plan
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Full_Employment_Plan
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Civil_Conservation_Corps
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Establishment_TVA
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Establishment_TVA
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Expansion_Public_Facilities
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Civil_Conservation_Corps
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Civil_Conservation_Corps
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Introduction_to_Gendarmerie
+		icon = GFX_goal_unknown
+		x = 1
+		y = 2
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Civil_Conservation_Corps
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Civil_Conservation_Corps
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
 		id = USA_Reach_Out_Weak
 		icon = GFX_goal_unknown
-		x = -3
+		x = 2
 		y = 1
 		cost = 7.2
 		# search_filters = {}
@@ -370,6 +767,596 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = USA_National_Rescue_Program
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Minimum_Wage_Guarantee
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Reach_Out_Weak
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Reach_Out_Weak
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Subsidies_for_Needy_Farmers
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Minimum_Wage_Guarantee
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Minimum_Wage_Guarantee
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Education_Reform_for_Masses
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Reach_Out_Weak
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Reach_Out_Weak
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Adult_Night_School
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Education_Reform_for_Masses
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Education_Reform_for_Masses
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Implementation_Vocational_Training
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Adult_Night_School
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Adult_Night_School
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_Midwest_Farmland_Reclamation_Plan
+		icon = GFX_goal_unknown
+		x = -1
+		y = 4
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_National_Rescue_Program
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Interstate_Highway_Plan
+		}
+		prerequisite = {
+			focus = USA_Subsidies_for_Needy_Farmers
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_Strengthening_Federal_Government
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Free_Silver
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Free_Silver
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Strengthening_Tax
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Strengthening_Federal_Government
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Strengthening_Federal_Government
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Allowance_Based_on_Profits
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Strengthening_Tax
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Strengthening_Tax
+		}
+		prerequisite = {
+			focus = USA_Reach_Out_Weak
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Multiple_Progressive_Tax
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Allowance_Based_on_Profits
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Allowance_Based_on_Profits
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_Nationalization_of_Resources
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Strengthening_Federal_Government
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Strengthening_Federal_Government
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Tax_on_Oil
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Nationalization_of_Resources
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Nationalization_of_Resources
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_Organization_Minutemen
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Strengthening_Federal_Government
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Strengthening_Federal_Government
+		}
+		prerequisite = {
+			focus = USA_Talk_to_Mic
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Political_National_Polity
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Organization_Minutemen
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Organization_Minutemen
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_Talk_to_Mic
+		icon = GFX_goal_unknown
+		x = 5
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Messianic_Regime
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Messianic_Regime
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Establishment_National_Radio
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Talk_to_Mic
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Talk_to_Mic
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Manifestation_Enemy
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Talk_to_Mic
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Talk_to_Mic
+		}
+		mutually_exclusive = {
+			focus = USA_Look_to_People
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Look_to_People
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Talk_to_Mic
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Talk_to_Mic
+		}
+		mutually_exclusive = {
+			focus = USA_Manifestation_Enemy
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Public_Exclusion_Blacks
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Manifestation_Enemy
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Manifestation_Enemy
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Deprivation_Jews_Civil_Rights
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Manifestation_Enemy
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Manifestation_Enemy
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Book_Burning
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Deprivation_Jews_Civil_Rights
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Deprivation_Jews_Civil_Rights
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Union_Protection
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Look_to_People
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Look_to_People
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	#共産主義
+	focus = {
+		id = USA_Dealing_with_Commies
+		icon = GFX_goal_unknown
+		x = 18
+		y = 0
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Labors
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Dealing_with_Commies
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Dealing_with_Commies
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Progressives
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Dealing_with_Commies
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Dealing_with_Commies
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Anarchists
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Dealing_with_Commies
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Dealing_with_Commies
 		}
 		available = {
 		}

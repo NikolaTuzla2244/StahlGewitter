@@ -122,3 +122,15 @@ promote_character = {
 	character = USA_William_Lemke
 	ideology = conservative_democracy_subtype
 }
+
+#NF
+complete_national_focus = USA_Populist_Troika
+complete_national_focus = USA_Diplomacy_to_Louisiana
+complete_national_focus = USA_Dealings_with_Church
+complete_national_focus = USA_Southern_Strategy
+complete_national_focus = USA_New_Deal_Coalition
+complete_national_focus = USA_Union_Government
+complete_national_focus = USA_State_Policy
+complete_national_focus = USA_Townsend_Plan_Movement
+complete_national_focus = USA_Share_Our_Wealth
+complete_national_focus = USA_Social_Justice

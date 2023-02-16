@@ -1,0 +1,25 @@
+
+state={
+	id=858
+	name="STATE_858" #Southern Parestine
+	manpower = 210690
+	
+	state_category = rural
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3 #was: 5
+			# industrial_complex = 1
+		}
+		# add_core_of = PAL
+		# add_core_of = ISR
+	}
+
+	provinces={
+		#1015 1065 1086 1201 4088 4206 7107 7176 11970 1
+		13242 4088 13241 11970 7176 1015 1
+	}
+
+	local_supplies=0.0 
+}

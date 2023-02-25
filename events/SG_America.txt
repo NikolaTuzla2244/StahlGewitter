@@ -1,4 +1,147 @@
 add_namespace = sg_america_collapse
+add_namespace = sg_america
+
+country_event = { #ルイジアナの縺れ
+	id = sg_america.1
+	title = sg_america.1.t
+	desc = sg_america.1.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_america.1.a
+		371 = { set_demilitarized_zone = yes }
+		country_event = { id = sg_america.2 days = 10 }
+	}
+}
+country_event = { #分離の加速
+	id = sg_america.2
+	title = sg_america.2.t
+	desc = sg_america.2.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_america.2.a
+		364 = { set_demilitarized_zone = yes }
+		365 = { set_demilitarized_zone = yes }
+		370 = { set_demilitarized_zone = yes }
+		366 = { set_demilitarized_zone = yes }
+		367 = { set_demilitarized_zone = yes }
+		country_event = { id = sg_america.3 days = 10 }
+	}
+}
+country_event = { #テキサスの解れ
+	id = sg_america.3
+	title = sg_america.3.t
+	desc = sg_america.3.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_america.3.a
+		TEX = {
+			set_state_owner = 846
+			set_state_owner = 375
+
+			add_state_core = 846
+			add_state_core = 375
+		}
+		country_event = { id = sg_america.4 days = 10 }
+	}
+}
+country_event = { #第二次連合国
+	id = sg_america.4
+	title = sg_america.4.t
+	desc = sg_america.4.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_america.4.a
+		CSA = {
+			set_state_owner = 371
+			set_state_owner = 364
+			set_state_owner = 365
+			set_state_owner = 370
+			set_state_owner = 366
+			set_state_owner = 367
+			every_owned_state = {
+				add_core_of = PREV
+				set_demilitarized_zone = no
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = sg_america.5
+	title = sg_america.5.t
+	desc = sg_america.5.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_america.5.a
+		372 = {
+			set_demilitarized_zone = yes
+			add_core_of = CSA
+		}
+		368 = {
+			set_demilitarized_zone = yes
+			add_core_of = CSA
+		}
+		363 = {
+			set_demilitarized_zone = yes
+			add_core_of = CSA
+		}
+		362 = {
+			set_demilitarized_zone = yes
+			add_core_of = CSA
+		}
+		849 = {
+			set_demilitarized_zone = yes
+			add_core_of = CSA
+		}
+		374 = {
+			set_demilitarized_zone = yes
+			add_core_of = CSA
+		}
+		CSA = { country_event = { id = sg_america.6 days = 5 } }
+	}
+}
+country_event = { #
+	id = sg_america.6
+	title = sg_america.6.t
+	desc = sg_america.6.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_america.6.a
+		CSA = {
+			every_core_state = {
+				limit = {
+					NOT = { is_owned_by = PREV }
+				}
+				set_state_owner_to = PREV
+				set_demilitarized_zone = no
+			}
+			annex_country = {
+				target = TEX
+			}
+		}
+		hidden_effect = {
+			news_event = { id = sg_worldnews.9 days = 5 }
+		}
+	}
+}
 
 country_event = { #崩壊
 	id = sg_america_collapse.1
@@ -10,12 +153,13 @@ country_event = { #崩壊
 	
 	option = {
 		name = sg_america_collapse.1.a
-		country_event = { id = sg_america_collapse.2 days = 10 }
-		country_event = { id = sg_america_collapse.3 days = 15 }
-		country_event = { id = sg_america_collapse.4 days = 20 }
+		country_event = { id = sg_america_collapse.2 days = 2 }
+		country_event = { id = sg_america_collapse.8 days = 7 }
+		country_event = { id = sg_america_collapse.12 days = 13 }
+		country_event = { id = sg_america_collapse.20 days = 15 }
 	}
 }
-country_event = { #左翼戦線樹立
+country_event = { #ルイジアナ
 	id = sg_america_collapse.2
 	title = sg_america_collapse.2.t
 	desc = sg_america_collapse.2.d
@@ -24,29 +168,17 @@ country_event = { #左翼戦線樹立
 	is_triggered_only = yes
 	
 	option = {
-		name = sg_america_collapse.1.a
-		CPU = {
-			transfer_state = 386
-			transfer_state = 385
-			transfer_state = 378
-			transfer_state = 379
-			transfer_state = 387
-			transfer_state = 388
-			transfer_state = 381
-			transfer_state = 382
-			transfer_state = 376
-			transfer_state = 380
-			transfer_state = 377
-			transfer_state = 847
-			transfer_state = 848
+		name = sg_america_collapse.2.a
+		LOU = {
+			transfer_state = 371
 			every_owned_state = {
 				add_core_of = PREV
 			}
-			country_event = { id = sg_america_collapse.18 days = 30 }
 		}
+		country_event = { id = sg_america_collapse.3 days = 5 }
 	}
 }
-country_event = { #共和国樹立
+country_event = { #テキサス
 	id = sg_america_collapse.3
 	title = sg_america_collapse.3.t
 	desc = sg_america_collapse.3.d
@@ -55,41 +187,18 @@ country_event = { #共和国樹立
 	is_triggered_only = yes
 	
 	option = {
-		name = sg_america_collapse.1.a
-		USR = {
-			transfer_state = 389
-			transfer_state = 390
-			transfer_state = 384
-			transfer_state = 383
-			transfer_state = 391
-			transfer_state = 392
-			transfer_state = 373
-			transfer_state = 394
-			transfer_state = 395
-			transfer_state = 393
-			transfer_state = 396
-			transfer_state = 369
-			transfer_state = 261
-			transfer_state = 816
-			transfer_state = 362
-			transfer_state = 361
-			transfer_state = 360
-			transfer_state = 359
-			transfer_state = 358
-			transfer_state = 357
-			transfer_state = 849
-			transfer_state = 850
+		name = sg_america_collapse.3.a
+		TEX = {
+			transfer_state = 846
+			transfer_state = 375
 			every_owned_state = {
 				add_core_of = PREV
 			}
-			country_event = { id = sg_america_collapse.9 days = 10 }
-			country_event = { id = sg_america_collapse.11 days = 8 }
-			country_event = { id = sg_america_collapse.12 days = 20 }
-			country_event = { id = sg_america_collapse.13 days = 25 }
 		}
+		country_event = { id = sg_america_collapse.4 days = 5 }
 	}
 }
-country_event = { #ルイジアナ政府樹立
+country_event = { #キリスト教愛国十字軍
 	id = sg_america_collapse.4
 	title = sg_america_collapse.4.t
 	desc = sg_america_collapse.4.d
@@ -98,28 +207,19 @@ country_event = { #ルイジアナ政府樹立
 	is_triggered_only = yes
 	
 	option = {
-		name = sg_america_collapse.1.a
-		LOU = {
-			transfer_state = 846
-			transfer_state = 375
+		name = sg_america_collapse.4.a
+		CNC = {
 			transfer_state = 374
 			transfer_state = 372
-			transfer_state = 371
-			transfer_state = 370
-			transfer_state = 367
-			transfer_state = 368
-			transfer_state = 363
-			transfer_state = 364
-			transfer_state = 365
-			transfer_state = 366
 			every_owned_state = {
 				add_core_of = PREV
 			}
-			country_event = { id = sg_america_collapse.5 days = 10 }
 		}
+		country_event = { id = sg_america_collapse.5 days = 5 }
+		country_event = { id = sg_america_collapse.9 days = 5 }
 	}
 }
-country_event = { #南部連合が離反
+country_event = { #南部連合
 	id = sg_america_collapse.5
 	title = sg_america_collapse.5.t
 	desc = sg_america_collapse.5.d
@@ -128,27 +228,23 @@ country_event = { #南部連合が離反
 	is_triggered_only = yes
 	
 	option = {
-		name = sg_america_collapse.1.a
+		name = sg_america_collapse.5.a
 		DIX = {
-			
-			
+			transfer_state = 370
+			transfer_state = 367
+			transfer_state = 365
+			transfer_state = 364
 			transfer_state = 368
 			transfer_state = 363
-			transfer_state = 364
-			transfer_state = 365
-			transfer_state = 367
-			transfer_state = 366
-			transfer_state = 370
 			every_owned_state = {
 				add_core_of = PREV
 			}
-			country_event = { id = sg_america_collapse.6 days = 15 }
-			country_event = { id = sg_america_collapse.7 days = 5 }
-			country_event = { id = sg_america_collapse.8 days = 10 }
 		}
+		country_event = { id = sg_america_collapse.6 days = 40 }
+		country_event = { id = sg_america_collapse.7 days = 30 }
 	}
 }
-country_event = { #KKKが離反
+country_event = { #KKK
 	id = sg_america_collapse.6
 	title = sg_america_collapse.6.t
 	desc = sg_america_collapse.6.d
@@ -157,18 +253,16 @@ country_event = { #KKKが離反
 	is_triggered_only = yes
 	
 	option = {
-		name = sg_america_collapse.1.a
+		name = sg_america_collapse.6.a
 		KKK = {
 			transfer_state = 370
-			add_ideas = USA_last_days
 			every_owned_state = {
 				add_core_of = PREV
 			}
-			# country_event = sg_america_collapse.18
 		}
 	}
 }
-country_event = { #ジョージア黒人運動が離反
+country_event = { #黒人反乱
 	id = sg_america_collapse.7
 	title = sg_america_collapse.7.t
 	desc = sg_america_collapse.7.d
@@ -178,9 +272,7 @@ country_event = { #ジョージア黒人運動が離反
 	
 	option = {
 		name = sg_america_collapse.7.a
-		GCM = {
-			
-
+		GBM = {
 			transfer_state = 365
 			every_owned_state = {
 				add_core_of = PREV
@@ -188,7 +280,8 @@ country_event = { #ジョージア黒人運動が離反
 		}
 	}
 }
-country_event = { #キリスト教愛国十字軍が組織
+
+country_event = { #共産党
 	id = sg_america_collapse.8
 	title = sg_america_collapse.8.t
 	desc = sg_america_collapse.8.d
@@ -198,17 +291,18 @@ country_event = { #キリスト教愛国十字軍が組織
 	
 	option = {
 		name = sg_america_collapse.8.a
-		CNC = {
-			
-
-			transfer_state = 846
+		CPU = {
+			transfer_state = 396
+			transfer_state = 261
+			transfer_state = 369
 			every_owned_state = {
 				add_core_of = PREV
 			}
 		}
+		country_event = { id = sg_america_collapse.10 days = 5 }
 	}
 }
-country_event = { #陸軍軍事政権が樹立
+country_event = { #フロリダ航空センター
 	id = sg_america_collapse.9
 	title = sg_america_collapse.9.t
 	desc = sg_america_collapse.9.d
@@ -218,30 +312,15 @@ country_event = { #陸軍軍事政権が樹立
 	
 	option = {
 		name = sg_america_collapse.9.a
-		AAM = {
-			
-
-			transfer_state = 357
-			transfer_state = 358
-			transfer_state = 360
-			transfer_state = 359
-			transfer_state = 361
-			transfer_state = 362
-			transfer_state = 816
-			transfer_state = 850
-			# transfer_state = 362
-			transfer_state = 369
+		FAC = {
+			transfer_state = 366
 			every_owned_state = {
 				add_core_of = PREV
 			}
-			country_event = { id = sg_america_collapse.10 days = 15 }
-			country_event = { id = sg_america_collapse.15 days = 30 }
-			country_event = { id = sg_america_collapse.19 days = 20 }
-			country_event = { id = sg_america_collapse.20 days = 30 }
 		}
 	}
 }
-country_event = { #シンジケートが樹立
+country_event = { #産業組合
 	id = sg_america_collapse.10
 	title = sg_america_collapse.10.t
 	desc = sg_america_collapse.10.d
@@ -251,15 +330,19 @@ country_event = { #シンジケートが樹立
 	
 	option = {
 		name = sg_america_collapse.10.a
-		NYS = {
-			transfer_state = 358
+		IWW = {
+			transfer_state = 394
+			transfer_state = 395
+			# transfer_state = 391
+			transfer_state = 385
 			every_owned_state = {
 				add_core_of = PREV
 			}
 		}
+		country_event = { id = sg_america_collapse.11 days = 5 }
 	}
 }
-country_event = { #海軍が中立を宣言
+country_event = { #フォード
 	id = sg_america_collapse.11
 	title = sg_america_collapse.11.t
 	desc = sg_america_collapse.11.d
@@ -269,18 +352,15 @@ country_event = { #海軍が中立を宣言
 	
 	option = {
 		name = sg_america_collapse.11.a
-		ANV = {
-			
-
-			transfer_state = 849
-			transfer_state = 629
+		FOR = {
+			transfer_state = 393
 			every_owned_state = {
 				add_core_of = PREV
 			}
 		}
 	}
 }
-country_event = { #サイエントロジーが団結
+country_event = { #ニューイングランド
 	id = sg_america_collapse.12
 	title = sg_america_collapse.12.t
 	desc = sg_america_collapse.12.d
@@ -290,17 +370,18 @@ country_event = { #サイエントロジーが団結
 	
 	option = {
 		name = sg_america_collapse.12.a
-		SCI = {
-			
-
-			transfer_state = 391
+		NEE = {
+			transfer_state = 357
+			transfer_state = 850
+			transfer_state = 358
 			every_owned_state = {
 				add_core_of = PREV
 			}
 		}
+		country_event = { id = sg_america_collapse.13 days = 5 }
 	}
 }
-country_event = { #シュルレアリスム運動が発生
+country_event = { #イロコイ連邦
 	id = sg_america_collapse.13
 	title = sg_america_collapse.13.t
 	desc = sg_america_collapse.13.d
@@ -310,17 +391,16 @@ country_event = { #シュルレアリスム運動が発生
 	
 	option = {
 		name = sg_america_collapse.13.a
-		ASF = {
-			
-
-			transfer_state = 395
+		IRO = {
+			transfer_state = 850
 			every_owned_state = {
 				add_core_of = PREV
 			}
 		}
+		country_event = { id = sg_america_collapse.14 days = 5 }
 	}
 }
-country_event = { #銀シャツ団が進軍開始
+country_event = { #ニューヨーク・シンジケート
 	id = sg_america_collapse.14
 	title = sg_america_collapse.14.t
 	desc = sg_america_collapse.14.d
@@ -330,17 +410,16 @@ country_event = { #銀シャツ団が進軍開始
 	
 	option = {
 		name = sg_america_collapse.14.a
-		SSL = {
-			transfer_state = 386
-			add_ideas = USA_last_days
+		NYS = {
+			transfer_state = 358
 			every_owned_state = {
 				add_core_of = PREV
 			}
-			# country_event = sg_america_collapse.19
 		}
+		country_event = { id = sg_america_collapse.15 days = 5 }
 	}
 }
-country_event = { #テクノクラートが国家樹立
+country_event = { #ユダヤ
 	id = sg_america_collapse.15
 	title = sg_america_collapse.15.t
 	desc = sg_america_collapse.15.d
@@ -350,16 +429,16 @@ country_event = { #テクノクラートが国家樹立
 	
 	option = {
 		name = sg_america_collapse.15.a
-		TEC = {
-			transfer_state = 361
-			transfer_state = 816
+		JDL = {
+			transfer_state = 360
 			every_owned_state = {
 				add_core_of = PREV
 			}
 		}
+		country_event = { id = sg_america_collapse.16 days = 5 }
 	}
 }
-country_event = { #インディアンが自治区樹立
+country_event = { #第二機甲師団
 	id = sg_america_collapse.16
 	title = sg_america_collapse.16.t
 	desc = sg_america_collapse.16.d
@@ -369,15 +448,16 @@ country_event = { #インディアンが自治区樹立
 	
 	option = {
 		name = sg_america_collapse.16.a
-		SAI = {
-			transfer_state = 376
+		SAD = {
+			transfer_state = 361
 			every_owned_state = {
 				add_core_of = PREV
 			}
 		}
+		country_event = { id = sg_america_collapse.17 days = 5 }
 	}
 }
-country_event = { #アナーキストが蜂起
+country_event = { #サイエントロジー
 	id = sg_america_collapse.17
 	title = sg_america_collapse.17.t
 	desc = sg_america_collapse.17.d
@@ -386,18 +466,17 @@ country_event = { #アナーキストが蜂起
 	is_triggered_only = yes
 	
 	option = {
-		name = sg_america_collapse.16.a
-		ACT = {
-			transfer_state = 847
-			add_ideas = USA_last_days
+		name = sg_america_collapse.17.a
+		SCI = {
+			transfer_state = 359
 			every_owned_state = {
 				add_core_of = PREV
 			}
-			# country_event = sg_america_collapse.20
+			country_event = { id = sg_america_collapse.18 days = 5 }
 		}
 	}
 }
-country_event = { #IWWが蜂起
+country_event = { #海軍警備隊
 	id = sg_america_collapse.18
 	title = sg_america_collapse.18.t
 	desc = sg_america_collapse.18.d
@@ -407,22 +486,17 @@ country_event = { #IWWが蜂起
 	
 	option = {
 		name = sg_america_collapse.18.a
-		IWW = {
-			transfer_state = 377
-			transfer_state = 376
-			transfer_state = 382
-			transfer_state = 380
+		ANV = {
+			transfer_state = 849
+			transfer_state = 629
 			every_owned_state = {
 				add_core_of = PREV
 			}
-			# country_event = sg_america_collapse.20
-			country_event = { id = sg_america_collapse.14 days = 25 }
-			country_event = { id = sg_america_collapse.16 days = 15 }
-			country_event = { id = sg_america_collapse.17 days = 35 }
+			country_event = { id = sg_america_collapse.19 days = 5 }
 		}
 	}
 }
-country_event = { #ユダヤ防衛同盟が蜂起
+country_event = { #テクノクラート
 	id = sg_america_collapse.19
 	title = sg_america_collapse.19.t
 	desc = sg_america_collapse.19.d
@@ -431,18 +505,17 @@ country_event = { #ユダヤ防衛同盟が蜂起
 	is_triggered_only = yes
 	
 	option = {
-		name = sg_america_collapse.18.a
-		JDL = {
-			transfer_state = 359
-			transfer_state = 360
+		name = sg_america_collapse.19.a
+		TEC = {
+			transfer_state = 362
+			transfer_state = 816
 			every_owned_state = {
 				add_core_of = PREV
 			}
-			# country_event = sg_america_collapse.20
 		}
 	}
 }
-country_event = { #イロコイ連邦が蜂起
+country_event = { #米国陸軍司令部
 	id = sg_america_collapse.20
 	title = sg_america_collapse.20.t
 	desc = sg_america_collapse.20.d
@@ -451,13 +524,117 @@ country_event = { #イロコイ連邦が蜂起
 	is_triggered_only = yes
 	
 	option = {
-		name = sg_america_collapse.18.a
-		IRO = {
-			transfer_state = 850
+		name = sg_america_collapse.20.a
+		AAM = {
+			transfer_state = 386
+			transfer_state = 848
+			transfer_state = 387
+			transfer_state = 847
+			transfer_state = 378
+			transfer_state = 379
+			transfer_state = 377
+			transfer_state = 380
+			# transfer_state = 385
 			every_owned_state = {
 				add_core_of = PREV
 			}
-			# country_event = sg_america_collapse.20
+		}
+		country_event = { id = sg_america_collapse.21 days = 5 }
+	}
+}
+country_event = { #ANTIFASCISTMOVEMENT!
+	id = sg_america_collapse.21
+	title = sg_america_collapse.21.t
+	desc = sg_america_collapse.21.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_america_collapse.21.a
+		ANT = {
+			transfer_state = 378
+			transfer_state = 847
+			every_owned_state = {
+				add_core_of = PREV
+			}
+		}
+		country_event = { id = sg_america_collapse.22 days = 5 }
+		country_event = { id = sg_america_collapse.25 days = 30 }
+	}
+}
+country_event = { #アメリカ・インディアン協会
+	id = sg_america_collapse.22
+	title = sg_america_collapse.22.t
+	desc = sg_america_collapse.22.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_america_collapse.22.a
+		SAI = {
+			transfer_state = 376
+			every_owned_state = {
+				add_core_of = PREV
+			}
+		}
+		country_event = { id = sg_america_collapse.23 days = 5 }
+	}
+}
+country_event = { #銀シャツ団
+	id = sg_america_collapse.23
+	title = sg_america_collapse.23.t
+	desc = sg_america_collapse.23.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_america_collapse.23.a
+		SSL = {
+			transfer_state = 386
+			transfer_state = 848
+			every_owned_state = {
+				add_core_of = PREV
+			}
+		}
+		country_event = { id = sg_america_collapse.24 days = 5 }
+	}
+}
+country_event = { #末日聖徒イエス・キリスト教会
+	id = sg_america_collapse.24
+	title = sg_america_collapse.24.t
+	desc = sg_america_collapse.24.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_america_collapse.24.a
+		LDS = {
+			transfer_state = 380
+			every_owned_state = {
+				add_core_of = PREV
+			}
+		}
+	}
+}
+country_event = { #北米構造体
+	id = sg_america_collapse.25
+	title = sg_america_collapse.25.t
+	desc = sg_america_collapse.25.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_america_collapse.25.a
+		CON = {
+			transfer_state = 847
+			every_owned_state = {
+				add_core_of = PREV
+			}
 		}
 	}
 }

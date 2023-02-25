@@ -1,0 +1,37 @@
+characters = {
+	HUN_Gusztav_Gratz = {
+		name = HUN_Gusztav_Gratz
+		portraits={
+			civilian={
+				large = "gfx/characters/large/HUN/Portrait_HUN_Gusztav_Gratz.png"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+		}
+	}
+
+	GRE_Georgios_Kondylis = {
+		name = GRE_Georgios_Kondylis
+		portraits={
+			civilian={
+				large = "gfx/characters/large/GRE/Portrait_GRE_Georgios_Kondylis.png"
+			}
+		}
+		country_leader = {
+			ideology = military_junta_subtype
+		}
+	}
+
+	ROM_Corneliu_Codreanu = {
+		name = ROM_Corneliu_Codreanu
+		portraits={
+			civilian={
+				large = "gfx/characters/large/ROM/Portrait_ROM_Corneliu_Codreanu.png"
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
+		}
+	}
+}

@@ -94,5 +94,3 @@ add_ideas = {
 
 	economy_planned_socialism
 }
-
-recruit_character = SOV_Sergei_Kirov

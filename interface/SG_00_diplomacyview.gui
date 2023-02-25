@@ -55,4 +55,27 @@ guiTypes = {
 		}
 		
 	}
+	containerWindowType = {
+		name = "SG_diplo_sub_leader_GUI"
+		position = { x=0 y= 110 }
+		size = { width = 0 height = 0 }
+		iconType = {
+			name = "sub_leader"
+			position = { x = 20 y = 10 }
+			# spriteType = "GFX_leader_unknown"
+			scale = 0.74
+
+			pdx_tooltip = "sub_leader_tt"
+		}
+		
+		buttonType = {
+			name = "sub_leader_button"
+			position = { x = 100 y = -10 }
+			spriteType = GFX_SG_monach_button
+			clicksound = click_default
+			scale = 0.75
+
+			pdx_tooltip = "sub_leader_button_tt"
+		}
+	}
 }

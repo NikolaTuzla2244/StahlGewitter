@@ -33,3 +33,8 @@ music = {
 	file = "sg_se_spanish_civil_war.ogg"
 	volume = 1
 }
+music = {
+	name = "sg_se_southern_crisis"
+	file = "sg_se_southern_crisis.ogg"
+	volume = 1
+}

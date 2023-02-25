@@ -20,6 +20,24 @@ ideas = {
 				SG_trait_Head_of_Government
 			}
 		}
+		SPA_Alfonso_XIII_HoG = {		
+			picture = SPA_Alfonso_XIII_HoG
+			allowed = {
+				tag = SPA
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			traits = {
+				SG_trait_Monach
+				
+				SG_trait_Head_of_Government
+			}
+		}
 		USA_Huey_Long_HoG = {		
 			picture = USA_Huey_Long
 			allowed = {
@@ -38,5 +56,94 @@ ideas = {
 				SG_trait_king_fish 
 			}
 		}
+
+		HUN_Hungarian_Throne_HoG = {		
+			picture = HUN_Hungarian_Throne
+			allowed = {
+				tag = ROM
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			traits = {			
+				SG_trait_Monach
+				SG_trait_Head_of_Government
+			}
+		}
+
+		HUN_Karl_I_HoG = {		
+			picture = HUN_Karl_I
+			allowed = {
+				tag = HUN
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			traits = {			
+				SG_trait_Monach
+				SG_trait_Head_of_Government
+			}
+		}
+		HUN_Archduke_Joseph_August_HoG = {		
+			picture = HUN_Archduke_Joseph_August
+			allowed = {
+				tag = HUN
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			traits = {			
+				SG_trait_Monach
+				SG_trait_Head_of_Government
+			}
+		}
+
+		GRE_Georgios_II_HoG = {		
+			picture = GRE_Georgios_II
+			allowed = {
+				tag = GRE
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			traits = {			
+				SG_trait_Monach
+				SG_trait_Head_of_Government
+			}
+		}
+		ROM_Mihai_I_HoG = {		
+			picture = ROM_Mihai_I
+			allowed = {
+				tag = ROM
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			traits = {			
+				SG_trait_Monach
+				SG_trait_Head_of_Government
+			}
+		}
+		
 	}
 }

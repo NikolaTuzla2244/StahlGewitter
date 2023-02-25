@@ -1,9 +1,5 @@
 spriteTypes = {
 	#ポートレート
-	spriteType = {
-		name = "GFX_Portrait_ENG_Edward_VIII"
-		texturefile = "gfx/characters/large/ENG/Portrait_ENG_Edward_VIII.png"
-	}
 	#国民精神
 	# spriteType = {
 	# 	name = "GFX_idea_ENG_Edward_VIII"

@@ -1,4 +1,4 @@
-capital = 206
+capital = 249
 
 set_cosmetic_tag = KAZ_SOV
 
@@ -68,13 +68,13 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = authoritarian_socialism
+	ruling_party = social_liberalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarian_socialism = 100
+	social_liberalism = 100
 }
 
 add_ideas = {
@@ -84,5 +84,3 @@ add_ideas = {
 
 	economy_planned_socialism
 }
-
-# recruit_character = FRA_Jacques_Duclos

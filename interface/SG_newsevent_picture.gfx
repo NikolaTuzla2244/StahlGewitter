@@ -8,4 +8,8 @@ spriteTypes = {
 		name = "GFX_news_event_Spanish_Civil_War"
 		texturefile = "gfx/event_pictures/news_event/news_event_Spanish_Civil_War.png"
 	}
+	spriteType = {
+		name = "GFX_news_event_Southern_Crisis"
+		texturefile = "gfx/event_pictures/news_event/news_event_Southern_Crisis.png"
+	}
 }

@@ -1,4 +1,4 @@
-﻿capital = 219
+﻿capital = 195
 
 # Starting tech
 set_technology = {
@@ -72,9 +72,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_liberalism = 90
-	authoritarian_socialism = 10
+	social_liberalism = 40
+	reformism = 30
+	liberal_democracy = 15
+	conservative_democracy = 15
 }
+
+set_country_flag = SET_social_liberalism
+set_country_flag = SET_reformism
+set_country_flag = SET_liberal_democracy
+set_country_flag = SET_conservative_democracy
 
 create_faction = SOVIET_UNION
 add_to_faction = PES
@@ -180,12 +187,19 @@ set_autonomy = {
 }
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-
+	#laws
+	SG_academic_4
+	SG_administration_5
+	SG_industry_5
+	SG_infrastructure_5
+	SG_network_2
+	SG_military_3
+	#economy
 	economy_planned_socialism
 }
 
 recruit_character = PES_Gavril_Myasnikov
-# recruit_character = SOV_Sergei_Kirov
+recruit_character = PES_Julius_Martov
+recruit_character = PES_Pavel_Milyukov
+recruit_character = PES_Ayn_Rand
+recruit_character = PES_Vasily_Shulgin

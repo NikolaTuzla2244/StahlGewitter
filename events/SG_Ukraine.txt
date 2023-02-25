@@ -1,0 +1,79 @@
+add_namespace = sg_ukraine
+
+country_event = { #カガノーヴィチ暗殺！
+	id = sg_ukraine.1
+	title = sg_ukraine.1.t
+	desc = sg_ukraine.1.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_ukraine.1.a
+		UKR = {
+			drop_cosmetic_tag = yes
+			set_cosmetic_tag = UKR_Nationalist
+			set_politics = {
+				ruling_party = national_populism
+			}
+			set_popularities = {
+				national_populism = 0.8
+			}
+			add_country_leader_role = {
+				character = UKR_Yevhen_Konovalets
+				promote_leader = yes
+				country_leader = {
+					ideology = revolutionary_nationalism_subtype
+				}
+			}
+		}
+		hidden_effect = {
+			WMD = { country_event = { id = sg_ukraine.2 days = 20 } }
+			KIS = { country_event = { id = sg_ukraine.3 days = 30 } }
+		}
+	}
+}
+country_event = { #西ウクライナ共和国が独立声明
+	id = sg_ukraine.2
+	title = sg_ukraine.2.t
+	desc = sg_ukraine.2.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_ukraine.2.a
+		WUK = {
+			transfer_state = 93
+			transfer_state = 91
+			transfer_state = 89
+			transfer_state = 199
+			transfer_state = 201
+			transfer_state = 198
+
+			every_owned_state = {
+				add_core_of = PREV
+			}
+		}
+	}
+}
+country_event = { #キエフでアナーキストが蜂起
+	id = sg_ukraine.3
+	title = sg_ukraine.3.t
+	desc = sg_ukraine.3.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_ukraine.3.a
+		URA = {
+			transfer_state = 221
+			transfer_state = 227
+
+			every_owned_state = {
+				add_core_of = PREV
+			}
+		}
+	}
+}

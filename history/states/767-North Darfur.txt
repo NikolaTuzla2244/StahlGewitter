@@ -8,8 +8,9 @@ state=
 	impassable = yes
 	
 	history= {
-		add_core_of = SUD
-		owner = ENG
+		# add_core_of = SUD
+		owner = UKA
+		add_core_of = UKA
 		buildings = {
 			infrastructure = 0
 		}

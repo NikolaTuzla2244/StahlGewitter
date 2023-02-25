@@ -26,26 +26,6 @@ characters = {
 			ideology = liberal_democracy_subtype
 			desc = SPA_Alfonso_XIII_desc
 		}
-		advisor = {
-			slot = Head_of_Government
-			idea_token = SPA_Alfonso_XIII_HoG
-			desc =  SPA_Alfonso_XIII_desc
-
-			allowed = {
-				tag = SPA
-			}
-			vailable = {
-				always = no
-			}
-			cancel_if_invalid = no
-			cost = 0
-			removal_cost = -1
-			traits = {
-				SG_trait_Monach
-				
-				SG_trait_Head_of_Government
-			}
-		}
 	}
 
 	SPA_Javier_I = {

@@ -33,6 +33,10 @@ defined_text = {
 		trigger = { check_variable = { SG_super_event = 23 } }
 		localization_key = "GFX_SG_spanish_civil_war"
 	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 24 } }
+		localization_key = "GFX_SG_southern_crisis"
+	}
 }
 
 defined_text = {
@@ -69,6 +73,10 @@ defined_text = {
 	text = {
 		trigger = { check_variable = { SG_super_event = 23 } }
 		localization_key = SG_spanish_civil_war_title
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 24 } }
+		localization_key = SG_southern_crisis_title
 	}
 }
 
@@ -107,6 +115,10 @@ defined_text = {
 		trigger = { check_variable = { SG_super_event = 23 } }
 		localization_key = SG_spanish_civil_war_quote
 	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 24 } }
+		localization_key = SG_southern_crisis_quote
+	}
 }
 
 defined_text = {
@@ -143,5 +155,9 @@ defined_text = {
 	text = {
 		trigger = { check_variable = { SG_super_event = 23 } }
 		localization_key = SG_spanish_civil_war_option
+	}
+	text = {
+		trigger = { check_variable = { SG_super_event = 24 } }
+		localization_key = SG_southern_crisis_option
 	}
 }

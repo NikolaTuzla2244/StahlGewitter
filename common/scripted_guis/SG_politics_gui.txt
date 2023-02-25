@@ -14,7 +14,8 @@ scripted_gui = {
 		parent_window_token = politics_tab
 			
 		visible = {
-			has_country_flag = has_sub_leader
+			# has_country_flag = has_sub_leader
+			has_idea_with_trait = SG_trait_Monach
 		}
 		effects = {
 			sub_leader_button_click = {

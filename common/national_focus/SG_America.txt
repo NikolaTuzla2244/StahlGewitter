@@ -534,6 +534,11 @@ focus_tree = {
 	}
 	default = no
 
+	continuous_focus_position = {
+		x = 2000
+		y = 500
+	}
+
 	focus = {
 		id = USA_Messianic_Regime
 		icon = GFX_goal_unknown
@@ -1280,10 +1285,10 @@ focus_tree = {
 
 	#共産主義
 	focus = {
-		id = USA_Dealing_with_Commies
+		id = USA_Burst_States
 		icon = GFX_goal_unknown
-		x = 18
-		y = 0
+		x = 8
+		y = 8
 		cost = 7.2
 		# search_filters = {}
 		
@@ -1292,27 +1297,53 @@ focus_tree = {
 		ai_will_do = {
 			factor = 30
 		}
+		allow_branch = {
+			has_country_flag = USA_is_danger
+		}
 		available = {
 		}
 		completion_reward = {
 		}
 	}
 	focus = {
-		id = USA_Labors
+		id = USA_Dealing_with_Opposition
 		icon = GFX_goal_unknown
-		x = 2
+		x = 0
 		y = 1
 		cost = 7.2
 		# search_filters = {}
-		relative_position_id = USA_Dealing_with_Commies
+		relative_position_id = USA_Burst_States
 		
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 0
+			factor = 30
 		}
 		prerequisite = {
-			focus = USA_Dealing_with_Commies
+			focus = USA_Burst_States
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_Dealing_with_Commies
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Burst_States
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		prerequisite = {
+			focus = USA_Burst_States
 		}
 		available = {
 		}
@@ -1320,9 +1351,9 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = USA_Progressives
+		id = USA_Party
 		icon = GFX_goal_unknown
-		x = 0
+		x = 1
 		y = 1
 		cost = 7.2
 		# search_filters = {}
@@ -1344,7 +1375,7 @@ focus_tree = {
 	focus = {
 		id = USA_Anarchists
 		icon = GFX_goal_unknown
-		x = -2
+		x = -1
 		y = 1
 		cost = 7.2
 		# search_filters = {}
@@ -1357,6 +1388,393 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = USA_Dealing_with_Commies
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_Dealing_with_Minorities
+		icon = GFX_goal_unknown
+		x = -6
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Burst_States
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		prerequisite = {
+			focus = USA_Burst_States
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Indian
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Dealing_with_Minorities
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Dealing_with_Minorities
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Judes
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Dealing_with_Minorities
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Dealing_with_Minorities
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Blacks
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Dealing_with_Minorities
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Dealing_with_Minorities
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_Dealing_with_Businessman
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Burst_States
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		prerequisite = {
+			focus = USA_Burst_States
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Ford
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Dealing_with_Businessman
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Dealing_with_Businessman
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Technocrat
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Dealing_with_Businessman
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Dealing_with_Businessman
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	
+
+	focus = {
+		id = USA_Dealing_with_Military
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Burst_States
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Burst_States
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Army
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Dealing_with_Military
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Dealing_with_Military
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Minutemen
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Dealing_with_Military
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Dealing_with_Military
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_inside_of_den
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_Dealing_with_Opposition
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_Judes
+			focus = USA_Indian
+			focus = USA_Anarchists
+			focus = USA_Party
+			focus = USA_Ford
+			focus = USA_Technocrat
+			focus = USA_Army
+			focus = USA_Minutemen
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Gangs
+		icon = GFX_goal_unknown
+		x = -3
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_inside_of_den
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_inside_of_den
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Artists
+		icon = GFX_goal_unknown
+		x = -5
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_inside_of_den
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_inside_of_den
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Latter_Day_Saints
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_inside_of_den
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_inside_of_den
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Lunatics
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_inside_of_den
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_inside_of_den
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Scientologies
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_inside_of_den
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_inside_of_den
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = USA_Nazi_Wannabes
+		icon = GFX_goal_unknown
+		x = 5
+		y = 1
+		cost = 7.2
+		# search_filters = {}
+		relative_position_id = USA_inside_of_den
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		prerequisite = {
+			focus = USA_inside_of_den
 		}
 		available = {
 		}

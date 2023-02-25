@@ -6,7 +6,8 @@ state={
 	name="STATE_545"
 
 	history={
-		owner = ENG
+		owner = UKA
+		add_core_of = UKA
 		buildings = {
 			infrastructure = 2
 
@@ -14,7 +15,7 @@ state={
 		victory_points = {
 			10929 1 
 		}
-		add_core_of = ZIM
+		# add_core_of = ZIM
 	}
 
 	provinces={

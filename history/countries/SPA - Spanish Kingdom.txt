@@ -104,7 +104,11 @@ add_ideas = {
 	SG_infrastructure_4
 	SG_network_2
 	SG_military_3
+
+	SPA_Alfonso_XIII_HoG
 }
+
+country_event = { id = sg_spain_civ.2 days = 250 }
 
 recruit_character = SPA_Jose_Sanjurjo
 
@@ -117,5 +121,4 @@ recruit_character = SPA_Buenaventura_Durruti
 recruit_character = SPA_Andreu_Nin
 recruit_character = SPA_Dolores_Ibarruri
 
-activate_advisor = SPA_Alfonso_XIII_HoG
 set_country_flag = has_sub_leader

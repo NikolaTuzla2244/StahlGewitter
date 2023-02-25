@@ -1,0 +1,16 @@
+characters = {
+	ISR_Avraham_Shtern = {
+		name = ISR_Avraham_Shtern
+		portraits={
+			civilian={
+				large = "gfx/characters/large/ISR/Portrait_ISR_Avraham_Shtern.png"
+			}
+		}
+		country_leader = {
+			ideology = despotism_subtype
+		}
+		country_leader = {
+			ideology = revisionist_zionism_subtype
+		}
+	}
+}

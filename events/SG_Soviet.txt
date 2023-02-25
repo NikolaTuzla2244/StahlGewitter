@@ -1,6 +1,6 @@
 add_namespace = sg_soviet
 
-country_event = { #フィンランド内戦
+country_event = { #極東シベリアで白軍が蜂起！
 	id = sg_soviet.1
 	title = sg_soviet.1.t
 	desc = sg_soviet.1.d
@@ -10,5 +10,287 @@ country_event = { #フィンランド内戦
 	
 	option = {
 		name = sg_soviet.1.a
+		FES = {
+			set_cosmetic_tag = FES_White
+			set_politics = {
+				ruling_party = despotism
+			}
+			set_popularities = {
+				despotism = 0.3
+			}
+			
+				promote_character = FES_Lavr_Kornilov
+				
+		}
+	}
+}
+
+country_event = { #ペトログラード評議会の運命
+	id = sg_soviet.2
+	title = sg_soviet.2.t
+	desc = sg_soviet.2.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	immediate = {
+		ROS = { country_event = { id = sg_soviet.3 days = 30 } }
+		ARS = { country_event = { id = sg_soviet.4 days = 30 } }
+		KZS = { country_event = { id = sg_soviet.5 days = 30 } }
+		FES = { country_event = { id = sg_soviet.1 days = 30 } }
+		MSS = { country_event = { id = sg_soviet.6 days = 30 } }
+
+		UKR = { country_event = { id = sg_ukraine.1 days = 40 } }
+		FIN = { country_event = { id = sg_finland.1 days = 40 } }
+	}
+	option = {
+		name = sg_soviet.2.a
+		PES = {
+			set_popularities = {
+				social_liberalism = 0.2
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = sg_soviet.2.b
+		PES = {
+			set_cosmetic_tag = PES_Progress
+			set_politics = {
+				ruling_party = reformism
+			}
+			set_popularities = {
+				reformism = 0.3
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = sg_soviet.2.c
+		PES = {
+			set_cosmetic_tag = PES_Liberal
+			set_politics = {
+				ruling_party = liberal_democracy
+			}
+			set_popularities = {
+				liberal_democracy = 0.3
+			}
+			
+				promote_character = PES_Pavel_Milyukov
+				
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = sg_soviet.2.d
+		PES = {
+			set_cosmetic_tag = PES_Conservative
+			set_politics = {
+				ruling_party = conservative_democracy
+			}
+			set_popularities = {
+				conservative_democracy = 0.3
+			}
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+country_event = { #ロストフ評議会の運命
+	id = sg_soviet.3
+	title = sg_soviet.3.t
+	desc = sg_soviet.3.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+
+	immediate = { leave_faction = yes }
+	
+	option = {
+		name = sg_soviet.3.a
+		ROS = {
+			set_cosmetic_tag = ROS_Army
+			set_politics = {
+				ruling_party = authoritarianism
+			}
+			set_popularities = {
+				authoritarianism = 0.3
+			}
+		}
+		ai_chance = {
+			factor = 15
+		}
+	}
+	option = {
+		name = sg_soviet.3.b
+		ROS = {
+			set_cosmetic_tag = ROS_Nationalist
+			set_politics = {
+				ruling_party = national_populism
+			}
+			set_popularities = {
+				national_populism = 0.3
+			}
+			
+				promote_character = ROS_Ivan_Ilyin
+				
+		}
+		ai_chance = {
+			factor = 15
+		}
+	}
+	option = {
+		name = sg_soviet.3.c
+		ROS = {
+			set_cosmetic_tag = ROS_Eurasia
+			set_politics = {
+				ruling_party = national_populism
+			}
+			set_popularities = {
+				national_populism = 0.3
+			}
+			
+				promote_character = ROS_Nikolai_Trubetzkoy
+				
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	# option = {
+	# 	name = sg_soviet.3.d
+	# 	ROS = {
+	# 		set_cosmetic_tag = ROS_CIV
+	# 		set_politics = {
+	# 			ruling_party = despotism
+	# 		}
+	# 		set_popularities = {
+	# 			despotism = 0.3
+	# 		}
+	# 		
+	# 			promote_character = ROS_Pyotr_Krasnov
+	# 			promote_leader = yes
+	# 			country_leader = {
+	# 				ideology = military_junta_subtype
+	# 			}
+	# 		}
+	# 	}
+	# }
+}
+country_event = { #アルハンゲリスク
+	id = sg_soviet.4
+	title = sg_soviet.4.t
+	desc = sg_soviet.4.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+
+	immediate = { leave_faction = yes }
+	
+	option = {
+		name = sg_soviet.4.a
+		set_cosmetic_tag = ARS_Lab
+		ai_chance = {
+			factor = 15
+		}
+	}
+	option = {
+		name = sg_soviet.2.b
+		ARS = {
+			set_cosmetic_tag = ARS_Mars
+			
+				promote_character = ARS_Alexander_Bogdanov
+				
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+country_event = { #カザン
+	id = sg_soviet.5
+	title = sg_soviet.5.t
+	desc = sg_soviet.5.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+
+	immediate = { leave_faction = yes }
+	
+	option = {
+		name = sg_soviet.5.a
+		set_cosmetic_tag = KZS_Commune
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = sg_soviet.5.b
+		KZS = {
+			set_cosmetic_tag = KZS_Liberal
+			promote_character = KZS_Alexandra_Kollontai
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = sg_soviet.5.b
+		KZS = {
+			set_cosmetic_tag = KZS_Labour
+			promote_character = KZS_Alexander_Shliapnikov
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+country_event = { #モスクワの指針
+	id = sg_soviet.6
+	title = sg_soviet.6.t
+	desc = sg_soviet.6.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+
+	immediate = { leave_faction = yes }
+	
+	option = {
+		name = sg_soviet.6.a #正統派レーニン主義
+		set_cosmetic_tag = MSS_Lenin
+		ai_chance = {
+			factor = 15
+		}
+	}
+	option = {
+		name = sg_soviet.6.b #マルクス・レーニン主義
+		MSS = {
+			set_cosmetic_tag = MSS_Zhdanov
+			
+				promote_character = MSS_Andrei_Zhdanov
+				
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = sg_soviet.6.c #チェーカー
+		MSS = {
+			set_cosmetic_tag = MSS_Sverdlov
+			
+				promote_character = MSS_Yakov_Sverdlov
+				
+		}
+		ai_chance = {
+			factor = 10
+		}
 	}
 }

@@ -72,15 +72,21 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 40
-	national_socialism = 60
+	despotism = 20
+	national_socialism = 70
+	authoritarian_socialism = 10
 }
 
 add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+
+	ROM_Mihai_I_HoG
 }
 
-# recruit_character = HUN_Gombos_Gyula
-set_country_flag = has_sub_leader
+recruit_character = ROM_Corneliu_Codreanu
+
+ROM_Corneliu_Codreanu = {
+	promote_leader = yes
+}

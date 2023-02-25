@@ -66,32 +66,32 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = authoritarian_socialism
+	ruling_party = social_liberalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarian_socialism = 100
+	social_liberalism = 100
 }
-
-set_country_flag = NULL_national_socialism
-set_country_flag = NULL_national_populism
-set_country_flag = NULL_despotism
-set_country_flag = NULL_authoritarianism
-set_country_flag = NULL_conservative_democracy
-set_country_flag = NULL_liberal_democracy
-set_country_flag = NULL_reformism
-set_country_flag = NULL_social_liberalism
-set_country_flag = NULL_ultraradicalism
-set_country_flag = NULL_ultrareactionism
+set_country_flag = SET_social_liberalism
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-
+	#laws
+	SG_academic_4
+	SG_administration_5
+	SG_industry_4
+	SG_infrastructure_4
+	SG_network_2
+	SG_military_3
+	#economy
 	economy_planned_socialism
 }
 
-# recruit_character = SOV_Sergei_Kirov
+recruit_character = KZS_Victor_Serge
+recruit_character = KZS_Alexandra_Kollontai
+
+promote_character = {
+	character = KZS_Victor_Serge
+	ideology = anarcho_communism_subtype
+}

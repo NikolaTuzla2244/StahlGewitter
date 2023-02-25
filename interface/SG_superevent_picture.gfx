@@ -29,4 +29,8 @@ spriteTypes = {
 		name = "GFX_SG_spanish_civil_war"
 		texturefile = "gfx/superevent_pictures/spanish_civil_war.png"
 	}
+	spriteType = {
+		name = "GFX_SG_southern_crisis"
+		texturefile = "gfx/superevent_pictures/southern_crisis.png"
+	}
 }

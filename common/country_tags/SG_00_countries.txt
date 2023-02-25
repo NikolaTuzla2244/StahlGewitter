@@ -52,10 +52,17 @@ EST	= "countries/eastern_european.txt" #エストニア
 LAT	= "countries/eastern_european.txt" #ラトビア
 
 ###中東・アフリカ
+UKA = "countries/commonwealth.txt" #イギリス領アフリカ
+UKP = "countries/commonwealth.txt" #イギリス委任統治領パレスチナ
 FRR = "countries/western_european.txt" #フランス共和国
 IRQ = "common/countries/middle_eastern.txt" #メソポタミア/イラク
 BEK = "countries/western_european.txt" #亡命ベルギー王国
 ISR = "common/countries/middle_eastern.txt" #イスラエル国
+HWA = "common/countries/middle_eastern.txt" #聖戦軍
+EGY = "common/countries/middle_eastern.txt" #エジプト王国
+JAB = "common/countries/middle_eastern.txt" #ジャバル・シャンマル首長国
+HIG = "common/countries/middle_eastern.txt" #ヒジャーズ王国
+YEM = "common/countries/middle_eastern.txt" #イエメン王国
 
 ###ソビエト連邦
 SOV = "countries/eastern_european.txt" #ソビエト連邦
@@ -66,16 +73,21 @@ ARS = "countries/eastern_european.txt" #アルハンゲリスク・ソビエト
 KZS = "countries/eastern_european.txt" #カザン・ソビエト / アレクサンダー・シュリアプニコフ(革命的サンディカリスム), ニジニ・ノヴゴロド・ソビエト / ヴャチェスラフ・モロトフ
 MSS = "countries/eastern_european.txt" #モスクワ・ソビエト / グリゴリー・ジノヴィエフ(レーニン主義)
 SMS = "countries/eastern_european.txt" #スモレンスク・ソビエト
+#クリミア
 CRS = "countries/eastern_european.txt" #クリミア・ソビエト
+#ウクライナ
 KIS = "countries/eastern_european.txt" #キエフ・ソビエト / ニコライ・ヴァトゥーチン
 WMD = "countries/eastern_european.txt" #ソビエト西方軍管区 / コンスタンチン・ロコソフスキー
+UKR = "countries/eastern_european.txt" #ウクライナ・ソビエト / グリゴリー・ペトロフスキー
+WUK = "countries/eastern_european.txt" #西ウクライナ人民共和国
+URA = "countries/eastern_european.txt" #ウクライナ革命反乱軍
 
 SIS = "countries/eastern_european.txt" #シベリア・ソビエト
 FES = "countries/eastern_european.txt" #極東シベリア・ソビエト
 
 BAL	= "countries/eastern_european.txt" #バルト・ソビエト軍管区
 BLR = "countries/eastern_european.txt" #白ロシア・ソビエト
-UKR = "countries/eastern_european.txt" #ウクライナ・ソビエト / グリゴリー・ペトロフスキー
+
 TCC = "countries/eastern_european.txt" #コーカサス・ソビエト / イラクリー・ツェレテリ
 
 KAZ = "countries/asian.txt" #カザフ・ソビエト
@@ -129,31 +141,37 @@ SIK = "countries/asian.txt" #ウイグル
 AFG = "countries/asian.txt"
 
 ###アメリカ
-USA = "countries/eastern_european.txt" #アメリカ合衆国
+USA = "countries/eastern_european.txt" #アメリカ合衆国 ウェンデル・L・ウィルキー[自由民主主義], ジョン・N・ガーナー[保守民主主義]
+CSA = "countries/eastern_european.txt" #アメリカ連合国
 #崩壊
-LOU = "countries/eastern_european.txt" #ルイジアナ政府 / アルヴィン・オーリン・キング Alvin Olin King[権威主義]
-CNC = "countries/eastern_european.txt" #キリスト教愛国十字軍 / ジェラルド・L・K・スミス[国家社会主義]
-KKK = "countries/eastern_european.txt" #クー・クラックス・クラン / ジェームズ・A・コールスコット
-DIX = "countries/eastern_european.txt" #南部連合 / リチャード・ラッセル・ジュニア[右派ポピュリズム]
-GCM = "countries/eastern_european.txt" #ジョージア黒人運動 / W・E・B・デュボイス[社会自由主義]
+LOU = "countries/eastern_european.txt" #ルイジアナ王国 / ヒューイ・ロング[ロング思想]
+TEX = "countries/eastern_european.txt" #テキサス共和国 / [権威民主主義]
+CNC = "countries/eastern_european.txt" #キリスト教愛国十字軍 / チャールズ・カフリン[教権ファシズム]
+FAC = "countries/eastern_european.txt" #フロリダ航空センター / [軍政]
+DIX = "countries/eastern_european.txt" #南部連合 / リチャード・ラッセル・ジュニア[ディキシークラット]
 
-USR = "countries/eastern_european.txt" #アメリカ共和国 / ウェンデル・L・ウィルキー[自由民主主義], ジョン・N・ガーナー[保守民主主義]
-ASF = "countries/eastern_european.txt" #シュルレアリスム戦線 / エマニュエル・ラドニツキー[超急進主義], パーシー・グレインジャー[自由民主主義]
-SCI = "countries/eastern_european.txt" #サイエントロジー教会 / L・ロン・ハバード[専制主義]
-FOR = "countries/eastern_european.txt" #フォード・モーター / ヘンリー・フォード[右派ポピュリズム]
+KKK = "countries/eastern_european.txt" #クー・クラックス・クラン / ジェームズ・A・コールスコット[人種至上主義]
+GBM = "countries/eastern_european.txt" #ジョージア黒人運動 / W・E・B・デュボイス[人民戦線]
 
-AAM = "countries/eastern_european.txt" #米国陸軍政府 / ジョージ・マーシャル[専制主義]
-ANV = "countries/eastern_european.txt" #海軍警備隊 / チェスター・ニミッツ[権威主義]
-NYS = "countries/eastern_european.txt" #ニューヨーク・シンジケート / サルヴァトーレ・マランツァーノ[権威主義], ラッキー・ルチアーノ[社会自由主義]
+CPU = "countries/eastern_european.txt" #アメリカ共産党 / ウィリアム・Z・フォスター[集産社会主義]
+IWW = "countries/eastern_european.txt" #世界産業労働組合 / ジェイ・フォックス[革命的サンディカリスム]
+FOR = "countries/eastern_european.txt" #フォード・モーター / ヘンリー・フォード[市場自由主義]
+
+NEE = "countries/eastern_european.txt" #ニューイングランド / 
 IRO = "countries/eastern_european.txt" #イロコイ連邦 / 
+NYS = "countries/eastern_european.txt" #ニューヨーク・シンジケート / サルヴァトーレ・マランツァーノ[権威主義], ラッキー・ルチアーノ[社会自由主義]
 JDL = "countries/eastern_european.txt" #ユダヤ防衛同盟 / ゼエヴ・ジャボチンスキー[右派ポピュリズム]
+SAD = "countries/eastern_european.txt" #第二機甲師団 / 
+SCI = "countries/eastern_european.txt" #サイエントロジー教会 / L・ロン・ハバード[専制主義]
+ANV = "countries/eastern_european.txt" #海軍警備隊 / チェスター・ニミッツ[権威主義]
+TEC = "countries/eastern_european.txt" #テクノクラシー委員会 / ハワード・スコット[専制主義]
 
-CPU = "countries/eastern_european.txt" #赤色統一戦線 → アメリカ共産党 / ウィリアム・Z・フォスター[権威社会主義]
-IWW = "countries/eastern_european.txt" #世界産業労働組合 / ジェイ・フォックス[社会自由主義]
-TEC = "countries/eastern_european.txt" #テクニカル・アライアンス / ハワード・スコット[専制主義]
+AAM = "countries/eastern_european.txt" #米国陸軍司令部 / ジョージ・マーシャル[専制主義]
+ANT = "countries/eastern_european.txt" #ANTIFA!(アナーキスト) / アレクサンダー・バークマン[社会自由主義], ルイジ・ガレアーニ[社会自由主義]
 SAI = "countries/eastern_european.txt" #アメリカ・インディアン協会 / シャーマン・クーリッジ[社会自由主義]
-ACT = "countries/eastern_european.txt" #ACTION!(アナーキスト) / アレクサンダー・バークマン[社会自由主義], ルイジ・ガレアーニ[社会自由主義]
 SSL = "countries/eastern_european.txt" #銀シャツ団 / ウィリアム・ダドリー・ペリー[国家社会主義]
+LDS = "countries/eastern_european.txt" #末日聖徒イエス・キリスト教会
+CON = "countries/eastern_european.txt" #北米構造体 / エマニュエル・ラドニツキー[超急進主義], パーシー・グレインジャー[自由民主主義]
 
 #北米
 CAN = "common/countries/commonwealth.txt" #カナダ自治領
@@ -201,7 +219,6 @@ ICE = "countries/Iceland.txt"
 LEB = "countries/Lebanon.txt"
 JOR = "countries/Jordan.txt"
 SYR = "countries/Syria.txt"
-EGY = "countries/Egypt.txt"
 LBA = "countries/Libya.txt"
 WGR = "countries/West Germany.txt"
 DDR = "countries/East Germany.txt"
@@ -256,7 +273,6 @@ BRD = "countries/Burundi.txt"
 # ZAM = "countries/Zambia.txt"
 # MLW = "countries/Malawi.txt"
 # GAB = "countries/Gabon.txt"
-# RCG = "countries/Republic of Congo.txt"
 # EQG = "countries/Equatorial Guinea.txt"
 # CMR = "countries/Cameroon.txt"
 # CAR = "countries/Central African Republic.txt"
@@ -275,7 +291,6 @@ BRD = "countries/Burundi.txt"
 # GAM = "countries/Gambia.txt"
 # WLS = "countries/Wales.txt"
 # NGR = "countries/Niger.txt"
-# CSA = "countries/CSA.txt"
 # USB = "countries/USB.txt"
 # MRT = "countries/Mauritania.txt"
 # NMB = "countries/Namibia.txt"

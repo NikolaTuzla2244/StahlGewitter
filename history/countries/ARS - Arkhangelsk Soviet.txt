@@ -75,16 +75,7 @@ set_popularities = {
 	authoritarian_socialism = 100
 }
 
-set_country_flag = NULL_national_socialism
-set_country_flag = NULL_national_populism
-set_country_flag = NULL_despotism
-set_country_flag = NULL_authoritarianism
-set_country_flag = NULL_conservative_democracy
-set_country_flag = NULL_liberal_democracy
-set_country_flag = NULL_reformism
-set_country_flag = NULL_social_liberalism
-set_country_flag = NULL_ultraradicalism
-set_country_flag = NULL_ultrareactionism
+set_country_flag = SET_authoritarian_socialism
 
 add_ideas = {
 	limited_exports
@@ -94,4 +85,5 @@ add_ideas = {
 	economy_planned_socialism
 }
 
-# recruit_character = SOV_Sergei_Kirov
+recruit_character = ARS_Igor_Kurchatov
+recruit_character = ARS_Alexander_Bogdanov

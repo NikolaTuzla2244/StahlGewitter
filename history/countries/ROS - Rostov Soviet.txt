@@ -1,4 +1,4 @@
-﻿capital = 219
+﻿capital = 218
 
 # Starting tech
 set_technology = {
@@ -72,19 +72,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarian_socialism = 100
+	authoritarian_socialism = 50
+	authoritarianism = 20
+	national_populism = 10
+	despotism = 20
 }
 
-set_country_flag = NULL_national_socialism
-set_country_flag = NULL_national_populism
-set_country_flag = NULL_despotism
-set_country_flag = NULL_authoritarianism
-set_country_flag = NULL_conservative_democracy
-set_country_flag = NULL_liberal_democracy
-set_country_flag = NULL_reformism
-set_country_flag = NULL_social_liberalism
-set_country_flag = NULL_ultraradicalism
-set_country_flag = NULL_ultrareactionism
+set_country_flag = SET_authoritarian_socialism
+set_country_flag = SET_authoritarianism
+set_country_flag = SET_national_populism
+set_country_flag = SET_despotism
 
 add_ideas = {
 	limited_exports
@@ -94,4 +91,9 @@ add_ideas = {
 	economy_planned_socialism
 }
 
-# recruit_character = SOV_Sergei_Kirov
+recruit_character = ROS_Sergei_Kirov
+recruit_character = ROS_Andrey_Vlasov
+recruit_character = ROS_Ivan_Ilyin
+recruit_character = ROS_Nikolai_Trubetzkoy
+
+recruit_character = ROS_Pyotr_Krasnov

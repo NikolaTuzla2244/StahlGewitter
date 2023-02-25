@@ -75,23 +75,21 @@ set_popularities = {
 	authoritarian_socialism = 100
 }
 
-set_country_flag = NULL_national_socialism
-set_country_flag = NULL_national_populism
-set_country_flag = NULL_despotism
-set_country_flag = NULL_authoritarianism
-set_country_flag = NULL_conservative_democracy
-set_country_flag = NULL_liberal_democracy
-set_country_flag = NULL_reformism
-set_country_flag = NULL_social_liberalism
-set_country_flag = NULL_ultraradicalism
-set_country_flag = NULL_ultrareactionism
+set_country_flag = SET_authoritarian_socialism
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-
+	#laws
+	SG_academic_4
+	SG_administration_5
+	SG_industry_5
+	SG_infrastructure_5
+	SG_network_2
+	SG_military_3
+	#economy
 	economy_planned_socialism
 }
 
 recruit_character = MSS_Grigorii_Zinoviev
+recruit_character = MSS_Andrei_Zhdanov
+recruit_character = MSS_Lavrentiy_Beria
+recruit_character = MSS_Lavrentiy_Beria

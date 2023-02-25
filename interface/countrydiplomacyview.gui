@@ -228,12 +228,12 @@ guiTypes = {
 				name = "diplomacy_tab_top"
 				position = { x=0 y= 110 }
 
-				iconType = {
-					name = "leader_portrait"
-					position = { x = 20 y = 10 }
-					spriteType = "GFX_leader_unknown"
-					scale = 0.74
-				}
+				# iconType = {
+				# 	name = "leader_portrait"
+				# 	position = { x = 20 y = 10 }
+				# 	spriteType = "GFX_leader_unknown"
+				# 	scale = 0.74
+				# }
 
 				iconType = {
 					name = "diplo_leader_frame"
@@ -266,6 +266,13 @@ guiTypes = {
 						spriteType = "GFX_pol_piechart_overlay"
 						position = { x= 16 y = 0 }
 					}
+				}
+
+				iconType = {
+					name = "leader_portrait"
+					position = { x = 20 y = 10 }
+					spriteType = "GFX_leader_unknown"
+					scale = 0.74
 				}
 
 				containerWindowType = {

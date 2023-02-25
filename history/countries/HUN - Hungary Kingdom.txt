@@ -66,23 +66,22 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = national_populism
+	ruling_party = despotism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	national_populism = 70
-	national_socialism = 30
+	despotism = 60
+	national_socialism = 40
 }
 
 add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+
+	HUN_Hungarian_Throne_HoG
 }
 
-recruit_character = HUN_Gombos_Gyula
-recruit_character = HUN_Karl_I
-
-activate_advisor = HUN_Karl_I_HoG
+recruit_character = HUN_Gusztav_Gratz

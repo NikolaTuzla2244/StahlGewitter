@@ -130,6 +130,18 @@ set_autonomy = {
 	target = MAL
 	autonomy_state = autonomy_puppet
 }
+set_autonomy = {
+	target = UKA
+	autonomy_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+	target = UKP
+	autonomy_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+	target = EGY
+	autonomy_state = autonomy_supervised_state
+}
 
 recruit_character = ENG_Winston_Churchill
 recruit_character = ENG_Freeman_Thomas

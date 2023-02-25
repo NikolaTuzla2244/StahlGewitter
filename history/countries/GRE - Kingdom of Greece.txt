@@ -72,17 +72,18 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 40
-	national_populism = 30
-	authoritarianism = 20
-	authoritarian_socialism = 10
+	despotism = 80
+	authoritarian_socialism = 20
 }
 
 add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+
+	GRE_Georgios_II_HoG
 }
 
+recruit_character = GRE_Georgios_Kondylis
+
 # recruit_character = GRE_Ioannis_Metaxas
-# recruit_character = GRE_Georgios_II

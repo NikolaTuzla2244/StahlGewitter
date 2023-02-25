@@ -32,5 +32,9 @@ SG_fire_super_event = {
 			limit = { check_variable = { SG_temp_super_event = 23 } }
 			scoped_play_song = "sg_se_spanish_civil_war"
 		}
+		if = { #南部危機
+			limit = { check_variable = { SG_temp_super_event = 24 } }
+			scoped_play_song = "sg_se_southern_crisis"
+		}
 	}
 }

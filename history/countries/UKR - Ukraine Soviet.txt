@@ -1,4 +1,6 @@
-capital = 361
+capital = 227
+
+set_cosmetic_tag = UKR_SOV
 
 # Starting tech
 set_technology = {
@@ -62,31 +64,31 @@ set_technology = {
 
 set_research_slots = 4
 set_convoys = 200
-set_stability = 0.8
+set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = liberal_democracy
+	ruling_party = authoritarian_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	conservative_democracy = 40
-	liberal_democracy = 60
+	authoritarian_socialism = 70
+	national_populism = 30
 }
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	war_economy
-
-	economy_market_fundamentalism
+	#laws
+	SG_academic_3
+	SG_administration_4
+	SG_industry_4
+	SG_infrastructure_3
+	SG_network_2
+	SG_military_3
+	#economy
+	economy_planned_socialism
 }
 
-recruit_character = USR_Wendell_Lewis_Willkie
-recruit_character = USR_John_Nance_Garner
-promote_character = {
-	character = USR_Wendell_Lewis_Willkie
-	ideology = conservative_democracy_subtype
-}
+recruit_character = UKR_Lazar_Kaganovich
+recruit_character = UKR_Yevhen_Konovalets

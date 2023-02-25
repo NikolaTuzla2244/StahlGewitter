@@ -177,6 +177,10 @@ defined_text = { #保守民主主義
 defined_text = { #自由民主主義
 	name = GetSubIdeologyName_LibDem
 	text = {
+		trigger = { has_country_leader_ideology = objectivism_subtype }
+		localization_key = objectivism_subtype
+	}
+	text = {
 		localization_key = liberal_democracy
 	}
 }
@@ -185,6 +189,10 @@ defined_text = { #修正主義
 	text = {
 		trigger = { has_country_leader_ideology = social_democracy_subtype }
 		localization_key = social_democracy_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = democratic_socialism_subtype }
+		localization_key = democratic_socialism_subtype
 	}
 	text = {
 		trigger = { has_country_leader_ideology = reformed_buddhism_subtype }

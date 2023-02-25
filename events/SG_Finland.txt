@@ -17,6 +17,9 @@ country_event = { #フィンランド内戦
 			transfer_state = 149
 			transfer_state = 150
 
+			every_owned_state = {
+				add_core_of = PREV
+			}
 			declare_war_on = {
 				target = FIN
 				type = annex_everything

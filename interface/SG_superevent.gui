@@ -32,7 +32,7 @@ guiTypes = {
 			iconType = {
 				name ="SG_superevent_quote_bg"
 				spriteType = "GFX_SG_superevent_desc"
-				position = { x = 280 y = 0 }
+				position = { x = 150 y = 0 }
 				alwaystransparent = yes
 				Orientation = center
 			}
@@ -78,14 +78,15 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "SG_superevent_button"
+			position = { x = 0 y = 620 }
 			buttonType = {
 				name ="SG_superevent_button"
 				spriteType = "GFX_SG_superevent_button"
-				position = { x = 178 y = 640 }
+				position = { x = 178 y = 0 }
 			}
 			instantTextboxType = {
 				name = "SG_superevent_button_text"
-				position = { x = 190 y = 651 }
+				position = { x = 190 y = 11 }
 				font = "hoi_20bs"
 				text = [SGGetSuperEventOption]
 				maxWidth = 300

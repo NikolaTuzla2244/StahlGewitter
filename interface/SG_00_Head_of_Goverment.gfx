@@ -1,7 +1,60 @@
 spriteTypes = {
-	#国民精神
+	
+	spriteType = {
+		name = "GFX_idea_ENG_Edward_VIII"
+		texturefile = "gfx/characters/small/ENG/idea_ENG_Edward_VIII.png"
+	}
+	spriteType = { #ポートレート
+		name = "GFX_Portrait_ENG_Edward_VIII"
+		texturefile = "gfx/characters/large/ENG/Portrait_ENG_Edward_VIII.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPA_Alfonso_XIII"
+		texturefile = "gfx/characters/small/SPA/idea_SPA_Alfonso_XIII.png"
+	}
+	spriteType = { #ポートレート
+		name = "GFX_Portrait_SPA_Alfonso_XIII"
+		texturefile = "gfx/characters/large/SPA/Portrait_SPA_Alfonso_XIII.png"
+	}
+	
 	spriteType = {
 		name = "GFX_idea_USA_Huey_Long"
 		texturefile = "gfx/characters/small/USA/idea_USA_Huey_Long.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_HUN_Hungarian_Throne"
+		texturefile = "gfx/characters/small/HUN/idea_HUN_Hungarian_Throne.png"
+	}
+	spriteType = { #ポートレート
+		name = "GFX_Portrait_HUN_Hungarian_Throne"
+		texturefile = "gfx/characters/large/HUN/Portrait_HUN_Hungarian_Throne.png"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_Karl_I"
+		texturefile = "gfx/characters/small/HUN/idea_HUN_Karl_I.png"
+	}
+	spriteType = { #ポートレート
+		name = "GFX_Portrait_HUN_Karl_I"
+		texturefile = "gfx/characters/large/HUN/Portrait_HUN_Karl_I.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GRE_Georgios_II"
+		texturefile = "gfx/characters/small/GRE/idea_GRE_Georgios_II.png"
+	}
+	spriteType = { #ポートレート
+		name = "GFX_Portrait_GRE_Georgios_II"
+		texturefile = "gfx/characters/large/GRE/Portrait_GRE_Georgios_II.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Mihai_I"
+		texturefile = "gfx/characters/small/ROM/idea_ROM_Mihai_I.png"
+	}
+	spriteType = { #ポートレート
+		name = "GFX_Portrait_ROM_Mihai_I"
+		texturefile = "gfx/characters/large/ROM/Portrait_ROM_Mihai_I.png"
 	}
 }

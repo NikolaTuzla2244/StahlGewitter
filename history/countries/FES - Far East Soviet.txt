@@ -66,32 +66,33 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = authoritarian_socialism
+	ruling_party = reformism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarian_socialism = 100
+	reformism = 90
+	despotism = 5
+	national_populism = 3
+	national_socialism = 2
 }
 
-set_country_flag = NULL_national_socialism
-set_country_flag = NULL_national_populism
-set_country_flag = NULL_despotism
-set_country_flag = NULL_authoritarianism
-set_country_flag = NULL_conservative_democracy
-set_country_flag = NULL_liberal_democracy
-set_country_flag = NULL_reformism
-set_country_flag = NULL_social_liberalism
-set_country_flag = NULL_ultraradicalism
-set_country_flag = NULL_ultrareactionism
+set_country_flag = SET_reformism
+set_country_flag = SET_despotism
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-
+	#laws
+	SG_academic_2
+	SG_administration_2
+	SG_industry_2
+	SG_infrastructure_2
+	SG_network_1
+	SG_military_4
+	#economy
 	economy_planned_socialism
 }
 
-# recruit_character = SOV_Sergei_Kirov
+# country_event = { id = sg_soviet.1 days = 300 }
+recruit_character = FES_Alexander_Krasnoshchyokov
+recruit_character = FES_Lavr_Kornilov

@@ -1,7 +1,39 @@
 ﻿l_japanese:
 PES_Gavril_Myasnikov:0 "ガヴリル・ミアスニコフ"
+PES_Julius_Martov:0 "ユーリー・マルトフ"
+PES_Pavel_Milyukov:0 "パーヴェル・ミリュコーフ"
+PES_Ayn_Rand:0 "アイン・ランド"
+PES_Vasily_Shulgin:0 "ワシーリー・シュリギン"
+
+ROS_Sergei_Kirov:0 "セルゲイ・キーロフ"
+ROS_Andrey_Vlasov:0 "アンドレイ・ウラソフ"
+ROS_Ivan_Ilyin:0 "イワン・イリイン"
+ROS_Nikolai_Trubetzkoy:0 "ニコライ・トルベツコイ"
+ROS_Pyotr_Krasnov:0 "ピョートル・クラスノフ"
+
+ARS_Igor_Kurchatov:0 "イーゴリ・クルチャトフ"
+ARS_Alexander_Bogdanov:0 "アレクサンドル・ボグダーノフ"
+
+KZS_Victor_Serge:0 "ヴィクトル・セルジュ"
+KZS_Alexandra_Kollontai:0 "アレクサンドラ・コロンタイ"
+KZS_Alexander_Shliapnikov:0 "アレクサンドル・シュリャープニコフ"
+
 MSS_Grigorii_Zinoviev:0 "グレゴリー・ジノヴィエフ"
+MSS_Andrei_Zhdanov:0 "アンドレイ・ジダーノフ"
+MSS_Yakov_Sverdlov:0 "ヤーコフ・スヴェルドロフ"
+
+SMS_Grigorii_Maksimov:0 "グリゴリー・マクシモフ"
+
 KIS_Nikolai_Vatutin:0 "ニコライ・ヴァトゥーチン"
+
 WMD_Konstantin_Rokossovsky:0 "コンスタンチン・ロコソフスキー"
+
+SIS_Nikolai_Bukharin:0 "ニコライ・ブハーリン"
+
+FES_Alexander_Krasnoshchyokov:0 "アレクサンドル・クラスノシチョーコフ"
+FES_Lavr_Kornilov:0 "ラーヴル・コルニーロフ"
+
+UKR_Lazar_Kaganovich:0 "ラーザリ・カガノーヴィチ"
+UKR_Volin:0 "ヴォリン"
 
 is_in_soviet_union:0 "ソビエト連邦である"

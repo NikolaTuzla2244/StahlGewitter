@@ -175,4 +175,15 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4391;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
+
+11838;9884;impassable;-1;-1;-1;-1;-1;;pyrenees
+915;9884;impassable;-1;-1;-1;-1;-1;;pyrenees
+915;9882;impassable;-1;-1;-1;-1;-1;;pyrenees
+899;9882;impassable;-1;-1;-1;-1;-1;;pyrenees
+3899;9882;impassable;-1;-1;-1;-1;-1;;pyrenees
+3899;3915;impassable;-1;-1;-1;-1;-1;;pyrenees
+3898;3915;impassable;-1;-1;-1;-1;-1;;pyrenees
+3898;6931;impassable;-1;-1;-1;-1;-1;;pyrenees
+
+1086;13238;sea;4088;-1;-1;-1;-1;GAZA_TUNNEL;Gaza
 -1;-1;;-1;-1;-1;-1;-1;-1

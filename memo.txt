@@ -30,7 +30,6 @@
 # set_country_flag = NULL_ultrareactionism
 
 #Province Color(使ったら消すこと)
-225,120,52
 106,231,93
 82,185,142
 202,39,191

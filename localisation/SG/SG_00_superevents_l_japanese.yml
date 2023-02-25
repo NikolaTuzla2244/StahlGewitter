@@ -4,6 +4,7 @@ SG_china_unification_title:0 "Chinese Unification"
 SG_american_collapse_title:0 "American Collapse"
 SG_third_balkan_war_title:0 "Third Balkan War"
 SG_spanish_civil_war_title:0 "Spanish Civil War"
+SG_southern_crisis_title:0 "Southern Crisis"
 
 SG_chinese_collapse_quote:0 "自ら反みて縮くんば、千万人と雖も、吾往かん。\n\n- 孟子"
 SG_china_unification_nationalist_army_quote:0 "戦争とは、装備や火砲、規律や航空機のみに留まらず、\n精神、つまり士気の問題が大きい。\n\n- 蔣介石"
@@ -12,6 +13,7 @@ SG_american_collapse_quote:0 "私の夢。それは、アメリカが再び地�
 SG_third_balkan_war_small_quote:0 "バルカンの人々とは、機能不全家族のようなものである。\n喧嘩や口論が絶えないとしても、結局は我々は家族なのだ。\n- ブラデ・ディバッツ"
 SG_third_balkan_war_large_quote:0 "内なる平和だけが、この戦争の傷を癒してくれる。\n\n- カール1世"
 SG_spanish_civil_war_quote:0 "私たちの最大の敵、まず私たちと戦う事になる者とは、\n私たちの内部にいるものだ。\n- ミゲル・デ・セルバンテス"
+SG_southern_crisis_quote:0 "我々はディキシーの旗とその遺産の意味するところを知っている。\n南北戦争とは州の権利を巡る争いだったのだ。\n- ゲイリー・ロッシントン"
 
 SG_chinese_collapse_option:0 "龍は引き裂かれる"
 SG_china_unification_nationalist_army_option:0 "国民革命軍の進軍"
@@ -20,3 +22,4 @@ SG_american_collapse_option:0 "星条旗よ永遠なれ"
 SG_third_balkan_war_small_option:0 "均衡は崩れ始める"
 SG_third_balkan_war_large_option:0 "分割できず、離れ難い"
 SG_spanish_civil_war_option:0 "武器を取れ、スペイン人民の子らよ！" #Alzad los brazos, hijos del pueblo español,
+SG_southern_crisis_option:0 "スタンド・オフ"

@@ -36,4 +36,45 @@ scripted_gui = {
 			}
 		}
 	}
+	SG_diplo_sub_leader_GUI = {
+		window_name = "SG_diplo_sub_leader_GUI"
+		context_type = selected_country_context
+		parent_window_token = selected_country_view_diplomacy
+			
+		visible = {
+			# has_country_flag = has_sub_leader
+			has_idea_with_trait = SG_trait_Monach
+		}
+		effects = {
+			sub_leader_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							check_variable = { THIS.leaderGUI = 1 }
+						}
+					}
+					set_variable = { THIS.leaderGUI = 1 }
+				}
+				else = {
+					set_variable = { THIS.leaderGUI = 0 }
+				}
+			}
+		}
+		triggers = {
+			sub_leader_visible = { check_variable = { THIS.leaderGUI = 1 } }
+			sub_leader_frame_visible = { check_variable = { THIS.leaderGUI = 1 } }
+			sub_leader_name_visible = { check_variable = { THIS.leaderGUI = 1 } }
+
+			sub_leader_button__visible = {
+				OR = {
+					has_idea_with_trait = SG_trait_Monach
+				}
+			}
+		}
+		properties = {
+			sub_leader = {
+				image = "[THIS.sub_leader_portrait]"
+			}
+		}
+	}
 }

@@ -14,15 +14,33 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_idea = SPA_Alfonso_XIII_HoG
+		}
+		localization_key = "GFX_Portrait_SPA_Alfonso_XIII"
+	}
+	text = {
+		trigger = {
+			has_idea = HUN_Hungarian_Throne_HoG
+		}
+		localization_key = "GFX_Portrait_HUN_Hungarian_Throne"
+	}
+	text = {
+		trigger = {
 			has_idea = HUN_Karl_I_HoG
 		}
 		localization_key = "GFX_Portrait_HUN_Karl_I"
 	}
 	text = {
 		trigger = {
-			has_idea = SPA_Alfonso_XIII_HoG
+			has_idea = GRE_Georgios_II_HoG
 		}
-		localization_key = "GFX_Portrait_SPA_Alfonso_XIII"
+		localization_key = "GFX_Portrait_GRE_Georgios_II"
+	}
+	text = {
+		trigger = {
+			has_idea = ROM_Mihai_I_HoG
+		}
+		localization_key = "GFX_Portrait_ROM_Mihai_I"
 	}
 	text = {
 		localization_key = "GFX_leader_unknown"
@@ -38,9 +56,21 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_idea = SPA_Alfonso_XIII_HoG
+		}
+		localization_key = SPA_Alfonso_XIII
+	}
+	text = {
+		trigger = {
 			has_idea = ITA_Vittorio_Emanuele_III_HoG
 		}
 		localization_key = ITA_Vittorio_Emanuele_III
+	}
+	text = {
+		trigger = {
+			has_idea = HUN_Hungarian_Throne_HoG
+		}
+		localization_key = HUN_Hungarian_Throne
 	}
 	text = {
 		trigger = {
@@ -50,9 +80,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_idea = SPA_Alfonso_XIII_HoG
+			has_idea = GRE_Georgios_II_HoG
 		}
-		localization_key = SPA_Alfonso_XIII
+		localization_key = GRE_Georgios_II
+	}
+	text = {
+		trigger = {
+			has_idea = ROM_Mihai_I_HoG
+		}
+		localization_key = ROM_Mihai_I
 	}
 	text = {
 		localization_key = "unknown"

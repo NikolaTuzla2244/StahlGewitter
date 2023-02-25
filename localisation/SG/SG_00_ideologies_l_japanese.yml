@@ -34,6 +34,7 @@ stratocracy_nationalism_subtype:0 "軍政民族主義"
 national_syndicalism_subtype:0 "国家サンディカリスム"
 San_Min_fascism_subtype:0 "結束三民主義"
 longism_subtype:0 "ロング主義"
+eurasianism_subtype:0 "ユーラシア主義"
 
 military_junta_subtype:0 "軍事政権"
 civilian_dictatorship_subtype:0 "文民独裁"
@@ -48,7 +49,10 @@ stratocracy_subtype:0 "軍政"
 
 san_min_democracy_subtype:0 "三民主義"
 
+objectivism_subtype:0 "客観主義"
+
 social_democracy_subtype:0 "社会民主主義"
+democratic_socialism_subtype:0 "民主社会主義"
 reformed_buddhism_subtype:0 "改革仏典思想"
 
 maoism_subtype:0 "毛沢東思想"
@@ -63,6 +67,7 @@ chinise_socialsm_subtype:0 "中華型社会主義"
 socialist_junta_subtype:0 "軍政社会主義"
 leninism_subtype:0 "レーニン主義"
 collectivist_socialism_subtype:0 "集産社会主義"
+chekism_subtype:0 "チェキズム"
 
 fundamentalism_subtype:0 "宗教原理主義"
 revisionist_zionism_subtype:0 "修正主義シオニズム"

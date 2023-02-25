@@ -362,3 +362,47 @@ adjacency_rule =
 	icon = 10904
 	offset = { 2 0 12 }
 }
+
+adjacency_rule ={
+	name = "GAZA_TUNNEL"
+
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	neutral = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	
+	required_provinces = { 1086 13238 }
+
+	is_disabled = {
+		NOT = {
+			OR = {
+				has_global_flag = GAZA_TUNNEL_AVAILABLE
+				has_country_flag = GAZA_TUNNEL_AVAILABLE_FOR_COUNTRY
+			}
+		}
+		tooltip = disable_gaza_tunnel_tt
+	}
+		
+	icon = 4088
+	offset = { 1 0 -6 }
+}

@@ -39,6 +39,7 @@ ideologies = {
 			national_syndicalism_subtype = { can_be_randomly_selected = no }
 			San_Min_fascism_subtype = { can_be_randomly_selected = no }
 			longism_subtype = { can_be_randomly_selected = no }
+			eurasianism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 127 69 19 }
@@ -148,6 +149,8 @@ ideologies = {
 	liberal_democracy = {
 		types = {
 			liberal_democracy_subtype = {}
+
+			objectivism_subtype = {}
 		}
 		dynamic_faction_names = {}
 		color = { 22 77 119 }
@@ -174,6 +177,7 @@ ideologies = {
 			reformism_subtype = {}
 
 			social_democracy_subtype = { can_be_randomly_selected = no }
+			democratic_socialism_subtype = { can_be_randomly_selected = no }
 			reformed_buddhism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
@@ -236,6 +240,7 @@ ideologies = {
 			socialist_junta_subtype = { can_be_randomly_selected = no }
 			leninism_subtype = { can_be_randomly_selected = no }
 			collectivist_socialism_subtype = { can_be_randomly_selected = no }
+			chekism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 124 17 19 }

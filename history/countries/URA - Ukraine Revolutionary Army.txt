@@ -1,6 +1,4 @@
-capital = 202
-
-set_cosmetic_tag = UKR_SOV
+capital = 222
 
 # Starting tech
 set_technology = {
@@ -68,20 +66,25 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = authoritarian_socialism
+	ruling_party = social_liberalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarian_socialism = 70
-	social_liberalism = 30
+	social_liberalism = 100
 }
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
+	#laws
+	SG_academic_3
+	SG_administration_4
+	SG_industry_4
+	SG_infrastructure_3
+	SG_network_2
+	SG_military_3
+	#economy
+	economy_planned_socialism
 }
 
-# recruit_character = FRA_Jacques_Duclos
+recruit_character = URA_Volin

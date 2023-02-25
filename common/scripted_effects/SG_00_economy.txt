@@ -233,7 +233,7 @@ divisions_limit_calc = { #KRから引っ張ってきました…
 	set_temp_variable = { factory_points = 0 }
 
 	set_variable = { base_states = 0 }
-	### normal behaviour - check all owned states of PREV
+	###通常 - PREVの保有ステートを確認
 	add_to_variable = { base_states = num_owned_states }
 	every_owned_state = {
 		if = {
@@ -322,7 +322,10 @@ divisions_limit_calc = { #KRから引っ張ってきました…
 
 			add_to_variable = { PREV.subject_non_core_base = non_core_base_temp }
 		}
+		
 		add_to_variable = { base_states = subject_states }
+
+		multiply_variable = { subject_base_units = 0.5 } #傀儡追加師団多すぎるので補正
 		add_to_variable = { base_units = subject_base_units }
 		divide_variable = { subject_base_units = 1000 } #for the tooltip
 
@@ -370,7 +373,7 @@ divisions_limit_calc = { #KRから引っ張ってきました…
 	# add_to_temp_variable = { limit_multiplier = modifier@unit_limit_factory_bonus } # +10% per economy law level above civilian economy
 	if = {
 		limit = { is_faction_leader = yes }
-		add_to_temp_variable = { limit_multiplier = 0.15 } # +15% for faction leaders
+		add_to_temp_variable = { limit_multiplier = 0.10 } # +10% for faction leaders
 	}
 	multiply_variable = { max_divisions = limit_multiplier }
 

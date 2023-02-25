@@ -42,3 +42,9 @@ music = {
 		modifier = { factor = 0 }
 	}
 }
+music = {
+	song = "sg_se_southern_crisis"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}

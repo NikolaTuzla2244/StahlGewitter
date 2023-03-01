@@ -1,13 +1,30 @@
 ideas = {
 	country = {
-		ENG_Edward_VIII = {		
-			picture = ENG_Edward_VIII
+		ENG_Emergency_Powers = {
+			picture = ENG_Emergency_Powers
 			allowed = {
 				tag = ENG
 			}
 			removal_cost = -1
 			modifier = {
-				stability_factor = 0.1
+				political_power_cost = 0.05
+				stability_factor = 0.15
+				social_liberalism_drift = -0.05
+			}
+		}
+		ENG_Aftermath_1920s_General_Strike = {
+			picture = ENG_Aftermath_1920s_General_Strike
+			allowed = {
+				tag = ENG
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.1
+				consumer_goods_factor = 0.15
+				production_factory_max_efficiency_factor = -0.2
+				production_factory_efficiency_gain_factor = -0.2
+				stability_factor = -0.25
+				social_liberalism_drift = 0.05
 			}
 		}
 	}

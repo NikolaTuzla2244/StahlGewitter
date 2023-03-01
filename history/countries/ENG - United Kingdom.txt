@@ -61,8 +61,8 @@ set_technology = {
 }
 
 set_research_slots = 4
-set_convoys = 200
-set_stability = 0.8
+set_convoys = 500
+set_stability = 0.4
 set_war_support = 0.3
 
 set_politics = {
@@ -104,7 +104,9 @@ add_ideas = {
 	SG_network_3
 	SG_military_3
 
-	ENG_Edward_VIII_HoG
+	ENG_George_V_HoG
+	ENG_Emergency_Powers
+	ENG_Aftermath_1920s_General_Strike
 }
 
 create_faction = BRITISH_EMPIRE
@@ -142,6 +144,8 @@ set_autonomy = {
 	target = EGY
 	autonomy_state = autonomy_supervised_state
 }
+
+country_event = { id = sg_britain.2 days = 20 }
 
 recruit_character = ENG_Winston_Churchill
 recruit_character = ENG_Freeman_Thomas

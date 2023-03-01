@@ -1,7 +1,7 @@
 add_namespace = sg_worldnews
 add_namespace = sg_worldnews_china_uni
 
-news_event = { #合衆国崩壊
+news_event = { #アメリカ - 合衆国崩壊
 	id = sg_worldnews.1
 	title = sg_worldnews.1.t
 	desc = sg_worldnews.1.d
@@ -26,7 +26,7 @@ news_event = { #合衆国崩壊
 	}
 }
 
-news_event = { #中華内戦
+news_event = { #北京政府 - 中華内戦
 	id = sg_worldnews.2
 	title = sg_worldnews.2.t
 	desc = sg_worldnews.2.d
@@ -51,7 +51,7 @@ news_event = { #中華内戦
 	}
 }
 
-news_event = { #第三次バルカン戦争(小規模)
+news_event = { #ハンガリー - 第三次バルカン戦争(小規模)
 	id = sg_worldnews.3
 	title = sg_worldnews.3.t
 	desc = sg_worldnews.3.d
@@ -75,7 +75,7 @@ news_event = { #第三次バルカン戦争(小規模)
 		}
 	}
 }
-news_event = { #第三次バルカン戦争(大規模)
+news_event = { #ハンガリー - 第三次バルカン戦争(大規模)
 	id = sg_worldnews.4
 	title = sg_worldnews.4.t
 	desc = sg_worldnews.4.d
@@ -139,7 +139,7 @@ news_event = { #イギリス - モズレーが首相に登壇
 		name = sg_worldnews.7.a
 	}
 }
-news_event = { #スペイン内戦が勃発
+news_event = { #スペイン - スペイン内戦が勃発
 	id = sg_worldnews.8
 	title = sg_worldnews.8.t
 	desc = sg_worldnews.8.d
@@ -163,7 +163,7 @@ news_event = { #スペイン内戦が勃発
 		}
 	}
 }
-news_event = { #アメリカ南部諸州が独立を宣言！
+news_event = { #アメリカ - アメリカ南部諸州が独立を宣言！
 	id = sg_worldnews.9
 	title = sg_worldnews.9.t
 	desc = sg_worldnews.9.d
@@ -187,7 +187,19 @@ news_event = { #アメリカ南部諸州が独立を宣言！
 		}
 	}
 }
+news_event = { #イギリス - ジョージ5世が崩御
+	id = sg_worldnews.10
+	title = sg_worldnews.10.t
+	desc = sg_worldnews.10.d
+	picture = GFX_news_event_Balkan_War
 
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = sg_worldnews.10.a
+	}
+}
 
 news_event = { #中国統一 - 国民党広西軍
 	id = sg_worldnews_china_uni.1

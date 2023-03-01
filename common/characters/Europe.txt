@@ -1,4 +1,15 @@
 characters = {
+	AUS_Otto_Wels = { #大ドイツ主義・修正主義の砦「我々の名誉を奪うことはできない」
+		name = AUS_Otto_Wels
+		portraits={
+			civilian={
+				large = "gfx/characters/large/AUS/Portrait_AUS_Otto_Wels.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_subtype
+		}
+	}
 	SWE_Per_Albin_Hansson = {
 		name = SWE_Per_Albin_Hansson
 		portraits={

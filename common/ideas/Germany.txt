@@ -10,7 +10,6 @@ ideas = {
 				forced_surrender_limit = 0.15
 				stability_factor = 0.1
 
-				conservative_democracy_acceptance = -20
 				reformism_acceptance = -20
 				social_liberalism_acceptance = -20
 				authoritarian_socialism_acceptance = -20

@@ -1,5 +1,28 @@
 characters = {
-	HUN_Gusztav_Gratz = {
+	POL_Roman_Dmowski = { #ポーランド・ナショナリズムの父よ！
+		name = POL_Roman_Dmowski
+		portraits={
+			civilian={
+				large = "gfx/characters/large/POL/Portrait_POL_Roman_Dmowski.png"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_nationalism_subtype
+		}
+	}
+
+	HUN_Bela_Kun = { #赤色テロおじさん(人気下落)
+		name = HUN_Bela_Kun
+		portraits={
+			civilian={
+				large = "gfx/characters/large/HUN/Portrait_HUN_Bela_Kun.png"
+			}
+		}
+		country_leader = {
+			ideology = national_communism_subtype
+		}
+	}
+	HUN_Gusztav_Gratz = { #カーロイの忠実なる王党派
 		name = HUN_Gusztav_Gratz
 		portraits={
 			civilian={
@@ -11,7 +34,7 @@ characters = {
 		}
 	}
 
-	GRE_Georgios_Kondylis = {
+	GRE_Georgios_Kondylis = { #メガリ・イデアの守護者！
 		name = GRE_Georgios_Kondylis
 		portraits={
 			civilian={
@@ -23,7 +46,7 @@ characters = {
 		}
 	}
 
-	ROM_Corneliu_Codreanu = {
+	ROM_Corneliu_Codreanu = { #神託を受け降り立ったローマダキアの英雄、大天使ミカエルの名の下にルーマニアを救済へと導く軍団のホワイトナイト
 		name = ROM_Corneliu_Codreanu
 		portraits={
 			civilian={
@@ -32,6 +55,18 @@ characters = {
 		}
 		country_leader = {
 			ideology = national_socialism_subtype
+		}
+	}
+
+	SER_Aleksandar_I = { #親政丸眼鏡王国
+		name = SER_Aleksandar_I
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SER/Portrait_SER_Aleksandar_I.png"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy_subtype
 		}
 	}
 }

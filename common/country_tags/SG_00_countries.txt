@@ -46,6 +46,7 @@ NOR = "countries/western_european.txt" #ノルウェー
 DEN = "countries/western_european.txt" #デンマーク
 
 POL	= "countries/eastern_european.txt" #ポーランド
+DNZ	= "countries/eastern_european.txt" #自由都市ダンツィヒ
 
 LIT	= "countries/eastern_european.txt" #リトアニア
 EST	= "countries/eastern_european.txt" #エストニア

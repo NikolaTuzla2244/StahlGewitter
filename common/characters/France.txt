@@ -1,5 +1,5 @@
 characters={
-	FRA_Jacques_Duclos = {
+	FRA_Jacques_Duclos = { #中央ブロック・大粛清の嵐
 		name = FRA_Jacques_Duclos
 		portraits={
 			civilian={
@@ -13,16 +13,16 @@ characters={
 		country_leader = {
 			ideology = collectivist_socialism_subtype
 		}
-		field_marshal = {
-			traits = { politically_connected offensive_doctrine }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
-		}
+		# field_marshal = {
+		# 	traits = { politically_connected offensive_doctrine }
+		# 	skill = 3
+		# 	attack_skill = 2
+		# 	defense_skill = 2
+		# 	planning_skill = 2
+		# 	logistics_skill = 3
+		# }
 	}
-	FRA_Jacques_Doriot = {
+	FRA_Jacques_Doriot = { #フランス人民よ、国家元帥に続け！
 		name = FRA_Jacques_Doriot
 		portraits={
 			civilian={

@@ -1,4 +1,9 @@
 
+HUN_Kingdom = {
+	color = rgb { 127 111 99 }
+	color_ui = rgb { 127 111 99 }
+}
+
 UKR_independent = {
 	color = rgb { 0  80  230 }
 	color_ui = rgb { 0  80  230 }	

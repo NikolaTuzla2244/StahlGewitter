@@ -1,3 +1,8 @@
+focus = {
+	current = FRA_Grande_Terreur
+	progress = 6
+}
+
 ##### Division Templates #####
 division_template = {
 	name = "Division d'Infanterie"		

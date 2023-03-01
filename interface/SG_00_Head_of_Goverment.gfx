@@ -1,4 +1,13 @@
 spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_ENG_George_V"
+		texturefile = "gfx/characters/small/ENG/idea_ENG_George_V.png"
+	}
+	spriteType = { #ポートレート
+		name = "GFX_Portrait_ENG_George_V"
+		texturefile = "gfx/characters/large/ENG/Portrait_ENG_George_V.png"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_ENG_Edward_VIII"
@@ -56,5 +65,10 @@ spriteTypes = {
 	spriteType = { #ポートレート
 		name = "GFX_Portrait_ROM_Mihai_I"
 		texturefile = "gfx/characters/large/ROM/Portrait_ROM_Mihai_I.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FRR_Paul_Reynaud"
+		texturefile = "gfx/characters/small/FRR/idea_FRR_Paul_Reynaud.png"
 	}
 }

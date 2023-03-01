@@ -7,7 +7,7 @@ guiTypes = {
 		
 		iconType = {
 			name ="background"
-			spriteType = "GFX_topbar_background_extended"
+			spriteType = "GFX_topbar_background"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -102,11 +102,18 @@ guiTypes = {
 			position = { x= 12 y = 14 }
 			Orientation = "UPPER_LEFT"
 		}
-		
 		iconType = {
 			name = "observer_flag_overlay"
 			spriteType = "GFX_observer_flag_overlay"
 			position = { x= 11 y = 15 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "player_flag_frame"
+			quadTextureSprite ="GFX_SG_topbar_flag_frame"
+			position = { x= 3 y = 6 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}

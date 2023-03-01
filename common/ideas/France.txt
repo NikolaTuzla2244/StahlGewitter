@@ -1,0 +1,31 @@
+ideas = {
+	country = {
+		FRA_Great_Purge = {
+			picture = FRA_Great_Purge
+			allowed = {
+				tag = FRA
+			}
+			removal_cost = -1
+			modifier = {
+				stability_weekly_factor = -0.018
+				social_liberalism_drift = -0.05
+				reformism_drift = -0.05
+				custom_modifier_tooltip = FRA_Great_Purge_tt
+			}
+		}
+		FRA_Heresy_Pursuit = {
+			picture = FRA_Great_Purge
+			allowed = {
+				tag = FRA
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				social_liberalism_drift = -0.02
+				reformism_drift = -0.02
+				monthly_population = -0.1
+				custom_modifier_tooltip = FRA_Great_Purge_tt
+			}
+		}
+	}
+}

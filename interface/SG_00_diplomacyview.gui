@@ -1,8 +1,38 @@
 guiTypes = {
 	containerWindowType = {
+		name = "SG_diplo_sub_leader_GUI"
+		position = { x=0 y= 110 }
+		size = { width = 0 height = 0 }
+		iconType = {
+			name = "sub_leader"
+			position = { x = 20 y = 10 }
+			# spriteType = "GFX_leader_unknown"
+			scale = 0.74
+
+			pdx_tooltip = "sub_leader_tt"
+		}
+		iconType = {
+			name = "diplo_leader_frame"
+			position = { x = 13 y = 0 }
+			spriteType = "GFX_diplo_leader_frame"
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "sub_leader_button"
+			position = { x = 100 y = -10 }
+			spriteType = GFX_SG_monach_button
+			clicksound = click_default
+			scale = 0.75
+
+			pdx_tooltip = "sub_leader_button_tt"
+		}
+	}
+	containerWindowType = {
 		name = "SG_countrydiplomacyview"
 		position = { x = 0 y = 0 }
 		size = { width = 0 height = 0 }
+		
 		instantTextboxType = {
 			name = "sub_ideology"
 			position = { x = 250 y = 123 }
@@ -20,10 +50,9 @@ guiTypes = {
 			pdx_tooltip = pol_faction_icon_tt
 			pdx_tooltip_delayed = pol_faction_icon_delayed_tt
 		}
-
 		containerWindowType = {
 			name = "diplo_economy_window"
-			position = { x = 25 y = 280 }
+			position = { x = 25 y = 288 }
 
 			instantTextboxType = {
 				name = "diplo_economy_type"
@@ -52,30 +81,6 @@ guiTypes = {
 
 				pdx_tooltip = diplo_economy_tt
 			}
-		}
-		
-	}
-	containerWindowType = {
-		name = "SG_diplo_sub_leader_GUI"
-		position = { x=0 y= 110 }
-		size = { width = 0 height = 0 }
-		iconType = {
-			name = "sub_leader"
-			position = { x = 20 y = 10 }
-			# spriteType = "GFX_leader_unknown"
-			scale = 0.74
-
-			pdx_tooltip = "sub_leader_tt"
-		}
-		
-		buttonType = {
-			name = "sub_leader_button"
-			position = { x = 100 y = -10 }
-			spriteType = GFX_SG_monach_button
-			clicksound = click_default
-			scale = 0.75
-
-			pdx_tooltip = "sub_leader_button_tt"
 		}
 	}
 }

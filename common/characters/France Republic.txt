@@ -1,0 +1,13 @@
+characters = {
+	FRR_Philippe_Petain = {
+		name = FRR_Philippe_Petain
+		portraits={
+			civilian={
+				large = "gfx/characters/large/FRR/Portrait_FRR_Philippe_Petain.png"
+			}
+		}
+		country_leader = {
+			ideology = stratocracy_subtype
+		}
+	}
+}

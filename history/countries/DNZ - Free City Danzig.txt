@@ -1,4 +1,4 @@
-capital = 43
+capital = 85
 
 # Starting tech
 set_technology = {
@@ -60,28 +60,26 @@ set_technology = {
 	armored_car1 = 1
 }
 
-set_research_slots = 3
-set_convoys = 200
+set_research_slots = 2
+set_convoys = 400
 set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = national_populism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 60
-	national_socialism = 40
+	national_populism = 55
+	national_socialism = 45
 }
 
 add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-
-	HUN_Hungarian_Throne_HoG
 }
 
-recruit_character = HUN_Gusztav_Gratz
+# recruit_character = POL_Roman_Dmowski

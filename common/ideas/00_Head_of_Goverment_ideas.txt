@@ -2,6 +2,24 @@ ideas = {
 	Head_of_Government = {
 		law = yes
 
+		ENG_George_V_HoG = {		
+			picture = ENG_George_V
+			allowed = {
+				tag = ENG
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			traits = {
+				SG_trait_Monach
+				
+				SG_trait_Head_of_Government
+			}
+		}
 		ENG_Edward_VIII_HoG = {		
 			picture = ENG_Edward_VIII
 			allowed = {
@@ -20,6 +38,7 @@ ideas = {
 				SG_trait_Head_of_Government
 			}
 		}
+
 		SPA_Alfonso_XIII_HoG = {		
 			picture = SPA_Alfonso_XIII_HoG
 			allowed = {
@@ -145,5 +164,21 @@ ideas = {
 			}
 		}
 		
+		FRR_Paul_Reynaud = {		
+			picture = FRR_Paul_Reynaud
+			allowed = {
+				tag = FRR
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			traits = {			
+				SG_trait_Head_of_Government
+			}
+		}
 	}
 }

@@ -69,16 +69,20 @@ RTH = {
 	color_ui = rgb { 52 84 61 }
 }
 TRA = {	
-	color = rgb { 150 142 99 }
-	color_ui = rgb { 150 142 99 }
+	color = rgb { 107 66 49 }
+	color_ui = rgb { 107 66 49 }
 }
 POL = {
-	color = rgb { 214 102 139 }
-	color_ui = rgb { 255 120 138 }
+	color = rgb { 193 62 81 }
+	color_ui = rgb { 193 62 81 }
+}
+DNZ = {
+	color = rgb { 140 63 74 }
+	color_ui = rgb { 140 63 74 }
 }
 AUS = {
-	color = rgb { 194 198 215 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 214 190 194 }
+	color_ui = rgb { 214 190 194 }
 }
 LIT = {
 	color = rgb { 219 219 119 }
@@ -190,8 +194,8 @@ IRE = {
 	color_ui = rgb { 64 96 48 }
 }
 HUN = {
-	color = rgb { 127 111 99 }
-	color_ui = rgb { 127 111 99 }
+	color = rgb { 145 45 23 }
+	color_ui = rgb { 145 45 23 }
 }
 
 UKA = {
@@ -203,8 +207,8 @@ UKP = {
 	color_ui = rgb { 107 42 52 }
 }
 JAB = {
-	color = rgb { 153 106 97 }
-	color_ui = rgb { 153 106 97 }
+	color = rgb { 150 73 37 }
+	color_ui = rgb { 150 73 37 }
 }
 HIG = {
 	color = rgb { 147 137 112 }

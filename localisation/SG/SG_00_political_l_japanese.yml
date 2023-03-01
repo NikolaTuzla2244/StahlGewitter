@@ -56,9 +56,11 @@ High_Command:0 "司令官"
 
 minister_available_tt:0 "§Y閣僚§Rを手動で変更することはできない§!"
 #GUI
-sub_leader_tt:0 "§Y[THIS.sub_leader_name]§!"
+sub_leader_tt:0 "§Y[THIS.sub_leader_name]§!\n§Y[THIS.GetFlag][THIS.GetName]§!の[THIS.sub_leader_position]"
 has_sub_leader:0 "副指導者が存在する"
 sub_leader_button_tt:0 "§Gクリック§!で§Y指導者§!の表示を切り替え"
+trait_Monach:0 "君主"
+trait_leader:0 "指導者"
 
 pol_faction_icon_tt:0 "[SGGetFactionInfo]"
 pol_faction_icon_delayed_tt:0 "[!faction_icon_click]"

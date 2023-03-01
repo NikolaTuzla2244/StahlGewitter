@@ -1,4 +1,4 @@
-capital = 6
+capital = 459
 
 # set_oob = "FRR"
 
@@ -74,11 +74,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	conservative_democracy = 10
-	authoritarianism = 40
-	despotism = 30
-	national_populism = 15
-	national_socialism = 5
+	authoritarianism = 70
+	despotism = 20
+	national_populism = 10
 }
 
 create_faction = ENTENTE
@@ -90,10 +88,12 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 
-	economy_planned_socialism
+	economy_market_fundamentalism
+
+	FRR_Paul_Reynaud
 }
 
-recruit_character = FRA_Jacques_Duclos
+recruit_character = FRR_Philippe_Petain
 #recruit_character = FRA_Sébastien_Faure
 #recruit_character = FRA_Simon_Sabiani
 #recruit_character = FRA_Benjamin_Péret

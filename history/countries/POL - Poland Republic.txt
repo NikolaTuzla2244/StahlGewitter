@@ -66,15 +66,15 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = national_populism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	national_socialism = 35
-	despotism = 45
-	authoritarian_socialism = 20
+	national_populism = 60
+	despotism = 10
+	social_liberalism = 30
 }
 
 add_ideas = {
@@ -83,4 +83,9 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-# recruit_character = ITA_Italo_Baobo
+set_autonomy = {
+	target = DNZ
+	autonomy_state = autonomy_free_state
+}
+
+recruit_character = POL_Roman_Dmowski

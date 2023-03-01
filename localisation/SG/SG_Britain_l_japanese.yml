@@ -3,12 +3,17 @@ ENG_Winston_Churchill:0 "ウィンストン・チャーチル"
 ENG_Freeman_Thomas:0 "フリーマン・トーマス"
 ENG_Oswald_Mosley:0 "オズワルド・モズレー"
 #国民精神
+ENG_George_V:0 "ジョージ5世"
 ENG_Edward_VIII:0 "エドワード8世"
+
+ENG_Emergency_Powers:0 "国家緊急法"
+ENG_Aftermath_1920s_General_Strike:0 "1920年代ゼネストの余波"
 
 #イベント
 sg_worldnews.5.t:0 "[GetNewsHeader]ウィンストン・チャーチルが権力を維持"
 sg_worldnews.6.t:0 "[GetNewsHeader]ウィリングトン卿がロンドンを掌握"
 sg_worldnews.7.t:0 "[GetNewsHeader]オズワルド・モズレーが首相に登壇"
+sg_worldnews.10.t:0 "[GetNewsHeader]イギリス王室のジョージ5世が崩御"
 
 ENG_in_the_stormy_sea:0 "荒波に揉まれ"
 ENG_keep_course_by_churchill:0 "チャーチルが進路を保つ"

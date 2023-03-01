@@ -1,5 +1,5 @@
 focus_tree = {
-	id = SG_france_demo_focus
+	id = SG_france_focus
 
 	country = {
 		factor = 0
@@ -12,11 +12,11 @@ focus_tree = {
 	default = no
 
 	focus = {
-		id = FRA_from_old_regime
-		icon = GFX_goal_unknown
+		id = FRA_Grande_Terreur
+		icon = GFX_focus_FRA_Grande_Terreur
 		x = 5
 		y = 0
-		cost = 5
+		cost = 18
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -28,157 +28,20 @@ focus_tree = {
 			# date > 1935.5.1
 		}
 		completion_reward = {
-		}
-	}
-	focus = {
-		id = FRA_maintain_united_front
-		icon = GFX_goal_unknown
-		x = -2
-		y = 1
-		cost = 2
-		relative_position_id = FRA_from_old_regime
-		# search_filters = {}
-		
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 30
-		}
-		available = {
-		}
-		prerequisite = { focus = FRA_from_old_regime }
-		mutually_exclusive = { focus = FRA_redecorate }
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = FRA_redecorate
-		icon = GFX_goal_unknown
-		x = 3
-		y = 1
-		cost = 2
-		relative_position_id = FRA_from_old_regime
-		# search_filters = {}
-		
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 30
-		}
-		available = {
-		}
-		prerequisite = { focus = FRA_from_old_regime }
-		mutually_exclusive = { focus = FRA_maintain_united_front }
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = FRA_epee
-		icon = GFX_goal_unknown
-		x = -1
-		y = 1
-		cost = 2
-		relative_position_id = FRA_maintain_united_front
-		# search_filters = {}
-		
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 30
-		}
-		available = {
-		}
-		prerequisite = { focus = FRA_maintain_united_front }
-		mutually_exclusive = {
-			focus = FRA_marteau
-		}
-		completion_reward = {
-			set_politics = {
-				ruling_party = authoritarian_socialism
-				name = FRA_patriote_party
-				long_name = FRA_patriote_party_long
-			}
-			promote_character = {
-				character = FRA_Jacques_Doriot
-				ideology = authoritarian_socialism_subtype
+			swap_ideas = {
+				remove_idea = FRA_Great_Purge
+				add_idea = FRA_Heresy_Pursuit
 			}
 		}
 	}
 	focus = {
-		id = FRA_marteau
-		icon = GFX_goal_unknown
-		x = 1
-		y = 1
-		cost = 2
-		relative_position_id = FRA_maintain_united_front
-		# search_filters = {}
-		
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 30
-		}
-		available = {
-		}
-		prerequisite = { focus = FRA_maintain_united_front }
-		mutually_exclusive = {
-			focus = FRA_epee
-		}
-		completion_reward = {
-			set_politics = {
-				ruling_party = authoritarian_socialism
-				name = FRA_montagnard_party
-				long_name = FRA_montagnard_party_long
-			}
-			
-			promote_character = {
-				character = FRA_Jacques_Duclos
-				ideology = authoritarian_socialism_subtype
-			}
-		}
-	}
-
-	focus = {
-		id = FRA_engrenage
-		icon = GFX_goal_unknown
-		x = -2
-		y = 1
-		cost = 2
-		relative_position_id = FRA_redecorate
-		# search_filters = {}
-		
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 30
-		}
-		available = {
-		}
-		prerequisite = { focus = FRA_redecorate }
-		mutually_exclusive = {
-			focus = FRA_poing
-			focus = FRA_rose
-		}
-		completion_reward = {
-			set_politics = {
-				ruling_party = social_liberalism
-				name = FRA_syndicat_party
-				long_name = FRA_syndicat_party_long
-			}
-			promote_character = {
-				character = FRA_Francois_Le_Leve
-				ideology = revolutionary_syndicalism_subtype
-			}
-		}
-	}
-	focus = {
-		id = FRA_poing
+		id = FRA_Center_Bloc
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 2
-		relative_position_id = FRA_redecorate
+		relative_position_id = FRA_Grande_Terreur
+		prerequisite = { focus = FRA_Grande_Terreur }
+		cost = 18
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -188,30 +51,17 @@ focus_tree = {
 		}
 		available = {
 		}
-		prerequisite = { focus = FRA_redecorate }
-		mutually_exclusive = {
-			focus = FRA_engrenage
-			focus = FRA_rose
-		}
 		completion_reward = {
-			set_politics = {
-				ruling_party = social_liberalism
-				name = FRA_thermidor_party
-				long_name = FRA_thermidor_party_long
-			}
-			promote_character = {
-				character = FRA_Marceau_Pivert
-				ideology = social_liberalism_subtype
-			}
 		}
 	}
 	focus = {
-		id = FRA_rose
+		id = FRA_Enhance_Personality_Cult
 		icon = GFX_goal_unknown
-		x = 2
+		x = 0
 		y = 1
-		cost = 2
-		relative_position_id = FRA_redecorate
+		relative_position_id = FRA_Center_Bloc
+		prerequisite = { focus = FRA_Center_Bloc }
+		cost = 18
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -221,19 +71,47 @@ focus_tree = {
 		}
 		available = {
 		}
-		prerequisite = { focus = FRA_redecorate }
-		mutually_exclusive = {
-			focus = FRA_poing
-			focus = FRA_engrenage
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Left_Bloc
+		icon = GFX_goal_unknown
+		x = -3
+		y = 1
+		relative_position_id = FRA_Grande_Terreur
+		prerequisite = { focus = FRA_Grande_Terreur }
+		cost = 18
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
 		}
 		completion_reward = {
-			set_politics = {
-				ruling_party = reformism
-			}
-			promote_character = {
-				character = FRA_Leon_Blum
-				ideology = social_democracy_subtype
-			}
+		}
+	}
+	focus = {
+		id = FRA_Right_Bloc
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		relative_position_id = FRA_Grande_Terreur
+		prerequisite = { focus = FRA_Grande_Terreur }
+		cost = 18
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
 		}
 	}
 }

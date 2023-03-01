@@ -73,10 +73,15 @@ set_politics = {
 }
 set_popularities = {
 	national_socialism = 20
-	reformism = 40
-	social_liberalism = 30
-	authoritarian_socialism = 10
+	despotism = 10
+	reformism = 45
+	authoritarian_socialism = 25
 }
+
+set_country_flag = SET_national_socialism
+set_country_flag = SET_conservative_democracy
+set_country_flag = SET_reformism
+set_country_flag = SET_authoritarian_socialism
 
 create_faction = DANUBE_LEAGUE
 add_to_faction = AUS
@@ -93,4 +98,4 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-# recruit_character = FRA_Jacques_Duclos
+recruit_character = AUS_Otto_Wels

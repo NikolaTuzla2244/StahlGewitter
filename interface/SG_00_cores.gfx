@@ -43,12 +43,15 @@ spriteTypes = {
 		name = "GFX_SG_monach_button"
 		texturefile = "gfx/interface/SG_monach_button.png"
 	}
-
 	spriteType = {
 		name = "GFX_SG_peace_popup_window"
 		texturefile = "gfx/interface/SG_peace_popup_window.png"
 	}
 
+	spriteType = {
+		name = "GFX_SG_topbar_flag_frame"
+		texturefile = "gfx/interface/topbar/topbar_flag_frame.dds"
+	}
 	frameAnimatedSpriteType = {
 		name = "GFX_flag_filter"
 		texturefile = "gfx/interface/SG_flag_filter.png"

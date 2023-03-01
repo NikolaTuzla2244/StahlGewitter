@@ -123,6 +123,16 @@ NOR_conservative_democracy_party_long:0 "右翼党"
 NOR_reformism_party:0 "ノルウェー労働党"
 NOR_reformism_party_long:0 "ノルウェー労働党"
 
+#オーストリア
+AUS_national_socialism_party:0 "オーストリア・ナチス"
+AUS_national_socialism_party_long:0 "オーストリア国家社会主義ドイツ労働者党"
+AUS_despotism_party:0 "護国団"
+AUS_despotism_party_long:0 "護国団"
+AUS_reformism_party:0 "社会民主党"
+AUS_reformism_party_long:0 "ドイツ・オーストリア社会民主党"
+AUS_authoritarian_socialism_party:0 "オーストリア共産党"
+AUS_authoritarian_socialism_party_long:0 "オーストリア共産党"
+
 #ハンガリー
 HUN_national_socialism_party:0 "矢十字党"
 HUN_national_socialism_party_long:0 "矢十字党"

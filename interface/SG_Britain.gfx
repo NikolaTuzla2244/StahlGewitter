@@ -1,8 +1,11 @@
 spriteTypes = {
-	#ポートレート
 	#国民精神
-	# spriteType = {
-	# 	name = "GFX_idea_ENG_Edward_VIII"
-	# 	texturefile = "gfx/interface/ideas/ENG/idea_ENG_Edward_VIII.png"
-	# }
+	spriteType = {
+		name = "GFX_idea_ENG_Emergency_Powers"
+		texturefile = "gfx/interface/ideas/ENG/idea_ENG_Emergency_Powers.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_Aftermath_1920s_General_Strike"
+		texturefile = "gfx/interface/ideas/ENG/idea_ENG_Aftermath_1920s_General_Strike.png"
+	}
 }

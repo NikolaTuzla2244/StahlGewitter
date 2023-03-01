@@ -1,4 +1,61 @@
 spritetypes = {
+	#ideologies
+	spriteType = {
+		name = "GFX_ideology_national_socialism_texticon"
+		texturefile = "gfx/interface/ideologies/small/national_socialism_group_small.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_national_populism_texticon"
+		texturefile = "gfx/interface/ideologies/small/national_populism_group_small.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_despotism_texticon"
+		texturefile = "gfx/interface/ideologies/small/despotism_group_small.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_authoritarianism_texticon"
+		texturefile = "gfx/interface/ideologies/small/authoritarianism_group_small.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_conservative_democracy_texticon"
+		texturefile = "gfx/interface/ideologies/small/conservative_democracy_group_small.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_liberal_democracy_texticon"
+		texturefile = "gfx/interface/ideologies/small/liberal_democracy_group_small.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_reformism_texticon"
+		texturefile = "gfx/interface/ideologies/small/reformism_group_small.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_social_liberalism_texticon"
+		texturefile = "gfx/interface/ideologies/small/social_liberalism_group_small.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_authoritarian_socialism_texticon"
+		texturefile = "gfx/interface/ideologies/small/authoritarian_socialism_group_small.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_ultraradicalism_texticon"
+		texturefile = "gfx/interface/ideologies/small/ultraradicalism_group_small.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_ultrareactionism_texticon"
+		texturefile = "gfx/interface/ideologies/small/ultrareactionism_group_small.png"
+		legacy_lazy_load = no
+	}
+
 	spritetype = {
 		name = "GFX_good_economic_index_texticon"
 		texturefile = "gfx/texticons/good_economic_index_texticon.png"

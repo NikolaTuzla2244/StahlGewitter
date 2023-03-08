@@ -82,34 +82,34 @@ scripted_gui = {
 				has_war = yes
 			}
 
-			law_entry_up_button_click_enabled = {
-				if = {
-					limit = { check_variable = { v = 1 } }
-					NOT = { has_idea = personal_consignment_0 }
-				}
-				if = {
-					limit = { check_variable = { v = 2 } }
-					NOT = { has_idea = open_trade_0 }
-				}
-				if = {
-					limit = { check_variable = { v = 3 } }
-					NOT = { has_idea = disarmed_nation_0 }
-				}
-			}
-			law_entry_down_button_click_enabled = {
-				if = {
-					limit = { check_variable = { v = 1 } }
-					available_investment_up = yes
-				}
-				if = {
-					limit = { check_variable = { v = 2 } }
-					available_trade_law_up = yes
-				}
-				if = {
-					limit = { check_variable = { v = 3 } }
-					available_conscription_law_up = yes
-				}
-			}
+			# law_entry_up_button_click_enabled = {
+			# 	if = {
+			# 		limit = { check_variable = { v = 1 } }
+			# 		NOT = { has_idea = personal_consignment_0 }
+			# 	}
+			# 	if = {
+			# 		limit = { check_variable = { v = 2 } }
+			# 		NOT = { has_idea = open_trade_0 }
+			# 	}
+			# 	if = {
+			# 		limit = { check_variable = { v = 3 } }
+			# 		NOT = { has_idea = disarmed_nation_0 }
+			# 	}
+			# }
+			# law_entry_down_button_click_enabled = {
+			# 	if = {
+			# 		limit = { check_variable = { v = 1 } }
+			# 		available_investment_up = yes
+			# 	}
+			# 	if = {
+			# 		limit = { check_variable = { v = 2 } }
+			# 		available_trade_law_up = yes
+			# 	}
+			# 	if = {
+			# 		limit = { check_variable = { v = 3 } }
+			# 		available_conscription_law_up = yes
+			# 	}
+			# }
 
 			level_tab_button_click_enabled = {
 				NOT = { check_variable = { economy_info = 0 } }

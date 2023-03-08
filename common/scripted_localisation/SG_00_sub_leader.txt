@@ -20,6 +20,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_idea = JAP_Hirohito_HoG
+		}
+		localization_key = "GFX_Portrait_JAP_Hirohito"
+	}
+	text = {
+		trigger = {
 			has_idea = SPA_Alfonso_XIII_HoG
 		}
 		localization_key = "GFX_Portrait_SPA_Alfonso_XIII"
@@ -49,6 +55,18 @@ defined_text = {
 		localization_key = "GFX_Portrait_ROM_Mihai_I"
 	}
 	text = {
+		trigger = {
+			has_idea = SWE_Gustaf_V_HoG
+		}
+		localization_key = "GFX_Portrait_SWE_Gustaf_V"
+	}
+	text = {
+		trigger = {
+			has_idea = NOR_Haakon_VII_HoG
+		}
+		localization_key = "GFX_Portrait_NOR_Haakon_VII"
+	}
+	text = {
 		localization_key = "GFX_leader_unknown"
 	}
 }
@@ -71,6 +89,12 @@ defined_text = {
 			has_idea = SPA_Alfonso_XIII_HoG
 		}
 		localization_key = SPA_Alfonso_XIII
+	}
+	text = {
+		trigger = {
+			has_idea = JAP_Hirohito_HoG
+		}
+		localization_key = JAP_Hirohito
 	}
 	text = {
 		trigger = {
@@ -101,6 +125,18 @@ defined_text = {
 			has_idea = ROM_Mihai_I_HoG
 		}
 		localization_key = ROM_Mihai_I
+	}
+	text = {
+		trigger = {
+			has_idea = SWE_Gustaf_V_HoG
+		}
+		localization_key = SWE_Gustaf_V
+	}
+	text = {
+		trigger = {
+			has_idea = NOR_Haakon_VII_HoG
+		}
+		localization_key = NOR_Haakon_VII
 	}
 	text = {
 		localization_key = "unknown"

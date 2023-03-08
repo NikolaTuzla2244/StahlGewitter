@@ -33,8 +33,8 @@ AST = {
 	color_ui = rgb { 54 91 46 }
 }
 SWE = {
-	color = rgb { 36 132 247 }
-	color_ui = rgb { 47 172 255 }
+	color = rgb { 70 103 132 }
+	color_ui = rgb { 70 103 132 }
 }
 FRA = {
 	color = rgb { 0 70 127 }
@@ -69,8 +69,8 @@ RTH = {
 	color_ui = rgb { 52 84 61 }
 }
 TRA = {	
-	color = rgb { 107 66 49 }
-	color_ui = rgb { 107 66 49 }
+	color = rgb { 150 122 69 }
+	color_ui = rgb { 150 122 69 }
 }
 POL = {
 	color = rgb { 193 62 81 }
@@ -166,12 +166,12 @@ ALB = {
 	color_ui = rgb { 114 35 77 }
 }
 NOR = {
-	color = rgb { 111 71 71 }
-	color_ui = rgb { 144 92 92 }
+	color = rgb { 112 93 89 }
+	color_ui = rgb { 112 93 89 }
 }
 DEN = {
-	color = rgb { 153 116 93 }
-	color_ui = rgb { 199 151 121 }
+	color = rgb { 84 55 35 }
+	color_ui = rgb { 84 55 35 }
 }
 BUL = {
 	color = rgb { 74 109 59 }
@@ -574,8 +574,10 @@ IRQ = {
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
-	color = hsv { 0.05 0.3 1 }
-	color_ui = hsv { 0.05 0.25 1.2 }
+	# color = hsv { 0 1.5 1 }
+	# color_ui = hsv { 0 1.5 1 }
+	color = rgb { 229 218 218 }
+	color_ui = rgb { 229 218 218 }
 }
 LIB = {
 	color = rgb { 152 130 191 }

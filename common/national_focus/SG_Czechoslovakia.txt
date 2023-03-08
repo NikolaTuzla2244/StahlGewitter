@@ -1,0 +1,41 @@
+focus_tree = {
+	id = SG_czechoslovakia_demo_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = CZE
+		}
+	}
+	default = no
+
+	focus = {
+		id = CZE_Prague_Spring
+		icon = GFX_goal_unknown
+		x = 0
+		y = 0
+		cost = 1
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+			# date > 1937.1.1
+		}
+		completion_reward = {
+			set_politics = {
+				ruling_party = reformism
+			}
+			CZE_Antonin_Hampl = {
+				promote_leader = yes
+			}
+			set_country_flag = CZE_Plague_Spring
+		}
+	}
+
+}

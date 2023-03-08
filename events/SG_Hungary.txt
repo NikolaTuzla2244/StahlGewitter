@@ -1,0 +1,28 @@
+add_namespace = sg_hungary
+
+country_event = { #チェコスロヴァキアとの和平
+	id = sg_hungary.1
+	title = sg_hungary.1.t
+	desc = sg_hungary.1.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_hungary.1.a
+
+		CZE = {
+			set_politics = { ruling_party = authoritarian_socialism }
+			set_global_flag = CZE_After_Hungary_Invasion
+
+			set_cosmetic_tag = CZE_Czech
+		}
+		HUN = {
+			transfer_state = 70
+			transfer_state = 71
+			
+			set_cosmetic_tag = HUN_Danube
+
+		}
+	}
+}

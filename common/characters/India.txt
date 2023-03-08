@@ -1,0 +1,13 @@
+characters={
+	RAJ_Subhas_Chandra_Bose = { #英国許すまじ民族社会主義おじさん
+		name = RAJ_Subhas_Chandra_Bose
+		portraits={
+			civilian={
+				large = "gfx/characters/large/RAJ/Portrait_RAJ_Subhas_Chandra_Bose.png"
+			}
+		}
+		country_leader = {
+			ideology = social_nationalism_subtype
+		}
+	}
+}

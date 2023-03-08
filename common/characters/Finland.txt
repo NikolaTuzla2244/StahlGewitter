@@ -1,6 +1,28 @@
 characters = {
-	#ネタ
-	FWG_Tsukiyuki_Miyako = {
+	FIN_Otto_Kuusinen = {#ソ連の傀儡 売国奴
+		name = FIN_Otto_Kuusinen
+		portraits={
+			civilian={
+				large = "gfx/characters/large/FIN/Portrait_FIN_Otto_Kuusinen.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_subtype
+		}
+	}
+	FWG_Carl_Gustaf_Emil_Mannerheim = {#最高司令官
+		name = FWG_Carl_Gustaf_Emil_Mannerheim
+		portraits={
+			civilian={
+				large = "gfx/characters/large/FIN/Portrait_FWG_Carl_Gustaf_Emil_Mannerheim.png"
+			}
+		}
+		country_leader = {
+			ideology = military_junta_subtype
+		}
+	}
+	
+	FWG_Tsukiyuki_Miyako = {#私はウサギではないので。
 		name = FWG_Tsukiyuki_Miyako
 		portraits={
 			civilian={

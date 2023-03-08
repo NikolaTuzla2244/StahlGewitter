@@ -99,6 +99,8 @@ ideologies = {
 			limited_democracy_subtype = { can_be_randomly_selected = no }
 			provisional_government_subtype = { can_be_randomly_selected = no }
 			stratocracy_subtype = { can_be_randomly_selected = no }
+			colonial_government_subtype = { can_be_randomly_selected = no }
+			social_nationalism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 80 80 80 }
@@ -124,6 +126,7 @@ ideologies = {
 		types = {
 			conservative_democracy_subtype = {}
 
+			libertarian_conservatism_subtype = {}
 			san_min_democracy_subtype = {}
 		}
 		dynamic_faction_names = {}

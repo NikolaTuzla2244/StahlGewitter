@@ -26,6 +26,24 @@ spriteTypes = {
 		name = "GFX_Portrait_SPA_Alfonso_XIII"
 		texturefile = "gfx/characters/large/SPA/Portrait_SPA_Alfonso_XIII.png"
 	}
+
+	spriteType = {
+		name = "GFX_idea_ITA_Vittorio_Emanuele_III"
+		texturefile = "gfx/characters/small/ITA/idea_ITA_Vittorio_Emanuele_III.png"
+	}
+	spriteType = { #ポートレート
+		name = "GFX_Portrait_ITA_Vittorio_Emanuele_III"
+		texturefile = "gfx/characters/large/ITA/Portrait_ITA_Vittorio_Emanuele_III.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_JAP_Hirohito"
+		texturefile = "gfx/characters/small/JAP/idea_JAP_Hirohito.png"
+	}
+	spriteType = { #ポートレート
+		name = "GFX_Portrait_JAP_Hirohito"
+		texturefile = "gfx/characters/large/JAP/Portrait_JAP_Hirohito.png"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_USA_Huey_Long"
@@ -65,6 +83,24 @@ spriteTypes = {
 	spriteType = { #ポートレート
 		name = "GFX_Portrait_ROM_Mihai_I"
 		texturefile = "gfx/characters/large/ROM/Portrait_ROM_Mihai_I.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SWE_Gustaf_V"
+		texturefile = "gfx/characters/small/SWE/idea_SWE_Gustaf_V.png"
+	}
+	spriteType = { #ポートレート
+		name = "GFX_Portrait_SWE_Gustaf_V"
+		texturefile = "gfx/characters/large/SWE/Portrait_SWE_Gustaf_V.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NOR_Haakon_VII"
+		texturefile = "gfx/characters/small/NOR/idea_NOR_Haakon_VII.png"
+	}
+	spriteType = { #ポートレート
+		name = "GFX_Portrait_NOR_Haakon_VII"
+		texturefile = "gfx/characters/large/NOR/Portrait_NOR_Haakon_VII.png"
 	}
 
 	spriteType = {

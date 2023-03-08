@@ -1,0 +1,69 @@
+characters = {
+	SWE_Gosta_Bagge = {
+		name = SWE_Gosta_Bagge
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SWE/Portrait_SWE_Gosta_Bagge.png"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_conservatism_subtype
+		}
+	}
+	SWE_Birger_Furugard = {
+		name = SWE_Birger_Furugard
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SWE/Portrait_SWE_Birger_Furugard.png"
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
+		}
+	}
+	SWE_Per_Albin_Hansson = {
+		name = SWE_Per_Albin_Hansson
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SWE/Portrait_SWE_Per_Albin_Hansson.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_subtype
+		}
+	}
+
+	NOR_Einar_Gerhardsen = {
+		name = NOR_Einar_Gerhardsen
+		portraits={
+			civilian={
+				large = "gfx/characters/large/NOR/Portrait_NOR_Einar_Gerhardsen.png"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism_subtype
+		}
+	}
+	NOR_Martin_Tranmael = {
+		name = NOR_Martin_Tranmael
+		portraits={
+			civilian={
+				large = "gfx/characters/large/NOR/Portrait_NOR_Martin_Tranmael.png"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_syndicalism_subtype
+		}
+	}
+	NOR_Vidkun_Quisling = {
+		name = NOR_Vidkun_Quisling
+		portraits={
+			civilian={
+				large = "gfx/characters/large/NOR/Portrait_NOR_Vidkun_Quisling.png"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_nationalism_subtype
+		}
+	}
+}

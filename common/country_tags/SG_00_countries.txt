@@ -24,9 +24,9 @@ FIU = "countries/western_european.txt" #カルナーロ＝イタリア執政府
 SWI = "countries/western_european.txt" #スイス
 
 AUS	= "countries/western_european.txt" #オーストリア共和国
-HUN = "countries/eastern_european.txt" #ハンガリー王国
+HUN = "countries/eastern_european.txt" #ハンガリー評議会共和国
 TRA = "countries/western_european.txt" #トランシルヴァニア共和国
-CZE	= "countries/eastern_european.txt" #チェコスロヴァキア共和国
+CZE	= "countries/eastern_european.txt" #チェコスロヴァキア社会主義共和国
 RTH = "countries/eastern_european.txt" #カルパティア・ルテニア
 SCS = "countries/eastern_european.txt" #スロベニア人・クロアチア人・セルビア人国
 
@@ -39,10 +39,11 @@ GRE = "countries/eastern_european.txt" #ギリシャ王国
 TUR = "countries/western_european.txt" #オスマン帝国
 IHB = "countries/western_european.txt" #ボスポラス海峡委員会
 
+SWN	= "countries/western_european.txt" #スウェーデン＝ノルウェー
 SWE	= "countries/western_european.txt" #スウェーデン
+NOR = "countries/western_european.txt" #ノルウェー
 FIN = "countries/eastern_european.txt" #フィンランド社会主義共和国
 FWG = "countries/eastern_european.txt" #フィンランド白衛軍
-NOR = "countries/western_european.txt" #ノルウェー
 DEN = "countries/western_european.txt" #デンマーク
 
 POL	= "countries/eastern_european.txt" #ポーランド

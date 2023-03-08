@@ -11,6 +11,29 @@ characters = {
 		}
 	}
 
+	CZE_Klement_Gottwald = {#アカの統領
+		name = CZE_Klement_Gottwald
+		portraits={
+			civilian={
+				large = "gfx/characters/large/CZE/CZE_Klement_Gottwald.png"
+			}
+		}
+		country_leader = {
+			ideology = national_communism_subtype
+		}
+	}
+	CZE_Antonin_Hampl = {#人の顔をした社会主義
+		name = CZE_Antonin_Hampl
+		portraits={
+			civilian={
+				large = "gfx/characters/large/CZE/Portrait_CZE_Antonin_Hampl.png"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism_subtype
+		}
+	}
+
 	HUN_Bela_Kun = { #赤色テロおじさん(人気下落)
 		name = HUN_Bela_Kun
 		portraits={

@@ -81,6 +81,7 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-# recruit_character = FIN_Otto_Kuusinen
+recruit_character = FIN_Otto_Kuusinen
+FIN_Otto_Kuusinen = { promote_leader = yes }
 
 country_event = { id = sg_finland.1 days = 120 }

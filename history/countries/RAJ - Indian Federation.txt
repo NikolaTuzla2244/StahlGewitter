@@ -90,5 +90,4 @@ add_ideas = {
 	SG_military_2
 }
 
-# recruit_character = KMT_Wang_Jingwei
-# recruit_character = KMT_Dai_Li
+recruit_character = RAJ_Subhas_Chandra_Bose

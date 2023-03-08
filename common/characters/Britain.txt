@@ -42,15 +42,37 @@ characters={
 		}
 	}
 
-	ISR_Avraham_Shtern = { #マジでヤバいシオニズムのギャング
-		name = ISR_Avraham_Shtern
+	UKA_Edward_Grigg = { #アフリカ植民地政府のひと
+		name = UKA_Edward_Grigg
 		portraits={
 			civilian={
-				large = "gfx/characters/large/ISR/Portrait_ISR_Avraham_Shtern.png"
+				large = "gfx/characters/large/ENG/Portrait_UKA_Edward_Grigg.png"
 			}
 		}
 		country_leader = {
-			ideology = revisionist_zionism_subtype
+			ideology = colonial_government_subtype
+		}
+	}
+	UKP_Walter_Guinness = { #ユダヤ居住区統制派・暗殺されるかわいそうなひと
+		name = UKP_Walter_Guinness
+		portraits={
+			civilian={
+				large = "gfx/characters/large/ENG/Portrait_UKP_Walter_Guinness.png"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government_subtype
+		}
+	}
+	MAL_Harold_MacMichael = { #マラヤ連合の虐殺おじさん
+		name = MAL_Harold_MacMichael
+		portraits={
+			civilian={
+				large = "gfx/characters/large/ENG/Portrait_MAL_Harold_MacMichael.png"
+			}
+		}
+		country_leader = {
+			ideology = civilian_dictatorship_subtype
 		}
 	}
 }

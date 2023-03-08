@@ -12,6 +12,17 @@ defined_text = {
 		localization_key = SG_PEACE_TITLE_CHINESE_CIVIL_WAR
 	}
 	text = {
+		trigger = {
+			event_target:losing_country = {
+				is_spain = yes
+			}
+			event_target:winning_country = {
+				is_spain = yes
+			}
+		}
+		localization_key = SG_PEACE_TITLE_SPANISH_CIVIL_WAR
+	}
+	text = {
 		localization_key = SG_PEACE_TITLE_GENERAL
 	}
 }
@@ -27,6 +38,39 @@ defined_text = {
 			# }
 		}
 		localization_key = SG_PEACE_FLAVOR_LOSING_MAO
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = SPA
+			}
+			event_target:winning_country = {
+				is_spain = yes
+			}
+		}
+		localization_key = SG_PEACE_FLAVOR_LOSING_SPA_CIVILWAR
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = SPF
+			}
+			event_target:winning_country = {
+				is_spain = yes
+			}
+		}
+		localization_key = SG_PEACE_FLAVOR_LOSING_SPF_CIVILWAR
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = USN
+			}
+			event_target:winning_country = {
+				is_spain = yes
+			}
+		}
+		localization_key = SG_PEACE_FLAVOR_LOSING_USN_CIVILWAR
 	}
 	text = {
 		localization_key = SG_PEACE_FLAVOR_GENERAL

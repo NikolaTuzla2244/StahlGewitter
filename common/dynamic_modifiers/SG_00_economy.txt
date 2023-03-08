@@ -20,7 +20,7 @@ SG_economy_level_effect_dynmod = {
 }
 SG_economy_unemployment_effect_dynmod = {
 	enable = { always = yes }
-	icon = GFX_idea_generic_production_bonus
+	# icon = GFX_idea_generic_production_bonus
 
 	consumer_goods_factor = empmod_consumer_goods
 	stability_factor = empmod_stability_factor

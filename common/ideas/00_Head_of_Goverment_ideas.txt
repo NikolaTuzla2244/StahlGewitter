@@ -57,6 +57,42 @@ ideas = {
 				SG_trait_Head_of_Government
 			}
 		}
+		ITA_Vittorio_Emanuele_III_HoG = {		
+			picture = ITA_Vittorio_Emanuele_III
+			allowed = {
+				tag = ITA
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			traits = {
+				SG_trait_Monach
+				
+				SG_trait_Head_of_Government
+			}
+		}
+		JAP_Hirohito_HoG = {		
+			picture = JAP_Hirohito_HoG
+			allowed = {
+				tag = JAP
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			traits = {
+				SG_trait_Monach
+				
+				SG_trait_Head_of_Government
+			}
+		}
 		USA_Huey_Long_HoG = {		
 			picture = USA_Huey_Long
 			allowed = {
@@ -79,7 +115,7 @@ ideas = {
 		HUN_Hungarian_Throne_HoG = {		
 			picture = HUN_Hungarian_Throne
 			allowed = {
-				tag = ROM
+				tag = HUN
 			}
 			allowed_to_remove = { 
 				always = no 
@@ -150,6 +186,41 @@ ideas = {
 			picture = ROM_Mihai_I
 			allowed = {
 				tag = ROM
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			traits = {			
+				SG_trait_Monach
+				SG_trait_Head_of_Government
+			}
+		}
+
+		SWE_Gustaf_V_HoG = {		
+			picture = SWE_Gustaf_V
+			allowed = {
+				tag = SWE
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			traits = {			
+				SG_trait_Monach
+				SG_trait_Head_of_Government
+			}
+		}
+		NOR_Haakon_VII_HoG = {		
+			picture = NOR_Haakon_VII
+			allowed = {
+				tag = NOR
 			}
 			allowed_to_remove = { 
 				always = no 

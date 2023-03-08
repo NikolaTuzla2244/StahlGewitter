@@ -81,6 +81,6 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-# recruit_character = FWG_Carl_Gustaf_Emil_Mannerheim
+recruit_character = FWG_Carl_Gustaf_Emil_Mannerheim
 
-recruit_character = FWG_Tsukiyuki_Miyako
+# recruit_character = FWG_Tsukiyuki_Miyako

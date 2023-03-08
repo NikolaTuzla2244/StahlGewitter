@@ -46,7 +46,10 @@ absolute_monarchy_subtype:0 "絶対君主制"
 limited_democracy_subtype:0 "限定的民主主義"
 provisional_government_subtype:0 "臨時政権"
 stratocracy_subtype:0 "軍政"
+colonial_government_subtype:0 "植民地政府"
+social_nationalism_subtype:0 "民族社会主義"
 
+libertarian_conservatism_subtype:0 "リバタリアン保守主義"
 san_min_democracy_subtype:0 "三民主義"
 
 objectivism_subtype:0 "客観主義"

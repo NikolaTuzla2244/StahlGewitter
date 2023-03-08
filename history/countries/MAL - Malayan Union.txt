@@ -66,13 +66,14 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = despotism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarianism = 100
+	despotism = 75
+	social_liberalism = 15
 }
 
 set_cosmetic_tag = MAL_puppet
@@ -92,5 +93,4 @@ add_ideas = {
 	SG_military_2
 }
 
-# recruit_character = KMT_Wang_Jingwei
-# recruit_character = KMT_Dai_Li
+recruit_character = MAL_Harold_MacMichael

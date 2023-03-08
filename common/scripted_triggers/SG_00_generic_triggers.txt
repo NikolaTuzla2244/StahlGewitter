@@ -1,0 +1,11 @@
+is_spain = {
+	custom_trigger_tooltip = {
+		tooltip = SG_is_spain
+
+		OR = {
+			tag = SPA
+			tag = SPF
+			tag = USN
+		}
+	}
+}

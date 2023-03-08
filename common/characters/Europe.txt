@@ -10,17 +10,6 @@ characters = {
 			ideology = social_democracy_subtype
 		}
 	}
-	SWE_Per_Albin_Hansson = {
-		name = SWE_Per_Albin_Hansson
-		portraits={
-			civilian={
-				large = "gfx/characters/large/SWE/Portrait_SWE_Per_Albin_Hansson.png"
-			}
-		}
-		country_leader = {
-			ideology = reformism_subtype
-		}
-	}
 	BEL_Camille_Huysmans = {
 		name = BEL_Camille_Huysmans
 		portraits={

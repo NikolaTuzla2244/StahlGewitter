@@ -6,69 +6,70 @@ ideas = {
 		personal_consignment_0 = {
 			picture = personal_consignment_0
 			allowed = { }
+			level = 0
 			available = {
-				always = no
+				available_personal_consignment_0 = yes
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = 0.35
 
-				SG_good_economic_index_modifier = 1
+				SG_good_economic_index_modifier = 2
 			}
 		}
 		private_economy_1 = {
 			picture = private_economy_1
 			allowed = { }
+			level = 1
 			available = {
-				always = no
+				available_private_economy_1 = yes
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = 0.3
+
+				SG_good_economic_index_modifier = 1
 			}
 		}
 		reduced_welfare_2 = {
 			picture = reduced_welfare_2
 			allowed = { }
+			level = 2
 			available = {
-				always = no
+				available_reduced_welfare_2 = yes
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = 0.25
 
-				SG_bad_economic_index_modifier = 1
 			}
 		}
 		early_mobilization_3 = {
 			picture = early_mobilization_3
 			allowed = { }
+			level = 3
 			available = {
-				always = no
+				available_early_mobilization_3 = yes
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = 0.2
 
-				SG_bad_economic_index_modifier = 2
+				SG_bad_economic_index_modifier = 1
 			}
 		}
 		military_state_4 = {
 			picture = military_state_4
 			allowed = { }
+			level = 4
 			available = {
-				always = no
+				available_military_state_4 = yes
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = 0.15
 
-				SG_bad_economic_index_modifier = 3
+				SG_bad_economic_index_modifier = 2
 			}
 		}
 	}
@@ -80,10 +81,9 @@ ideas = {
 			picture = open_trade_0
 			allowed = { }
 			available = {
-				always = no
+				available_open_trade_0 = yes
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				min_export = 0.7
 
@@ -94,10 +94,9 @@ ideas = {
 			picture = active_trade_1
 			allowed = { }
 			available = {
-				always = no
+				available_active_trade_1 = yes
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				min_export = 0.45
 
@@ -108,10 +107,9 @@ ideas = {
 			picture = border_control_2
 			allowed = { }
 			available = {
-				always = no
+				available_border_control_2 = yes
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				min_export = 0.3
 
@@ -122,10 +120,9 @@ ideas = {
 			picture = self_sufficient_nation_3
 			allowed = { }
 			available = {
-				always = no
+				available_self_sufficient_nation_3 = yes
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				min_export = 0.15
 
@@ -141,36 +138,33 @@ ideas = {
 			picture = disarmed_nation_0
 			allowed = { }
 			available = {
-				always = no
+				available_disarmed_nation_0 = yes
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
-				conscription = 0.01
+				conscription = 0.015
 			}
 		}
 		volunteer_only_1 = {
 			picture = volunteer_only_1
 			allowed = { }
 			available = {
-				always = no
+				available_volunteer_only_1 = yes
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
-				conscription = 0.015
+				conscription = 0.02
 			}
 		}
 		limited_conscription_2 = {
 			picture = limited_conscription_2
 			allowed = { }
 			available = {
-				always = no
+				available_limited_conscription_2 = yes
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
-				conscription = 0.025
+				conscription = 0.03
 
 				SG_bad_economic_index_modifier = 2
 			}
@@ -179,10 +173,9 @@ ideas = {
 			picture = extensive_conscription_3
 			allowed = { }
 			available = {
-				always = no
+				available_extensive_conscription_3 = yes
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				conscription = 0.05
 
@@ -193,10 +186,9 @@ ideas = {
 			picture = service_by_requirement_4
 			allowed = { }
 			available = {
-				always = no
+				available_service_by_requirement_4 = yes
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				conscription = 0.15
 
@@ -216,12 +208,11 @@ ideas = {
 				always = no
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				stability_factor = -0.1
 				consumer_goods_factor = 0.1
 
-				SG_good_economic_index_modifier = 2
+				SG_good_economic_index_modifier = 3
 			}
 		}
 		economy_social_welfare = {
@@ -231,10 +222,11 @@ ideas = {
 				always = no
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				stability_factor = 0.1
 				political_power_gain = 0.05
+
+				SG_good_economic_index_modifier = 1
 			}
 		}
 		economy_corporatism = {
@@ -244,9 +236,10 @@ ideas = {
 				always = no
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = -0.02
+
+				SG_good_economic_index_modifier = 1
 			}
 		}
 		economy_mixed_economy = {
@@ -256,14 +249,13 @@ ideas = {
 				always = no
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				political_power_factor = 0.05
 
 				stability_factor = 0.05
 				consumer_goods_factor = 0.02
 
-				SG_good_economic_index_modifier = 1
+				SG_good_economic_index_modifier = 2
 			}
 		}
 		economy_planned_socialism = {
@@ -273,12 +265,12 @@ ideas = {
 				always = no
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = -0.02
 
 				global_building_slots_factor = 0.15
 				local_resources_factor = 0.1
+				SG_good_economic_index_modifier = 1
 			}
 		}
 		economy_nep_socialism = {
@@ -288,12 +280,11 @@ ideas = {
 				always = no
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				global_building_slots_factor = 0.1
 				local_resources_factor = 0.05
 
-				SG_good_economic_index_modifier = 1
+				SG_good_economic_index_modifier = 2
 			}
 		}
 		economy_nazi_corporatism = {
@@ -303,14 +294,13 @@ ideas = {
 				always = no
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				war_support_factor = 0.15
 				war_stability_factor = 0.25
 				local_resources_factor = 0.1
 				production_speed_arms_factory_factor = 0.15
 
-				SG_bad_economic_index_modifier = 2
+				SG_bad_economic_index_modifier = 1
 			}
 		}
 		economy_plutocracy = {
@@ -320,12 +310,12 @@ ideas = {
 				always = no
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				political_power_factor = -0.05
 
 				consumer_goods_factor = 0.02
 				production_factory_start_efficiency_factor = 0.05
+				SG_good_economic_index_modifier = 1
 			}
 		}
 		economy_military_economy = {
@@ -335,14 +325,11 @@ ideas = {
 				always = no
 			}
 			cancel_if_invalid = no
-			removal_cost = -1
 			modifier = {
 				political_power_factor = -0.05
 
 				production_speed_arms_factory_factor = 0.1
 				consumer_goods_factor = -0.02
-
-				SG_bad_economic_index_modifier = 1
 			}
 		}
 	}

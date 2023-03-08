@@ -39,7 +39,7 @@ country_event = { #スペイン内戦 - 分裂
 				transfer_state_to = PREV
 			}
 			activate_decision = SG_spain_civilwar_declare
-
+			load_oob = "SPF_civil"
 			
 			promote_character = {
 				character = SPA_Alejandro_Lerroux
@@ -52,7 +52,7 @@ country_event = { #スペイン内戦 - 分裂
 				transfer_state_to = PREV
 			}
 			activate_decision = SG_spain_civilwar_declare
-
+			load_oob = "USN_civil"
 			
 			promote_character = {
 				character = SPA_Jose_Sanjurjo
@@ -71,6 +71,7 @@ country_event = { #スペイン内戦 - 分裂
 			}
 			set_cosmetic_tag = SPA_KR
 			activate_decision = SG_spain_civilwar_declare
+			load_oob = "SPA_civil"
 			#政党
 			set_politics = {
 				ruling_party = authoritarianism
@@ -96,10 +97,7 @@ country_event = { #スペイン内戦 - 分裂
 				name = SPA_CIV_reformism_party
 			}
 			#指導者
-			remove_advisor_role = {
-				character = SPA_Alfonso_XIII
-				slot = Head_of_Government
-			}
+			remove_ideas = SPA_Alfonso_XIII_HoG
 			promote_character = {
 				character = SPA_Alfonso_XIII
 				ideology = provisional_government_subtype
@@ -118,7 +116,7 @@ country_event = { #スペイン内戦 - 分裂
 			country_event = sg_spain_civ.3
 		}
 
-		news_event = { id = sg_worldnews.8 days = 10 }
+		news_event = { id = sg_worldnews.8 days = 8 }
 	}
 }
 country_event = { #プレイ国家選択

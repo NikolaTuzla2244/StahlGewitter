@@ -4,19 +4,6 @@ on_actions = {
 			for_each_scope_loop = { #初期設定
 				array = countries
 
-				if = {
-					limit = { check_variable = { investment_law_range = 0 } }
-					set_variable = { investment_law_range = 2 }
-				}
-				if = {
-					limit = { check_variable = { trade_law_range = 0 } }
-					set_variable = { trade_law_range = 2 }
-				}
-				if = {
-					limit = { check_variable = { conscription_law_range = 0 } }
-					set_variable = { conscription_law_range = 2 }
-				}
-
 				set_variable = { economy_level = 3 }
 				economy_type_setup_mixture = yes
 
@@ -26,331 +13,217 @@ on_actions = {
 			ENG = {
 				set_variable = { economy_level = 7 } #経済レベル
 				economy_type_setup_decentral = yes #経済タイプ
-
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
 			}
 			FRA = {
 				set_variable = { economy_level = 6 }
 				economy_type_setup_central = yes
-
-				set_variable = { investment_law_range = 2 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
 			}
 			SPA = {
 				set_variable = { economy_level = 5 }
 				economy_type_setup_central = yes
-
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
 			}
 
 			LUX = {
 				set_variable = { economy_level = 5 }
 				economy_type_setup_central = yes
-
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
 			}
 			BEL = {
 				set_variable = { economy_level = 5 }
 				economy_type_setup_central = yes
-
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
 			}
 			HOL = {
 				set_variable = { economy_level = 5 }
 				economy_type_setup_decentral = yes
-
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
 			}
 
 			GER = {
 				set_variable = { economy_level = 7 }
 				economy_type_setup_central = yes
-
-				set_variable = { investment_law_range = 2 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 0 }
 			}
 			SBK = {
 				set_variable = { economy_level = 7 }
 				economy_type_setup_decentral = yes
-
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 0 }
-				set_variable = { conscription_law_range = 0 }
 			}
 			ITA = {
 				set_variable = { economy_level = 6 }
 				economy_type_setup_decentral = yes
-
-				set_variable = { investment_law_range = 3 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 3 }
 			}
 			PCI = {
 				set_variable = { economy_level = 6 }
 				economy_type_setup_central = yes
-
-				set_variable = { investment_law_range = 3 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 3 }
 			}
 			PNF = {
 				set_variable = { economy_level = 6 }
 				economy_type_setup_central = yes
-
-				set_variable = { investment_law_range = 3 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 3 }
 			}
 			FIU = {
 				set_variable = { economy_level = 3 }
 				economy_type_setup_central = yes
-
-				set_variable = { investment_law_range = 3 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 3 }
 			}
 			SWI = {
 				set_variable = { economy_level = 5 }
 				economy_type_setup_decentral = yes
-
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
 			}
 
 			AUS = {
 				set_variable = { economy_level = 4 }
 				economy_type_setup_mixture = yes
-
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
 			}
 			HUN = {
 				set_variable = { economy_level = 4 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
 			}
 			TRA = {
 				set_variable = { economy_level = 3 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
 			}
 			CZE = {
 				set_variable = { economy_level = 5 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
 			}
 			RTH = {
 				set_variable = { economy_level = 3 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
 			}
 			SCS = {
 				set_variable = { economy_level = 4 }
 				economy_type_setup_decentral = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
 			}
 
+			ROM = {
+				set_variable = { economy_level = 3 }
+				economy_type_setup_central = yes
+
+			}
 			BUL = {
 				set_variable = { economy_level = 3 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
 			}
 			GRE = {
 				set_variable = { economy_level = 3 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
+			}
+
+			SWE = {
+				set_variable = { economy_level = 5 }
+				economy_type_setup_decentral = yes
+			}
+			NOR = {
+				set_variable = { economy_level = 3 }
+				economy_type_setup_mixture = yes
+			}
+
+			POL = {
+				set_variable = { economy_level = 5 }
+				economy_type_setup_decentral = yes
+
 			}
 
 			FRR = {
 				set_variable = { economy_level = 3 }
 				economy_type_setup_mixture = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 1 }
-				set_variable = { conscription_law_range = 1 }
 			}
 
 			PES = {
 				set_variable = { economy_level = 6 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 			ROS = {
 				set_variable = { economy_level = 5 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 			KZS = {
 				set_variable = { economy_level = 4 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 			MSS = {
 				set_variable = { economy_level = 6 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 			SMS = {
 				set_variable = { economy_level = 5 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 			CRS = {
 				set_variable = { economy_level = 3 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 			KIS = {
 				set_variable = { economy_level = 5 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 			WMD = {
 				set_variable = { economy_level = 5 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 
 			SIS = {
 				set_variable = { economy_level = 3 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 			FES = {
 				set_variable = { economy_level = 2 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 
 			BAL = {
 				set_variable = { economy_level = 3 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 			UKR = {
 				set_variable = { economy_level = 4 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 			TCC = {
 				set_variable = { economy_level = 3 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 
 			KAZ = {
 				set_variable = { economy_level = 3 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 			UZB = {
 				set_variable = { economy_level = 2 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 			KYR = {
 				set_variable = { economy_level = 2 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 			TAJ = {
 				set_variable = { economy_level = 2 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 			TMS = {
 				set_variable = { economy_level = 2 }
 				economy_type_setup_central = yes
 
-				set_variable = { investment_law_range = 1 }
-				set_variable = { trade_law_range = 2 }
-				set_variable = { conscription_law_range = 2 }
 			}
 
 			USA = {
@@ -358,9 +231,6 @@ on_actions = {
 				economy_type_setup_mixture = yes
 				set_variable = { unemployment_rate = 0.25 }
 
-				set_variable = { investment_law_range = 0 }
-				set_variable = { trade_law_range = 0 }
-				set_variable = { conscription_law_range = 0 }
 			}
 
 			

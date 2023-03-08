@@ -171,6 +171,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/stratocracy_subtype.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_colonial_government_subtype"
+		texturefile = "gfx/interface/ideologies/colonial_government_subtype.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_libertarian_conservatism_subtype"
+		texturefile = "gfx/interface/ideologies/libertarian_conservatism_subtype.png"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_democratic_socialism_subtype"
+		texturefile = "gfx/interface/ideologies/democratic_socialism_subtype.png"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_maoism_subtype"
 		texturefile = "gfx/interface/ideologies/maoism_subtype.png"
 	}
@@ -189,6 +204,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_radical_liberalism_subtype"
 		texturefile = "gfx/interface/ideologies/radical_liberalism_subtype.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_national_communism_subtype"
+		texturefile = "gfx/interface/ideologies/national_communism_subtype.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_chinise_socialsm_subtype"

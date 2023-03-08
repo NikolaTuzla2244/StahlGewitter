@@ -4,6 +4,10 @@ PEACE_POPUP_CLOSE:0 "閉じる"
 
 SG_PEACE_TITLE_GENERAL:0 "一連の武力衝突を経て、[winning_country.GetFlag]§Y[winning_country.GetNameDef]§!は[losing_country.GetFlag]§Y[losing_country.GetNameDef]§!を打ち破り、これを屈服させた。"
 SG_PEACE_TITLE_CHINESE_CIVIL_WAR:0 "§Y中国大陸の命運を賭けた抗争§!の渦中にて、[winning_country.GetFlag]§Y[winning_country.GetNameDef]§!は[losing_country.GetFlag]§Y[losing_country.GetNameDef]§!を攻略し、天下への駒を進めた。"
+SG_PEACE_TITLE_SPANISH_CIVIL_WAR:0 "§Yスペイン内戦§!の動きはまた一つ様相を変えた。とめどない[winning_country.GetFlag]§Y[winning_country.GetNameDef]§!の力を前した[losing_country.GetFlag]§Y[losing_country.GetNameDef]§!はその誉れと共に斃れ、新たなるイベリアの糧となった。"
 
 SG_PEACE_FLAVOR_GENERAL:0 "この地球は、勝者に贈られる持ち回りの優勝カップに他ならない。"
 SG_PEACE_FLAVOR_LOSING_MAO:0 "軽率に戦ってはならない。戦うからには、かならず勝たなければならない。絶対に反動派のいたけだかな勢いにのまれてはならない。"
+SG_PEACE_FLAVOR_LOSING_SPA_CIVILWAR:0 "ゆえに問うなかれ、誰がために鐘は鳴るやと。\nそは汝がために鳴るなれば。"
+SG_PEACE_FLAVOR_LOSING_SPF_CIVILWAR:0 "跪いて生きるくらいなら、立って死んだ方がましだ。"
+SG_PEACE_FLAVOR_LOSING_USN_CIVILWAR:0 "神よ、万事は順調だ。しかし勝利は完全なものではない。"

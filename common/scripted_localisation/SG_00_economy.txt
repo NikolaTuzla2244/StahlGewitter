@@ -679,15 +679,15 @@ defined_text = {
 		trigger = {
 			if = {
 				limit = { check_variable = { v = 1 } }
-				check_variable = { investment_law_range > -1 }
+				available_personal_consignment_0 = yes
 			}
 			if = {
 				limit = { check_variable = { v = 2 } }
-				check_variable = { trade_law_range > -1 }
+				available_open_trade_0 = yes
 			}
 			if = {
 				limit = { check_variable = { v = 3 } }
-				check_variable = { conscription_law_range > -1 }
+				available_disarmed_nation_0 = yes
 			}
 		}
 		localization_key = "GFX_SG_check"
@@ -702,15 +702,15 @@ defined_text = {
 		trigger = {
 			if = {
 				limit = { check_variable = { v = 1 } }
-				check_variable = { investment_law_range > 0 }
+				available_private_economy_1 = yes
 			}
 			if = {
 				limit = { check_variable = { v = 2 } }
-				check_variable = { trade_law_range > 0 }
+				available_active_trade_1 = yes
 			}
 			if = {
 				limit = { check_variable = { v = 3 } }
-				check_variable = { conscription_law_range > 0 }
+				available_volunteer_only_1 = yes
 			}
 		}
 		localization_key = "GFX_SG_check"
@@ -725,15 +725,15 @@ defined_text = {
 		trigger = {
 			if = {
 				limit = { check_variable = { v = 1 } }
-				check_variable = { investment_law_range > 1 }
+				available_reduced_welfare_2 = yes
 			}
 			if = {
 				limit = { check_variable = { v = 2 } }
-				check_variable = { trade_law_range > 1 }
+				available_border_control_2 = yes
 			}
 			if = {
 				limit = { check_variable = { v = 3 } }
-				check_variable = { conscription_law_range > 1 }
+				available_limited_conscription_2 = yes
 			}
 		}
 		localization_key = "GFX_SG_check"
@@ -748,15 +748,15 @@ defined_text = {
 		trigger = {
 			if = {
 				limit = { check_variable = { v = 1 } }
-				check_variable = { investment_law_range > 2 }
+				available_early_mobilization_3 = yes
 			}
 			if = {
 				limit = { check_variable = { v = 2 } }
-				check_variable = { trade_law_range > 2 }
+				available_self_sufficient_nation_3 = yes
 			}
 			if = {
 				limit = { check_variable = { v = 3 } }
-				check_variable = { conscription_law_range > 2 }
+				available_extensive_conscription_3 = yes
 			}
 		}
 		localization_key = "GFX_SG_check"
@@ -771,11 +771,11 @@ defined_text = {
 		trigger = {
 			if = {
 				limit = { check_variable = { v = 1 } }
-				check_variable = { investment_law_range > 3 }
+				available_military_state_4 = yes
 			}
 			if = {
 				limit = { check_variable = { v = 3 } }
-				check_variable = { conscription_law_range > 3 }
+				available_service_by_requirement_4 = yes
 			}
 		}
 		localization_key = "GFX_SG_check"

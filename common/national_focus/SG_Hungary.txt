@@ -12,52 +12,29 @@ focus_tree = {
 	default = no
 
 	focus = {
-		id = HUN_abandon_danube_league
+		id = HUN_intervention_Czech
 		icon = GFX_goal_unknown
 		x = 0
 		y = 0
-		cost = 1
-		# search_filters = {}
-		
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 30
-		}
-		available = {
-			date > 1937.6.11
-		}
-		completion_reward = {
-			leave_faction = yes
-			create_faction = RESTORE_ALLIANCE
-			add_to_faction = TRA
-		}
-	}
-	focus = {
-		id = HUN_war_with_Austria
-		icon = GFX_goal_unknown
-		x = 0
-		y = 1
-		relative_position_id = HUN_abandon_danube_league
 		cost = 3
 		# search_filters = {}
 		
 		available_if_capitulated = yes
-		prerequisite = { focus = HUN_abandon_danube_league }
 
 		ai_will_do = {
 			factor = 30
 		}
 		available = {
+			CZE = {
+				has_government = reformism
+			}
 		}
 		completion_reward = {
-			declare_war_on = {
-				target = AUS
-				type = annex_everything
-			}
+			leave_faction = yes
+			CZE = { leave_faction = yes }
 			declare_war_on = {
 				target = CZE
-				type = annex_everything
+				type = topple_government
 			}
 		}
 	}

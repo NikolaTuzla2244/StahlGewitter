@@ -1,5 +1,7 @@
 capital = 110
 
+set_cosmetic_tag = NOR_Union
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -66,21 +68,39 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = conservative_democracy
+	ruling_party = reformism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	liberal_democracy = 25
-	conservative_democracy = 60
-	reformism = 15
+	reformism = 40
+	social_liberalism = 30
+	liberal_democracy = 30
+	national_populism = 0
 }
+
+set_country_flag = SET_reformism
+set_country_flag = SET_social_liberalism
+set_country_flag = SET_liberal_democracy
+set_country_flag = SET_national_populism
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
+	#laws
+	personal_consignment_0
+	open_trade_0
+	volunteer_only_1
+	economy_market_fundamentalism
+	#development
+	SG_academic_5
+	SG_industry_3
+	SG_administration_4
+	SG_infrastructure_2
+	SG_network_2
+	SG_military_3
+
+	NOR_Haakon_VII_HoG
 }
 
-# recruit_character = SWE_Per_Albin_Hansson
+recruit_character = NOR_Einar_Gerhardsen
+recruit_character = NOR_Martin_Tranmael

@@ -1,0 +1,11 @@
+focus_tree = {
+	id = sg_generic_focus
+	
+	country = {
+		factor = 5
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+}

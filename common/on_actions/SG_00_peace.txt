@@ -32,6 +32,30 @@ on_actions = {
 				set_global_flag = winning_country_multiple
 			}
 
+			#ハンガリー - チェコスロヴァキアへの軍事介入
+			if = {
+				limit = {
+					event_target:losing_country = {
+						tag = CZE
+						has_country_flag = CZE_Plague_Spring
+					}
+					event_target:winning_country = {
+						tag = HUN
+					}
+				}
+				CZE = { white_peace = HUN }
+				CZE = {
+					transfer_state = 69
+					transfer_state = 9
+					transfer_state = 75
+					transfer_state = 74
+					transfer_state = 72
+					transfer_state = 70
+					transfer_state = 71
+				}
+				clr_country_flag = CZE_Plague_Spring
+				HUN = { country_event = { id = sg_hungary.1 } }
+			}
 			#併合
 			if = {
 				limit = {

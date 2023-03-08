@@ -4,6 +4,15 @@ HUN_Kingdom = {
 	color_ui = rgb { 127 111 99 }
 }
 
+SWE_Union = {
+	color = rgb { 49 93 117 }
+	color_ui = rgb { 49 93 117 }
+}
+NOR_Union = {
+	color = rgb { 95 118 127 }
+	color_ui = rgb { 95 118 127 }
+}
+
 UKR_independent = {
 	color = rgb { 0  80  230 }
 	color_ui = rgb { 0  80  230 }	

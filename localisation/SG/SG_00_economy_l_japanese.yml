@@ -66,6 +66,23 @@ unemployment_modifier:0 "$MODIFIER_CONSUMER_GOODS_FACTOR$: [?empmod_consumer_goo
 SG_is_surplus:0 "財政状況が§G黒字§!である"
 SG_is_deficit:0 "財政状況が§R赤字§!である"
 
+available_personal_consignment_0:0 "§Y$personal_consignment_0$§!が解放済み"
+available_private_economy_1:0 "§Y$private_economy_1$§!が解放済み"
+available_reduced_welfare_2:0 "§Y$reduced_welfare_2$§!が解放済み"
+available_early_mobilization_3:0 "§Y$early_mobilization_3$§!が解放済み"
+available_military_state_4:0 "§Y$military_state_4$§!が解放済み"
+
+available_open_trade_0:0 "§Y$open_trade_0$§!が解放済み"
+available_active_trade_1:0 "§Y$active_trade_1$§!が解放済み"
+available_border_control_2:0 "§Y$border_control_2$§!が解放済み"
+available_self_sufficient_nation_3:0 "§Y$self_sufficient_nation_3$§!が解放済み"
+
+available_disarmed_nation_0:0 "§Y$disarmed_nation_0$§!が解放済み"
+available_volunteer_only_1:0 "§Y$volunteer_only_1$§!が解放済み"
+available_limited_conscription_2:0 "§Y$limited_conscription_2$§!が解放済み"
+available_extensive_conscription_3:0 "§Y$extensive_conscription_3$§!が解放済み"
+available_service_by_requirement_4:0 "§Y$service_by_requirement_4$§!が解放済み"
+
 surplus_text:0 "§G黒字§!"
 deficit_text:0 "§R赤字§!"
 balance_text:0 "§Y均衡状態§!"

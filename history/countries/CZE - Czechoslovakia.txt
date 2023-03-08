@@ -83,4 +83,5 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-# recruit_character = SWE_Per_Albin_Hansson
+recruit_character = CZE_Klement_Gottwald
+recruit_character = CZE_Antonin_Hampl

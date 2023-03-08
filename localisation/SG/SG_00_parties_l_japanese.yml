@@ -25,8 +25,8 @@
 #イギリス
 ENG_authoritarianism_party:0 "保守党(主)"
 ENG_authoritarianism_party_long:0 "保守党 - 主流派"
-ENG_despotism_party:0 "鉄騎隊"
-ENG_despotism_party_long:0 "英国鉄騎隊"
+ENG_despotism_party:0 "大ブリテン防衛同盟"
+ENG_despotism_party_long:0 "グレートブリテン防衛同盟・英国鉄騎隊"
 ENG_national_populism_party:0 "モズレー新党"
 ENG_national_populism_party_long:0 "新党・ファシスト同盟"
 ENG_conservative_democracy_party:0 "保守党(革)"
@@ -37,8 +37,8 @@ ENG_social_liberalism_party:0 "労組運動"
 ENG_social_liberalism_party_long:0 "労働組合による運動"
 
 #フランス・コミューン
-FRA_reformism_party:0 "ローズルージュ"
-FRA_reformism_party_long:0 "ローズルージュ派"
+FRA_reformism_party:0 "赤バラ運動"
+FRA_reformism_party_long:0 "赤バラ運動"
 FRA_social_liberalism_party:0 "サンディカ・テルミドール"
 FRA_social_liberalism_party_long:0 "サンディカ派・テルミドール派"
 FRA_authoritarian_socialism_party:0 "国民戦線"
@@ -115,13 +115,25 @@ DEN_conservative_democracy_party_long:0 "保守党"
 DEN_reformism_party:0 "デンマーク社会民主党"
 DEN_reformism_party_long:0 "デンマーク社会民主党"
 
+#スウェーデン
+SWE_reformism_party:0 "社会民主党"
+SWE_reformism_party_long:0 "スウェーデン社会民主党"
+SWE_conservative_democracy_party:0 "国民右翼組織"
+SWE_conservative_democracy_party_long:0 "国民右翼組織"
+SWE_liberal_democracy_party:0 "人民党"
+SWE_liberal_democracy_party_long:0 "人民党"
+SWE_national_socialism_party:0 "国家連盟"
+SWE_national_socialism_party_long:0 "スウェーデン国家連盟"
+
 #ノルウェー
-NOR_liberal_democracy_party:0 "ノルウェー自由党"
-NOR_liberal_democracy_party_long:0 "ノルウェー自由党"
-NOR_conservative_democracy_party:0 "右翼党"
-NOR_conservative_democracy_party_long:0 "右翼党"
-NOR_reformism_party:0 "ノルウェー労働党"
-NOR_reformism_party_long:0 "ノルウェー労働党"
+NOR_reformism_party:0 "労働党 - 穏健派"
+NOR_reformism_party_long:0 "ノルウェー労働党 - 穏健派"
+NOR_social_liberalism_party:0 "労働党 - 革命派"
+NOR_social_liberalism_party_long:0 "ノルウェー労働党 - 革命派"
+NOR_liberal_democracy_party:0 "自由党"
+NOR_liberal_democracy_party_long:0 "自由党"
+NOR_national_populism_party:0 "国家連合"
+NOR_national_populism_party_long:0 "国家連合"
 
 #オーストリア
 AUS_national_socialism_party:0 "オーストリア・ナチス"
@@ -134,18 +146,40 @@ AUS_authoritarian_socialism_party:0 "オーストリア共産党"
 AUS_authoritarian_socialism_party_long:0 "オーストリア共産党"
 
 #ハンガリー
-HUN_national_socialism_party:0 "矢十字党"
-HUN_national_socialism_party_long:0 "矢十字党"
-HUN_national_populism_party:0 "統一党"
-HUN_national_populism_party_long:0 "統一党"
+HUN_despotism_party:0 ""
+HUN_despotism_party_long:0 ""
+HUN_authoritarian_socialism_party:0 "KMP" #Kommunisták Magyarországi Pártja
+HUN_authoritarian_socialism_party_long:0 "ハンガリー共産党"
+
+#チェコスロヴァキア
+CZE_national_socialism_party:0 "SdP" #Sudetendeutsche Partei
+CZE_national_socialism_party_long:0 "ズデーテン・ドイツ人党"
+CZE_reformism_party:0 "ČSSD - 中央・右派" #Česká strana sociálně demokratická
+CZE_reformism_party_long:0 "チェコスロバキア社会民主党 - 中央・右派"
+CZE_authoritarian_socialism_party:0 "ČSSD - 左派"
+CZE_authoritarian_socialism_party_long:0 "チェコスロバキア社会民主党 - 左派"
+
+#ルーマニア
+ROM_national_socialism_party:0 "軍団運動"
+ROM_national_socialism_party_long:0 "軍団運動"
+ROM_despotism_party:0 "国王派"
+ROM_despotism_party_long:0 "国王派"
+ROM_authoritarian_socialism_party:0 "ルーマニア共産党"
+ROM_authoritarian_socialism_party_long:0 "ルーマニア共産党"
 
 #ポーランド
-POL_national_socialism_party:0 "国家急進キャンプ"
-POL_national_socialism_party_long:0 "国家急進キャンプ"
-POL_despotism_party:0 "国家統一キャンプ"
-POL_despotism_party_long:0 "国家統一キャンプ"
-POL_authoritarian_socialism_party:0 "ポーランド共産党"
-POL_authoritarian_socialism_party_long:0 "ポーランド共産党"
+POL_national_populism_party:0 "ZLN" #Związek Ludowo-Narodowy
+POL_national_populism_party_long:0 "国家人民連合"
+POL_despotism_party:0 "BSP" #Blok Sanacyjny Piłsudskiego
+POL_despotism_party_long:0 "ピウスツキ・サネーション・ブロック"
+POL_social_liberalism_party:0 "PPS" #Polska Partia Socjalistyczna
+POL_social_liberalism_party_long:0 "ポーランド社会党"
+
+#大日本帝国
+JAP_conservative_democracy_party:0 "立憲政友会"
+JAP_conservative_democracy_party_long:0 "立憲政友会"
+JAP_liberal_democracy_party:0 "立憲民政党"
+JAP_liberal_democracy_party_long:0 "立憲民政党 - 三菱"
 
 #アメリカ
 USA_conservative_democracy_party:0 "レムケ支持者・共和党"

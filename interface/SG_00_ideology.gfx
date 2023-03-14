@@ -179,6 +179,10 @@ spriteTypes = {
 		name = "GFX_ideology_libertarian_conservatism_subtype"
 		texturefile = "gfx/interface/ideologies/libertarian_conservatism_subtype.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_agrarianism_subtype"
+		texturefile = "gfx/interface/ideologies/agrarianism_subtype.png"
+	}
 
 	spriteType = {
 		name = "GFX_ideology_democratic_socialism_subtype"

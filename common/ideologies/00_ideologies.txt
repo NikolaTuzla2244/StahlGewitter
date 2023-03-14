@@ -127,6 +127,7 @@ ideologies = {
 			conservative_democracy_subtype = {}
 
 			libertarian_conservatism_subtype = {}
+			agrarianism_subtype = {}
 			san_min_democracy_subtype = {}
 		}
 		dynamic_faction_names = {}

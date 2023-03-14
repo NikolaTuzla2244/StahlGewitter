@@ -35,20 +35,40 @@ spriteTypes = {
 		texturefile = "gfx/interface/economy/economy_progress_bg.png"
 	}
 
+	spriteType = {
+		name = "GFX_cover_pie"
+		texturefile = "gfx/interface/economy/piechart/cover_pie.png"
+	}
+	spriteType = {
+		name = "GFX_black_pie"
+		texturefile = "gfx/interface/economy/piechart/black_pie.png"
+	}
 	progressbartype = {
-		name = "GFX_economy_deficit_bar"
-		texturefile1 = "gfx/interface/economy/economy_deficit_bar.png"
-		texturefile2 = "gfx/interface/economy/economy_deficit_bar_empty.png"
+		name = "GFX_deficit_pie"
+		textureFile1 = "gfx/interface/economy/piechart/deficit_pie.png"
+		textureFile2 = "gfx/interface/economy/piechart/empty_pie.png"
 		color = { 0.0 0.0 0.0 }
 		colortwo = { 0.0 0.0 0.0 }
-		size = { 
-			x = 320
-			y = 5
+		size = {
+			x = 96
+			y = 96
 		}
-		effectFile = "gfx/FX/progress.lua"
+		effectFile = "gfx/FX/progress_radial.shader"
 		horizontal = yes
 	}
-
+	progressbartype = {
+		name = "GFX_unemployment_pie"
+		textureFile1 = "gfx/interface/economy/piechart/unemployment_pie.png"
+		textureFile2 = "gfx/interface/economy/piechart/empty_pie.png"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 96
+			y = 96
+		}
+		effectFile = "gfx/FX/progress_radial.shader"
+		horizontal = yes
+	}
 	spriteType = {
 		name = "GFX_economy_head"
 		texturefile = "gfx/interface/economy/economy_head.png"
@@ -69,6 +89,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_economy_info_frame"
 		texturefile = "gfx/interface/economy/economy_info_frame.png"
+	}
+	spriteType = {
+		name = "GFX_economy_debt_frame"
+		texturefile = "gfx/interface/economy/economy_debt_frame.png"
 	}
 	spriteType = {
 		name = "GFX_economy_deficit_bar_frame"

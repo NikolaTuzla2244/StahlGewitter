@@ -82,6 +82,12 @@ scripted_gui = {
 				has_war = yes
 			}
 
+			deficit_value_visible = { check_variable = { economy_info = 0 } }
+			deficit_percentage_visible = { check_variable = { economy_info = 0 } }
+
+			unemployment_value_visible = { check_variable = { economy_info = 1 } }
+			unemployment_improve_visible = { check_variable = { economy_info = 1 } }
+
 			# law_entry_up_button_click_enabled = {
 			# 	if = {
 			# 		limit = { check_variable = { v = 1 } }
@@ -111,11 +117,18 @@ scripted_gui = {
 			# 	}
 			# }
 
-			level_tab_button_click_enabled = {
+			deficit_tab_button_click_enabled = {
 				NOT = { check_variable = { economy_info = 0 } }
 			}
 			unemployment_tab_button_click_enabled = {
 				NOT = { check_variable = { economy_info = 1 } }
+			}
+
+			unemployment_pie_visible = {
+				NOT = { check_variable = { unemployment_rate = 0 } }
+			}
+			deficit_pie_visible = {
+				NOT = { check_variable = { economy_deficit = 0 } }
 			}
 
 			#cursor spam
@@ -250,7 +263,7 @@ scripted_gui = {
 				economy_index_calc = yes
 			}
 
-			level_tab_button_click = {
+			deficit_tab_button_click = {
 				set_variable = { economy_info = 0 }
 			}
 			unemployment_tab_button_click = {
@@ -314,11 +327,14 @@ scripted_gui = {
 			range_icon_4 = {
 				image = "[GetLawRangeIcon_4]"
 			}
+
+			deficit_pie = { frame = economy_deficit_ratio_GUI }
+			unemployment_pie = { frame = unemployment_rate_GUI }
 			
 			law_entry_up_button = { frame = 1 }
 			law_entry_down_button = { frame = 2 }
 
-			level_tab_button = { frame = 1 }
+			deficit_tab_button = { frame = 1 }
 			unemployment_tab_button = { frame = 2 }
 
 			# economy_revenue_limit_ProgressBar = { frame = revenue_ratio }

@@ -1,7 +1,7 @@
 economy_progress_reset = {
 	custom_effect_tooltip = economy_progress_reset_tt
 	hidden_effect = {
-		set_variable = { economy_progress = global.economy_progress_ini }
+		set_variable = { economy_progress = 0 }
 	}
 }
 

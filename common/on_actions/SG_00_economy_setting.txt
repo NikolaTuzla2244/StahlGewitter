@@ -100,6 +100,11 @@ on_actions = {
 				economy_type_setup_central = yes
 
 			}
+			SER = {
+				set_variable = { economy_level = 4 }
+				economy_type_setup_decentral = yes
+
+			}
 			BUL = {
 				set_variable = { economy_level = 3 }
 				economy_type_setup_central = yes

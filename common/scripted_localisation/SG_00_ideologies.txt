@@ -179,6 +179,10 @@ defined_text = { #保守民主主義
 		localization_key = libertarian_conservatism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = agrarianism_subtype }
+		localization_key = agrarianism_subtype
+	}
+	text = {
 		trigger = { has_country_leader_ideology = san_min_democracy_subtype }
 		localization_key = san_min_democracy_subtype
 	}

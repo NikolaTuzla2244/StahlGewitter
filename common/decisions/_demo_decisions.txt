@@ -138,4 +138,37 @@ debug_decisions = {
 			factor = 0
 		}
 	}
+
+	improve_unemployment = {
+		icon = GFX_decision_eng_trade_unions_support
+		fire_only_once = no
+		available = {
+		}
+		visible = {
+		}
+		cost = 0
+		days_remove = 14
+		modifier = {
+			SG_improve_unemployment_modifier = 0.05
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	aggravation_unemployment = {
+		icon = GFX_decision_eng_trade_unions_support
+		fire_only_once = no
+		available = {
+		}
+		visible = {
+		}
+		cost = 0
+		days_remove = 14
+		modifier = {
+			SG_improve_unemployment_modifier = -0.05
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 }

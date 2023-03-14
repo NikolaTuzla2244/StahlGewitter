@@ -67,6 +67,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			modifier = {
+				conscription_factor = -0.03
 				consumer_goods_factor = 0.15
 
 				SG_bad_economic_index_modifier = 2
@@ -143,6 +144,8 @@ ideas = {
 			cancel_if_invalid = no
 			modifier = {
 				conscription = 0.015
+
+				production_speed_buildings_factor = 0.1
 			}
 		}
 		volunteer_only_1 = {
@@ -166,7 +169,7 @@ ideas = {
 			modifier = {
 				conscription = 0.03
 
-				SG_bad_economic_index_modifier = 2
+				SG_bad_economic_index_modifier = 1
 			}
 		}
 		extensive_conscription_3 = {
@@ -178,8 +181,10 @@ ideas = {
 			cancel_if_invalid = no
 			modifier = {
 				conscription = 0.05
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
 
-				SG_bad_economic_index_modifier = 4
+				SG_bad_economic_index_modifier = 2
 			}
 		}
 		service_by_requirement_4 = {
@@ -191,8 +196,10 @@ ideas = {
 			cancel_if_invalid = no
 			modifier = {
 				conscription = 0.15
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
 
-				SG_bad_economic_index_modifier = 6
+				SG_bad_economic_index_modifier = 3
 			}
 		}
 	}

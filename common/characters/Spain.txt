@@ -91,7 +91,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_socialism_subtype
+			ideology = national_communism_subtype
 		}
 	}
 }

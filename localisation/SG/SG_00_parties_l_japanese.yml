@@ -159,6 +159,16 @@ CZE_reformism_party_long:0 "チェコスロバキア社会民主党 - 中央・�
 CZE_authoritarian_socialism_party:0 "ČSSD - 左派"
 CZE_authoritarian_socialism_party_long:0 "チェコスロバキア社会民主党 - 左派"
 
+#南スラヴ連合
+SCS_conservative_democracy_party:0 "人民党"
+SCS_conservative_democracy_party_long:0 "スロベニア人民党"
+SCS_liberal_democracy_party:0 "農民党"
+SCS_liberal_democracy_party_long:0 "クロアチア農民党"
+SCS_despotism_party:0 "ムスリム組織"
+SCS_despotism_party_long:0 "ボスニア・ムスリム組織"
+SCS_authoritarian_socialism_party:0 "共産党"
+SCS_authoritarian_socialism_party_long:0 "ユーゴスラヴィア共産党"
+
 #ルーマニア
 ROM_national_socialism_party:0 "軍団運動"
 ROM_national_socialism_party_long:0 "軍団運動"
@@ -166,6 +176,12 @@ ROM_despotism_party:0 "国王派"
 ROM_despotism_party_long:0 "国王派"
 ROM_authoritarian_socialism_party:0 "ルーマニア共産党"
 ROM_authoritarian_socialism_party_long:0 "ルーマニア共産党"
+
+#セルビア
+SER_national_populism_party:0 "チェトニック"
+SER_national_populism_party_long:0 "チェトニック"
+SER_despotism_party:0 "SNS" #Srpska Nacionalna Stranka
+SER_despotism_party_long:0 "セルビア国民党" 
 
 #ポーランド
 POL_national_populism_party:0 "ZLN" #Związek Ludowo-Narodowy

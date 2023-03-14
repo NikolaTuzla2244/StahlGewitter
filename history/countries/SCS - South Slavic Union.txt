@@ -66,15 +66,16 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = conservative_democracy
+	ruling_party = liberal_democracy
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	conservative_democracy = 50
-	authoritarian_socialism = 40
-	national_socialism = 10
+	liberal_democracy = 30
+	conservative_democracy = 28
+	despotism = 20
+	authoritarian_socialism = 22
 }
 
 add_ideas = {
@@ -83,6 +84,7 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-# recruit_character = SCS_Stjepan_Radic
-# recruit_character = SCS_Josip_Broz_Tito
-# recruit_character = SCS_Ante_Pavelic
+recruit_character = SCS_Stjepan_Radic
+recruit_character = SCS_Anton_Korosec
+recruit_character = SCS_Josip_Broz_Tito
+recruit_character = SCS_Mehmed_Spaho

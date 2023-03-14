@@ -72,15 +72,26 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 100
+	despotism = 60
+	national_populism = 40
 }
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
+	#laws
+	early_mobilization_3
+	active_trade_1
+	limited_conscription_2
+	economy_plutocracy
+	#development
+	SG_academic_3
+	SG_industry_3
+	SG_administration_3
+	SG_infrastructure_3
+	SG_network_2
+	SG_military_3
 }
 
 recruit_character = SER_Aleksandar_I
+recruit_character = SER_Draza_Mihailovic
 # recruit_character = SER_Punisa_Racic
 

@@ -160,12 +160,12 @@ defined_text = {
 }
 
 defined_text = {
-	name = economy_modifier_text
+	name = economy_debuff_modifier_text
 	text = {
 		trigger = {
 			check_variable = { economy_info = 0 }
 		}
-		localization_key = economy_type_modifier_text
+		localization_key = debt_modifier_text
 	}
 	text = {
 		trigger = {

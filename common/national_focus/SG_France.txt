@@ -9,17 +9,22 @@ focus_tree = {
 			tag = FRA
 		}
 	}
+	continuous_focus_position = {
+		x = 500
+		y = 1200
+	}
 	default = no
 
 	focus = {
-		id = FRA_Grande_Terreur
+		id = FRA_Grande_Terreur #グランデ・テロール
 		icon = GFX_focus_FRA_Grande_Terreur
-		x = 5
+		x = 13
 		y = 0
 		cost = 18
 		# search_filters = {}
 		
 		available_if_capitulated = yes
+		cancelable = no
 
 		ai_will_do = {
 			factor = 30
@@ -35,13 +40,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = FRA_Center_Bloc
+		id = FRA_Center_Bloc #中央ブロック
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
 		relative_position_id = FRA_Grande_Terreur
 		prerequisite = { focus = FRA_Grande_Terreur }
-		cost = 18
+		cost = 7.2
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -55,13 +60,33 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = FRA_Enhance_Personality_Cult
+		id = FRA_Party_Cleanup_Campaign #党内浄化キャンペーン
 		icon = GFX_goal_unknown
 		x = 0
+		y = 2
+		relative_position_id = FRA_Center_Bloc
+		prerequisite = { focus = FRA_Center_Bloc }
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Enhance_Personality_Cult #個人崇拝の強化
+		icon = GFX_goal_unknown
+		x = 1
 		y = 1
 		relative_position_id = FRA_Center_Bloc
 		prerequisite = { focus = FRA_Center_Bloc }
-		cost = 18
+		cost = 7.2
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -75,13 +100,902 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = FRA_Left_Bloc
+		id = FRA_Formal_Worker_Culture #公式労働者文化
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = FRA_Enhance_Personality_Cult
+		prerequisite = { focus = FRA_Enhance_Personality_Cult }
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Patriotic_Communism #愛国共産主義の喧伝
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = FRA_Formal_Worker_Culture
+		prerequisite = { focus = FRA_Formal_Worker_Culture }
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_No_End_Revolution #革命に終点はない
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = FRA_Patriotic_Communism
+		prerequisite = { focus = FRA_Patriotic_Communism }
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Internationalist_Identification #国際主義同一化
+		icon = GFX_focus_ger_great_red_menace
+		x = -1
+		y = 1
+		relative_position_id = FRA_Patriotic_Communism
+		prerequisite = { focus = FRA_Patriotic_Communism }
+		prerequisite = { focus = FRA_Political_Use_Milice }
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_Commune_Constitution #コミューン憲法
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_Center_Bloc
+		prerequisite = { focus = FRA_Center_Bloc }
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Scientific_Socialism #科学的社会主義の推進
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = FRA_Commune_Constitution
+		prerequisite = { focus = FRA_Commune_Constitution }
+		prerequisite = { focus = FRA_Topdown_Appointed_Governance }
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Investment_Grandes_Ecoles #グランゼコールへの投資
+		icon = GFX_focus_research2
+		x = 0
+		y = 3
+		relative_position_id = FRA_Scientific_Socialism
+		prerequisite = { focus = FRA_Scientific_Socialism }
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Computer_Age #コンピュータ時代
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = FRA_Scientific_Socialism
+		prerequisite = { focus = FRA_Scientific_Socialism }
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Creation_CEA #CEA(Commissariat à l’énergie atomique)の創設
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = FRA_Computer_Age
+		prerequisite = { focus = FRA_Computer_Age }
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_Political_Use_Milice #ミリスの政争利用
+		icon = GFX_focus_fra_milice
+		x = 2
+		y = 1
+		relative_position_id = FRA_Scientific_Socialism
+		prerequisite = { focus = FRA_Scientific_Socialism }
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Camp_Construction #キャンプの建設
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = FRA_Political_Use_Milice
+		prerequisite = { focus = FRA_Political_Use_Milice }
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Encourage_Mutual_Monitoring #相互監視の奨励
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_Political_Use_Milice
+		prerequisite = { focus = FRA_Political_Use_Milice }
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_Liberation_Women #女性の解放
+		icon = GFX_focus_generic_women_in_military
+		x = 9
+		y = 0
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		cancelable = no
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+			# date > 1935.5.1
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Youth_Socialism #青年社会主義(MJS, Mouvement des Jeunes Socialistes)
+		icon = GFX_goal_unknown
+		x = 2
+		y = 0
+		cost = 7.2
+		relative_position_id = FRA_Liberation_Women
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		cancelable = no
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+			# date > 1935.5.1
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Topdown_Appointed_Governance #トップダウン任命式統治
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 7.2
+		relative_position_id = FRA_Liberation_Women
+		prerequisite = {
+			focus = FRA_Liberation_Women
+		}
+		prerequisite = {
+			focus = FRA_Youth_Socialism
+		}
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		cancelable = no
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+			# date > 1935.5.1
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_Economic_Reconstruction #経済再建
+		icon = GFX_goal_unknown
+		x = 22
+		y = 0
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_1st_Commune_Etat_Quota #第一回コミューン国家ノルマ 
+		#CNP(国家計画委員会,Commission Nationale du Plan)による計画経済
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = FRA_Economic_Reconstruction
+		prerequisite = {
+			focus = FRA_Economic_Reconstruction
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Managed_Currency_System #管理通貨制度
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = FRA_Economic_Reconstruction
+		prerequisite = {
+			focus = FRA_Economic_Reconstruction
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Devaluation_Franc #フラン価切り下げ
+		icon = GFX_focus_fra_devalue_the_franc
+		x = -4
+		y = 1
+		relative_position_id = FRA_Economic_Reconstruction
+		prerequisite = {
+			focus = FRA_Economic_Reconstruction
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Farm_Restructuring #農場の再編
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = FRA_1st_Commune_Etat_Quota
+		prerequisite = {
+			focus = FRA_1st_Commune_Etat_Quota
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Urban_Industrialization_Program #都市工業化プログラム
+		icon = GFX_goal_generic_soviet_construction
+		x = 0
+		y = 1
+		relative_position_id = FRA_Farm_Restructuring
+		prerequisite = {
+			focus = FRA_Farm_Restructuring
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Outrageous_Modernization #冷徹な開発
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = FRA_Urban_Industrialization_Program
+		mutually_exclusive = {
+			focus = FRA_Distributed_Industry
+		}
+		prerequisite = {
+			focus = FRA_Urban_Industrialization_Program
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Distributed_Industry #分散工業
+		icon = GFX_goal_unknown
+		x = -1
+		y = 2
+		relative_position_id = FRA_Farm_Restructuring
+		mutually_exclusive = {
+			focus = FRA_Outrageous_Modernization
+		}
+		prerequisite = {
+			focus = FRA_Farm_Restructuring
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Expansion_Energy_Industry #エネルギー産業の拡大
+		icon = GFX_focus_generic_energy
+		x = 0
+		y = 1
+		relative_position_id = FRA_Resource_Utilities
+		prerequisite = {
+			focus = FRA_Resource_Utilities
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Promoting_Defense_Industry #国防産業の推進
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 0
+		y = 1
+		relative_position_id = FRA_1st_Commune_Etat_Quota
+		prerequisite = {
+			focus = FRA_1st_Commune_Etat_Quota
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Preparing_Military_Industrial_Complex #軍産複合体の準備
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 0
+		y = 1
+		relative_position_id = FRA_Promoting_Defense_Industry
+		prerequisite = {
+			focus = FRA_Promoting_Defense_Industry
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Resource_Utilities #資源公共事業
+		icon = GFX_goal_generic_construction
+		x = -2
+		y = 1
+		relative_position_id = FRA_1st_Commune_Etat_Quota
+		prerequisite = {
+			focus = FRA_1st_Commune_Etat_Quota
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Baku_Oil_Field_Tieup #バクー油田の提携
+		icon = GFX_goal_unknown
+		x = -1
+		y = 2
+		relative_position_id = FRA_Resource_Utilities
+		mutually_exclusive = {
+			focus = FRA_Synthetic_Oil_Industry
+		}
+		prerequisite = {
+			focus = FRA_Socialist_Bloc
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Synthetic_Oil_Industry #合成石油産業
+		icon = GFX_goal_generic_oil_refinery
+		x = 1
+		y = 2
+		relative_position_id = FRA_Resource_Utilities
+		mutually_exclusive = {
+			focus = FRA_Baku_Oil_Field_Tieup
+		}
+		prerequisite = {
+			focus = FRA_Resource_Utilities
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Socialist_Bloc #社会主義圏ブロック
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = FRA_Resource_Utilities
+		prerequisite = {
+			focus = FRA_Resource_Utilities
+		}
+		prerequisite = {
+			focus = FRA_Devaluation_Franc
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Travailleur_Hero_Culture #トラヴァイユール英雄文化
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_Socialist_Bloc
+		prerequisite = {
+			focus = FRA_Socialist_Bloc
+		}
+		prerequisite = {
+			focus = FRA_Formal_Worker_Culture
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Travail_Unite_Egalite #労働、団結、平等！
+		icon = GFX_focus_focus_fra_liberte_egalite_solidarite
+		x = 2
+		y = 1
+		relative_position_id = FRA_Travailleur_Hero_Culture
+		mutually_exclusive = {
+			focus = FRA_Fusil_Fusil_Fusil
+			focus = FRA_Fer_Engrenages_Machinerie
+		}
+		prerequisite = {
+			focus = FRA_Travailleur_Hero_Culture
+		}
+		prerequisite = {
+			focus = FRA_Distributed_Industry
+			focus = FRA_Outrageous_Modernization
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Fusil_Fusil_Fusil #銃、銃、銃！
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = FRA_Preparing_Military_Industrial_Complex
+		mutually_exclusive = {
+			focus = FRA_Travail_Unite_Egalite
+			focus = FRA_Fer_Engrenages_Machinerie
+		}
+		prerequisite = {
+			focus = FRA_Preparing_Military_Industrial_Complex
+		}
+		prerequisite = {
+			focus = FRA_Distributed_Industry
+			focus = FRA_Outrageous_Modernization
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Fer_Engrenages_Machinerie #鉄、歯車、重機械！
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = FRA_Outrageous_Modernization
+		mutually_exclusive = {
+			focus = FRA_Fusil_Fusil_Fusil
+			focus = FRA_Travail_Unite_Egalite
+		}
+		prerequisite = {
+			focus = FRA_Preparing_Military_Industrial_Complex
+		}
+		prerequisite = {
+			focus = FRA_Outrageous_Modernization
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_Paris_International #パリ・インターナショナル
+		icon = GFX_focus_FRA_Grande_Terreur
+		x = 17
+		y = 6
+		cost = 5
+		# prerequisite = {
+		# 	focus = FRA_No_End_Revolution
+		# }
+		# prerequisite = {
+		# 	focus = FRA_Travail_Unite_Egalite
+		# 	focus = FRA_Fusil_Fusil_Fusil
+		# 	focus = FRA_Fer_Engrenages_Machinerie
+		# }
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		cancelable = no
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+			# date > 1935.5.1
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_War_rather_Surrender #屈服より戦争を！
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = FRA_Paris_International
+		prerequisite = {
+			focus = FRA_Paris_International
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Suppression_Algiers #アルジェ政府の鎮圧
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		relative_position_id = FRA_Paris_International
+		prerequisite = {
+			focus = FRA_Paris_International
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_British_Liberation #イギリス解放
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = FRA_Suppression_Algiers
+		prerequisite = {
+			focus = FRA_War_rather_Surrender
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Dutch_Invasion #オランダ侵攻
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = FRA_Suppression_Algiers
+		prerequisite = {
+			focus = FRA_Suppression_Algiers
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Invasion_Iberia #イベリア侵攻
 		icon = GFX_goal_unknown
 		x = -3
 		y = 1
-		relative_position_id = FRA_Grande_Terreur
-		prerequisite = { focus = FRA_Grande_Terreur }
-		cost = 18
+		relative_position_id = FRA_Suppression_Algiers
+		prerequisite = {
+			focus = FRA_Suppression_Algiers
+		}
+		cost = 7.2
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -95,13 +1009,18 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = FRA_Right_Bloc
+		id = FRA_Do_Not_Stop #歩みを止めるな！
 		icon = GFX_goal_unknown
-		x = 3
+		x = 1
 		y = 1
-		relative_position_id = FRA_Grande_Terreur
-		prerequisite = { focus = FRA_Grande_Terreur }
-		cost = 18
+		relative_position_id = FRA_War_rather_Surrender
+		prerequisite = {
+			focus = FRA_War_rather_Surrender
+		}
+		prerequisite = {
+			focus = FRA_Suppression_Algiers
+		}
+		cost = 7.2
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -114,4 +1033,725 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+
+	focus = {
+		id = FRA_Spanish_International_Brigades #スペイン国際旅団
+		icon = GFX_focus_SOV_support_spanish_poum
+		x = 4
+		y = 1
+		relative_position_id = FRA_Paris_International
+		prerequisite = {
+			focus = FRA_Paris_International
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Take_Brigade_Leadership #旅団指導部の掌握
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = FRA_Spanish_International_Brigades
+		prerequisite = {
+			focus = FRA_Spanish_International_Brigades
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_Support_PCI #イタリア共産党の支援
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = FRA_Paris_International
+		prerequisite = {
+			focus = FRA_Paris_International
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Vienna_Awards #ウィーン裁定
+		icon = GFX_goal_unknown
+		x = -3
+		y = 1
+		relative_position_id = FRA_Paris_International
+		mutually_exclusive = {
+			focus = FRA_Liaison_Danube_Council
+		}
+		prerequisite = {
+			focus = FRA_Paris_International
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Liaison_Danube_Council #ドナウ評議会との連携
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_Paris_International
+		mutually_exclusive = {
+			focus = FRA_Vienna_Awards
+		}
+		prerequisite = {
+			focus = FRA_Paris_International
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_French_People_Army #フランス人民陸軍
+		icon = GFX_goal_unknown
+		x = 4
+		y = 0
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Restructuring_Garde_Nationale #国民衛兵の再編
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		relative_position_id = FRA_French_People_Army
+		prerequisite = {
+			focus = FRA_French_People_Army
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Placement_Political_Commissar #政治将校の配置
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = FRA_Restructuring_Garde_Nationale
+		prerequisite = {
+			focus = FRA_Restructuring_Garde_Nationale
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Command_Squad #督戦隊
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = FRA_Placement_Political_Commissar
+		prerequisite = {
+			focus = FRA_Placement_Political_Commissar
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Military_Wireless #軍の無線化
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = FRA_Placement_Political_Commissar
+		prerequisite = {
+			focus = FRA_Placement_Political_Commissar
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Partisan_Tactics #パルチザン戦術
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_Restructuring_Garde_Nationale
+		prerequisite = {
+			focus = FRA_Restructuring_Garde_Nationale
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_AvantGarde_Battalion #先鋒部隊
+		icon = GFX_goal_unknown
+		x = -4
+		y = 1
+		relative_position_id = FRA_French_People_Army
+		mutually_exclusive = {
+			focus = FRA_Continuous_Attack
+		}
+		prerequisite = {
+			focus = FRA_French_People_Army
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Continuous_Attack #連続攻撃
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = FRA_French_People_Army
+		mutually_exclusive = {
+			focus = FRA_AvantGarde_Battalion
+		}
+		prerequisite = {
+			focus = FRA_French_People_Army
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Inheritance_Tank #戦車設計の継承
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
+		x = -2
+		y = 1
+		relative_position_id = FRA_Continuous_Attack
+		prerequisite = {
+			focus = FRA_Continuous_Attack
+			focus = FRA_AvantGarde_Battalion
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Infantry_Tank #歩兵戦車
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_Inheritance_Tank
+		mutually_exclusive = {
+			focus = FRA_Mobile_Tank
+		}
+		prerequisite = {
+			focus = FRA_Inheritance_Tank
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Mobile_Tank #機動戦車
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = FRA_Inheritance_Tank
+		mutually_exclusive = {
+			focus = FRA_Infantry_Tank
+		}
+		prerequisite = {
+			focus = FRA_Inheritance_Tank
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Faster #より速く！
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = FRA_Auto_Industry_Integration
+		prerequisite = {
+			focus = FRA_Auto_Industry_Integration
+		}
+		prerequisite = {
+			focus = FRA_Infantry_Tank
+			focus = FRA_Mobile_Tank
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Auto_Industry_Integration #自動車産業の統合
+		icon = GFX_focus_generic_improve_roads
+		x = -2
+		y = 0
+		relative_position_id = FRA_Inheritance_Tank
+		prerequisite = {
+			focus = FRA_AvantGarde_Battalion
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Advanced_Artillery #火砲の発展
+		icon = GFX_goal_generic_army_artillery2
+		x = 2
+		y = 0
+		relative_position_id = FRA_Inheritance_Tank
+		prerequisite = {
+			focus = FRA_Continuous_Attack
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Introduction_Mobile_Troops #機動兵科の導入
+		icon = GFX_goal_generic_army_tanks
+		x = 0
+		y = 2
+		relative_position_id = FRA_Advanced_Artillery
+		prerequisite = {
+			focus = FRA_Advanced_Artillery
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_Red_Air #赤色空軍
+		icon = GFX_goal_unknown
+		x = 5
+		y = 5
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Ground_Attack #対地攻撃重視
+		icon = GFX_focus_generic_tank_air_support
+		x = -2
+		y = 1
+		relative_position_id = FRA_Red_Air
+		prerequisite = {
+			focus = FRA_Red_Air
+			focus = FRA_Introduction_Mobile_Troops
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Airborne #空挺師団
+		icon = GFX_focus_generic_paratrooper
+		x = -1
+		y = 1
+		relative_position_id = FRA_Ground_Attack
+		prerequisite = {
+			focus = FRA_Ground_Attack
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Light_Fighter #新型軽航空機
+		icon = GFX_goal_generic_air_fighter
+		x = 0
+		y = 1
+		relative_position_id = FRA_Red_Air
+		mutually_exclusive = {
+			focus = FRA_Heavy_Fighter
+		}
+		prerequisite = {
+			focus = FRA_Red_Air
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Heavy_Fighter #新型重航空機
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = FRA_Red_Air
+		mutually_exclusive = {
+			focus = FRA_Light_Fighter
+		}
+		prerequisite = {
+			focus = FRA_Red_Air
+		}
+		cost = 7.2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	# focus = {
+	# 	id = FRA_Left_Bloc #左派ブロック
+	# 	icon = GFX_goal_unknown
+	# 	x = -3
+	# 	y = 1
+	# 	relative_position_id = FRA_Grande_Terreur
+	# 	prerequisite = { focus = FRA_Grande_Terreur }
+	# 	cost = 7.2
+	# 	# search_filters = {}
+		
+	# 	available_if_capitulated = yes
+
+	# 	ai_will_do = {
+	# 		factor = 30
+	# 	}
+	# 	available = {
+	# 	}
+	# 	completion_reward = {
+	# 	}
+	# }
+	# focus = {
+	# 	id = FRA_Collaboration_Sorel_Advocates #ソレル支持者との連携
+	# 	icon = GFX_goal_unknown
+	# 	x = 0
+	# 	y = 1
+	# 	relative_position_id = FRA_Left_Bloc
+	# 	prerequisite = { focus = FRA_Left_Bloc }
+	# 	cost = 7.2
+	# 	# search_filters = {}
+		
+	# 	available_if_capitulated = yes
+
+	# 	ai_will_do = {
+	# 		factor = 30
+	# 	}
+	# 	available = {
+	# 	}
+	# 	completion_reward = {
+	# 	}
+	# }
+
+	# focus = {
+	# 	id = FRA_Expulsion_Anarchists #アナーキストの追放
+	# 	icon = GFX_goal_unknown
+	# 	x = 0
+	# 	y = 1
+	# 	relative_position_id = FRA_Collaboration_Sorel_Advocates
+	# 	prerequisite = { focus = FRA_Collaboration_Sorel_Advocates }
+	# 	cost = 7.2
+	# 	# search_filters = {}
+		
+	# 	available_if_capitulated = yes
+
+	# 	ai_will_do = {
+	# 		factor = 30
+	# 	}
+	# 	available = {
+	# 	}
+	# 	completion_reward = {
+	# 	}
+	# }
+
+	# focus = {
+	# 	id = FRA_Right_Bloc #右派ブロック
+	# 	icon = GFX_goal_unknown
+	# 	x = 3
+	# 	y = 1
+	# 	relative_position_id = FRA_Grande_Terreur
+	# 	prerequisite = { focus = FRA_Grande_Terreur }
+	# 	cost = 7.2
+	# 	# search_filters = {}
+		
+	# 	available_if_capitulated = yes
+
+	# 	ai_will_do = {
+	# 		factor = 30
+	# 	}
+	# 	available = {
+	# 	}
+	# 	completion_reward = {
+	# 	}
+	# }
+	# focus = {
+	# 	id = FRA_Criticism_Militants #主戦論者の批判
+	# 	icon = GFX_goal_unknown
+	# 	x = 0
+	# 	y = 1
+	# 	relative_position_id = FRA_Right_Bloc
+	# 	prerequisite = { focus = FRA_Right_Bloc }
+	# 	cost = 7.2
+	# 	# search_filters = {}
+		
+	# 	available_if_capitulated = yes
+
+	# 	ai_will_do = {
+	# 		factor = 30
+	# 	}
+	# 	available = {
+	# 	}
+	# 	completion_reward = {
+	# 	}
+	# }
+
+	# focus = {
+	# 	id = FRA_Cutting_Of_Military_Upper_Echelon #軍上層部の切り落とし
+	# 	icon = GFX_goal_unknown
+	# 	x = -2
+	# 	y = 1
+	# 	relative_position_id = FRA_Criticism_Militants
+	# 	prerequisite = { focus = FRA_Criticism_Militants }
+	# 	cost = 7.2
+	# 	# search_filters = {}
+		
+	# 	available_if_capitulated = yes
+
+	# 	ai_will_do = {
+	# 		factor = 30
+	# 	}
+	# 	available = {
+	# 	}
+	# 	completion_reward = {
+	# 	}
+	# }
+
+	# focus = {
+	# 	id = FRA_Cutting_Of_Military_Upper_Echelon #軍上層部の切り落とし
+	# 	icon = GFX_goal_unknown
+	# 	x = -2
+	# 	y = 1
+	# 	relative_position_id = FRA_Criticism_Militants
+	# 	prerequisite = { focus = FRA_Criticism_Militants }
+	# 	cost = 7.2
+	# 	# search_filters = {}
+		
+	# 	available_if_capitulated = yes
+
+	# 	ai_will_do = {
+	# 		factor = 30
+	# 	}
+	# 	available = {
+	# 	}
+	# 	completion_reward = {
+	# 	}
+	# }
 }

@@ -1,7 +1,7 @@
 guiTypes = {
 	containerWindowType = {
 		name = "SG_treasury_topbar"
-		position = { x = 800 y = 1 }
+		position = { x = 207 y = 0 }
 		size = { width = 0 height = 0 }
 		
 		iconType ={
@@ -26,10 +26,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="treasury"
-			position = { x = 352 y = 8 }
+			position = { x = 354 y = 8 }
 			font = "hoi_18mbs"
 			text = "[?economy_index|0]"
-			format = right
+			format = center
 			maxWidth = 30
 			maxHeight = 24
 			fixedsize = yes
@@ -196,7 +196,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "economy_progress_text"
-				position = { x = 325 y = 50 }
+				position = { x = 50 y = 35 }
 				font = "hoi_20bs"
 				text = economy_progress_text
 				maxWidth = 300
@@ -213,45 +213,255 @@ guiTypes = {
 			iconType ={
 				name ="progress_frame"
 				spriteType = "GFX_economy_progress_frame"
-				position = { x = 31 y = -8 }
+				position = { x = 42 y = -8 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
 			iconType ={
 				name ="progress_cursor"
 				spriteType = "GFX_economy_progress_cursor"
-				position = { x = 0 y = -15 }
+				position = { x = 0 y = 3 }
 				Orientation = "UPPER_LEFT"
 				# alwaystransparent = yes
 			}
 
-			instantTextboxType = {
-				name = "deficit_text"
-				position = { x = 50 y = 50 }
-				font = "hoi_20bs"
-				text = economy_deficit
-				maxWidth = 300
-				maxHeight = 20
-				format = left
+			# instantTextboxType = {
+			# 	name = "deficit_text"
+			# 	position = { x = 50 y = 50 }
+			# 	font = "hoi_20bs"
+			# 	text = economy_deficit
+			# 	maxWidth = 300
+			# 	maxHeight = 20
+			# 	format = left
+			# }
+			# iconType ={
+			# 	name ="deficit_bar"
+			# 	spriteType = "GFX_economy_deficit_bar"
+			# 	position = { x = 50 y = 40 }
+			# 	Orientation = "UPPER_LEFT"
+			# }
+			# iconType ={
+			# 	name ="deficit_bar_frame"
+			# 	spriteType = "GFX_economy_deficit_bar_frame"
+			# 	position = { x = 47 y = 38 }
+			# 	Orientation = "UPPER_LEFT"
+			# 	alwaystransparent = yes
+			# }
+		}
+		containerWindowType = {
+			name = "economy_info_window"
+			position = { x = 32 y = 220 }
+			containerWindowType = {
+				name = "economy_level_window"
+				position = { x = 0 y = 0 }
+
+				iconType ={
+					name ="header_bg"
+					spriteType = "GFX_economy_head"
+					position = { x = -22 y = -35 }
+					Orientation = "UPPER_LEFT"
+					alwaystransparent = yes
+				}
+				instantTextboxType = {
+					name = "header_title"
+					position = { x = 38 y = -32 }
+					textureFile = ""
+					font = "hoi_18"
+					borderSize = {x = 0 y = 0}
+					text = "economy_info"
+					maxWidth = 400
+					maxHeight = 20
+					fixedsize = yes
+				}
+				
+				iconType ={
+					name ="info_frame"
+					spriteType = "GFX_economy_info_frame"
+					position = { x = -30 y = -10 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextboxType = {
+					name = "economy_type_text"
+					position = { x = 70 y = 95 }
+					font = "hoi_18mbs"
+					text = "[GetEconomyType]"
+					maxWidth = 300
+					maxHeight = 20
+				}
+				iconType ={
+					name ="economy_type_icon"
+					position = { x = 165 y = 70 }
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextboxType = {
+					name = "economy_modifier_text"
+					position = { x = 252 y = 5 }
+					font = "hoi_18mbs"
+					text = "economy_type_modifier_text"
+					maxWidth = 300
+					maxHeight = 20
+					format = left
+				}
+
+				instantTextboxType = {
+					name = "economy_level_text"
+					position = { x = 5 y = 2 }
+					font = "bahnschrift_42"
+					text = economy_level_text
+					maxWidth = 250
+					maxHeight = 20
+					format = left
+				}
+
+				iconType = {
+					name = "economy_ideology_icon"
+					position = { x = -10 y = 50 }
+					# pdx_tooltip = "economy_ideology_icon_tt"
+				}
+				instantTextboxType = {
+					name = "economy_ideology_name"
+					position = { x = 70 y = 70 }
+					font = "hoi_20bs"
+					text = [THIS.GetEconomyIdeologyName]
+					maxWidth = 120
+					maxHeight = 20
+				}
+
+				# instantTextboxType = {
+				# 	name = "economy_unemployment_text"
+				# 	position = { x = 85 y = 52 }
+				# 	font = "hoi_20bs"
+				# 	text = economy_unemployment_text
+				# 	maxWidth = 150
+				# 	maxHeight = 20
+				# 	format = left
+				# }
 			}
-			iconType ={
-				name ="deficit_bar"
-				spriteType = "GFX_economy_deficit_bar"
-				position = { x = 50 y = 40 }
-				Orientation = "UPPER_LEFT"
-			}
-			iconType ={
-				name ="deficit_bar_frame"
-				spriteType = "GFX_economy_deficit_bar_frame"
-				position = { x = 47 y = 38 }
-				Orientation = "UPPER_LEFT"
-				alwaystransparent = yes
+			containerWindowType = {
+				name = "economy_debuff_window"
+				position = { x = 0 y = 132 }
+
+				containerWindowType = {
+					name = "economy_debt_tab"
+					position = { x = 455 y = -7 }
+
+					buttonType = {
+						name = "deficit_tab_button"
+						position = { x = 0 y = 0 }
+						spriteType = "GFX_SG_info_tab"
+						clicksound = click_default
+					}
+					buttonType = {
+						name = "unemployment_tab_button"
+						position = { x = 0 y = 68 }
+						spriteType = "GFX_SG_info_tab"
+						clicksound = click_default
+					}
+				}
+
+				iconType ={
+					name ="debt_frame"
+					spriteType = "GFX_economy_debt_frame"
+					position = { x = -30 y = -10 }
+					alwaystransparent = yes
+					Orientation = "UPPER_LEFT"
+				}
+
+				containerWindowType = {
+					name = "economy_debuff_pie"
+					position = { x = -7 y = 11 }
+
+					iconType ={
+						name ="black_pie"
+						spriteType = "GFX_black_pie"
+						position = { x = 0 y = 0 }
+						Orientation = "CENTER"
+					}
+					iconType ={
+						name ="unemployment_pie"
+						spriteType = "GFX_unemployment_pie"
+						position = { x = 0 y = 0 }
+						Orientation = "CENTER"
+					}
+					iconType ={
+						name ="deficit_pie"
+						spriteType = "GFX_deficit_pie"
+						position = { x = 0 y = 0 }
+						Orientation = "CENTER"
+					}
+					iconType ={
+						name ="cover_pie"
+						spriteType = "GFX_cover_pie"
+						position = { x = -4 y = -4 }
+						Orientation = "UPPER_LEFT"
+					}
+				}
+
+				instantTextboxType = {
+					name = "deficit_value"
+					position = { x = 110 y = 30 }
+					textureFile = ""
+					font = "hoi_20bs"
+					borderSize = {x = 0 y = 0}
+					text = "deficit_value"
+					maxWidth = 150
+					maxHeight = 20
+					fixedsize = yes
+				}
+				instantTextboxType = {
+					name = "deficit_percentage"
+					position = { x = 110 y = 55 }
+					textureFile = ""
+					font = "hoi_20bs"
+					borderSize = {x = 0 y = 0}
+					text = "deficit_percentage"
+					maxWidth = 150
+					maxHeight = 20
+					fixedsize = yes
+				}
+
+				instantTextboxType = {
+					name = "unemployment_value"
+					position = { x = 110 y = 25 }
+					textureFile = ""
+					font = "hoi_20bs"
+					borderSize = {x = 0 y = 0}
+					text = "unemployment_value"
+					maxWidth = 150
+					maxHeight = 20
+					fixedsize = yes
+				}
+				instantTextboxType = {
+					name = "unemployment_improve"
+					position = { x = 110 y = 52 }
+					textureFile = ""
+					font = "hoi_18mbs"
+					borderSize = {x = 0 y = 0}
+					text = "unemployment_improve"
+					maxWidth = 150
+					maxHeight = 40
+					fixedsize = yes
+				}
+
+				instantTextboxType = {
+					name = "economy_debuff_modifier"
+					position = { x = 252 y = 5 }
+					textureFile = ""
+					font = "hoi_18mbs"
+					borderSize = {x = 0 y = 0}
+					text = "[economy_debuff_modifier_text]"
+					alwaystransparent = yes
+					maxWidth = 400
+					maxHeight = 400
+					fixedsize = yes
+				}
 			}
 		}
 
 		containerWindowType = {
 			name = "economy_spend_window"
-			position = { x = 50 y = 210 }
+			position = { x = 50 y = 505 }
 			iconType ={
 				name ="header_bg"
 				spriteType = "GFX_economy_head"
@@ -353,7 +563,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "economy_law_window"
-			position = { x = 0 y = 358 }
+			position = { x = 0 y = 650 }
 			iconType ={
 				name ="header_bg"
 				spriteType = "GFX_economy_head"
@@ -400,114 +610,6 @@ guiTypes = {
 				slotsize = { width = 170 height = 35 }
 				max_slots = { x = 3 y = 1 }
 				add_horizontal = yes
-			}
-		}
-
-		containerWindowType = {
-			name = "economy_info_window"
-			position = { x = 22 y = 608 }
-
-			iconType ={
-				name ="header_bg"
-				spriteType = "GFX_economy_head"
-				position = { x = -12 y = -35 }
-				Orientation = "UPPER_LEFT"
-				alwaystransparent = yes
-			}
-			instantTextboxType = {
-				name = "header_title"
-				position = { x = 38 y = -32 }
-				textureFile = ""
-				font = "hoi_18"
-				borderSize = {x = 0 y = 0}
-				text = "economy_info"
-				maxWidth = 400
-				maxHeight = 20
-				fixedsize = yes
-			}
-
-			containerWindowType = {
-				name = "economy_info_window"
-				position = { x = 465 y = -7 }
-
-				buttonType = {
-					name = "level_tab_button"
-					position = { x = 0 y = 0 }
-					spriteType = "GFX_SG_info_tab"
-					clicksound = click_default
-				}
-				buttonType = {
-					name = "unemployment_tab_button"
-					position = { x = 0 y = 68 }
-					spriteType = "GFX_SG_info_tab"
-					clicksound = click_default
-				}
-			}
-
-			
-			
-			iconType ={
-				name ="info_frame"
-				spriteType = "GFX_economy_info_frame"
-				position = { x = -30 y = -10 }
-				Orientation = "UPPER_LEFT"
-			}
-
-			instantTextboxType = {
-				name = "economy_type_text"
-				position = { x = 85 y = 28 }
-				font = "hoi_18mbs"
-				text = "[GetEconomyType]"
-				maxWidth = 300
-				maxHeight = 20
-			}
-			iconType ={
-				name ="economy_type_icon"
-				position = { x = 165 y = 0 }
-				Orientation = "UPPER_LEFT"
-			}
-			instantTextboxType = {
-				name = "economy_modifier_text"
-				position = { x = 256 y = 3 }
-				font = "hoi_18mbs"
-				text = "[economy_modifier_text]"
-				maxWidth = 300
-				maxHeight = 20
-				format = left
-			}
-
-			instantTextboxType = {
-				name = "economy_level_text"
-				position = { x = 10 y = 78 }
-				font = "bahnschrift_42"
-				text = economy_level_text
-				maxWidth = 250
-				maxHeight = 20
-				format = left
-			}
-
-			iconType = {
-				name = "economy_ideology_icon"
-				position = { x = 0 y = 3 }
-				# pdx_tooltip = "economy_ideology_icon_tt"
-			}
-			instantTextboxType = {
-				name = "economy_ideology_name"
-				position = { x = 85 y = 3 }
-				font = "hoi_20bs"
-				text = [THIS.GetEconomyIdeologyName]
-				maxWidth = 120
-				maxHeight = 20
-			}
-
-			instantTextboxType = {
-				name = "economy_unemployment_text"
-				position = { x = 85 y = 52 }
-				font = "hoi_20bs"
-				text = economy_unemployment_text
-				maxWidth = 150
-				maxHeight = 20
-				format = left
 			}
 		}
 	}

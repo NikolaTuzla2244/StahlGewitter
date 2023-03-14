@@ -1,5 +1,35 @@
 guiTypes = {
 	containerWindowType = {
+		name = "SG_popularity_topbar"
+		position = { x = 167 y = 0 }
+		size = { width = 0 height = 0 }
+		
+		iconType ={
+			name ="popularity_icon"
+			spriteType = "GFX_treasury_icon"
+			position = { x= 0 y = 5 }
+			Orientation = "UPPER_LEFT"
+
+			pdx_tooltip = "SG_popularity_topbar_tooltip"
+			pdx_tooltip_delayed = "SG_popularity_topbar_tooltip_delayed"
+		}
+
+		instantTextBoxType = {
+			name ="popularity"
+			position = { x = 30 y = 8 }
+			font = "hoi_18mbs"
+			text = "[?party_popularity@ruling_party|0%]"
+			format = center
+			maxWidth = 30
+			maxHeight = 24
+			fixedsize = yes
+
+			pdx_tooltip = "SG_popularity_topbar_tooltip"
+			pdx_tooltip_delayed = "SG_popularity_topbar_tooltip_delayed"
+		}
+	}
+
+	containerWindowType = {
 		name = "SG_countrypoliticsview"
 		position = { x = 0 y = 0 }
 		size = { width = 0 height = 0 }

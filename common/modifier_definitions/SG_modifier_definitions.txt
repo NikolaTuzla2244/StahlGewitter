@@ -19,6 +19,13 @@ SG_bad_army_spend_modifier = { # - 陸軍支出補正
 	category = country
 }
 
+SG_improve_unemployment_modifier = { # - 失業率改善
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
 ###以下、経済リワークの被害者
 
 # SG_consumer_goods_modifier = { #消費財

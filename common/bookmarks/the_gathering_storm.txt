@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "BOOKMARK_NAME"
 		desc = "BOOKMARK_DESC"
-		date = 1936.1.1.12
+		date = 1935.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes
@@ -68,7 +68,30 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"GER" = {
+
+		"USA" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+		"USA" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+		"USA" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+
+		"MSS" = {
 			minor = yes
 			history = "HUN_BOOKMARK_DESC"
 			ideology = despotism
@@ -78,25 +101,126 @@ bookmarks = {
 		"HUN" = {
 			minor = yes
 			history = "HUN_BOOKMARK_DESC"
-			ideology = national_populism
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+		"FES" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
 			ideas = {}
 			focuses = {}
 		}
 
-		"GER" = {
+		"SPA" = {
 			minor = yes
 			history = "HUN_BOOKMARK_DESC"
 			ideology = despotism
 			ideas = {}
 			focuses = {}
 		}
-		"GER" = {
+		"FRR" = {
 			minor = yes
 			history = "HUN_BOOKMARK_DESC"
 			ideology = despotism
 			ideas = {}
 			focuses = {}
 		}
-		
+		"BEL" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+
+		"PCI" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+		"ITA" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+		"PNF" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+
+		"POL" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+		"AUS" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+		"CZE" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+
+		"GRE" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+		"RAJ" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+		"SWE" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+
+		"JAP" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+		"JAP" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
+		"JAP" = {
+			minor = yes
+			history = "HUN_BOOKMARK_DESC"
+			ideology = despotism
+			ideas = {}
+			focuses = {}
+		}
 	}
 }

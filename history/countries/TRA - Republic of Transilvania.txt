@@ -66,15 +66,16 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = authoritarian_socialism
+	ruling_party = conservative_democracy
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
+	conservative_democracy = 30
+	reformism = 30
+	national_socialism = 20
 	authoritarian_socialism = 20
-	despotism = 40
-	national_socialism = 40
 }
 
 add_ideas = {
@@ -83,4 +84,7 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-# recruit_character = HUN_Gombos_Gyula
+recruit_character = TRA_Iuliu_Maniu
+recruit_character = TRA_Iosif_Jumanca
+recruit_character = TRA_Ion_Gavrila_Ogoranu
+recruit_character = TRA_Kurko_Gyarfas

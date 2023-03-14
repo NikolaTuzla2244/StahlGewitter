@@ -11,7 +11,7 @@ on_actions = {
 			set_variable = { global.economy_progress_unit = 450 } #経済進捗GUIの単位
 			divide_variable = { global.economy_progress_unit = global.economy_progress_width }
 
-			set_variable = { global.economy_progress_offset = 22 } #経済進捗バーの座標調整 25
+			set_variable = { global.economy_progress_offset = 46 } #経済進捗バーの座標調整 (was 22)
 
 
 			for_each_scope_loop = {
@@ -35,12 +35,15 @@ on_actions = {
 					limit = {
 						NOT = { has_variable = economy_progress }
 					}
-					set_variable = { economy_progress = global.economy_progress_ini }
+					set_variable = { economy_progress = 0 }
 				}
 
 				###経済アイデア
 				add_dynamic_modifier = {
 					modifier = SG_economy_level_effect_dynmod
+				}
+				add_dynamic_modifier = {
+					modifier = SG_economy_debt_effect_dynmod
 				}
 				add_dynamic_modifier = {
 					modifier = SG_economy_unemployment_effect_dynmod
@@ -54,14 +57,17 @@ on_actions = {
 			}
 		}
 	}
-	on_monthly = {
+	on_weekly = {
 		effect = {
-			divisions_limit_calc = yes
+			divisions_limit_calc = yes #師団上限
 			
-			#必ず最後に置く
-			economy_index_calc = yes
-			economy_deficit_width_calc = yes
-			economy_progress_calc = yes
+			economy_index_calc = yes #経済指数
+			economy_progress_calc = yes #経済進捗
+			economy_deficit_width_calc = yes #負債上限計算
+			economy_unemployment_calc = yes #失業率計算
+
+			debt_mod_calc = yes #負債デバフ計算
+			unemployment_mod_calc = yes #雇用率デバフ計算
 
 			economy_progress_gui_setup = yes #GUI調整
 		}

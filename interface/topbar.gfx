@@ -1,4 +1,8 @@
 spriteTypes = {
+	spriteType = {
+		name = "GFX_topbar_cover"
+		texturefile = "gfx/interface/topbar/topbar_cover.png"
+	}
 
 	spriteType = {
 		name = "GFX_fuel_strip"

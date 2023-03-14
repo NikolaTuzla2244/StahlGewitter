@@ -13,6 +13,9 @@
 灰 H;44,S:3,V:35 / 影灰 H;44,S:3,V:22
 白紙 H;60,S:11,V:84
 
+topbarのボタンアイコン - 透明度192
+textbox - H;87,S:8,V:9
+
 #ボタン
 #枠 ベベルDepth:1,Strength:0.75
 #影はwide:1,Blur:4

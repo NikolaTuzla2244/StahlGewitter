@@ -81,7 +81,7 @@ characters = {
 		}
 	}
 
-	SER_Aleksandar_I = { #親政丸眼鏡王国
+	SER_Aleksandar_I = { #国王のほうの丸眼鏡
 		name = SER_Aleksandar_I
 		portraits={
 			civilian={
@@ -90,6 +90,107 @@ characters = {
 		}
 		country_leader = {
 			ideology = absolute_monarchy_subtype
+		}
+	}
+	SER_Draza_Mihailovic = { #チェトニックのほうの丸眼鏡
+		name = SER_Draza_Mihailovic
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SER/Portrait_SER_Draza_Mihailovic.png"
+			}
+		}
+		country_leader = {
+			ideology = national_populism_subtype
+		}
+	}
+
+	SCS_Stjepan_Radic = { #農民党
+		name = SCS_Stjepan_Radic
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SCS/Portrait_SCS_Stjepan_Radic.png"
+			}
+		}
+		country_leader = {
+			ideology = liberal_democracy_subtype
+		}
+	}
+	SCS_Anton_Korosec = { #民主党
+		name = SCS_Anton_Korosec
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SCS/Portrait_SCS_Anton_Korosec.png"
+			}
+		}
+		country_leader = {
+			ideology = conservative_democracy_subtype
+		}
+	}
+	SCS_Josip_Broz_Tito = { #元帥
+		name = SCS_Josip_Broz_Tito
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SCS/Portrait_SCS_Josip_Broz_Tito.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_subtype
+		}
+	}
+	SCS_Mehmed_Spaho = { #ムスリム
+		name = SCS_Mehmed_Spaho
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SCS/Portrait_SCS_Mehmed_Spaho.png"
+			}
+		}
+		country_leader = {
+			ideology = theocracy_subtype
+		}
+	}
+
+	TRA_Iuliu_Maniu = { #国民農民党(ルーマニア寄り)
+		name = TRA_Iuliu_Maniu
+		portraits={
+			civilian={
+				large = "gfx/characters/large/TRA/Portrait_TRA_Iuliu_Maniu.png"
+			}
+		}
+		country_leader = {
+			ideology = agrarianism_subtype
+		}
+	}
+	TRA_Iosif_Jumanca = { #社会党(ハンガリー寄り)
+		name = TRA_Iosif_Jumanca
+		portraits={
+			civilian={
+				large = "gfx/characters/large/TRA/Portrait_TRA_Iosif_Jumanca.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_subtype
+		}
+	}
+	TRA_Ion_Gavrila_Ogoranu = { #トランシルヴァニア義勇軍(ガッツリルーマニア)
+		name = TRA_Ion_Gavrila_Ogoranu
+		portraits={
+			civilian={
+				large = "gfx/characters/large/TRA/Portrait_TRA_Ion_Gavrila_Ogoranu.png"
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
+		}
+	}
+	TRA_Kurko_Gyarfasa = { #人民同盟(ガッツリハンガリー)
+		name = TRA_Kurko_Gyarfas
+		portraits={
+			civilian={
+				large = "gfx/characters/large/TRA/Portrait_TRA_Kurko_Gyarfas.png"
+			}
+		}
+		country_leader = {
+			ideology = radical_liberalism_subtype
 		}
 	}
 }

@@ -1,4 +1,17 @@
 scripted_gui = {
+	SG_popularity_topbar = {
+		window_name = "SG_popularity_topbar"
+		context_type = player_context
+		parent_window_token = top_bar
+		visible = {
+			always = yes
+		}
+		properties = {
+			popularity_icon = {
+				image = "[GetTopbarIdeologyIcon]"
+			}
+		}
+	}
 	SG_countrypoliticsview = {
 		window_name = "SG_countrypoliticsview"
 		context_type = player_context

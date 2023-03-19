@@ -1,0 +1,291 @@
+FRA_sectarianism_setup = {
+	set_variable = { FRA_right_influence = 80 } #右派(社会民主主義)
+	set_variable = { FRA_patriot_influence = 100 } #愛国戦線
+	set_variable = { FRA_military_influence = 100 } #軍部
+	set_variable = { FRA_thermidor_influence = 100 } #テルドミール運動(左派)
+
+	set_variable = { FRA_right_GUI_frame = 1 } #右派(社会民主主義)
+	set_variable = { FRA_patriot_GUI_frame = 1 } #愛国戦線
+	set_variable = { FRA_military_GUI_frame = 1 } #軍部
+	set_variable = { FRA_thermidor_GUI_frame = 1 } #テルドミール運動(左派)
+	FRA_sectarianism_calc = yes
+}
+FRA_sectarianism_calc = {
+	###Subst
+	clamp_variable = {
+		var = FRA_right_influence
+		max = 100
+		min = 0
+	}
+	clamp_variable = {
+		var = FRA_patriot_influence
+		max = 100
+		min = 0
+	}
+	clamp_variable = {
+		var = FRA_military_influence
+		max = 100
+		min = 0
+	}
+	clamp_variable = {
+		var = FRA_thermidor_influence
+		max = 100
+		min = 0
+	}
+
+	###Sum/Average
+	set_temp_variable = { FRA_sectarianism_value_temp = FRA_right_influence }
+	add_to_temp_variable = { FRA_sectarianism_value_temp = FRA_patriot_influence }
+	add_to_temp_variable = { FRA_sectarianism_value_temp = FRA_military_influence }
+	add_to_temp_variable = { FRA_sectarianism_value_temp = FRA_thermidor_influence }
+
+	divide_temp_variable = { FRA_sectarianism_value_temp = 400 }
+
+	set_variable = { FRA_sectarianism_value = FRA_sectarianism_value_temp }
+
+	###Modifier
+	#weight
+	set_temp_variable = { sectism_political_power_gain_temp = -0.25 }
+	set_temp_variable = { sectism_stability_factor_temp = -0.5 }
+
+	multiply_temp_variable = { sectism_political_power_gain_temp = FRA_sectarianism_value }
+	multiply_temp_variable = { sectism_stability_factor_temp = FRA_sectarianism_value }
+
+	set_variable = { sectism_political_power_gain = sectism_political_power_gain_temp }
+	set_variable = { sectism_stability_factor = sectism_stability_factor_temp }
+}
+
+###効果用
+FRA_sectism_idea_remove = {
+	hidden_effect = {
+		remove_dynamic_modifier = {
+			modifier = FRA_sectism_dynmod
+		}
+		remove_ideas = FRA_Sectism_idea
+	}
+}
+###粛清！
+FRA_right_ban = {
+	custom_effect_tooltip = FRA_right_ban_tt
+
+	hidden_effect = {
+		set_country_flag = FRA_banned_right
+		set_variable = { FRA_right_GUI_frame = 2 }
+
+		set_variable = { FRA_right_influence = 0 }
+		FRA_sectarianism_calc = yes
+	}
+}
+FRA_patriot_ban = {
+	custom_effect_tooltip = FRA_patriot_ban_tt
+
+	hidden_effect = {
+		set_country_flag = FRA_banned_patriot
+		set_variable = { FRA_patriot_GUI_frame = 2 }
+
+		set_variable = { FRA_patriot_influence = 0 }
+		FRA_sectarianism_calc = yes
+	}
+}
+FRA_military_ban = {
+	custom_effect_tooltip = FRA_military_ban_tt
+
+	hidden_effect = {
+		set_country_flag = FRA_banned_military
+		set_variable = { FRA_military_GUI_frame = 2 }
+
+		set_variable = { FRA_military_influence = 0 }
+		FRA_sectarianism_calc = yes
+	}
+}
+FRA_thermidor_ban = {
+	custom_effect_tooltip = FRA_thermidor_ban_tt
+
+	hidden_effect = {
+		set_country_flag = FRA_banned_thermidor
+		set_variable = { FRA_thermidor_GUI_frame = 2 }
+
+		set_variable = { FRA_thermidor_influence = 0 }
+		FRA_sectarianism_calc = yes
+	}
+}
+#右派
+FRA_right_influence_gain = {
+	if = {
+		limit = { NOT = { has_country_flag = FRA_banned_right } }
+		custom_effect_tooltip = FRA_right_influence_gain_tt
+		
+		add_to_variable = { FRA_right_influence = 5 }
+	}
+	else = { custom_effect_tooltip = FRA_right_banned_tt }
+
+	FRA_sectarianism_calc = yes
+}
+FRA_right_influence_decrease = {
+	if = {
+		limit = { NOT = { has_country_flag = FRA_banned_right } }
+		custom_effect_tooltip = FRA_right_influence_decrease_tt
+		
+		add_to_variable = { FRA_right_influence = -5 }
+	}
+	else = { custom_effect_tooltip = FRA_right_banned_tt }
+
+	FRA_sectarianism_calc = yes
+}
+FRA_right_influence_further_gain = {
+	if = {
+		limit = { NOT = { has_country_flag = FRA_banned_right } }
+		custom_effect_tooltip = FRA_right_influence_further_gain_tt
+		
+		add_to_variable = { FRA_right_influence = 10 }
+	}
+	else = { custom_effect_tooltip = FRA_right_banned_tt }
+
+	FRA_sectarianism_calc = yes
+}
+FRA_right_influence_further_decrease = {
+	if = {
+		limit = { NOT = { has_country_flag = FRA_banned_right } }
+		custom_effect_tooltip = FRA_right_influence_further_decrease_tt
+		
+		add_to_variable = { FRA_right_influence = -10 }
+	}
+	else = { custom_effect_tooltip = FRA_right_banned_tt }
+
+	FRA_sectarianism_calc = yes
+}
+#愛国戦線
+FRA_patriot_influence_gain = {
+	if = {
+		limit = { NOT = { has_country_flag = FRA_banned_patriot } }
+		custom_effect_tooltip = FRA_patriot_influence_gain_tt
+		
+		add_to_variable = { FRA_patriot_influence = 5 }
+	}
+	else = { custom_effect_tooltip = FRA_patriot_banned_tt }
+
+	FRA_sectarianism_calc = yes
+}
+FRA_patriot_influence_decrease = {
+	if = {
+		limit = { NOT = { has_country_flag = FRA_banned_patriot } }
+		custom_effect_tooltip = FRA_patriot_influence_decrease_tt
+		
+		add_to_variable = { FRA_patriot_influence = -5 }
+	}
+	else = { custom_effect_tooltip = FRA_patriot_banned_tt }
+
+	FRA_sectarianism_calc = yes
+}
+FRA_patriot_influence_further_gain = {
+	if = {
+		limit = { NOT = { has_country_flag = FRA_banned_patriot } }
+		custom_effect_tooltip = FRA_patriot_influence_further_gain_tt
+		
+		add_to_variable = { FRA_patriot_influence = 10 }
+	}
+	else = { custom_effect_tooltip = FRA_patriot_banned_tt }
+
+	FRA_sectarianism_calc = yes
+}
+FRA_patriot_influence_further_decrease = {
+	if = {
+		limit = { NOT = { has_country_flag = FRA_banned_patriot } }
+		custom_effect_tooltip = FRA_patriot_influence_further_decrease_tt
+		
+		add_to_variable = { FRA_patriot_influence = -10 }
+	}
+	else = { custom_effect_tooltip = FRA_patriot_banned_tt }
+
+	FRA_sectarianism_calc = yes
+}
+#軍部
+FRA_military_influence_gain = {
+	if = {
+		limit = { NOT = { has_country_flag = FRA_banned_military } }
+		custom_effect_tooltip = FRA_military_influence_gain_tt
+		
+		add_to_variable = { FRA_military_influence = 5 }
+	}
+	else = { custom_effect_tooltip = FRA_military_banned_tt }
+
+	FRA_sectarianism_calc = yes
+}
+FRA_military_influence_decrease = {
+	if = {
+		limit = { NOT = { has_country_flag = FRA_banned_military } }
+		custom_effect_tooltip = FRA_military_influence_decrease_tt
+		
+		add_to_variable = { FRA_military_influence = -5 }
+	}
+	else = { custom_effect_tooltip = FRA_military_banned_tt }
+
+	FRA_sectarianism_calc = yes
+}
+FRA_military_influence_further_gain = {
+	if = {
+		limit = { NOT = { has_country_flag = FRA_banned_military } }
+		custom_effect_tooltip = FRA_military_influence_further_gain_tt
+		
+		add_to_variable = { FRA_military_influence = 10 }
+	}
+	else = { custom_effect_tooltip = FRA_military_banned_tt }
+
+	FRA_sectarianism_calc = yes
+}
+FRA_military_influence_further_decrease = {
+	if = {
+		limit = { NOT = { has_country_flag = FRA_banned_military } }
+		custom_effect_tooltip = FRA_military_influence_further_decrease_tt
+		
+		add_to_variable = { FRA_military_influence = -10 }
+	}
+	else = { custom_effect_tooltip = FRA_military_banned_tt }
+
+	FRA_sectarianism_calc = yes
+}
+#テルミドール
+FRA_thermidor_influence_gain = {
+	if = {
+		limit = { NOT = { has_country_flag = FRA_banned_thermidor } }
+		custom_effect_tooltip = FRA_thermidor_influence_gain_tt
+		
+		add_to_variable = { FRA_thermidor_influence = 5 }
+	}
+	else = { custom_effect_tooltip = FRA_thermidor_banned_tt }
+
+	FRA_sectarianism_calc = yes
+}
+FRA_thermidor_influence_decrease = {
+	if = {
+		limit = { NOT = { has_country_flag = FRA_banned_thermidor } }
+		custom_effect_tooltip = FRA_thermidor_influence_decrease_tt
+		
+		add_to_variable = { FRA_thermidor_influence = -5 }
+	}
+	else = { custom_effect_tooltip = FRA_thermidor_banned_tt }
+
+	FRA_sectarianism_calc = yes
+}
+FRA_thermidor_influence_further_gain = {
+	if = {
+		limit = { NOT = { has_country_flag = FRA_banned_thermidor } }
+		custom_effect_tooltip = FRA_thermidor_influence_further_gain_tt
+		
+		add_to_variable = { FRA_thermidor_influence = 10 }
+	}
+	else = { custom_effect_tooltip = FRA_thermidor_banned_tt }
+
+	FRA_sectarianism_calc = yes
+}
+FRA_thermidor_influence_further_decrease = {
+	if = {
+		limit = { NOT = { has_country_flag = FRA_banned_thermidor } }
+		custom_effect_tooltip = FRA_thermidor_influence_further_decrease_tt
+		
+		add_to_variable = { FRA_thermidor_influence = -10 }
+	}
+	else = { custom_effect_tooltip = FRA_thermidor_banned_tt }
+
+	FRA_sectarianism_calc = yes
+}

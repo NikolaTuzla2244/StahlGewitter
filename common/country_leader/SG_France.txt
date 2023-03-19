@@ -1,0 +1,8 @@
+leader_traits = {
+	SG_trait_homme_de_fer = {
+		random = no
+		
+		political_power_factor = 0.05
+		production_speed_buildings_factor = 0.05
+	}
+}

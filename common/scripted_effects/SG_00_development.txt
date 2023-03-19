@@ -1,4 +1,6 @@
 academic_upgrade = {
+	set_variable = { SG_academic_value = 100 }
+
 	if = {
 		limit = { has_idea = SG_academic_1 }
 		swap_ideas = { remove_idea = SG_academic_1 add_idea = SG_academic_2 }
@@ -20,6 +22,8 @@ academic_upgrade = {
 	}
 }
 industry_upgrade = {
+	set_variable = { SG_industry_value = 100 }
+
 	if = {
 		limit = { has_idea = SG_industry_1 }
 		swap_ideas = { remove_idea = SG_industry_1 add_idea = SG_industry_2 }
@@ -41,6 +45,8 @@ industry_upgrade = {
 	}
 }
 administration_upgrade = {
+	set_variable = { SG_administration_value = 100 }
+
 	if = {
 		limit = { has_idea = SG_administration_1 }
 		swap_ideas = { remove_idea = SG_administration_1 add_idea = SG_administration_2 }
@@ -62,6 +68,8 @@ administration_upgrade = {
 	}
 }
 infrastructure_upgrade = {
+	set_variable = { SG_infrastructure_value = 100 }
+
 	if = {
 		limit = { has_idea = SG_infrastructure_1 }
 		swap_ideas = { remove_idea = SG_infrastructure_1 add_idea = SG_infrastructure_2 }
@@ -83,6 +91,8 @@ infrastructure_upgrade = {
 	}
 }
 network_upgrade = {
+	set_variable = { SG_network_value = 100 }
+
 	if = {
 		limit = { has_idea = SG_network_1 }
 		swap_ideas = { remove_idea = SG_network_1 add_idea = SG_network_2 }
@@ -96,6 +106,8 @@ network_upgrade = {
 	}
 }
 military_upgrade = {
+	set_variable = { SG_military_value = 100 }
+
 	if = {
 		limit = { has_idea = SG_military_1 }
 		swap_ideas = { remove_idea = SG_military_1 add_idea = SG_military_2 }
@@ -118,6 +130,8 @@ military_upgrade = {
 }
 
 academic_downgrade = {
+	set_variable = { SG_academic_value = 100 }
+
 	if = {
 		limit = { has_idea = SG_academic_5 }
 		swap_ideas = { remove_idea = SG_academic_5 add_idea = SG_academic_4 }
@@ -139,6 +153,8 @@ academic_downgrade = {
 	}
 }
 industry_downgrade = {
+	set_variable = { SG_industry_value = 100 }
+
 	if = {
 		limit = { has_idea = SG_industry_5 }
 		swap_ideas = { remove_idea = SG_industry_5 add_idea = SG_industry_4 }
@@ -160,6 +176,8 @@ industry_downgrade = {
 	}
 }
 administration_downgrade = {
+	set_variable = { SG_administration_value = 100 }
+
 	if = {
 		limit = { has_idea = SG_administration_5 }
 		swap_ideas = { remove_idea = SG_administration_5 add_idea = SG_administration_4 }
@@ -181,6 +199,8 @@ administration_downgrade = {
 	}
 }
 infrastructure_downgrade = {
+	set_variable = { SG_infrastructure_value = 100 }
+
 	if = {
 		limit = { has_idea = SG_infrastructure_5 }
 		swap_ideas = { remove_idea = SG_infrastructure_5 add_idea = SG_infrastructure_4 }
@@ -202,6 +222,8 @@ infrastructure_downgrade = {
 	}
 }
 network_downgrade = {
+	set_variable = { SG_network_value = 100 }
+	
 	if = {
 		limit = { has_idea = SG_network_3 }
 		swap_ideas = { remove_idea = SG_network_3 add_idea = SG_network_2 }
@@ -215,6 +237,8 @@ network_downgrade = {
 	}
 }
 military_downgrade = {
+	set_variable = { SG_military_value = 100 }
+	
 	if = {
 		limit = { has_idea = SG_military_5 }
 		swap_ideas = { remove_idea = SG_military_5 add_idea = SG_military_4 }

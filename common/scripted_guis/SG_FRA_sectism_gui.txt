@@ -1,0 +1,31 @@
+scripted_gui = {
+	FRA_sectism_GUI = {
+		window_name = "FRA_sectism_GUI"
+		context_type = player_context
+		parent_window_token = decision_tab
+			
+		visible = {
+			always = no
+		}
+
+		effects = {
+		}
+		triggers = {
+			thermidor_pie_visible = { check_variable = { FRA_thermidor_influence > 0 } }
+			military_pie_visible = { check_variable = { FRA_military_influence > 0 } }
+			patriot_pie_visible = { check_variable = { FRA_patriot_influence > 0 } }
+			right_pie_visible = { check_variable = { FRA_right_influence > 0 } }
+		}
+		properties = {
+			thermidor_pie = { frame = FRA_thermidor_influence }
+			military_pie = { frame = FRA_military_influence }
+			patriot_pie = { frame = FRA_patriot_influence }
+			right_pie = { frame = FRA_right_influence }
+
+			right_target_frame = { frame = FRA_right_GUI_frame }
+			patriot_target_frame = { frame = FRA_patriot_GUI_frame }
+			military_target_frame = { frame = FRA_military_GUI_frame }
+			thermidor_target_frame = { frame = FRA_thermidor_GUI_frame }
+		}
+	}
+}

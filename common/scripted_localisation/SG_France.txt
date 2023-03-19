@@ -1,0 +1,40 @@
+defined_text = {
+	name = FRA_right_info_loc
+	text = {
+		trigger = { has_country_flag = FRA_banned_right }
+		localization_key = FRA_banned_info_GUI
+	}
+	text = {
+		localization_key = FRA_right_info_GUI
+	}
+}
+defined_text = {
+	name = FRA_patriot_info_loc
+	text = {
+		trigger = { has_country_flag = FRA_banned_patriot }
+		localization_key = FRA_banned_info_GUI
+	}
+	text = {
+		localization_key = FRA_patriot_info_GUI
+	}
+}
+defined_text = {
+	name = FRA_military_info_loc
+	text = {
+		trigger = { has_country_flag = FRA_banned_military }
+		localization_key = FRA_banned_info_GUI
+	}
+	text = {
+		localization_key = FRA_military_info_GUI
+	}
+}
+defined_text = {
+	name = FRA_thermidor_info_loc
+	text = {
+		trigger = { has_country_flag = FRA_banned_thermidor }
+		localization_key = FRA_banned_info_GUI
+	}
+	text = {
+		localization_key = FRA_thermidor_info_GUI
+	}
+}

@@ -95,14 +95,14 @@ on_actions = {
 				limit = { NOT = { has_idea = SG_industry_5 } }
 				if = {
 					limit = { check_variable = { SG_industry_value = 200 } }
-					country_event = sg_development.1
+					country_event = sg_development.3
 				}
 			}
 			if = { #decrease
 				limit = { NOT = { has_idea = SG_industry_1 } }
 				if = {
 					limit = { check_variable = { SG_industry_value = 0 } }
-					country_event = sg_development.2
+					country_event = sg_development.4
 				}
 			}
 
@@ -117,14 +117,14 @@ on_actions = {
 				limit = { NOT = { has_idea = SG_administration_5 } }
 				if = {
 					limit = { check_variable = { SG_administration_value = 200 } }
-					country_event = sg_development.1
+					country_event = sg_development.5
 				}
 			}
 			if = { #decrease
 				limit = { NOT = { has_idea = SG_administration_1 } }
 				if = {
 					limit = { check_variable = { SG_administration_value = 0 } }
-					country_event = sg_development.2
+					country_event = sg_development.6
 				}
 			}
 
@@ -139,14 +139,14 @@ on_actions = {
 				limit = { NOT = { has_idea = SG_infrastructure_5 } }
 				if = {
 					limit = { check_variable = { SG_infrastructure_value = 200 } }
-					country_event = sg_development.1
+					country_event = sg_development.7
 				}
 			}
 			if = { #decrease
 				limit = { NOT = { has_idea = SG_infrastructure_1 } }
 				if = {
 					limit = { check_variable = { SG_infrastructure_value = 0 } }
-					country_event = sg_development.2
+					country_event = sg_development.8
 				}
 			}
 
@@ -161,14 +161,14 @@ on_actions = {
 				limit = { NOT = { has_idea = SG_network_3 } }
 				if = {
 					limit = { check_variable = { SG_network_value = 200 } }
-					country_event = sg_development.1
+					country_event = sg_development.9
 				}
 			}
 			if = { #decrease
 				limit = { NOT = { has_idea = SG_network_1 } }
 				if = {
 					limit = { check_variable = { SG_network_value = 0 } }
-					country_event = sg_development.2
+					country_event = sg_development.10
 				}
 			}
 
@@ -183,14 +183,14 @@ on_actions = {
 				limit = { NOT = { has_idea = SG_military_5 } }
 				if = {
 					limit = { check_variable = { SG_military_value = 200 } }
-					country_event = sg_development.1
+					country_event = sg_development.11
 				}
 			}
 			if = { #decrease
 				limit = { NOT = { has_idea = SG_military_1 } }
 				if = {
 					limit = { check_variable = { SG_military_value = 0 } }
-					country_event = sg_development.2
+					country_event = sg_development.12
 				}
 			}
 

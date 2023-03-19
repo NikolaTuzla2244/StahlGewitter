@@ -1,0 +1,6 @@
+FRA_sectism_dynmod = {
+	enable = { always = yes }
+	#variable
+	political_power_factor = sectism_political_power_gain
+	stability_factor = sectism_stability_factor
+}

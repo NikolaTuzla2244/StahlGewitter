@@ -171,4 +171,58 @@ debug_decisions = {
 			factor = 0
 		}
 	}
+
+	#France
+	FRA_right_ban = {
+		icon = GFX_decision_eng_trade_unions_support
+		fire_only_once = no
+		available = {
+		}
+		visible = {
+			tag = FRA
+		}
+		cost = 0
+		complete_effect = {
+			FRA_right_ban = yes
+		}
+	}
+	FRA_patriot_ban = {
+		icon = GFX_decision_eng_trade_unions_support
+		fire_only_once = no
+		available = {
+		}
+		visible = {
+			tag = FRA
+		}
+		cost = 0
+		complete_effect = {
+			FRA_patriot_ban = yes
+		}
+	}
+	FRA_military_ban = {
+		icon = GFX_decision_eng_trade_unions_support
+		fire_only_once = no
+		available = {
+		}
+		visible = {
+			tag = FRA
+		}
+		cost = 0
+		complete_effect = {
+			FRA_military_ban = yes
+		}
+	}
+	FRA_thermidor_ban = {
+		icon = GFX_decision_eng_trade_unions_support
+		fire_only_once = no
+		available = {
+		}
+		visible = {
+			tag = FRA
+		}
+		cost = 0
+		complete_effect = {
+			FRA_thermidor_ban = yes
+		}
+	}
 }

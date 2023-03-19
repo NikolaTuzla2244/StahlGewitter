@@ -1,7 +1,64 @@
 spriteTypes = {
+	SpriteType = {
+		name = "GFX_focus_generic_attack_tank"
+		texturefile = "gfx/interface/goals/focus_generic_attack_tank.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_computer"
+		texturefile = "gfx/interface/goals/focus_generic_computer.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_defence_tank"
+		texturefile = "gfx/interface/goals/focus_generic_defence_tank.png"
+	}
 
+	#FRA
+	SpriteType = {
+		name = "GFX_focus_FRA_AvantGarde_Battalion"
+		texturefile = "gfx/interface/goals/FRA/focus_FRA_AvantGarde_Battalion.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_FRA_Continuous_Attack"
+		texturefile = "gfx/interface/goals/FRA/focus_FRA_Continuous_Attack.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_FRA_Center_Bloc"
+		texturefile = "gfx/interface/goals/FRA/focus_FRA_Center_Bloc.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_FRA_Enhance_Personality_Cult"
+		texturefile = "gfx/interface/goals/FRA/focus_FRA_Enhance_Personality_Cult.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_FRA_Faster"
+		texturefile = "gfx/interface/goals/FRA/focus_FRA_Faster.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_FRA_Formal_Worker_Culture"
+		texturefile = "gfx/interface/goals/FRA/focus_FRA_Formal_Worker_Culture.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_FRA_France_Commune"
+		texturefile = "gfx/interface/goals/FRA/focus_FRA_France_Commune.png"
+	}
 	SpriteType = {
 		name = "GFX_focus_FRA_Grande_Terreur"
 		texturefile = "gfx/interface/goals/FRA/focus_FRA_Grande_Terreur.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_FRA_Party_Cleanup_Campaign"
+		texturefile = "gfx/interface/goals/FRA/focus_FRA_Party_Cleanup_Campaign.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_FRA_Placement_Political_Commissar"
+		texturefile = "gfx/interface/goals/FRA/focus_FRA_Placement_Political_Commissar.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_FRA_Restructuring_Garde_Nationale"
+		texturefile = "gfx/interface/goals/FRA/focus_FRA_Restructuring_Garde_Nationale.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_FRA_Youth_Socialism"
+		texturefile = "gfx/interface/goals/FRA/focus_FRA_Youth_Socialism.png"
 	}
 }

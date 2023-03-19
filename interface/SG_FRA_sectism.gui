@@ -1,0 +1,225 @@
+guiTypes = {
+	containerWindowType = {
+		name = "FRA_sectism_GUI"
+		position = { x = 0 y = 42 }
+		size = { width = 400 height = 400 }
+
+		containerWindowType = {
+			name = "sect_graph"
+			position = { x = 135 y = 30 }
+			scale = 0.7
+
+			containerWindowType = {
+				name = "piechart"
+				position = { x = 0 y = 0 }
+
+				iconType ={ #0 + 23(n-1)
+					name ="thermidor_pie"
+					spriteType = "GFX_thermidor_pie"
+					position = { x = 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="military_pie"
+					spriteType = "GFX_military_pie"
+					position = { x = 23 y = 23 }
+					Orientation = "UPPER_LEFT"
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="patriot_pie"
+					spriteType = "GFX_patriot_pie"
+					position = { x = 46 y = 46 }
+					Orientation = "UPPER_LEFT"
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="right_pie"
+					spriteType = "GFX_right_pie"
+					position = { x = 74 y = 74 }
+					Orientation = "UPPER_LEFT"
+					alwaystransparent = yes
+				}
+			}
+			iconType ={
+				name ="frame"
+				spriteType = "GFX_france_sect_frame"
+				position = { x = -2 y = -2 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes
+			}
+			
+		}
+		instantTextboxType = {
+			name = "sectism_value"
+			position = { x = 150 y = 280 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "FRA_sectism_value"
+			maxWidth = 200
+			maxHeight = 20
+			format = center
+		}
+		instantTextboxType = {
+			name = "sectism_modifier"
+			position = { x = 170 y = 320 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "FRA_sectism_modifier"
+			maxWidth = 200
+			maxHeight = 20
+			format = left
+		}
+		containerWindowType = {
+			name = "right_info"
+			position = { x = 12 y = -10 }
+
+			iconType ={
+				name ="right_sect_leader"
+				spriteType = "GFX_Portrait_FRA_Leon_Blum"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.7
+			}
+			iconType ={
+				name ="right_target_frame"
+				spriteType = "GFX_FRA_target_frame"
+				position = { x = -12 y = -5 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.7
+			}
+
+			iconType ={
+				name ="right_icon"
+				spriteType = "GFX_FRA_right_icon"
+				position = { x = -10 y = 140 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextboxType = {
+				name = "right_title"
+				position = { x = 40 y = 155 }
+				textureFile = ""
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
+				text = "[FRA_right_info_loc]"
+				maxWidth = 80
+				maxHeight = 20
+				format = left
+			}
+		}
+		containerWindowType = {
+			name = "patriot_info"
+			position = { x = 12 y = 180 }
+
+			iconType ={
+				name ="patriot_sect_leader"
+				spriteType = "GFX_Portrait_FRA_Jacques_Doriot"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.7
+			}
+			iconType ={
+				name ="patriot_target_frame"
+				spriteType = "GFX_FRA_target_frame"
+				position = { x = -12 y = -5 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.7
+			}
+
+			iconType ={
+				name ="patriot_icon"
+				spriteType = "GFX_FRA_patriot_icon"
+				position = { x = -10 y = 140 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextboxType = {
+				name = "patriot_title"
+				position = { x = 40 y = 155 }
+				textureFile = ""
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
+				text = "[FRA_patriot_info_loc]"
+				maxWidth = 80
+				maxHeight = 20
+				format = left
+			}
+		}
+		containerWindowType = {
+			name = "military_info"
+			position = { x = 390 y = -10 }
+
+			iconType ={
+				name ="military_sect_leader"
+				spriteType = "GFX_Portrait_FRA_Maurice_Gamelin"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.7
+			}
+			iconType ={
+				name ="military_target_frame"
+				spriteType = "GFX_FRA_target_frame"
+				position = { x = -12 y = -5 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.7
+			}
+
+			iconType ={
+				name ="military_icon"
+				spriteType = "GFX_FRA_military_icon"
+				position = { x = -10 y = 140 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextboxType = {
+				name = "military_title"
+				position = { x = 40 y = 155 }
+				textureFile = ""
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
+				text = "[FRA_military_info_loc]"
+				maxWidth = 80
+				maxHeight = 20
+				format = left
+			}
+		}
+		containerWindowType = {
+			name = "thermidor_info"
+			position = { x = 390 y = 180 }
+
+			iconType ={
+				name ="thermidor_sect_leader"
+				spriteType = "GFX_Portrait_FRA_Marceau_Pivert"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.7
+			}
+			iconType ={
+				name ="thermidor_target_frame"
+				spriteType = "GFX_FRA_target_frame"
+				position = { x = -12 y = -5 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.7
+			}
+
+			iconType ={
+				name ="thermidor_icon"
+				spriteType = "GFX_FRA_thermidor_icon"
+				position = { x = -10 y = 140 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextboxType = {
+				name = "thermidor_title"
+				position = { x = 32 y = 155 }
+				textureFile = ""
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
+				text = "[FRA_thermidor_info_loc]"
+				maxWidth = 100
+				maxHeight = 20
+				format = left
+			}
+		}
+	}
+}

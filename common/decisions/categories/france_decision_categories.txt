@@ -1,0 +1,10 @@
+FRA_sectism = {
+	icon = generic_research
+	scripted_gui = FRA_sectism_GUI
+	visible_when_empty = yes
+	visible = {
+		OR = {
+			tag = FRA
+		}
+	}
+}

@@ -102,7 +102,11 @@ add_ideas = {
 	SG_network_2
 	SG_military_2
 
+	FRA_Sectism_idea
 	FRA_Great_Purge
+}
+add_dynamic_modifier = {
+	modifier = FRA_sectism_dynmod
 }
 
 recruit_character = FRA_Jacques_Duclos

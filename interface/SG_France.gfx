@@ -4,4 +4,102 @@ spriteTypes = {
 		name = "GFX_idea_FRA_Great_Purge"
 		texturefile = "gfx/interface/ideas/FRA/idea_FRA_Great_Purge.png"
 	}
+
+	#GUI
+	spriteType = {
+		name = "GFX_FRA_right_icon"
+		texturefile = "gfx/interface/GUI/France/right_icon.png"
+	}
+	spriteType = {
+		name = "GFX_FRA_patriot_icon"
+		texturefile = "gfx/interface/GUI/France/patriot_icon.png"
+	}
+	spriteType = {
+		name = "GFX_FRA_military_icon"
+		texturefile = "gfx/interface/GUI/France/military_icon.png"
+	}
+	spriteType = {
+		name = "GFX_FRA_thermidor_icon"
+		texturefile = "gfx/interface/GUI/France/thermidor_icon.png"
+	}
+
+	spriteType = {
+		name = "GFX_france_sect_frame"
+		texturefile = "gfx/interface/GUI/France/france_sect_frame.png"
+	}
+
+	spriteType = {
+		name = "GFX_FRA_target_frame"
+		texturefile = "gfx/interface/GUI/France/target_frame.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_FRA_Leon_Blum"
+		texturefile = "gfx/characters/large/FRA/Portrait_FRA_Leon_Blum.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FRA_Jacques_Doriot"
+		texturefile = "gfx/characters/large/FRA/Portrait_FRA_Jacques_Doriot.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FRA_Maurice_Gamelin"
+		texturefile = "gfx/characters/large/FRA/Portrait_FRA_Maurice_Gamelin.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FRA_Marceau_Pivert"
+		texturefile = "gfx/characters/large/FRA/Portrait_FRA_Marceau_Pivert.png"
+	}
+	progressbartype = { #345 - 46(n-1)
+		name = "GFX_thermidor_pie"
+		textureFile1 = "gfx/interface/GUI/France/thermidor_pie.png"
+		textureFile2 = "gfx/interface/economy/piechart/black_pie.png"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 343
+			y = 343
+		}
+		effectFile = "gfx/FX/progress_radial.shader"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_military_pie"
+		textureFile1 = "gfx/interface/GUI/France/military_pie.png"
+		textureFile2 = "gfx/interface/economy/piechart/black_pie.png"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 299
+			y = 299
+		}
+		effectFile = "gfx/FX/progress_radial.shader"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_patriot_pie"
+		textureFile1 = "gfx/interface/GUI/France/patriot_pie.png"
+		textureFile2 = "gfx/interface/economy/piechart/black_pie.png"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 253
+			y = 253
+		}
+		effectFile = "gfx/FX/progress_radial.shader"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_right_pie"
+		textureFile1 = "gfx/interface/GUI/France/right_pie.png"
+		textureFile2 = "gfx/interface/economy/piechart/black_pie.png"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 195
+			y = 195
+		}
+		effectFile = "gfx/FX/progress_radial.shader"
+		horizontal = yes
+	}
 }

@@ -1,0 +1,62 @@
+FRA_sectism = {
+	FRA_right_oppression = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+		}
+		days_remove = 10
+		cost = 50
+		remove_effect = {
+			FRA_right_influence_decrease = yes
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	FRA_patriot_oppression = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+		}
+		days_remove = 10
+		cost = 50
+		remove_effect = {
+			FRA_patriot_influence_decrease = yes
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	FRA_military_oppression = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+		}
+		days_remove = 10
+		cost = 50
+		remove_effect = {
+			FRA_military_influence_decrease = yes
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	FRA_thermidor_oppression = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+		}
+		days_remove = 10
+		cost = 50
+		remove_effect = {
+			FRA_thermidor_influence_decrease = yes
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

@@ -94,7 +94,7 @@ characters={
 		name = FRA_Maurice_Gamelin
 		portraits = {
 			army = {
-				# large = "gfx/characters/large/FRA/Portrait_FRA_Maurice_Gamelin.png"
+				large = "gfx/characters/large/FRA/Portrait_FRA_Maurice_Gamelin.png"
 				# small = "GFX_idea_FRA_Maurice_Gamelin"
 			}
 		}

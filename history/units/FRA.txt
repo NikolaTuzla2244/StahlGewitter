@@ -1,6 +1,6 @@
 focus = {
 	current = FRA_Grande_Terreur
-	progress = 6
+	progress = 40
 }
 
 ##### Division Templates #####

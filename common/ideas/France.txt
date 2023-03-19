@@ -1,5 +1,15 @@
 ideas = {
 	country = {
+		FRA_Sectism_idea = {
+			picture = FRA_Great_Purge
+			allowed = {
+				tag = FRA
+			}
+			removal_cost = -1
+			modifier = {
+				custom_modifier_tooltip = FRA_Sectism_idea_tt
+			}
+		}
 		FRA_Great_Purge = {
 			picture = FRA_Great_Purge
 			allowed = {

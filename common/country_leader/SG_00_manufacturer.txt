@@ -1,0 +1,18 @@
+leader_traits = {
+	#########################
+	# INDUSTRY MANUFACTURER #
+	#########################
+	mining_manufacturer = { random = no }
+	industrial_manufacturer = { random = no }
+	construction_manufacturer = { random = no }
+	electronics_manufacturer = { random = no }
+	refinery_manufacturer = { random = no }
+	railroad_manufacturer = { random = no }
+
+	chemical_trust = { random = no }
+	#####################
+	# ARMS MANUFACTURER #
+	#####################
+	infantry_equipment_manufacturer = { random = no }
+	artility_manufacturer = { random = no }
+}

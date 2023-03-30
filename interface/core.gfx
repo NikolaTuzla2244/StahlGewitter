@@ -758,7 +758,7 @@ bitmapfonts = {
 		n = { 58 53 211 } #Navy / 藍
 		P = { 175 58 105 } #Pink / ピンク
 		c = { 114 39 39 } #Cardinal / 濃赤
-		4 = { 42 50 130 } #保守民主主義
+		s = { 45 40 34 } #Sepia / 濃茶
 		5 = { 22 77 119 } #自由民主主義
 		6 = { 175 58 105 } #修正主義
 		7 = { 180 35 35 } #社会自由主義
@@ -1647,6 +1647,10 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/japanese/hoi_mapfont4_0"
 			"gfx/fonts/japanese/hoi_mapfont4_1"
+			"gfx/fonts/japanese/hoi_mapfont4_2"
+			"gfx/fonts/japanese/hoi_mapfont4_3"
+			"gfx/fonts/japanese/hoi_mapfont4_4"
+			"gfx/fonts/japanese/hoi_mapfont4_5"
 		}
 		languages = { "l_japanese" }
 	}

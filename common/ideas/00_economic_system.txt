@@ -14,7 +14,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.35
 
-				SG_good_economic_index_modifier = 2
+				good_economic_index_modifier = 2
 			}
 		}
 		private_economy_1 = {
@@ -28,7 +28,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.3
 
-				SG_good_economic_index_modifier = 1
+				good_economic_index_modifier = 1
 			}
 		}
 		reduced_welfare_2 = {
@@ -55,7 +55,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.2
 
-				SG_bad_economic_index_modifier = 1
+				bad_economic_index_modifier = 1
 			}
 		}
 		military_state_4 = {
@@ -70,7 +70,7 @@ ideas = {
 				conscription_factor = -0.03
 				consumer_goods_factor = 0.15
 
-				SG_bad_economic_index_modifier = 2
+				bad_economic_index_modifier = 2
 			}
 		}
 	}
@@ -88,7 +88,7 @@ ideas = {
 			modifier = {
 				min_export = 0.7
 
-				SG_good_economic_index_modifier = 2
+				good_economic_index_modifier = 2
 			}
 		}
 		active_trade_1 = {
@@ -101,7 +101,7 @@ ideas = {
 			modifier = {
 				min_export = 0.45
 
-				SG_good_economic_index_modifier = 1
+				good_economic_index_modifier = 1
 			}
 		}
 		border_control_2 = {
@@ -114,7 +114,7 @@ ideas = {
 			modifier = {
 				min_export = 0.3
 
-				SG_bad_economic_index_modifier = 1
+				bad_economic_index_modifier = 1
 			}
 		}
 		self_sufficient_nation_3 = {
@@ -127,7 +127,7 @@ ideas = {
 			modifier = {
 				min_export = 0.15
 
-				SG_bad_economic_index_modifier = 2
+				bad_economic_index_modifier = 2
 			}
 		}
 	}
@@ -169,7 +169,7 @@ ideas = {
 			modifier = {
 				conscription = 0.03
 
-				SG_bad_economic_index_modifier = 1
+				bad_economic_index_modifier = 1
 			}
 		}
 		extensive_conscription_3 = {
@@ -184,7 +184,7 @@ ideas = {
 				industrial_capacity_factory = -0.05
 				industrial_capacity_dockyard = -0.05
 
-				SG_bad_economic_index_modifier = 2
+				bad_economic_index_modifier = 2
 			}
 		}
 		service_by_requirement_4 = {
@@ -199,7 +199,7 @@ ideas = {
 				industrial_capacity_factory = -0.15
 				industrial_capacity_dockyard = -0.15
 
-				SG_bad_economic_index_modifier = 3
+				bad_economic_index_modifier = 3
 			}
 		}
 	}
@@ -219,7 +219,7 @@ ideas = {
 				stability_factor = -0.1
 				consumer_goods_factor = 0.1
 
-				SG_good_economic_index_modifier = 3
+				good_economic_index_modifier = 3
 			}
 		}
 		economy_social_welfare = {
@@ -233,7 +233,7 @@ ideas = {
 				stability_factor = 0.1
 				political_power_gain = 0.05
 
-				SG_good_economic_index_modifier = 1
+				good_economic_index_modifier = 1
 			}
 		}
 		economy_corporatism = {
@@ -246,7 +246,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = -0.02
 
-				SG_good_economic_index_modifier = 1
+				good_economic_index_modifier = 1
 			}
 		}
 		economy_mixed_economy = {
@@ -262,7 +262,7 @@ ideas = {
 				stability_factor = 0.05
 				consumer_goods_factor = 0.02
 
-				SG_good_economic_index_modifier = 2
+				good_economic_index_modifier = 2
 			}
 		}
 		economy_planned_socialism = {
@@ -277,7 +277,7 @@ ideas = {
 
 				global_building_slots_factor = 0.15
 				local_resources_factor = 0.1
-				SG_good_economic_index_modifier = 1
+				good_economic_index_modifier = 1
 			}
 		}
 		economy_nep_socialism = {
@@ -291,7 +291,7 @@ ideas = {
 				global_building_slots_factor = 0.1
 				local_resources_factor = 0.05
 
-				SG_good_economic_index_modifier = 2
+				good_economic_index_modifier = 2
 			}
 		}
 		economy_nazi_corporatism = {
@@ -307,7 +307,7 @@ ideas = {
 				local_resources_factor = 0.1
 				production_speed_arms_factory_factor = 0.15
 
-				SG_bad_economic_index_modifier = 1
+				bad_economic_index_modifier = 1
 			}
 		}
 		economy_plutocracy = {
@@ -322,7 +322,7 @@ ideas = {
 
 				consumer_goods_factor = 0.02
 				production_factory_start_efficiency_factor = 0.05
-				SG_good_economic_index_modifier = 1
+				good_economic_index_modifier = 1
 			}
 		}
 		economy_military_economy = {

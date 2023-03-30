@@ -62,7 +62,7 @@ set_technology = {
 
 set_research_slots = 4
 set_convoys = 200
-set_stability = 0.45
+set_stability = 0.2
 set_war_support = 0.3
 
 set_politics = {
@@ -95,6 +95,7 @@ add_ideas = {
 	economy_nazi_corporatism
 
 	GER_bitter_defeat
+	GER_Treaty_of_Versailles
 
 	SG_academic_5
 	SG_administration_4
@@ -103,26 +104,34 @@ add_ideas = {
 	SG_military_3
 	SG_network_2
 }
+
+country_event = { id = sg_germany.3 days = 5 }
+
+country_lock_all_division_template = yes
+set_country_flag = invalid_investment_idea
+set_country_flag = invalid_trade_law_idea
+set_country_flag = invalid_conscription_law_idea
+
 recruit_character = GER_Adolf_Hitler
-recruit_character = GER_Ernst_Rohm
 recruit_character = GER_Gregor_Strasser
-recruit_character = GER_Rudolf_Hess
-recruit_character = GER_Hermann_Goring
+recruit_character = GER_Alfred_Hugenberg
+#官僚
 recruit_character = GER_Martin_Bormann
-recruit_character = GER_Julius_Streicher
-recruit_character = GER_Alfred_Rosenberg
+recruit_character = GER_Ernst_Rohm
 recruit_character = GER_Joseph_Goebbels
+recruit_character = GER_Hermann_Goring
 recruit_character = GER_Heinrich_Himmler
 recruit_character = GER_Konstantin_von_Neurath
+recruit_character = GER_Joachim_von_Ribbentrop
 recruit_character = GER_Hjalmar_Schacht
+recruit_character = GER_Walther_Funk
 recruit_character = GER_Albert_Speer
+recruit_character = GER_Fritz_Todt
 
-activate_advisor = GER_Gregor_Strasser_HoG
-
-activate_advisor = GER_Rudolf_Hess
+activate_advisor = GER_Hermann_Goring
+activate_advisor = GER_Ernst_Rohm
 activate_advisor = GER_Konstantin_von_Neurath
 activate_advisor = GER_Hjalmar_Schacht
-activate_advisor = GER_Ernst_Rohm
 
 # recruit_character = GER_wilhelm_pieck
 # recruit_character = GER_konrad_adenauer

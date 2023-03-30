@@ -1,0 +1,60 @@
+scripted_gui = {
+	SG_Rhein_crisis_GUI = {
+		window_name = "SG_Rhein_crisis_GUI"
+		context_type = decision_category
+		# parent_window_token = decision_tab
+			
+		visible = {
+			always = yes
+		}
+		effects = {
+			RheinGUI_Nordrheinland_click = {
+				set_variable = { Rhein_Crisis_State = 51 }
+
+				set_variable = { Rhein_Crisis_Nordrheinland_Frame = 2 }
+				set_variable = { Rhein_Crisis_Subrheinland_Frame = 1 }
+				set_variable = { Rhein_Crisis_Saar_Frame = 1 }
+				set_variable = { Rhein_Crisis_Baden_Frame = 1 }
+				Rhein_Crisis_GUI_Click = yes
+			}
+			RheinGUI_Subrheinland_click = {
+				set_variable = { Rhein_Crisis_State = 42 }
+
+				set_variable = { Rhein_Crisis_Nordrheinland_Frame = 1 }
+				set_variable = { Rhein_Crisis_Subrheinland_Frame = 2 }
+				set_variable = { Rhein_Crisis_Saar_Frame = 1 }
+				set_variable = { Rhein_Crisis_Baden_Frame = 1 }
+				Rhein_Crisis_GUI_Click = yes
+			}
+			RheinGUI_Saar_click = {
+				set_variable = { Rhein_Crisis_State = 835 }
+
+				set_variable = { Rhein_Crisis_Nordrheinland_Frame = 1 }
+				set_variable = { Rhein_Crisis_Subrheinland_Frame = 1 }
+				set_variable = { Rhein_Crisis_Saar_Frame = 2 }
+				set_variable = { Rhein_Crisis_Baden_Frame = 1 }
+				Rhein_Crisis_GUI_Click = yes
+			}
+			RheinGUI_Baden_click = {
+				set_variable = { Rhein_Crisis_State = 836 }
+
+				set_variable = { Rhein_Crisis_Nordrheinland_Frame = 1 }
+				set_variable = { Rhein_Crisis_Subrheinland_Frame = 1 }
+				set_variable = { Rhein_Crisis_Saar_Frame = 1 }
+				set_variable = { Rhein_Crisis_Baden_Frame = 2 }
+				Rhein_Crisis_GUI_Click = yes
+			}
+		}
+
+		properties = {
+			rhein_crisis_bar = { frame = THIS.Rhein_State_Influence }
+
+			rhein_crisis_meter_pin = { image = "[Rhein_Crisis_meter_pin_Loc]" }
+
+			RheinGUI_Nordrheinland = { frame = Rhein_Crisis_Nordrheinland_Frame }
+			RheinGUI_Subrheinland = { frame = Rhein_Crisis_Subrheinland_Frame }
+			RheinGUI_Saar = { frame = Rhein_Crisis_Saar_Frame }
+			RheinGUI_Baden = { frame = Rhein_Crisis_Baden_Frame }
+		}
+	}
+}

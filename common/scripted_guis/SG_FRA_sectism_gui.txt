@@ -1,7 +1,7 @@
 scripted_gui = {
 	FRA_sectism_GUI = {
 		window_name = "FRA_sectism_GUI"
-		context_type = player_context
+		context_type = decision_category
 		parent_window_token = decision_tab
 			
 		visible = {

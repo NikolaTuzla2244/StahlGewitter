@@ -1,0 +1,489 @@
+focus_tree = {
+	id = SG_germany_focus_old
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 0
+			tag = GER
+		}
+	}
+	default = no
+
+	focus = {
+		id = GER_8th_Reichsparteitag
+		icon = GFX_goal_unknown
+		x = 4
+		y = 0
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		available = {
+			has_idea = economy_nazi_corporatism
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_party_reorganization
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = GER_8th_Reichsparteitag
+		prerequisite = { focus = GER_8th_Reichsparteitag }
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_Beschwichtigung
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = GER_8th_Reichsparteitag
+		prerequisite = { focus = GER_8th_Reichsparteitag }
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_harden_south
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = GER_Beschwichtigung
+		prerequisite = { focus = GER_Beschwichtigung }
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_divide_front
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = GER_Beschwichtigung
+		prerequisite = {
+			focus = GER_Beschwichtigung
+			focus = GER_Wehrmacht_or_SA
+		}
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_approach_to_goebbels
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = GER_harden_south
+		prerequisite = { focus = GER_harden_south }
+		prerequisite = { focus = GER_divide_front }
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_pressure_on_Austria
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = GER_harden_south
+		prerequisite = { focus = GER_harden_south }
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_dismantle_gauleiter_union
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = GER_approach_to_goebbels
+		prerequisite = { focus = GER_pressure_on_Austria }
+		prerequisite = { focus = GER_approach_to_goebbels }
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_expelled_from_party
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = GER_dismantle_gauleiter_union
+		prerequisite = { focus = GER_dismantle_gauleiter_union }
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_war_against_all_Bolsheviks
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = GER_divide_front
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_divide_front }
+		prerequisite = { focus = GER_keep_eye_prussia }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_Fritz_Thyssen_support
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = GER_war_against_all_Bolsheviks
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_war_against_all_Bolsheviks }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_take_root_Wehrmacht
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = GER_war_against_all_Bolsheviks
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_war_against_all_Bolsheviks }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_Wehrmacht_or_SA
+		icon = GFX_goal_unknown
+		x = 7
+		y = 1
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_8th_Reichsparteitag }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_keep_eye_prussia
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = GER_Wehrmacht_or_SA
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_Wehrmacht_or_SA }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_new_warrior_of_party
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = GER_Wehrmacht_or_SA
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_Wehrmacht_or_SA }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_SS_expansion_instructions
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = GER_new_warrior_of_party
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_new_warrior_of_party }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_establish_SS_VT
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = GER_new_warrior_of_party
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_new_warrior_of_party }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_Armed_clash_with_SA
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = GER_new_warrior_of_party
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_SS_expansion_instructions }
+		prerequisite = { focus = GER_establish_SS_VT }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_dissolution_order
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = GER_Armed_clash_with_SA
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_Armed_clash_with_SA }
+		prerequisite = { focus = GER_take_root_Wehrmacht }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_reconciliation
+		icon = GFX_goal_unknown
+		x = 1
+		y = 2
+		relative_position_id = GER_Fritz_Thyssen_support
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_expelled_from_party }
+		prerequisite = { focus = GER_dissolution_order }
+		completion_reward = {
+		}
+	}
+	# focus = {
+	# 	id = GER_nacht_der_langen_messer
+	# 	icon = GFX_goal_unknown
+	# 	x = 1
+	# 	y = 2
+	# 	relative_position_id = GER_schachts_connections
+	# 	cost = 2
+	# 	# search_filters = {}
+		
+	# 	available_if_capitulated = yes
+	# 	prerequisite = { focus = GER_expelled_from_party }
+	# 	prerequisite = { focus = GER_dissolution_order }
+	# 	completion_reward = {
+	# 	}
+	# }
+
+	focus = {
+		id = GER_die_Fahne_hoch
+		icon = GFX_goal_unknown
+		x = 13
+		y = 0
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	#政治
+	focus = {
+		id = GER_nuremberg_laws
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = GER_die_Fahne_hoch
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_die_Fahne_hoch }
+		completion_reward = {
+		}
+	}
+	#経済
+	focus = {
+		id = GER_four_years_plan
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = GER_die_Fahne_hoch
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_die_Fahne_hoch }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_mefo_bills
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = GER_four_years_plan
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_four_years_plan }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_germanize_economy
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = GER_four_years_plan
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_nuremberg_laws }
+		prerequisite = { focus = GER_four_years_plan }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_race_redefinition
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = GER_nuremberg_laws
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_nuremberg_laws }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_Kristallnacht
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = GER_nuremberg_laws
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_germanize_economy }
+		prerequisite = { focus = GER_race_redefinition }
+		available = {
+			has_country_flag = GER_Kristallnacht
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_establish_autarkie
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		relative_position_id = GER_four_years_plan
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_four_years_plan }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_reichswerke_hermann_goring
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = GER_establish_autarkie
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_establish_autarkie }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_expand_chemical_product
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = GER_establish_autarkie
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_establish_autarkie }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_all_for_heer
+		icon = GFX_goal_unknown
+		x = 18
+		y = 0
+		cost = 2
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+}

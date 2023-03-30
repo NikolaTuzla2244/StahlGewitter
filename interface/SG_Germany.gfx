@@ -8,4 +8,17 @@ spriteTypes = {
 		name = "GFX_idea_GER_Saarland"
 		texturefile = "gfx/interface/ideas/GER/idea_GER_Saarland.png"
 	}
+	#設計社
+	spriteType = {
+		name = "GFX_idea_IG_Farben"
+		texturefile = "gfx/interface/manufacture/GER/GER_IG_Farben.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Krupp"
+		texturefile = "gfx/interface/manufacture/GER/GER_Krupp.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Rheinmetall"
+		texturefile = "gfx/interface/manufacture/GER/GER_Rheinmetall.png"
+	}
 }

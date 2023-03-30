@@ -11,6 +11,7 @@ SG_trait_homme_de_fer:0 "鉄の男"
 #国民精神
 FRA_Sectism_idea:0 "セクト国家"
 FRA_Sectism_idea_tt:0 "$FRA_sectism_value$\n\n$FRA_sectism_modifier$"
+FRA_Sectism_idea_desc:0 "革命を契機とした団結などまるで最初から無かったかのように、フランス・コミューンは相容れぬ幾多の理想による「政治的準内戦」状態へと陥っている。"
 FRA_Great_Purge:0 "大粛清"
 FRA_Heresy_Pursuit:0 "異端派の追撃"
 #NF

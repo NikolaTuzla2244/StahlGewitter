@@ -4,6 +4,9 @@ on_actions = {
 			FRA = {
 				FRA_sectarianism_setup = yes
 			}
+			GER = {
+				Rhein_Crisis_Setup = yes
+			}
 		}
 	}
 }

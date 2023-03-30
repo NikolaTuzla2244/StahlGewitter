@@ -100,7 +100,7 @@ debug_decisions = {
 		cost = 0
 		days_remove = 14
 		modifier = {
-			SG_good_economic_index_modifier = 50
+			good_economic_index_modifier = 50
 		}
 		ai_will_do = {
 			factor = 0
@@ -116,7 +116,7 @@ debug_decisions = {
 		cost = 0
 		days_remove = 14
 		modifier = {
-			SG_bad_economic_index_modifier = 50
+			bad_economic_index_modifier = 50
 		}
 		ai_will_do = {
 			factor = 0
@@ -149,7 +149,7 @@ debug_decisions = {
 		cost = 0
 		days_remove = 14
 		modifier = {
-			SG_improve_unemployment_modifier = 0.05
+			improve_unemployment_modifier = 0.05
 		}
 		ai_will_do = {
 			factor = 0
@@ -165,7 +165,7 @@ debug_decisions = {
 		cost = 0
 		days_remove = 14
 		modifier = {
-			SG_improve_unemployment_modifier = -0.05
+			improve_unemployment_modifier = -0.05
 		}
 		ai_will_do = {
 			factor = 0

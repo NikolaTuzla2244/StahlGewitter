@@ -1,0 +1,58 @@
+###ラインラント危機
+Rhein_Crisis_Setup = {
+	set_variable = { GER.Rhein_Crisis_State = 51 }
+	set_variable = { FRA.Rhein_Crisis_State = 51 }
+	
+	set_variable = { Rhein_Crisis_Nordrheinland_Frame = 2 }
+	set_variable = { Rhein_Crisis_Subrheinland_Frame = 1 }
+	set_variable = { Rhein_Crisis_Saar_Frame = 1 }
+	set_variable = { Rhein_Crisis_Baden_Frame = 1 }
+
+	set_variable = { 51.Rhein_German_Influence = 50 }
+	set_variable = { 42.Rhein_German_Influence = 50 }
+	set_variable = { 835.Rhein_German_Influence = 50 }
+	set_variable = { 836.Rhein_German_Influence = 50 }
+
+	Rhein_Crisis_GUI_Click = yes
+	Rhein_Crisis_calc = yes
+}
+Rhein_Crisis_GUI_Click = {
+	###State Influence
+	var:This.Rhein_Crisis_State = {
+		set_variable = { PREV.Rhein_State_Influence = THIS.Rhein_German_Influence }
+	}
+}
+Rhein_Crisis_calc = {
+	#clamp
+	clamp_variable = {
+		var = 51.Rhein_German_Influence
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = 42.Rhein_German_Influence
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = 835.Rhein_German_Influence
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = 836.Rhein_German_Influence
+		min = 0
+		max = 100
+	}
+	
+	set_temp_variable = { global.Rhein_German_Influence_sum_temp = 51.Rhein_German_Influence }
+	add_to_temp_variable = { global.Rhein_German_Influence_sum_temp = 42.Rhein_German_Influence }
+	add_to_temp_variable = { global.Rhein_German_Influence_sum_temp = 835.Rhein_German_Influence }
+	add_to_temp_variable = { global.Rhein_German_Influence_sum_temp = 836.Rhein_German_Influence }
+
+	divide_temp_variable = { global.Rhein_German_Influence_sum_temp = 4 }
+
+	set_variable = { global.Rhein_German_Influence_sum = global.Rhein_German_Influence_sum_temp }
+
+	Rhein_Crisis_GUI_Click = yes
+}

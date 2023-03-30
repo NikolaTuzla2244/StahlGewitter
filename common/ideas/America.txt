@@ -44,7 +44,7 @@ ideas = {
 				industrial_capacity_dockyard = -0.7
 				consumer_goods_factor = 0.4
 
-				SG_bad_economic_index_modifier = 4
+				bad_economic_index_modifier = 4
 			}
 		}
 		USA_dust_bowl = {
@@ -59,7 +59,7 @@ ideas = {
 				production_factory_max_efficiency_factor = -0.2
 				production_factory_efficiency_gain_factor = -0.2
 
-				SG_bad_economic_index_modifier = 2
+				bad_economic_index_modifier = 2
 			}
 		}
 	}

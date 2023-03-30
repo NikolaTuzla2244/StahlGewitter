@@ -17,6 +17,7 @@ HOL	= "countries/western_european.txt" #オランダ
 
 GER	= "countries/western_european.txt" #ドイツ国
 SBK	= "countries/western_european.txt" #ザールブリュッケン
+RHE = "countries/western_european.txt" #ラインラント
 ITA = "countries/western_european.txt" #イタリア王国
 PCI = "countries/western_european.txt" #イタリア共産党
 PNF = "countries/western_european.txt" #国家ファシスト党

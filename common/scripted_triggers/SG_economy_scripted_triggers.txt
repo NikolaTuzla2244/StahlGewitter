@@ -15,30 +15,26 @@ available_personal_consignment_0 = {
 	always = yes
 }
 available_private_economy_1 = {
-	OR = {
-		has_country_flag = available_private_economy_1
-		always = yes
-	}
+	NOT = { has_country_flag = invalid_investment_idea }
+	NOT = { has_country_flag = invalid_private_economy_1 }
+	always = yes
 }
 available_reduced_welfare_2 = {
-	OR = {
-		has_country_flag = available_reduced_welfare_2
-		has_war_support > 0.25
-	}
+	NOT = { has_country_flag = invalid_investment_idea }
+	NOT = { has_country_flag = invalid_reduced_welfare_2 }
+	has_war_support > 0.25
 }
 available_early_mobilization_3 = {
-	OR = {
-		has_country_flag = available_early_mobilization_3
-		has_war_support > 0.5
-	}
+	NOT = { has_country_flag = invalid_investment_idea }
+	NOT = { has_country_flag = invalid_early_mobilization_3 }
+	has_war_support > 0.5
 }
 available_military_state_4 = {
-	OR = {
-		has_country_flag = available_military_state_4
-		AND = {
-			has_war_support > 0.75
-			has_war = yes
-		}
+	NOT = { has_country_flag = invalid_investment_idea }
+	NOT = { has_country_flag = invalid_military_state_4 }
+	AND = {
+		has_war_support > 0.75
+		has_war = yes
 	}
 }
 
@@ -46,55 +42,47 @@ available_open_trade_0 = {
 	always = yes
 }
 available_active_trade_1 = {
-	OR = {
-		has_country_flag = available_active_trade_1
-		always = yes
-	}
+	NOT = { has_country_flag = invalid_trade_law_idea }
+	NOT = { has_country_flag = invalid_active_trade_1 }
+	always = yes
 }
 available_border_control_2 = {
-	OR = {
-		has_country_flag = available_border_control_2
-		has_stability > 0.25
-	}
+	NOT = { has_country_flag = invalid_trade_law_idea }
+	NOT = { has_country_flag = invalid_border_control_2 }
+	has_stability > 0.25
 }
 available_self_sufficient_nation_3 = {
-	OR = {
-		has_country_flag = available_self_sufficient_nation_3
-		has_stability > 0.5
-	}
+	NOT = { has_country_flag = invalid_trade_law_idea }
+	NOT = { has_country_flag = invalid_self_sufficient_nation_3 }
+	has_stability > 0.5
 }
 
 available_disarmed_nation_0 = {
 	always = yes
 }
 available_volunteer_only_1 = {
-	OR = {
-		has_country_flag = available_volunteer_only_1
+	NOT = { has_country_flag = invalid_conscription_law_idea }
+		NOT = { has_country_flag = invalid_volunteer_only_1 }
 		always = yes
-	}
 }
 available_limited_conscription_2 = {
-	OR = {
-		has_country_flag = available_limited_conscription_2
-		has_war_support > 0.3
-	}
+	NOT = { has_country_flag = invalid_conscription_law_idea }
+	NOT = { has_country_flag = invalid_limited_conscription_2 }
 }
 available_extensive_conscription_3 = {
-	OR = {
-		has_country_flag = available_extensive_conscription_3
-		AND = {
-			has_war_support > 0.5
-			has_war = yes
-		}
+	NOT = { has_country_flag = invalid_conscription_law_idea }
+	NOT = { has_country_flag = invalid_extensive_conscription_3 }
+	AND = {
+		has_war_support > 0.5
+		has_war = yes
 	}
 }
 available_service_by_requirement_4 = {
-	OR = {
-		has_country_flag = available_service_by_requirement_4
-		AND = {
-			has_war_support > 0.75
-			has_war = yes
-		}
+	NOT = { has_country_flag = invalid_conscription_law_idea }
+	NOT = { has_country_flag = invalid_service_by_requirement_4 }
+	AND = {
+		has_war_support > 0.75
+		has_war = yes
 	}
 }
 

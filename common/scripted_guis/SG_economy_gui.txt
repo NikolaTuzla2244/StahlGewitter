@@ -82,10 +82,10 @@ scripted_gui = {
 				has_war = yes
 			}
 
-			deficit_value_visible = { check_variable = { economy_info = 0 } }
+			# deficit_value_visible = { check_variable = { economy_info = 0 } }
 			deficit_percentage_visible = { check_variable = { economy_info = 0 } }
 
-			unemployment_value_visible = { check_variable = { economy_info = 1 } }
+			# unemployment_value_visible = { check_variable = { economy_info = 1 } }
 			unemployment_improve_visible = { check_variable = { economy_info = 1 } }
 
 			# law_entry_up_button_click_enabled = {
@@ -209,9 +209,9 @@ scripted_gui = {
 		}
 
 		effects = {
-			economy_close_button_click = {
-				clr_country_flag = economy_GUI_open
-			}
+			# economy_close_button_click = {
+			# 	clr_country_flag = economy_GUI_open
+			# }
 
 			military_austerity_button_click = {
 				add_timed_idea = {

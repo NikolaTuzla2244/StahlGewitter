@@ -1,28 +1,28 @@
-SG_good_economic_index_modifier = { #経済指数 - 良
+good_economic_index_modifier = { #経済指数 - 良
 	color_type = good
 	value_type = number
 	precision = 0
 	category = country
 }
 
-SG_bad_economic_index_modifier = { #経済指数 - 悪
+bad_economic_index_modifier = { #経済指数 - 悪
 	color_type = bad
 	value_type = number
 	precision = 0
 	category = country
 }
 
-SG_bad_army_spend_modifier = { # - 陸軍支出補正
+bad_army_spend_modifier = { # - 陸軍支出補正
 	color_type = bad
 	value_type = number
 	precision = 0
 	category = country
 }
 
-SG_improve_unemployment_modifier = { # - 失業率改善
+improve_unemployment_modifier = { # - 失業率改善
 	color_type = good
 	value_type = percentage
-	precision = 2
+	precision = 5
 	category = country
 }
 

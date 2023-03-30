@@ -216,3 +216,7 @@ economic_conscription_law_down = {
 		custom_effect_tooltip = economic_law_limit_tt
 	}
 }
+
+#			   #
+# UNEMPLOYMENT #
+#			   #

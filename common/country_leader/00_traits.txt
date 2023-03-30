@@ -1,0 +1,107 @@
+leader_traits = {
+	### 政府官僚 ###
+	SG_Silent_Workhorse = { #寡黙な勤勉家
+		random = no
+		political_power_factor = 0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	### 内務 ###
+	SG_Genocide_Organizer = { #虐殺の組織者
+		random = no
+		stability_factor = 0.1
+		resistance_target_on_our_occupied_states = -0.15
+		resistance_damage_to_garrison_on_our_occupied_states = -0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	### 外務 ###
+	SG_Diplomatic_Baron = { #外交男爵
+		random = no
+		stability_factor = 0.05
+		trade_opinion_factor = 0.05
+		opinion_gain_monthly_factor = 0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	SG_Threatening_Messenger = { #脅迫的な伝令
+		random = no
+		justify_war_goal_time = -0.25
+		drift_defence_factor = 0.5
+		trade_opinion_factor = -0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	### 経済・工業 ###
+	SG_Advocate_Corporate_Economy = { #企業経済の擁護者
+		random = no
+		production_speed_buildings_factor = 0.05
+		industrial_capacity_factory = 0.05
+		good_economic_index_modifier = 1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	SG_Conservative_Economy_Magician = { #保守経済の魔術師
+		random = no
+		production_speed_buildings_factor = 0.075
+		industrial_capacity_factory = 0.15
+		good_economic_index_modifier = 1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	SG_Mobilization_Organizer = { #動員の組織者
+		random = no
+
+		consumer_goods_factor = -0.03
+		production_speed_arms_factory_factor = 0.05
+		production_speed_dockyard_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	SG_Production_Planner = { #生産計画者
+		random = no
+
+		global_building_slots_factor = 0.25
+		industrial_capacity_factory = 0.05
+		industrial_capacity_factory = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	SG_Architectural_Leader = { #建築指導者
+		random = no
+
+		production_speed_infrastructure_factor = 0.1
+		production_speed_rail_way_factor = 0.1
+		production_speed_supply_node_factor = 0.1
+		production_speed_bunker_factor = 0.1
+		repair_speed_coastal_bunker_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	### 国防 ###
+
+	### その他 ###
+	SG_ambitious_leader = { #野心的な頭領
+		random = no
+
+		conscription_factor = 0.03
+		stability_factor = -0.02
+		war_support_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

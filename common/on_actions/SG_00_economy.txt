@@ -64,12 +64,16 @@ on_actions = {
 			economy_index_calc = yes #経済指数
 			economy_progress_calc = yes #経済進捗
 			economy_deficit_width_calc = yes #負債上限計算
-			economy_unemployment_calc = yes #失業率計算
 
 			debt_mod_calc = yes #負債デバフ計算
-			unemployment_mod_calc = yes #雇用率デバフ計算
 
 			economy_progress_gui_setup = yes #GUI調整
+		}
+	}
+	on_monthly = {
+		effect = {
+			economy_unemployment_calc = yes #失業率計算
+			unemployment_mod_calc = yes #失業率デバフ計算
 		}
 	}
 }

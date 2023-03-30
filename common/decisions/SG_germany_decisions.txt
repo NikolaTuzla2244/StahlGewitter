@@ -1,0 +1,293 @@
+GER_Rheinland_crisis = {
+	Rhein_Crisis_Military_Exercises = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		cost = 0
+		complete_effect = {
+			var:THIS.Rhein_Crisis_State = {
+				add_to_variable = {
+					var = THIS.Rhein_German_Influence
+					value = 10
+				}
+			}
+			Rhein_Crisis_calc = yes
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+}
+
+GER_Notstandsarbeit = {
+	GER_Employment_Restoration_Declaration = { #雇用回復宣言
+		priority = 10
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = yes
+		allowed = {
+			original_tag = GER
+		}
+		activation = {
+			date > 1935.1.2
+		}
+		available = {
+			check_variable = { unemployment_rate = 0 }
+		}
+		is_good = yes
+		days_mission_timeout = 720
+		complete_effect = {
+			add_political_power = 150
+			add_stability = 0.2
+			add_popularity = {
+				ideology = national_socialism
+				popularity = 0.2
+			}
+		}
+		timeout_effect = {
+			add_political_power = -150
+			add_stability = -0.2
+			add_popularity = {
+				ideology = national_socialism
+				popularity = -0.2
+			}
+		}
+	}
+
+	GER_Infrastructure_Development = { #インフラ整備事業
+		icon = GFX_decision_infiltrate_state
+		fixed_random_seed = yes
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		cost = 50
+
+		days_remove = 50
+		days_re_enable = 20
+
+		modifier = {
+			civilian_factory_use = 1
+			improve_unemployment_modifier = 0.001
+		}
+		complete_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	GER_Road_Network_Development = { #道路網開発
+		icon = GFX_decision_infiltrate_state
+		fixed_random_seed = yes
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		cost = 50
+
+		days_remove = 50
+		days_re_enable = 50
+
+		modifier = {
+			civilian_factory_use = 2
+			bad_economic_index_modifier = 1
+			improve_unemployment_modifier = 0.003
+		}
+		complete_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	GER_House_Construction = { #住宅地の建設
+		icon = GFX_decision_infiltrate_state
+		fixed_random_seed = yes
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		cost = 50
+
+		days_remove = 50
+		days_re_enable = 20
+
+		modifier = {
+			civilian_factory_use = 1
+			improve_unemployment_modifier = 0.003
+		}
+		complete_effect = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_manpower = 3000
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_manpower = 3000
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	GER_Employment_Steel_Mills = { #製鉄所での雇用
+		icon = GFX_decision_infiltrate_state
+		fixed_random_seed = yes
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		cost = 50
+
+		days_remove = 50
+		days_re_enable = 20
+
+		modifier = {
+			civilian_factory_use = 1
+			improve_unemployment_modifier = 0.003
+		}
+		complete_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					has_resources_amount = {
+						resource = steel
+						amount > 0
+					}
+				}
+				add_resource = {
+					type = steel
+					amount = 5
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	GER_Expansion_Consumer_Goods = { #消費財分野の拡充
+		icon = GFX_decision_infiltrate_state
+		fixed_random_seed = yes
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		cost = 75
+
+		days_remove = 50
+		days_re_enable = 50
+
+		modifier = {
+			civilian_factory_use = 2
+			bad_economic_index_modifier = 1
+			improve_unemployment_modifier = 0.003
+		}
+		complete_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	GER_Munitions_Industry_Employment = { #軍需産業雇用
+		icon = GFX_decision_infiltrate_state
+		fixed_random_seed = yes
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		cost = 75
+
+		days_remove = 50
+		days_re_enable = 50
+
+		modifier = {
+			civilian_factory_use = 2
+			bad_economic_index_modifier = 1
+			improve_unemployment_modifier = 0.003
+		}
+		complete_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 18
+		}
+	}
+}

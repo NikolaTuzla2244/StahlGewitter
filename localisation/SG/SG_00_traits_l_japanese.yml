@@ -10,7 +10,7 @@ SG_trait_social_liberalism:0 "革新社会主義者"
 SG_trait_authoritarian_socialism:0 "権威社会主義者"
 
 SG_trait_Head_of_Government:0 "" #政府首班
-:0 "" #内閣
+# :0 "" #内閣
 
 SG_trait_Monach:0 "君主"
 
@@ -18,3 +18,10 @@ SG_trait_Security_Minister:0 "内務大臣"
 SG_trait_Foreign_Minister:0 "外務大臣"
 SG_trait_Finance_Minister:0 "財務大臣"
 SG_trait_Defense_Minister:0 "国防大臣"
+
+###設計社
+industrial_manufacturer:0 "産業会社"
+construction_manufacturer:0 "建設会社"
+electronics_manufacturer:0 "電子会社"
+refinery_manufacturer:0 "精錬会社"
+chemical_trust:0 "化学トラスト"

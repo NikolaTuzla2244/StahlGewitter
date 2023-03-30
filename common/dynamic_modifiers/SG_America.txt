@@ -2,7 +2,7 @@ USA_union_newdeal_dynmod = {
 	enable = { always = yes }
 	#fixed
 	consumer_goods_factor = 0.2
-	SG_bad_economic_index_modifier = 3
+	bad_economic_index_modifier = 3
 
 	#variable
 	political_power_gain = newdeal_political_power_gain
@@ -16,5 +16,5 @@ USA_union_newdeal_dynmod = {
 	local_resources_factor = newdeal_local_resources_factor
 
 	#case
-	SG_good_economic_index_modifier = newdeal_economic_index
+	good_economic_index_modifier = newdeal_economic_index
 }

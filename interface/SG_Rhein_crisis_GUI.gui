@@ -1,0 +1,148 @@
+guiTypes = {
+	containerWindowType = {
+		name = "SG_Rhein_crisis_GUI"
+		position = { x = 0 y = 42 }
+		size = { width = 400 height = 400 }
+
+		iconType ={
+			name ="background"
+			spriteType = "GFX_RheinlandGUI_bg"
+			position = { x = 5 y = -20 }
+			Orientation = "UPPER_LEFT"
+
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "rhein_crisis_text"
+			position = { x = 240 y = 70 }
+			font = "fraktur_36"
+			text = rhein_crisis_title
+			maxWidth = 200
+			maxHeight = 20
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "rhein_crisis_state"
+			position = { x = 195 y = 120 }
+			font = "hoi_30header"
+			text = rhein_crisis_state
+			maxWidth = 300
+			maxHeight = 20
+			format = center
+		}
+		instantTextboxType = {
+			name = "rhein_crisis_state_influence"
+			position = { x = 215 y = 160 }
+			font = "hoi_20b"
+			text = rhein_crisis_state_influence
+			maxWidth = 250
+			maxHeight = 20
+			format = center
+		}
+
+		containerWindowType = {
+			name = "rhein_crisis_progressbar"
+			position = { x = 197 y = 180 }
+			
+			iconType ={
+				name ="rhein_crisis_bar"
+				spriteType = "GFX_RheinGUI_progressbar"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="rhein_crisis_bar_frame"
+				spriteType = "GFX_RheinGUI_progressbar_frame"
+				position = { x = 0 y = 1 }
+				Orientation = "UPPER_LEFT"
+
+				alwaystransparent = yes
+			}
+		}
+
+		instantTextboxType = {
+			name = "rhein_crisis_general_stat"
+			position = { x = 140 y = 230 }
+			font = "hoi_30header"
+			text = rhein_crisis_general_stat
+			maxWidth = 320
+			maxHeight = 20
+			format = center
+		}
+
+		containerWindowType = {
+			name = "rhein_crisis_meter"
+			position = { x = 400 y = 225 }
+			scale = 0.9
+
+			iconType ={
+				name ="rhein_crisis_meter_bg"
+				spriteType = "GFX_Rhein_Crisis_meter_bg"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType ={
+				name ="rhein_crisis_meter_pin"
+				# spriteType = "GFX_Rhein_Crisis_meter_bg"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType ={
+				name ="rhein_crisis_meter_cover"
+				spriteType = "GFX_Rhein_Crisis_meter_cover"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+		}
+		
+
+		# containerWindowType = {
+		# 	name = "Rheinland_map_button"
+		# 	position = { x = 15 y = -8 }
+		# 	size = { width = 0 height = 0 }
+		# 	scale = 0.9
+
+		buttonType = {
+			name = "RheinGUI_Nordrheinland"
+			spriteType = GFX_RheinGUI_Nordrheinland
+			clicksound = click_default
+			position = { x = 15 y = -8 } #{ x = 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			
+			scale = 0.9
+		}
+		buttonType = {
+			name = "RheinGUI_Subrheinland"
+			spriteType = GFX_RheinGUI_Subrheinland
+			clicksound = click_default
+			position = { x = 28 y = 162 } #{ x = 15 y = 190 }
+			Orientation = "UPPER_LEFT"
+
+			scale = 0.9
+		}
+		buttonType = {
+			name = "RheinGUI_Saar"
+			spriteType = GFX_RheinGUI_Saar
+			clicksound = click_default
+			position = { x = 38 y = 194 } #{ x = 27 y = 227 }
+			Orientation = "UPPER_LEFT"
+
+			scale = 0.9
+		}
+		buttonType = {
+			name = "RheinGUI_Baden"
+			spriteType = GFX_RheinGUI_Baden
+			clicksound = click_default
+			position = { x = 76 y = 182 } #{ x = 71 y = 215 }
+			Orientation = "UPPER_LEFT"
+
+			scale = 0.9
+		}
+		# }
+	}
+}

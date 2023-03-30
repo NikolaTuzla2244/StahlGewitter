@@ -613,6 +613,7 @@ country_event = { #末日聖徒イエス・キリスト教会
 	option = {
 		name = sg_america_collapse.24.a
 		LDS = {
+			transfer_state = 379
 			transfer_state = 380
 			every_owned_state = {
 				add_core_of = PREV

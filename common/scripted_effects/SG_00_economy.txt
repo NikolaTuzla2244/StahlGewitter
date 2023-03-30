@@ -40,7 +40,7 @@ economy_index_calc = {
 	#				#
 	clear_variable = economy_good_index_temp
 	### modifierヨリ [ x>=0, 丸める ]
-	set_temp_variable = { economy_good_index_modifier = modifier@SG_good_economic_index_modifier }
+	set_temp_variable = { economy_good_index_modifier = modifier@good_economic_index_modifier }
 	round_variable = economy_good_index_modifier
 
 	### 総合計算 (正)
@@ -57,7 +57,7 @@ economy_index_calc = {
 	economy_military_spend_calc = yes
 
 	### modifierヨリ [ x>=0, 丸める ]
-	set_temp_variable = { economy_bad_index_modifier = modifier@SG_bad_economic_index_modifier }
+	set_temp_variable = { economy_bad_index_modifier = modifier@bad_economic_index_modifier }
 	round_variable = economy_bad_index_modifier
 
 	### 総合計算 (負)
@@ -94,7 +94,7 @@ economy_military_spend_calc = {
 	set_temp_variable = { economy_bad_index_military_spend_temp = economy_bad_index_division }
 
 	###補正代入
-	add_to_temp_variable = { economy_bad_index_military_spend_temp = modifier@SG_bad_army_spend_modifier }
+	add_to_temp_variable = { economy_bad_index_military_spend_temp = modifier@bad_army_spend_modifier }
 
 	###くらんぷ
 	clamp_temp_variable = {
@@ -106,7 +106,7 @@ economy_military_spend_calc = {
 }
 
 economy_unemployment_calc = { #失業率へ代入
-	set_temp_variable = { improve_unemployment_temp = modifier@SG_improve_unemployment_modifier }
+	set_temp_variable = { improve_unemployment_temp = modifier@improve_unemployment_modifier }
 	multiply_temp_variable = { improve_unemployment_temp = -1 }
 
 	add_to_variable = { unemployment_rate = improve_unemployment_temp }
@@ -116,6 +116,9 @@ economy_unemployment_calc = { #失業率へ代入
 		max = 1
 	}
 
+	economy_unemployment_GUI = yes
+}
+economy_unemployment_GUI = { #失業率GUIの計算
 	set_temp_variable = { unemployment_rate_GUI_temp = unemployment_rate } #失業率円グラフの計算
 	multiply_temp_variable = { unemployment_rate_GUI_temp = 50 }
 	add_to_temp_variable = { unemployment_rate_GUI_temp = 50 }
@@ -150,7 +153,7 @@ economy_deficit_ratio_calc = { #負債比率の設定
 	set_variable = { economy_deficit_ratio = economy_deficit_ratio_temp }
 
 	set_temp_variable = { economy_deficit_ratio_GUI_temp = economy_deficit_ratio }
-	multiply_temp_variable = { economy_deficit_ratio_GUI_temp = 100 } #負債GUI表示
+	multiply_temp_variable = { economy_deficit_ratio_GUI_temp = 50 } #負債GUI表示
 	set_variable = { economy_deficit_ratio_GUI = economy_deficit_ratio_GUI_temp }
 
 	if = {

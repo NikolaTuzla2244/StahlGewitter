@@ -66,4 +66,9 @@ spritetypes = {
 		texturefile = "gfx/texticons/bad_economic_index_texticon.png"
 		legacy_lazy_load = no
 	}
+	spritetype = {
+		name = "GFX_unemployment_texticon"
+		texturefile = "gfx/texticons/unemployment_texticon.png"
+		legacy_lazy_load = no
+	}
 }

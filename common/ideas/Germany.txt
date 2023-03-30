@@ -1,4 +1,55 @@
 ideas = {
+	Manufacturer = {
+		IG_Farben = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea IG_Farben" }
+			allowed = { original_tag = GER }
+			traits = { chemical_trust }
+			available = {
+				has_completed_focus = GER_Chemical_Industry
+			}
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.2
+				fuel_gain_factor_from_states = 0.25
+				research_speed_factor = 0.05
+			}
+			research_bonus = {
+				synth_resources = 0.2
+			}
+		}
+		Krupp = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Krupp" }
+			allowed = { original_tag = GER }
+			traits = { industrial_manufacturer }
+			available = { }
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+			}
+			equipment_bonus = {
+				anti_air_equipment = {
+					hard_attack = 0.05
+				}
+			}
+			research_bonus = {
+				industry = 0.1
+			}
+		}
+		Rheinmetall = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Rheinmetall" }
+			allowed = { original_tag = GER }
+			traits = { artility_manufacturer }
+			available = { }
+			equipment_bonus = {
+				anti_tank_equipment = {
+					hard_attack = 0.05
+					ap_attack = 0.1
+				}
+			}
+			research_bonus = {
+				artillery = 0.1
+			}
+		}
+	}
 	country = {
 		GER_bitter_defeat = {
 			picture = GER_bitter_defeat
@@ -15,6 +66,19 @@ ideas = {
 				authoritarian_socialism_acceptance = -20
 			}
 		}
+		GER_Treaty_of_Versailles = {
+			picture = GER_bitter_defeat
+			allowed = {
+				tag = GER
+			}
+			removal_cost = -1
+			modifier = {
+				conscription_factor = -0.75
+				experience_gain_army_factor = -0.5
+				experience_gain_navy_factor = -0.5
+				experience_gain_air_factor = -0.5
+			}
+		}
 		GER_Saarland = {
 			picture = GER_Saarland
 			allowed = {
@@ -26,6 +90,52 @@ ideas = {
 
 				cic_to_target_factor = 1.0
 				mic_to_target_factor = 1.0
+			}
+		}
+		GER_Restraint_Industrial_Machine = {
+			picture = GER_bitter_defeat
+			allowed = {
+				tag = SBK
+			}
+			removal_cost = -1
+			modifier = {
+				improve_unemployment_modifier = 0.005
+				production_speed_buildings_factor = -0.05
+				industrial_capacity_factory = -0.05
+			}
+		}
+
+		GER_Deutsche_Arbeitsfront_0 = {
+			name = GER_Deutsche_Arbeitsfront
+			picture = GER_Deutsche_Arbeitsfront
+			allowed = {
+				tag = GER
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+		GER_State_Cartel = {
+			picture = GER_bitter_defeat
+			allowed = {
+				tag = GER
+			}
+			removal_cost = -1
+			modifier = {
+				Manufacturer_cost_factor = -0.25
+			}
+		}
+		GER_State_Cartel_modifier = {
+			picture = GER_bitter_defeat
+			name = GER_State_Cartel
+			allowed = {
+				tag = GER
+			}
+			removal_cost = -1
+			modifier = {
+				Manufacturer_cost_factor = -0.25
+				research_speed_factor = 0.05
 			}
 		}
 	}

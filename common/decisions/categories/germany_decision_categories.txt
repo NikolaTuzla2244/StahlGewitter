@@ -1,0 +1,17 @@
+GER_Rheinland_crisis = {
+	icon = generic_research
+	scripted_gui = SG_Rhein_crisis_GUI
+	visible_when_empty = yes
+	priority = 100
+	visible = {
+		tag = GER
+		has_global_flag = is_Rheinland_Crisis
+	}
+}
+GER_Notstandsarbeit = {
+	icon = generic_research
+	priority = 10
+	visible = {
+		tag = GER
+	}
+}

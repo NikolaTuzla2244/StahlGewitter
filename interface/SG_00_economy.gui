@@ -400,7 +400,7 @@ guiTypes = {
 
 				instantTextboxType = {
 					name = "deficit_value"
-					position = { x = 110 y = 30 }
+					position = { x = 110 y = 10 }
 					textureFile = ""
 					font = "hoi_20bs"
 					borderSize = {x = 0 y = 0}
@@ -423,7 +423,7 @@ guiTypes = {
 
 				instantTextboxType = {
 					name = "unemployment_value"
-					position = { x = 110 y = 25 }
+					position = { x = 110 y = 30 }
 					textureFile = ""
 					font = "hoi_20bs"
 					borderSize = {x = 0 y = 0}

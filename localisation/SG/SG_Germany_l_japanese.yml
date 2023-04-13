@@ -25,7 +25,11 @@ SG_trait_Iron_Hermann:0 "鉄人ヘルマン"
 ### 国民精神 ###
 GER_bitter_defeat:0 "苦い敗北"
 GER_bitter_defeat_desc:0 "先の大戦における屈辱的な敗北、大切な人を失いながら届かぬ勝利、忘れることなどできるものか。混乱を経験したドイツ国は共通の憎悪を以てして、かつてないほどの熱気と結束に包まれている。"
+GER_Treaty_of_Versailles:0 "ヴェルサイユ条約"
+GER_Treaty_of_Versailles_tt:0 "§R師団の徴兵・編成の変更ができない§!"
 GER_Saarland:0 "ザールラント占領地域"
+
+
 GER_State_Cartel:0 "国家企業連合"
 
 GER_Kristallnacht:0 "11月ポグロムが発生した"
@@ -58,9 +62,11 @@ GER_Mefo_Bills:0 "メフォ手形"
 GER_Autobahn_Construction_Start:0 "アウトバーン着工"
 GER_Volkswagen_Plan:0 "国民車計画"
 GER_Savings_Bank_Recommendations:0 "貯蓄銀行の推奨"
+GER_German_Scientific_Industry:0 "ドイツ科学産業"
 GER_Restraint_Industrial_Machine:0 "産業機械の抑制"
 GER_Birth_Wehrmacht:0 "国防軍の誕生"
 GER_Compulsory_Conscription:0 "義務徴兵制"
+GER_Rapid_Training:0 "急速武力展開"
 GER_Reichs_Luftfahrt_Ministerium:0 "航空省"
 GER_Invest_Aircraft_Industry:0 "航空機産業への投資"
 GER_Air_Defense:0 "対空防御"

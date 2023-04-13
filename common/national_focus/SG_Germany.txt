@@ -18,7 +18,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_Reichsparteitag #党大会の開催
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 8
 		y = 0
 		cost = 5
@@ -27,7 +27,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		available = {
-			has_idea = economy_nazi_corporatism
 		}
 		completion_reward = {
 			add_political_power = 50
@@ -36,12 +35,12 @@ focus_tree = {
 
 	focus = {
 		id = GER_Reorganize_Party_Bureaucracy #党内官僚の再編
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 5
 		y = 1
 		relative_position_id = GER_Reichsparteitag
 		prerequisite = { focus = GER_Reichsparteitag }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -53,16 +52,20 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_stability = 0.1
+			add_popularity = {
+				ideology = national_socialism
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
 		id = GER_Approach_Goebbels #ゲッベルスへの接近
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -2
 		y = 1
 		relative_position_id = GER_Reorganize_Party_Bureaucracy
 		prerequisite = { focus = GER_Reorganize_Party_Bureaucracy }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -73,16 +76,22 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GER_Joseph_Goebbels
+			add_popularity = {
+				ideology = national_populism
+				popularity = -0.05
+			}
 		}
 	}
 	focus = {
 		id = GER_Counter_Revolution #反革命闘争
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_Approach_Goebbels
 		prerequisite = { focus = GER_Approach_Goebbels }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -101,7 +110,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Gleichschaltung #強制的同一化
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 2
 		y = 1
 		relative_position_id = GER_Approach_Goebbels
@@ -109,7 +118,7 @@ focus_tree = {
 			focus = GER_Approach_Goebbels
 			focus = GER_Strengthening_SD
 		}
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -120,16 +129,25 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			administration_improve = yes
+			add_popularity = {
+				ideology = national_populism
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = despotism
+				popularity = -0.05
+			}
 		}
 	}
 	focus = {
 		id = GER_Strengthening_SD #情報局の権限強化
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 2
 		y = 1
 		relative_position_id = GER_Reorganize_Party_Bureaucracy
 		prerequisite = { focus = GER_Reorganize_Party_Bureaucracy }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -140,6 +158,8 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GER_Heinrich_Himmler
 		}
 	}
 	focus = {
@@ -155,16 +175,17 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 15
 		}
 		available = {
 		}
 		completion_reward = {
+			administration_improve = yes
 		}
 	}
 	focus = {
 		id = GER_Systematization_Camp_Management #キャンプ管理マニュアル
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 1
 		relative_position_id = GER_National_Police_Power
@@ -175,7 +196,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 15
 		}
 		available = {
 		}
@@ -184,7 +205,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Creation_Waffen_SS #武装親衛隊の創設
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 1
 		relative_position_id = GER_National_Police_Power
@@ -195,7 +216,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 15
 		}
 		available = {
 		}
@@ -204,7 +225,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Delegation_Intelligence #諜報機能の委譲
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 2
 		relative_position_id = GER_National_Police_Power
@@ -215,22 +236,23 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
 		completion_reward = {
+			
 		}
 	}
 
 	focus = {
 		id = GER_Cutting_Conservative_Right #保守右翼の切り落とし
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_Strengthening_SD
 		prerequisite = { focus = GER_Strengthening_SD }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -249,7 +271,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Ein_Fuhrer #一人の指導者
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 3
 		relative_position_id = GER_Reorganize_Party_Bureaucracy
@@ -267,12 +289,13 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			remove_ideas = GER_Intr_Party_Struggle
 		}
 	}
 	
 	focus = {
 		id = GER_Solve_Saarland_Problem #ザールラント問題の解決
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_Reichsparteitag
@@ -293,12 +316,12 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Nuremberg_Law #ニュルンベルク法の起草
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 1
 		relative_position_id = GER_Solve_Saarland_Problem
 		prerequisite = { focus = GER_Solve_Saarland_Problem }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -309,16 +332,18 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			add_stability = 0.15
+			add_political_power = 100
 		}
 	}
 	focus = {
 		id = GER_Seize_Jewish_Capital #ユダヤ資本の回収
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_Nuremberg_Law
 		prerequisite = { focus = GER_Nuremberg_Law }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -392,12 +417,12 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_RMVP #国民啓蒙・宣伝省
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 1
 		relative_position_id = GER_Solve_Saarland_Problem
 		prerequisite = { focus = GER_Solve_Saarland_Problem }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -408,16 +433,17 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			network_improve = yes
 		}
 	}
 	focus = {
 		id = GER_Colonization_Former_Territories #旧領への植民
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_RMVP
 		prerequisite = { focus = GER_RMVP }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -428,42 +454,47 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			unlock_decision_category_tooltip = GER_Unser_Land
 		}
 	}
 	focus = {
 		id = GER_Wiederbewaffnung #再軍備
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 3
 		relative_position_id = GER_Solve_Saarland_Problem
 		prerequisite = { focus = GER_Seize_Jewish_Capital }
 		prerequisite = { focus = GER_Colonization_Former_Territories }
 		prerequisite = { focus = GER_Mefo_Bills }
-		cost = 5
+		cost = 7.2
 		# search_filters = {}
 		
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 1000
 		}
 		available = {
-			date > 1936.1.1
+			date > 1936.6.1
 		}
 		completion_reward = {
 			remove_ideas = GER_Treaty_of_Versailles
 			economic_investment_up = yes
+			hidden_effect = {
+				country_lock_all_division_template = no
+				news_event = { id = sg_worldnews.11 days = 2 }
+			}
 		}
 	}
 
 	focus = {
 		id = GER_Give_Us_Four_Years #我々に4年の歳月を与えよ
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -5
 		y = 1
 		relative_position_id = GER_Reichsparteitag
 		prerequisite = { focus = GER_Reichsparteitag }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -489,7 +520,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 20
 		}
 		available = {
 		}
@@ -499,18 +530,18 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Create_Jobs_Public_Works #公共事業による雇用創出
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_Give_Us_Four_Years
 		prerequisite = { focus = GER_Give_Us_Four_Years }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
@@ -520,18 +551,18 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Deutsche_Arbeitsfront #ドイツ労働戦線の結成
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -2
 		y = 1
 		relative_position_id = GER_Give_Us_Four_Years
 		prerequisite = { focus = GER_Give_Us_Four_Years }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
@@ -546,13 +577,13 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_Deutsche_Arbeitsfront
 		prerequisite = { focus = GER_Deutsche_Arbeitsfront }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
@@ -562,12 +593,12 @@ focus_tree = {
 
 	focus = {
 		id = GER_Mefo_Bills #メフォ手形
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 2
 		relative_position_id = GER_Give_Us_Four_Years
 		prerequisite = { focus = GER_Give_Us_Four_Years }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -578,11 +609,13 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			set_country_flag = economy_suspend_deficit
+			add_ideas = GER_Mefo_Bills
 		}
 	}
 	focus = {
 		id = GER_Autobahn_Construction_Start #アウトバーン着工
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -3
 		y = 1
 		relative_position_id = GER_Mefo_Bills
@@ -598,26 +631,29 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			unlock_decision_category_tooltip = GER_Reichsautobahn
+			infrastructure_further_improve = yes
 		}
 	}
 	focus = {
 		id = GER_Volkswagen_Plan #国民車計画
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_Autobahn_Construction_Start
 		prerequisite = { focus = GER_Autobahn_Construction_Start }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
 		completion_reward = {
+			add_ideas = GER_KdF_Wagen
 		}
 	}
 	focus = {
@@ -696,7 +732,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 20
 		}
 		available = {
 		}
@@ -710,19 +746,19 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Restraint_Industrial_Machine #産業機械の抑制
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 1
 		relative_position_id = GER_Create_Jobs_Public_Works
 		prerequisite = { focus = GER_Create_Jobs_Public_Works }
 		prerequisite = { focus = GER_Deutsche_Arbeitsfront }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
@@ -736,7 +772,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_Birth_Wehrmacht #国防軍の誕生
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_Ein_Fuhrer
@@ -753,11 +789,16 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			military_improve = yes
+			add_command_power = 100
+			army_experience = 50
+			navy_experience = 50
+			air_experience = 50
 		}
 	}
 	focus = {
 		id = GER_Compulsory_Conscription #義務徴兵制
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 2
 		y = 1
 		relative_position_id = GER_Wiederbewaffnung
@@ -777,8 +818,32 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = GER_Rapid_Training #急速武力展開
+		icon = GFX_goal_continuous_air_production
+		x = -2
+		y = 1
+		relative_position_id = GER_Wiederbewaffnung
+		prerequisite = { focus = GER_Wiederbewaffnung }
+		cost = 5
+		# search_filters = {}
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 30
+		}
+		available = {
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = GER_Rapid_Training
+				days = 360
+			}
+		}
+	}
+	focus = {
 		id = GER_Reichs_Luftfahrt_Ministerium #航空省
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 3
 		y = 1
 		relative_position_id = GER_Birth_Wehrmacht
@@ -789,7 +854,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
@@ -810,7 +875,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
@@ -830,11 +895,67 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = GER_Air_Defense }
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = anti_air_building
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = GER_Air_Defense
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = anti_air_building
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = GER_Air_Defense
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = anti_air_building
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = GER_Air_Defense
+			}
 		}
 	}
 	focus = {
@@ -850,7 +971,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
@@ -859,7 +980,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Blitzkrieg #電撃戦理論
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -2
 		y = 1
 		relative_position_id = GER_Birth_Wehrmacht
@@ -876,11 +997,18 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = GER_Blitzkrieg
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_mobile_warfare
+			}
+			add_ideas = GER_idea_Blitzkrieg
 		}
 	}
 	focus = {
 		id = GER_Infiltration_Tactics #浸透戦術の継続
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_Birth_Wehrmacht
@@ -892,16 +1020,22 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 5
 		}
 		available = {
 		}
 		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = GER_Infiltration_Tactics
+				cost_reduction = 0.5
+				uses = 1
+				category = cat_superior_firepower
+			}
 		}
 	}
 	focus = {
 		id = GER_Increasing_Modern_Power #近代火力の増進
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_Infiltration_Tactics
@@ -912,7 +1046,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 20
 		}
 		available = {
 		}
@@ -921,7 +1055,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Agreement_Vichy_France #亡命フランスとの協定
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 1
 		relative_position_id = GER_Rheinlandbesetzung
@@ -954,7 +1088,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 20
 		}
 		available = {
 		}
@@ -963,7 +1097,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Army_Mechanization #陸軍の機械化
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 2
 		y = 1
 		relative_position_id = GER_Creation_Panzer_Division
@@ -977,16 +1111,22 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 20
 		}
 		available = {
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = GER_Army_Mechanization
+				bonus = 1.0
+				uses = 1
+				category = motorized_equipment
+			}
 		}
 	}
 	focus = {
 		id = GER_Command_Tank #指揮戦車
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_Creation_Panzer_Division
@@ -997,11 +1137,21 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 20
 		}
 		available = {
 		}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = GER_idea_Blitzkrieg
+				add_idea = GER_idea_Blitzkrieg_improve
+			}
+			add_tech_bonus = {
+				name = GER_Command_Tank
+				bonus = 1.0
+				uses = 1
+				category = radar_tech
+			}
 		}
 	}
 	focus = {
@@ -1017,16 +1167,22 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = GER_Dive_Bombing
+				bonus = 1.0
+				uses = 1
+				category = cas_bomber
+			}
 		}
 	}
 	focus = {
 		id = GER_Z_Plan #Z計画
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 6
 		y = 1
 		relative_position_id = GER_Birth_Wehrmacht
@@ -1037,7 +1193,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
@@ -1058,11 +1214,17 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
 		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = GER_Surface_Trade_Destruction
+				cost_reduction = 0.5
+				uses = 1
+				category = cat_trade_interdiction
+			}
 		}
 	}
 	focus = {
@@ -1078,17 +1240,23 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = GER_U_boat
+				bonus = 1.0
+				uses = 1
+				category = submarine_doctrine
+			}
 		}
 	}
 
 	focus = {
 		id = GER_Rheinlandbesetzung #ラインラント進駐
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_Wiederbewaffnung
@@ -1100,7 +1268,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 1000
 		}
 		available = {
 		}
@@ -1110,18 +1278,18 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Antikominternpakt #防共協定
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 1
 		relative_position_id = GER_Rheinlandbesetzung
 		prerequisite = { focus = GER_Rheinlandbesetzung }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
@@ -1130,12 +1298,12 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Legion_Condor #コンドル軍団
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 1
 		relative_position_id = GER_Antikominternpakt
 		prerequisite = { focus = GER_Antikominternpakt }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -1150,18 +1318,18 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Support_Fascist #イタリアン・ファシストへの軍事支援
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 1
 		relative_position_id = GER_Antikominternpakt
 		prerequisite = { focus = GER_Antikominternpakt }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 15
 		}
 		available = {
 		}
@@ -1170,18 +1338,18 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Inciting_Comrades_America #新大陸の同志を扇動
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 1
 		relative_position_id = GER_Support_Fascist
 		prerequisite = { focus = GER_Antikominternpakt }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
@@ -1190,18 +1358,18 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Investing_Bucharest #ブカレスト条約機構への投資
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 2
 		y = 2
 		relative_position_id = GER_Antikominternpakt
 		prerequisite = { focus = GER_Antikominternpakt }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 15
 		}
 		available = {
 		}
@@ -1210,12 +1378,12 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Support_Far_Right #ソ連極東反乱軍への軍事支援
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 1
 		relative_position_id = GER_Legion_Condor
 		prerequisite = { focus = GER_Antikominternpakt }
-		cost = 5
+		cost = 2.9
 		# search_filters = {}
 		
 		available_if_capitulated = yes
@@ -1230,7 +1398,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Military_Political_Grip #軍部の政治的掌握
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 3
 		relative_position_id = GER_Blitzkrieg
@@ -1251,7 +1419,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_War_Plan #戦争計画
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 2
 		y = 3
 		relative_position_id = GER_Military_Political_Grip
@@ -1265,7 +1433,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 50
 		}
 		available = {
 		}
@@ -1274,7 +1442,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Anglo_Germanic_Agreement #アングロ＝ゲルマン協定
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -2
 		y = 0
 		relative_position_id = GER_Britain_Embargoed_Network
@@ -1295,7 +1463,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Berlin_London_Axis #ベルリン＝ロンドン枢軸
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 1
 		relative_position_id = GER_Anglo_Germanic_Agreement
@@ -1307,7 +1475,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 0
 		}
 		available = {
 		}
@@ -1316,7 +1484,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Britain_Embargoed_Network #対イギリス禁輸網
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 1
 		relative_position_id = GER_Recapture_Danzig_Corridor
@@ -1337,7 +1505,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Unternehmen_Seelowe #アシカ作戦
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 1
 		relative_position_id = GER_Britain_Embargoed_Network
@@ -1349,7 +1517,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 20
 		}
 		available = {
 		}
@@ -1358,7 +1526,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Unternehmen_Weserubung #ヴェーザー演習作戦
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 1
 		relative_position_id = GER_Unternehmen_Seelowe
@@ -1378,7 +1546,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Our_Land #我等の地
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 2
 		y = 1
 		relative_position_id = GER_War_Plan
@@ -1394,11 +1562,32 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			#Danzig
+			add_state_claim = 85
+			#Poland
+			add_state_claim = 86
+			add_state_claim = 807
+			add_state_claim = 762
+			#CzechSlovakia
+			add_state_claim = 69
+			#Austria
+			add_state_claim = 39
+			add_state_claim = 153
+			add_state_claim = 152
+			add_state_claim = 4
+			#France
+			add_state_claim = 28
+			#Luxemburg
+			add_state_claim = 8
+			#Denmark
+			add_state_claim = 861
+			#Lithania
+			add_state_claim = 188
 		}
 	}
 	focus = {
 		id = GER_Recapture_Danzig_Corridor #ダンツィヒ回廊の奪還
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -2
 		y = 1
 		relative_position_id = GER_War_Plan
@@ -1418,7 +1607,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Establish_General_Goverment #総督府の設置
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 1
 		relative_position_id = GER_Recapture_Danzig_Corridor
@@ -1439,7 +1628,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Erzas_Lautringen_or_War #エルザス・ロートリンゲンか、戦争か！
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 2
 		relative_position_id = GER_Our_Land
@@ -1461,7 +1650,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Fall_Gelb #黄作戦
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 1
 		relative_position_id = GER_Erzas_Lautringen_or_War
@@ -1481,7 +1670,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Reintegration #旧領の再統合
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 1
 		relative_position_id = GER_Fall_Gelb
@@ -1501,7 +1690,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Atlantikwall #大西洋の壁
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 1
 		relative_position_id = GER_Fall_Gelb
@@ -1521,7 +1710,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Unternehmen_Eiche #柏木作戦
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 1
 		relative_position_id = GER_Erzas_Lautringen_or_War
@@ -1541,7 +1730,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Unternehmen_Tannenbaum #タンネンバウム作戦
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -3
 		y = 1
 		relative_position_id = GER_Erzas_Lautringen_or_War
@@ -1561,7 +1750,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Lebensraum #東方生存圏
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_War_Plan
@@ -1581,7 +1770,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Unternehmen_Blau #青作戦
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 1
 		relative_position_id = GER_Lebensraum
@@ -1601,7 +1790,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Unternehmen_Barbarossa #バルバロッサ作戦
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 2
 		relative_position_id = GER_Lebensraum
@@ -1623,7 +1812,7 @@ focus_tree = {
 	#戦時軍事NF
 	focus = {
 		id = GER_Learn_from_War #緒戦に学ぶ
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 5
 		y = 1
 		relative_position_id = GER_War_Plan
@@ -1683,7 +1872,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Jet_Engine #ジェットエンジンの開発
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 2
 		relative_position_id = GER_Learn_from_War
@@ -1744,7 +1933,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_Schwarze_Kapelle #黒いオーケストラ
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 3
 		relative_position_id = GER_Infiltration_Tactics
@@ -1766,7 +1955,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_Vierjahresplan #四カ年計画
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 2
 		relative_position_id = GER_Mefo_Bills
@@ -1783,6 +1972,11 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
+			add_ideas = economy_nazi_corporatism
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GER_Walther_Funk
+			custom_effect_tooltip = remove_political_advisor
+			show_ideas_tooltip = GER_Hjalmar_Schacht
 		}
 	}
 	focus = {
@@ -1798,7 +1992,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 15
 		}
 		available = {
 		}
@@ -1819,11 +2013,17 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = GER_Expand_Domestic_Resources
+				bonus = 1.0
+				uses = 1
+				category = excavation_tech
+			}
 		}
 	}
 	focus = {
@@ -1891,7 +2091,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Chemical_Industry #化学産業への注力
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 1
 		relative_position_id = GER_Expand_Domestic_Resources
@@ -1902,12 +2102,19 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
 		completion_reward = {
+			custom_effect_tooltip = available_industrial_concern
 			show_ideas_tooltip = IG_Farben
+			add_tech_bonus = {
+				name = GER_Expand_Domestic_Resources
+				bonus = 1.0
+				uses = 3
+				category = synth_resources
+			}
 		}
 	}
 	focus = {
@@ -1923,7 +2130,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
@@ -1937,7 +2144,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Reichswerke_Hermann_Goring #ヘルマン・ゲーリング国家工場
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 1
 		relative_position_id = GER_Expand_Domestic_Resources
@@ -1949,16 +2156,99 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 15
 		}
 		available = {
 		}
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = GER_Reichswerke_Hermann_Goring }
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					has_resources_amount = {
+						resource = steel
+						amount > 0
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 7
+				}
+				set_state_flag = GER_Reichswerke_Hermann_Goring
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					has_resources_amount = {
+						resource = steel
+						amount > 0
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 7
+				}
+				set_state_flag = GER_Reichswerke_Hermann_Goring
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					has_resources_amount = {
+						resource = steel
+						amount > 0
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 7
+				}
+				set_state_flag = GER_Reichswerke_Hermann_Goring
+			}
 		}
 	}
 	focus = {
 		id = GER_Tote_Agency #トート機関
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 1
 		relative_position_id = GER_Mobilization_Plan 
@@ -1969,11 +2259,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
 		completion_reward = {
+			add_ideas = GER_Tote_Agency
 		}
 	}
 	focus = {
@@ -1989,17 +2280,83 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 10
 		}
 		available = {
 		}
 		completion_reward = {
+			56 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
+			57 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
+			51 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
+			42 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
+			835 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
+			836 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
 		}
 	}
 
 	focus = {
 		id = GER_SS_Marschiert_in_Feindesland #親衛隊は敵地を進む
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -4
 		y = 1
 		relative_position_id = GER_Military_Political_Grip
@@ -2010,7 +2367,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 20
 		}
 		available = {
 		}
@@ -2019,7 +2376,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Recruit_Foreign_Troops #外国人部隊の募集
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_SS_Marschiert_in_Feindesland
@@ -2039,7 +2396,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Einsatzgruppen #アインザッツグルッペン
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_Recruit_Foreign_Troops
@@ -2059,7 +2416,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Reichskommissariat #国家弁務官区の設置
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 3
 		relative_position_id = GER_SS_Marschiert_in_Feindesland
@@ -2080,7 +2437,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Adoption_Esoteric_Thoughts #秘教思想の登用
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 2
 		y = 1
 		relative_position_id = GER_SS_Marschiert_in_Feindesland
@@ -2101,7 +2458,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_Total_War_Economy #総力戦経済
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -8
 		y = 1
 		relative_position_id = GER_Military_Political_Grip
@@ -2112,7 +2469,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 20
 		}
 		available = {
 			has_war = yes
@@ -2122,7 +2479,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Resources_From_Citizens #国民からの資源徴発
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -2
 		y = 1
 		relative_position_id = GER_Total_War_Economy
@@ -2142,7 +2499,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Battle_for_the_Reich #国を挙げた戦争
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_Resources_From_Citizens
@@ -2162,7 +2519,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Deutscher_Volkssturm #国民突撃隊
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 1
 		relative_position_id = GER_Battle_for_the_Reich
@@ -2182,7 +2539,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Cheap_Equipment #廉価装備
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 1
 		relative_position_id = GER_Battle_for_the_Reich
@@ -2202,7 +2559,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Keinen_Schritt_Zuruck #死守せよ！
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 2
 		relative_position_id = GER_Battle_for_the_Reich
@@ -2224,7 +2581,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_Use_Camp_Labor #強制収容所の労働利用
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 1
 		relative_position_id = GER_Total_War_Economy
@@ -2245,7 +2602,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Aktion_Reinhardt #ラインハルト作戦
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 1
 		y = 1
 		relative_position_id = GER_Use_Camp_Labor
@@ -2265,7 +2622,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Work_Even_After_Death #死してなお働け
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = -1
 		y = 1
 		relative_position_id = GER_Use_Camp_Labor
@@ -2286,7 +2643,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_Austria_Sudetenland #オーストリア・ズデーテンラントへの最後通牒
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_Military_Political_Grip
@@ -2297,7 +2654,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 50
 		}
 		available = {
 			date > 1938.1.1
@@ -2307,7 +2664,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_German_Reunification #ドイツの再統合
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_Schwarze_Kapelle
@@ -2328,7 +2685,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_March_On_The_Danube #ドナウ進軍
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 1
 		relative_position_id = GER_Austria_Sudetenland
@@ -2343,7 +2700,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		ai_will_do = {
-			factor = 30
+			factor = 50
 		}
 		available = {
 		}
@@ -2352,7 +2709,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Anschluss #アンシュルス
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 4
 		y = 1
 		relative_position_id = GER_Austria_Sudetenland
@@ -2377,7 +2734,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_Endsieg #最終勝利
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_air_production
 		x = 0
 		y = 5
 		relative_position_id = GER_War_Plan

@@ -1,0 +1,42 @@
+add_namespace = sg_czech
+
+country_event = { #穏健派との対立
+	id = sg_czech.1
+	title = sg_czech.1.t
+	desc = sg_czech.1.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_czech.1.a #改革派が勝利！
+
+		set_politics = {
+			ruling_party = reformism
+		}
+		add_popularity = {
+			ideology = reformism
+			popularity = 0.1
+		}
+		set_country_flag = CZE_Plague_Spring
+		hidden_effect = {
+			HUN = {
+				country_event = { id = sg_hungary.2 days = 1 }
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = sg_czech.1.b #保守派が勝利！
+
+		add_popularity = {
+			ideology = authoritarian_socialism
+			popularity = 0.1
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

@@ -24,6 +24,30 @@ country_event = { #フィンランド内戦
 				target = FIN
 				type = annex_everything
 			}
+
+			#Debug Effect
+			division_template = {
+				name = "Debug Unit"
+				priority = 0
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+				}
+				support = {
+				}
+			}
+			capital_scope = {
+				create_unit = {
+					division = "name = \"Debug Unit\" division_template = \"Debug Unit\" start_experience_factor = 0.5"
+					owner = ROOT
+					count = 5
+				}
+			}
+		}
+		FIN = {
+			leave_faction = yes
 		}
 	}
 }

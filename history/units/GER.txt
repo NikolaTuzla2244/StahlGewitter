@@ -1,0 +1,154 @@
+﻿division_template = {
+	name = "Infanterie-Division"
+
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Kavallerie-Brigade"
+
+	division_names_group = GER_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	    artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+
+	##### Oberkommando des Heeres #####
+	### 1. Armee (Wehrmacht-Gruppenkommando) ###
+	# II. Armeekorps
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 6334
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 12
+		}
+		location = 537
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 478
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 6462
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 14
+		}
+		location = 6462
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = 11467
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 11
+		}
+		location = 266
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 21
+		}
+		location = 3384
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 11264
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = 11388
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.4
+	}
+
+	division= {	
+		name = "Kavallerie-Kommando Insterburg" 
+		location = 281
+		division_template = "Kavallerie-Brigade"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Kavallerie-Kommando Insterburg" 
+		location = 11264
+		division_template = "Kavallerie-Brigade"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Kavallerie-Kommando Insterburg" 
+		location = 11467
+		division_template = "Kavallerie-Brigade"
+		start_experience_factor = 0.4
+	}
+}

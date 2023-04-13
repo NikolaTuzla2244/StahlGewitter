@@ -154,8 +154,8 @@ SWI = {
 	color_ui = rgb { 164 51 51 }
 }
 TUR = {
-	color = rgb { 142 52 29 }
-	color_ui = rgb { 142 52 29 }
+	color = rgb { 168 181 150 }
+	color_ui = rgb { 168 181 150 }
 }
 IHB = {
 	color = rgb { 46 106 155 }

@@ -1,5 +1,7 @@
 capital = 4
 
+set_oob = "AUS"
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -93,9 +95,18 @@ add_to_faction = SCS
 
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
+	#laws
+	private_economy_1
+	open_trade_0
+	volunteer_only_1
+	economy_social_welfare
+	#development
+	SG_academic_3
+	SG_industry_3
+	SG_administration_3
+	SG_infrastructure_3
+	SG_network_2
+	SG_military_3
 }
 
 recruit_character = AUS_Otto_Wels

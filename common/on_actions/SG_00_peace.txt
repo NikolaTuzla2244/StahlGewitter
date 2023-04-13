@@ -56,7 +56,77 @@ on_actions = {
 				clr_country_flag = CZE_Plague_Spring
 				HUN = { country_event = { id = sg_hungary.1 } }
 			}
-			#併合
+			### バルカン戦争 ###
+			if = { #ルーマニア - ハンガリーに勝利
+				limit = {
+					event_target:losing_country = {
+						original_tag = HUN
+					}
+					event_target:winning_country = {
+						OR = {
+							original_tag = ROM
+							is_ally_with = ROM
+						}
+					}
+				}
+				ROM = {
+					annex_country = {
+						target = TRA
+						transfer_troops = no
+					}
+					set_autonomy = {
+						target = HUN
+						autonomy_state = autonomy_occupied_territory
+					}
+				}
+				HUN = {
+					set_cosmetic_tag = HUN_occupied
+				}
+			}
+			if = { #ハンガリー - ルーマニアに勝利
+				limit = {
+					event_target:losing_country = {
+						original_tag = ROM
+					}
+					event_target:winning_country = {
+						OR = {
+							original_tag = HUN
+							is_ally_with = HUN
+						}
+					}
+				}
+				HUN = {
+					annex_country = {
+						target = TRA
+						transfer_troops = no
+					}
+					set_autonomy = {
+						target = ROM
+						autonomy_state = autonomy_occupied_territory
+					}
+				}
+				ROM = {
+					set_cosmetic_tag = ROM_occupied
+				}
+			}
+			#スペイン内戦 - 併合
+			if = {
+				limit = {
+					event_target:losing_country = {
+						is_spain = yes
+					}
+					event_target:winning_country = {
+						is_spain = yes
+					}
+				}
+				event_target:winning_country = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
+			#中華軍閥 - 併合
 			if = {
 				limit = {
 					event_target:losing_country = {

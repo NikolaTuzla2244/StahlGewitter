@@ -1,0 +1,30 @@
+division_limiter = {
+	enable = {
+		OR = {
+			num_divisions > 299
+			has_reached_maximum_divisions = yes
+		}
+	}
+	#AI roles
+	ai_strategy = { type = build_army id = armor				value = -1000 }
+	ai_strategy = { type = build_army id = mountaineer			value = -1000 }
+	ai_strategy = { type = build_army id = suppression			value = -1000 }
+
+	#units
+	ai_strategy = { type = build_army id = infantry				value = -1000 }
+	ai_strategy = { type = build_army id = bicycle_battalion	value = -1000 }
+	ai_strategy = { type = build_army id = marine 				value = -1000 }
+	ai_strategy = { type = build_army id = mountaineers			value = -1000 }
+	ai_strategy = { type = build_army id = paratrooper			value = -1000 }
+	ai_strategy = { type = build_army id = motorized			value = -1000 }
+	ai_strategy = { type = build_army id = mechanized			value = -1000 }
+	ai_strategy = { type = build_army id = fake_intel_unit		value = -1000 }
+	ai_strategy = { type = build_army id = irregular_infantry	value = -1000 }
+	ai_strategy = { type = build_army id = militia				value = -1000 }
+	ai_strategy = { type = build_army id = infantry				value = -1000 }
+
+	ai_strategy = { type = build_army id = light_armor			value = -1000 }
+	ai_strategy = { type = build_army id = medium_armor			value = -1000 }
+	ai_strategy = { type = build_army id = heavy_armor			value = -1000 }
+	ai_strategy = { type = build_army id = modern_armor			value = -1000 }
+}

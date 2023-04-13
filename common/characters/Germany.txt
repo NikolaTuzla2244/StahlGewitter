@@ -81,6 +81,11 @@ characters={
 		advisor = {
 			slot = Cabinet_Minister
 			idea_token = GER_Joseph_Goebbels
+			available = {
+				OR = {
+					has_completed_focus = GER_Approach_Goebbels
+				}
+			}
 			traits = { SG_trait_RMVP_Minister }
 			cost = 100
 			removal_cost = -1
@@ -162,6 +167,11 @@ characters={
 		advisor = {
 			slot = Cabinet_Minister
 			idea_token = GER_Hjalmar_Schacht
+			available = {
+				NOT = {
+					has_completed_focus = GER_Vierjahresplan
+				}
+			}
 			traits = { SG_trait_Finance_Minister SG_Conservative_Economy_Magician }
 			cost = 100
 			removal_cost = -1
@@ -177,6 +187,9 @@ characters={
 		advisor = {
 			slot = Cabinet_Minister
 			idea_token = GER_Walther_Funk
+			available = {
+				has_completed_focus = GER_Vierjahresplan
+			}
 			traits = { SG_trait_Finance_Minister SG_Mobilization_Organizer }
 			cost = 100
 			removal_cost = -1

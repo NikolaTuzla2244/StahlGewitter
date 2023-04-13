@@ -13,15 +13,26 @@ economy_progress_calc = {
 		}
 	}
 
-	#負債代入
 	set_temp_variable = { economy_deficit_gain = economy_index }
 	multiply_temp_variable = { economy_deficit_gain = -1 }
+	#負債代入
+	if = { #メフォ手形
+		limit = { has_country_flag = economy_suspend_deficit }
 
-	add_to_variable = { economy_deficit = economy_deficit_gain }
-	clamp_variable = {
-		var = economy_deficit
-		max = economy_deficit_width
-		min = 0
+		add_to_variable = { redemption = economy_deficit_gain }
+		clamp_variable = {
+			var = redemption
+			min = 0
+		}
+		set_variable = { economy_deficit = 0 }
+	}
+	else = {
+		add_to_variable = { economy_deficit = economy_deficit_gain }
+		clamp_variable = {
+			var = economy_deficit
+			max = economy_deficit_width
+			min = 0
+		}
 	}
 	
 	###レベル増加チェック

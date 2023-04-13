@@ -7,6 +7,56 @@ on_actions = {
 			GER = {
 				Rhein_Crisis_Setup = yes
 			}
+
+			### 内戦の余波
+			15 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
+			30 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			14 = {
+				damage_building = {
+					type = infrastructure
+					damage = 1
+				}
+			}
+			28 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
+			18 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			26 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
 		}
 	}
 }

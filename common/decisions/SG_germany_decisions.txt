@@ -32,12 +32,12 @@ GER_Notstandsarbeit = {
 			original_tag = GER
 		}
 		activation = {
-			date > 1935.1.2
+			date = 1935.1.2
 		}
 		available = {
 			check_variable = { unemployment_rate = 0 }
 		}
-		is_good = yes
+		is_good = no
 		days_mission_timeout = 720
 		complete_effect = {
 			add_political_power = 150
@@ -73,7 +73,7 @@ GER_Notstandsarbeit = {
 			civilian_factory_use = 1
 			improve_unemployment_modifier = 0.001
 		}
-		complete_effect = {
+		remove_effect = {
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -111,7 +111,7 @@ GER_Notstandsarbeit = {
 			bad_economic_index_modifier = 1
 			improve_unemployment_modifier = 0.003
 		}
-		complete_effect = {
+		remove_effect = {
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -162,7 +162,7 @@ GER_Notstandsarbeit = {
 			civilian_factory_use = 1
 			improve_unemployment_modifier = 0.003
 		}
-		complete_effect = {
+		remove_effect = {
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 1
 				add_manpower = 3000
@@ -193,7 +193,7 @@ GER_Notstandsarbeit = {
 			civilian_factory_use = 1
 			improve_unemployment_modifier = 0.003
 		}
-		complete_effect = {
+		remove_effect = {
 			random_owned_controlled_state = {
 				limit = {
 					has_resources_amount = {
@@ -229,7 +229,7 @@ GER_Notstandsarbeit = {
 			bad_economic_index_modifier = 1
 			improve_unemployment_modifier = 0.003
 		}
-		complete_effect = {
+		remove_effect = {
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -268,7 +268,7 @@ GER_Notstandsarbeit = {
 			bad_economic_index_modifier = 1
 			improve_unemployment_modifier = 0.003
 		}
-		complete_effect = {
+		remove_effect = {
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -288,6 +288,340 @@ GER_Notstandsarbeit = {
 		
 		ai_will_do = {
 			factor = 18
+		}
+	}
+}
+
+GER_Reichsautobahn = { #ライヒスアウトバーン
+	GER_Construct_Brandenburg = { #ブランデンブルクの施工
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 100
+		modifier = {
+			civilian_factory_use = 2
+			improve_unemployment_modifier = 0.003
+		}
+		remove_effect = {
+			838 = {
+				set_building_level = {
+					type = infrastructure
+					level = 5
+				}
+				add_state_modifier = {
+					modifier = { supply_factor = 0.05 }
+				}
+			}
+			64 = {
+				set_building_level = {
+					type = infrastructure
+					level = 5
+				}
+				add_state_modifier = {
+					modifier = { supply_factor = 0.05 }
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	GER_Construct_Hanover_Hamburg = { #ハノーファー・ハンブルクの施工
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 100
+		modifier = {
+			civilian_factory_use = 2
+			improve_unemployment_modifier = 0.003
+		}
+		remove_effect = {
+			59 = {
+				set_building_level = {
+					type = infrastructure
+					level = 5
+				}
+				add_state_modifier = {
+					modifier = { supply_factor = 0.05 }
+				}
+			}
+			837 = {
+				set_building_level = {
+					type = infrastructure
+					level = 5
+				}
+				add_state_modifier = {
+					modifier = { supply_factor = 0.05 }
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	GER_Construct_West = { #西部地域の施工
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 100
+		modifier = {
+			civilian_factory_use = 2
+			improve_unemployment_modifier = 0.003
+		}
+		remove_effect = {
+			51 = {
+				set_building_level = {
+					type = infrastructure
+					level = 5
+				}
+				add_state_modifier = {
+					modifier = { supply_factor = 0.05 }
+				}
+			}
+			55 = {
+				set_building_level = {
+					type = infrastructure
+					level = 5
+				}
+				add_state_modifier = {
+					modifier = { supply_factor = 0.05 }
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	GER_Construct_Sachsen_Thuringen = { #ザクセン・テューリンゲンの施工
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 100
+		modifier = {
+			civilian_factory_use = 2
+			improve_unemployment_modifier = 0.003
+		}
+		remove_effect = {
+			65 = {
+				set_building_level = {
+					type = infrastructure
+					level = 5
+				}
+				add_state_modifier = {
+					modifier = { supply_factor = 0.05 }
+				}
+			}
+			54 = {
+				set_building_level = {
+					type = infrastructure
+					level = 5
+				}
+				add_state_modifier = {
+					modifier = { supply_factor = 0.05 }
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	GER_Construct_East = { #東部地域の施工
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 100
+		modifier = {
+			civilian_factory_use = 2
+			improve_unemployment_modifier = 0.003
+		}
+		remove_effect = {
+			5 = {
+				set_building_level = {
+					type = infrastructure
+					level = 5
+				}
+				add_state_modifier = {
+					modifier = { supply_factor = 0.05 }
+				}
+			}
+			66 = {
+				set_building_level = {
+					type = infrastructure
+					level = 5
+				}
+				add_state_modifier = {
+					modifier = { supply_factor = 0.05 }
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}
+
+GER_Unser_Land = {
+	GER_Danzig_Agitation = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		cost = 50
+		days_remove = 50
+		days_re_enable = 70
+		remove_effect = {
+			DNZ = {
+				add_stability = -0.02
+				add_popularity = {
+					ideology = national_socialism
+					popularity = 0.03
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	GER_Danzig_Operations = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		cost = 75
+		days_remove = 50
+		days_re_enable = 70
+		remove_effect = {
+			DNZ = {
+				add_stability = -0.05
+				add_popularity = {
+					ideology = national_socialism
+					popularity = 0.05
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 6
+		}
+	}
+	GER_Osterreich_Agitation = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		cost = 50
+		days_remove = 50
+		days_re_enable = 70
+		remove_effect = {
+			AUS = {
+				add_stability = -0.02
+				add_popularity = {
+					ideology = national_socialism
+					popularity = 0.03
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	GER_Osterreich_Operations = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		cost = 75
+		days_remove = 50
+		days_re_enable = 70
+		remove_effect = {
+			AUS = {
+				add_stability = -0.05
+				add_popularity = {
+					ideology = national_socialism
+					popularity = 0.05
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 6
+		}
+	}
+	GER_Sudetenland_Agitation = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		cost = 50
+		days_remove = 50
+		days_re_enable = 70
+		remove_effect = {
+			CZE = {
+				add_stability = -0.02
+				add_popularity = {
+					ideology = national_socialism
+					popularity = 0.03
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	GER_Sudetenland_Operations = {
+		icon = GFX_decision_infiltrate_state
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		cost = 75
+		days_remove = 50
+		days_re_enable = 70
+		remove_effect = {
+			CZE = {
+				add_stability = -0.05
+				add_popularity = {
+					ideology = national_socialism
+					popularity = 0.05
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 6
 		}
 	}
 }

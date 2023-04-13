@@ -98,7 +98,7 @@ add_ideas = {
 	volunteer_only_1
 	economy_military_economy
 	#development
-	SG_academic_3
+	SG_academic_4
 	SG_industry_4
 	SG_administration_4
 	SG_infrastructure_4
@@ -108,7 +108,7 @@ add_ideas = {
 	SPA_Alfonso_XIII_HoG
 }
 
-country_event = { id = sg_spain_civ.2 days = 250 }
+country_event = { id = sg_spain_civ.2 days = 582 random_days = 20 }
 
 recruit_character = SPA_Jose_Sanjurjo
 

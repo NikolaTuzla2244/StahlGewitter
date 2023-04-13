@@ -1,4 +1,26 @@
 division_template = {
+	name = "División de Infantería"
+
+	division_names_group = SPR_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
 	name = "Brigada Legionario"			# International volunteers -- poor equipment, no experience (militia)
 	is_locked = yes
 	division_names_group = SPR_INF_01
@@ -14,9 +36,39 @@ division_template = {
 
 units = {
 	division = {
-		name = "Brigada Legionario"
+		name = "División de Infantería"
 		location = 3938 #マドリード
-		division_template = "Brigada Legionario"
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "División de Infantería"
+		location = 3938 #マドリード
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "División de Infantería"
+		location = 3938 #マドリード
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "División de Infantería"
+		location = 3938 #マドリード
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "División de Infantería"
+		location = 3938 #マドリード
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "División de Infantería"
+		location = 3938 #マドリード
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "División de Infantería"
+		location = 3938 #マドリード
+		division_template = "División de Infantería"
 	}
 	division = {
 		name = "Brigada Legionario"
@@ -143,34 +195,20 @@ units = {
 		location = 3938 #マドリード
 		division_template = "Brigada Legionario"
 	}
+
 	division = {
-		name = "Brigada Legionario"
-		location = 3938 #マドリード
-		division_template = "Brigada Legionario"
+		name = "División de Infantería"
+		location = 9945 #モロッコ
+		division_template = "División de Infantería"
 	}
 	division = {
-		name = "Brigada Legionario"
-		location = 3938 #マドリード
-		division_template = "Brigada Legionario"
+		name = "División de Infantería"
+		location = 9945 #モロッコ
+		division_template = "División de Infantería"
 	}
 	division = {
-		name = "Brigada Legionario"
-		location = 3938 #マドリード
-		division_template = "Brigada Legionario"
-	}
-	division = {
-		name = "Brigada Legionario"
-		location = 3938 #マドリード
-		division_template = "Brigada Legionario"
-	}
-	division = {
-		name = "Brigada Legionario"
-		location = 3938 #マドリード
-		division_template = "Brigada Legionario"
-	}
-	division = {
-		name = "Brigada Legionario"
-		location = 3938 #マドリード
-		division_template = "Brigada Legionario"
+		name = "División de Infantería"
+		location = 9945 #モロッコ
+		division_template = "División de Infantería"
 	}
 }

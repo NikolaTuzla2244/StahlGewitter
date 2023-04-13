@@ -11,8 +11,21 @@ spriteTypes = {
 		name = "GFX_focus_generic_defence_tank"
 		texturefile = "gfx/interface/goals/focus_generic_defence_tank.png"
 	}
+	#Britain
+	SpriteType = {
+		name = "GFX_focus_ENG_black_shirts_march"
+		texturefile = "gfx/interface/goals/ENG/focus_ENG_black_shirts_march.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_ENG_keep_course_by_churchill"
+		texturefile = "gfx/interface/goals/ENG/focus_ENG_keep_course_by_churchill.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_ENG_willingdon_takes_control"
+		texturefile = "gfx/interface/goals/ENG/focus_ENG_willingdon_takes_control.png"
+	}
 
-	#FRA
+	#France Commune
 	SpriteType = {
 		name = "GFX_focus_FRA_AvantGarde_Battalion"
 		texturefile = "gfx/interface/goals/FRA/focus_FRA_AvantGarde_Battalion.png"

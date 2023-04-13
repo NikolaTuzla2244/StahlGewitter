@@ -1,0 +1,61 @@
+add_namespace = sg_romania
+
+country_event = { #トランシルヴァニアへの進駐
+	id = sg_romania.1
+	title = sg_romania.1.t
+	desc = sg_romania.1.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_romania.1.a
+		trigger = {
+			TRA = {
+				NOT = { has_government = national_socialism }
+			}
+		}
+		HUN = {
+			country_event = { id = sg_hungary.4 days = 1 }
+		}
+
+		declare_war_on = {
+			target = TRA
+			type = annex_everything
+		}
+	}
+	option = {
+		name = sg_romania.1.b
+		trigger = {
+			TRA = {
+				has_government = national_socialism
+			}
+		}
+		HUN = {
+			country_event = { id = sg_hungary.4 days = 1 }
+		}
+
+		annex_country = {
+			target = TRA
+		}
+	}
+}
+country_event = { #ブカレスト条約機構の設立
+	id = sg_romania.2
+	title = sg_romania.2.t
+	desc = sg_romania.2.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_romania.2.a
+
+		create_faction = BUCHAREST_TREATY_ORGANIZATION #ブカレスト条約機構
+		add_to_faction = SER
+		add_to_faction = GRE
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

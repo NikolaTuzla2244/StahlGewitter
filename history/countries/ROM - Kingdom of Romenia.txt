@@ -1,5 +1,7 @@
 capital = 46
 
+set_oob = "ROM"
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -78,12 +80,25 @@ set_popularities = {
 }
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
+	#laws
+	reduced_welfare_2
+	border_control_2
+	limited_conscription_2
+
+	economy_corporatism
+	#development
+	SG_academic_3
+	SG_administration_3
+	SG_industry_4
+	SG_infrastructure_3
+	SG_military_3
+	SG_network_2
 
 	ROM_Mihai_I_HoG
 }
+
+country_event = { id = sg_romania.2 days = 1040 random_days = 5 }
+country_event = { id = sg_romania.1 days = 1250 random_days = 20 }
 
 recruit_character = ROM_Corneliu_Codreanu
 

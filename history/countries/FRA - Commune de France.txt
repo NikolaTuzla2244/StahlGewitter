@@ -64,8 +64,8 @@ set_technology = {
 
 set_research_slots = 4
 set_convoys = 200
-set_stability = 0.45
-set_war_support = 0.3
+set_stability = 0.15
+set_war_support = 0.15
 
 set_politics = {
 	ruling_party = authoritarian_socialism
@@ -102,8 +102,10 @@ add_ideas = {
 	SG_network_2
 	SG_military_2
 
-	FRA_Sectism_idea
-	FRA_Great_Purge
+	FRA_idea_Sectism_idea
+	FRA_idea_Great_Purge
+	FRA_idea_Commune_Discord
+	FRA_idea_Aftermath_Blood_Sea
 }
 add_dynamic_modifier = {
 	modifier = FRA_sectism_dynmod

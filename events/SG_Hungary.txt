@@ -22,7 +22,123 @@ country_event = { #チェコスロヴァキアとの和平
 			transfer_state = 71
 			
 			set_cosmetic_tag = HUN_Danube
+			hidden_effect = {
+				country_event = { id = sg_hungary.3 days = 2 }
+			}
+		}
+	}
+}
+country_event = { #チェコスロヴァキアへの対処
+	id = sg_hungary.2
+	title = sg_hungary.2.t
+	desc = sg_hungary.2.d
+	# picture = GFX_report_event_physics_lab_02
 
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_hungary.2.a
+
+		country_event = { id = sg_hungary.5 days = 5 }
+		hidden_effect = {
+			AUS = {
+				country_event = sg_austria.1
+			}
+			news_event = { id = sg_worldnews.12 days = 3 }
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = sg_hungary.2.b
+
+		add_stability = -0.1
+	}
+}
+country_event = { #戦線統一
+	id = sg_hungary.3
+	title = sg_hungary.3.t
+	desc = sg_hungary.3.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_hungary.3.a
+
+		create_faction = KELETEUROPAI_VOROS_FRONT #東欧赤色戦線
+		add_to_faction = CZE
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+country_event = { #ルーマニアがトランシルヴァニアに進駐！
+	id = sg_hungary.4
+	title = sg_hungary.4.t
+	desc = sg_hungary.4.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_hungary.4.a
+		trigger = {
+			TRA = {
+				NOT = { has_government = authoritarian_socialism }
+			}
+		}
+
+		declare_war_on = {
+			target = TRA
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = ROM
+			type = annex_everything
+		}
+		hidden_effect = {
+			news_event = { id = sg_worldnews.3 days = 3 }
+		}
+	}
+	option = {
+		name = sg_hungary.4.b
+		trigger = {
+			TRA = {
+				has_government = authoritarian_socialism
+			}
+		}
+
+		annex_country = {
+			target = TRA
+		}
+		declare_war_on = {
+			target = ROM
+			type = annex_everything
+		}
+		hidden_effect = {
+			news_event = { id = sg_worldnews.3 days = 3 }
+		}
+	}
+}
+country_event = { #軍事介入！
+	id = sg_hungary.5
+	title = sg_hungary.5.t
+	desc = sg_hungary.5.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_hungary.5.a
+
+		declare_war_on = {
+			target = CZE
+			type = annex_everything
+		}
+		ai_chance = {
+			factor = 1
 		}
 	}
 }

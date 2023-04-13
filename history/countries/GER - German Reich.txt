@@ -1,5 +1,7 @@
 ﻿capital = 838
 
+set_oob = "GER"
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -92,10 +94,11 @@ add_ideas = {
 	border_control_2
 	disarmed_nation_0
 
-	economy_nazi_corporatism
+	economy_corporatism
 
 	GER_bitter_defeat
 	GER_Treaty_of_Versailles
+	GER_Intr_Party_Struggle
 
 	SG_academic_5
 	SG_administration_4

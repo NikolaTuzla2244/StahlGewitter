@@ -45,6 +45,7 @@ economy_state_text:0 "現在、経済は[GetEconomyStates]である"
 
 economy_progress_text:0 "現在の経済進捗 : [?economy_progress|Y0] / 300"
 
+deficit_suspend_text:0 "負債は§R停止状態§!"
 deficit_value:0 "§R負債§! : [?economy_deficit|R0] / [?economy_deficit_width|0]"
 deficit_percentage:0 "上限の[?economy_deficit_ratio|R0%]"
 
@@ -99,7 +100,7 @@ balance_text:0 "§Y均衡状態§!"
 
 diplo_economy_level:0 "レベル:§Y[?THIS.economy_level]§!"
 
-disable_deficit:0 "§Y負債システムが無効である§!"
+economy_suspend_deficit:0 "§Y負債が無効である§!"
 
 economic_law_limit_tt:0 "§R使用不可§!"
 
@@ -126,6 +127,8 @@ economy_unemployment_text:0 "失業率: [?unemployment_rate|Y%2]"
 good_economic_index_modifier:0 "£good_economic_index_texticon §G良好§!経済指数"
 bad_economic_index_modifier:0 "£bad_economic_index_texticon §R悪化§!経済指数"
 improve_unemployment_modifier:0 "£unemployment_texticon 月毎の§Y失業率§!改善"
+
+economy_suspend_deficit_tt:0 "§Y負債を無効化する§!"
 
 economy_progress_reset_tt:0 "経済進捗はリセットされる"
 economy_level_up_tt:0 "経済レベルが§G増加§!する"

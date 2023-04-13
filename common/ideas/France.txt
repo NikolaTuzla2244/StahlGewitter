@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		FRA_Sectism_idea = {
+		FRA_idea_Sectism_idea = {
 			picture = FRA_Great_Purge
 			allowed = {
 				tag = FRA
@@ -10,20 +10,20 @@ ideas = {
 				custom_modifier_tooltip = FRA_Sectism_idea_tt
 			}
 		}
-		FRA_Great_Purge = {
+		FRA_idea_Great_Purge = {
 			picture = FRA_Great_Purge
 			allowed = {
 				tag = FRA
 			}
 			removal_cost = -1
 			modifier = {
-				stability_weekly_factor = -0.018
+				stability_weekly_factor = -0.02
 				social_liberalism_drift = -0.05
 				reformism_drift = -0.05
 				custom_modifier_tooltip = FRA_Great_Purge_tt
 			}
 		}
-		FRA_Heresy_Pursuit = {
+		FRA_idea_Heresy_Pursuit = {
 			picture = FRA_Great_Purge
 			allowed = {
 				tag = FRA
@@ -35,6 +35,76 @@ ideas = {
 				reformism_drift = -0.02
 				monthly_population = -0.1
 				custom_modifier_tooltip = FRA_Great_Purge_tt
+			}
+		}
+		FRA_idea_Commune_Discord = { #コミューンの齟齬
+			picture = FRA_Great_Purge
+			allowed = {
+				tag = FRA
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				drift_defence_factor = -0.25
+			}
+		}
+		FRA_idea_Aftermath_Blood_Sea = { #流血の余波
+			picture = FRA_Great_Purge
+			allowed = {
+				tag = FRA
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				industry_repair_factor = -0.25
+				industry_free_repair_factor = -0.25
+			}
+		}
+		FRA_idea_Wound_Repair = { #傷の修復
+			picture = FRA_Great_Purge
+			allowed = {
+				tag = FRA
+			}
+			removal_cost = -1
+			modifier = {
+				industry_repair_factor = 0.25
+				industry_free_repair_factor = 0.25
+			}
+		}
+
+		FRA_idea_Scientific_Socialism = { #科学的社会主義
+			picture = FRA_Great_Purge
+			allowed = {
+				tag = FRA
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		FRA_idea_1st_Quota = { #第一回国家ノルマ
+			picture = FRA_Great_Purge
+			allowed = {
+				tag = FRA
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = 0.1
+				production_speed_industrial_complex_factor = 0.07
+				production_speed_arms_factory_factor = 0.07
+			}
+		}
+		FRA_idea_Devaluation_Franc = { #フラン安経済
+			picture = FRA_Great_Purge
+			allowed = {
+				tag = FRA
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.03
+				trade_opinion_factor = 0.2
+				min_export = 0.1
 			}
 		}
 	}

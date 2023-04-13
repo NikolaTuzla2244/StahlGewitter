@@ -82,12 +82,6 @@ scripted_gui = {
 				has_war = yes
 			}
 
-			# deficit_value_visible = { check_variable = { economy_info = 0 } }
-			deficit_percentage_visible = { check_variable = { economy_info = 0 } }
-
-			# unemployment_value_visible = { check_variable = { economy_info = 1 } }
-			unemployment_improve_visible = { check_variable = { economy_info = 1 } }
-
 			# law_entry_up_button_click_enabled = {
 			# 	if = {
 			# 		limit = { check_variable = { v = 1 } }
@@ -131,6 +125,20 @@ scripted_gui = {
 				NOT = { check_variable = { economy_deficit = 0 } }
 			}
 
+			cover_pie_visible = { NOT = { has_country_flag = economy_suspend_deficit } }
+			cover_pie_lock_visible = { has_country_flag = economy_suspend_deficit }
+
+			# deficit_value_visible = { check_variable = { economy_info = 0 } }
+			deficit_percentage_visible = {
+				check_variable = { economy_info = 0 }
+				NOT = { has_country_flag = economy_suspend_deficit }
+			}
+
+			# unemployment_value_visible = { check_variable = { economy_info = 1 } }
+			unemployment_improve_visible = { check_variable = { economy_info = 1 } }
+
+			deficit_suspend_text_visible = { has_country_flag = economy_suspend_deficit }
+			deficit_value_visible = { NOT = { has_country_flag = economy_suspend_deficit } }
 			#cursor spam
 			cursor_icon_0_visible = {
 				if = {

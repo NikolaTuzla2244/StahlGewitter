@@ -12,7 +12,8 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			modifier = {
-				consumer_goods_factor = 0.35
+				consumer_goods_factor = 0.45
+				production_speed_arms_factory_factor = -0.2
 
 				good_economic_index_modifier = 2
 			}
@@ -26,7 +27,8 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			modifier = {
-				consumer_goods_factor = 0.3
+				consumer_goods_factor = 0.4
+				production_speed_arms_factory_factor = -0.1
 
 				good_economic_index_modifier = 1
 			}
@@ -40,7 +42,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			modifier = {
-				consumer_goods_factor = 0.25
+				consumer_goods_factor = 0.35
 
 			}
 		}
@@ -53,7 +55,8 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			modifier = {
-				consumer_goods_factor = 0.2
+				consumer_goods_factor = 0.3
+				production_speed_industrial_complex_factor = -0.1
 
 				bad_economic_index_modifier = 1
 			}
@@ -68,7 +71,8 @@ ideas = {
 			cancel_if_invalid = no
 			modifier = {
 				conscription_factor = -0.03
-				consumer_goods_factor = 0.15
+				consumer_goods_factor = 0.25
+				production_speed_industrial_complex_factor = -0.2
 
 				bad_economic_index_modifier = 2
 			}
@@ -126,6 +130,7 @@ ideas = {
 			cancel_if_invalid = no
 			modifier = {
 				min_export = 0.15
+				local_resources_factor = 0.05
 
 				bad_economic_index_modifier = 2
 			}
@@ -231,7 +236,7 @@ ideas = {
 			cancel_if_invalid = no
 			modifier = {
 				stability_factor = 0.1
-				political_power_gain = 0.05
+				improve_unemployment_modifier = 0.005
 
 				good_economic_index_modifier = 1
 			}
@@ -244,7 +249,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			modifier = {
-				consumer_goods_factor = -0.02
+				consumer_goods_factor = -0.03
 
 				good_economic_index_modifier = 1
 			}
@@ -257,10 +262,9 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			modifier = {
-				political_power_factor = 0.05
-
 				stability_factor = 0.05
-				consumer_goods_factor = 0.02
+				consumer_goods_factor = 0.03
+				improve_unemployment_modifier = 0.002
 
 				good_economic_index_modifier = 2
 			}
@@ -273,10 +277,9 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			modifier = {
-				consumer_goods_factor = -0.02
+				consumer_goods_factor = -0.05
 
-				global_building_slots_factor = 0.15
-				local_resources_factor = 0.1
+				production_speed_buildings_factor = 0.03
 				good_economic_index_modifier = 1
 			}
 		}
@@ -303,7 +306,7 @@ ideas = {
 			cancel_if_invalid = no
 			modifier = {
 				war_support_factor = 0.15
-				war_stability_factor = 0.25
+				trade_opinion_factor = -0.25
 				local_resources_factor = 0.1
 				production_speed_arms_factory_factor = 0.15
 
@@ -319,7 +322,6 @@ ideas = {
 			cancel_if_invalid = no
 			modifier = {
 				political_power_factor = -0.05
-
 				consumer_goods_factor = 0.02
 				production_factory_start_efficiency_factor = 0.05
 				good_economic_index_modifier = 1
@@ -334,9 +336,8 @@ ideas = {
 			cancel_if_invalid = no
 			modifier = {
 				political_power_factor = -0.05
-
 				production_speed_arms_factory_factor = 0.1
-				consumer_goods_factor = -0.02
+				good_economic_index_modifier = 1
 			}
 		}
 	}

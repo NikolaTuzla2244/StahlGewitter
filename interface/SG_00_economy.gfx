@@ -40,6 +40,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/economy/piechart/cover_pie.png"
 	}
 	spriteType = {
+		name = "GFX_cover_pie_lock"
+		texturefile = "gfx/interface/economy/piechart/cover_pie_lock.png"
+	}
+	spriteType = {
 		name = "GFX_black_pie"
 		texturefile = "gfx/interface/economy/piechart/black_pie.png"
 	}

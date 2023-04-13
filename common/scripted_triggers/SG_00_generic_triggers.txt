@@ -1,3 +1,23 @@
+only_in_event = {
+	custom_trigger_tooltip = {
+		tooltip = SG_only_in_event
+
+		always = no
+	}
+}
+
+has_reached_maximum_divisions = {
+	OR = {
+		check_variable = {
+			var = num_divisions
+			value = max_divisions
+			compare = greater_than_or_equals
+		}
+		# has_deficit_economy = yes
+	}
+	NOT = { num_divisions = 0 }
+}
+
 is_spain = {
 	custom_trigger_tooltip = {
 		tooltip = SG_is_spain

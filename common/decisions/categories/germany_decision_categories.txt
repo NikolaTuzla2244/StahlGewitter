@@ -15,3 +15,18 @@ GER_Notstandsarbeit = {
 		tag = GER
 	}
 }
+GER_Reichsautobahn = {
+	icon = generic_research
+	priority = 9
+	visible = {
+		tag = GER
+		has_completed_focus = GER_Autobahn_Construction_Start
+	}
+}
+GER_Unser_Land = {
+	icon = generic_research
+	priority = 8
+	visible = {
+		tag = GER
+	}
+}

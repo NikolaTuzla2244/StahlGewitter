@@ -53,6 +53,10 @@ on_actions = {
 				economy_index_calc = yes
 				economy_deficit_width_calc = yes
 
+				debt_mod_calc = yes #負債デバフ計算
+				economy_unemployment_calc = yes #失業率計算
+				unemployment_mod_calc = yes #失業率デバフ計算
+
 				economy_progress_gui_setup = yes #GUI調整
 			}
 		}

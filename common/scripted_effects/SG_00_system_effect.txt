@@ -1,3 +1,23 @@
+#こいつホント何のために必要なんだろう
+clear_sabotaged_resources_if_necesary = {
+	if = {
+		limit = {
+			not = {
+				has_dynamic_modifier = {
+					modifier = sabotaged_resources
+				}
+			}
+		}
+		
+		clear_variable = sabotaged_oil
+		clear_variable = sabotaged_aluminium
+		clear_variable = sabotaged_rubber
+		clear_variable = sabotaged_tungsten
+		clear_variable = sabotaged_steel
+		clear_variable = sabotaged_chromium
+	}
+}
+
 ideology_array_setup = {
 	#initialize
 	clear_array = THIS.country_ideology_groups

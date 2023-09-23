@@ -1,6 +1,8 @@
 ﻿l_japanese:
-#キャラクター
+###キャラクター
 SCS_Stjepan_Radic:0 "スチェパン・ラディチ"
 SCS_Anton_Korosec:0 "アントン・コロシェツ"
 SCS_Josip_Broz_Tito:0 "ヨシップ・ブロズ・チトー"
 SCS_Mehmed_Spaho:0 "メフメド・スパホ"
+###国民精神
+SCS_Srpska_Threat:0 "スルプスカの脅威"

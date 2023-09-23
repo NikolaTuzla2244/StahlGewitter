@@ -133,6 +133,10 @@ FIU = {
 	color = rgb { 66 49 31 }
 	color_ui = rgb { 66 49 31 }
 }
+VAT = {
+	color = rgb { 229 226 201 }
+	color_ui = rgb { 206 185 78 }
+}
 ROM = {
 	color = rgb { 181 153 61 }
 	color_ui = rgb { 181 153 61 }
@@ -524,6 +528,11 @@ AFG = {
 	color = rgb { 64 160 167 }
 	color_ui = rgb { 83 208 217 }
 }
+
+BRA = {
+	color = rgb { 69 102 49 }
+	color_ui = rgb { 69 102 4 }
+}
 ARG = {
 	color = rgb { 145 157 236 }
 	color_ui = rgb { 189 204 255 }
@@ -537,10 +546,8 @@ BOL = {
 	color = rgb { 255 234 177 } #255 180 136
 	color_ui = rgb { 255 234 177 }
 }
-BRA = {
-	color = rgb { 76 145 63 }
-	color_ui = rgb { 99 189 82 }
-}
+
+
 CHL = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }

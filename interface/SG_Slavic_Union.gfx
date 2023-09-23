@@ -1,0 +1,7 @@
+spriteTypes = {
+	#国民精神
+	spriteType = {
+		name = "GFX_idea_SCS_Srpska_Threat"
+		texturefile = "gfx/interface/ideas/SCS/idea_SCS_Srpska_Threat.png"
+	}
+}

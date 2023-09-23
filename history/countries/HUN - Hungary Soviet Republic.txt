@@ -93,6 +93,7 @@ add_ideas = {
 	SG_military_3
 
 	# HUN_Hungarian_Throne_HoG
+	HUN_National_Army
 }
 
 recruit_character = HUN_Bela_Kun

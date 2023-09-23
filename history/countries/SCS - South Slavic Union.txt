@@ -79,9 +79,20 @@ set_popularities = {
 }
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
+	#laws
+	personal_consignment_0
+	active_trade_1
+	volunteer_only_1
+	economy_social_welfare
+	#development
+	SG_academic_3
+	SG_industry_3
+	SG_administration_4
+	SG_infrastructure_3
+	SG_network_2
+	SG_military_3
+
+	SCS_Srpska_Threat
 }
 
 recruit_character = SCS_Stjepan_Radic

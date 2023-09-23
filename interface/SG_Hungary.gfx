@@ -4,4 +4,9 @@ spriteTypes = {
 		name = "GFX_Portrait_HUN_Karl_I"
 		texturefile = "gfx/characters/large/HUN/Portrait_HUN_Karl_I.png"
 	}
+	#国民精神
+	spriteType = {
+		name = "GFX_idea_HUN_National_Army"
+		texturefile = "gfx/interface/ideas/HUN/idea_HUN_National_Army.png"
+	}
 }

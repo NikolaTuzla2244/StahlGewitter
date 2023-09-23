@@ -22,6 +22,7 @@ ITA = "countries/western_european.txt" #イタリア王国
 PCI = "countries/western_european.txt" #イタリア共産党
 PNF = "countries/western_european.txt" #国家ファシスト党
 FIU = "countries/western_european.txt" #カルナーロ＝イタリア執政府
+VAT = "countries/western_european.txt" #バチカン市国
 SWI = "countries/western_european.txt" #スイス
 
 AUS	= "countries/western_european.txt" #オーストリア共和国
@@ -179,10 +180,13 @@ CON = "countries/eastern_european.txt" #北米構造体 / エマニュエル・�
 #北米
 CAN = "common/countries/commonwealth.txt" #カナダ自治領
 
+#南米
+BRA = "countries/south_american.txt" #ブラジル合衆国
+
 ARG = "countries/Argentina.txt"
 BHU = "countries/Bhutan.txt"
 BOL = "countries/Bolivia.txt"
-BRA = "countries/Brazil.txt"
+
 
 CHL = "countries/Chile.txt"
 COL = "countries/Colombia.txt"

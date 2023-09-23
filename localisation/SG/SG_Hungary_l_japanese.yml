@@ -1,8 +1,10 @@
 ﻿l_japanese:
-#キャラクター
+###キャラクター
 HUN_Bela_Kun:0 "クン・ベーラ"
 
 HUN_Gusztav_Gratz:0 "グスターフ・グラッツ"
 HUN_Gombos_Gyula:0 "ゲンベシュ・ジュラ"
 HUN_Hungarian_Throne:0 "ハンガリー王座"
 HUN_Karl_I:0 "カーロイ4世"
+###国民精神
+HUN_National_Army:0 "国民軍"

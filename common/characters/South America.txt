@@ -1,0 +1,13 @@
+characters = {
+	BRA_Julio_Prestes = { #カフェ・コン・レイテ体制の臆病な頭領
+		name = BRA_Julio_Prestes
+		portraits={
+			civilian={
+				large = "gfx/characters/large/BRA/Portrait_BRA_Julio_Prestes.png"
+			}
+		}
+		country_leader = {
+			ideology = limited_democracy_subtype #オリガルヒに変更する
+		}
+	}
+}

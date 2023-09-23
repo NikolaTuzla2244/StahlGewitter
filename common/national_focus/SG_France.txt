@@ -28,12 +28,16 @@ focus_tree = {
 		
 		available_if_capitulated = yes
 		cancelable = no
+		cancel_if_invalid = yes
 
 		ai_will_do = {
 			factor = 30
 		}
 		available = {
 			# date > 1935.5.1
+			FRA_jacques_duclos = {
+				is_country_leader = yes
+			}
 		}
 		completion_reward = {
 			swap_ideas = {

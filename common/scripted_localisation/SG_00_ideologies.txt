@@ -277,6 +277,10 @@ defined_text = { #権威社会主義
 defined_text = { #超急進主義
 	name = GetSubIdeologyName_UltRad
 	text = {
+		trigger = { has_country_leader_ideology = surrealism_subtype }
+		localization_key = surrealism_subtype
+	}
+	text = {
 		localization_key = ultraradicalism
 	}
 }

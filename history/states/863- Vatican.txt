@@ -1,0 +1,22 @@
+state= {
+	id=863
+	name="STATE_863" # Vatican
+	manpower = 300
+	
+	state_category = city
+
+	history = {
+		owner = VAT
+		victory_points = { 13245 40 }
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = VAT
+	}
+
+	provinces= {
+		13245
+ 	}
+
+	local_supplies=0.0 
+}

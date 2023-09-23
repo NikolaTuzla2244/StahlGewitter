@@ -38,7 +38,8 @@ characters = {
 			idea_token = USA_Charles_Coughlin
 			traits = { SG_trait_radio_priest }
 			cost = 0
-			removal_cost = 300
+			removal_cost = -1
+			can_be_fired = no
 		}
 	}
 	USA_Francis_Townsend = {
@@ -54,7 +55,8 @@ characters = {
 			idea_token = USA_Francis_Townsend
 			traits = { SG_trait_hard_headed_reformer }
 			cost = 0
-			removal_cost = 300
+			removal_cost = -1
+			can_be_fired = no
 		}
 	}
 	USA_Richard_Russell_Jr = {
@@ -73,7 +75,8 @@ characters = {
 			idea_token = USA_Richard_Russell_Jr
 			traits = { SG_trait_southern_fort }
 			cost = 0
-			removal_cost = 300
+			removal_cost = -1
+			can_be_fired = no
 		}
 	}
 

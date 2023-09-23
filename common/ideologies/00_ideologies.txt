@@ -157,7 +157,7 @@ ideologies = {
 			objectivism_subtype = {}
 		}
 		dynamic_faction_names = {}
-		color = { 22 77 119 }
+		color = { 201 185 64 }# color = { 22 77 119 }
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no
@@ -269,6 +269,8 @@ ideologies = {
 	ultraradicalism = {
 		types = {
 			ultraradicalism_subtype = {}
+
+			surrealism_subtype = {}
 		}
 		dynamic_faction_names = {}
 		color = { 255 255 255 }

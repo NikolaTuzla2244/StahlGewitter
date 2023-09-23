@@ -1,0 +1,27 @@
+ideas = {
+	country = {
+		### ハンガリー
+		HUN_National_Army = { #国民軍
+			picture = HUN_National_Army
+			allowed = {
+				tag = SCS
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+			}
+		}
+		### 南スラヴ連合
+		SCS_Srpska_Threat = { #スルプスカの脅威
+			picture = SCS_Srpska_Threat
+			allowed = {
+				tag = SCS
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				national_populism_drift = 0.002
+			}
+		}
+	}
+}

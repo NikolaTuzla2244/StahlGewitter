@@ -41,4 +41,15 @@ characters = {
 			}
 		}
 	}
+	ITA_Gabriele_d_Annunzio = {
+		name = ITA_Gabriele_d_Annunzio
+		portraits={
+			civilian={
+				large = "gfx/characters/large/ITA/Portrait_ITA_Gabriele_d_Annunzio.png"
+			}
+		}
+		country_leader = {
+			ideology = national_syndicalism_subtype
+		}
+	}
 }

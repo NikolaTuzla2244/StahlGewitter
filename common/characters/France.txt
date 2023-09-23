@@ -1,5 +1,5 @@
 characters={
-	FRA_Jacques_Duclos = { #中央ブロック・大粛清の嵐
+	FRA_Jacques_Duclos = { #"ジャック・デュクロ / 中央ブロック・大粛清の嵐
 		name = FRA_Jacques_Duclos
 		portraits={
 			civilian={
@@ -22,7 +22,7 @@ characters={
 		# 	logistics_skill = 3
 		# }
 	}
-	FRA_Jacques_Doriot = { #フランス人民よ、国家元帥に続け！
+	FRA_Jacques_Doriot = { #ジャック・ドリオ / フランス人民よ、国家元帥に続け！
 		name = FRA_Jacques_Doriot
 		portraits={
 			civilian={
@@ -45,7 +45,7 @@ characters={
 			logistics_skill = 2
 		}
 	}
-	FRA_Francois_Le_Leve = {
+	FRA_Francois_Le_Leve = { #フランソワ・ル・レーヴ
 		name = FRA_Francois_Le_Leve
 		portraits={
 			civilian={
@@ -56,7 +56,7 @@ characters={
 			ideology = revolutionary_syndicalism_subtype
 		}
 	}
-	FRA_Marceau_Pivert = {
+	FRA_Marceau_Pivert = { #マルソー・ピベール
 		name = FRA_Marceau_Pivert
 		portraits={
 			civilian={
@@ -67,7 +67,7 @@ characters={
 			ideology = social_liberalism_subtype
 		}
 	}
-	FRA_Leon_Blum = {
+	FRA_Leon_Blum = { #レオン・ブルム
 		name = FRA_Leon_Blum
 		portraits={
 			civilian={
@@ -78,7 +78,7 @@ characters={
 			ideology = social_democracy_subtype
 		}
 	}
-	FRA_Georges_Bataille = {
+	FRA_Georges_Bataille = { #ジョルジュ・バタイユ
 		name = FRA_Georges_Bataille
 		portraits={
 			civilian={
@@ -86,11 +86,22 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = ultraradicalism_subtype
+			ideology = surrealism_subtype
 		}
 	}
+	# FRA_Kiyosumi_Akira = { #清澄アキラ♡♡♡♡♡
+	# 	name = FRA_Kiyosumi_Akira
+	# 	portraits={
+	# 		civilian={
+	# 			large = "gfx/characters/large/FRA/Portrait_FRA_Kiyosumi_Akira.png"
+	# 		}
+	# 	}
+	# 	country_leader = {
+	# 		ideology = surrealism_subtype
+	# 	}
+	# }
 
-	FRA_Maurice_Gamelin = {
+	FRA_Maurice_Gamelin = { #モーリス・ガムラン
 		name = FRA_Maurice_Gamelin
 		portraits = {
 			army = {

@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = KZS
+		owner = ROS
 		victory_points = {
 			3529 30.0
 		}
@@ -17,7 +17,7 @@ state={
 			industrial_complex = 1
 			air_base = 1
 		}
-		add_core_of = KZS
+		add_core_of = ROS
 	}
 
 	provinces={

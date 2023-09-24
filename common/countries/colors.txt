@@ -1,5 +1,5 @@
 #reload countrycolors
-
+# ヨーロッパ #
 ENG = {
 	color = rgb { 104 0 47 }
 	color_ui = rgb { 104 0 47 }
@@ -164,8 +164,8 @@ NOR = {
 	color_ui = rgb { 112 93 89 }
 }
 FIN = {
-	color = rgb { 115 3 14 }
-	color_ui = rgb { 115 3 14 }
+	color = rgb { 96 37 38 }
+	color_ui = rgb { 96 37 38 }
 }
 FWG = {
 	color = rgb { 205 212 228 }
@@ -198,7 +198,7 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 
-# 中東 #
+# 中東・アフリカ #
 UKA = {
 	color = rgb { 102 21 38 }
 	color_ui = rgb { 102 21 38 }
@@ -251,44 +251,44 @@ SOV = {
 }
 
 PES = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 125 13 24 }
+	color = rgb { 150 40 64 }
+	color_ui = rgb { 150 40 64 }
 }
 ROS = {
-	color = rgb { 122 39 37 }
-	color_ui = rgb { 122 39 37 }
+	color = rgb { 104 42 27 }
+	color_ui = rgb { 104 42 27 }
 }
 ARS = {
 	color = rgb { 137 57 65 }
 	color_ui = rgb { 117 37 45 }
 }
 KZS = {
-	color = rgb { 117 28 30 }
-	color_ui = rgb { 117 18 20 }
+	color = rgb { 107 27 41 }
+	color_ui = rgb { 107 27 41 }
 }
 MSS = {
-	color = rgb { 117 37 45 }
-	color_ui = rgb { 117 37 45 }
+	color = rgb { 140 44 28 }
+	color_ui = rgb { 140 44 28 }
 }
 SMS = {
-	color = rgb { 102 34 14 }
-	color_ui = rgb { 102 34 14 }
+	color = rgb { 124 19 42 }
+	color_ui = rgb { 124 19 42 }
 }
 CRS = {
-	color = rgb { 112 15 31 }
-	color_ui = rgb { 112 15 31 }
+	color = rgb { 117 31 45 }
+	color_ui = rgb { 117 31 45 }
 }
 KIS = {
-	color = rgb { 108 48 27 }
-	color_ui = rgb { 108 48 27 }
+	color = rgb { 119 46 23 }
+	color_ui = rgb { 119 46 23 }
 }
 WMD = {
 	color = rgb { 79 11 12 }
 	color_ui = rgb { 79 11 12 }
 }
 UKR = {
-	color = rgb { 155 89 73 }
-	color_ui = rgb { 155 89 73 }	
+	color = rgb { 91 41 23 }
+	color_ui = rgb { 91 41 23 }	
 }
 WUK = {
 	color = rgb { 158 135 79 }
@@ -318,8 +318,8 @@ BLR = {
 }
 
 TCC = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+	color = rgb { 117 45 52 }
+	color_ui = rgb { 117 45 52 }
 }
 
 KAZ = {

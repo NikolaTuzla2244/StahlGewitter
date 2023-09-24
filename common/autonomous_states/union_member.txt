@@ -23,8 +23,8 @@ autonomy_state = {
 		extra_trade_to_overlord_factor = 0.8
 		overlord_trade_cost_factor = -0.5
 		license_subject_master_purchase_cost = -0.5
-		cic_to_overlord_factor = 0.5
-		mic_to_overlord_factor = 0.5
+		cic_to_overlord_factor = 0.25
+		mic_to_overlord_factor = 0.25
 	}
 	
 	ai_subject_wants_higher = {

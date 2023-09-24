@@ -24,3 +24,136 @@ country_event = { #極東シベリアで白軍が蜂起！
 		}
 	}
 }
+
+country_event = { #モスクワ忠誠派が独立宣言
+	id = sg_soviet.2
+	title = sg_soviet.2.t
+	desc = sg_soviet.2.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_soviet.2.a
+		add_stability = -0.40
+
+		end_puppet = MSS
+		end_puppet = KIS
+		end_puppet = ROS
+		end_puppet = UKR
+		MSS = {
+			create_faction = VANGUARD_RED_ARMY
+			add_to_faction = KIS
+			add_to_faction = ROS
+			add_to_faction = UKR
+		}
+
+		country_event = { id = sg_soviet.3 days = 15 }
+	}
+}
+country_event = { #シベリアが緊急委員会を設置
+	id = sg_soviet.3
+	title = sg_soviet.3.t
+	desc = sg_soviet.3.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_soviet.3.a
+		end_puppet = SIS
+		SIS = {
+			leave_faction = yes
+		}
+
+		country_event = { id = sg_soviet.4 days = 15 }
+	}
+}
+country_event = { #アルハンゲリスクが無関心を表明
+	id = sg_soviet.4
+	title = sg_soviet.4.t
+	desc = sg_soviet.4.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_soviet.4.a
+		end_puppet = ARS
+		ARS = {
+			leave_faction = yes
+		}
+
+		country_event = { id = sg_soviet.5 days = 15 }
+	}
+}
+country_event = { #西部軍事諸地域が中立を宣言
+	id = sg_soviet.5
+	title = sg_soviet.5.t
+	desc = sg_soviet.5.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_soviet.5.a
+		end_puppet = WMD
+		WMD = {
+			leave_faction = yes
+		}
+		end_puppet = BAL
+		BAL = {
+			leave_faction = yes
+		}
+
+		country_event = { id = sg_soviet.6 days = 15 }
+	}
+}
+country_event = { #中央アジア諸地域が独立を宣言
+	id = sg_soviet.6
+	title = sg_soviet.6.t
+	desc = sg_soviet.6.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_soviet.6.a
+		end_puppet = KAZ
+		KAZ = {
+			leave_faction = yes
+		}
+		end_puppet = UZB
+		UZB = {
+			leave_faction = yes
+		}
+		end_puppet = TMS
+		TMS = {
+			leave_faction = yes
+		}
+		end_puppet = KYR
+		KYR = {
+			leave_faction = yes
+		}
+		end_puppet = TAJ
+		TAJ = {
+			leave_faction = yes
+		}
+	}
+}
+country_event = { #セルゲイ・キーロフの暗殺！
+	id = sg_soviet.7
+	title = sg_soviet.7.t
+	desc = sg_soviet.7.d
+	# picture = GFX_report_event_physics_lab_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sg_soviet.7.a
+		add_stability = -0.20
+		hidden_effect = {
+			country_event = { id = sg_soviet.2 days = 30 }
+		}
+	}
+}

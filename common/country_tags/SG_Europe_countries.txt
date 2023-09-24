@@ -1,0 +1,56 @@
+###ヨーロッパ###
+ENG = "countries/commonwealth.txt" #イギリス
+FRA	= "countries/western_european.txt" #フランス・コミューン
+POR = "countries/western_european.txt" #ポルトガル
+IRE = "countries/western_european.txt" #アイルランド自由国
+SPA = "countries/western_european.txt" #スペイン王国
+#スペイン
+SPF = "countries/western_european.txt" #人民戦線
+USN = "countries/western_european.txt" #国民運動
+CAT = "countries/western_european.txt" #カタルーニャ
+NAV = "countries/western_european.txt" #バスク
+GLC = "countries/western_european.txt" #ガリシア
+
+LUX	= "countries/western_european.txt" #ルクセンブルク
+BEL	= "countries/western_european.txt" #ベルギー
+HOL	= "countries/western_european.txt" #オランダ
+
+GER	= "countries/western_european.txt" #ドイツ国
+SBK	= "countries/western_european.txt" #ザールブリュッケン
+RHE = "countries/western_european.txt" #ラインラント
+ITA = "countries/western_european.txt" #イタリア王国
+PCI = "countries/western_european.txt" #イタリア共産党
+PNF = "countries/western_european.txt" #国家ファシスト党
+FIU = "countries/western_european.txt" #カルナーロ＝イタリア執政府
+VAT = "countries/western_european.txt" #バチカン市国
+SWI = "countries/western_european.txt" #スイス
+
+AUS	= "countries/western_european.txt" #オーストリア共和国
+HUN = "countries/eastern_european.txt" #ハンガリー評議会共和国
+TRA = "countries/western_european.txt" #トランシルヴァニア共和国
+CZE	= "countries/eastern_european.txt" #チェコスロヴァキア社会主義共和国
+RTH = "countries/eastern_european.txt" #カルパティア・ルテニア
+SCS = "countries/eastern_european.txt" #スロベニア人・クロアチア人・セルビア人国
+
+ROM = "countries/eastern_european.txt" #ルーマニア
+YUG = "countries/eastern_european.txt"
+SER = "countries/eastern_european.txt" #セルビア王国
+ALB = "countries/eastern_european.txt" #アルバニア
+BUL = "countries/eastern_european.txt" #ブルガリア共和国
+GRE = "countries/eastern_european.txt" #ギリシャ王国
+TUR = "countries/western_european.txt" #オスマン帝国
+IHB = "countries/western_european.txt" #ボスポラス海峡委員会
+
+SWN	= "countries/western_european.txt" #スウェーデン＝ノルウェー
+SWE	= "countries/western_european.txt" #スウェーデン
+NOR = "countries/western_european.txt" #ノルウェー
+FIN = "countries/eastern_european.txt" #フィンランド社会主義共和国
+FWG = "countries/eastern_european.txt" #フィンランド白衛軍
+DEN = "countries/western_european.txt" #デンマーク
+
+POL	= "countries/eastern_european.txt" #ポーランド
+DNZ	= "countries/eastern_european.txt" #自由都市ダンツィヒ
+
+LIT	= "countries/eastern_european.txt" #リトアニア
+EST	= "countries/eastern_european.txt" #エストニア
+LAT	= "countries/eastern_european.txt" #ラトビア

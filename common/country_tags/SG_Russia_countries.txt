@@ -1,0 +1,34 @@
+###ソビエト連邦
+SOV = "countries/eastern_european.txt" #ソビエト連邦
+
+PES = "countries/eastern_european.txt" #ペトログラード・ソビエト / ガヴリル・ミアスニコフ(評議会共産主義)
+ROS = "countries/eastern_european.txt" #ロストフ・ソビエト
+ARS = "countries/eastern_european.txt" #アルハンゲリスク・ソビエト
+KZS = "countries/eastern_european.txt" #カザン・ソビエト / アレクサンダー・シュリアプニコフ(革命的サンディカリスム), ニジニ・ノヴゴロド・ソビエト / ヴャチェスラフ・モロトフ
+MSS = "countries/eastern_european.txt" #モスクワ・ソビエト / グリゴリー・ジノヴィエフ(レーニン主義)
+SMS = "countries/eastern_european.txt" #スモレンスク・ソビエト
+#クリミア
+CRS = "countries/eastern_european.txt" #クリミア・ソビエト
+#ウクライナ
+KIS = "countries/eastern_european.txt" #キエフ・ソビエト / ニコライ・ヴァトゥーチン
+WMD = "countries/eastern_european.txt" #ソビエト西方軍管区 / コンスタンチン・ロコソフスキー
+UKR = "countries/eastern_european.txt" #ウクライナ・ソビエト / グリゴリー・ペトロフスキー
+WUK = "countries/eastern_european.txt" #西ウクライナ人民共和国
+URA = "countries/eastern_european.txt" #ウクライナ革命反乱軍
+
+SIS = "countries/eastern_european.txt" #シベリア・ソビエト
+FES = "countries/eastern_european.txt" #極東シベリア・ソビエト
+
+BAL	= "countries/eastern_european.txt" #バルト・ソビエト軍管区
+BLR = "countries/eastern_european.txt" #白ロシア・ソビエト
+
+TCC = "countries/eastern_european.txt" #コーカサス・ソビエト / イラクリー・ツェレテリ
+
+KAZ = "countries/asian.txt" #カザフ・ソビエト
+UZB = "countries/asian.txt" #ウズベク・ソビエト
+KYR = "countries/asian.txt" #キルギス・ソビエト
+TAJ = "countries/asian.txt" #タジク・ソビエト
+TMS = "countries/asian.txt" #トルクメン・ソビエト
+#ソ連内戦
+
+KAR = "countries/eastern_european.txt" #カレリア人民共和国

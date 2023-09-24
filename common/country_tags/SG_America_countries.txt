@@ -1,0 +1,38 @@
+###アメリカ
+USA = "countries/eastern_european.txt" #アメリカ合衆国 ウェンデル・L・ウィルキー[自由民主主義], ジョン・N・ガーナー[保守民主主義]
+CSA = "countries/eastern_european.txt" #アメリカ連合国
+#崩壊
+LOU = "countries/eastern_european.txt" #ルイジアナ王国 / ヒューイ・ロング[ロング思想]
+TEX = "countries/eastern_european.txt" #テキサス共和国 / [権威民主主義]
+CNC = "countries/eastern_european.txt" #キリスト教愛国十字軍 / チャールズ・カフリン[教権ファシズム]
+FAC = "countries/eastern_european.txt" #フロリダ航空センター / [軍政]
+DIX = "countries/eastern_european.txt" #南部連合 / リチャード・ラッセル・ジュニア[ディキシークラット]
+
+KKK = "countries/eastern_european.txt" #クー・クラックス・クラン / ジェームズ・A・コールスコット[人種至上主義]
+GBM = "countries/eastern_european.txt" #ジョージア黒人運動 / W・E・B・デュボイス[人民戦線]
+
+CPU = "countries/eastern_european.txt" #アメリカ共産党 / ウィリアム・Z・フォスター[集産社会主義]
+IWW = "countries/eastern_european.txt" #世界産業労働組合 / ジェイ・フォックス[革命的サンディカリスム]
+FOR = "countries/eastern_european.txt" #フォード・モーター / ヘンリー・フォード[市場自由主義]
+
+NEE = "countries/eastern_european.txt" #ニューイングランド / 
+IRO = "countries/eastern_european.txt" #イロコイ連邦 / 
+NYS = "countries/eastern_european.txt" #ニューヨーク・シンジケート / サルヴァトーレ・マランツァーノ[権威主義], ラッキー・ルチアーノ[社会自由主義]
+JDL = "countries/eastern_european.txt" #ユダヤ防衛同盟 / ゼエヴ・ジャボチンスキー[右派ポピュリズム]
+SAD = "countries/eastern_european.txt" #第二機甲師団 / 
+SCI = "countries/eastern_european.txt" #サイエントロジー教会 / L・ロン・ハバード[専制主義]
+ANV = "countries/eastern_european.txt" #海軍警備隊 / チェスター・ニミッツ[権威主義]
+TEC = "countries/eastern_european.txt" #テクノクラシー委員会 / ハワード・スコット[専制主義]
+
+AAM = "countries/eastern_european.txt" #米国陸軍司令部 / ジョージ・マーシャル[専制主義]
+ANT = "countries/eastern_european.txt" #ANTIFA!(アナーキスト) / アレクサンダー・バークマン[社会自由主義], ルイジ・ガレアーニ[社会自由主義]
+SAI = "countries/eastern_european.txt" #アメリカ・インディアン協会 / シャーマン・クーリッジ[社会自由主義]
+SSL = "countries/eastern_european.txt" #銀シャツ団 / ウィリアム・ダドリー・ペリー[国家社会主義]
+LDS = "countries/eastern_european.txt" #末日聖徒イエス・キリスト教会
+CON = "countries/eastern_european.txt" #北米構造体 / エマニュエル・ラドニツキー[超急進主義], パーシー・グレインジャー[自由民主主義]
+
+#北米
+CAN = "common/countries/commonwealth.txt" #カナダ自治領
+
+#南米
+BRA = "countries/south_american.txt" #ブラジル合衆国

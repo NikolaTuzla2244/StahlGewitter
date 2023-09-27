@@ -1,0 +1,30 @@
+state={
+	id=866
+	name="STATE_866"
+	manpower = 324110
+	
+	state_category = wasteland
+
+	history={
+		owner = FRR
+		victory_points = {
+			9823 1 
+		}
+		victory_points = {
+			12387 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SYR
+		add_core_of = KUR
+	}
+
+
+	provinces={
+		9823 11871 12387 12416 
+		3889 9893 
+	}
+
+	local_supplies=4.0 
+}

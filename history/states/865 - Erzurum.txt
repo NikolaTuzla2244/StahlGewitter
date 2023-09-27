@@ -1,0 +1,30 @@
+
+state={
+	id=865
+	name="STATE_865"
+	manpower = 1031129
+	
+	state_category = town
+
+	history={
+		owner = TCC
+		
+		victory_points = {
+			9868 1
+		}
+		victory_points = {
+			9868 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TCC
+		add_core_of = ARM
+	}
+
+	provinces={
+		9868 9858 9954 10399 11853
+	}
+
+	local_supplies=0.0 
+}

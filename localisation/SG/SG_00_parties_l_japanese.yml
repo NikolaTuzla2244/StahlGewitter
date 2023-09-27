@@ -181,11 +181,11 @@ ROM_despotism_party_long:0 "国王派"
 ROM_authoritarian_socialism_party:0 "ルーマニア共産党"
 ROM_authoritarian_socialism_party_long:0 "ルーマニア共産党"
 
-#セルビア
-SER_national_populism_party:0 "チェトニック"
-SER_national_populism_party_long:0 "チェトニック"
-SER_despotism_party:0 "SNS" #Srpska Nacionalna Stranka
-SER_despotism_party_long:0 "セルビア国民党" 
+#ユーゴスラビア
+SER_national_populism_party:0 "ORJUNA"
+SER_national_populism_party_long:0 "ユーゴスラビア民族主義組織"
+SER_despotism_party:0 "JNS" #Srpska Nacionalna Stranka
+SER_despotism_party_long:0 "ユーゴスラビア国民党" 
 
 #ポーランド
 POL_national_populism_party:0 "ZLN" #Związek Ludowo-Narodowy

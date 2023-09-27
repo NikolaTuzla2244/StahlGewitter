@@ -81,7 +81,7 @@ characters = {
 		}
 	}
 
-	SER_Aleksandar_I = { #国王のほうの丸眼鏡
+	SER_Aleksandar_I = { #アレクサンダル1世
 		name = SER_Aleksandar_I
 		portraits={
 			civilian={
@@ -92,15 +92,31 @@ characters = {
 			ideology = absolute_monarchy_subtype
 		}
 	}
-	SER_Draza_Mihailovic = { #チェトニックのほうの丸眼鏡
+	SER_Niko_Bartulovic = { #ニコ・バルトゥロヴィッチ
+		name = SER_Niko_Bartulovic
+		portraits={
+			civilian={
+				large = "gfx/characters/large/SER/Portrait_SER_Niko_Bartulovic.png"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_nationalism_subtype
+		}
+	}
+	SER_Draza_Mihailovic = { #ドラジャ・ミハイロヴィッチ
 		name = SER_Draza_Mihailovic
 		portraits={
 			civilian={
 				large = "gfx/characters/large/SER/Portrait_SER_Draza_Mihailovic.png"
 			}
 		}
-		country_leader = {
-			ideology = national_populism_subtype
+		field_marshal = {
+			traits = { politically_connected inspirational_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 

@@ -94,28 +94,28 @@ SWI = {
 }
 
 AUS = {
-	color = rgb { 214 190 194 }
-	color_ui = rgb { 214 190 194 }
+	color = rgb { 185 204 192 }
+	color_ui = rgb { 185 204 192 }
 }
 HUN = {
-	color = rgb { 145 45 23 }
-	color_ui = rgb { 145 45 23 }
+	color = rgb { 79 119 89 }
+	color_ui = rgb { 79 119 89 }
 }
 TRA = {	
-	color = rgb { 150 122 69 }
-	color_ui = rgb { 150 122 69 }
+	color = rgb { 130 155 122 }
+	color_ui = rgb { 130 155 122 }
 }
 CZE = {	
-	color = rgb { 77 124 110 }
-	color_ui = rgb { 77 124 110 }
+	color = rgb { 67 135 110 }
+	color_ui = rgb { 67 135 110 }
 }
 RTH = {	
 	color = rgb { 52 84 61 }
 	color_ui = rgb { 52 84 61 }
 }
 SCS = {
-	color = rgb { 109 72 89 }
-	color_ui = rgb { 109 72 89 }
+	color = rgb { 77 135 128 }
+	color_ui = rgb { 77 135 128 }
 }
 
 ROM = {
@@ -127,12 +127,12 @@ YUG = {
 	color_ui = rgb { 94 95 164 }
 }
 SER = {
-	color = rgb { 72 73 126 }
-	color_ui = rgb { 94 95 164 }
+	color = rgb { 43 41 73 }
+	color_ui = rgb { 43 41 73 }
 }
 ALB = {
-	color = rgb { 114 35 77 }
-	color_ui = rgb { 114 35 77 }
+	color = rgb { 137 83 121 }
+	color_ui = rgb { 137 83 121 }
 }
 BUL = {
 	color = rgb { 74 109 59 }
@@ -143,8 +143,8 @@ GRE = {
 	color_ui = rgb { 53 138 178 }
 }
 TUR = {
-	color = rgb { 168 181 150 }
-	color_ui = rgb { 168 181 150 }
+	color = rgb { 122 68 56 }
+	color_ui = rgb { 122 68 56 }
 }
 IHB = {
 	color = rgb { 46 106 155 }
@@ -212,8 +212,8 @@ FRR = {
 	color_ui = rgb { 16 44 127 }
 }
 IRQ = {
-	color = rgb { 178 114 99 }
-	color_ui = rgb { 231 148 129 }
+	color = rgb { 107 49 50 }
+	color_ui = rgb { 107 49 50 }
 }
 BEK = {
 	color 	 = rgb { 170 119 37 }

@@ -6,8 +6,10 @@ NZL = "common/countries/commonwealth.txt" #ニュージーランド
 JAP = "countries/asian.txt" #大日本帝国
 KOR = "countries/asian.txt" #韓国
 
+FRI = "countries/asian.txt" #フランス領インドシナ残党
+INC = "countries/asian.txt" #インドシナ独立同盟会
+SIA = "countries/asian.txt" #シャム王国
 RAJ = "countries/asian.txt" #インド連邦
-
 MAL = "countries/asian.txt" #マラヤ連合
 
 CHI = "countries/asian.txt" ###未使用

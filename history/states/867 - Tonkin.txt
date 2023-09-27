@@ -1,0 +1,34 @@
+
+state={
+	id=867
+	name="STATE_867"
+	manpower = 11528000
+	
+	state_category = town
+
+	history={
+		add_core_of = VIN
+		owner = INC
+		add_core_of = INC
+		victory_points = {
+			4075 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			1185 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1073 1157 1185 4075 4119 4529 7015 7093 7518 9948 10075 10103 10129 12008 12048 12065 12075 12319 
+	}
+
+	local_supplies=0.0 
+}

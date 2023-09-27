@@ -364,10 +364,22 @@ JAP = {
 	color_ui = rgb { 229 218 218 }
 }
 KOR = {
-	color = rgb { 255  240  195 }
+	color = rgb { 255 240 195 }
 	color_ui = rgb { 255 248 229 }	
 }
 
+FRI = {
+	color = rgb { 78 146 178 }
+	color_ui = rgb { 78 146 178 }
+}
+INC = {
+	color = rgb { 165 91 38 }
+	color_ui = rgb { 165 91 38 }	
+}
+SIA = {
+	color = rgb { 198 186 175 }
+	color_ui = rgb { 198 186 175 }	
+}
 RAJ = {
 	color = rgb { 42 42 84 }
 	color_ui = rgb { 42 42 84 }

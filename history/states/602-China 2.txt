@@ -6,21 +6,12 @@ state={
 	}
 
 	history={
-		owner = FGS
-		add_core_of = FGS
+		owner = ZHI
+		add_core_of = ZHI
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2
 			arms_factory = 2
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 2
-				infrastructure = 3 #was: 6
-				air_base = 1
-				arms_factory = 1
-			}
-
 		}
 		victory_points = {
 			7097 5 

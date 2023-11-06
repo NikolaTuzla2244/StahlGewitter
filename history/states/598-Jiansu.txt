@@ -6,15 +6,11 @@ state={
 	state_category = town
 
 	history={
-		owner = KMT
-		add_core_of = KMT
+		owner = FPA
+		add_core_of = FPA
 		buildings = {
 			infrastructure = 2
 
-		}
-
-		1938.10.25 = {
-			controller = JAP
 		}
 	}
 

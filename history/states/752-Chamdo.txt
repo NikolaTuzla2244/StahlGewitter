@@ -8,8 +8,8 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = pastoral
 	history={
-		owner = ZHI
-		add_core_of = ZHI
+		owner = GMJ
+		add_core_of = GMJ
 		victory_points = {
 			4999 1
 		}

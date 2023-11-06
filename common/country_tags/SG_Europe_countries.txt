@@ -38,7 +38,6 @@ SER = "countries/eastern_european.txt" #セルビア王国
 ALB = "countries/eastern_european.txt" #アルバニア
 BUL = "countries/eastern_european.txt" #ブルガリア共和国
 GRE = "countries/eastern_european.txt" #ギリシャ王国
-TUR = "countries/western_european.txt" #オスマン帝国
 IHB = "countries/western_european.txt" #ボスポラス海峡委員会
 
 SWN	= "countries/western_european.txt" #スウェーデン＝ノルウェー

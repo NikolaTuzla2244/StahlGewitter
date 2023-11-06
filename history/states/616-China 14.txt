@@ -3,8 +3,8 @@ state={
 	name="STATE_616"
 
 	history={
-		owner = UMA
-		add_core_of = UMA
+		owner = GMJ
+		add_core_of = GMJ
 		buildings = {
 			infrastructure = 1
 

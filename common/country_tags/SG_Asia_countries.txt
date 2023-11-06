@@ -15,28 +15,24 @@ MAL = "countries/asian.txt" #マラヤ連合
 CHI = "countries/asian.txt" ###未使用
 PRC = "countries/asian.txt" ###未使用
 ###中国
-#北洋政府
-MAN = "countries/asian.txt" #奉天軍閥
-BEJ = "countries/asian.txt" #北京政府
-SHD = "countries/asian.txt" #山東軍閥
-GMJ = "countries/asian.txt" #国民軍残党
-MON = "countries/asian.txt" #内蒙国
-QZD = "countries/asian.txt" #清真団
-#南京政府
-KMT = "countries/asian.txt" #国民党
-CJP = "countries/asian.txt" #支那方面軍
-GGC = "countries/asian.txt" #新広西派
-FGS = "countries/asian.txt" #仏光山
-MAO = "countries/asian.txt" #紅衛兵
-CCP = "countries/asian.txt" #人民中央委員会
-
-SHX = "countries/asian.txt" #山西軍閥
-YUN = "countries/asian.txt" #雲南軍閥
-ZHI = "countries/asian.txt" #直隷軍閥
-UMA = "countries/asian.txt" #馬家軍
+#New
+#Clique
+MAN = "countries/asian.txt" #奉天
+SHD = "countries/asian.txt" #山東
+SHX = "countries/asian.txt" #山西
+GMJ = "countries/asian.txt" #西北軍(国民軍)
+ZHI = "countries/asian.txt" #湖北(直隷派)
+FPA = "countries/asian.txt" #八省連合
+GUW = "countries/asian.txt" #両広
+YUN = "countries/asian.txt" #雲南
+SIC = "countries/asian.txt" #四川
+NIN = "countries/asian.txt" #寧海
+TIB = "countries/asian.txt" #西蔵
+SIK = "countries/asian.txt" #新疆
+#Nationalist
+NRA = "countries/asian.txt" #国民革命軍
 
 MPR = "countries/asian.txt" #モンゴル人民共和国
-TIB = "countries/asian.txt" #チベット
-SIK = "countries/asian.txt" #ウイグル
+MON = "countries/asian.txt"
 
 AFG = "countries/asian.txt"

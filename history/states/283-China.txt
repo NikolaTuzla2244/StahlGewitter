@@ -6,8 +6,8 @@ state={
 	}
 
 	history={
-		owner = UMA
-		add_core_of = UMA
+		owner = GMJ
+		add_core_of = GMJ
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

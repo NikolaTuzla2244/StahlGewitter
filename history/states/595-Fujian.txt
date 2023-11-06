@@ -5,8 +5,8 @@ state= {
 	state_category = city
 	history=
 	{
-		owner = KMT
-		add_core_of = KMT
+		owner = FPA
+		add_core_of = FPA
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -26,13 +26,6 @@ state= {
 		}
 		victory_points = { 
 			7071 1 
-		}
-
-		1938.10.25 = {		
-			JAP = {
-				set_province_controller = 4196
-				set_province_controller = 7071
-			} 			
 		}
 	}
 	provinces={

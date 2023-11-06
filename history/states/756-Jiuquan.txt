@@ -8,25 +8,12 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = wasteland
 	history={
-		owner = UMA
-		add_core_of = UMA
+		owner = GMJ
+		add_core_of = GMJ
 		buildings = {
 			infrastructure = 1
 
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger" 
-					}
-
-				}
-
-			}
-
-		}
-
 	}
 
 	local_supplies=0.0 

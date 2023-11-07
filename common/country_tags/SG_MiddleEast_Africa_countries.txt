@@ -1,15 +1,21 @@
 ###中東###
 TUR = "countries/western_european.txt" #オスマン帝国
 KUR = "countries/western_european.txt" #クルディスタン
+
 UKP = "countries/commonwealth.txt" #イギリス委任統治領パレスチナ
-IRQ = "countries/middle_eastern.txt" #イギリス委任統治領メソポタミア
 ISR = "countries/middle_eastern.txt" #イスラエル国
 HWA = "countries/middle_eastern.txt" #聖戦軍
+
 EGY = "countries/middle_eastern.txt" #エジプト王国
+
+NEJ = "countries/middle_eastern.txt" #ナジュド・ハサー首長国
 JAB = "countries/middle_eastern.txt" #ジャバル・シャンマル首長国
+IRQ = "countries/middle_eastern.txt" #イラク王国
 HIG = "countries/middle_eastern.txt" #ヒジャーズ王国
+SYR = "countries/middle_eastern.txt" #シリア・アラブ王国
 YEM = "countries/middle_eastern.txt" #イエメン王国
 
+PER = "countries/middle_eastern.txt" #イラン社会主義共和国
 ###アフリカ###
 FRR = "countries/western_european.txt" #フランス共和国
 UKA = "countries/commonwealth.txt" #イギリス領アフリカ

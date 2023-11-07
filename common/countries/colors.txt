@@ -127,8 +127,8 @@ YUG = {
 	color_ui = rgb { 94 95 164 }
 }
 SER = {
-	color = rgb { 43 41 73 }
-	color_ui = rgb { 43 41 73 }
+	color = rgb { 54 58 102 }
+	color_ui = rgb { 54 58 102 }
 }
 ALB = {
 	color = rgb { 137 83 121 }
@@ -203,16 +203,11 @@ KUR = {
 	color = rgb { 122 77 56 }
 	color_ui = rgb { 122 77 56 }
 }
+
 UKP = {
 	color = rgb { 107 42 52 }
 	color_ui = rgb { 107 42 52 }
 }
-
-IRQ = {
-	color = rgb { 107 49 50 }
-	color_ui = rgb { 107 49 50 }
-}
-
 ISR = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
@@ -221,23 +216,41 @@ HWA = { #未設定
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
 }
+
 EGY = {
 	color = rgb { 150 143 85 }
 	color_ui = rgb { 71 84 40 }
 }
+
+IRQ = {
+	color = rgb { 114 71 81 }
+	color_ui = rgb { 114 71 81 }
+}
+NEJ = {
+	color = rgb { 61 79 57 }
+	color_ui = rgb { 61 79 57 }
+}
 JAB = {
-	color = rgb { 150 73 37 }
-	color_ui = rgb { 150 73 37 }
+	color = rgb { 170 122 105 }
+	color_ui = rgb { 170 122 105 }
 }
 HIG = {
-	color = rgb { 147 137 112 }
-	color_ui = rgb { 147 137 112 }
+	color = rgb { 170 90 105 }
+	color_ui = rgb { 170 90 105 }
+}
+SYR = {
+	color = rgb { 135 83 97 }
+	color_ui = rgb { 135 83 97 }
 }
 YEM = {
-	color = rgb { 76 50 33 }
-	color_ui = rgb { 76 50 33 }
+	color = rgb { 132 86 79 }
+	color_ui = rgb { 132 86 79 }
 }
 
+PER = {
+	color = rgb { 87 91 44 }
+	color_ui = rgb { 87 91 44 }
+}
 # アフリカ #
 FRR = {
 	color = rgb { 16 44 127 }
@@ -469,6 +482,11 @@ MON = {
 MPR = {
 	color = rgb { 160 85 73 }
 	color_ui = rgb { 160 85 73 }
+}
+
+AFG = {
+	color = rgb { 47 81 61 }
+	color_ui = rgb { 47 81 61 }
 }
 # 北アメリカ #
 USA = {

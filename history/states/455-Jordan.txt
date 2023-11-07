@@ -7,8 +7,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = UKP
-		add_core_of = UKP
+		owner = SYR
+		add_core_of = SYR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -24,7 +24,9 @@ state={
 	}
 
 	provinces={
-		1544 4017 4115 4440 4562 4574 4591 4603 7001 7151 7170 10089 11976 
+		4017 4115 4574 4591 7001 7151 7170 10089 11976 
+		#4440 1544
+		#4562 4603 
 	}
 
 	local_supplies=0.0 

@@ -35,4 +35,4 @@ NRA = "countries/asian.txt" #国民革命軍
 MPR = "countries/asian.txt" #モンゴル人民共和国
 MON = "countries/asian.txt"
 
-AFG = "countries/asian.txt"
+AFG = "countries/asian.txt" #アフガニスタン王国

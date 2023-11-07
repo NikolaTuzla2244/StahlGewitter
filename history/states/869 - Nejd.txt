@@ -1,0 +1,33 @@
+
+state={
+	id=869
+	name="STATE_869"
+	manpower = 1440000
+	
+	state_category = rural
+	resources={
+		oil=3 # was: 3
+	}
+
+	history={
+		owner = NEJ
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			12702 = {
+				naval_base = 6
+			}
+		}
+		victory_points = {
+			12727 5
+		}
+		add_core_of = NEJ
+	}
+
+	provinces={
+			10748 8004 12813 10923 12749 10850 1955 7995 12702 12870 12727 5024 10791 8060 10786 5093 
+		}
+
+	local_supplies=0.0 
+}

@@ -10,11 +10,11 @@ state= {
 	state_category = town
 
 	history= {
-		owner = GRE
+		owner = IHB
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = GRE
+		add_core_of = IHB
 	}
 	provinces = {
 		13246 13249 13247 13248

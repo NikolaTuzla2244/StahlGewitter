@@ -142,10 +142,6 @@ GRE = {
 	color = rgb { 53 138 178 }
 	color_ui = rgb { 53 138 178 }
 }
-TUR = {
-	color = rgb { 122 68 56 }
-	color_ui = rgb { 122 68 56 }
-}
 IHB = {
 	color = rgb { 46 106 155 }
 	color_ui = rgb { 46 106 155 }
@@ -198,27 +194,25 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 
-# 中東・アフリカ #
-UKA = {
-	color = rgb { 102 21 38 }
-	color_ui = rgb { 102 21 38 }
+# 中東 #
+TUR = {
+	color = rgb { 122 68 56 }
+	color_ui = rgb { 122 68 56 }
+}
+KUR = {
+	color = rgb { 122 77 56 }
+	color_ui = rgb { 122 77 56 }
 }
 UKP = {
 	color = rgb { 107 42 52 }
 	color_ui = rgb { 107 42 52 }
 }
-FRR = {
-	color = rgb { 16 44 127 }
-	color_ui = rgb { 16 44 127 }
-}
+
 IRQ = {
 	color = rgb { 107 49 50 }
 	color_ui = rgb { 107 49 50 }
 }
-BEK = {
-	color 	 = rgb { 170 119 37 }
-	color_ui = rgb { 170 119 37 }
-}
+
 ISR = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
@@ -242,6 +236,20 @@ HIG = {
 YEM = {
 	color = rgb { 76 50 33 }
 	color_ui = rgb { 76 50 33 }
+}
+
+# アフリカ #
+FRR = {
+	color = rgb { 16 44 127 }
+	color_ui = rgb { 16 44 127 }
+}
+UKA = {
+	color = rgb { 102 21 38 }
+	color_ui = rgb { 102 21 38 }
+}
+BEK = {
+	color 	 = rgb { 170 119 37 }
+	color_ui = rgb { 170 119 37 }
 }
 
 # ロシア #

@@ -1,12 +1,16 @@
-###中東・アフリカ
-UKA = "countries/commonwealth.txt" #イギリス領アフリカ
+###中東###
+TUR = "countries/western_european.txt" #オスマン帝国
+KUR = "countries/western_european.txt" #クルディスタン
 UKP = "countries/commonwealth.txt" #イギリス委任統治領パレスチナ
-FRR = "countries/western_european.txt" #フランス共和国
 IRQ = "countries/middle_eastern.txt" #イギリス委任統治領メソポタミア
-BEK = "countries/western_european.txt" #亡命ベルギー王国
 ISR = "countries/middle_eastern.txt" #イスラエル国
 HWA = "countries/middle_eastern.txt" #聖戦軍
 EGY = "countries/middle_eastern.txt" #エジプト王国
 JAB = "countries/middle_eastern.txt" #ジャバル・シャンマル首長国
 HIG = "countries/middle_eastern.txt" #ヒジャーズ王国
 YEM = "countries/middle_eastern.txt" #イエメン王国
+
+###アフリカ###
+FRR = "countries/western_european.txt" #フランス共和国
+UKA = "countries/commonwealth.txt" #イギリス領アフリカ
+BEK = "countries/western_european.txt" #亡命ベルギー王国

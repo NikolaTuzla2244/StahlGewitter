@@ -453,10 +453,6 @@ YUN = {
 	color = rgb { 131 138 170 }
 	color_ui = rgb { 131 138 170 }
 }
-SIC = {
-	color = rgb { 117 111 100 }
-	color_ui = rgb { 117 111 100 }
-}
 NIN = {
 	color = rgb { 79 102 88 }
 	color_ui = rgb { 117 111 100 }
@@ -465,7 +461,7 @@ TIB = {
 	color = rgb { 136 150 100 }
 	color_ui = rgb { 136 150 100 }
 }
-SIK = {
+XIN = {
 	color = rgb { 93 149 155 }
 	color_ui = rgb { 93 149 155 }
 }

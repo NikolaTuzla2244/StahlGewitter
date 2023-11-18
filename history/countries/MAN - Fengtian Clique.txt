@@ -1,4 +1,6 @@
-capital = 44
+capital = 608
+
+set_cosmetic_tag = MAN_Beijing
 
 # Starting tech
 set_technology = {
@@ -62,17 +64,18 @@ set_technology = {
 
 set_research_slots = 3
 set_convoys = 200
-set_stability = 0.45
-set_war_support = 0.3
+set_stability = 0.50
+set_war_support = 0.20
 
 set_politics = {
-	ruling_party = ultrareactionism
+	ruling_party = authoritarianism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	ultrareactionism = 100
+	authoritarianism = 70
+	despotism = 30
 }
 
 add_ideas = {
@@ -81,4 +84,4 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-recruit_character = QZD_Ma_Tian_ying
+# recruit_character = ALB_Kostaq_Kotta

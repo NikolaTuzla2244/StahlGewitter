@@ -1,0 +1,21 @@
+state={
+	id=870
+	name="STATE_870"
+	manpower = 150000
+	state_category = town
+
+	history={
+		owner = GUW
+		add_core_of = GUW
+		
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		7135 4160 
+	}
+
+	local_supplies=1.0 
+}

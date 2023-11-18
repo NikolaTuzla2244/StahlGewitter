@@ -25,10 +25,9 @@ ZHI = "countries/asian.txt" #湖北(直隷派)
 FPA = "countries/asian.txt" #八省連合
 GUW = "countries/asian.txt" #両広
 YUN = "countries/asian.txt" #雲南
-SIC = "countries/asian.txt" #四川
 NIN = "countries/asian.txt" #寧海
 TIB = "countries/asian.txt" #西蔵
-SIK = "countries/asian.txt" #新疆
+XIN = "countries/asian.txt" #新疆
 #Nationalist
 NRA = "countries/asian.txt" #国民革命軍
 

@@ -1,4 +1,4 @@
-capital = 44
+capital = 611
 
 # Starting tech
 set_technology = {
@@ -62,8 +62,8 @@ set_technology = {
 
 set_research_slots = 3
 set_convoys = 200
-set_stability = 0.45
-set_war_support = 0.3
+set_stability = 0.50
+set_war_support = 0.20
 
 set_politics = {
 	ruling_party = authoritarianism
@@ -81,4 +81,4 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-recruit_character = GMJ_Feng_Yuxiang
+# recruit_character = ALB_Kostaq_Kotta

@@ -1,0 +1,46 @@
+characters = {
+	JAP_Inoue_Junnosuke = { #井上準之助
+		name = JAP_Inoue_Junnosuke
+		portraits={
+			civilian={
+				large = "gfx/characters/large/JAP/Portrait_JAP_Inoue_Junnosuke.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarianism_subtype
+		}
+	}
+	JAP_Ikeda_Shigeaki = { #池田成彬:三井 財界保守
+		name = JAP_Ikeda_Shigeakis
+		portraits={
+			civilian={
+				large = "gfx/characters/large/JAP/Portrait_JAP_Ikeda_Shigeaki.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarianism_subtype
+		}
+	}
+	JAP_Mutou_Sanji = { #武藤山治:三井 財界維新派
+		name = JAP_Mutou_Sanji
+		portraits={
+			civilian={
+				large = "gfx/characters/large/JAP/Portrait_JAP_Mutou_Sanji.png"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_conservatism_subtype
+		}
+	}
+	JAP_Abe_Isoo = { #安部磯雄:社会大衆党
+		name = JAP_Abe_Isoo
+		portraits={
+			civilian={
+				large = "gfx/characters/large/JAP/Portrait_JAP_Abe_Isoo.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_subtype
+		}
+	}
+}

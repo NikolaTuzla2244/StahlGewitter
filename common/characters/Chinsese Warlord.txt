@@ -1,0 +1,101 @@
+characters = {
+	MAN_Zhang_Zuolin = { #張作霖
+		name = MAN_Zhang_Zuolin
+		portraits={
+			civilian={
+				large = "gfx/characters/large/CHI/Portrait_MAN_Zhang_Zuolin.png"
+			}
+		}
+		country_leader = {
+			ideology = warlordism_subtype
+		}
+	}
+	SHD_Zhang_Zongchang = { #張宗昌
+		name = SHD_Zhang_Zongchang
+		portraits={
+			civilian={
+				large = "gfx/characters/large/CHI/Portrait_SHD_Zhang_Zongchang.png"
+			}
+		}
+		country_leader = {
+			ideology = warlordism_subtype
+		}
+	}
+	SHX_Yan_Xishan = { #閻錫山
+		name = SHX_Yan_Xishan
+		portraits={
+			civilian={
+				large = "gfx/characters/large/CHI/Portrait_SHX_Yan_Xishan.png"
+			}
+		}
+		country_leader = {
+			ideology = warlordism_subtype
+		}
+	}
+	GMJ_Feng_Yuxiang = { #馮玉祥
+		name = GMJ_Feng_Yuxiang
+		portraits={
+			civilian={
+				large = "gfx/characters/large/CHI/Portrait_GMJ_Feng_Yuxiang.png"
+			}
+		}
+		country_leader = {
+			ideology = warlordism_subtype
+		}
+	}
+	ZHI_Wu_Peifu = { #吳佩孚
+		name = ZHI_Wu_Peifu
+		portraits={
+			civilian={
+				large = "gfx/characters/large/CHI/Portrait_ZHI_Wu_Peifu.png"
+			}
+		}
+		country_leader = {
+			ideology = warlordism_subtype
+		}
+	}
+	FPA_Sun_Chuanfang = { #孫伝芳
+		name = FPA_Sun_Chuanfang
+		portraits={
+			civilian={
+				large = "gfx/characters/large/CHI/Portrait_FPA_Sun_Chuanfang.png"
+			}
+		}
+		country_leader = {
+			ideology = warlordism_subtype
+		}
+	}
+	GUW_Shen_Hongying = { #沈鴻英
+		name = GUW_Shen_Hongying
+		portraits={
+			civilian={
+				large = "gfx/characters/large/CHI/Portrait_GUW_Shen_Hongying.png"
+			}
+		}
+		country_leader = {
+			ideology = warlordism_subtype
+		}
+	}
+	YUN_Tang_Jiyao = { #唐継尭
+		name = YUN_Tang_Jiyao
+		portraits={
+			civilian={
+				large = "gfx/characters/large/CHI/Portrait_YUN_Tang_Jiyao.png"
+			}
+		}
+		country_leader = {
+			ideology = warlordism_subtype
+		}
+	}
+	NIN_Ma_Buqing = { #馬歩青
+		name = NIN_Ma_Buqing
+		portraits={
+			civilian={
+				large = "gfx/characters/large/CHI/Portrait_NIN_Ma_Buqing.png"
+			}
+		}
+		country_leader = {
+			ideology = warlordism_subtype
+		}
+	}
+}

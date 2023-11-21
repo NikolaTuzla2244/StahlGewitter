@@ -66,29 +66,19 @@ set_stability = 0.8
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = authoritarianism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarianism = 35
-	despotism = 20
-	national_populism = 15
-	conservative_democracy = 15
-	reformism = 5
-	social_liberalism = 10
+	authoritarianism = 38
+	conservative_democracy = 22
+	reformism = 17
+	social_liberalism = 3
+	despotism = 10
+	national_populism = 10
 }
-set_country_flag = SET_authoritarianism
-set_country_flag = SET_despotism
-set_country_flag = SET_national_populism
-set_country_flag = SET_conservative_democracy
-set_country_flag = SET_reformism
-set_country_flag = SET_social_liberalism
-
-# create_faction = Axis
-# add_to_faction = GER
-
 
 add_ideas = {
 	#laws
@@ -107,7 +97,7 @@ add_ideas = {
 	JAP_Hirohito_HoG
 }
 
-# recruit_character = ENG_Winston_Churchill
-# recruit_character = ENG_Freeman_Thomas
-# recruit_character = ENG_Oswald_Mosley
-# recruit_character = ENG_Edward_VIII
+recruit_character = JAP_Inoue_Junnosuke
+recruit_character = JAP_Ikeda_Shigeaki
+recruit_character = JAP_Mutou_Sanji
+recruit_character = JAP_Abe_Isoo

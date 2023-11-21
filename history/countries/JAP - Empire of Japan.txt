@@ -66,15 +66,15 @@ set_stability = 0.8
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = conservative_democracy
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarianism = 38
-	conservative_democracy = 22
-	reformism = 17
+	conservative_democracy = 38
+	market_liberalism = 22
+	progressivism = 17
 	social_liberalism = 3
 	despotism = 10
 	national_populism = 10

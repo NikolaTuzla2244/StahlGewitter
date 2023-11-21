@@ -9,7 +9,7 @@ ideologies = {
 			ethnic_supremacy_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
-		color = { 71 44 23 }
+		color = { 63 39 10 }
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no
@@ -37,12 +37,11 @@ ideologies = {
 			revolutionary_nationalism_subtype = { can_be_randomly_selected = no }
 			stratocracy_nationalism_subtype = { can_be_randomly_selected = no }
 			national_syndicalism_subtype = { can_be_randomly_selected = no }
-			San_Min_fascism_subtype = { can_be_randomly_selected = no }
 			longism_subtype = { can_be_randomly_selected = no }
 			eurasianism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
-		color = { 127 69 19 }
+		color = { 135 84 62 }
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no
@@ -73,7 +72,7 @@ ideologies = {
 			absolute_monarchy_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
-		color = { 20 20 20 }
+		color = { 45 45 45 }
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no
@@ -103,7 +102,7 @@ ideologies = {
 			social_nationalism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
-		color = { 80 80 80 }
+		color = { 130 130 130 }
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no
@@ -131,7 +130,31 @@ ideologies = {
 			san_min_democracy_subtype = {}
 		}
 		dynamic_faction_names = {}
-		color = { 42 50 130 }
+		color = { 17 44 124 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 20.0
+				army_intel_to_others = 20.0
+				navy_intel_to_others = 2.0
+				airforce_intel_to_others = 20.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	market_liberalism = {
+		types = {
+			market_liberalism_subtype = {}
+		}
+		dynamic_faction_names = {}
+		color = { 173 164 38 }# color = { 22 77 119 }
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no
@@ -153,11 +176,9 @@ ideologies = {
 	liberal_democracy = {
 		types = {
 			liberal_democracy_subtype = {}
-
-			objectivism_subtype = {}
 		}
 		dynamic_faction_names = {}
-		color = { 201 185 64 }# color = { 22 77 119 }
+		color = { 44 147 128 }# color = { 22 77 119 }
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no
@@ -176,16 +197,15 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no
 	}
-	reformism = {
+	progressivism = {
 		types = {
-			reformism_subtype = {}
+			progressivism_subtype = {}
 
 			social_democracy_subtype = { can_be_randomly_selected = no }
 			democratic_socialism_subtype = { can_be_randomly_selected = no }
-			reformed_buddhism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
-		color = { 175 58 105 }
+		color = { 173 69 100 }
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no
@@ -216,7 +236,7 @@ ideologies = {
 			radical_liberalism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
-		color = { 180 35 35 }
+		color = { 175 49 49 }
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no
@@ -247,33 +267,7 @@ ideologies = {
 			chekism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
-		color = { 124 17 19 }
-		rules = {
-			can_create_collaboration_government = no
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			hidden_modifier = {
-				civilian_intel_to_others = 20.0
-				army_intel_to_others = 20.0
-				navy_intel_to_others = 2.0
-				airforce_intel_to_others = 20.0
-			}
-		}
-		ai_neutral = yes
-		can_be_boosted = no
-	}
-	ultraradicalism = {
-		types = {
-			ultraradicalism_subtype = {}
-
-			surrealism_subtype = {}
-		}
-		dynamic_faction_names = {}
-		color = { 255 255 255 }
+		color = { 86 24 24 }
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no
@@ -300,7 +294,7 @@ ideologies = {
 			revisionist_zionism_subtype = {}
 		}
 		dynamic_faction_names = {}
-		color = { 35 31 48 }
+		color = { 21 28 26 }
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no

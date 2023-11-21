@@ -26,7 +26,7 @@ textbox - H;87,S:8,V:9
 # set_country_flag = NULL_authoritarianism
 # set_country_flag = NULL_conservative_democracy
 # set_country_flag = NULL_liberal_democracy
-# set_country_flag = NULL_reformism
+# set_country_flag = NULL_progressivism
 # set_country_flag = NULL_social_liberalism
 # set_country_flag = NULL_authoritarian_socialism
 # set_country_flag = NULL_ultraradicalism

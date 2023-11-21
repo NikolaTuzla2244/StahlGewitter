@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarianism_subtype
+			ideology = conservative_democracy_subtype
 		}
 	}
 	JAP_Ikeda_Shigeaki = { #池田成彬:三井 財界保守
@@ -18,7 +18,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarianism_subtype
+			ideology = conservative_democracy_subtype
 		}
 	}
 	JAP_Mutou_Sanji = { #武藤山治:三井 財界維新派
@@ -29,7 +29,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_conservatism_subtype
+			ideology = market_liberalism_subtype
 		}
 	}
 	JAP_Abe_Isoo = { #安部磯雄:社会大衆党

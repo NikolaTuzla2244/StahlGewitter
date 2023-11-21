@@ -82,7 +82,7 @@ spriteTypes = {
 	# 		3 = { 80 80 80 } # authoritarianism
 	# 		4 = { 42 50 130 } # conservatism
 	# 		5 = { 22 77 119 } # liberalism
-	# 		6 = { 175 58 105 } # reformism
+	# 		6 = { 175 58 105 } # progressivism
 	# 		7 = { 180 35 35 } # social liberalism
 	# 		8 = { 124 17 19 } # authoritarian socialism
 	# 	}

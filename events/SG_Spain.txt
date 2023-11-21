@@ -79,7 +79,7 @@ country_event = { #スペイン内戦 - 分裂
 			set_popularities = {
 				authoritarianism = 60
 				liberal_democracy = 10
-				reformism = 30
+				progressivism = 30
 			}
 			set_party_name = {
 				ideology = authoritarianism
@@ -92,9 +92,9 @@ country_event = { #スペイン内戦 - 分裂
 				name = SPA_CIV_liberal_democracy_party
 			}
 			set_party_name = {
-				ideology = reformism
-				long_name = SPA_CIV_reformism_party_long
-				name = SPA_CIV_reformism_party
+				ideology = progressivism
+				long_name = SPA_CIV_progressivism_party_long
+				name = SPA_CIV_progressivism_party
 			}
 			#指導者
 			remove_ideas = SPA_Alfonso_XIII_HoG

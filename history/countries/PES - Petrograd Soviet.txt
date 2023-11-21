@@ -73,7 +73,7 @@ set_politics = {
 }
 set_popularities = {
 	social_liberalism = 40
-	reformism = 30
+	progressivism = 30
 	liberal_democracy = 15
 	conservative_democracy = 15
 }
@@ -81,7 +81,7 @@ set_popularities = {
 country_event = { id = sg_soviet.7 days = 120 }
 
 set_country_flag = SET_social_liberalism
-set_country_flag = SET_reformism
+set_country_flag = SET_progressivism
 set_country_flag = SET_liberal_democracy
 set_country_flag = SET_conservative_democracy
 

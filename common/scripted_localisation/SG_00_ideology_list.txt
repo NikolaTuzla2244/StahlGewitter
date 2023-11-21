@@ -25,8 +25,8 @@ defined_text = {
 		localization_key = "GFX_ideology_liberal_democracy_group_small"
 	}
 	text = {
-		trigger = { has_government = reformism }
-		localization_key = "GFX_ideology_reformism_group_small"
+		trigger = { has_government = progressivism }
+		localization_key = "GFX_ideology_progressivism_group_small"
 	}
 	text = {
 		trigger = { has_government = social_liberalism }
@@ -73,7 +73,7 @@ defined_text = {
 	}
 	text = {
 		trigger = { check_variable = { v = 6 } }
-		localization_key = "GFX_ideology_reformism_group_small"
+		localization_key = "GFX_ideology_progressivism_group_small"
 	}
 	text = {
 		trigger = { check_variable = { v = 7 } }
@@ -120,7 +120,7 @@ defined_text = {
 	}
 	text = {
 		trigger = { check_variable = { v = 6 } }
-		localization_key = reformism
+		localization_key = progressivism
 	}
 	text = {
 		trigger = { check_variable = { v = 7 } }

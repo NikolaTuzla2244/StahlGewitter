@@ -74,7 +74,7 @@ set_politics = {
 set_popularities = {
 	liberal_democracy = 40
 	conservative_democracy = 30
-	reformism = 30
+	progressivism = 30
 }
 
 add_ideas = {

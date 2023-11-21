@@ -68,7 +68,7 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = reformism
+	ruling_party = progressivism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -76,13 +76,13 @@ set_politics = {
 set_popularities = {
 	national_socialism = 20
 	despotism = 10
-	reformism = 45
+	progressivism = 45
 	authoritarian_socialism = 25
 }
 
 set_country_flag = SET_national_socialism
 set_country_flag = SET_conservative_democracy
-set_country_flag = SET_reformism
+set_country_flag = SET_progressivism
 set_country_flag = SET_authoritarian_socialism
 
 create_faction = DANUBE_LEAGUE

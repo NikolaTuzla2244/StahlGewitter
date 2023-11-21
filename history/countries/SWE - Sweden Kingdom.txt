@@ -74,7 +74,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	reformism = 40
+	progressivism = 40
 	conservative_democracy = 40
 	liberal_democracy = 15
 	national_socialism = 5

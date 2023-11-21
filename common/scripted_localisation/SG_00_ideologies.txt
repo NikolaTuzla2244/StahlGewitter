@@ -38,7 +38,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = reformism
+			has_government = progressivism
 		}
 		localization_key = "[GetSubIdeologyName_SocDem]"
 	}
@@ -215,7 +215,7 @@ defined_text = { #修正主義
 		localization_key = reformed_buddhism_subtype
 	}
 	text = {
-		localization_key = reformism
+		localization_key = progressivism
 	}
 }
 defined_text = { #革新社会主義

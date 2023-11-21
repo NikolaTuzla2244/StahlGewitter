@@ -74,12 +74,12 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	reformism = 10
+	progressivism = 10
 	authoritarian_socialism = 35
 	social_liberalism = 45
 	ultraradicalism = 10
 }
-set_country_flag = SET_reformism
+set_country_flag = SET_progressivism
 set_country_flag = SET_authoritarian_socialism
 set_country_flag = SET_social_liberalism
 set_country_flag = SET_ultraradicalism

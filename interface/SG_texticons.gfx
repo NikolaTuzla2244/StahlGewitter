@@ -31,8 +31,8 @@ spritetypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ideology_reformism_texticon"
-		texturefile = "gfx/interface/ideologies/small/reformism_group_small.png"
+		name = "GFX_ideology_progressivism_texticon"
+		texturefile = "gfx/interface/ideologies/small/progressivism_group_small.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {

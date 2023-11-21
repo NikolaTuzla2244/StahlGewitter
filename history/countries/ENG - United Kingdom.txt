@@ -76,14 +76,14 @@ set_popularities = {
 	despotism = 20
 	national_populism = 15
 	conservative_democracy = 15
-	reformism = 5
+	progressivism = 5
 	social_liberalism = 10
 }
 set_country_flag = SET_authoritarianism
 set_country_flag = SET_despotism
 set_country_flag = SET_national_populism
 set_country_flag = SET_conservative_democracy
-set_country_flag = SET_reformism
+set_country_flag = SET_progressivism
 set_country_flag = SET_social_liberalism
 
 # create_faction = Axis

@@ -68,14 +68,14 @@ set_stability = 0.45
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = reformism
+	ruling_party = progressivism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	despotism = 30
-	reformism = 60
+	progressivism = 60
 	authoritarian_socialism = 10
 }
 

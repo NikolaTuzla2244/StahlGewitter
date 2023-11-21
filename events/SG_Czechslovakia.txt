@@ -12,10 +12,10 @@ country_event = { #穏健派との対立
 		name = sg_czech.1.a #改革派が勝利！
 
 		set_politics = {
-			ruling_party = reformism
+			ruling_party = progressivism
 		}
 		add_popularity = {
-			ideology = reformism
+			ideology = progressivism
 			popularity = 0.1
 		}
 		set_country_flag = CZE_Plague_Spring

@@ -79,7 +79,7 @@ set_popularities = {
 	despotism = 25 #MNE - 軍部・カルリスタ
 	national_populism = 10 #MNE - ファランヘ党
 	##共和派 - 50
-	reformism = 30 #人民戦線 - 共和党右派
+	progressivism = 30 #人民戦線 - 共和党右派
 	social_liberalism = 15 #人民戦線 - 共和党左派・CNT-FAI
 	authoritarian_socialism = 5 #人民戦線 - スペイン共産党
 }
@@ -87,7 +87,7 @@ set_country_flag = SET_liberal_democracy
 set_country_flag = SET_authoritarianism
 set_country_flag = SET_despotism
 set_country_flag = SET_national_populism
-set_country_flag = SET_reformism
+set_country_flag = SET_progressivism
 set_country_flag = SET_social_liberalism
 set_country_flag = SET_authoritarian_socialism
 

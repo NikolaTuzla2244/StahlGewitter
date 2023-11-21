@@ -102,9 +102,9 @@ ideology_array_setup = {
 			value = party_popularity@liberal_democracy
 		}
 	}
-	if = { #Reformism - 6
+	if = { #progressivism - 6
 		limit = {
-			has_country_flag = SET_reformism
+			has_country_flag = SET_progressivism
 		}
 		add_to_array = { #groups
 			array = country_ideology_groups
@@ -112,7 +112,7 @@ ideology_array_setup = {
 		}
 		add_to_array = { #pops
 			array = country_ideology_pops
-			value = party_popularity@reformism
+			value = party_popularity@progressivism
 		}
 	}
 	if = { #Social Liberalism - 7

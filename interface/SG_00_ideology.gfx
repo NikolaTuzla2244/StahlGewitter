@@ -24,8 +24,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/liberal_democracy_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_reformism_group"
-		texturefile = "gfx/interface/ideologies/reformism_group.png"
+		name = "GFX_ideology_progressivism_group"
+		texturefile = "gfx/interface/ideologies/progressivism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_social_liberalism_group"
@@ -69,8 +69,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/small/liberal_democracy_group_small.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_reformism_group_small"
-		texturefile = "gfx/interface/ideologies/small/reformism_group_small.png"
+		name = "GFX_ideology_progressivism_group_small"
+		texturefile = "gfx/interface/ideologies/small/progressivism_group_small.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_social_liberalism_group_small"

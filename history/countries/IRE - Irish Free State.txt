@@ -74,11 +74,11 @@ set_politics = {
 set_popularities = {
 	conservative_democracy = 45
 	liberal_democracy = 45
-	reformism = 10
+	progressivism = 10
 }
 set_country_flag = SET_conservative_democracy
 set_country_flag = SET_liberal_democracy
-set_country_flag = SET_reformism
+set_country_flag = SET_progressivism
 
 add_ideas = {
 	#laws

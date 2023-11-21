@@ -73,7 +73,7 @@ set_politics = {
 }
 set_popularities = {
 	authoritarian_socialism = 40
-	reformism = 30
+	progressivism = 30
 	national_socialism = 30
 }
 

@@ -6,7 +6,7 @@ leader_traits = {
 	SG_trait_authoritarianism = { random = no }
 	SG_trait_conservative_democracy = { random = no }
 	SG_trait_liberal_democracy = { random = no }
-	SG_trait_reformism = { random = no }
+	SG_trait_progressivism = { random = no }
 	SG_trait_social_liberalism = { random = no }
 	SG_trait_authoritarian_socialism = { random = no }
 

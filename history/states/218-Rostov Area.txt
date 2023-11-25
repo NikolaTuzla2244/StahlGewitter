@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = ROS
+		owner = SOR
 		victory_points = {
 			9417 15 
 		}
@@ -20,7 +20,8 @@ state={
 				naval_base = 5
 			}
 		}
-		add_core_of = ROS
+		add_core_of = SOR
+		add_claim_by = ROS
 	}
 
 	provinces={

@@ -6,13 +6,14 @@ state={
 		victory_points = {
 			9304 1
 		}
-		owner = WMD
+		owner = BLR
 		buildings = {
 			infrastructure = 3
 			air_base = 3
 
 		}
-		add_core_of = WMD
+		add_core_of = BLR
+		add_claim_by = WMD
 	}
 
 	provinces={

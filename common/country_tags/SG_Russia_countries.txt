@@ -1,6 +1,27 @@
+### ロシア帝国 ###
+RUS = "countries/eastern_european.txt" #ロシア帝国
+MSR = "countries/eastern_european.txt" #モスクワ帝国管区
+SOR = "countries/eastern_european.txt" #南方帝国管区
+KZR = "countries/eastern_european.txt" #カザン帝国管区
+SIR = "countries/eastern_european.txt" #シベリア帝国管区
+FAR = "countries/eastern_european.txt" #極東帝国管区
+TRR = "countries/eastern_european.txt" #トルキスタン帝国管区
+BAL	= "countries/eastern_european.txt" #バルト帝国管区
+TCC = "countries/eastern_european.txt" #カフカース帝国管区
+
+# 東欧諸国 #
+FIN = "countries/eastern_european.txt" #フィンランド
+BLR	= "countries/eastern_european.txt" #白ロシア
+UKR	= "countries/eastern_european.txt" #ウクライナ
+LIT	= "countries/eastern_european.txt" #リトアニア
+POL	= "countries/eastern_european.txt" #ポーランド
+DNZ	= "countries/eastern_european.txt" #自由都市ダンツィヒ
+
+EST	= "countries/eastern_european.txt" #エストニア
+LAT	= "countries/eastern_european.txt" #ラトビア
+
 ###ソビエト連邦
 SOV = "countries/eastern_european.txt" #ソビエト連邦
-
 PES = "countries/eastern_european.txt" #ペトログラード・ソビエト / ガヴリル・ミアスニコフ(評議会共産主義)
 ROS = "countries/eastern_european.txt" #ロストフ・ソビエト
 ARS = "countries/eastern_european.txt" #アルハンゲリスク・ソビエト
@@ -12,17 +33,12 @@ CRS = "countries/eastern_european.txt" #クリミア・ソビエト
 #ウクライナ
 KIS = "countries/eastern_european.txt" #キエフ・ソビエト / ニコライ・ヴァトゥーチン
 WMD = "countries/eastern_european.txt" #ソビエト西方軍管区 / コンスタンチン・ロコソフスキー
-UKR = "countries/eastern_european.txt" #ウクライナ・ソビエト / グリゴリー・ペトロフスキー
-WUK = "countries/eastern_european.txt" #西ウクライナ人民共和国
-URA = "countries/eastern_european.txt" #ウクライナ革命反乱軍
+# UKR = "countries/eastern_european.txt" #ウクライナ・ソビエト / グリゴリー・ペトロフスキー
+# WUK = "countries/eastern_european.txt" #西ウクライナ人民共和国
+# URA = "countries/eastern_european.txt" #ウクライナ革命反乱軍
 
 SIS = "countries/eastern_european.txt" #シベリア・ソビエト
 FES = "countries/eastern_european.txt" #極東シベリア・ソビエト
-
-BAL	= "countries/eastern_european.txt" #バルト・ソビエト軍管区
-BLR = "countries/eastern_european.txt" #白ロシア・ソビエト
-
-TCC = "countries/eastern_european.txt" #コーカサス・ソビエト / イラクリー・ツェレテリ
 
 KAZ = "countries/asian.txt" #カザフ・ソビエト
 UZB = "countries/asian.txt" #ウズベク・ソビエト

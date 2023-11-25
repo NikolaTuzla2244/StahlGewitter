@@ -14,7 +14,7 @@ state = {
 		victory_points = {
 			105 1 
 		}
-		owner = ARS
+		owner = RUS
 		buildings = {
 			infrastructure = 1
 			12530 = {
@@ -22,8 +22,8 @@ state = {
 			}
 
 		}
-		add_core_of = ARS
-		add_core_of = NEN
+		add_core_of = RUS
+		add_claim_by = ARS
 	}
 
 	provinces = {

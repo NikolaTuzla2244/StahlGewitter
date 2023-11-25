@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = KIS
+		owner = MSR
 		victory_points = {
 			9355 10
 		}
@@ -21,7 +21,8 @@ state={
 			industrial_complex = 1
 			air_base = 4
 		}
-		add_core_of = KIS
+		add_core_of = MSR
+		add_claim_by = KIS
 	}
 
 	provinces={

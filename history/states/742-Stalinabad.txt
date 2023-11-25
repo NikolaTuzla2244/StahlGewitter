@@ -4,7 +4,7 @@ state = {
 
 	history = {
 
-		owner = TAJ
+		owner = TRR
 		victory_points = {
 			1384 1
 		}
@@ -12,6 +12,7 @@ state = {
 			infrastructure = 1
 
 		}
+		add_core_of = TRR
 		add_core_of = TAJ
 		add_core_of = BUK
 

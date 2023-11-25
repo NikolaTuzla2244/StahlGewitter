@@ -7,14 +7,15 @@ state={
 	state_category = town
 
 	history={
-		owner = ROS
+		owner = MSR
 		victory_points = {
 			9461 1
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
-		add_core_of = ROS
+		add_core_of = MSR
+		add_claim_by = ROS
 	}
 
 	provinces={

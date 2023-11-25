@@ -11,11 +11,12 @@ state={
 	}
 
 	history={
-		owner = ROS
+		owner = MSR
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = ROS
+		add_core_of = MSR
+		add_claim_by = ROS
 		victory_points = {
 			11351 1
 		}

@@ -47,73 +47,11 @@ TMS_independent = {
 }
 #Soviet
 
-PES_Progress = {
-	color = rgb { 168 50 62 }
-	color_ui = rgb { 168 50 62 }
+BAL_SOV = {
+	color = rgb { 79 43 43 }
+	color_ui = rgb { 79 43 43 }
 }
-PES_Liberal = {
-	color = rgb { 44 89 63 }
-	color_ui = rgb { 44 89 63 }
-}
-PES_Conservative = {
-	color = rgb { 39 53 102 }
-	color_ui = rgb { 39 53 102 }
-}
-
-ROS_Army = {
-	color = rgb { 95 104 93 }
-	color_ui = rgb { 95 104 93 }
-}
-ROS_Nationalist = {
-	color = rgb { 96 77 64 }
-	color_ui = rgb { 96 77 64 }
-}
-ROS_Eurasia = {
-	color = rgb { 37 37 84 }
-	color_ui = rgb { 37 37 84 }
-}
-
-ARS_Lab = {
-	color = rgb { 85 102 98 }
-	color_ui = rgb { 85 102 98 }
-}
-ARS_Mars = {
-	color = rgb { 68 37 33 }
-	color_ui = rgb { 68 37 33 }
-}
-
-KZS_Commune = {
-	color = rgb { 114 30 30 }
-	color_ui = rgb { 114 30 30 }
-}
-KZS_Liberal = {
-	color = rgb { 145 73 49 }
-	color_ui = rgb { 145 73 49 }
-}
-KZS_Labour = {
-	color = rgb { 155 62 54 }
-	color_ui = rgb { 155 62 54 }
-}
-
-MSS_Lenin = {
-	color = rgb { 137 35 35 }
-	color_ui = rgb { 137 35 35 }
-}
-MSS_Zhdanov = {
-	color = rgb { 109 40 38 }
-	color_ui = rgb { 109 40 38 }
-}
-MSS_Sverdlov = {
-	color = rgb { 79 45 45 }
-	color_ui = rgb { 79 45 45 }
-}
-
-FES_White = {
-	color = rgb { 133 150 136 }
-	color_ui = rgb { 133 150 136 }
-}
-
-UKR_Nationalist = {
-	color = rgb { 56 96 112 }
-	color_ui = rgb { 155 89 73 }	
+TCC_SOV = {
+	color = rgb { 117 45 52 }
+	color_ui = rgb { 117 45 52 }
 }

@@ -43,13 +43,4 @@ IHB = "countries/western_european.txt" #ボスポラス海峡委員会
 SWN	= "countries/western_european.txt" #スウェーデン＝ノルウェー
 SWE	= "countries/western_european.txt" #スウェーデン
 NOR = "countries/western_european.txt" #ノルウェー
-FIN = "countries/eastern_european.txt" #フィンランド社会主義共和国
-FWG = "countries/eastern_european.txt" #フィンランド白衛軍
 DEN = "countries/western_european.txt" #デンマーク
-
-POL	= "countries/eastern_european.txt" #ポーランド
-DNZ	= "countries/eastern_european.txt" #自由都市ダンツィヒ
-
-LIT	= "countries/eastern_european.txt" #リトアニア
-EST	= "countries/eastern_european.txt" #エストニア
-LAT	= "countries/eastern_european.txt" #ラトビア

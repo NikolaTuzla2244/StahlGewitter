@@ -6,12 +6,13 @@ state={
 	}
 
 	history={
-		owner = KZS
+		owner = KZR
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = KZS
+		add_core_of = KZR
+		add_claim_by = KZS
 		
 	}
 

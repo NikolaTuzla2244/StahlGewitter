@@ -4,7 +4,7 @@ state = {
 	name = "STATE_637" #Kamchatka
 
 	history = {
-		owner = FES
+		owner = FAR
 		buildings = {
 			infrastructure = 1
 			12207 = {
@@ -13,8 +13,8 @@ state = {
 			}
 
 		}
-		add_core_of = FES
-		add_core_of = FER
+		add_core_of = FAR
+		add_claim_by = FES
 	}
 
 	provinces = {

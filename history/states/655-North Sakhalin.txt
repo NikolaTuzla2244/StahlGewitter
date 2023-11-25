@@ -6,9 +6,9 @@ state = {
 	
 	state_category = pastoral
 	history = {
-		owner = FES
-		add_core_of = FES
-		add_core_of = FER
+		owner = FAR
+		add_core_of = FAR
+		add_claim_by = FES
 		add_claim_by = JAP
 		buildings = {
 			infrastructure = 2

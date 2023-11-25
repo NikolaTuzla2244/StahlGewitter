@@ -6,7 +6,7 @@ state={
 	state_category = town
 
 	history={
-		owner = PES
+		owner = RUS
 		victory_points = {
 			6245 10 
 		}
@@ -14,7 +14,8 @@ state={
 			infrastructure = 3 #was: 5
 			air_base = 2
 		}
-		 add_core_of = PES
+		 add_core_of = RUS
+		 add_claim_by = PES
 	}
 
 	provinces={

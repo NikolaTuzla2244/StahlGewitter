@@ -12,13 +12,13 @@ state = {
 	}
 
 	history = {
-		owner = SIS
+		owner = SIR
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = SIS
-		add_core_of = KOM
+		add_core_of = SIR
+		add_claim_by = SIS
 	}
 
 	provinces = {

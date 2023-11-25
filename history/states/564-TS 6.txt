@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = FES
+		owner = FAR
 		victory_points = {
 			7835 2 
 		}
@@ -23,8 +23,8 @@ state={
 			infrastructure = 2
 
 		}
-		add_core_of = FES
-		add_core_of = BYA
+		add_core_of = FAR
+		add_claim_by = FES
 	}
 
 	provinces={

@@ -7,12 +7,12 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = SIS
+		owner = SIR
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SIS
-		add_core_of = ALT
+		add_core_of = SIR
+		add_claim_by = SIS
 		victory_points = {
 			4800 1 #Oyrot-Tura/Gorno-Altaysk
 		}

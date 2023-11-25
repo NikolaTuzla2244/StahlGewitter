@@ -10,13 +10,13 @@ state={
 		victory_points = {
 			488 5
 		}
-		owner = KIS
+		owner = UKR
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
 		}
-		# add_core_of = SOV
-		add_core_of = KIS
+		add_core_of = UKR
+		add_claim_by = KIS
 	}
 
 	provinces={

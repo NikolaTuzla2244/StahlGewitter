@@ -3,12 +3,12 @@ state = {
 	name = "STATE_644"
 
 	history = {
-		owner = FES
+		owner = FAR
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = FES
-		add_core_of = YAK
+		add_core_of = FAR
+		add_claim_by = FES
 
 	}
 

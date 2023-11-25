@@ -10,14 +10,15 @@ state={
 	}
 
 	history={
-		owner = PES
+		owner = RUS
 		victory_points = {
 			11349 1
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
-		 add_core_of = PES
+		 add_core_of = RUS
+		 add_claim_by = PES
 	}
 
 	provinces={

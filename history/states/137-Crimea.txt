@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = CRS
+		owner = SOR
 		victory_points = {
 			3686 20
 		}
@@ -30,8 +30,8 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = CRS
-		add_core_of = CRI
+		add_core_of = SOR
+		add_claim_by = CRS
 	}
 
 	provinces={

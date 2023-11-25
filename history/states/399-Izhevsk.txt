@@ -9,12 +9,12 @@ state = {
 	}
 
 	history = {
-		owner = SIS
+		owner = SIR
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = SIS
-		add_core_of = UDM
+		add_core_of = SIR
+		add_claim_by = SIS
 		
 		
 		victory_points = {

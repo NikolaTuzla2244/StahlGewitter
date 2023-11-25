@@ -10,7 +10,7 @@ state = {
 	state_category = town
 
 	history={
-		owner = FES
+		owner = FAR
 		victory_points = {
 			957 15
 		}
@@ -23,9 +23,8 @@ state = {
 				coastal_bunker = 3
 			}
 		}
-		add_core_of = FES
-		add_core_of = FER
-		add_core_of = VLA
+		add_core_of = FAR
+		add_claim_by = FES
 	}
 
 	provinces = {

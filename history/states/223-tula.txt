@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = MSS
+		owner = MSR
 		victory_points = {
 			6262 3 
 		}
@@ -17,7 +17,8 @@ state={
 			air_base = 1
 			synthetic_refinery = 1 #NSB
 		}
-		add_core_of = MSS
+		add_core_of = MSR
+		add_claim_by = MSS
 	}
 
 	provinces={

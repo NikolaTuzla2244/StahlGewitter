@@ -11,16 +11,15 @@ state = {
 	}
 
 	history = {
-		owner = CRS
+		owner = SOR
 		buildings = {
 			infrastructure = 2
 		}
 		victory_points = {
 			3672 5 
 		}
-		add_core_of = CRS
-		add_core_of = CIN
-		
+		add_core_of = SOR
+		add_claim_by = CRS
 	}
 
 	provinces = {

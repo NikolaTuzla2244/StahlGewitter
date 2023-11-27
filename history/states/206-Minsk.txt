@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = BLR
+		owner = LIB
 		victory_points = {
 			11370 20
 		}
@@ -19,12 +19,15 @@ state={
 			industrial_complex = 2
 			air_base = 8
 		}
+		add_core_of = LIB
 		add_core_of = BLR
 		add_claim_by = WMD
 	}
 
 	provinces={
-		216 294 342 3267 3378 6292 9289 11216 11322 11370 
+		216 294 342 3267 6292 11216 11322 11370 
+		6220 
+		#9289 3378 
 	}
 
 	local_supplies=5.0 

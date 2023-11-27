@@ -11,6 +11,7 @@ TCC = "countries/eastern_european.txt" #カフカース帝国管区
 
 # 東欧諸国 #
 FIN = "countries/eastern_european.txt" #フィンランド
+LIB = "countries/eastern_european.txt" #リトアニア＝ベラルーシ
 BLR	= "countries/eastern_european.txt" #白ロシア
 UKR	= "countries/eastern_european.txt" #ウクライナ
 LIT	= "countries/eastern_european.txt" #リトアニア

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = LIT
+		owner = LIB
 		victory_points = {
 			9483 3
 		}
@@ -22,6 +22,7 @@ state={
 			}
 
 		}
+		add_core_of = LIB
 		add_core_of = LIT
 
 	}

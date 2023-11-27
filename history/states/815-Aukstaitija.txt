@@ -4,7 +4,7 @@ state={
 	name="STATE_815"
 
 	history={
-		owner = LIT
+		owner = LIB
 		victory_points = {
 			6229 1 #Panevezys
 		}
@@ -12,8 +12,8 @@ state={
 			infrastructure = 2
 
 		}
+		add_core_of = LIB
 		add_core_of = LIT
-
 	}
 
 	provinces={

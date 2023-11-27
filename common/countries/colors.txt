@@ -288,6 +288,10 @@ FIN = {
 	color = rgb { 61 79 72 }
 	color_ui = rgb { 61 79 72 }
 }
+LIB = {
+	color = rgb { 91 119 109 }
+	color_ui = rgb { 91 119 109 }
+}
 BLR = {
 	color = rgb { 106 130 119 }
 	color_ui = rgb { 106 130 119 }

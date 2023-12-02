@@ -1,6 +1,7 @@
 ﻿l_japanese:
 national_socialism: "国家社会主義"
 national_populism: "国家大衆主義"
+popular_liberalism: "大衆自由主義"
 despotism: "専制主義"
 authoritarianism: "権威主義"
 conservative_democracy: "保守民主主義"
@@ -12,7 +13,8 @@ authoritarian_socialism: "権威社会主義"
 ultrareactionism: "超国家主義"
 
 national_socialism_noun: "国家社会主義"
-national_populism_noun: "愛国的ポピュリズム"
+national_populism_noun: "国家大衆主義"
+popular_liberalism_noun: "大衆自由主義"
 despotism_noun: "専制主義"
 authoritarianism_noun: "権威主義"
 conservative_democracy_noun: "保守民主主義"
